@@ -1,0 +1,49 @@
+name: Fetch & Sync
+
+on:
+  schedule:
+    - cron: "*/10 * * * *"
+  workflow_dispatch: {}
+  push:
+    branches: [main]
+    paths:
+      - "data/series.json"
+      - "data/ups.json"
+      - "scripts/**"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: fetch-snapshot
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Fetch snapshot
+        env:
+          DEBUG: "1"
+        run: node scripts/fetch-bilibili.mjs
+
+      - name: Commit changes
+        run: |
+          git config user.name "fanren-bot"
+          git config user.email "fanren-bot@users.noreply.github.com"
+          git add data/snapshot.json
+          if git diff --staged --quiet; then
+            echo "No changes."
+            exit 0
+          fi
+          git commit -m "chore: sync snapshot $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push
