@@ -1,0 +1,25 @@
+scripts/discover-ups.mjs
+  s_a87ce457e630a4::t_30b861c78be51a 122
+  s_a87ce457e630a4::t_8c1562acc8e932 1-9,21-121,123-168
+  s_a87ce457e630a4::t_03faab0f0b847f 10-20
+data/ups.json
+  s_a87ce457e630a4::t_9e1d1677c364d8 31-60
+.gitignore
+  s_a87ce457e630a4::t_d446d0e8d3973a 12
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "8214e4ff0c4584bbbdef1c304ac4241d208b1bea",
+  "prompts": {},
+  "sessions": {
+    "s_a87ce457e630a4": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "ses_18155a4feffe6Hprmq7Jop6oC6",
+        "model": "unknown"
+      },
+      "human_author": "贺庆阳 <heqingyang@xiaohongshu.com>"
+    }
+  }
+}
