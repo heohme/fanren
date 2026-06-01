@@ -1,0 +1,23 @@
+components/UpsStatus.tsx
+  s_a87ce457e630a4::t_53a526224c5569 4-5,12-23,27-28,31-48,50-71,78-82
+scripts/check-stale.mjs
+  s_a87ce457e630a4::t_efd0a6ae045cab 1-140
+.github/workflows/fetch.yml
+  s_a87ce457e630a4::t_f8a4a72392c2b9 5-6,17,37,53-60
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "3f6f236f662334780814d4a3f6b9d3b22a81f256",
+  "prompts": {},
+  "sessions": {
+    "s_a87ce457e630a4": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "ses_18155a4feffe6Hprmq7Jop6oC6",
+        "model": "unknown"
+      },
+      "human_author": "贺庆阳 <heqingyang@xiaohongshu.com>"
+    }
+  }
+}
