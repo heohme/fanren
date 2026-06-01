@@ -1,0 +1,19 @@
+.npmrc
+  s_a87ce457e630a4::t_70943368f259a1 1
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "40e9f5091905233410e2b563d366bcb87e3dd422",
+  "prompts": {},
+  "sessions": {
+    "s_a87ce457e630a4": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "ses_18155a4feffe6Hprmq7Jop6oC6",
+        "model": "unknown"
+      },
+      "human_author": "贺庆阳 <heqingyang@xiaohongshu.com>"
+    }
+  }
+}
