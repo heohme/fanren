@@ -85,12 +85,41 @@ function formatPlay(value = 0) {
   return String(value);
 }
 
+function biliThumbnail(url: string, width: number) {
+  const normalized = url.replace(/^http:\/\//, "https://");
+  if (!/\.hdslb\.com\//.test(normalized) || normalized.includes("@")) return normalized;
+  const height = Math.round(width * 9 / 16);
+  return `${normalized}@${width}w_${height}h_1c.webp`;
+}
+
+function ProgressiveImage({ src, width = 640 }: { src: string; width?: number }) {
+  const [loaded, setLoaded] = useState(false);
+  const original = src.replace(/^http:\/\//, "https://");
+  const thumbnail = biliThumbnail(src, width);
+
+  return (
+    <span className={`progressive-image ${loaded ? "is-loaded" : ""}`}>
+      <img
+        src={thumbnail}
+        alt=""
+        loading="lazy"
+        decoding="async"
+        referrerPolicy="no-referrer"
+        onLoad={() => setLoaded(true)}
+        onError={(event) => {
+          if (event.currentTarget.src !== original) event.currentTarget.src = original;
+        }}
+      />
+    </span>
+  );
+}
+
 function MediaCard({ item, rank, compact = false, official = false }: { item: AtlasItem; rank: number; compact?: boolean; official?: boolean }) {
   if (official) {
     return (
       <a className="media-card official-card" href={item.url} target="_blank" rel="noreferrer">
         <div className="media-cover">
-          <img src={item.cover} alt="" loading="lazy" referrerPolicy="no-referrer" />
+          <ProgressiveImage src={item.cover} width={720} />
           <i>{String(rank).padStart(2, "0")}</i>
           {item.badge && <b>{item.badge}</b>}
         </div>
@@ -110,7 +139,7 @@ function MediaCard({ item, rank, compact = false, official = false }: { item: At
   return (
     <a className={`media-card ${compact ? "compact" : ""}`} href={item.url} target="_blank" rel="noreferrer">
       <div className="media-cover">
-        <img src={item.cover} alt="" loading="lazy" referrerPolicy="no-referrer" />
+        <ProgressiveImage src={item.cover} width={compact ? 420 : 640} />
         <i>{String(rank).padStart(2, "0")}</i>
         {item.badge && <b>{item.badge}</b>}
       </div>
@@ -150,6 +179,7 @@ export default function WeeklyMap({
   const [analysisUp, setAnalysisUp] = useState("");
   const [creationCategory, setCreationCategory] = useState("总榜");
   const [exitConfirm, setExitConfirm] = useState(false);
+  const [mapLoaded, setMapLoaded] = useState(false);
   const exitBypassRef = useRef(false);
 
   useEffect(() => {
@@ -283,7 +313,19 @@ export default function WeeklyMap({
 
       <section className="atlas-stage" id="atlas" aria-label="天南势力内容地图">
         <div className="map-media">
-          <img src="/tiannan-map.png" alt="天南舆图" draggable={false} />
+          <img className={`map-placeholder ${mapLoaded ? "is-hidden" : ""}`} src="/tiannan-map-blur.webp" alt="" aria-hidden="true" />
+          <picture className={`map-picture ${mapLoaded ? "is-loaded" : ""}`}>
+            <source media="(max-width: 720px)" srcSet="/tiannan-map-960.webp" type="image/webp" />
+            <source srcSet="/tiannan-map.webp" type="image/webp" />
+            <img
+              src="/tiannan-map.png"
+              alt="天南舆图"
+              draggable={false}
+              decoding="async"
+              fetchPriority="high"
+              onLoad={() => setMapLoaded(true)}
+            />
+          </picture>
           <div className="map-wash" aria-hidden="true" />
           <svg className="realm-overlay" viewBox="0 0 1882 1044" role="group" aria-label="可探索区域">
             {realms.map((realm) => (
