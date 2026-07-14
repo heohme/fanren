@@ -274,7 +274,7 @@ export default function WeeklyMap({
       key: "nine",
       name: "九国盟",
       module: "尚未开放",
-      description: "残图尚缺，静候补全。",
+      description: "战火纷争，尚未开放",
       count: 0,
       path: paths.nine,
       locked: true,
@@ -343,7 +343,7 @@ export default function WeeklyMap({
                 role="button"
                 tabIndex={0}
                 aria-disabled={realm.locked}
-                aria-label={`${realm.name}：${realm.module}${realm.locked ? "，暂未开放" : ""}`}
+                aria-label={`${realm.name}：${realm.locked ? realm.description : realm.module}`}
               >
                 <path className="realm-hit" d={realm.path} />
                 <path className="realm-line realm-line-soft" d={realm.path} />
@@ -361,7 +361,7 @@ export default function WeeklyMap({
             >
               <strong>{realm.name}</strong>
               <span>{realm.module}{realm.count ? ` · ${realm.count}` : ""}</span>
-              <small>{realm.locked ? "残图尚缺 · 静候补全" : "入境一观 · 点击展开"}</small>
+              <small>{realm.locked ? "战火纷争，尚未开放" : "入境一观 · 点击展开"}</small>
             </div>
           ))}
         </div>
