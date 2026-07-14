@@ -11,6 +11,9 @@ export interface AtlasItem {
   play?: number;
   badge?: string;
   summary?: string;
+  meta?: string;
+  durationLabel?: string;
+  publishedLabel?: string;
 }
 
 export interface OfficialAtlasItem extends AtlasItem {
@@ -83,8 +86,29 @@ function formatPlay(value = 0) {
 }
 
 function MediaCard({ item, rank, compact = false, official = false }: { item: AtlasItem; rank: number; compact?: boolean; official?: boolean }) {
+  if (official) {
+    return (
+      <a className="media-card official-card" href={item.url} target="_blank" rel="noreferrer">
+        <div className="media-cover">
+          <img src={item.cover} alt="" loading="lazy" referrerPolicy="no-referrer" />
+          <i>{String(rank).padStart(2, "0")}</i>
+          {item.badge && <b>{item.badge}</b>}
+        </div>
+        <div className="official-copy">
+          <div className="official-kicker"><span>{item.meta || "官方剧集"}</span><em>正片档案</em></div>
+          <h2>{item.title}</h2>
+          <p>{item.summary}</p>
+          <div className="official-meta">
+            <span>{item.durationLabel || "完整正片"}</span>
+            <span>{item.publishedLabel || "已上线"}</span>
+          </div>
+          <footer><small>{item.subtitle}</small><strong>前往观看 →</strong></footer>
+        </div>
+      </a>
+    );
+  }
   return (
-    <a className={`media-card ${compact ? "compact" : ""} ${official ? "official-card" : ""}`} href={item.url} target="_blank" rel="noreferrer">
+    <a className={`media-card ${compact ? "compact" : ""}`} href={item.url} target="_blank" rel="noreferrer">
       <div className="media-cover">
         <img src={item.cover} alt="" loading="lazy" referrerPolicy="no-referrer" />
         <i>{String(rank).padStart(2, "0")}</i>

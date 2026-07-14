@@ -59,6 +59,20 @@ function storyArcForEpisode(ep: number) {
   return STORY_ARCS.find((arc) => ep >= arc.start && ep <= arc.end)?.key || STORY_ARCS.at(-1)!.key;
 }
 
+function formatDuration(duration?: number) {
+  if (!duration) return "完整正片";
+  const totalSeconds = Math.round(duration / 1000);
+  const minutes = Math.floor(totalSeconds / 60);
+  const seconds = totalSeconds % 60;
+  return `${minutes}:${String(seconds).padStart(2, "0")}`;
+}
+
+function formatPublished(pubTime: number | null) {
+  if (!pubTime) return "已上线";
+  const date = new Date(pubTime);
+  return `${date.getMonth() + 1} 月 ${date.getDate()} 日上线`;
+}
+
 function creationCategory(video: UpVideo) {
   if (video.creationCategory) return video.creationCategory;
   if (video.contentType === "character" || /人物志|人物传|角色志|角色解析/.test(video.title)) return "人物志";
@@ -110,17 +124,23 @@ export default async function Home() {
 
   const official: OfficialAtlasItem[] = Array.from(officialByEpisode.values())
     .sort((a, b) => (b.ep || 0) - (a.ep || 0))
-    .map((episode) => ({
-      id: `official-${episode.ep}`,
-      ep: episode.ep!,
-      arc: storyArcForEpisode(episode.ep!),
-      title: `第 ${episode.ep} 话`,
-      subtitle: "哔哩哔哩国创 · 官方正片",
-      summary: episode.longTitle || `《凡人修仙传》第 ${episode.ep} 话官方正片`,
-      cover: episode.cover || snap.official.cover,
-      url: episode.playUrl || snap.series.officialUrl,
-      badge: episode.ep === currentEpisode ? "最新" : undefined,
-    }));
+    .map((episode) => {
+      const arc = STORY_ARCS.find((item) => episode.ep! >= item.start && episode.ep! <= item.end);
+      return {
+        id: `official-${episode.ep}`,
+        ep: episode.ep!,
+        arc: storyArcForEpisode(episode.ep!),
+        title: `第 ${episode.ep} 话`,
+        subtitle: "哔哩哔哩国创 · 独播",
+        summary: episode.longTitle || `《凡人修仙传》第 ${episode.ep} 话官方正片`,
+        meta: arc?.label || "官方剧集",
+        durationLabel: formatDuration(episode.duration),
+        publishedLabel: formatPublished(episode.pubTime),
+        cover: episode.cover || snap.official.cover,
+        url: episode.playUrl || snap.series.officialUrl,
+        badge: episode.ep === currentEpisode ? "最新" : undefined,
+      };
+    });
 
   const creatorVideos = snap.ups
     .filter((up) => up.uid !== OFFICIAL_UID)
