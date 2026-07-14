@@ -7,7 +7,9 @@
     "build": "next build",
     "start": "next start",
     "fetch": "node scripts/fetch-bilibili.mjs",
-    "fetch:debug": "DEBUG=1 node scripts/fetch-bilibili.mjs"
+    "fetch:debug": "DEBUG=1 node scripts/fetch-bilibili.mjs",
+    "backfill": "node scripts/backfill-episodes.mjs",
+    "coverage": "node scripts/episode-coverage.mjs"
   },
   "dependencies": {
     "next": "14.2.5",

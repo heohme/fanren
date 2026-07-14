@@ -84,7 +84,7 @@ export default async function Home() {
     .filter((up) => up.uid !== OFFICIAL_UID)
     .flatMap((up) => up.videos.map((video) => ({ up, video })));
 
-  const analysis: AnalysisAtlasItem[] = creatorVideos
+  const rawAnalysis: AnalysisAtlasItem[] = creatorVideos
     .filter(({ video }) => video.contentType === "episode" && video.ep != null)
     .sort((a, b) => (b.video.ep || 0) - (a.video.ep || 0) || (b.video.play || 0) - (a.video.play || 0))
     .map(({ up, video }) => ({
@@ -99,6 +99,13 @@ export default async function Home() {
       play: video.play || 0,
       badge: `第 ${video.ep} 话`,
     }));
+  const analysisByEpisodeAndUp = new Map<string, AnalysisAtlasItem>();
+  for (const item of rawAnalysis) {
+    const key = `${item.ep}:${item.upId}`;
+    const previous = analysisByEpisodeAndUp.get(key);
+    if (!previous || (item.play || 0) > (previous.play || 0)) analysisByEpisodeAndUp.set(key, item);
+  }
+  const analysis = Array.from(analysisByEpisodeAndUp.values());
 
   const creations: CreationAtlasItem[] = creatorVideos
     .filter(({ up, video }) =>

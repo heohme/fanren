@@ -272,6 +272,7 @@ async function main() {
   }
 
   const upResults = [];
+  const configuredUids = new Set(ups.map((up) => String(up.uid)));
   for (const up of ups) {
     log(`UP[${up.name}] uid=${up.uid} 拉取中 ...`);
     const result = await fetchUpWithRetry(up, cookieRef, wbiKeysRef);
@@ -315,6 +316,14 @@ async function main() {
           : prevUp?.recentTitles || [],
     });
     await sleep(8000 + Math.random() * 4000);
+  }
+
+  // 历史按集搜索发现的 UP 不参与每半小时的空间轮询，但必须保留在快照中。
+  // 否则日常抓取会把 backfill-episodes 写入的历史解析数据覆盖掉。
+  for (const previous of prevSnapshot?.ups || []) {
+    if (!configuredUids.has(String(previous.uid)) && previous.videos?.length) {
+      upResults.push(previous);
+    }
   }
 
   const snapshot = {

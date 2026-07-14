@@ -1,0 +1,62 @@
+name: Backfill Episode Analyses
+
+on:
+  schedule:
+    - cron: "20 */6 * * *"
+  workflow_dispatch:
+    inputs:
+      max_episodes:
+        description: "本轮最多回填多少集"
+        required: false
+        default: "8"
+      from_episode:
+        description: "从哪一集开始倒序（留空从最新集开始）"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency:
+  group: fetch-snapshot
+  cancel-in-progress: false
+
+jobs:
+  backfill:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Backfill episode analyses
+        env:
+          MAX_EPISODES: ${{ inputs.max_episodes || '8' }}
+          FROM_EPISODE: ${{ inputs.from_episode }}
+        run: |
+          EXTRA_ARGS=""
+          if [ -n "$FROM_EPISODE" ]; then
+            if ! [[ "$FROM_EPISODE" =~ ^[0-9]+$ ]]; then
+              echo "from_episode must be numeric"
+              exit 1
+            fi
+            EXTRA_ARGS="--from=$FROM_EPISODE"
+          fi
+          node scripts/backfill-episodes.mjs --max-episodes="$MAX_EPISODES" --pages=3 --target-ups=12 $EXTRA_ARGS
+
+      - name: Commit backfill data
+        run: |
+          git config user.name "fanren-bot"
+          git config user.email "fanren-bot@users.noreply.github.com"
+          git add data/snapshot.json data/backfill-progress.json
+          if git diff --staged --quiet; then
+            echo "No changes."
+            exit 0
+          fi
+          git commit -m "chore: backfill episode analyses $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push
