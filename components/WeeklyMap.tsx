@@ -177,9 +177,12 @@ export default function WeeklyMap({
   const [analysisMode, setAnalysisMode] = useState<"episode" | "up">("episode");
   const [analysisEpisode, setAnalysisEpisode] = useState(currentEpisode || 0);
   const [analysisUp, setAnalysisUp] = useState("");
+  const [shareCopied, setShareCopied] = useState(false);
   const [creationCategory, setCreationCategory] = useState("总榜");
   const [exitConfirm, setExitConfirm] = useState(false);
   const exitBypassRef = useRef(false);
+  const deepLinkReadyRef = useRef(false);
+  const shareFeedbackTimerRef = useRef<number | null>(null);
 
   useEffect(() => {
     const isMobile = window.matchMedia("(max-width: 820px), (pointer: coarse)").matches;
@@ -241,8 +244,79 @@ export default function WeeklyMap({
   );
 
   useEffect(() => {
-    if (!analysisUp && analysisUps[0]) setAnalysisUp(analysisUps[0].id);
-  }, [analysisUp, analysisUps]);
+    if (deepLinkReadyRef.current || !analysisUps.length) return;
+    deepLinkReadyRef.current = true;
+
+    const token = new URLSearchParams(window.location.search).get("up")?.normalize("NFKC").trim();
+    const normalizedToken = token?.toLocaleLowerCase("zh-CN");
+    const linkedUp = normalizedToken
+      ? analysisUps.find((up) =>
+          up.id === token || up.name.normalize("NFKC").trim().toLocaleLowerCase("zh-CN") === normalizedToken
+        )
+      : undefined;
+
+    if (linkedUp) {
+      setAnalysisUp(linkedUp.id);
+      setAnalysisMode("up");
+      setActive("demonic");
+      return;
+    }
+
+    setAnalysisUp(analysisUps[0].id);
+  }, [analysisUps]);
+
+  useEffect(() => () => {
+    if (shareFeedbackTimerRef.current) window.clearTimeout(shareFeedbackTimerRef.current);
+  }, []);
+
+  const setUpInAddress = (upId: string) => {
+    const up = analysisUps.find((item) => item.id === upId);
+    if (!up) return null;
+    const url = new URL(window.location.href);
+    url.searchParams.set("up", up.name);
+    url.hash = "";
+    history.replaceState(history.state, "", url);
+    return url;
+  };
+
+  const selectAnalysisUp = (upId: string) => {
+    setAnalysisUp(upId);
+    setShareCopied(false);
+    setUpInAddress(upId);
+  };
+
+  const selectAnalysisMode = (mode: "episode" | "up") => {
+    setAnalysisMode(mode);
+    setShareCopied(false);
+    const url = new URL(window.location.href);
+    if (mode === "up" && analysisUp) {
+      const up = analysisUps.find((item) => item.id === analysisUp);
+      if (up) url.searchParams.set("up", up.name);
+    } else {
+      url.searchParams.delete("up");
+    }
+    history.replaceState(history.state, "", url);
+  };
+
+  const copyAnalysisUpLink = async () => {
+    const url = setUpInAddress(analysisUp);
+    if (!url) return;
+    try {
+      await navigator.clipboard.writeText(url.toString());
+    } catch {
+      const input = document.createElement("textarea");
+      input.value = url.toString();
+      input.style.position = "fixed";
+      input.style.opacity = "0";
+      document.body.appendChild(input);
+      input.select();
+      document.execCommand("copy");
+      input.remove();
+    }
+    setShareCopied(true);
+    if (shareFeedbackTimerRef.current) window.clearTimeout(shareFeedbackTimerRef.current);
+    shareFeedbackTimerRef.current = window.setTimeout(() => setShareCopied(false), 1800);
+  };
 
   const realms: Realm[] = [
     {
@@ -441,8 +515,8 @@ export default function WeeklyMap({
               <div className="module-view analysis-view">
                 <div className="mode-row">
                   <div className="mode-switch" aria-label="解析筛选方式">
-                    <button className={analysisMode === "episode" ? "active" : ""} type="button" onClick={() => setAnalysisMode("episode")}>按剧集</button>
-                    <button className={analysisMode === "up" ? "active" : ""} type="button" onClick={() => setAnalysisMode("up")}>按 UP 主</button>
+                    <button className={analysisMode === "episode" ? "active" : ""} type="button" onClick={() => selectAnalysisMode("episode")}>按剧集</button>
+                    <button className={analysisMode === "up" ? "active" : ""} type="button" onClick={() => selectAnalysisMode("up")}>按 UP 主</button>
                   </div>
                   <div className="filter-rail slim">
                     {analysisMode === "episode" ? analysisEpisodes.map((ep) => (
@@ -450,7 +524,7 @@ export default function WeeklyMap({
                         <strong>{ep}</strong><small>话</small>
                       </button>
                     )) : analysisUps.map((up) => (
-                      <button className={analysisUp === up.id ? "active" : ""} type="button" onClick={() => setAnalysisUp(up.id)} key={up.id}>
+                      <button className={analysisUp === up.id ? "active" : ""} type="button" onClick={() => selectAnalysisUp(up.id)} key={up.id}>
                         <strong>{up.name}</strong>
                         <small>{up.count} 条解析 · 均播 {formatPlay(up.averagePlay)}</small>
                       </button>
@@ -459,9 +533,16 @@ export default function WeeklyMap({
                 </div>
                 <div className="ranking-head">
                   <strong>{analysisMode === "episode" ? `第 ${analysisEpisode} 话 · 百家论道` : `${analysisUps.find((up) => up.id === analysisUp)?.name || "UP 主"} · 解析归档`}</strong>
-                  <span>{analysisMode === "episode"
-                    ? `${analysisItems.length} 条 · 按播放量排列`
-                    : `${analysisItems.length} 条 · 均播 ${formatPlay(analysisUps.find((up) => up.id === analysisUp)?.averagePlay || 0)}`}</span>
+                  <div className="ranking-head-aside">
+                    <span>{analysisMode === "episode"
+                      ? `${analysisItems.length} 条 · 按播放量排列`
+                      : `${analysisItems.length} 条 · 均播 ${formatPlay(analysisUps.find((up) => up.id === analysisUp)?.averagePlay || 0)}`}</span>
+                    {analysisMode === "up" && (
+                      <button className={shareCopied ? "copied" : ""} type="button" onClick={copyAnalysisUpLink}>
+                        {shareCopied ? "入口已复制" : "复制专属入口"}
+                      </button>
+                    )}
+                  </div>
                 </div>
                 <div className="rank-list">
                   {analysisItems.map((item, index) => <MediaCard item={item} rank={index + 1} compact key={item.id} />)}
