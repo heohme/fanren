@@ -10,6 +10,7 @@ export interface AtlasItem {
   url: string;
   play?: number;
   badge?: string;
+  summary?: string;
 }
 
 export interface OfficialAtlasItem extends AtlasItem {
@@ -18,7 +19,7 @@ export interface OfficialAtlasItem extends AtlasItem {
 }
 
 export interface AnalysisAtlasItem extends AtlasItem {
-  ep: number;
+  ep: number | null;
   upId: string;
   upName: string;
 }
@@ -34,8 +35,19 @@ export interface StoryArc {
   end: number;
 }
 
+export interface AnalysisCreator {
+  id: string;
+  name: string;
+  count: number;
+  averagePlay: number;
+  totalPlay: number;
+  latestEpisode: number | null;
+  note?: string;
+}
+
 type RealmKey = "righteous" | "demonic" | "heaven" | "nine";
 type OpenRealm = Exclude<RealmKey, "nine">;
+const CREATION_CATEGORY_ORDER = ["人物志", "剧情二创", "趣味整活", "混剪手书", "音乐配音", "同人创作"];
 
 interface Realm {
   key: RealmKey;
@@ -70,9 +82,9 @@ function formatPlay(value = 0) {
   return String(value);
 }
 
-function MediaCard({ item, rank, compact = false }: { item: AtlasItem; rank: number; compact?: boolean }) {
+function MediaCard({ item, rank, compact = false, official = false }: { item: AtlasItem; rank: number; compact?: boolean; official?: boolean }) {
   return (
-    <a className={`media-card ${compact ? "compact" : ""}`} href={item.url} target="_blank" rel="noreferrer">
+    <a className={`media-card ${compact ? "compact" : ""} ${official ? "official-card" : ""}`} href={item.url} target="_blank" rel="noreferrer">
       <div className="media-cover">
         <img src={item.cover} alt="" loading="lazy" referrerPolicy="no-referrer" />
         <i>{String(rank).padStart(2, "0")}</i>
@@ -81,6 +93,7 @@ function MediaCard({ item, rank, compact = false }: { item: AtlasItem; rank: num
       <div className="media-copy">
         <h2>{item.title}</h2>
         <p>{item.subtitle}</p>
+        {item.summary && <div className="media-summary">{item.summary}</div>}
         <span>{item.play != null ? `${formatPlay(item.play)} 播放` : "前往官方观看"}<em>阅 →</em></span>
       </div>
     </a>
@@ -91,6 +104,7 @@ export default function WeeklyMap({
   official,
   storyArcs,
   analysis,
+  analysisCreators,
   creations,
   currentEpisode,
   generatedLabel,
@@ -98,6 +112,7 @@ export default function WeeklyMap({
   official: OfficialAtlasItem[];
   storyArcs: StoryArc[];
   analysis: AnalysisAtlasItem[];
+  analysisCreators: AnalysisCreator[];
   creations: CreationAtlasItem[];
   currentEpisode: number | null;
   generatedLabel: string;
@@ -105,6 +120,7 @@ export default function WeeklyMap({
   const [active, setActive] = useState<OpenRealm | null>(null);
   const [hovered, setHovered] = useState<RealmKey | null>(null);
   const [officialArc, setOfficialArc] = useState(storyArcs.at(-1)?.key || "");
+  const [previewArc, setPreviewArc] = useState<string | null>(null);
   const [analysisMode, setAnalysisMode] = useState<"episode" | "up">("episode");
   const [analysisEpisode, setAnalysisEpisode] = useState(currentEpisode || 0);
   const [analysisUp, setAnalysisUp] = useState("");
@@ -120,20 +136,19 @@ export default function WeeklyMap({
   }, [active]);
 
   const analysisEpisodes = useMemo(
-    () => Array.from(new Set(analysis.map((item) => item.ep))).sort((a, b) => b - a),
+    () => Array.from(new Set(analysis.map((item) => item.ep).filter((ep): ep is number => ep != null))).sort((a, b) => b - a),
     [analysis]
   );
-  const analysisUps = useMemo(() => {
-    const map = new Map<string, { id: string; name: string; count: number }>();
-    for (const item of analysis) {
-      const hit = map.get(item.upId);
-      if (hit) hit.count += 1;
-      else map.set(item.upId, { id: item.upId, name: item.upName, count: 1 });
-    }
-    return Array.from(map.values()).sort((a, b) => b.count - a.count || a.name.localeCompare(b.name, "zh-CN"));
-  }, [analysis]);
+  const analysisUps = useMemo(
+    () => analysisCreators.slice().sort((a, b) => b.count - a.count || b.averagePlay - a.averagePlay || a.name.localeCompare(b.name, "zh-CN")),
+    [analysisCreators]
+  );
   const creationCategories = useMemo(
-    () => ["总榜", ...Array.from(new Set(creations.map((item) => item.category)))],
+    () => [
+      "总榜",
+      ...CREATION_CATEGORY_ORDER.filter((category) => creations.some((item) => item.category === category)),
+      ...Array.from(new Set(creations.map((item) => item.category))).filter((category) => !CREATION_CATEGORY_ORDER.includes(category)),
+    ],
     [creations]
   );
 
@@ -179,9 +194,13 @@ export default function WeeklyMap({
 
   const activeRealm = realms.find((realm) => realm.key === active);
   const officialItems = official.filter((item) => item.arc === officialArc);
+  const hoveredArc = storyArcs.find((arc) => arc.key === previewArc);
+  const hoveredArcLatest = hoveredArc
+    ? official.find((item) => item.arc === hoveredArc.key)
+    : undefined;
   const analysisItems = analysisMode === "episode"
     ? analysis.filter((item) => item.ep === analysisEpisode).sort((a, b) => (b.play || 0) - (a.play || 0))
-    : analysis.filter((item) => item.upId === analysisUp).sort((a, b) => b.ep - a.ep || (b.play || 0) - (a.play || 0));
+    : analysis.filter((item) => item.upId === analysisUp).sort((a, b) => (b.ep || 0) - (a.ep || 0) || (b.play || 0) - (a.play || 0));
   const creationItems = (creationCategory === "总榜"
     ? creations
     : creations.filter((item) => item.category === creationCategory)
@@ -271,14 +290,32 @@ export default function WeeklyMap({
             {active === "righteous" && (
               <div className="module-view">
                 <nav className="filter-rail arc-rail" aria-label="动画篇章">
-                  {storyArcs.map((arc) => (
-                    <button className={officialArc === arc.key ? "active" : ""} type="button" onClick={() => setOfficialArc(arc.key)} key={arc.key}>
+                  {storyArcs.slice().reverse().map((arc) => (
+                    <button
+                      className={officialArc === arc.key ? "active" : ""}
+                      type="button"
+                      onClick={() => setOfficialArc(arc.key)}
+                      onMouseEnter={() => setPreviewArc(arc.key)}
+                      onMouseLeave={() => setPreviewArc(null)}
+                      onFocus={() => setPreviewArc(arc.key)}
+                      onBlur={() => setPreviewArc(null)}
+                      key={arc.key}
+                    >
                       <strong>{arc.label}</strong><small>第 {arc.start}—{arc.end} 话</small>
+                      <span className="arc-hint">悬停预览 · 点击切换</span>
                     </button>
                   ))}
                 </nav>
+                <div className={`arc-preview ${hoveredArc ? "visible" : ""}`} aria-live="polite">
+                  {hoveredArc && <>
+                    <span>篇章速览</span>
+                    <strong>{hoveredArc.label}</strong>
+                    <small>第 {hoveredArc.start}—{hoveredArc.end} 话 · 共 {hoveredArc.end - hoveredArc.start + 1} 话</small>
+                    <p>{hoveredArcLatest?.summary || "移入篇章即可预览范围，点击后切换下方剧集。"}</p>
+                  </>}
+                </div>
                 <div className="content-rail episode-rail">
-                  {officialItems.map((item, index) => <MediaCard item={item} rank={index + 1} key={item.id} />)}
+                  {officialItems.map((item, index) => <MediaCard item={item} rank={index + 1} official key={item.id} />)}
                 </div>
               </div>
             )}
@@ -297,17 +334,26 @@ export default function WeeklyMap({
                       </button>
                     )) : analysisUps.map((up) => (
                       <button className={analysisUp === up.id ? "active" : ""} type="button" onClick={() => setAnalysisUp(up.id)} key={up.id}>
-                        <strong>{up.name}</strong><small>{up.count} 集解析</small>
+                        <strong>{up.name}</strong>
+                        <small>{up.count} 条解析 · 均播 {formatPlay(up.averagePlay)}</small>
                       </button>
                     ))}
                   </div>
                 </div>
                 <div className="ranking-head">
-                  <strong>{analysisMode === "episode" ? `第 ${analysisEpisode} 话 · 百家论道` : `${analysisUps.find((up) => up.id === analysisUp)?.name || "UP 主"} · 分集解析`}</strong>
-                  <span>{analysisItems.length} 条 · {analysisMode === "episode" ? "按播放量排列" : "按集数排列"}</span>
+                  <strong>{analysisMode === "episode" ? `第 ${analysisEpisode} 话 · 百家论道` : `${analysisUps.find((up) => up.id === analysisUp)?.name || "UP 主"} · 解析归档`}</strong>
+                  <span>{analysisMode === "episode"
+                    ? `${analysisItems.length} 条 · 按播放量排列`
+                    : `${analysisItems.length} 条 · 均播 ${formatPlay(analysisUps.find((up) => up.id === analysisUp)?.averagePlay || 0)}`}</span>
                 </div>
                 <div className="rank-list">
                   {analysisItems.map((item, index) => <MediaCard item={item} rank={index + 1} compact key={item.id} />)}
+                  {analysisMode === "up" && analysisItems.length === 0 && (
+                    <div className="empty-ranking">
+                      <strong>已列入主播白名单</strong>
+                      <p>利维坦等专题型 UP 暂无可识别的逐集标题；人物志与深度专题会在天道盟展示。</p>
+                    </div>
+                  )}
                 </div>
               </div>
             )}

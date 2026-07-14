@@ -14,6 +14,7 @@
 - 万象志：人物、专题、PV、合集与杂谈聚合
 - 自动巡检：双源抓取、失败重试、历史快照兜底
 - 历史回填：按集搜索解析视频，目标每集覆盖 10+ 位 UP，支持断点续跑
+- 二创发现：每周两次集中搜索二创，并按人物志、剧情二创、趣味整活、混剪手书、音乐配音、同人创作归档
 - 新内容提示：浏览器本地记录上次访问时间
 
 ## 目录结构
@@ -31,6 +32,7 @@ fanren/
 ├── data/
 │   ├── series.json          # 番剧配置
 │   ├── ups.json             # UP 主名单
+│   ├── creations.json       # 二创搜索与分类索引（自动生成）
 │   └── snapshot.json        # 抓取快照（自动生成）
 └── .github/workflows/
     └── fetch.yml            # 常规定时抓取 + 周六高峰巡检
@@ -43,6 +45,7 @@ npm install
 npm run fetch        # 抓一次数据
 npm run backfill     # 从最新集开始分批回填历史解析
 npm run coverage     # 查看最近 20 集的 UP 覆盖率
+npm run discover:creations # 刷新二创发现与分类索引
 npm run dev          # 本地预览 http://localhost:3000
 ```
 
@@ -100,6 +103,16 @@ GitHub Actions（常规每 30 分钟，周六更新时段每 5 分钟）
 node scripts/backfill-episodes.mjs --from=182 --to=153 --max-episodes=10
 node scripts/episode-coverage.mjs --from=182 --to=153
 ```
+
+### 二创智能分类
+
+`discover-creations.mjs` 先搜索六组二创关键词，再执行两级分类：
+
+1. 高置信度标题规则直接归类，同时排除逐集解析、正片、预告、有声书等非目标内容
+2. 配置 `OPENAI_API_KEY` 后，使用结构化输出批量复核标题、简介、UP 主与时长；模型只能选择固定分类，并返回置信度、原因和是否收录
+3. 未配置密钥时自动使用规则结果，不会阻断定时更新
+
+默认模型可通过 `OPENAI_CLASSIFIER_MODEL` 调整；低于 0.5 置信度或判定为非二创的内容不会进入页面。
 
 ### ⚠️ 建议仓库设为 Public
 

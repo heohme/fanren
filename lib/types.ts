@@ -59,6 +59,9 @@ export interface UpVideo {
   isCompilation: boolean;
   contentType: ContentType | null;
   characters: string[];
+  creationCategory?: string;
+  classificationConfidence?: number;
+  classificationSource?: "rule" | "model" | "manual";
 }
 
 export interface UpResult {
