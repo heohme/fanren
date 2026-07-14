@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "build:cloudbase": "next build",
     "start": "next start",
     "fetch": "node scripts/fetch-bilibili.mjs",
     "fetch:debug": "DEBUG=1 node scripts/fetch-bilibili.mjs",

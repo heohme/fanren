@@ -67,7 +67,26 @@ UID 获取方式：访问 UP 主主页 `https://space.bilibili.com/<UID>`，URL 
 
 编辑 `data/series.json`。`newSeasonStartEp` 是新一季的起始集号（凡人是从 177 开始，前 176 集不显示在分集追踪里）。
 
-## 部署到 Vercel
+## 部署到腾讯云 CloudBase
+
+项目已适配 CloudBase 静态网站托管，构建完成后会生成 `out/` 目录。
+
+在 CloudBase 控制台选择“静态网站托管 → Git 仓库部署”，连接本仓库并使用以下配置：
+
+- Node.js：20.x
+- 安装命令：`npm ci`
+- 构建命令：`npm run build:cloudbase`
+- 输出目录：`out`
+- 主分支：`main`
+- 环境变量：`NEXT_PUBLIC_SITE_URL` 填写 CloudBase 分配的完整访问地址（首次部署可暂不填写）
+
+开启自动部署后，后续推送到 `main` 会自动更新 CloudBase 版本。也可以先在本地验证：
+
+```bash
+npm run build:cloudbase
+```
+
+## 部署到 Vercel（备用）
 
 1. 把本仓库推到 GitHub
 2. Vercel 导入仓库，框架自动识别为 Next.js
@@ -82,7 +101,7 @@ GitHub Actions（常规每 30 分钟，周六更新时段每 5 分钟）
     ↓ 跑 scripts/fetch-bilibili.mjs
     ↓ 写入 data/snapshot.json
     ↓ 自动 commit + push
-    ↓ Vercel 检测到 push 自动重新部署
+    ↓ CloudBase / Vercel 检测到 push 自动重新部署
 ```
 
 如果 GitHub Actions 抓取失败（B 站风控），脚本会自动重试并刷 cookie，且**保留历史快照**，单次失败不会丢数据。

@@ -10,9 +10,6 @@ import WeeklyMap, {
   type StoryArc,
 } from "@/components/WeeklyMap";
 
-export const dynamic = "force-static";
-export const revalidate = 600;
-
 const OFFICIAL_UID = "98627270";
 const REMIX_UID = "13921096";
 
