@@ -9,19 +9,19 @@ const siteUrl = process.env.NEXT_PUBLIC_SITE_URL
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
-  title: "凡人残图 · 道友寻番指南",
+  title: "凡人残图 · 天南寻迹图",
   description:
-    "一张持续补全的《凡人修仙传》追番情报地图，自动整理正片、分集解析、人物专题与公开物料。",
+    "在天南舆图中探索《凡人修仙传》官方正片、UP 主解析与同人二创。",
   openGraph: {
-    title: "凡人残图 · 每周一片，循迹入仙途",
-    description: "正片、解析、人物与专题，一张残图全部寻到。",
+    title: "凡人残图 · 天南寻迹图",
+    description: "正道看正片，魔道听论道，天道盟赏二创。",
     type: "website",
     images: [{ url: "/og.png", width: 1200, height: 630, alt: "凡人残图" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "凡人残图 · 道友寻番指南",
-    description: "正片、解析、人物与专题，一张残图全部寻到。",
+    title: "凡人残图 · 天南寻迹图",
+    description: "正道看正片，魔道听论道，天道盟赏二创。",
     images: ["/og.png"],
   },
 };
