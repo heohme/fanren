@@ -312,7 +312,7 @@ export default function WeeklyMap({
 
       <section className="atlas-stage" id="atlas" aria-label="天南势力内容地图">
         <div className="map-media">
-          <img className="map-placeholder" src="/tiannan-map-blur.webp" alt="" aria-hidden="true" />
+          <img className="map-placeholder" src="/tiannan-map-960.webp" alt="" aria-hidden="true" />
           <picture className="map-picture">
             <source media="(max-width: 720px)" srcSet="/tiannan-map-960.webp" type="image/webp" />
             <source srcSet="/tiannan-map.webp" type="image/webp" />

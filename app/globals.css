@@ -86,7 +86,7 @@ button, a, [role="button"] { -webkit-tap-highlight-color: transparent; }
 .map-picture, .map-picture img, .map-placeholder { width: 100%; height: 100%; display: block; position: absolute; inset: 0; user-select: none; }
 .map-picture { z-index: 0; }
 .map-picture img { position: static; object-fit: cover; }
-.map-placeholder { z-index: 0; object-fit: cover; filter: blur(12px) saturate(.82); transform: scale(1.035); }
+.map-placeholder { z-index: 0; object-fit: cover; filter: blur(3px) saturate(.94); transform: scale(1.008); }
 .map-wash {
   position: absolute;
   inset: 0;
