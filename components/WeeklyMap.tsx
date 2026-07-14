@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 
 export interface AtlasItem {
   id: string;
@@ -149,15 +149,50 @@ export default function WeeklyMap({
   const [analysisEpisode, setAnalysisEpisode] = useState(currentEpisode || 0);
   const [analysisUp, setAnalysisUp] = useState("");
   const [creationCategory, setCreationCategory] = useState("总榜");
+  const [exitConfirm, setExitConfirm] = useState(false);
+  const exitBypassRef = useRef(false);
 
   useEffect(() => {
-    if (!active) return;
+    const isMobile = window.matchMedia("(max-width: 820px), (pointer: coarse)").matches;
+    if (!isMobile) return;
+
+    const guardKey = "__fanrenExitGuard";
+    const currentState = history.state && typeof history.state === "object" ? history.state : {};
+    if (!currentState[guardKey]) {
+      history.pushState({ ...currentState, [guardKey]: true }, "", window.location.href);
+    }
+
+    const interceptExit = (event: PopStateEvent) => {
+      if (exitBypassRef.current || event.state?.[guardKey]) return;
+      const restoredState = history.state && typeof history.state === "object" ? history.state : {};
+      history.pushState({ ...restoredState, [guardKey]: true }, "", window.location.href);
+      setExitConfirm(true);
+    };
+
+    window.addEventListener("popstate", interceptExit);
+    return () => window.removeEventListener("popstate", interceptExit);
+  }, []);
+
+  const confirmExit = () => {
+    exitBypassRef.current = true;
+    setExitConfirm(false);
+    const currentUrl = window.location.href;
+    history.go(-2);
+    window.setTimeout(() => {
+      if (window.location.href === currentUrl) exitBypassRef.current = false;
+    }, 800);
+  };
+
+  useEffect(() => {
+    if (!active && !exitConfirm) return;
     const close = (event: KeyboardEvent) => {
-      if (event.key === "Escape") setActive(null);
+      if (event.key !== "Escape") return;
+      if (exitConfirm) setExitConfirm(false);
+      else setActive(null);
     };
     window.addEventListener("keydown", close);
     return () => window.removeEventListener("keydown", close);
-  }, [active]);
+  }, [active, exitConfirm]);
 
   const analysisEpisodes = useMemo(
     () => Array.from(new Set(analysis.map((item) => item.ep).filter((ep): ep is number => ep != null))).sort((a, b) => b - a),
@@ -291,6 +326,24 @@ export default function WeeklyMap({
       </section>
 
       <div className={`scroll-backdrop ${active ? "visible" : ""}`} onClick={() => setActive(null)} aria-hidden={!active} />
+
+      <div
+        className={`exit-confirm ${exitConfirm ? "visible" : ""}`}
+        role="presentation"
+        onClick={() => setExitConfirm(false)}
+        aria-hidden={!exitConfirm}
+      >
+        <section role="alertdialog" aria-modal="true" aria-labelledby="exit-confirm-title" onClick={(event) => event.stopPropagation()}>
+          <span className="exit-seal" aria-hidden="true">留</span>
+          <p>即将离开天南舆图</p>
+          <h2 id="exit-confirm-title">确定要退出吗？</h2>
+          <small>再次确认后才会返回上一页，当前浏览位置不会丢失。</small>
+          <div>
+            <button type="button" onClick={() => setExitConfirm(false)}>继续浏览</button>
+            <button type="button" className="danger" onClick={confirmExit}>确认退出</button>
+          </div>
+        </section>
+      </div>
 
       <section
         className={`ancient-scroll ${active ? "visible" : ""}`}
