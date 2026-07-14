@@ -16,6 +16,7 @@ const REMIX_UID = "13921096";
 interface UpConfig {
   uid: string;
   name: string;
+  shareCode?: string;
   note?: string;
 }
 
@@ -190,6 +191,7 @@ export default async function Home() {
       return {
         id: String(config.uid),
         name: snapshotUp?.name || config.name,
+        shareCode: config.shareCode,
         count: videos.length,
         averagePlay: episodePlays.length ? Math.round(totalPlay / episodePlays.length) : 0,
         totalPlay,

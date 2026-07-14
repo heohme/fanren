@@ -41,6 +41,7 @@ export interface StoryArc {
 export interface AnalysisCreator {
   id: string;
   name: string;
+  shareCode?: string;
   count: number;
   averagePlay: number;
   totalPlay: number;
@@ -251,7 +252,9 @@ export default function WeeklyMap({
     const normalizedToken = token?.toLocaleLowerCase("zh-CN");
     const linkedUp = normalizedToken
       ? analysisUps.find((up) =>
-          up.id === token || up.name.normalize("NFKC").trim().toLocaleLowerCase("zh-CN") === normalizedToken
+          up.id === token ||
+          up.shareCode?.toLocaleLowerCase("zh-CN") === normalizedToken ||
+          up.name.normalize("NFKC").trim().toLocaleLowerCase("zh-CN") === normalizedToken
         )
       : undefined;
 
@@ -273,7 +276,7 @@ export default function WeeklyMap({
     const up = analysisUps.find((item) => item.id === upId);
     if (!up) return null;
     const url = new URL(window.location.href);
-    url.searchParams.set("up", up.name);
+    url.searchParams.set("up", up.shareCode || up.name);
     url.hash = "";
     history.replaceState(history.state, "", url);
     return url;
@@ -291,7 +294,7 @@ export default function WeeklyMap({
     const url = new URL(window.location.href);
     if (mode === "up" && analysisUp) {
       const up = analysisUps.find((item) => item.id === analysisUp);
-      if (up) url.searchParams.set("up", up.name);
+      if (up) url.searchParams.set("up", up.shareCode || up.name);
     } else {
       url.searchParams.delete("up");
     }
