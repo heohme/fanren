@@ -57,9 +57,8 @@ export default function EpisodeList({
 
   return (
     <div>
-      <div className="mb-4 flex items-center justify-between">
-        <h2 className="text-lg font-semibold">分集追踪</h2>
-        <div className="flex gap-2 text-xs">
+      <div className="mb-4 flex items-center justify-end">
+        <div className="flex gap-2 text-xs" aria-label="分集筛选">
           <button
             className={`rounded-full px-3 py-1 transition ${
               filter === "all"
