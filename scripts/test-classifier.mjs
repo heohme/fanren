@@ -9,6 +9,37 @@ const ROOT = path.resolve(__dirname, "..");
 const snap = JSON.parse(await fs.readFile(path.join(ROOT, "data/snapshot.json"), "utf8"));
 const series = JSON.parse(await fs.readFile(path.join(ROOT, "data/series.json"), "utf8"));
 
+const regressionCases = [
+  {
+    title: "甜蜜中暗藏诡谲迷局！韩立发起“同居”邀请丨《凡人修仙传》180集台词细节解析",
+    ep: 180,
+    type: "episode",
+  },
+  {
+    title: "真情不败于岁月！凡人文戏的改编底调！丨《凡人修仙传》178集文戏赏析",
+    ep: 178,
+    type: "episode",
+  },
+  {
+    title: "大战将起！生灵涂炭！《凡人修仙传》182逐帧解析",
+    ep: 182,
+    type: "episode",
+  },
+  {
+    title: "凡人177-178集都改了哪些剧情？",
+    ep: null,
+    type: "compilation",
+  },
+];
+
+for (const test of regressionCases) {
+  const actual = matchEpisode(test.title, series);
+  if (actual.ep !== test.ep || actual.contentType !== test.type) {
+    throw new Error(`回归失败：${test.title}\n期望 ${test.type}/EP${test.ep}，实际 ${actual.contentType}/EP${actual.ep}`);
+  }
+}
+console.log(`✅ 集数识别回归测试通过：${regressionCases.length} 条\n`);
+
 const counts = {};
 const samples = {};
 

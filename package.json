@@ -10,7 +10,8 @@
     "fetch:debug": "DEBUG=1 node scripts/fetch-bilibili.mjs",
     "backfill": "node scripts/backfill-episodes.mjs",
     "coverage": "node scripts/episode-coverage.mjs",
-    "discover:creations": "node scripts/discover-creations.mjs"
+    "discover:creations": "node scripts/discover-creations.mjs",
+    "test:classifier": "node scripts/test-classifier.mjs"
   },
   "dependencies": {
     "next": "14.2.5",
