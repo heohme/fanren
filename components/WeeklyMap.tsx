@@ -179,7 +179,6 @@ export default function WeeklyMap({
   const [analysisUp, setAnalysisUp] = useState("");
   const [creationCategory, setCreationCategory] = useState("总榜");
   const [exitConfirm, setExitConfirm] = useState(false);
-  const [mapLoaded, setMapLoaded] = useState(false);
   const exitBypassRef = useRef(false);
 
   useEffect(() => {
@@ -313,8 +312,8 @@ export default function WeeklyMap({
 
       <section className="atlas-stage" id="atlas" aria-label="天南势力内容地图">
         <div className="map-media">
-          <img className={`map-placeholder ${mapLoaded ? "is-hidden" : ""}`} src="/tiannan-map-blur.webp" alt="" aria-hidden="true" />
-          <picture className={`map-picture ${mapLoaded ? "is-loaded" : ""}`}>
+          <img className="map-placeholder" src="/tiannan-map-blur.webp" alt="" aria-hidden="true" />
+          <picture className="map-picture">
             <source media="(max-width: 720px)" srcSet="/tiannan-map-960.webp" type="image/webp" />
             <source srcSet="/tiannan-map.webp" type="image/webp" />
             <img
@@ -323,7 +322,6 @@ export default function WeeklyMap({
               draggable={false}
               decoding="async"
               fetchPriority="high"
-              onLoad={() => setMapLoaded(true)}
             />
           </picture>
           <div className="map-wash" aria-hidden="true" />

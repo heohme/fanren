@@ -84,11 +84,9 @@ button, a, [role="button"] { -webkit-tap-highlight-color: transparent; }
   isolation: isolate;
 }
 .map-picture, .map-picture img, .map-placeholder { width: 100%; height: 100%; display: block; position: absolute; inset: 0; user-select: none; }
-.map-picture { z-index: 0; opacity: 0; transition: opacity 360ms ease; }
-.map-picture.is-loaded { opacity: 1; }
+.map-picture { z-index: 0; }
 .map-picture img { position: static; object-fit: cover; }
-.map-placeholder { z-index: 0; object-fit: cover; filter: blur(12px) saturate(.82); transform: scale(1.035); opacity: 1; transition: opacity 300ms ease; }
-.map-placeholder.is-hidden { opacity: 0; }
+.map-placeholder { z-index: 0; object-fit: cover; filter: blur(12px) saturate(.82); transform: scale(1.035); }
 .map-wash {
   position: absolute;
   inset: 0;
