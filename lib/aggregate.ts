@@ -9,9 +9,16 @@ import type {
 
 export function buildEpisodeRows(snap: Snapshot): EpisodeRow[] {
   const startEp = snap.series.newSeasonStartEp ?? 1;
+  const currentOfficialEp = Number.parseInt(snap.official.newEp?.title || "", 10);
   const officialMap = new Map<number, OfficialEpisode>();
   for (const e of snap.official.episodes) {
-    if (e.ep != null && e.ep >= startEp) officialMap.set(e.ep, e);
+    if (
+      e.ep != null &&
+      e.ep >= startEp &&
+      (!Number.isFinite(currentOfficialEp) || e.ep <= currentOfficialEp)
+    ) {
+      officialMap.set(e.ep, e);
+    }
   }
 
   const allEps = new Set<number>(officialMap.keys());
@@ -20,7 +27,8 @@ export function buildEpisodeRows(snap: Snapshot): EpisodeRow[] {
       if (
         v.ep != null &&
         v.ep >= startEp &&
-        (v.contentType === "episode" || v.contentType === "episode-preview")
+        v.contentType === "episode" &&
+        (!Number.isFinite(currentOfficialEp) || v.ep <= currentOfficialEp)
       ) {
         allEps.add(v.ep);
       }
@@ -35,7 +43,7 @@ export function buildEpisodeRows(snap: Snapshot): EpisodeRow[] {
         .filter(
           (v) =>
             v.ep === ep &&
-            (v.contentType === "episode" || v.contentType === "episode-preview")
+            v.contentType === "episode"
         )
         .sort((a, b) => (b.pubTime || 0) - (a.pubTime || 0))[0];
       if (hit) upVideos.push({ up, video: hit });

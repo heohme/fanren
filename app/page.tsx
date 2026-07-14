@@ -43,10 +43,11 @@ export default async function Home() {
   const characters = getSideVideosByType(snap, "character");
   const topics = getSideVideosByType(snap, "topic");
   const pv = getSideVideosByType(snap, "pv");
+  const previews = getSideVideosByType(snap, "episode-preview");
   const chat = getSideVideosByType(snap, "chat");
   const compilations = getSideVideosByType(snap, "compilation");
   const characterAndTopic = [...characters, ...topics].sort((a, b) => b.video.pubTime - a.video.pubTime);
-  const pvAndChat = [...pv, ...chat, ...compilations].sort((a, b) => b.video.pubTime - a.video.pubTime);
+  const pvAndChat = [...previews, ...pv, ...chat, ...compilations].sort((a, b) => b.video.pubTime - a.video.pubTime);
   const characterGroups = getCharacterGroups(snap);
   const sideTotal = characterAndTopic.length + pvAndChat.length;
   const healthyUps = snap.ups.filter((up) => !up.error && up.videos.length > 0).length;

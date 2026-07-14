@@ -111,6 +111,7 @@ export default function SideContentPanel({
 
 function TypeBadge({ type }: { type: string }) {
   const map: Record<string, { label: string; cls: string }> = {
+    "episode-preview": { label: "预告", cls: "bg-cinnabar-500/10 text-cinnabar-600" },
     character: { label: "人物", cls: "bg-cinnabar-500/10 text-cinnabar-600" },
     topic: { label: "专题", cls: "bg-jade-500/10 text-jade-500" },
     pv: { label: "物料", cls: "bg-ink-200/40 text-ink-600" },
