@@ -36,8 +36,13 @@ async function main() {
   const now = Date.now();
   const stale = [];
   const critical = [];
+  const configuredUps = JSON.parse(
+    await fs.readFile(path.join(ROOT, "data", "ups.json"), "utf8")
+  );
+  const configuredUids = new Set(configuredUps.map((up) => String(up.uid)));
 
   for (const up of snap.ups || []) {
+    if (!configuredUids.has(String(up.uid))) continue;
     const last = up.lastSuccess || 0;
     if (!last) continue;
     const ageMs = now - last;

@@ -2,9 +2,23 @@ name: Fetch & Sync
 
 on:
   schedule:
-    - cron: "5,35 * * * *"
-    - cron: "*/5 3-7 * * 6"
-  workflow_dispatch: {}
+    # 每小时：官方数据 + 全部 10 个配置白名单 UP
+    - cron: "7 * * * *"
+    # 每半小时补刷核心 UP
+    - cron: "37 * * * *"
+    # 北京时间周六 11:00-15:59，每 10 分钟只检查官方剧集
+    - cron: "2,12,22,32,42,52 3-7 * * 6"
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "抓取范围"
+        required: true
+        default: "all"
+        type: choice
+        options:
+          - all
+          - core
+          - official
   push:
     branches: [main]
     paths:
@@ -23,20 +37,43 @@ concurrency:
 jobs:
   fetch:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
+          ref: main
 
       - uses: actions/setup-node@v4
         with:
           node-version: "20"
 
+      - name: Resolve fetch mode
+        id: mode
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          EVENT_SCHEDULE: ${{ github.event.schedule }}
+          DISPATCH_MODE: ${{ inputs.mode }}
+        run: |
+          if [ "$EVENT_NAME" = "workflow_dispatch" ]; then
+            mode="$DISPATCH_MODE"
+          elif [ "$EVENT_NAME" = "push" ]; then
+            mode="all"
+          elif [ "$EVENT_SCHEDULE" = "7 * * * *" ]; then
+            mode="all"
+          elif [ "$EVENT_SCHEDULE" = "37 * * * *" ]; then
+            mode="core"
+          else
+            mode="official"
+          fi
+          echo "mode=$mode" >> "$GITHUB_OUTPUT"
+          echo "Fetch mode: $mode"
+
       - name: Fetch snapshot
         id: fetch
         env:
           DEBUG: "1"
+          FETCH_MODE: ${{ steps.mode.outputs.mode }}
         run: node scripts/fetch-bilibili.mjs
 
       - name: Commit changes
@@ -48,11 +85,11 @@ jobs:
             echo "No changes."
             exit 0
           fi
-          git commit -m "chore: sync snapshot $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git commit -m "chore: sync ${{ steps.mode.outputs.mode }} snapshot $(date -u +'%Y-%m-%d %H:%M UTC')"
           git push
 
       - name: Check stale UPs & alert
-        if: always()
+        if: always() && steps.mode.outputs.mode == 'all'
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GH_REPO: ${{ github.repository }}

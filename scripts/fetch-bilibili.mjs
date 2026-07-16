@@ -19,6 +19,8 @@ const ROOT = path.resolve(__dirname, "..");
 const DATA_DIR = path.join(ROOT, "data");
 
 const DEBUG = !!process.env.DEBUG;
+const FETCH_MODE = process.env.FETCH_MODE || "all";
+const VALID_FETCH_MODES = new Set(["official", "core", "all"]);
 const log = (...a) => console.log("[fetch]", ...a);
 const dlog = (...a) => DEBUG && console.log("[debug]", ...a);
 
@@ -153,10 +155,18 @@ async function fetchUpVideosViaWbi(uid, cookie, wbiKeys, pageSize = 30) {
 async function fetchUpVideos(uid, cookie, wbiKeys) {
   // 1. 动态接口（主）
   const dyn = await fetchUpVideosViaDynamic(uid, cookie);
-  let videos = dyn.list;
-  let errors = dyn.error ? [`dynamic:${dyn.error}`] : [];
+  if (dyn.list.length > 0) {
+    return {
+      error: null,
+      list: dyn.list.sort((a, b) => (b.pubTime || 0) - (a.pubTime || 0)),
+      sources: { dynamic: dyn.list.length, wbi: 0 },
+    };
+  }
 
-  // 2. WBI 接口（补充，最多重试一次）
+  let videos = [];
+  const errors = dyn.error ? [`dynamic:${dyn.error}`] : [];
+
+  // 2. 动态接口失败时才使用 WBI 投稿接口兜底，避免每轮重复请求。
   await sleep(1500);
   let wbi = await fetchUpVideosViaWbi(uid, cookie, wbiKeys);
   if (wbi.error?.includes("风控")) {
@@ -242,6 +252,10 @@ async function fetchUpWithRetry(up, cookieRef, wbiKeysRef) {
 }
 
 async function main() {
+  if (!VALID_FETCH_MODES.has(FETCH_MODE)) {
+    throw new Error(`未知 FETCH_MODE=${FETCH_MODE}`);
+  }
+
   const series = JSON.parse(
     await fs.readFile(path.join(DATA_DIR, "series.json"), "utf8")
   );
@@ -250,30 +264,54 @@ async function main() {
   );
   const prevSnapshot = await readPrevSnapshot(series);
   const prevUpMap = new Map(
-    (prevSnapshot?.ups || []).map((u) => [u.uid, u])
+    (prevSnapshot?.ups || []).map((u) => [String(u.uid), u])
   );
+  const selectedUps =
+    FETCH_MODE === "all"
+      ? ups
+      : FETCH_MODE === "core"
+        ? ups.filter((up) => up.tier === "core")
+        : [];
+  const shouldFetchOfficial = FETCH_MODE === "official" || FETCH_MODE === "all";
 
-  log("init: 获取匿名 cookie ...");
-  const cookieRef = { value: await getAnonymousCookie() };
-  dlog("cookie:", cookieRef.value.slice(0, 120) + "...");
+  log(`模式: ${FETCH_MODE}，本轮 UP ${selectedUps.length}/${ups.length}`);
 
-  log("init: 获取 WBI keys ...");
-  const wbiKeysRef = { value: await getWbiKeys(cookieRef.value) };
-  dlog("wbi:", wbiKeysRef.value);
-
-  log(`官方: 拉取 season ${series.seasonId} ...`);
-  let seasonData;
-  try {
-    seasonData = await fetchSeason(series.seasonId, cookieRef.value);
-    log(`官方: 共 ${seasonData.totalCount} 集，最新「${seasonData.newEp.title}」`);
-  } catch (e) {
-    log(`官方拉取失败: ${e.message}，沿用历史数据`);
-    seasonData = prevSnapshot?.official || { episodes: [], totalCount: 0 };
+  let cookieRef = { value: "" };
+  let wbiKeysRef = { value: null };
+  if (shouldFetchOfficial || selectedUps.length > 0) {
+    log("init: 获取匿名 cookie ...");
+    cookieRef = { value: await getAnonymousCookie() };
+    dlog("cookie:", cookieRef.value.slice(0, 120) + "...");
   }
 
-  const upResults = [];
+  if (selectedUps.length > 0) {
+    log("init: 获取 WBI keys ...");
+    wbiKeysRef = { value: await getWbiKeys(cookieRef.value) };
+    dlog("wbi:", wbiKeysRef.value);
+  }
+
+  let seasonData = prevSnapshot?.official || { episodes: [], totalCount: 0 };
+  if (shouldFetchOfficial) {
+    log(`官方: 拉取 season ${series.seasonId} ...`);
+    try {
+      seasonData = await fetchSeason(series.seasonId, cookieRef.value);
+      log(`官方: 共 ${seasonData.totalCount} 集，最新「${seasonData.newEp.title}」`);
+    } catch (e) {
+      log(`官方拉取失败: ${e.message}，沿用历史数据`);
+    }
+  }
+
+  if (
+    FETCH_MODE === "official" &&
+    JSON.stringify(seasonData) === JSON.stringify(prevSnapshot?.official)
+  ) {
+    log("官方数据无变化，跳过写入与部署");
+    return;
+  }
+
+  const updatedUpMap = new Map(prevUpMap);
   const configuredUids = new Set(ups.map((up) => String(up.uid)));
-  for (const up of ups) {
+  for (const up of selectedUps) {
     log(`UP[${up.name}] uid=${up.uid} 拉取中 ...`);
     const result = await fetchUpWithRetry(up, cookieRef, wbiKeysRef);
     if (result.sources) {
@@ -293,14 +331,14 @@ async function main() {
     });
     const related = videos.filter((v) => v.matched);
 
-    const prevUp = prevUpMap.get(up.uid);
+    const prevUp = prevUpMap.get(String(up.uid));
     const mergedRelated = mergeVideos(prevUp?.videos, related);
 
     log(
       `  -> 本次抓 ${videos.length} 条 / 凡人相关 ${related.length} 条 / 合并后 ${mergedRelated.length} 条`
     );
 
-    upResults.push({
+    updatedUpMap.set(String(up.uid), {
       uid: up.uid,
       name: up.name,
       alias: up.alias || [],
@@ -318,7 +356,27 @@ async function main() {
     await sleep(8000 + Math.random() * 4000);
   }
 
-  // 历史按集搜索发现的 UP 不参与每半小时的空间轮询，但必须保留在快照中。
+  const upResults = [];
+  for (const up of ups) {
+    const current = updatedUpMap.get(String(up.uid));
+    if (current) {
+      upResults.push(current);
+    } else {
+      upResults.push({
+        uid: up.uid,
+        name: up.name,
+        alias: up.alias || [],
+        note: up.note || "",
+        error: null,
+        lastFetched: null,
+        lastSuccess: null,
+        videos: [],
+        recentTitles: [],
+      });
+    }
+  }
+
+  // 历史按集搜索发现的 UP 不参与定时空间轮询，但必须保留在快照中。
   // 否则日常抓取会把 backfill-episodes 写入的历史解析数据覆盖掉。
   for (const previous of prevSnapshot?.ups || []) {
     if (!configuredUids.has(String(previous.uid)) && previous.videos?.length) {

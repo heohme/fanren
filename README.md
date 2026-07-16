@@ -57,11 +57,12 @@ npm run dev          # 本地预览 http://localhost:3000
 
 ```json
 [
-  { "uid": "7946432", "name": "利维坦", "alias": [], "note": "" }
+  { "uid": "7946432", "name": "利维坦", "tier": "core", "alias": [], "note": "" }
 ]
 ```
 
 UID 获取方式：访问 UP 主主页 `https://space.bilibili.com/<UID>`，URL 里的数字就是。
+`tier` 使用 `core` 或 `standard`，分别对应每 30 分钟和每小时更新。
 
 ### 修改番剧配置
 
@@ -97,7 +98,7 @@ npm run build:cloudbase
 ## 自动更新机制
 
 ```
-GitHub Actions（常规每 30 分钟，周六更新时段每 5 分钟）
+GitHub Actions（普通白名单每小时、核心 UP 每 30 分钟、周六官方剧集每 10 分钟）
     ↓ 跑 scripts/fetch-bilibili.mjs
     ↓ 写入 data/snapshot.json
     ↓ 自动 commit + push
@@ -105,6 +106,8 @@ GitHub Actions（常规每 30 分钟，周六更新时段每 5 分钟）
 ```
 
 如果 GitHub Actions 抓取失败（B 站风控），脚本会自动重试并刷 cookie，且**保留历史快照**，单次失败不会丢数据。
+
+抓取任务按范围分为三档：`official` 只检查官方剧集，`core` 只更新 `data/ups.json` 中标记为核心的 UP，`all` 更新全部配置白名单。历史回填发现的其他 UP 只保留在快照中，不参与定时空间轮询。
 
 ### 历史解析批量回填
 
@@ -135,7 +138,7 @@ node scripts/episode-coverage.mjs --from=182 --to=153
 
 ### ⚠️ 建议仓库设为 Public
 
-高频巡检会消耗较多 Actions 时长。本项目只保存公开内容的索引信息，使用公共仓库更适合当前更新方式。
+分层巡检会持续消耗 Actions 时长。本项目只保存公开内容的索引信息，使用公共仓库更适合当前更新方式。
 
 ## 反风控策略
 
