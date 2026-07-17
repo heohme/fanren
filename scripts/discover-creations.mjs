@@ -171,27 +171,51 @@ function parseModelOutput(payload) {
   return JSON.parse(content.trim().replace(/^```(?:json)?\s*/i, "").replace(/\s*```$/, ""));
 }
 
-function validateModelItem(item, batchIds, now) {
-  if (!batchIds.has(item.id)) throw new Error(`模型返回未知 ID：${item.id}`);
-  if (!RELEVANCE_VALUES.includes(item.relevance)) throw new Error(`未知 relevance：${item.relevance}`);
-  if (!CONTENT_NATURE_VALUES.includes(item.contentNature)) throw new Error(`未知 contentNature：${item.contentNature}`);
-  if (!CREATION_CATEGORIES.includes(item.creationType)) throw new Error(`未知 creationType：${item.creationType}`);
-  if (!ORIGINALITY_VALUES.includes(item.originality)) throw new Error(`未知 originality：${item.originality}`);
-  if (!CREATOR_POTENTIAL_VALUES.includes(item.creatorPotential)) throw new Error(`未知 creatorPotential：${item.creatorPotential}`);
-  if (typeof item.confidence !== "number" || item.confidence < 0 || item.confidence > 1) throw new Error(`非法 confidence：${item.id}`);
-  if (!Array.isArray(item.riskFlags) || item.riskFlags.some((flag) => !RISK_FLAG_VALUES.includes(flag))) throw new Error(`非法 riskFlags：${item.id}`);
+function validateModelItem(item, batchMap, now) {
+  const candidate = batchMap.get(item.id);
+  if (!candidate) throw new Error(`模型返回未知 ID：${item.id}`);
+  const normalized =
+    !RELEVANCE_VALUES.includes(item.relevance) ||
+    !CONTENT_NATURE_VALUES.includes(item.contentNature) ||
+    !CREATION_CATEGORIES.includes(item.creationType) ||
+    !ORIGINALITY_VALUES.includes(item.originality) ||
+    !CREATOR_POTENTIAL_VALUES.includes(item.creatorPotential) ||
+    typeof item.confidence !== "number" ||
+    !Array.isArray(item.riskFlags) ||
+    item.riskFlags.some((flag) => !RISK_FLAG_VALUES.includes(flag));
+  const riskFlags = Array.isArray(item.riskFlags) ? item.riskFlags.filter((flag) => RISK_FLAG_VALUES.includes(flag)) : [];
+  if (normalized) riskFlags.push("uncertain");
   return {
     id: item.id,
-    relevance: item.relevance,
-    contentNature: item.contentNature,
-    creationType: item.creationType,
-    originality: item.originality,
+    relevance: RELEVANCE_VALUES.includes(item.relevance) ? item.relevance : "weak",
+    contentNature: CONTENT_NATURE_VALUES.includes(item.contentNature) ? item.contentNature : "unknown",
+    creationType: CREATION_CATEGORIES.includes(item.creationType) ? item.creationType : candidate.rule?.category || "趣味整活",
+    originality: ORIGINALITY_VALUES.includes(item.originality) ? item.originality : "unknown",
     eventTag: typeof item.eventTag === "string" && item.eventTag.trim() ? item.eventTag.trim() : null,
-    creatorPotential: item.creatorPotential,
-    confidence: item.confidence,
-    riskFlags: [...new Set(item.riskFlags)],
+    creatorPotential: CREATOR_POTENTIAL_VALUES.includes(item.creatorPotential) ? item.creatorPotential : "one_off",
+    confidence: Math.min(1, Math.max(0, Number(item.confidence) || 0.2)),
+    riskFlags: [...new Set(riskFlags)],
     reason: clean(item.reason).slice(0, 180),
     source: "model",
+    taxonomyVersion: TAXONOMY_VERSION,
+    promptVersion: PROMPT_VERSION,
+    classifiedAt: now,
+  };
+}
+
+function safeFallbackClassification(candidate, now, reason) {
+  return {
+    id: candidate.bvid,
+    relevance: "weak",
+    contentNature: "unknown",
+    creationType: candidate.rule?.category || "趣味整活",
+    originality: "unknown",
+    eventTag: null,
+    creatorPotential: "one_off",
+    confidence: 0.2,
+    riskFlags: ["uncertain"],
+    reason: `模型返回不完整，安全排除：${clean(reason).slice(0, 100)}`,
+    source: "fallback",
     taxonomyVersion: TAXONOMY_VERSION,
     promptVersion: PROMPT_VERSION,
     classifiedAt: now,
@@ -245,8 +269,8 @@ async function classifyNewCandidates(candidates, cache, now) {
         payload = await requestModel(batch);
         const parsed = parseModelOutput(payload);
         if (!Array.isArray(parsed.items)) throw new Error("模型返回缺少 items 数组");
-        const batchIds = new Set(batch.map((item) => item.bvid));
-        const validated = parsed.items.map((item) => validateModelItem(item, batchIds, now));
+        const batchMap = new Map(batch.map((item) => [item.bvid, item]));
+        const validated = parsed.items.map((item) => validateModelItem(item, batchMap, now));
         if (validated.length !== batch.length || new Set(validated.map((item) => item.id)).size !== batch.length) throw new Error("模型存在漏判或重复 ID");
         for (const item of validated) cache[item.id] = item;
         lastError = null;
@@ -257,7 +281,11 @@ async function classifyNewCandidates(candidates, cache, now) {
         if (attempt < 2) await sleep(1500);
       }
     }
-    if (lastError) throw lastError;
+    if (lastError) {
+      console.warn(`[model] 本批安全降级：${lastError.message}`);
+      for (const candidate of batch) cache[candidate.bvid] = safeFallbackClassification(candidate, now, lastError.message);
+      continue;
+    }
     usage.input += Number(payload.usage?.prompt_tokens || 0);
     usage.output += Number(payload.usage?.completion_tokens || 0);
     usage.total += Number(payload.usage?.total_tokens || 0);
