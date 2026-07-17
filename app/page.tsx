@@ -81,6 +81,16 @@ function creationCategory(video: UpVideo) {
   return "趣味整活";
 }
 
+function analysisLabels(video: UpVideo) {
+  if (video.contentType === "episode" && video.ep != null) {
+    return { subtitle: `第 ${video.ep} 话解析`, badge: `第 ${video.ep} 话` };
+  }
+  if (video.contentType === "character") return { subtitle: "人物志", badge: "人物志" };
+  if (video.contentType === "compilation") return { subtitle: "多集拉片", badge: "合集" };
+  if (video.contentType === "topic") return { subtitle: "深度专题", badge: "专题" };
+  return { subtitle: "凡人解析", badge: "解析" };
+}
+
 async function loadUpConfigs(): Promise<UpConfig[]> {
   try {
     const file = path.join(process.cwd(), "data", "ups.json");
@@ -144,6 +154,29 @@ export default async function Home() {
     .filter((up) => up.uid !== OFFICIAL_UID)
     .flatMap((up) => up.videos.map((video) => ({ up, video })));
 
+  const toAnalysisItem = ({ up, video }: (typeof creatorVideos)[number]): AnalysisAtlasItem => {
+    const labels = analysisLabels(video);
+    return {
+      id: video.bvid,
+      ep: video.contentType === "episode" ? video.ep : null,
+      upId: up.uid,
+      upName: up.name,
+      publishedAt: video.pubTime || 0,
+      title: video.title,
+      subtitle: `${up.name} · ${labels.subtitle}`,
+      cover: video.cover,
+      url: video.videoUrl,
+      play: video.play || 0,
+      badge: labels.badge,
+    };
+  };
+
+  // 「按 UP 主」展示白名单账号已抓到的全部凡人相关投稿，不受逐集分类限制。
+  const analysisArchive: AnalysisAtlasItem[] = creatorVideos
+    .slice()
+    .sort((a, b) => (b.video.pubTime || 0) - (a.video.pubTime || 0))
+    .map(toAnalysisItem);
+
   const rawAnalysis: AnalysisAtlasItem[] = creatorVideos
     .filter(({ video }) =>
       (video.contentType === "episode" && video.ep != null) ||
@@ -151,18 +184,7 @@ export default async function Home() {
       video.contentType === "character"
     )
     .sort((a, b) => (b.video.ep || 0) - (a.video.ep || 0) || (b.video.play || 0) - (a.video.play || 0))
-    .map(({ up, video }) => ({
-      id: video.bvid,
-      ep: video.contentType === "episode" ? video.ep : null,
-      upId: up.uid,
-      upName: up.name,
-      title: video.title,
-      subtitle: `${up.name} · ${video.contentType === "episode" ? `第 ${video.ep} 话解析` : video.contentType === "character" ? "人物志" : "深度专题"}`,
-      cover: video.cover,
-      url: video.videoUrl,
-      play: video.play || 0,
-      badge: video.contentType === "episode" ? `第 ${video.ep} 话` : video.contentType === "character" ? "人物志" : "专题",
-    }));
+    .map(toAnalysisItem);
   const analysisByEpisodeAndUp = new Map<string, AnalysisAtlasItem>();
   for (const item of rawAnalysis) {
     if (item.ep == null) {
@@ -180,11 +202,7 @@ export default async function Home() {
     .filter((up) => up.uid !== OFFICIAL_UID)
     .map((config) => {
       const snapshotUp = snapshotUpMap.get(String(config.uid));
-      const videos = (snapshotUp?.videos || []).filter((video) =>
-        (video.contentType === "episode" && video.ep != null) ||
-        video.contentType === "topic" ||
-        video.contentType === "character"
-      );
+      const videos = snapshotUp?.videos || [];
       const episodePlays = videos.map((video) => video.play || 0);
       const episodes = new Set(videos.map((video) => video.ep).filter((ep): ep is number => ep != null));
       const totalPlay = episodePlays.reduce((sum, play) => sum + play, 0);
@@ -239,6 +257,7 @@ export default async function Home() {
       official={official}
       storyArcs={visibleArcs}
       analysis={analysis}
+      analysisArchive={analysisArchive}
       analysisCreators={analysisCreators}
       creations={creations}
       currentEpisode={Number.isFinite(currentEpisode) ? currentEpisode : null}

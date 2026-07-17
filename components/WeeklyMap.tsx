@@ -25,6 +25,7 @@ export interface AnalysisAtlasItem extends AtlasItem {
   ep: number | null;
   upId: string;
   upName: string;
+  publishedAt: number;
 }
 
 export interface CreationAtlasItem extends AtlasItem {
@@ -158,6 +159,7 @@ export default function WeeklyMap({
   official,
   storyArcs,
   analysis,
+  analysisArchive,
   analysisCreators,
   creations,
   currentEpisode,
@@ -166,6 +168,7 @@ export default function WeeklyMap({
   official: OfficialAtlasItem[];
   storyArcs: StoryArc[];
   analysis: AnalysisAtlasItem[];
+  analysisArchive: AnalysisAtlasItem[];
   analysisCreators: AnalysisCreator[];
   creations: CreationAtlasItem[];
   currentEpisode: number | null;
@@ -381,7 +384,7 @@ export default function WeeklyMap({
     : undefined;
   const analysisItems = analysisMode === "episode"
     ? analysis.filter((item) => item.ep === analysisEpisode).sort((a, b) => (b.play || 0) - (a.play || 0))
-    : analysis.filter((item) => item.upId === analysisUp).sort((a, b) => (b.ep || 0) - (a.ep || 0) || (b.play || 0) - (a.play || 0));
+    : analysisArchive.filter((item) => item.upId === analysisUp).sort((a, b) => b.publishedAt - a.publishedAt || (b.play || 0) - (a.play || 0));
   const creationItems = (creationCategory === "总榜"
     ? creations
     : creations.filter((item) => item.category === creationCategory)
