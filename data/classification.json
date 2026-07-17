@@ -1,15 +1,15 @@
 {
-  "generatedAt": 1784281357983,
+  "generatedAt": 1784282034977,
   "taxonomyVersion": 2,
   "promptVersion": 2,
   "model": "doubao-seed-2-0-mini-260428",
   "lastRunUsage": {
-    "input": 53184,
-    "output": 31178,
-    "total": 84362,
-    "requests": 22
+    "input": 718,
+    "output": 106,
+    "total": 824,
+    "requests": 1
   },
-  "count": 393,
+  "count": 394,
   "items": {
     "BV1khTq6wEfq": {
       "id": "BV1khTq6wEfq",
@@ -6678,6 +6678,24 @@
       "taxonomyVersion": 2,
       "promptVersion": 2,
       "classifiedAt": 1784281357983
+    },
+    "BV1EAKH6GE8V": {
+      "id": "BV1EAKH6GE8V",
+      "relevance": "related",
+      "contentNature": "episode_analysis",
+      "creationType": "剧情二创",
+      "originality": "light_edit",
+      "eventTag": null,
+      "creatorPotential": "one_off",
+      "confidence": 0.85,
+      "riskFlags": [
+        "episode_analysis"
+      ],
+      "reason": "该内容围绕《凡人修仙传》中落云宗在韩立、南宫婉偷渡灵界后仍昌盛的原因展开，属于剧情解说类内容",
+      "source": "model",
+      "taxonomyVersion": 2,
+      "promptVersion": 2,
+      "classifiedAt": 1784282034977
     }
   }
 }
