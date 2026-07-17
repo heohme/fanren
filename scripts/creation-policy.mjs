@@ -24,8 +24,18 @@ function freshnessScore(ageDays) {
 }
 
 function originalityScore(classification) {
-  if (classification.contentNature === "character_or_lore") return 25;
+  if (classification.contentNature === "character_or_lore") {
+    return { original: 28, deep_adaptation: 25, light_edit: 10, unknown: 14 }[classification.originality] || 0;
+  }
   return { original: 30, deep_adaptation: 26, light_edit: 12, unknown: 6 }[classification.originality] || 0;
+}
+
+function durationSeconds(value) {
+  const parts = String(value || "").split(":").map(Number);
+  if (parts.some((part) => !Number.isFinite(part))) return 0;
+  if (parts.length === 2) return parts[0] * 60 + parts[1];
+  if (parts.length === 3) return parts[0] * 3600 + parts[1] * 60 + parts[2];
+  return 0;
 }
 
 function latestStats(candidate, metricEntry) {
@@ -58,16 +68,24 @@ function interactionRate(stats) {
   return (stats.like + stats.coin * 1.6 + stats.favorite * 1.8 + stats.reply * 2 + stats.danmaku * 0.35) / stats.play;
 }
 
-function policyGate(classification) {
-  const risks = new Set(classification.riskFlags || []);
-  if (classification.relevance !== "related") return { eligible: false, reason: "与凡人主题关联不足" };
-  if (!['secondary_creation', 'character_or_lore'].includes(classification.contentNature)) {
+function policyGate(item) {
+  const risks = new Set(item.riskFlags || []);
+  const title = String(item.title || "");
+  const duration = durationSeconds(item.duration);
+  const templateNarration = /穿越|重生|系统|爽文|同人文|推文|小说|全文|有声|掌天瓶灵|开局/;
+  const eventRecording = /(?:cv|声优).*(?:现场|漫展)|(?:现场演绎|现场版)|\bbw\b.*(?:小剧场|现场)/i;
+  if ((duration >= 2 * 3600 && templateNarration.test(title)) || duration >= 6 * 3600) {
+    return { eligible: false, reason: "模板化长篇小说/叙事合集不进入二创发布层" };
+  }
+  if (eventRecording.test(title)) return { eligible: false, reason: "声优活动现场搬录不属于 UP 原创二创" };
+  if (item.relevance !== "related") return { eligible: false, reason: "与凡人主题关联不足" };
+  if (!['secondary_creation', 'character_or_lore'].includes(item.contentNature)) {
     return { eligible: false, reason: "不是二创或人物/设定专题" };
   }
   if (risks.has("episode_analysis") || risks.has("repost") || risks.has("official_clip")) {
     return { eligible: false, reason: "命中解析、搬运或官方切片风险" };
   }
-  if (classification.confidence < 0.65) return { eligible: false, reason: "分类置信度不足" };
+  if (item.confidence < 0.65) return { eligible: false, reason: "分类置信度不足" };
   return { eligible: true, reason: "通过内容边界" };
 }
 
@@ -119,7 +137,8 @@ export function applyCreationPolicy({ candidates, classifications, metrics = {},
       (item.eventTag ? 5 : 0),
     );
     const risks = new Set(item.riskFlags || []);
-    const strongOriginality = item.contentNature === "character_or_lore" || ["original", "deep_adaptation"].includes(item.originality);
+    const shortCharacterTopic = item.contentNature === "character_or_lore" && durationSeconds(item.duration) < 3 * 60;
+    const strongOriginality = ["original", "deep_adaptation"].includes(item.originality) && !shortCharacterTopic;
     let status = "rejected";
     let policyReason = gate.reason;
     if (gate.eligible && item.confidence >= 0.85 && strongOriginality && score >= 60 && !risks.has("uncertain")) {
@@ -127,7 +146,11 @@ export function applyCreationPolicy({ candidates, classifications, metrics = {},
       policyReason = "高置信原创内容，达到自动发布线";
     } else if (gate.eligible && score >= 45) {
       status = "review";
-      policyReason = strongOriginality ? "内容可收录，但需人工复核分类或风险" : "疑似轻度剪辑，需人工确认原创性";
+      policyReason = shortCharacterTopic
+        ? "人物/设定内容不足 3 分钟，需确认不是竖屏剪辑"
+        : strongOriginality
+          ? "内容可收录，但需人工复核分类或风险"
+          : "疑似轻度剪辑，需人工确认原创性";
     }
     const result = { ...item, score, status, policyReason };
     return { ...result, lane: status === "approved" ? laneFor(result, creatorRecentCounts, now) : null };
