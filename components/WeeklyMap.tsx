@@ -184,6 +184,7 @@ export default function WeeklyMap({
   const exitBypassRef = useRef(false);
   const deepLinkReadyRef = useRef(false);
   const shareFeedbackTimerRef = useRef<number | null>(null);
+  const analysisFilterRef = useRef<HTMLDivElement | null>(null);
 
   useEffect(() => {
     const isMobile = window.matchMedia("(max-width: 820px), (pointer: coarse)").matches;
@@ -272,6 +273,15 @@ export default function WeeklyMap({
     if (shareFeedbackTimerRef.current) window.clearTimeout(shareFeedbackTimerRef.current);
   }, []);
 
+  useEffect(() => {
+    if (active !== "demonic" || analysisMode !== "up" || !analysisUp) return;
+    const frame = window.requestAnimationFrame(() => {
+      const selected = analysisFilterRef.current?.querySelector<HTMLElement>(`[data-up-id="${analysisUp}"]`);
+      selected?.scrollIntoView({ behavior: "smooth", block: "nearest", inline: "center" });
+    });
+    return () => window.cancelAnimationFrame(frame);
+  }, [active, analysisMode, analysisUp]);
+
   const setUpInAddress = (upId: string) => {
     const up = analysisUps.find((item) => item.id === upId);
     if (!up) return null;
@@ -299,6 +309,12 @@ export default function WeeklyMap({
       url.searchParams.delete("up");
     }
     history.replaceState(history.state, "", url);
+  };
+
+  const scrollAnalysisFilters = (direction: -1 | 1) => {
+    const rail = analysisFilterRef.current;
+    if (!rail) return;
+    rail.scrollBy({ left: direction * Math.max(240, rail.clientWidth * .72), behavior: "smooth" });
   };
 
   const copyAnalysisUpLink = async () => {
@@ -521,17 +537,21 @@ export default function WeeklyMap({
                     <button className={analysisMode === "episode" ? "active" : ""} type="button" onClick={() => selectAnalysisMode("episode")}>按剧集</button>
                     <button className={analysisMode === "up" ? "active" : ""} type="button" onClick={() => selectAnalysisMode("up")}>按 UP 主</button>
                   </div>
-                  <div className="filter-rail slim">
-                    {analysisMode === "episode" ? analysisEpisodes.map((ep) => (
-                      <button className={analysisEpisode === ep ? "active" : ""} type="button" onClick={() => setAnalysisEpisode(ep)} key={ep}>
-                        <strong>{ep}</strong><small>话</small>
-                      </button>
-                    )) : analysisUps.map((up) => (
-                      <button className={analysisUp === up.id ? "active" : ""} type="button" onClick={() => selectAnalysisUp(up.id)} key={up.id}>
-                        <strong>{up.name}</strong>
-                        <small>{up.count} 条解析 · 均播 {formatPlay(up.averagePlay)}</small>
-                      </button>
-                    ))}
+                  <div className="filter-scroll">
+                    <button className="filter-scroll-button" type="button" aria-label="向左浏览筛选项" onClick={() => scrollAnalysisFilters(-1)}>‹</button>
+                    <div className="filter-rail slim" ref={analysisFilterRef}>
+                      {analysisMode === "episode" ? analysisEpisodes.map((ep) => (
+                        <button className={analysisEpisode === ep ? "active" : ""} type="button" onClick={() => setAnalysisEpisode(ep)} key={ep}>
+                          <strong>{ep}</strong><small>话</small>
+                        </button>
+                      )) : analysisUps.map((up) => (
+                        <button data-up-id={up.id} className={analysisUp === up.id ? "active" : ""} type="button" onClick={() => selectAnalysisUp(up.id)} key={up.id}>
+                          <strong>{up.name}</strong>
+                          <small>{up.count} 条解析 · 均播 {formatPlay(up.averagePlay)}</small>
+                        </button>
+                      ))}
+                    </div>
+                    <button className="filter-scroll-button" type="button" aria-label="向右浏览筛选项" onClick={() => scrollAnalysisFilters(1)}>›</button>
                   </div>
                 </div>
                 <div className="ranking-head">
