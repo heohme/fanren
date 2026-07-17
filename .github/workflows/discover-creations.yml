@@ -2,13 +2,25 @@ name: Discover & Classify Creations
 
 on:
   schedule:
-    - cron: "40 2 * * 1,4"
-  workflow_dispatch: {}
+    - cron: "40 1,11 * * *"
+    - cron: "40 2 * * 1"
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "检索模式"
+        required: true
+        default: fresh
+        type: choice
+        options:
+          - fresh
+          - history
   push:
     branches: [main]
     paths:
       - "scripts/discover-creations.mjs"
       - "scripts/creation-taxonomy.mjs"
+      - "scripts/creation-policy.mjs"
+      - "scripts/test-creation-discovery.mjs"
       - ".github/workflows/discover-creations.yml"
 
 permissions:
@@ -21,7 +33,7 @@ concurrency:
 jobs:
   discover:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 35
     steps:
       - uses: actions/checkout@v4
         with:
@@ -31,22 +43,41 @@ jobs:
         with:
           node-version: "20"
 
+      - name: Resolve discovery mode
+        id: mode
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          EVENT_SCHEDULE: ${{ github.event.schedule }}
+          INPUT_MODE: ${{ inputs.mode }}
+        run: |
+          if [ "$EVENT_NAME" = "workflow_dispatch" ]; then
+            echo "value=$INPUT_MODE" >> "$GITHUB_OUTPUT"
+          elif [ "$EVENT_NAME" = "schedule" ] && [ "$EVENT_SCHEDULE" = "40 2 * * 1" ]; then
+            echo "value=history" >> "$GITHUB_OUTPUT"
+          else
+            echo "value=fresh" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Test discovery policy
+        run: npm run test:discovery
+
       - name: Discover and classify creations
         env:
           ARK_API_KEY: ${{ secrets.ARK_API_KEY }}
           ARK_CLASSIFIER_MODEL: doubao-seed-2-0-mini-260428
           REQUIRE_CREATION_MODEL: "1"
-          CREATION_SEARCH_PAGES: "2"
+          CREATION_DISCOVERY_MODE: ${{ steps.mode.outputs.value }}
         run: node scripts/discover-creations.mjs
 
       - name: Commit creation index
         run: |
           git config user.name "fanren-bot"
           git config user.email "fanren-bot@users.noreply.github.com"
-          git add data/creations.json
+          git add data/discovery-raw.json data/classification.json data/creation-metrics.json data/discovery-review.json data/creations.json
           if git diff --staged --quiet; then
             echo "No changes."
             exit 0
           fi
-          git commit -m "chore: refresh creation index $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git commit -m "chore: refresh creation discovery $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git pull --rebase origin main
           git push
