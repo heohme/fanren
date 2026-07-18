@@ -53,8 +53,19 @@ async function loadSnapshot(): Promise<Snapshot | null> {
   }
 }
 
-function storyArcForEpisode(ep: number) {
-  return STORY_ARCS.find((arc) => ep >= arc.start && ep <= arc.end)?.key || STORY_ARCS.at(-1)!.key;
+function buildVisibleStoryArcs(currentEpisode: number): StoryArc[] {
+  if (!Number.isFinite(currentEpisode)) return [];
+
+  const lastArcIndex = STORY_ARCS.length - 1;
+  return STORY_ARCS
+    .map((arc, index) => {
+      // 最后一个篇章视为连载中：官方更新后自动把结束话数扩展到最新话。
+      const effectiveEnd = index === lastArcIndex
+        ? Math.max(arc.end, currentEpisode)
+        : arc.end;
+      return { ...arc, end: Math.min(effectiveEnd, currentEpisode) };
+    })
+    .filter((arc) => arc.start <= currentEpisode);
 }
 
 function formatDuration(duration?: number) {
@@ -125,6 +136,7 @@ export default async function Home() {
 
   const [upConfigs, discoveredCreations] = await Promise.all([loadUpConfigs(), loadDiscoveredCreations()]);
   const currentEpisode = Number.parseInt(snap.official.newEp?.title || "", 10);
+  const visibleArcs = buildVisibleStoryArcs(currentEpisode);
   const officialByEpisode = new Map<number, (typeof snap.official.episodes)[number]>();
   for (const episode of snap.official.episodes) {
     if (episode.ep && episode.ep <= currentEpisode) officialByEpisode.set(episode.ep, episode);
@@ -133,11 +145,11 @@ export default async function Home() {
   const official: OfficialAtlasItem[] = Array.from(officialByEpisode.values())
     .sort((a, b) => (b.ep || 0) - (a.ep || 0))
     .map((episode) => {
-      const arc = STORY_ARCS.find((item) => episode.ep! >= item.start && episode.ep! <= item.end);
+      const arc = visibleArcs.find((item) => episode.ep! >= item.start && episode.ep! <= item.end);
       return {
         id: `official-${episode.ep}`,
         ep: episode.ep!,
-        arc: storyArcForEpisode(episode.ep!),
+        arc: arc?.key || visibleArcs.at(-1)?.key || "",
         title: `第 ${episode.ep} 话`,
         subtitle: "哔哩哔哩国创 · 独播",
         summary: episode.longTitle || `《凡人修仙传》第 ${episode.ep} 话官方正片`,
@@ -248,9 +260,6 @@ export default async function Home() {
     });
   }
   const creations = Array.from(creationMap.values());
-
-  const visibleArcs = STORY_ARCS.map((arc) => ({ ...arc, end: Math.min(arc.end, currentEpisode) }))
-    .filter((arc) => arc.start <= currentEpisode);
 
   return (
     <WeeklyMap
