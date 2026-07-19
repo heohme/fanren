@@ -13,7 +13,8 @@
     "coverage": "node scripts/episode-coverage.mjs",
     "discover:creations": "node scripts/discover-creations.mjs",
     "test:classifier": "node scripts/test-classifier.mjs",
-    "test:discovery": "node scripts/test-creation-discovery.mjs"
+    "test:discovery": "node scripts/test-creation-discovery.mjs",
+    "test:community": "node scripts/test-community.mjs"
   },
   "dependencies": {
     "next": "14.2.5",

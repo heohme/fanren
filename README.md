@@ -20,6 +20,8 @@
 - 历史回填：按集搜索解析视频，目标每集覆盖 10+ 位 UP，支持断点续跑
 - 二创发现：每周两次集中搜索二创，并按人物志、剧情二创、趣味整活、混剪手书、音乐配音、同人创作归档
 - 新内容提示：浏览器本地记录上次访问时间
+- 道友共建：推荐 UP、作品或纠错补档，经过审核后进入九国盟推荐榜
+- 投稿审核：D1 保存投稿与审核轨迹，Turnstile 防刷，Cloudflare Access 保护后台
 
 ## 目录结构
 
@@ -38,6 +40,8 @@ fanren/
 │   ├── ups.json             # UP 主名单
 │   ├── creations.json       # 二创搜索与分类索引（自动生成）
 │   └── snapshot.json        # 抓取快照（自动生成）
+├── functions/             # Cloudflare Pages Functions 投稿与审核 API
+├── migrations/            # D1 数据库迁移
 └── .github/workflows/
     └── fetch.yml            # 常规定时抓取 + 周六高峰巡检
 ```
@@ -110,6 +114,10 @@ GitHub Actions（普通白名单每小时、核心 UP 每 30 分钟、周六官�
 ```
 
 如果 GitHub Actions 抓取失败（B 站风控），脚本会自动重试并刷 cookie，且**保留历史快照**，单次失败不会丢数据。
+
+## 九国盟投稿系统
+
+投稿系统需要额外配置 Cloudflare D1、Turnstile 和 Access。完整接口、数据表、本地开发与上线步骤见 [九国盟投稿系统文档](docs/community-submissions.md)。
 
 抓取任务按范围分为三档：`official` 只检查官方剧集，`core` 只更新 `data/ups.json` 中标记为核心的 UP，`all` 更新全部配置白名单。历史回填发现的其他 UP 只保留在快照中，不参与定时空间轮询。
 

@@ -1,0 +1,17 @@
+{
+  "name": "fanren-cantu",
+  "pages_build_output_dir": "./out",
+  "compatibility_date": "2026-07-19",
+  "d1_databases": [
+    {
+      "binding": "COMMUNITY_DB",
+      "database_name": "fanren-community",
+      "database_id": "请替换为 Cloudflare D1 database_id"
+    }
+  ],
+  "vars": {
+    "PUBLIC_HOSTNAME": "fanrenmap.pages.dev",
+    "ADMIN_EMAILS": "请替换为管理员邮箱",
+    "RATE_LIMIT_PER_HOUR": "5"
+  }
+}

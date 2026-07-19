@@ -9,5 +9,9 @@ dist/
 .vercel
 next-env.d.ts
 *.tsbuildinfo
+.dev.vars
+.wrangler/
+wrangler.local.jsonc
+wrangler.jsonc
 /tmp/
 discover-result.json

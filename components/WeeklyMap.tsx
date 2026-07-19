@@ -1,6 +1,8 @@
 "use client";
 
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
+import CommunityHub from "@/components/CommunityHub";
+import type { CommunityItem } from "@/lib/community-types";
 import type {
   AnalysisAtlasItem,
   AnalysisPayload,
@@ -14,7 +16,7 @@ import type {
 } from "@/lib/atlas-data";
 
 type RealmKey = "righteous" | "demonic" | "heaven" | "nine";
-type OpenRealm = Exclude<RealmKey, "nine">;
+type OpenRealm = RealmKey;
 const CREATION_CATEGORY_ORDER = ["人物志", "剧情二创", "趣味整活", "混剪手书", "音乐配音", "同人创作"];
 const VIEWED_ITEMS_KEY = "fanrenmap-viewed-items-v1";
 const CREATION_LANES = [
@@ -171,10 +173,12 @@ export default function WeeklyMap({
   const [analysisArchive, setAnalysisArchive] = useState<AnalysisAtlasItem[]>([]);
   const [analysisCreators, setAnalysisCreators] = useState<CreatorProfile[]>([]);
   const [creations, setCreations] = useState<CreationAtlasItem[]>([]);
+  const [communityItems, setCommunityItems] = useState<CommunityItem[]>([]);
   const [realmStatus, setRealmStatus] = useState<Record<OpenRealm, "idle" | "loading" | "ready" | "error">>({
     righteous: "idle",
     demonic: "idle",
     heaven: "idle",
+    nine: "idle",
   });
   const [officialArc, setOfficialArc] = useState(storyArcs.at(-1)?.key || "");
   const [previewArc, setPreviewArc] = useState<string | null>(null);
@@ -186,7 +190,7 @@ export default function WeeklyMap({
   const [shareCopied, setShareCopied] = useState(false);
   const [creationCategory, setCreationCategory] = useState("推荐");
   const [viewedItems, setViewedItems] = useState<Set<string>>(() => new Set());
-  const [onlyUnseen, setOnlyUnseen] = useState<Record<OpenRealm, boolean>>({ righteous: false, demonic: false, heaven: false });
+  const [onlyUnseen, setOnlyUnseen] = useState<Record<OpenRealm, boolean>>({ righteous: false, demonic: false, heaven: false, nine: false });
   const [exitConfirm, setExitConfirm] = useState(false);
   const exitBypassRef = useRef(false);
   const deepLinkReadyRef = useRef(false);
@@ -212,11 +216,16 @@ export default function WeeklyMap({
         const payload = await response.json() as AnalysisPayload;
         setAnalysisArchive(payload.archive);
         setAnalysisCreators(payload.creators);
-      } else {
+      } else if (realm === "heaven") {
         const response = await fetch("/content/creations.json");
         if (!response.ok) throw new Error("creation payload unavailable");
         const payload = await response.json() as CreationPayload;
         setCreations(payload.items);
+      } else {
+        const response = await fetch("/api/community");
+        if (!response.ok) throw new Error("community payload unavailable");
+        const payload = await response.json() as { items: CommunityItem[] };
+        setCommunityItems(payload.items || []);
       }
       loadedRealmsRef.current.add(realm);
       setRealmStatus((current) => ({ ...current, [realm]: "ready" }));
@@ -441,11 +450,10 @@ export default function WeeklyMap({
     {
       key: "nine",
       name: "九国盟",
-      module: "尚未开放",
-      description: "战火纷争，尚未开放",
-      count: 0,
+      module: "九国举荐",
+      description: "慕兰烽火正烈，举荐喜欢的 UP 主与作品入阵。",
+      count: communityItems.length,
       path: paths.nine,
-      locked: true,
     },
   ];
 
@@ -763,6 +771,12 @@ export default function WeeklyMap({
                   {creationItems.map((item, index) => <MediaCard item={item} rank={index + 1} compact viewed={viewedItems.has(item.id)} onViewed={markViewed} key={item.id} />)}
                   {creationItems.length === 0 && <div className="empty-ranking"><strong>这个榜单暂时没有未看作品</strong><p>切换“显示全部”即可重新查看。</p></div>}
                 </div>
+              </div>
+            )}
+
+            {active === "nine" && realmStatus.nine === "ready" && (
+              <div className="module-view community-view">
+                <CommunityHub items={communityItems} onRefresh={() => void loadRealmData("nine", true)} />
               </div>
             )}
           </div>
