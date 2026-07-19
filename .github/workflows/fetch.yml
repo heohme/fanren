@@ -86,6 +86,7 @@ jobs:
             exit 0
           fi
           git commit -m "chore: sync ${{ steps.mode.outputs.mode }} snapshot $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git pull --rebase origin main
           git push
 
       - name: Check stale UPs & alert

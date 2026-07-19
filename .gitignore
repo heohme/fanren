@@ -8,5 +8,6 @@ dist/
 *.log
 .vercel
 next-env.d.ts
+*.tsbuildinfo
 /tmp/
 discover-result.json

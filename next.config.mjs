@@ -1,7 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // CloudBase 静态网站托管直接发布 out/ 目录。
-  // Vercel 也支持该静态导出配置，因此两套部署可以同时保留。
+  // Cloudflare Pages 直接发布 out/ 目录；Vercel 仍可作为备用部署。
   output: "export",
   trailingSlash: true,
   images: {

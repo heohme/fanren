@@ -2,6 +2,10 @@
 
 > 一张持续补全的《凡人修仙传》追番情报地图
 
+## 版本更新
+
+- [V1.1：UP 名录、推荐模式、已看记录与加载优化](docs/updates/2026-07-19-v1.1.md)
+
 凡人残图自动整理每周正片、分集解析、人物专题与公开物料，并按照集数和剧情线索归档。项目不搬运正片或创作者内容，所有入口都回到原始发布页。
 
 新一季 **2026/6/13 起，每周六 11:00** 更新一集。
@@ -68,23 +72,23 @@ UID 获取方式：访问 UP 主主页 `https://space.bilibili.com/<UID>`，URL 
 
 编辑 `data/series.json`。`newSeasonStartEp` 是新一季的起始集号（凡人是从 177 开始，前 176 集不显示在分集追踪里）。
 
-## 部署到腾讯云 CloudBase
+## 部署到 Cloudflare Pages
 
-项目已适配 CloudBase 静态网站托管，构建完成后会生成 `out/` 目录。
+项目当前部署在 [fanrenmap.pages.dev](https://fanrenmap.pages.dev/)，构建完成后会生成 `out/` 目录。
 
-在 CloudBase 控制台选择“静态网站托管 → Git 仓库部署”，连接本仓库并使用以下配置：
+在 Cloudflare Pages 中连接本仓库并使用以下配置：
 
 - Node.js：20.x
 - 安装命令：`npm ci`
-- 构建命令：`npm run build:cloudbase`
+- 构建命令：`npm run build`
 - 输出目录：`out`
 - 主分支：`main`
-- 环境变量：`NEXT_PUBLIC_SITE_URL` 填写 CloudBase 分配的完整访问地址（首次部署可暂不填写）
+- 环境变量：`NEXT_PUBLIC_SITE_URL=https://fanrenmap.pages.dev`
 
-开启自动部署后，后续推送到 `main` 会自动更新 CloudBase 版本。也可以先在本地验证：
+开启自动部署后，后续推送到 `main` 会自动更新 Pages 版本。也可以先在本地验证：
 
 ```bash
-npm run build:cloudbase
+npm run build
 ```
 
 ## 部署到 Vercel（备用）
@@ -102,7 +106,7 @@ GitHub Actions（普通白名单每小时、核心 UP 每 30 分钟、周六官�
     ↓ 跑 scripts/fetch-bilibili.mjs
     ↓ 写入 data/snapshot.json
     ↓ 自动 commit + push
-    ↓ CloudBase / Vercel 检测到 push 自动重新部署
+    ↓ Cloudflare Pages 检测到 push 自动重新部署
 ```
 
 如果 GitHub Actions 抓取失败（B 站风控），脚本会自动重试并刷 cookie，且**保留历史快照**，单次失败不会丢数据。
