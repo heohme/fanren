@@ -1,15 +1,15 @@
 {
-  "generatedAt": 1784526884576,
+  "generatedAt": 1784554130562,
   "taxonomyVersion": 2,
   "promptVersion": 2,
   "model": "doubao-seed-2-0-mini-260428",
   "lastRunUsage": {
-    "input": 24877,
-    "output": 15245,
-    "total": 40122,
-    "requests": 11
+    "input": 1191,
+    "output": 499,
+    "total": 1690,
+    "requests": 1
   },
-  "count": 844,
+  "count": 869,
   "items": {
     "BV1khTq6wEfq": {
       "id": "BV1khTq6wEfq",
@@ -14392,6 +14392,446 @@
       "taxonomyVersion": 2,
       "promptVersion": 2,
       "classifiedAt": 1784526884576
+    },
+    "BV1DmKm6TEVR": {
+      "id": "BV1DmKm6TEVR",
+      "relevance": "related",
+      "contentNature": "episode_analysis",
+      "creationType": "剧情二创",
+      "originality": "unknown",
+      "eventTag": null,
+      "creatorPotential": "one_off",
+      "confidence": 0.99,
+      "riskFlags": [
+        "episode_analysis"
+      ],
+      "reason": "命中逐集解析、正片、预告或长篇复述硬排除规则",
+      "source": "rule",
+      "taxonomyVersion": 2,
+      "promptVersion": 2,
+      "classifiedAt": 1784554130562
+    },
+    "BV1paK66NEWd": {
+      "id": "BV1paK66NEWd",
+      "relevance": "weak",
+      "contentNature": "unknown",
+      "creationType": "趣味整活",
+      "originality": "unknown",
+      "eventTag": null,
+      "creatorPotential": "one_off",
+      "confidence": 0.2,
+      "riskFlags": [
+        "uncertain"
+      ],
+      "reason": "模型返回不完整，安全排除：模型返回未知 ID：BV1Q1Km6BEy",
+      "source": "fallback",
+      "taxonomyVersion": 2,
+      "promptVersion": 2,
+      "classifiedAt": 1784554130562
+    },
+    "BV1ohK16gEPc": {
+      "id": "BV1ohK16gEPc",
+      "relevance": "weak",
+      "contentNature": "unknown",
+      "creationType": "趣味整活",
+      "originality": "unknown",
+      "eventTag": null,
+      "creatorPotential": "one_off",
+      "confidence": 0.2,
+      "riskFlags": [
+        "uncertain"
+      ],
+      "reason": "模型返回不完整，安全排除：模型返回未知 ID：BV1Q1Km6BEy",
+      "source": "fallback",
+      "taxonomyVersion": 2,
+      "promptVersion": 2,
+      "classifiedAt": 1784554130562
+    },
+    "BV1Q1Km6BEf1": {
+      "id": "BV1Q1Km6BEf1",
+      "relevance": "weak",
+      "contentNature": "unknown",
+      "creationType": "音乐配音",
+      "originality": "unknown",
+      "eventTag": null,
+      "creatorPotential": "one_off",
+      "confidence": 0.2,
+      "riskFlags": [
+        "uncertain"
+      ],
+      "reason": "模型返回不完整，安全排除：模型返回未知 ID：BV1Q1Km6BEy",
+      "source": "fallback",
+      "taxonomyVersion": 2,
+      "promptVersion": 2,
+      "classifiedAt": 1784554130562
+    },
+    "BV1ijKU67EhT": {
+      "id": "BV1ijKU67EhT",
+      "relevance": "weak",
+      "contentNature": "unknown",
+      "creationType": "趣味整活",
+      "originality": "unknown",
+      "eventTag": null,
+      "creatorPotential": "one_off",
+      "confidence": 0.2,
+      "riskFlags": [
+        "uncertain"
+      ],
+      "reason": "模型返回不完整，安全排除：模型返回未知 ID：BV1Q1Km6BEy",
+      "source": "fallback",
+      "taxonomyVersion": 2,
+      "promptVersion": 2,
+      "classifiedAt": 1784554130562
+    },
+    "BV1FgKU6pEqJ": {
+      "id": "BV1FgKU6pEqJ",
+      "relevance": "weak",
+      "contentNature": "unknown",
+      "creationType": "趣味整活",
+      "originality": "unknown",
+      "eventTag": null,
+      "creatorPotential": "one_off",
+      "confidence": 0.2,
+      "riskFlags": [
+        "uncertain"
+      ],
+      "reason": "模型返回不完整，安全排除：模型返回未知 ID：BV1Q1Km6BEy",
+      "source": "fallback",
+      "taxonomyVersion": 2,
+      "promptVersion": 2,
+      "classifiedAt": 1784554130562
+    },
+    "BV1evK16iEMq": {
+      "id": "BV1evK16iEMq",
+      "relevance": "weak",
+      "contentNature": "unknown",
+      "creationType": "趣味整活",
+      "originality": "unknown",
+      "eventTag": null,
+      "creatorPotential": "one_off",
+      "confidence": 0.2,
+      "riskFlags": [
+        "uncertain"
+      ],
+      "reason": "模型返回不完整，安全排除：模型返回未知 ID：BV1Q1Km6BEy",
+      "source": "fallback",
+      "taxonomyVersion": 2,
+      "promptVersion": 2,
+      "classifiedAt": 1784554130562
+    },
+    "BV1gyKp6PEhg": {
+      "id": "BV1gyKp6PEhg",
+      "relevance": "weak",
+      "contentNature": "unknown",
+      "creationType": "趣味整活",
+      "originality": "unknown",
+      "eventTag": null,
+      "creatorPotential": "one_off",
+      "confidence": 0.2,
+      "riskFlags": [
+        "uncertain"
+      ],
+      "reason": "模型返回不完整，安全排除：模型返回未知 ID：BV1Q1Km6BEy",
+      "source": "fallback",
+      "taxonomyVersion": 2,
+      "promptVersion": 2,
+      "classifiedAt": 1784554130562
+    },
+    "BV1vZK26rEgs": {
+      "id": "BV1vZK26rEgs",
+      "relevance": "weak",
+      "contentNature": "unknown",
+      "creationType": "趣味整活",
+      "originality": "unknown",
+      "eventTag": null,
+      "creatorPotential": "one_off",
+      "confidence": 0.2,
+      "riskFlags": [
+        "uncertain"
+      ],
+      "reason": "模型返回不完整，安全排除：模型返回未知 ID：BV1Q1Km6BEy",
+      "source": "fallback",
+      "taxonomyVersion": 2,
+      "promptVersion": 2,
+      "classifiedAt": 1784554130562
+    },
+    "BV1FsK16LETH": {
+      "id": "BV1FsK16LETH",
+      "relevance": "weak",
+      "contentNature": "unknown",
+      "creationType": "趣味整活",
+      "originality": "unknown",
+      "eventTag": null,
+      "creatorPotential": "one_off",
+      "confidence": 0.2,
+      "riskFlags": [
+        "uncertain"
+      ],
+      "reason": "模型返回不完整，安全排除：模型返回未知 ID：BV1Q1Km6BEy",
+      "source": "fallback",
+      "taxonomyVersion": 2,
+      "promptVersion": 2,
+      "classifiedAt": 1784554130562
+    },
+    "BV1K2Nx6vEQ7": {
+      "id": "BV1K2Nx6vEQ7",
+      "relevance": "weak",
+      "contentNature": "unknown",
+      "creationType": "趣味整活",
+      "originality": "unknown",
+      "eventTag": null,
+      "creatorPotential": "one_off",
+      "confidence": 0.2,
+      "riskFlags": [
+        "uncertain"
+      ],
+      "reason": "模型返回不完整，安全排除：模型返回未知 ID：BV1Q1Km6BEy",
+      "source": "fallback",
+      "taxonomyVersion": 2,
+      "promptVersion": 2,
+      "classifiedAt": 1784554130562
+    },
+    "BV1M1Kp6YEmm": {
+      "id": "BV1M1Kp6YEmm",
+      "relevance": "weak",
+      "contentNature": "unknown",
+      "creationType": "趣味整活",
+      "originality": "unknown",
+      "eventTag": null,
+      "creatorPotential": "one_off",
+      "confidence": 0.2,
+      "riskFlags": [
+        "uncertain"
+      ],
+      "reason": "模型返回不完整，安全排除：模型返回未知 ID：BV1Q1Km6BEy",
+      "source": "fallback",
+      "taxonomyVersion": 2,
+      "promptVersion": 2,
+      "classifiedAt": 1784554130562
+    },
+    "BV1s7Km6ZEwb": {
+      "id": "BV1s7Km6ZEwb",
+      "relevance": "weak",
+      "contentNature": "unknown",
+      "creationType": "音乐配音",
+      "originality": "unknown",
+      "eventTag": null,
+      "creatorPotential": "one_off",
+      "confidence": 0.2,
+      "riskFlags": [
+        "uncertain"
+      ],
+      "reason": "模型返回不完整，安全排除：模型返回未知 ID：BV1Q1Km6BEy",
+      "source": "fallback",
+      "taxonomyVersion": 2,
+      "promptVersion": 2,
+      "classifiedAt": 1784554130562
+    },
+    "BV1RBKm6VEaF": {
+      "id": "BV1RBKm6VEaF",
+      "relevance": "weak",
+      "contentNature": "unknown",
+      "creationType": "趣味整活",
+      "originality": "unknown",
+      "eventTag": null,
+      "creatorPotential": "one_off",
+      "confidence": 0.2,
+      "riskFlags": [
+        "uncertain"
+      ],
+      "reason": "模型返回不完整，安全排除：模型返回未知 ID：BV1Q1Km6BEy",
+      "source": "fallback",
+      "taxonomyVersion": 2,
+      "promptVersion": 2,
+      "classifiedAt": 1784554130562
+    },
+    "BV1F4Km6QEMN": {
+      "id": "BV1F4Km6QEMN",
+      "relevance": "weak",
+      "contentNature": "unknown",
+      "creationType": "趣味整活",
+      "originality": "unknown",
+      "eventTag": null,
+      "creatorPotential": "one_off",
+      "confidence": 0.2,
+      "riskFlags": [
+        "uncertain"
+      ],
+      "reason": "模型返回不完整，安全排除：模型返回未知 ID：BV1Q1Km6BEy",
+      "source": "fallback",
+      "taxonomyVersion": 2,
+      "promptVersion": 2,
+      "classifiedAt": 1784554130562
+    },
+    "BV1b8KU6BEyM": {
+      "id": "BV1b8KU6BEyM",
+      "relevance": "weak",
+      "contentNature": "unknown",
+      "creationType": "趣味整活",
+      "originality": "unknown",
+      "eventTag": null,
+      "creatorPotential": "one_off",
+      "confidence": 0.2,
+      "riskFlags": [
+        "uncertain"
+      ],
+      "reason": "模型返回不完整，安全排除：模型返回未知 ID：BV1Q1Km6BEy",
+      "source": "fallback",
+      "taxonomyVersion": 2,
+      "promptVersion": 2,
+      "classifiedAt": 1784554130562
+    },
+    "BV1oYKm62ECa": {
+      "id": "BV1oYKm62ECa",
+      "relevance": "weak",
+      "contentNature": "unknown",
+      "creationType": "趣味整活",
+      "originality": "unknown",
+      "eventTag": null,
+      "creatorPotential": "one_off",
+      "confidence": 0.2,
+      "riskFlags": [
+        "uncertain"
+      ],
+      "reason": "模型返回不完整，安全排除：模型返回未知 ID：BV1Q1Km6BEy",
+      "source": "fallback",
+      "taxonomyVersion": 2,
+      "promptVersion": 2,
+      "classifiedAt": 1784554130562
+    },
+    "BV1ohK16gE6n": {
+      "id": "BV1ohK16gE6n",
+      "relevance": "weak",
+      "contentNature": "unknown",
+      "creationType": "剧情二创",
+      "originality": "unknown",
+      "eventTag": null,
+      "creatorPotential": "one_off",
+      "confidence": 0.2,
+      "riskFlags": [
+        "uncertain"
+      ],
+      "reason": "模型返回不完整，安全排除：模型返回未知 ID：BV1Q1Km6BEy",
+      "source": "fallback",
+      "taxonomyVersion": 2,
+      "promptVersion": 2,
+      "classifiedAt": 1784554130562
+    },
+    "BV1wgKr6uEdu": {
+      "id": "BV1wgKr6uEdu",
+      "relevance": "weak",
+      "contentNature": "unknown",
+      "creationType": "趣味整活",
+      "originality": "unknown",
+      "eventTag": null,
+      "creatorPotential": "one_off",
+      "confidence": 0.2,
+      "riskFlags": [
+        "uncertain"
+      ],
+      "reason": "模型返回不完整，安全排除：模型返回未知 ID：BV1Q1Km6BEy",
+      "source": "fallback",
+      "taxonomyVersion": 2,
+      "promptVersion": 2,
+      "classifiedAt": 1784554130562
+    },
+    "BV1LaK166EdH": {
+      "id": "BV1LaK166EdH",
+      "relevance": "related",
+      "contentNature": "secondary_creation",
+      "creationType": "趣味整活",
+      "originality": "deep_adaptation",
+      "eventTag": "凡人官方二创大会",
+      "creatorPotential": "one_off",
+      "confidence": 0.85,
+      "riskFlags": [],
+      "reason": "参与凡人官方二创大会的趣味整活类二次创作内容",
+      "source": "model",
+      "taxonomyVersion": 2,
+      "promptVersion": 2,
+      "classifiedAt": 1784554130562
+    },
+    "BV1DrKp6NEyM": {
+      "id": "BV1DrKp6NEyM",
+      "relevance": "related",
+      "contentNature": "secondary_creation",
+      "creationType": "同人创作",
+      "originality": "deep_adaptation",
+      "eventTag": "凡人官方二创大会",
+      "creatorPotential": "one_off",
+      "confidence": 0.85,
+      "riskFlags": [],
+      "reason": "参与凡人官方二创大会的同人创作类二次创作内容",
+      "source": "model",
+      "taxonomyVersion": 2,
+      "promptVersion": 2,
+      "classifiedAt": 1784554130562
+    },
+    "BV1zpKp67EXY": {
+      "id": "BV1zpKp67EXY",
+      "relevance": "related",
+      "contentNature": "secondary_creation",
+      "creationType": "剧情二创",
+      "originality": "deep_adaptation",
+      "eventTag": null,
+      "creatorPotential": "observe",
+      "confidence": 0.9,
+      "riskFlags": [],
+      "reason": "围绕凡人修仙传世界观的穿越剧情二创内容",
+      "source": "model",
+      "taxonomyVersion": 2,
+      "promptVersion": 2,
+      "classifiedAt": 1784554130562
+    },
+    "BV1RrKm6GEmR": {
+      "id": "BV1RrKm6GEmR",
+      "relevance": "weak",
+      "contentNature": "unknown",
+      "creationType": "趣味整活",
+      "originality": "unknown",
+      "eventTag": null,
+      "creatorPotential": "one_off",
+      "confidence": 0.5,
+      "riskFlags": [
+        "weak_relevance"
+      ],
+      "reason": "内容为支付宝蚂蚁森林与凡人修仙传的联动活动，关联性较弱",
+      "source": "model",
+      "taxonomyVersion": 2,
+      "promptVersion": 2,
+      "classifiedAt": 1784554130562
+    },
+    "BV1gmKm6MEH9": {
+      "id": "BV1gmKm6MEH9",
+      "relevance": "related",
+      "contentNature": "secondary_creation",
+      "creationType": "趣味整活",
+      "originality": "light_edit",
+      "eventTag": "凡人官方二创大会",
+      "creatorPotential": "one_off",
+      "confidence": 0.8,
+      "riskFlags": [],
+      "reason": "参与凡人官方二创大会的现实趣味整活类二次创作内容",
+      "source": "model",
+      "taxonomyVersion": 2,
+      "promptVersion": 2,
+      "classifiedAt": 1784554130562
+    },
+    "BV1Y4KU66EFf": {
+      "id": "BV1Y4KU66EFf",
+      "relevance": "related",
+      "contentNature": "character_or_lore",
+      "creationType": "人物志",
+      "originality": "deep_adaptation",
+      "eventTag": null,
+      "creatorPotential": "observe",
+      "confidence": 0.9,
+      "riskFlags": [],
+      "reason": "围绕韩立人物动机与底层逻辑展开的专题分析内容",
+      "source": "model",
+      "taxonomyVersion": 2,
+      "promptVersion": 2,
+      "classifiedAt": 1784554130562
     }
   }
 }
