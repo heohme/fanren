@@ -1,5 +1,5 @@
 {
-  "generatedAt": 1784746202155,
+  "generatedAt": 1784750159828,
   "series": {
     "title": "凡人修仙传",
     "seasonId": "28747",
@@ -3487,9 +3487,10 @@
         "利维坦LWT"
       ],
       "note": "经典解析向",
+      "source": "search-backfill",
       "error": "all retries failed",
-      "lastFetched": 1784745960356,
-      "lastSuccess": 1784733753102,
+      "lastFetched": 1784750159828,
+      "lastSuccess": 1784750159828,
       "videos": [
         {
           "bvid": "BV1BDKA64Exs",
@@ -4645,7 +4646,7 @@
           "cover": "https://i0.hdslb.com/bfs/archive/dda9e9f97cd3df06db33d64233ffddd2c8895646.jpg",
           "pubTime": 1728122214000,
           "duration": "8:40",
-          "play": 462666,
+          "play": 462706,
           "videoUrl": "http://www.bilibili.com/video/av113254193956688",
           "matched": true,
           "ep": 122,
@@ -4681,7 +4682,7 @@
           "cover": "https://i2.hdslb.com/bfs/archive/5ebaaa83bfcc93c76d913209621364dcf929798f.jpg",
           "pubTime": 1726912500000,
           "duration": "9:7",
-          "play": 507709,
+          "play": 507752,
           "videoUrl": "http://www.bilibili.com/video/av113173042627845",
           "matched": true,
           "ep": 120,
@@ -4735,7 +4736,7 @@
           "cover": "https://i0.hdslb.com/bfs/archive/912abe58d2bbe3b78ba3485302fc7afee294dd7a.jpg",
           "pubTime": 1724493300000,
           "duration": "8:36",
-          "play": 617310,
+          "play": 617358,
           "videoUrl": "http://www.bilibili.com/video/av1756626553",
           "matched": true,
           "ep": 116,
@@ -4771,7 +4772,7 @@
           "cover": "https://i2.hdslb.com/bfs/archive/c40bd892d69a5e1c47ea8ec8cf8fd5c14ead38ee.jpg",
           "pubTime": 1723349100000,
           "duration": "8:27",
-          "play": 676531,
+          "play": 676578,
           "videoUrl": "http://www.bilibili.com/video/av1706420973",
           "matched": true,
           "ep": 114,
@@ -4805,7 +4806,7 @@
           "cover": "https://i1.hdslb.com/bfs/archive/84a3dcb9ae116818593f4798a589a19b69c8d05b.jpg",
           "pubTime": 1722074700000,
           "duration": "9:4",
-          "play": 608641,
+          "play": 608689,
           "videoUrl": "http://www.bilibili.com/video/av1656301535",
           "matched": true,
           "ep": 112,
@@ -4822,7 +4823,7 @@
           "cover": "https://i1.hdslb.com/bfs/archive/3f8bb70568d83dfda506865551aa6b406c3f11e2.jpg",
           "pubTime": 1721541102000,
           "duration": "8:39",
-          "play": 505773,
+          "play": 505817,
           "videoUrl": "http://www.bilibili.com/video/av1006332354",
           "matched": true,
           "ep": 111,
@@ -4841,7 +4842,7 @@
           "cover": "https://i0.hdslb.com/bfs/archive/65f104e5fcf2d21a687f26ba830b31895b88544b.jpg",
           "pubTime": 1720863620000,
           "duration": "7:21",
-          "play": 537433,
+          "play": 537484,
           "videoUrl": "http://www.bilibili.com/video/av1556172504",
           "matched": true,
           "ep": 110,
@@ -4864,6 +4865,23 @@
           "videoUrl": "http://www.bilibili.com/video/av1706017544",
           "matched": true,
           "ep": 109,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [],
+          "discoveredBy": "episode-search"
+        },
+        {
+          "bvid": "BV1r1421r744",
+          "aid": 1555921893,
+          "title": "惊艳！逻辑拉满的虚天殿博弈！《凡人修仙传》108逐帧解析",
+          "description": "多的就不说了~求大家的三连与转发啦！",
+          "cover": "https://i1.hdslb.com/bfs/archive/f33ee9b416ac92af71eea977cea15d7cc18352f8.jpg",
+          "pubTime": 1719654900000,
+          "duration": "9:26",
+          "play": 550308,
+          "videoUrl": "http://www.bilibili.com/video/av1555921893",
+          "matched": true,
+          "ep": 108,
           "isCompilation": false,
           "contentType": "episode",
           "characters": [],
@@ -5560,10 +5578,11 @@
       "uid": "57868863",
       "name": "白马猴子",
       "alias": [],
-      "note": "",
+      "note": "按集搜索发现",
+      "source": "search-backfill",
       "error": "all retries failed",
-      "lastFetched": 1784746056456,
-      "lastSuccess": 1784738596068,
+      "lastFetched": 1784750066609,
+      "lastSuccess": 1784750066609,
       "videos": [
         {
           "bvid": "BV1zVKU6JEJb",
@@ -6941,7 +6960,7 @@
           "cover": "https://i0.hdslb.com/bfs/archive/64d597cff32863bc9fc4236d5f50dd0344055140.jpg",
           "pubTime": 1728141606000,
           "duration": "12:0",
-          "play": 318354,
+          "play": 318373,
           "videoUrl": "http://www.bilibili.com/video/av113255234147332",
           "matched": true,
           "ep": 122,
@@ -7015,7 +7034,7 @@
           "cover": "https://i0.hdslb.com/bfs/archive/708cc19b549fae8875720f9d707713b96dcc9ae2.jpg",
           "pubTime": 1724508153000,
           "duration": "14:9",
-          "play": 282114,
+          "play": 282164,
           "videoUrl": "http://www.bilibili.com/video/av1106508370",
           "matched": true,
           "ep": 116,
@@ -7053,7 +7072,7 @@
           "cover": "https://i0.hdslb.com/bfs/archive/b785e03837e1e6d2f3605c6d38be59eee002abec.jpg",
           "pubTime": 1723292549000,
           "duration": "11:23",
-          "play": 313355,
+          "play": 313375,
           "videoUrl": "http://www.bilibili.com/video/av1206379913",
           "matched": true,
           "ep": 114,
@@ -7085,6 +7104,25 @@
           "discoveredBy": "episode-search"
         },
         {
+          "bvid": "BV1iZ421N7Kc",
+          "aid": 1156355818,
+          "title": "韩立：尊重一下 我是魔道的团宠 不是垃圾佬啊！《凡人修仙传》112逐帧解读",
+          "description": "感谢本期视频的配音小哥@鲜氣菌   当然，也有我自己哈哈",
+          "cover": "https://i1.hdslb.com/bfs/archive/842c07c42f6e7f5ba30970bd2e5b04f2cdc29278.jpg",
+          "pubTime": 1722082353000,
+          "duration": "13:15",
+          "play": 226403,
+          "videoUrl": "http://www.bilibili.com/video/av1156355818",
+          "matched": true,
+          "ep": 112,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [
+            "韩立"
+          ],
+          "discoveredBy": "episode-search"
+        },
+        {
           "bvid": "BV1dE421w7no",
           "aid": 1656452284,
           "title": "双修功法好 韩立捡到宝！《凡人修仙传》111集逐帧解析",
@@ -7092,7 +7130,7 @@
           "cover": "https://i2.hdslb.com/bfs/archive/997be762645df4d2c38f81268cf838b8c61e4f72.jpg",
           "pubTime": 1721477302000,
           "duration": "9:45",
-          "play": 218894,
+          "play": 218903,
           "videoUrl": "http://www.bilibili.com/video/av1656452284",
           "matched": true,
           "ep": 111,
@@ -7960,10 +7998,11 @@
       "uid": "1793524011",
       "name": "清植酱",
       "alias": [],
-      "note": "",
+      "note": "按集搜索发现",
+      "source": "search-backfill",
       "error": null,
-      "lastFetched": 1784746097190,
-      "lastSuccess": 1784746097190,
+      "lastFetched": 1784749943036,
+      "lastSuccess": 1784749943036,
       "videos": [
         {
           "bvid": "BV1YPKK6xEZN",
@@ -8408,6 +8447,25 @@
           "contentType": "episode",
           "characters": [
             "韩立",
+            "玄骨"
+          ],
+          "discoveredBy": "episode-search"
+        },
+        {
+          "bvid": "BV1JPWfeUEeu",
+          "aid": 113016309875580,
+          "title": "玄骨你糊涂啊！怎么敢打韩天尊的主意？丨《凡人修仙传》116集剧情解析",
+          "description": "",
+          "cover": "https://i2.hdslb.com/bfs/archive/a28abe4a3e25015683245e324ecd0211da1b7d3a.jpg",
+          "pubTime": 1724494051000,
+          "duration": "8:4",
+          "play": 46126,
+          "videoUrl": "http://www.bilibili.com/video/av113016309875580",
+          "matched": true,
+          "ep": 116,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [
             "玄骨"
           ],
           "discoveredBy": "episode-search"
@@ -8931,9 +8989,10 @@
       "name": "飞天心宏",
       "alias": [],
       "note": "命运流深度解读",
+      "source": "search-backfill",
       "error": "all retries failed",
-      "lastFetched": 1784746164626,
-      "lastSuccess": 1784739799570,
+      "lastFetched": 1784750159828,
+      "lastSuccess": 1784750159828,
       "videos": [
         {
           "bvid": "BV1q5K56DE1T",
@@ -9694,7 +9753,7 @@
           "cover": "https://i1.hdslb.com/bfs/archive/45e052f2474edd65b60815298e41d61ef3b13a7c.jpg",
           "pubTime": 1724498814000,
           "duration": "12:51",
-          "play": 124372,
+          "play": 124373,
           "videoUrl": "http://www.bilibili.com/video/av1656595163",
           "matched": true,
           "ep": 116,
@@ -9714,7 +9773,7 @@
           "cover": "https://i1.hdslb.com/bfs/archive/1e49081f7db45f6ec9b803f76b4fef22a33b7f3c.jpg",
           "pubTime": 1723291499000,
           "duration": "10:32",
-          "play": 87360,
+          "play": 87362,
           "videoUrl": "http://www.bilibili.com/video/av1356485544",
           "matched": true,
           "ep": 114,
@@ -9776,6 +9835,25 @@
           "isCompilation": false,
           "contentType": "episode",
           "characters": [],
+          "discoveredBy": "episode-search"
+        },
+        {
+          "bvid": "BV1gJ4m1u743",
+          "aid": 1255800308,
+          "title": "凡人修仙传第108集：韩立冒险取宝真拼命，极秒幻境有眼福！",
+          "description": "凡人修仙传第108集：韩立冒险取宝真拼命，极秒幻境有眼福！",
+          "cover": "https://i2.hdslb.com/bfs/archive/85ce1d6daf266b28005ab2175e41ad6c0135219a.jpg",
+          "pubTime": 1719658918000,
+          "duration": "11:5",
+          "play": 65792,
+          "videoUrl": "http://www.bilibili.com/video/av1255800308",
+          "matched": true,
+          "ep": 108,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [
+            "韩立"
+          ],
           "discoveredBy": "episode-search"
         }
       ],
@@ -11087,9 +11165,10 @@
       "name": "双份豆包",
       "alias": [],
       "note": "道友推荐，剧情解析",
+      "source": "search-backfill",
       "error": "all retries failed",
-      "lastFetched": 1784744945785,
-      "lastSuccess": 1784730245833,
+      "lastFetched": 1784750159828,
+      "lastSuccess": 1784750159828,
       "videos": [
         {
           "bvid": "BV1z3K56XEns",
@@ -11944,7 +12023,7 @@
           "cover": "https://i0.hdslb.com/bfs/archive/b191f0b41fc4a9b948e0aa32aa2164562d697674.jpg",
           "pubTime": 1724600238000,
           "duration": "7:45",
-          "play": 19903,
+          "play": 19904,
           "videoUrl": "http://www.bilibili.com/video/av113023322686559",
           "matched": true,
           "ep": 116,
@@ -12018,6 +12097,23 @@
           "videoUrl": "http://www.bilibili.com/video/av1506161862",
           "matched": true,
           "ep": 109,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [],
+          "discoveredBy": "episode-search"
+        },
+        {
+          "bvid": "BV1RS421d7A4",
+          "aid": 1505915799,
+          "title": "凡人修仙传108集|巧夺古宝 坐怀不乱",
+          "description": "",
+          "cover": "https://i2.hdslb.com/bfs/archive/e7ae520af5fb50f99a037574510aab3cc2ec3e1d.jpg",
+          "pubTime": 1719683373000,
+          "duration": "7:29",
+          "play": 10640,
+          "videoUrl": "http://www.bilibili.com/video/av1505915799",
+          "matched": true,
+          "ep": 108,
           "isCompilation": false,
           "contentType": "episode",
           "characters": [],
@@ -14616,8 +14712,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1784710256983,
-      "lastSuccess": 1784710256983,
+      "lastFetched": 1784750113496,
+      "lastSuccess": 1784750113496,
       "videos": [
         {
           "bvid": "BV13jMw6UECD",
@@ -15488,6 +15584,23 @@
           "discoveredBy": "episode-search"
         },
         {
+          "bvid": "BV1jQfxBSE41",
+          "aid": 116130429536395,
+          "title": "【凡人reaction】第120集  南明岛放行，凌玉灵获救，进入天星城",
+          "description": "-",
+          "cover": "https://i2.hdslb.com/bfs/archive/23fe23b15ef0e63278af819368c284fc9d132c9a.jpg",
+          "pubTime": 1772009882000,
+          "duration": "16:13",
+          "play": 826,
+          "videoUrl": "http://www.bilibili.com/video/av116130429536395",
+          "matched": true,
+          "ep": 120,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [],
+          "discoveredBy": "episode-search"
+        },
+        {
           "bvid": "BV1rPftB8Eyp",
           "aid": 116129708115975,
           "title": "【凡人reaction】第117集  玄骨玩火自焚！韩立智取乾蓝冰焰，满载而归",
@@ -15554,7 +15667,7 @@
           "cover": "https://i2.hdslb.com/bfs/archive/23fe23b15ef0e63278af819368c284fc9d132c9a.jpg",
           "pubTime": 1771917855000,
           "duration": "14:21",
-          "play": 667,
+          "play": 669,
           "videoUrl": "http://www.bilibili.com/video/av116124356249336",
           "matched": true,
           "ep": 112,
@@ -15573,7 +15686,7 @@
           "cover": "https://i2.hdslb.com/bfs/archive/23fe23b15ef0e63278af819368c284fc9d132c9a.jpg",
           "pubTime": 1771845651000,
           "duration": "14:30",
-          "play": 755,
+          "play": 758,
           "videoUrl": "http://www.bilibili.com/video/av116119675340804",
           "matched": true,
           "ep": 110,
@@ -16020,8 +16133,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1784710256983,
-      "lastSuccess": 1784710256983,
+      "lastFetched": 1784750113496,
+      "lastSuccess": 1784750113496,
       "videos": [
         {
           "bvid": "BV1Cb7H6yEsE",
@@ -16345,7 +16458,7 @@
           "cover": "https://i2.hdslb.com/bfs/archive/599bb59fd9d19f82147d53a52f7e7d4006cd70ca.jpg",
           "pubTime": 1776052800000,
           "duration": "19:34",
-          "play": 11149,
+          "play": 11155,
           "videoUrl": "http://www.bilibili.com/video/av116391147476137",
           "matched": true,
           "ep": 114,
@@ -16403,7 +16516,7 @@
           "cover": "https://i2.hdslb.com/bfs/archive/22fc6da8f33ef090d3a4141312c1b74ae3ff2707.jpg",
           "pubTime": 1775707200000,
           "duration": "17:22",
-          "play": 8868,
+          "play": 8873,
           "videoUrl": "http://www.bilibili.com/video/av116363599417786",
           "matched": true,
           "ep": 110,
@@ -16871,8 +16984,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1784663737842,
-      "lastSuccess": 1784663737842,
+      "lastFetched": 1784750066609,
+      "lastSuccess": 1784750066609,
       "videos": [
         {
           "bvid": "BV1hLjS6PEV5",
@@ -17091,6 +17204,23 @@
           "characters": [
             "玄骨"
           ],
+          "discoveredBy": "episode-search"
+        },
+        {
+          "bvid": "BV1CMoKBhEay",
+          "aid": 116436479644818,
+          "title": "[凡人修仙传reaction]EP111-112小白出来拉鼎啦",
+          "description": "感谢观看~喜欢可以一键三连支持一下up。\n破一百点赞加更一集，以此类推。",
+          "cover": "https://i0.hdslb.com/bfs/archive/20a60046342cd1b3a5be70f569b507b5b0d018b7.jpg",
+          "pubTime": 1776769200000,
+          "duration": "38:32",
+          "play": 1020,
+          "videoUrl": "http://www.bilibili.com/video/av116436479644818",
+          "matched": true,
+          "ep": 111,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [],
           "discoveredBy": "episode-search"
         }
       ],
@@ -18476,8 +18606,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1784144476625,
-      "lastSuccess": 1784144476625,
+      "lastFetched": 1784750159828,
+      "lastSuccess": 1784750159828,
       "videos": [
         {
           "bvid": "BV1vA4y1f7VL",
@@ -18491,6 +18621,23 @@
           "videoUrl": "http://www.bilibili.com/video/av896603034",
           "matched": true,
           "ep": 171,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [],
+          "discoveredBy": "episode-search"
+        },
+        {
+          "bvid": "BV1DZ4y1h7VP",
+          "aid": 383900337,
+          "title": "凡人修仙传之仙界篇：第108集_离去",
+          "description": "凡人修仙传之仙界篇：第108集_离去",
+          "cover": "https://i1.hdslb.com/bfs/archive/cd4e85a1d6db79aed023b3b110f6f4f98ff5a639.jpg",
+          "pubTime": 1652181300000,
+          "duration": "10:48",
+          "play": 4268,
+          "videoUrl": "http://www.bilibili.com/video/av383900337",
+          "matched": true,
+          "ep": 108,
           "isCompilation": false,
           "contentType": "episode",
           "characters": [],
@@ -18608,8 +18755,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1784692206803,
-      "lastSuccess": 1784692206803,
+      "lastFetched": 1784749983444,
+      "lastSuccess": 1784749983444,
       "videos": [
         {
           "bvid": "BV1hFj86kEwz",
@@ -18912,6 +19059,40 @@
           "videoUrl": "http://www.bilibili.com/video/av116747797535434",
           "matched": true,
           "ep": 120,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [],
+          "discoveredBy": "episode-search"
+        },
+        {
+          "bvid": "BV1p3EQ6aEt5",
+          "aid": 116724175281111,
+          "title": "第116集，凡人修仙传中有些容易被忽视的细节",
+          "description": "凡人修仙传中那些容易被忽视的细节",
+          "cover": "https://i0.hdslb.com/bfs/archive/4357b3ea89dcc2df1f5ae426b57dd721aa57f510.jpg",
+          "pubTime": 1781070023000,
+          "duration": "0:57",
+          "play": 602,
+          "videoUrl": "http://www.bilibili.com/video/av116724175281111",
+          "matched": true,
+          "ep": 116,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [],
+          "discoveredBy": "episode-search"
+        },
+        {
+          "bvid": "BV1A3EQ6aEck",
+          "aid": 116724175215436,
+          "title": "第114集，凡人修仙传中有些容易被忽视的细节",
+          "description": "凡人修仙传中那些容易被忽视的细节",
+          "cover": "https://i2.hdslb.com/bfs/archive/af11c1da98defce4ad98502d7d7eac79fe1ecb44.jpg",
+          "pubTime": 1781069855000,
+          "duration": "1:25",
+          "play": 6124,
+          "videoUrl": "http://www.bilibili.com/video/av116724175215436",
+          "matched": true,
+          "ep": 114,
           "isCompilation": false,
           "contentType": "episode",
           "characters": [],
@@ -19620,8 +19801,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1784710191045,
-      "lastSuccess": 1784710191045,
+      "lastFetched": 1784750066609,
+      "lastSuccess": 1784750066609,
       "videos": [
         {
           "bvid": "BV1AJNT63EVp",
@@ -22954,8 +23135,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1784710095750,
-      "lastSuccess": 1784710095750,
+      "lastFetched": 1784749983444,
+      "lastSuccess": 1784749983444,
       "videos": [
         {
           "bvid": "BV13XoNBrETX",
@@ -23035,7 +23216,7 @@
           "cover": "https://i1.hdslb.com/bfs/archive/03d9d9a05f416ce7c13db448da745242e0854fce.jpg",
           "pubTime": 1776067200000,
           "duration": "69:28",
-          "play": 21005,
+          "play": 21032,
           "videoUrl": "http://www.bilibili.com/video/av116367021841695",
           "matched": true,
           "ep": 114,
@@ -23429,8 +23610,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1784710014840,
-      "lastSuccess": 1784710014840,
+      "lastFetched": 1784749896966,
+      "lastSuccess": 1784749896966,
       "videos": [
         {
           "bvid": "BV195TXzuEGr",
@@ -23722,8 +23903,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1784710227060,
-      "lastSuccess": 1784710227060,
+      "lastFetched": 1784750159828,
+      "lastSuccess": 1784750159828,
       "videos": [
         {
           "bvid": "BV1bM5GziEBf",
@@ -23981,7 +24162,7 @@
           "cover": "https://i1.hdslb.com/bfs/archive/a4428c1c329096ac8a3727acaccc3de0c9f1cb13.png",
           "pubTime": 1724989841000,
           "duration": "19:50",
-          "play": 38126,
+          "play": 38136,
           "videoUrl": "http://www.bilibili.com/video/av113045854488435",
           "matched": true,
           "ep": 116,
@@ -24019,7 +24200,7 @@
           "cover": "https://i1.hdslb.com/bfs/archive/de1487b7ad6e0a76fbfc1139900ae1dfb0ee9d64.png",
           "pubTime": 1724124930000,
           "duration": "8:38",
-          "play": 16465,
+          "play": 16467,
           "videoUrl": "http://www.bilibili.com/video/av112988476473970",
           "matched": true,
           "ep": 114,
@@ -24036,7 +24217,7 @@
           "cover": "https://i1.hdslb.com/bfs/archive/330977246fa5979a2a9a9f1c46f7ebd25669e82a.png",
           "pubTime": 1724124629000,
           "duration": "19:59",
-          "play": 35369,
+          "play": 35376,
           "videoUrl": "http://www.bilibili.com/video/av112988476670531",
           "matched": true,
           "ep": 114,
@@ -24108,7 +24289,7 @@
           "cover": "https://i1.hdslb.com/bfs/archive/39acb93a30d50223d9fdc448d59927922c236248.png",
           "pubTime": 1724038221000,
           "duration": "19:14",
-          "play": 26114,
+          "play": 26120,
           "videoUrl": "http://www.bilibili.com/video/av112983225140065",
           "matched": true,
           "ep": 112,
@@ -24128,7 +24309,7 @@
           "cover": "https://i0.hdslb.com/bfs/archive/7d28b66a5a7a7f78ddc5fe6cbdfe7ad6391d0031.png",
           "pubTime": 1723950353000,
           "duration": "19:5",
-          "play": 27598,
+          "play": 27603,
           "videoUrl": "http://www.bilibili.com/video/av112975356691068",
           "matched": true,
           "ep": 111,
@@ -24147,10 +24328,29 @@
           "cover": "https://i2.hdslb.com/bfs/archive/cf593d549787019e7565d4a521918e49bdbccb13.png",
           "pubTime": 1723864606000,
           "duration": "18:46",
-          "play": 26985,
+          "play": 26989,
           "videoUrl": "http://www.bilibili.com/video/av112975155432879",
           "matched": true,
           "ep": 110,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [
+            "韩立"
+          ],
+          "discoveredBy": "episode-search"
+        },
+        {
+          "bvid": "BV1v6421Z7Hv",
+          "aid": 1405969575,
+          "title": "【凡人修仙传reaction】第108集 韩立夺宝来到极妙幻境",
+          "description": "凡人108",
+          "cover": "https://i2.hdslb.com/bfs/archive/6af40a6478a30b99a3a9a6ec412f9b2dd44dca7a.png",
+          "pubTime": 1719889844000,
+          "duration": "19:59",
+          "play": 19971,
+          "videoUrl": "http://www.bilibili.com/video/av1405969575",
+          "matched": true,
+          "ep": 108,
           "isCompilation": false,
           "contentType": "episode",
           "characters": [
@@ -24439,8 +24639,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1784710062715,
-      "lastSuccess": 1784710062715,
+      "lastFetched": 1784749943036,
+      "lastSuccess": 1784749943036,
       "videos": [
         {
           "bvid": "BV16R4y1U7gx",
@@ -25727,8 +25927,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1784710191045,
-      "lastSuccess": 1784710191045,
+      "lastFetched": 1784750159828,
+      "lastSuccess": 1784750159828,
       "videos": [
         {
           "bvid": "BV1pswxezECX",
@@ -25888,6 +26088,23 @@
           "contentType": "episode",
           "characters": [],
           "discoveredBy": "episode-search"
+        },
+        {
+          "bvid": "BV1bScKeoEqr",
+          "aid": 113811700847235,
+          "title": "【凡人修仙传reaction 】小白第一次看凡人修仙传第108集  贪",
+          "description": "-",
+          "cover": "https://i2.hdslb.com/bfs/archive/bbe3adb1881f37350a53c51a688cff3d42a1d847.jpg",
+          "pubTime": 1736638200000,
+          "duration": "16:3",
+          "play": 568,
+          "videoUrl": "http://www.bilibili.com/video/av113811700847235",
+          "matched": true,
+          "ep": 108,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [],
+          "discoveredBy": "episode-search"
         }
       ],
       "recentTitles": [
@@ -25933,8 +26150,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1784710256983,
-      "lastSuccess": 1784710256983,
+      "lastFetched": 1784750159828,
+      "lastSuccess": 1784750159828,
       "videos": [
         {
           "bvid": "BV1aBfZYuEva",
@@ -25984,6 +26201,23 @@
           "videoUrl": "http://www.bilibili.com/video/av1556038952",
           "matched": true,
           "ep": 109,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [],
+          "discoveredBy": "episode-search"
+        },
+        {
+          "bvid": "BV18E421A7ZA",
+          "aid": 1656012068,
+          "title": "天星双圣reaction凡人修仙传第108集 宝光阁巧取古宝，幻境内纷纷扰扰",
+          "description": "喜欢凡人系列REACTION的兄弟们多多三连支持~\r\n借简介记录一下自己看番历程：你呀，总是能给我出点新花样！要不是这身后有传送阵追你，你小子还真能把宝光阁给搬空！这韩立事后总感觉这个漏洞是刻意的，是不是金魁注意到韩立了，猜到他身上有夺鼎之物来助他一把届时可以为己所用？我感觉这种可能性比较大。美女阻止事情对于韩立确实没啥吸引力，韩立：你不想想这一路我见了多少美女了？幻境感觉受到了侮辱，决定给韩立上上强度，一声“立哥哥”加红绳直接给韩立干破防，不过韩立历过红尘劫问题不会很大，放心！",
+          "cover": "https://i1.hdslb.com/bfs/archive/9e80a4621a92eb338a6dd748a38b75882859f238.png",
+          "pubTime": 1720263948000,
+          "duration": "19:51",
+          "play": 16559,
+          "videoUrl": "http://www.bilibili.com/video/av1656012068",
+          "matched": true,
+          "ep": 108,
           "isCompilation": false,
           "contentType": "episode",
           "characters": [],
@@ -26318,8 +26552,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1784710062715,
-      "lastSuccess": 1784710062715,
+      "lastFetched": 1784750066609,
+      "lastSuccess": 1784750066609,
       "videos": [
         {
           "bvid": "BV1XFtrewE2T",
@@ -26329,7 +26563,7 @@
           "cover": "https://i2.hdslb.com/bfs/archive/0bfd4364e1dcf7db55a36096a5de05087278c595.jpg",
           "pubTime": 1726891058000,
           "duration": "8:47",
-          "play": 13693,
+          "play": 13694,
           "videoUrl": "http://www.bilibili.com/video/av113173478776366",
           "matched": true,
           "ep": 120,
@@ -26617,8 +26851,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1784710062715,
-      "lastSuccess": 1784710062715,
+      "lastFetched": 1784749943036,
+      "lastSuccess": 1784749943036,
       "videos": [
         {
           "bvid": "BV1Mzste7ErR",
@@ -26688,8 +26922,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1784710143743,
-      "lastSuccess": 1784710143743,
+      "lastFetched": 1784750019417,
+      "lastSuccess": 1784750019417,
       "videos": [
         {
           "bvid": "BV1LYFJzaE9Q",
@@ -26699,7 +26933,7 @@
           "cover": "https://i1.hdslb.com/bfs/archive/076abc6c8190864985ad7dd47c8255d8d21f7f84.jpg",
           "pubTime": 1770433200000,
           "duration": "45:40",
-          "play": 14009,
+          "play": 14045,
           "videoUrl": "http://www.bilibili.com/video/av116025437721877",
           "matched": true,
           "ep": 112,
@@ -26745,6 +26979,74 @@
       ],
       "recentTitles": [
         "《凡人修仙传109集reaction》不看后悔！文戏真不错啊，韩立这一集更刻画的有血肉了，单集质量破9！！！！。（画面有大面积遮挡和删减，谨慎观看）"
+      ]
+    },
+    {
+      "uid": "25381713",
+      "name": "囧克君",
+      "alias": [],
+      "note": "按集搜索发现",
+      "source": "search-backfill",
+      "error": null,
+      "lastFetched": 1784750066609,
+      "lastSuccess": 1784750066609,
+      "videos": [
+        {
+          "bvid": "BV11i42167J6",
+          "aid": 1456477782,
+          "title": "韩立徒弟，师父师伯们要进来了！【凡人修仙传111集细节解析】",
+          "description": "凡人修仙传111集细节解析",
+          "cover": "https://i1.hdslb.com/bfs/archive/f4787d797ada66d52aa8fe894698f22d37a376bb.jpg",
+          "pubTime": 1721470621000,
+          "duration": "8:35",
+          "play": 20528,
+          "videoUrl": "http://www.bilibili.com/video/av1456477782",
+          "matched": true,
+          "ep": 111,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [
+            "韩立"
+          ],
+          "discoveredBy": "episode-search"
+        }
+      ],
+      "recentTitles": [
+        "韩立徒弟，师父师伯们要进来了！【凡人修仙传111集细节解析】"
+      ]
+    },
+    {
+      "uid": "33071473",
+      "name": "写写空白纸",
+      "alias": [],
+      "note": "按集搜索发现",
+      "source": "search-backfill",
+      "error": null,
+      "lastFetched": 1784750159828,
+      "lastSuccess": 1784750159828,
+      "videos": [
+        {
+          "bvid": "BV189K46kEWw",
+          "aid": 116955767902703,
+          "title": "安利古人朋友看《凡人修仙传》E108|韩立的嘴角快呀不住了吧！极妙幻境预备备~~",
+          "description": "左边是我的古人朋友@蚊子咬的包啊  ，大家叫她包子吧。因为她的动漫偶像是童年时期的猴哥、葫芦娃、哪吒等等比较传统的经典角色~这是她成年之后第一次看国产长篇动漫，真的0基础~\n右边是我，看过小说（十几年了，忘差不多了），也追了动漫（非细节党），这次是重看~",
+          "cover": "https://i1.hdslb.com/bfs/archive/9c3bd419b80e8eafe9b47cb739669c32e75cd912.jpg",
+          "pubTime": 1784604215000,
+          "duration": "16:52",
+          "play": 4187,
+          "videoUrl": "http://www.bilibili.com/video/av116955767902703",
+          "matched": true,
+          "ep": 108,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [
+            "韩立"
+          ],
+          "discoveredBy": "episode-search"
+        }
+      ],
+      "recentTitles": [
+        "安利古人朋友看《凡人修仙传》E108|韩立的嘴角快呀不住了吧！极妙幻境预备备~~"
       ]
     }
   ]
