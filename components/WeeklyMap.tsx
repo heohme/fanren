@@ -90,6 +90,22 @@ function ProgressiveImage({ src, width = 640 }: { src: string; width?: number })
   );
 }
 
+function biliPlayerUrl(item: AtlasItem) {
+  const bvid = item.id.match(/^BV[0-9A-Za-z]+$/i)?.[0]
+    || item.url.match(/\/video\/(BV[0-9A-Za-z]+)/i)?.[1];
+  const episodeId = item.url.match(/\/bangumi\/play\/ep(\d+)/i)?.[1];
+  const params = new URLSearchParams({
+    autoplay: "0",
+    danmaku: "1",
+    poster: "1",
+    refer: "1",
+  });
+  if (bvid) params.set("bvid", bvid);
+  else if (episodeId) params.set("episodeId", episodeId);
+  else return null;
+  return `https://player.bilibili.com/player.html?${params.toString()}`;
+}
+
 function MediaCard({
   item,
   rank,
@@ -97,6 +113,7 @@ function MediaCard({
   official = false,
   viewed = false,
   onViewed,
+  onPlay,
 }: {
   item: AtlasItem;
   rank: number;
@@ -104,10 +121,17 @@ function MediaCard({
   official?: boolean;
   viewed?: boolean;
   onViewed?: (id: string) => void;
+  onPlay?: (item: AtlasItem) => void;
 }) {
+  const canPlayInline = Boolean(onPlay && biliPlayerUrl(item));
+  const openInline = () => {
+    onViewed?.(item.id);
+    onPlay?.(item);
+  };
+
   if (official) {
-    return (
-      <a className={`media-card official-card ${viewed ? "is-viewed" : ""}`} href={item.url} target="_blank" rel="noreferrer" onClick={() => onViewed?.(item.id)}>
+    const content = (
+      <>
         <div className="media-cover">
           <ProgressiveImage src={item.cover} width={720} />
           <i>{String(rank).padStart(2, "0")}</i>
@@ -122,13 +146,25 @@ function MediaCard({
             <span>{item.durationLabel || "完整正片"}</span>
             <span>{item.publishedLabel || "已上线"}</span>
           </div>
-          <footer><small>{item.subtitle}</small><strong>前往观看 →</strong></footer>
+          <footer><small>{item.subtitle}</small><strong>{canPlayInline ? "站内播放 ▶" : "前往观看 →"}</strong></footer>
         </div>
+      </>
+    );
+    if (canPlayInline) {
+      return (
+        <button className={`media-card media-card-button official-card ${viewed ? "is-viewed" : ""}`} type="button" aria-label={`站内播放：${item.title}`} onClick={openInline}>
+          {content}
+        </button>
+      );
+    }
+    return (
+      <a className={`media-card official-card ${viewed ? "is-viewed" : ""}`} href={item.url} target="_blank" rel="noreferrer" onClick={() => onViewed?.(item.id)}>
+        {content}
       </a>
     );
   }
-  return (
-    <a className={`media-card ${compact ? "compact" : ""} ${viewed ? "is-viewed" : ""}`} href={item.url} target="_blank" rel="noreferrer" onClick={() => onViewed?.(item.id)}>
+  const content = (
+    <>
       <div className="media-cover">
         <ProgressiveImage src={item.cover} width={compact ? 420 : 640} />
         <i>{String(rank).padStart(2, "0")}</i>
@@ -139,9 +175,66 @@ function MediaCard({
         <h2>{item.title}</h2>
         <p>{item.subtitle}</p>
         {item.summary && <div className="media-summary">{item.summary}</div>}
-        <span>{item.play != null ? `${formatPlay(item.play)} 播放` : "前往官方观看"}<em>阅 →</em></span>
+        <span>{item.play != null ? `${formatPlay(item.play)} 播放` : "前往官方观看"}<em>{canPlayInline ? "播 ▶" : "阅 →"}</em></span>
       </div>
+    </>
+  );
+  if (canPlayInline) {
+    return (
+      <button className={`media-card media-card-button ${compact ? "compact" : ""} ${viewed ? "is-viewed" : ""}`} type="button" aria-label={`站内播放：${item.title}`} onClick={openInline}>
+        {content}
+      </button>
+    );
+  }
+  return (
+    <a className={`media-card ${compact ? "compact" : ""} ${viewed ? "is-viewed" : ""}`} href={item.url} target="_blank" rel="noreferrer" onClick={() => onViewed?.(item.id)}>
+      {content}
     </a>
+  );
+}
+
+function VideoPlayerModal({ item, onClose }: { item: AtlasItem; onClose: () => void }) {
+  const closeRef = useRef<HTMLButtonElement>(null);
+  const playerUrl = biliPlayerUrl(item);
+
+  useEffect(() => {
+    const previousFocus = document.activeElement instanceof HTMLElement ? document.activeElement : null;
+    closeRef.current?.focus();
+    return () => previousFocus?.focus();
+  }, []);
+
+  if (!playerUrl) return null;
+
+  return (
+    <div className="video-player-overlay" role="presentation" onClick={onClose}>
+      <section className="video-player-dialog" role="dialog" aria-modal="true" aria-labelledby="video-player-title" onClick={(event) => event.stopPropagation()}>
+        <header>
+          <div>
+            <span>残图留影 · BILIBILI PLAYER</span>
+            <h2 id="video-player-title">{item.title}</h2>
+            <p>{item.subtitle}</p>
+          </div>
+          <button ref={closeRef} type="button" onClick={onClose} aria-label="关闭站内播放器">×</button>
+        </header>
+        <div className="video-player-frame">
+          <iframe
+            src={playerUrl}
+            title={`${item.title} - B站播放器`}
+            scrolling="no"
+            allow="autoplay; encrypted-media; picture-in-picture; fullscreen"
+            allowFullScreen
+            referrerPolicy="strict-origin-when-cross-origin"
+          />
+        </div>
+        <footer>
+          <p>播放器由哔哩哔哩提供；需要更高清画质、登录、点赞或评论时，可前往 B 站继续观看。</p>
+          <div>
+            <button type="button" onClick={onClose}>返回残图</button>
+            <a href={item.url} target="_blank" rel="noreferrer">去 B 站看高清与评论 ↗</a>
+          </div>
+        </footer>
+      </section>
+    </div>
   );
 }
 
@@ -277,6 +370,7 @@ export default function WeeklyMap({
   const [viewedItems, setViewedItems] = useState<Set<string>>(() => new Set());
   const [onlyUnseen, setOnlyUnseen] = useState<Record<OpenRealm, boolean>>({ righteous: false, demonic: false, heaven: false, nine: false });
   const [exitConfirm, setExitConfirm] = useState(false);
+  const [playingItem, setPlayingItem] = useState<AtlasItem | null>(null);
   const exitBypassRef = useRef(false);
   const deepLinkReadyRef = useRef(false);
   const deepLinkLoadRequestedRef = useRef(false);
@@ -372,15 +466,16 @@ export default function WeeklyMap({
   };
 
   useEffect(() => {
-    if (!active && !exitConfirm) return;
+    if (!active && !exitConfirm && !playingItem) return;
     const close = (event: KeyboardEvent) => {
       if (event.key !== "Escape") return;
-      if (exitConfirm) setExitConfirm(false);
+      if (playingItem) setPlayingItem(null);
+      else if (exitConfirm) setExitConfirm(false);
       else setActive(null);
     };
     window.addEventListener("keydown", close);
     return () => window.removeEventListener("keydown", close);
-  }, [active, exitConfirm]);
+  }, [active, exitConfirm, playingItem]);
 
   const analysisEpisodes = useMemo(
     () => Array.from(new Set(analysisArchive
@@ -703,7 +798,7 @@ export default function WeeklyMap({
         className={`ancient-scroll ${active ? "visible" : ""}`}
         role="dialog"
         aria-modal="true"
-        aria-hidden={!active}
+        aria-hidden={!active || Boolean(playingItem)}
         aria-labelledby="scroll-title"
       >
         <div className="scroll-roller left" aria-hidden="true"><i /><i /></div>
@@ -757,7 +852,7 @@ export default function WeeklyMap({
                   <div className="ranking-head-aside"><span>{officialItems.length} 话</span><button className={onlyUnseen.righteous ? "active" : ""} type="button" onClick={() => setOnlyUnseen((value) => ({ ...value, righteous: !value.righteous }))}>{onlyUnseen.righteous ? "显示全部" : "只看未看"}</button></div>
                 </div>
                 <div className="content-rail episode-rail">
-                  {officialItems.map((item, index) => <MediaCard item={item} rank={index + 1} official viewed={viewedItems.has(item.id)} onViewed={markViewed} key={item.id} />)}
+                  {officialItems.map((item, index) => <MediaCard item={item} rank={index + 1} official viewed={viewedItems.has(item.id)} onViewed={markViewed} onPlay={setPlayingItem} key={item.id} />)}
                   {officialItems.length === 0 && <div className="empty-ranking"><strong>这一篇章都看过了</strong><p>切换“显示全部”即可回看已浏览的正片。</p></div>}
                 </div>
               </div>
@@ -796,7 +891,7 @@ export default function WeeklyMap({
                     <div className="ranking-head-aside"><span>{analysisItems.length} 条 · 按播放量排列</span><button className={onlyUnseen.demonic ? "active" : ""} type="button" onClick={() => setOnlyUnseen((value) => ({ ...value, demonic: !value.demonic }))}>{onlyUnseen.demonic ? "显示全部" : "只看未看"}</button></div>
                   </div>
                   <div className="rank-list">
-                    {analysisItems.map((item, index) => <MediaCard item={item} rank={index + 1} compact viewed={viewedItems.has(item.id)} onViewed={markViewed} key={item.id} />)}
+                    {analysisItems.map((item, index) => <MediaCard item={item} rank={index + 1} compact viewed={viewedItems.has(item.id)} onViewed={markViewed} onPlay={setPlayingItem} key={item.id} />)}
                     {analysisItems.length === 0 && <div className="empty-ranking"><strong>本话暂时没有未看解析</strong><p>可以显示全部，或切换到其他剧集。</p></div>}
                   </div>
                 </>}
@@ -823,7 +918,7 @@ export default function WeeklyMap({
                     <div className="ranking-head-aside"><span>{selectedCreatorItems.length} 条</span><button className={onlyUnseen.demonic ? "active" : ""} type="button" onClick={() => setOnlyUnseen((value) => ({ ...value, demonic: !value.demonic }))}>{onlyUnseen.demonic ? "显示全部" : "只看未看"}</button><button className={shareCopied ? "copied" : ""} type="button" onClick={copyAnalysisUpLink}>{shareCopied ? "入口已复制" : "复制专属入口"}</button></div>
                   </div>
                   <div className="rank-list">
-                    {selectedCreatorItems.map((item, index) => <MediaCard item={item} rank={index + 1} compact viewed={viewedItems.has(item.id)} onViewed={markViewed} key={item.id} />)}
+                    {selectedCreatorItems.map((item, index) => <MediaCard item={item} rank={index + 1} compact viewed={viewedItems.has(item.id)} onViewed={markViewed} onPlay={setPlayingItem} key={item.id} />)}
                     {selectedCreatorItems.length === 0 && <div className="empty-ranking"><strong>该作者的作品都看过了</strong><p>切换“显示全部”即可重新查看。</p></div>}
                   </div>
                 </>}
@@ -844,7 +939,7 @@ export default function WeeklyMap({
                   <div className="ranking-head-aside"><span>{creationCategory === "总榜" ? "按累计播放" : "按推荐分与新鲜度"}</span><button className={onlyUnseen.heaven ? "active" : ""} type="button" onClick={() => setOnlyUnseen((value) => ({ ...value, heaven: !value.heaven }))}>{onlyUnseen.heaven ? "显示全部" : "只看未看"}</button></div>
                 </div>
                 <div className="rank-list creation-rank">
-                  {creationItems.map((item, index) => <MediaCard item={item} rank={index + 1} compact viewed={viewedItems.has(item.id)} onViewed={markViewed} key={item.id} />)}
+                  {creationItems.map((item, index) => <MediaCard item={item} rank={index + 1} compact viewed={viewedItems.has(item.id)} onViewed={markViewed} onPlay={setPlayingItem} key={item.id} />)}
                   {creationItems.length === 0 && <div className="empty-ranking"><strong>这个榜单暂时没有未看作品</strong><p>切换“显示全部”即可重新查看。</p></div>}
                 </div>
               </div>
@@ -859,6 +954,7 @@ export default function WeeklyMap({
         </div>
         <div className="scroll-roller right" aria-hidden="true"><i /><i /></div>
       </section>
+      {playingItem && <VideoPlayerModal item={playingItem} onClose={() => setPlayingItem(null)} />}
     </main>
   );
 }
