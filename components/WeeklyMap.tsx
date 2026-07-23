@@ -1,6 +1,7 @@
 "use client";
 
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
+import type { WheelEvent as ReactWheelEvent } from "react";
 import CommunityHub from "@/components/CommunityHub";
 import type { CommunityItem } from "@/lib/community-types";
 import type {
@@ -153,6 +154,90 @@ function CreatorCard({ creator, onSelect, reason }: { creator: CreatorProfile; o
         {(creator.tags.length ? creator.tags : ["内容待完善"]).slice(0, 3).map((tag) => <i key={tag}>{tag}</i>)}
       </span>
     </button>
+  );
+}
+
+function CreatorShelf({
+  title,
+  description,
+  creators,
+  onSelect,
+  reason,
+}: {
+  title: string;
+  description: string;
+  creators: CreatorProfile[];
+  onSelect: (id: string) => void;
+  reason: string | ((creator: CreatorProfile) => string);
+}) {
+  const railRef = useRef<HTMLDivElement>(null);
+  const [canScrollLeft, setCanScrollLeft] = useState(false);
+  const [canScrollRight, setCanScrollRight] = useState(false);
+
+  const updateScrollState = useCallback(() => {
+    const rail = railRef.current;
+    if (!rail) return;
+    const maxScrollLeft = Math.max(0, rail.scrollWidth - rail.clientWidth);
+    setCanScrollLeft(rail.scrollLeft > 2);
+    setCanScrollRight(rail.scrollLeft < maxScrollLeft - 2);
+  }, []);
+
+  useEffect(() => {
+    const rail = railRef.current;
+    if (!rail) return;
+    const frame = window.requestAnimationFrame(updateScrollState);
+    const resizeObserver = typeof ResizeObserver === "undefined" ? null : new ResizeObserver(updateScrollState);
+    resizeObserver?.observe(rail);
+    rail.addEventListener("scroll", updateScrollState, { passive: true });
+    window.addEventListener("resize", updateScrollState);
+    return () => {
+      window.cancelAnimationFrame(frame);
+      resizeObserver?.disconnect();
+      rail.removeEventListener("scroll", updateScrollState);
+      window.removeEventListener("resize", updateScrollState);
+    };
+  }, [creators.length, updateScrollState]);
+
+  const scrollByPage = (direction: -1 | 1) => {
+    const rail = railRef.current;
+    if (!rail) return;
+    rail.scrollBy({ left: direction * Math.max(240, rail.clientWidth * 0.72), behavior: "smooth" });
+  };
+
+  const scrollWithWheel = (event: ReactWheelEvent<HTMLDivElement>) => {
+    if (Math.abs(event.deltaY) <= Math.abs(event.deltaX)) return;
+    const rail = event.currentTarget;
+    const maxScrollLeft = Math.max(0, rail.scrollWidth - rail.clientWidth);
+    const canConsumeWheel = event.deltaY > 0 ? rail.scrollLeft < maxScrollLeft - 2 : rail.scrollLeft > 2;
+    if (!canConsumeWheel) return;
+    event.preventDefault();
+    rail.scrollBy({ left: event.deltaY, behavior: "auto" });
+  };
+
+  return (
+    <section className="creator-shelf">
+      <header>
+        <strong>{title}</strong>
+        <div className="creator-shelf-meta">
+          <span>{description}</span>
+          <div className="creator-shelf-controls" aria-label={`${title}翻页`}>
+            {(canScrollLeft || canScrollRight) && <small>滚轮横移</small>}
+            <button type="button" aria-label={`${title}向左查看更多`} disabled={!canScrollLeft} onClick={() => scrollByPage(-1)}>←</button>
+            <button type="button" aria-label={`${title}向右查看更多`} disabled={!canScrollRight} onClick={() => scrollByPage(1)}>→</button>
+          </div>
+        </div>
+      </header>
+      <div className="creator-rail" ref={railRef} onWheel={scrollWithWheel} tabIndex={0} aria-label={`${title} UP 列表`}>
+        {creators.map((creator) => (
+          <CreatorCard
+            creator={creator}
+            onSelect={onSelect}
+            reason={typeof reason === "function" ? reason(creator) : reason}
+            key={creator.id}
+          />
+        ))}
+      </div>
+    </section>
   );
 }
 
@@ -699,18 +784,9 @@ export default function WeeklyMap({
 
                 {analysisMode === "recommend" && (
                   <div className="recommendation-view">
-                    <section className="creator-shelf">
-                      <header><strong>本话先看谁</strong><span>第 {currentEpisode || "—"} 话已有 {currentEpisodeCreatorCount} 位道友更新</span></header>
-                      <div>{currentEpisodeCreators.map((creator) => <CreatorCard creator={creator} onSelect={selectAnalysisUp} reason="本话有更" key={creator.id} />)}</div>
-                    </section>
-                    <section className="creator-shelf">
-                      <header><strong>稳定更新</strong><span>按历史覆盖集数推荐</span></header>
-                      <div>{stableCreators.map((creator) => <CreatorCard creator={creator} onSelect={selectAnalysisUp} reason={`${creator.episodeCount} 集持续更新`} key={creator.id} />)}</div>
-                    </section>
-                    <section className="creator-shelf">
-                      <header><strong>新道友</strong><span>历史回填与二创发现中的新面孔</span></header>
-                      <div>{newCreators.map((creator) => <CreatorCard creator={creator} onSelect={selectAnalysisUp} reason="新发现" key={creator.id} />)}</div>
-                    </section>
+                    <CreatorShelf title="本话先看谁" description={`第 ${currentEpisode || "—"} 话已有 ${currentEpisodeCreatorCount} 位道友更新`} creators={currentEpisodeCreators} onSelect={selectAnalysisUp} reason="本话有更" />
+                    <CreatorShelf title="稳定更新" description="按历史覆盖集数推荐" creators={stableCreators} onSelect={selectAnalysisUp} reason={(creator) => `${creator.episodeCount} 集持续更新`} />
+                    <CreatorShelf title="新道友" description="历史回填与二创发现中的新面孔" creators={newCreators} onSelect={selectAnalysisUp} reason="新发现" />
                   </div>
                 )}
 
