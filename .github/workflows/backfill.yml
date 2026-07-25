@@ -20,6 +20,7 @@ permissions:
 concurrency:
   group: fetch-snapshot
   cancel-in-progress: false
+  queue: max
 
 jobs:
   backfill:
@@ -33,6 +34,11 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: "20"
+
+      - name: Refresh official episodes
+        env:
+          FETCH_MODE: official
+        run: node scripts/fetch-bilibili.mjs
 
       - name: Backfill episode analyses
         env:

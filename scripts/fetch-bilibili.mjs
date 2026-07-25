@@ -272,7 +272,9 @@ async function main() {
       : FETCH_MODE === "core"
         ? ups.filter((up) => up.tier === "core")
         : [];
-  const shouldFetchOfficial = FETCH_MODE === "official" || FETCH_MODE === "all";
+  // 官方分集接口开销很低。无论本轮抓取范围如何都顺手检查一次，
+  // 这样 GitHub 延迟补跑 core 任务时也能及时推进最新正片。
+  const shouldFetchOfficial = true;
 
   log(`模式: ${FETCH_MODE}，本轮 UP ${selectedUps.length}/${ups.length}`);
 
