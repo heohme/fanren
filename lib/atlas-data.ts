@@ -365,11 +365,9 @@ function buildOfficial(sources: AtlasSources): OfficialPayload {
         badge: episode.ep === currentEpisode ? "最新" : undefined,
       };
     });
-  const previews = sources.snapshot.ups
+  const upPreviews = sources.snapshot.ups
     .find((up) => String(up.uid) === OFFICIAL_UID)?.videos
     .filter((video) => video.contentType === "episode-preview")
-    .sort((a, b) => (b.ep || 0) - (a.ep || 0) || (b.pubTime || 0) - (a.pubTime || 0))
-    .slice(0, 12)
     .map((video): OfficialPreviewAtlasItem => ({
       id: `preview-${video.bvid}`,
       ep: video.ep,
@@ -384,6 +382,41 @@ function buildOfficial(sources: AtlasSources): OfficialPayload {
       play: video.play || 0,
       badge: video.ep && currentEpisode != null && video.ep > currentEpisode ? "待播" : "预告",
     })) || [];
+  const previewByEpisode = new Map<string, OfficialPreviewAtlasItem>();
+  for (const preview of upPreviews) {
+    previewByEpisode.set(preview.ep ? `ep-${preview.ep}` : preview.id, preview);
+  }
+  for (const episode of sources.snapshot.official.episodes) {
+    if (
+      !episode.ep ||
+      currentEpisode == null ||
+      episode.ep <= currentEpisode ||
+      !episode.duration ||
+      episode.duration >= 5 * 60 * 1000
+    ) {
+      continue;
+    }
+    const key = `ep-${episode.ep}`;
+    if (previewByEpisode.has(key)) continue;
+    previewByEpisode.set(key, {
+      id: `season-preview-${episode.ep}`,
+      ep: episode.ep,
+      publishedAt: episode.pubTime || 0,
+      title: `第 ${episode.ep} 话预告`,
+      subtitle: "哔哩哔哩 · 番剧先导",
+      summary: episode.longTitle
+        ? `《凡人修仙传》${episode.longTitle}官方预告`
+        : `《凡人修仙传》第 ${episode.ep} 话官方预告`,
+      meta: "下回预告",
+      publishedLabel: formatPublished(episode.pubTime),
+      cover: episode.cover || sources.snapshot.official.cover,
+      url: episode.playUrl || sources.snapshot.series.officialUrl,
+      badge: "待播",
+    });
+  }
+  const previews = Array.from(previewByEpisode.values())
+    .sort((a, b) => (b.ep || 0) - (a.ep || 0) || b.publishedAt - a.publishedAt)
+    .slice(0, 12);
   return { items, previews };
 }
 

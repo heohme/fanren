@@ -21,6 +21,7 @@ const DATA_DIR = path.join(ROOT, "data");
 const DEBUG = !!process.env.DEBUG;
 const FETCH_MODE = process.env.FETCH_MODE || "all";
 const VALID_FETCH_MODES = new Set(["official", "core", "all"]);
+const OFFICIAL_UP_UID = "98627270";
 const log = (...a) => console.log("[fetch]", ...a);
 const dlog = (...a) => DEBUG && console.log("[debug]", ...a);
 
@@ -266,12 +267,30 @@ async function main() {
   const prevUpMap = new Map(
     (prevSnapshot?.ups || []).map((u) => [String(u.uid), u])
   );
+  const officialUp = ups.find((up) => String(up.uid) === OFFICIAL_UP_UID);
+  const previousCurrentEpisode =
+    Number.parseInt(prevSnapshot?.official?.newEp?.title || "", 10) || 0;
+  const previousPreviewEpisode = Math.max(
+    0,
+    ...(prevUpMap
+      .get(OFFICIAL_UP_UID)
+      ?.videos?.filter((video) => video.contentType === "episode-preview")
+      .map((video) => video.ep || 0) || [])
+  );
+  const shouldRefreshOfficialUp =
+    !!officialUp && previousPreviewEpisode <= previousCurrentEpisode;
   const selectedUps =
     FETCH_MODE === "all"
       ? ups
       : FETCH_MODE === "core"
-        ? ups.filter((up) => up.tier === "core")
-        : [];
+        ? ups.filter(
+            (up) =>
+              up.tier === "core" ||
+              (shouldRefreshOfficialUp && String(up.uid) === OFFICIAL_UP_UID)
+          )
+        : shouldRefreshOfficialUp
+          ? [officialUp]
+          : [];
   // 官方分集接口开销很低。无论本轮抓取范围如何都顺手检查一次，
   // 这样 GitHub 延迟补跑 core 任务时也能及时推进最新正片。
   const shouldFetchOfficial = true;
@@ -303,10 +322,9 @@ async function main() {
     }
   }
 
-  if (
-    FETCH_MODE === "official" &&
-    JSON.stringify(seasonData) === JSON.stringify(prevSnapshot?.official)
-  ) {
+  const seasonChanged =
+    JSON.stringify(seasonData) !== JSON.stringify(prevSnapshot?.official);
+  if (FETCH_MODE === "official" && !seasonChanged && selectedUps.length === 0) {
     log("官方数据无变化，跳过写入与部署");
     return;
   }
@@ -392,6 +410,20 @@ async function main() {
     official: seasonData,
     ups: upResults,
   };
+
+  if (FETCH_MODE === "official" && !seasonChanged) {
+    const previousOfficialVideos =
+      prevUpMap.get(OFFICIAL_UP_UID)?.videos || [];
+    const nextOfficialVideos =
+      updatedUpMap.get(OFFICIAL_UP_UID)?.videos || [];
+    if (
+      JSON.stringify(nextOfficialVideos) ===
+      JSON.stringify(previousOfficialVideos)
+    ) {
+      log("官方预告无变化，跳过写入与部署");
+      return;
+    }
+  }
 
   const outPath = path.join(DATA_DIR, "snapshot.json");
   await fs.writeFile(outPath, JSON.stringify(snapshot, null, 2));
