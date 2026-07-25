@@ -1,15 +1,15 @@
 {
-  "generatedAt": 1784954073751,
+  "generatedAt": 1784954930284,
   "taxonomyVersion": 2,
   "promptVersion": 2,
   "model": "doubao-seed-2-0-mini-260428",
   "lastRunUsage": {
-    "input": 3221,
-    "output": 1890,
-    "total": 5111,
-    "requests": 2
+    "input": 922,
+    "output": 342,
+    "total": 1264,
+    "requests": 1
   },
-  "count": 1179,
+  "count": 1184,
   "items": {
     "BV1khTq6wEfq": {
       "id": "BV1khTq6wEfq",
@@ -20131,6 +20131,92 @@
       "taxonomyVersion": 2,
       "promptVersion": 2,
       "classifiedAt": 1784954073751
+    },
+    "BV1Yh3K6iEms": {
+      "id": "BV1Yh3K6iEms",
+      "relevance": "related",
+      "contentNature": "episode_analysis",
+      "creationType": "剧情二创",
+      "originality": "unknown",
+      "eventTag": null,
+      "creatorPotential": "one_off",
+      "confidence": 0.99,
+      "riskFlags": [
+        "episode_analysis"
+      ],
+      "reason": "命中逐集解析、正片、预告或长篇复述硬排除规则",
+      "source": "rule",
+      "taxonomyVersion": 2,
+      "promptVersion": 2,
+      "classifiedAt": 1784954930284
+    },
+    "BV1Rt3K6qELA": {
+      "id": "BV1Rt3K6qELA",
+      "relevance": "related",
+      "contentNature": "secondary_creation",
+      "creationType": "同人创作",
+      "originality": "deep_adaptation",
+      "eventTag": "凡人官方二创大会",
+      "creatorPotential": "one_off",
+      "confidence": 0.85,
+      "riskFlags": [],
+      "reason": "参与凡人官方二创大会的二次创作内容",
+      "source": "model",
+      "taxonomyVersion": 2,
+      "promptVersion": 2,
+      "classifiedAt": 1784954930284
+    },
+    "BV1X83K6KEru": {
+      "id": "BV1X83K6KEru",
+      "relevance": "related",
+      "contentNature": "secondary_creation",
+      "creationType": "同人创作",
+      "originality": "deep_adaptation",
+      "eventTag": "凡人官方二创大会",
+      "creatorPotential": "one_off",
+      "confidence": 0.85,
+      "riskFlags": [],
+      "reason": "参与凡人官方二创大会的二次创作内容",
+      "source": "model",
+      "taxonomyVersion": 2,
+      "promptVersion": 2,
+      "classifiedAt": 1784954930284
+    },
+    "BV1X83K6KEEP": {
+      "id": "BV1X83K6KEEP",
+      "relevance": "related",
+      "contentNature": "clip_or_repost",
+      "creationType": "混剪手书",
+      "originality": "light_edit",
+      "eventTag": null,
+      "creatorPotential": "one_off",
+      "confidence": 0.7,
+      "riskFlags": [
+        "official_clip"
+      ],
+      "reason": "内容为《凡人修仙传》正片相关的简单剪辑",
+      "source": "model",
+      "taxonomyVersion": 2,
+      "promptVersion": 2,
+      "classifiedAt": 1784954930284
+    },
+    "BV1Qh3K6vEK9": {
+      "id": "BV1Qh3K6vEK9",
+      "relevance": "related",
+      "contentNature": "clip_or_repost",
+      "creationType": "混剪手书",
+      "originality": "light_edit",
+      "eventTag": null,
+      "creatorPotential": "one_off",
+      "confidence": 0.7,
+      "riskFlags": [
+        "official_clip"
+      ],
+      "reason": "内容为《凡人修仙传》正片相关的简单剪辑",
+      "source": "model",
+      "taxonomyVersion": 2,
+      "promptVersion": 2,
+      "classifiedAt": 1784954930284
     }
   }
 }
