@@ -25,13 +25,31 @@ export interface OfficialAtlasItem extends AtlasItem {
   arc: string;
 }
 
+export interface OfficialPreviewAtlasItem extends AtlasItem {
+  ep: number | null;
+  publishedAt: number;
+}
+
 export interface AnalysisAtlasItem extends AtlasItem {
   ep: number | null;
+  episodes: number[];
   upId: string;
   upName: string;
   publishedAt: number;
   contentType: ContentType | "creation" | "other";
   category?: string;
+  characters: string[];
+  aiLabel: "AI 生成" | "AI 辅助" | null;
+}
+
+export interface CreationMetrics {
+  like: number;
+  coin: number;
+  favorite: number;
+  reply: number;
+  danmaku: number;
+  growth: number;
+  engagementRate: number;
 }
 
 export interface CreationAtlasItem extends AtlasItem {
@@ -39,9 +57,16 @@ export interface CreationAtlasItem extends AtlasItem {
   upId: string;
   upName: string;
   publishedAt: number;
+  firstSeenAt: number;
   lane: string | null;
   score: number;
   recommendationLabel: string;
+  recommendationReasons: string[];
+  characters: string[];
+  episodes: number[];
+  aiLabel: "AI 生成" | "AI 辅助" | null;
+  eventTag: string;
+  metrics: CreationMetrics;
 }
 
 export interface StoryArc {
@@ -84,6 +109,7 @@ export interface AtlasSummary {
 
 export interface OfficialPayload {
   items: OfficialAtlasItem[];
+  previews: OfficialPreviewAtlasItem[];
 }
 
 export interface AnalysisPayload {
@@ -108,6 +134,7 @@ interface DiscoveredCreation {
   id: string;
   bvid?: string;
   title: string;
+  description?: string;
   cover: string;
   url: string;
   upId: string;
@@ -118,16 +145,37 @@ interface DiscoveredCreation {
   confidence: number;
   lane?: string | null;
   score?: number;
+  firstSeenAt?: number;
+  classificationReason?: string;
+  eventTag?: string;
+  originality?: string;
 }
 
 interface CreationIndex {
   items?: DiscoveredCreation[];
 }
 
+interface CreationMetricEntry {
+  latest?: {
+    play?: number;
+    like?: number;
+    coin?: number;
+    favorite?: number;
+    reply?: number;
+    danmaku?: number;
+  };
+  samples?: Array<{ sampledAt: number; stats: { play?: number } }>;
+}
+
+interface CreationMetricsIndex {
+  items?: Record<string, CreationMetricEntry>;
+}
+
 interface AtlasSources {
   snapshot: Snapshot;
   upConfigs: UpConfig[];
   discoveredCreations: DiscoveredCreation[];
+  creationMetrics: Record<string, CreationMetricEntry>;
 }
 
 export const STORY_ARCS: StoryArc[] = [
@@ -156,10 +204,12 @@ async function loadSources(): Promise<AtlasSources> {
       readJson<Snapshot>("snapshot.json"),
       readJson<UpConfig[]>("ups.json"),
       readJson<CreationIndex>("creations.json"),
-    ]).then(([snapshot, upConfigs, creations]) => ({
+      readJson<CreationMetricsIndex>("creation-metrics.json"),
+    ]).then(([snapshot, upConfigs, creations, metrics]) => ({
       snapshot,
       upConfigs,
       discoveredCreations: (creations.items || []).filter((item) => item.confidence >= 0.5),
+      creationMetrics: metrics.items || {},
     }));
   }
   return sourcesPromise;
@@ -225,6 +275,69 @@ function recommendationLabel(lane?: string | null) {
   return "编辑推荐";
 }
 
+function inferEpisodes(text: string, currentEpisode: number | null) {
+  const episodes = new Set<number>();
+  const matcher = /(?:第\s*)?(\d{1,3})\s*[集话]|EP\s*0*(\d{1,3})|\bE0*(\d{1,3})\b/gi;
+  for (const match of text.matchAll(matcher)) {
+    const episode = Number.parseInt(match[1] || match[2] || match[3] || "", 10);
+    if (Number.isFinite(episode) && episode > 0 && (currentEpisode == null || episode <= currentEpisode + 2)) episodes.add(episode);
+  }
+  return Array.from(episodes).sort((a, b) => b - a);
+}
+
+function inferCharacters(text: string, characters: string[] = []) {
+  const normalized = text.normalize("NFKC");
+  return characters
+    .filter((character) => character.length >= 2 && normalized.includes(character))
+    .filter((character, index, values) => values.findIndex((item) => item === character) === index)
+    .slice(0, 8);
+}
+
+function inferAiLabel(text: string): "AI 生成" | "AI 辅助" | null {
+  if (/AI\s*(生成|自制|绘画|动画|视频|配音|翻唱|换脸)|AIGC|文生图|图生视频/i.test(text)) return "AI 生成";
+  if (/AI\s*(辅助|协作|润色)|人工智能辅助/i.test(text)) return "AI 辅助";
+  return null;
+}
+
+function metricsFor(sources: AtlasSources, id: string, fallbackPlay = 0): CreationMetrics {
+  const entry = sources.creationMetrics[id];
+  const latest = entry?.latest || {};
+  const samples = entry?.samples || [];
+  const play = latest.play || fallbackPlay || 0;
+  const firstPlay = samples[0]?.stats.play || play;
+  const latestPlay = samples.at(-1)?.stats.play || play;
+  const interactions = (latest.like || 0) + (latest.coin || 0) + (latest.favorite || 0);
+  return {
+    like: latest.like || 0,
+    coin: latest.coin || 0,
+    favorite: latest.favorite || 0,
+    reply: latest.reply || 0,
+    danmaku: latest.danmaku || 0,
+    growth: Math.max(0, latestPlay - firstPlay),
+    engagementRate: play > 0 ? interactions / play : 0,
+  };
+}
+
+function recommendationReasons(item: DiscoveredCreation, metrics: CreationMetrics, generatedAt: number) {
+  const reasons: string[] = [];
+  const age = Math.max(0, generatedAt - (item.pubTime || 0));
+  if (age <= 36 * 60 * 60 * 1000) reasons.push("36 小时新作");
+  if (item.lane === "new_creator_watch") reasons.push("新作者值得关注");
+  if (item.lane === "hidden_gem") reasons.push("高口碑沧海遗珠");
+  if (item.lane === "weekly_hot") reasons.push("本周热度上升");
+  if (item.lane === "event_spotlight") reasons.push(item.eventTag || "活动专题推荐");
+  if (metrics.growth >= 10000) reasons.push("近期增长明显");
+  if (metrics.engagementRate >= 0.08) reasons.push("互动率突出");
+  if (metrics.reply >= 300) reasons.push(`${formatCompactNumber(metrics.reply)} 条讨论`);
+  if (!reasons.length) reasons.push(item.classificationReason || "编辑筛选入藏");
+  return Array.from(new Set(reasons)).slice(0, 3);
+}
+
+function formatCompactNumber(value: number) {
+  if (value >= 10000) return `${(value / 10000).toFixed(value >= 100000 ? 0 : 1)}万`;
+  return String(value);
+}
+
 function buildOfficial(sources: AtlasSources): OfficialPayload {
   const currentEpisode = currentEpisodeOf(sources.snapshot);
   const storyArcs = buildVisibleStoryArcs(currentEpisode);
@@ -252,7 +365,26 @@ function buildOfficial(sources: AtlasSources): OfficialPayload {
         badge: episode.ep === currentEpisode ? "最新" : undefined,
       };
     });
-  return { items };
+  const previews = sources.snapshot.ups
+    .find((up) => String(up.uid) === OFFICIAL_UID)?.videos
+    .filter((video) => video.contentType === "episode-preview")
+    .sort((a, b) => (b.ep || 0) - (a.ep || 0) || (b.pubTime || 0) - (a.pubTime || 0))
+    .slice(0, 12)
+    .map((video): OfficialPreviewAtlasItem => ({
+      id: `preview-${video.bvid}`,
+      ep: video.ep,
+      publishedAt: video.pubTime || 0,
+      title: video.ep ? `第 ${video.ep} 话预告` : "官方预告",
+      subtitle: "哔哩哔哩国创 · 独家预告",
+      summary: video.title,
+      meta: video.ep && currentEpisode != null && video.ep > currentEpisode ? "下回预告" : "历史预告",
+      publishedLabel: formatPublished(video.pubTime),
+      cover: video.cover || sources.snapshot.official.cover,
+      url: video.videoUrl,
+      play: video.play || 0,
+      badge: video.ep && currentEpisode != null && video.ep > currentEpisode ? "待播" : "预告",
+    })) || [];
+  return { items, previews };
 }
 
 function creatorTags(items: AnalysisAtlasItem[]) {
@@ -284,14 +416,18 @@ function buildAnalysis(sources: AtlasSources): AnalysisPayload {
     });
     for (const video of up.videos) {
       const labels = analysisLabels(video);
+      const sourceText = `${video.title}\n${video.description || ""}`;
       archiveMap.set(video.bvid, {
         id: video.bvid,
         ep: video.contentType === "episode" ? video.ep : null,
+        episodes: video.ep != null ? [video.ep] : inferEpisodes(sourceText, currentEpisodeOf(sources.snapshot)),
         upId: String(up.uid),
         upName: up.name,
         publishedAt: video.pubTime || 0,
         contentType: video.contentType || "other",
         category: video.contentType === "character" ? "人物志" : undefined,
+        characters: video.characters?.length ? video.characters : inferCharacters(sourceText, sources.snapshot.series.characters),
+        aiLabel: inferAiLabel(sourceText),
         title: video.title,
         subtitle: `${up.name} · ${labels.subtitle}`,
         cover: video.cover,
@@ -304,6 +440,7 @@ function buildAnalysis(sources: AtlasSources): AnalysisPayload {
 
   for (const item of sources.discoveredCreations) {
     const upId = String(item.upId);
+    const sourceText = `${item.title}\n${item.description || ""}`;
     if (!profileSeed.has(upId)) {
       profileSeed.set(upId, { name: item.upName, aliases: [], note: "", inSnapshot: false });
     }
@@ -311,11 +448,14 @@ function buildAnalysis(sources: AtlasSources): AnalysisPayload {
       archiveMap.set(item.id, {
         id: item.id,
         ep: null,
+        episodes: inferEpisodes(sourceText, currentEpisodeOf(sources.snapshot)),
         upId,
         upName: item.upName,
         publishedAt: item.pubTime || 0,
         contentType: "creation",
         category: item.category,
+        characters: inferCharacters(sourceText, sources.snapshot.series.characters),
+        aiLabel: inferAiLabel(sourceText),
         title: item.title,
         subtitle: `${item.upName} · ${item.category}`,
         cover: item.cover,
@@ -377,58 +517,67 @@ function buildCreations(sources: AtlasSources): CreationPayload {
       String(up.uid) === REMIX_UID ||
       (/二创|手书|混剪|鬼畜|凡人版|人物志/.test(video.title) && video.contentType !== "episode")
     )
-    .map(({ up, video }) => ({
-      id: video.bvid,
-      category: creationCategory(video),
-      upId: String(up.uid),
-      upName: up.name,
-      publishedAt: video.pubTime || 0,
-      lane: null,
-      score: 0,
-      recommendationLabel: "历史收录",
-      title: video.title,
-      subtitle: `${up.name} · 历史收录`,
-      cover: video.cover,
-      url: video.videoUrl,
-      play: video.play || 0,
-      badge: creationCategory(video),
-    }));
+    .map(({ up, video }) => {
+      const sourceText = `${video.title}\n${video.description || ""}`;
+      const metrics = metricsFor(sources, video.bvid, video.play || 0);
+      return {
+        id: video.bvid,
+        category: creationCategory(video),
+        upId: String(up.uid),
+        upName: up.name,
+        publishedAt: video.pubTime || 0,
+        firstSeenAt: video.pubTime || 0,
+        lane: null,
+        score: 0,
+        recommendationLabel: "历史收录",
+        recommendationReasons: ["历史优质内容"],
+        characters: video.characters?.length ? video.characters : inferCharacters(sourceText, sources.snapshot.series.characters),
+        episodes: video.ep != null ? [video.ep] : inferEpisodes(sourceText, currentEpisodeOf(sources.snapshot)),
+        aiLabel: inferAiLabel(sourceText),
+        eventTag: "",
+        metrics,
+        title: video.title,
+        subtitle: `${up.name} · 历史收录`,
+        summary: "历史内容归档，适合回看与补藏。",
+        cover: video.cover,
+        url: video.videoUrl,
+        play: video.play || 0,
+        badge: creationCategory(video),
+      };
+    });
 
   const creationMap = new Map(snapshotCreations.map((item) => [item.id, item]));
   for (const item of sources.discoveredCreations) {
     const label = recommendationLabel(item.lane);
+    const sourceText = `${item.title}\n${item.description || ""}`;
+    const metrics = metricsFor(sources, item.id, item.play || 0);
+    const reasons = recommendationReasons(item, metrics, sources.snapshot.generatedAt);
     creationMap.set(item.id, {
       id: item.id,
       category: item.category,
       upId: String(item.upId),
       upName: item.upName,
       publishedAt: item.pubTime || 0,
+      firstSeenAt: item.firstSeenAt || item.pubTime || 0,
       lane: item.lane || null,
       score: item.score || 0,
       recommendationLabel: label,
+      recommendationReasons: reasons,
+      characters: inferCharacters(sourceText, sources.snapshot.series.characters),
+      episodes: inferEpisodes(sourceText, currentEpisodeOf(sources.snapshot)),
+      aiLabel: inferAiLabel(sourceText),
+      eventTag: item.eventTag || "",
+      metrics,
       title: item.title,
       subtitle: `${item.upName} · ${label}`,
+      summary: reasons.join(" · "),
       cover: item.cover,
       url: item.url,
-      play: item.play || 0,
+      play: sources.creationMetrics[item.id]?.latest?.play || item.play || 0,
       badge: item.category,
     });
   }
   return { items: Array.from(creationMap.values()) };
-}
-
-function analysisCount(payload: AnalysisPayload) {
-  const counted = new Map<string, AnalysisAtlasItem>();
-  for (const item of payload.archive) {
-    if (item.contentType === "episode" && item.ep != null) {
-      const key = `${item.ep}:${item.upId}`;
-      const previous = counted.get(key);
-      if (!previous || (item.play || 0) > (previous.play || 0)) counted.set(key, item);
-    } else if (item.contentType === "topic" || item.contentType === "character") {
-      counted.set(item.id, item);
-    }
-  }
-  return counted.size;
 }
 
 export async function getAtlasSummary(): Promise<AtlasSummary | null> {
@@ -444,7 +593,7 @@ export async function getAtlasSummary(): Promise<AtlasSummary | null> {
       storyArcs: buildVisibleStoryArcs(currentEpisode),
       counts: {
         official: official.items.length,
-        analysis: analysisCount(analysis),
+        analysis: analysis.archive.length,
         creations: creations.items.length,
       },
     };

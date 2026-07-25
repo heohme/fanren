@@ -1,9 +1,7 @@
 "use client";
 
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
-import type { WheelEvent as ReactWheelEvent } from "react";
 import CommunityHub from "@/components/CommunityHub";
-import type { CommunityItem } from "@/lib/community-types";
 import type {
   AnalysisAtlasItem,
   AnalysisPayload,
@@ -12,21 +10,17 @@ import type {
   CreationPayload,
   CreatorProfile,
   OfficialAtlasItem,
+  OfficialPreviewAtlasItem,
   OfficialPayload,
   StoryArc,
 } from "@/lib/atlas-data";
 
 type RealmKey = "righteous" | "demonic" | "heaven" | "nine";
-type OpenRealm = RealmKey;
+type OpenRealm = Exclude<RealmKey, "nine">;
+type AnalysisMode = "latest" | "episode" | "directory" | "character" | "category" | "ai";
 const CREATION_CATEGORY_ORDER = ["人物志", "剧情二创", "趣味整活", "混剪手书", "音乐配音", "同人创作"];
+const ANALYSIS_BATCH_SIZE = 80;
 const VIEWED_ITEMS_KEY = "fanrenmap-viewed-items-v1";
-const CREATION_LANES = [
-  { key: "推荐", lane: null },
-  { key: "本周热门", lane: "weekly_hot" },
-  { key: "新人发现", lane: "new_creator_watch" },
-  { key: "沧海遗珠", lane: "hidden_gem" },
-  { key: "活动专题", lane: "event_spotlight" },
-] as const;
 
 interface Realm {
   key: RealmKey;
@@ -238,6 +232,90 @@ function VideoPlayerModal({ item, onClose }: { item: AtlasItem; onClose: () => v
   );
 }
 
+function PreviewCard({ item, featured = false, viewed = false, onViewed, onPlay }: { item: OfficialPreviewAtlasItem; featured?: boolean; viewed?: boolean; onViewed: (id: string) => void; onPlay?: (item: AtlasItem) => void }) {
+  const canPlayInline = Boolean(onPlay && biliPlayerUrl(item));
+  const content = (
+    <>
+      <div className="preview-cover">
+        <ProgressiveImage src={item.cover} width={featured ? 860 : 520} />
+        <span>{item.badge || "预告"}</span>
+        {viewed && <b>✓ 已看</b>}
+      </div>
+      <div className="preview-copy">
+        <small>{item.meta || "官方预告"} · {item.publishedLabel}</small>
+        <h2>{item.title}</h2>
+        <p>{item.summary}</p>
+        <footer><span>{item.play != null ? `${formatPlay(item.play)} 播放` : "官方物料"}</span><strong>{canPlayInline ? "站内播放 ▶" : "观看预告 →"}</strong></footer>
+      </div>
+    </>
+  );
+  if (canPlayInline) {
+    return (
+      <button className={`preview-card preview-card-button ${featured ? "featured" : ""} ${viewed ? "is-viewed" : ""}`} type="button" aria-label={`站内播放：${item.title}`} onClick={() => { onViewed(item.id); onPlay?.(item); }}>
+        {content}
+      </button>
+    );
+  }
+  return (
+    <a className={`preview-card ${featured ? "featured" : ""} ${viewed ? "is-viewed" : ""}`} href={item.url} target="_blank" rel="noreferrer" onClick={() => onViewed(item.id)}>
+      {content}
+    </a>
+  );
+}
+
+function RecommendationCard({ item, rank, viewed, onViewed, onPlay }: { item: CreationAtlasItem; rank: number; viewed: boolean; onViewed: (id: string) => void; onPlay?: (item: AtlasItem) => void }) {
+  const canPlayInline = Boolean(onPlay && biliPlayerUrl(item));
+  const content = (
+    <>
+      <div className="daily-cover">
+        <ProgressiveImage src={item.cover} width={620} />
+        <i>{String(rank).padStart(2, "0")}</i>
+        <b>{item.recommendationLabel}</b>
+        {viewed && <span>✓ 已看</span>}
+      </div>
+      <div className="daily-copy">
+        <small>{item.upName} · {item.category}{item.aiLabel ? ` · ${item.aiLabel}` : ""}</small>
+        <h2>{item.title}</h2>
+        <div className="reason-chips">{item.recommendationReasons.slice(0, 3).map((reason) => <em key={reason}>{reason}</em>)}</div>
+        <footer>
+          <span>{formatPlay(item.play || 0)} 播放 · {formatPlay(item.metrics.like)} 赞 · {formatPlay(item.metrics.reply)} 评</span>
+          <strong>{canPlayInline ? "站内播放 ▶" : "去看 →"}</strong>
+        </footer>
+      </div>
+    </>
+  );
+  if (canPlayInline) {
+    return (
+      <button className={`daily-card daily-card-button ${viewed ? "is-viewed" : ""}`} type="button" aria-label={`站内播放：${item.title}`} onClick={() => { onViewed(item.id); onPlay?.(item); }}>
+        {content}
+      </button>
+    );
+  }
+  return (
+    <a className={`daily-card ${viewed ? "is-viewed" : ""}`} href={item.url} target="_blank" rel="noreferrer" onClick={() => onViewed(item.id)}>
+      {content}
+    </a>
+  );
+}
+
+function selectDiverse(items: CreationAtlasItem[], limit: number, used = new Set<string>()) {
+  const result: CreationAtlasItem[] = [];
+  const creators = new Map<string, number>();
+  for (const item of items) {
+    if (used.has(item.id) || (creators.get(item.upId) || 0) >= 1) continue;
+    result.push(item);
+    used.add(item.id);
+    creators.set(item.upId, (creators.get(item.upId) || 0) + 1);
+    if (result.length >= limit) break;
+  }
+  return result;
+}
+
+function LoadMore({ shown, total, onMore }: { shown: number; total: number; onMore: () => void }) {
+  if (shown >= total) return null;
+  return <button className="load-more" type="button" onClick={onMore}><span>已展卷 {shown} / {total}</span><strong>再展开 {Math.min(ANALYSIS_BATCH_SIZE, total - shown)} 部 ＋</strong></button>;
+}
+
 function CreatorCard({ creator, onSelect, reason }: { creator: CreatorProfile; onSelect: (id: string) => void; reason?: string }) {
   return (
     <button className="creator-card" type="button" onClick={() => onSelect(creator.id)}>
@@ -247,90 +325,6 @@ function CreatorCard({ creator, onSelect, reason }: { creator: CreatorProfile; o
         {(creator.tags.length ? creator.tags : ["内容待完善"]).slice(0, 3).map((tag) => <i key={tag}>{tag}</i>)}
       </span>
     </button>
-  );
-}
-
-function CreatorShelf({
-  title,
-  description,
-  creators,
-  onSelect,
-  reason,
-}: {
-  title: string;
-  description: string;
-  creators: CreatorProfile[];
-  onSelect: (id: string) => void;
-  reason: string | ((creator: CreatorProfile) => string);
-}) {
-  const railRef = useRef<HTMLDivElement>(null);
-  const [canScrollLeft, setCanScrollLeft] = useState(false);
-  const [canScrollRight, setCanScrollRight] = useState(false);
-
-  const updateScrollState = useCallback(() => {
-    const rail = railRef.current;
-    if (!rail) return;
-    const maxScrollLeft = Math.max(0, rail.scrollWidth - rail.clientWidth);
-    setCanScrollLeft(rail.scrollLeft > 2);
-    setCanScrollRight(rail.scrollLeft < maxScrollLeft - 2);
-  }, []);
-
-  useEffect(() => {
-    const rail = railRef.current;
-    if (!rail) return;
-    const frame = window.requestAnimationFrame(updateScrollState);
-    const resizeObserver = typeof ResizeObserver === "undefined" ? null : new ResizeObserver(updateScrollState);
-    resizeObserver?.observe(rail);
-    rail.addEventListener("scroll", updateScrollState, { passive: true });
-    window.addEventListener("resize", updateScrollState);
-    return () => {
-      window.cancelAnimationFrame(frame);
-      resizeObserver?.disconnect();
-      rail.removeEventListener("scroll", updateScrollState);
-      window.removeEventListener("resize", updateScrollState);
-    };
-  }, [creators.length, updateScrollState]);
-
-  const scrollByPage = (direction: -1 | 1) => {
-    const rail = railRef.current;
-    if (!rail) return;
-    rail.scrollBy({ left: direction * Math.max(240, rail.clientWidth * 0.72), behavior: "smooth" });
-  };
-
-  const scrollWithWheel = (event: ReactWheelEvent<HTMLDivElement>) => {
-    if (Math.abs(event.deltaY) <= Math.abs(event.deltaX)) return;
-    const rail = event.currentTarget;
-    const maxScrollLeft = Math.max(0, rail.scrollWidth - rail.clientWidth);
-    const canConsumeWheel = event.deltaY > 0 ? rail.scrollLeft < maxScrollLeft - 2 : rail.scrollLeft > 2;
-    if (!canConsumeWheel) return;
-    event.preventDefault();
-    rail.scrollBy({ left: event.deltaY, behavior: "auto" });
-  };
-
-  return (
-    <section className="creator-shelf">
-      <header>
-        <strong>{title}</strong>
-        <div className="creator-shelf-meta">
-          <span>{description}</span>
-          <div className="creator-shelf-controls" aria-label={`${title}翻页`}>
-            {(canScrollLeft || canScrollRight) && <small>滚轮横移</small>}
-            <button type="button" aria-label={`${title}向左查看更多`} disabled={!canScrollLeft} onClick={() => scrollByPage(-1)}>←</button>
-            <button type="button" aria-label={`${title}向右查看更多`} disabled={!canScrollRight} onClick={() => scrollByPage(1)}>→</button>
-          </div>
-        </div>
-      </header>
-      <div className="creator-rail" ref={railRef} onWheel={scrollWithWheel} tabIndex={0} aria-label={`${title} UP 列表`}>
-        {creators.map((creator) => (
-          <CreatorCard
-            creator={creator}
-            onSelect={onSelect}
-            reason={typeof reason === "function" ? reason(creator) : reason}
-            key={creator.id}
-          />
-        ))}
-      </div>
-    </section>
   );
 }
 
@@ -348,27 +342,29 @@ export default function WeeklyMap({
   const [active, setActive] = useState<OpenRealm | null>(null);
   const [hovered, setHovered] = useState<RealmKey | null>(null);
   const [official, setOfficial] = useState<OfficialAtlasItem[]>([]);
+  const [officialPreviews, setOfficialPreviews] = useState<OfficialPreviewAtlasItem[]>([]);
   const [analysisArchive, setAnalysisArchive] = useState<AnalysisAtlasItem[]>([]);
   const [analysisCreators, setAnalysisCreators] = useState<CreatorProfile[]>([]);
   const [creations, setCreations] = useState<CreationAtlasItem[]>([]);
-  const [communityItems, setCommunityItems] = useState<CommunityItem[]>([]);
   const [realmStatus, setRealmStatus] = useState<Record<OpenRealm, "idle" | "loading" | "ready" | "error">>({
     righteous: "idle",
     demonic: "idle",
     heaven: "idle",
-    nine: "idle",
   });
+  const [officialMode, setOfficialMode] = useState<"episodes" | "previews">("episodes");
   const [officialArc, setOfficialArc] = useState(storyArcs.at(-1)?.key || "");
   const [previewArc, setPreviewArc] = useState<string | null>(null);
-  const [analysisMode, setAnalysisMode] = useState<"recommend" | "episode" | "directory">("recommend");
+  const [analysisMode, setAnalysisMode] = useState<AnalysisMode>("latest");
   const [analysisEpisode, setAnalysisEpisode] = useState(currentEpisode || 0);
   const [analysisUp, setAnalysisUp] = useState("");
+  const [analysisCharacter, setAnalysisCharacter] = useState("");
+  const [analysisCategory, setAnalysisCategory] = useState("");
+  const [analysisVisibleLimit, setAnalysisVisibleLimit] = useState(ANALYSIS_BATCH_SIZE);
   const [creatorQuery, setCreatorQuery] = useState("");
   const [creatorTag, setCreatorTag] = useState("全部");
   const [shareCopied, setShareCopied] = useState(false);
-  const [creationCategory, setCreationCategory] = useState("推荐");
   const [viewedItems, setViewedItems] = useState<Set<string>>(() => new Set());
-  const [onlyUnseen, setOnlyUnseen] = useState<Record<OpenRealm, boolean>>({ righteous: false, demonic: false, heaven: false, nine: false });
+  const [onlyUnseen, setOnlyUnseen] = useState<Record<OpenRealm, boolean>>({ righteous: false, demonic: false, heaven: true });
   const [exitConfirm, setExitConfirm] = useState(false);
   const [playingItem, setPlayingItem] = useState<AtlasItem | null>(null);
   const exitBypassRef = useRef(false);
@@ -389,6 +385,7 @@ export default function WeeklyMap({
         if (!response.ok) throw new Error("official payload unavailable");
         const payload = await response.json() as OfficialPayload;
         setOfficial(payload.items);
+        setOfficialPreviews(payload.previews || []);
       } else if (realm === "demonic") {
         const response = await fetch("/content/analysis.json");
         if (!response.ok) throw new Error("analysis payload unavailable");
@@ -400,11 +397,6 @@ export default function WeeklyMap({
         if (!response.ok) throw new Error("creation payload unavailable");
         const payload = await response.json() as CreationPayload;
         setCreations(payload.items);
-      } else {
-        const response = await fetch("/api/community");
-        if (!response.ok) throw new Error("community payload unavailable");
-        const payload = await response.json() as { items: CommunityItem[] };
-        setCommunityItems(payload.items || []);
       }
       loadedRealmsRef.current.add(realm);
       setRealmStatus((current) => ({ ...current, [realm]: "ready" }));
@@ -502,15 +494,26 @@ export default function WeeklyMap({
         .some((value) => value.normalize("NFKC").toLocaleLowerCase("zh-CN").includes(token));
     });
   }, [analysisUps, creatorQuery, creatorTag]);
-  const creationCategories = useMemo(
-    () => [
-      ...CREATION_LANES.map((item) => item.key),
-      "总榜",
-      ...CREATION_CATEGORY_ORDER.filter((category) => creations.some((item) => item.category === category)),
-      ...Array.from(new Set(creations.map((item) => item.category))).filter((category) => !CREATION_CATEGORY_ORDER.includes(category)),
-    ],
-    [creations]
-  );
+  const analysisCharacters = useMemo(() => Array.from(new Set(analysisArchive.flatMap((item) => item.characters)))
+    .map((name) => ({ name, count: analysisArchive.filter((item) => item.characters.includes(name)).length }))
+    .filter((item) => item.count >= 1)
+    .sort((a, b) => b.count - a.count || a.name.localeCompare(b.name, "zh-CN")), [analysisArchive]);
+  const analysisCategories = useMemo(() => Array.from(new Set(analysisArchive.map((item) => item.category).filter((value): value is string => Boolean(value))))
+    .map((name) => ({ name, count: analysisArchive.filter((item) => item.category === name).length }))
+    .sort((a, b) => {
+      const aIndex = CREATION_CATEGORY_ORDER.indexOf(a.name);
+      const bIndex = CREATION_CATEGORY_ORDER.indexOf(b.name);
+      return (aIndex < 0 ? CREATION_CATEGORY_ORDER.length : aIndex) - (bIndex < 0 ? CREATION_CATEGORY_ORDER.length : bIndex) || b.count - a.count;
+    }), [analysisArchive]);
+
+  useEffect(() => {
+    if (!analysisCharacter && analysisCharacters[0]) setAnalysisCharacter(analysisCharacters[0].name);
+    if (!analysisCategory && analysisCategories[0]) setAnalysisCategory(analysisCategories[0].name);
+  }, [analysisCategories, analysisCategory, analysisCharacter, analysisCharacters]);
+
+  useEffect(() => {
+    setAnalysisVisibleLimit(ANALYSIS_BATCH_SIZE);
+  }, [analysisMode, analysisCharacter, analysisCategory, onlyUnseen.demonic]);
 
   useEffect(() => {
     if (deepLinkLoadRequestedRef.current) return;
@@ -565,7 +568,7 @@ export default function WeeklyMap({
     setUpInAddress(upId);
   };
 
-  const selectAnalysisMode = (mode: "recommend" | "episode" | "directory") => {
+  const selectAnalysisMode = (mode: AnalysisMode) => {
     setAnalysisMode(mode);
     setShareCopied(false);
     if (mode === "directory") return;
@@ -606,34 +609,35 @@ export default function WeeklyMap({
     {
       key: "heaven",
       name: "天道盟",
-      module: "万象二创",
-      description: "人物志、趣味恶搞与混剪手书，入盟一观今日榜单。",
+      module: "每日精选",
+      description: "晨晚两次寻迹，从万卷二创中挑出今天值得看的作品。",
       count: counts.creations,
       path: paths.heaven,
     },
     {
       key: "righteous",
       name: "正道",
-      module: "官方正片",
-      description: "按动画篇章循迹，快速抵达每一段修仙旅程。",
+      module: "正片 · 预告",
+      description: "官方正片按篇章归档，下一话预告单独成卷。",
       count: counts.official,
       path: paths.righteous,
     },
     {
       key: "demonic",
       name: "魔道",
-      module: "UP 主解析",
-      description: "本话推荐、全部 UP 名录与百家论道，一卷尽览。",
+      module: "二创万象",
+      description: "按剧集、作者、角色、类型与 AI 标记纵览全部二创。",
       count: counts.analysis,
       path: paths.demonic,
     },
     {
       key: "nine",
       name: "九国盟",
-      module: "九国举荐",
-      description: "慕兰烽火正烈，举荐喜欢的 UP 主与作品入阵。",
-      count: communityItems.length,
+      module: "边境封印",
+      description: "战火燃烧，暂未开放",
+      count: 0,
       path: paths.nine,
+      locked: true,
     },
   ];
 
@@ -649,9 +653,10 @@ export default function WeeklyMap({
   const episodeAnalysisItems = useMemo(() => {
     const byCreator = new Map<string, AnalysisAtlasItem>();
     for (const item of analysisArchive) {
-      if (item.contentType !== "episode" || item.ep !== analysisEpisode) continue;
-      const previous = byCreator.get(item.upId);
-      if (!previous || (item.play || 0) > (previous.play || 0)) byCreator.set(item.upId, item);
+      if (!item.episodes.includes(analysisEpisode)) continue;
+      const key = item.contentType === "episode" ? item.upId : item.id;
+      const previous = byCreator.get(key);
+      if (!previous || (item.play || 0) > (previous.play || 0)) byCreator.set(key, item);
     }
     return Array.from(byCreator.values()).sort((a, b) => (b.play || 0) - (a.play || 0));
   }, [analysisArchive, analysisEpisode]);
@@ -662,44 +667,35 @@ export default function WeeklyMap({
     .filter((item) => !onlyUnseen.demonic || !viewedItems.has(item.id))
     .sort((a, b) => b.publishedAt - a.publishedAt || (b.play || 0) - (a.play || 0));
   const analysisItems = episodeAnalysisItems.filter((item) => !onlyUnseen.demonic || !viewedItems.has(item.id));
+  const latestAnalysisItems = analysisArchive
+    .filter((item) => !onlyUnseen.demonic || !viewedItems.has(item.id))
+    .slice(0, 120);
+  const characterItems = analysisArchive
+    .filter((item) => item.characters.includes(analysisCharacter))
+    .filter((item) => !onlyUnseen.demonic || !viewedItems.has(item.id));
+  const categoryItems = analysisArchive
+    .filter((item) => item.category === analysisCategory)
+    .filter((item) => !onlyUnseen.demonic || !viewedItems.has(item.id));
+  const aiItems = analysisArchive
+    .filter((item) => item.aiLabel)
+    .filter((item) => !onlyUnseen.demonic || !viewedItems.has(item.id));
 
-  const creatorById = new Map(analysisUps.map((creator) => [creator.id, creator]));
-  const currentEpisodeCreatorIds = Array.from(new Set(analysisArchive
-    .filter((item) => item.contentType === "episode" && item.ep === currentEpisode)
-    .map((item) => item.upId)));
-  const currentEpisodeCreatorCount = currentEpisodeCreatorIds.length;
-  const recommendableCreator = (creator: CreatorProfile) => !/账号已注销|哔哩哔哩用户/.test(creator.name);
-  const currentEpisodeCreators = currentEpisodeCreatorIds
-    .map((id) => creatorById.get(id))
-    .filter((creator): creator is CreatorProfile => Boolean(creator))
-    .filter(recommendableCreator)
-    .sort((a, b) => b.latestPublishedAt - a.latestPublishedAt || b.averagePlay - a.averagePlay)
-    .slice(0, 12);
-  const stableCreators = analysisUps
-    .filter((creator) => creator.episodeCount >= 5 && recommendableCreator(creator))
-    .sort((a, b) => b.episodeCount - a.episodeCount || b.averagePlay - a.averagePlay)
-    .slice(0, 12);
-  const newCreators = analysisUps
-    .filter((creator) => creator.source !== "tracked" && recommendableCreator(creator))
-    .sort((a, b) => b.latestPublishedAt - a.latestPublishedAt || b.count - a.count)
-    .slice(0, 12);
-
-  const activeLane = CREATION_LANES.find((item) => item.key === creationCategory)?.lane;
-  const creationItems = (creationCategory === "推荐"
-    ? creations.slice().sort((a, b) => b.score - a.score || b.publishedAt - a.publishedAt)
-    : activeLane
-      ? creations.filter((item) => item.lane === activeLane).sort((a, b) => b.score - a.score || b.publishedAt - a.publishedAt)
-      : creationCategory === "总榜"
-        ? creations.slice().sort((a, b) => (b.play || 0) - (a.play || 0))
-        : creations.filter((item) => item.category === creationCategory).sort((a, b) => b.score - a.score || (b.play || 0) - (a.play || 0))
-  ).filter((item) => !onlyUnseen.heaven || !viewedItems.has(item.id));
-
-  const creationFilterCount = (filter: string) => {
-    if (filter === "推荐" || filter === "总榜") return creations.length;
-    const lane = CREATION_LANES.find((item) => item.key === filter)?.lane;
-    if (lane) return creations.filter((item) => item.lane === lane).length;
-    return creations.filter((item) => item.category === filter).length;
-  };
+  const dailySelection = useMemo(() => {
+    const used = new Set<string>();
+    const latestAt = Math.max(0, ...creations.map((item) => item.publishedAt));
+    const value = (item: CreationAtlasItem) =>
+      (viewedItems.has(item.id) ? 0 : 1_000_000) + item.score * 10_000 + Math.min(item.metrics.growth, 500_000) + item.metrics.engagementRate * 100_000 + item.publishedAt / 1_000_000_000;
+    const ranked = creations.slice().sort((a, b) => value(b) - value(a));
+    const recent = ranked.filter((item) => latestAt - item.publishedAt <= 14 * 24 * 60 * 60 * 1000);
+    const must = selectDiverse(recent.length ? recent : ranked, 5, used);
+    const discoveries = selectDiverse(ranked.filter((item) => item.lane === "new_creator_watch" || latestAt - item.firstSeenAt <= 72 * 60 * 60 * 1000), 3, used);
+    const hidden = selectDiverse(ranked.filter((item) => item.lane === "hidden_gem" || (item.metrics.engagementRate >= 0.06 && latestAt - item.publishedAt > 7 * 24 * 60 * 60 * 1000)), 3, used);
+    if (must.length < 5) must.push(...selectDiverse(ranked, 5 - must.length, used));
+    if (discoveries.length < 3) discoveries.push(...selectDiverse(ranked, 3 - discoveries.length, used));
+    if (hidden.length < 3) hidden.push(...selectDiverse(ranked, 3 - hidden.length, used));
+    return { must, discoveries, hidden, all: [...must, ...discoveries, ...hidden] };
+  }, [creations, viewedItems]);
+  const dailyViewedCount = dailySelection.all.filter((item) => viewedItems.has(item.id)).length;
 
   const openRealm = (realm: Realm) => {
     if (realm.locked) return;
@@ -768,7 +764,7 @@ export default function WeeklyMap({
             >
               <strong>{realm.name}</strong>
               <span>{realm.module}{realm.count ? ` · ${realm.count}` : ""}</span>
-              <small>{realm.locked ? "战火纷争，尚未开放" : "入境一观 · 点击展开"}</small>
+              <small>{realm.locked ? "战火燃烧，暂未开放" : "入境一观 · 点击展开"}</small>
             </div>
           ))}
         </div>
@@ -821,51 +817,76 @@ export default function WeeklyMap({
             )}
 
             {active === "righteous" && realmStatus.righteous === "ready" && (
-              <div className="module-view">
-                <nav className="filter-rail arc-rail" aria-label="动画篇章">
-                  {storyArcs.slice().reverse().map((arc) => (
-                    <button
-                      className={officialArc === arc.key ? "active" : ""}
-                      type="button"
-                      onClick={() => setOfficialArc(arc.key)}
-                      onMouseEnter={() => setPreviewArc(arc.key)}
-                      onMouseLeave={() => setPreviewArc(null)}
-                      onFocus={() => setPreviewArc(arc.key)}
-                      onBlur={() => setPreviewArc(null)}
-                      key={arc.key}
-                    >
-                      <strong>{arc.label}</strong><small>第 {arc.start}—{arc.end} 话</small>
-                      <span className="arc-hint">悬停预览 · 点击切换</span>
-                    </button>
-                  ))}
-                </nav>
-                <div className={`arc-preview ${hoveredArc ? "visible" : ""}`} aria-live="polite">
-                  {hoveredArc && <>
-                    <span>篇章速览</span>
-                    <strong>{hoveredArc.label}</strong>
-                    <small>第 {hoveredArc.start}—{hoveredArc.end} 话 · 共 {hoveredArc.end - hoveredArc.start + 1} 话</small>
-                    <p>{hoveredArcLatest?.summary || "移入篇章即可预览范围，点击后切换下方剧集。"}</p>
-                  </>}
+              <div className="module-view official-view">
+                <div className="realm-modebar">
+                  <div className="mode-switch" aria-label="官方内容浏览方式">
+                    <button className={officialMode === "episodes" ? "active" : ""} type="button" onClick={() => setOfficialMode("episodes")}>正片档案</button>
+                    <button className={officialMode === "previews" ? "active" : ""} type="button" onClick={() => setOfficialMode("previews")}>官方预告 <small>{officialPreviews.length}</small></button>
+                  </div>
+                  <span>{officialMode === "episodes" ? "正片只认官方上线集数" : "预告独立成卷，不计入最新正片"}</span>
                 </div>
-                <div className="ranking-head compact-head">
-                  <strong>{storyArcs.find((arc) => arc.key === officialArc)?.label} · 正片档案</strong>
-                  <div className="ranking-head-aside"><span>{officialItems.length} 话</span><button className={onlyUnseen.righteous ? "active" : ""} type="button" onClick={() => setOnlyUnseen((value) => ({ ...value, righteous: !value.righteous }))}>{onlyUnseen.righteous ? "显示全部" : "只看未看"}</button></div>
-                </div>
-                <div className="content-rail episode-rail">
-                  {officialItems.map((item, index) => <MediaCard item={item} rank={index + 1} official viewed={viewedItems.has(item.id)} onViewed={markViewed} onPlay={setPlayingItem} key={item.id} />)}
-                  {officialItems.length === 0 && <div className="empty-ranking"><strong>这一篇章都看过了</strong><p>切换“显示全部”即可回看已浏览的正片。</p></div>}
-                </div>
+
+                {officialMode === "episodes" && <>
+                  <nav className="filter-rail arc-rail" aria-label="动画篇章">
+                    {storyArcs.slice().reverse().map((arc) => (
+                      <button
+                        className={officialArc === arc.key ? "active" : ""}
+                        type="button"
+                        onClick={() => setOfficialArc(arc.key)}
+                        onMouseEnter={() => setPreviewArc(arc.key)}
+                        onMouseLeave={() => setPreviewArc(null)}
+                        onFocus={() => setPreviewArc(arc.key)}
+                        onBlur={() => setPreviewArc(null)}
+                        key={arc.key}
+                      >
+                        <strong>{arc.label}</strong><small>第 {arc.start}—{arc.end} 话</small>
+                        <span className="arc-hint">悬停预览 · 点击切换</span>
+                      </button>
+                    ))}
+                  </nav>
+                  <div className={`arc-preview ${hoveredArc ? "visible" : ""}`} aria-live="polite">
+                    {hoveredArc && <>
+                      <span>篇章速览</span>
+                      <strong>{hoveredArc.label}</strong>
+                      <small>第 {hoveredArc.start}—{hoveredArc.end} 话 · 共 {hoveredArc.end - hoveredArc.start + 1} 话</small>
+                      <p>{hoveredArcLatest?.summary || "移入篇章即可预览范围，点击后切换下方剧集。"}</p>
+                    </>}
+                  </div>
+                  <div className="ranking-head compact-head">
+                    <strong>{storyArcs.find((arc) => arc.key === officialArc)?.label} · 正片档案</strong>
+                    <div className="ranking-head-aside"><span>{officialItems.length} 话</span><button className={onlyUnseen.righteous ? "active" : ""} type="button" onClick={() => setOnlyUnseen((value) => ({ ...value, righteous: !value.righteous }))}>{onlyUnseen.righteous ? "显示全部" : "只看未看"}</button></div>
+                  </div>
+                  <div className="content-rail episode-rail">
+                    {officialItems.map((item, index) => <MediaCard item={item} rank={index + 1} official viewed={viewedItems.has(item.id)} onViewed={markViewed} onPlay={setPlayingItem} key={item.id} />)}
+                    {officialItems.length === 0 && <div className="empty-ranking"><strong>这一篇章都看过了</strong><p>切换“显示全部”即可回看已浏览的正片。</p></div>}
+                  </div>
+                </>}
+
+                {officialMode === "previews" && (
+                  <div className="preview-archive">
+                    <header className="preview-intro"><span className="atlas-seal">先</span><div><small>下一话 · 先导玉简</small><strong>{officialPreviews[0]?.ep ? `第 ${officialPreviews[0].ep} 话预告已至` : "等待下一话预告"}</strong><p>正片上线后仍保留历史预告，方便回看每周伏笔。</p></div></header>
+                    <div className="preview-grid">
+                      {officialPreviews.filter((item) => !onlyUnseen.righteous || !viewedItems.has(item.id)).map((item, index) => <PreviewCard item={item} featured={index === 0} viewed={viewedItems.has(item.id)} onViewed={markViewed} onPlay={setPlayingItem} key={item.id} />)}
+                    </div>
+                  </div>
+                )}
               </div>
             )}
 
             {active === "demonic" && realmStatus.demonic === "ready" && (
               <div className="module-view analysis-view">
-                <div className="mode-row">
-                  <div className="mode-switch" aria-label="解析浏览方式">
-                    <button className={analysisMode === "recommend" ? "active" : ""} type="button" onClick={() => selectAnalysisMode("recommend")}>推荐</button>
+                <div className="realm-modebar dimension-bar">
+                  <div className="mode-switch dimension-switch" aria-label="二创浏览维度">
+                    <button className={analysisMode === "latest" ? "active" : ""} type="button" onClick={() => selectAnalysisMode("latest")}>最新收录</button>
                     <button className={analysisMode === "episode" ? "active" : ""} type="button" onClick={() => selectAnalysisMode("episode")}>按剧集</button>
                     <button className={analysisMode === "directory" ? "active" : ""} type="button" onClick={() => { clearAnalysisUp(); selectAnalysisMode("directory"); }}>全部 UP</button>
+                    <button className={analysisMode === "character" ? "active" : ""} type="button" onClick={() => selectAnalysisMode("character")}>按角色</button>
+                    <button className={analysisMode === "category" ? "active" : ""} type="button" onClick={() => selectAnalysisMode("category")}>按类型</button>
+                    <button className={analysisMode === "ai" ? "active" : ""} type="button" onClick={() => selectAnalysisMode("ai")}>AI 生成</button>
                   </div>
+                  <button className={`unseen-toggle ${onlyUnseen.demonic ? "active" : ""}`} type="button" onClick={() => setOnlyUnseen((value) => ({ ...value, demonic: !value.demonic }))}>{onlyUnseen.demonic ? "仅未看" : "全部作品"}</button>
+                </div>
+                <div className="mode-row dimension-filters">
                   {analysisMode === "episode" && (
                     <div className="filter-rail slim episode-filter">
                       {analysisEpisodes.map((ep) => (
@@ -875,15 +896,15 @@ export default function WeeklyMap({
                       ))}
                     </div>
                   )}
+                  {analysisMode === "character" && <div className="filter-rail slim dimension-filter">{analysisCharacters.map((item) => <button className={analysisCharacter === item.name ? "active" : ""} type="button" onClick={() => setAnalysisCharacter(item.name)} key={item.name}><strong>{item.name}</strong><small>{item.count}</small></button>)}</div>}
+                  {analysisMode === "category" && <div className="filter-rail slim dimension-filter">{analysisCategories.map((item) => <button className={analysisCategory === item.name ? "active" : ""} type="button" onClick={() => setAnalysisCategory(item.name)} key={item.name}><strong>{item.name}</strong><small>{item.count}</small></button>)}</div>}
                 </div>
 
-                {analysisMode === "recommend" && (
-                  <div className="recommendation-view">
-                    <CreatorShelf title="本话先看谁" description={`第 ${currentEpisode || "—"} 话已有 ${currentEpisodeCreatorCount} 位道友更新`} creators={currentEpisodeCreators} onSelect={selectAnalysisUp} reason="本话有更" />
-                    <CreatorShelf title="稳定更新" description="按历史覆盖集数推荐" creators={stableCreators} onSelect={selectAnalysisUp} reason={(creator) => `${creator.episodeCount} 集持续更新`} />
-                    <CreatorShelf title="新道友" description="历史回填与二创发现中的新面孔" creators={newCreators} onSelect={selectAnalysisUp} reason="新发现" />
-                  </div>
-                )}
+                {analysisMode === "latest" && <>
+                  <div className="archive-overview"><div><strong>{analysisArchive.length}</strong><span>全部作品</span></div><div><strong>{analysisUps.length}</strong><span>收录 UP</span></div><div><strong>{analysisCharacters.length}</strong><span>角色索引</span></div><div><strong>{analysisArchive.filter((item) => item.aiLabel).length}</strong><span>AI 标记</span></div></div>
+                  <div className="ranking-head"><strong>万象新卷 · 最近收录</strong><span>所有维度共用同一座二创资料库</span></div>
+                  <div className="rank-list">{latestAnalysisItems.map((item, index) => <MediaCard item={item} rank={index + 1} compact viewed={viewedItems.has(item.id)} onViewed={markViewed} onPlay={setPlayingItem} key={item.id} />)}</div>
+                </>}
 
                 {analysisMode === "episode" && <>
                   <div className="ranking-head">
@@ -922,32 +943,38 @@ export default function WeeklyMap({
                     {selectedCreatorItems.length === 0 && <div className="empty-ranking"><strong>该作者的作品都看过了</strong><p>切换“显示全部”即可重新查看。</p></div>}
                   </div>
                 </>}
+
+                {analysisMode === "character" && <>
+                  <div className="ranking-head"><strong>{analysisCharacter || "角色"} · 相关二创</strong><span>{characterItems.length} 部 · 由标题与内容标签汇聚</span></div>
+                  <div className="rank-list">{characterItems.slice(0, analysisVisibleLimit).map((item, index) => <MediaCard item={item} rank={index + 1} compact viewed={viewedItems.has(item.id)} onViewed={markViewed} onPlay={setPlayingItem} key={item.id} />)}{characterItems.length === 0 && <div className="empty-ranking"><strong>暂未找到相关作品</strong><p>可以换一个角色，或关闭“仅未看”。</p></div>}<LoadMore shown={Math.min(analysisVisibleLimit, characterItems.length)} total={characterItems.length} onMore={() => setAnalysisVisibleLimit((value) => value + ANALYSIS_BATCH_SIZE)} /></div>
+                </>}
+
+                {analysisMode === "category" && <>
+                  <div className="ranking-head"><strong>{analysisCategory || "二创类型"} · 内容归档</strong><span>{categoryItems.length} 部</span></div>
+                  <div className="rank-list">{categoryItems.slice(0, analysisVisibleLimit).map((item, index) => <MediaCard item={item} rank={index + 1} compact viewed={viewedItems.has(item.id)} onViewed={markViewed} onPlay={setPlayingItem} key={item.id} />)}{categoryItems.length === 0 && <div className="empty-ranking"><strong>这一类型暂无未看作品</strong><p>切换类型或显示全部即可继续探索。</p></div>}<LoadMore shown={Math.min(analysisVisibleLimit, categoryItems.length)} total={categoryItems.length} onMore={() => setAnalysisVisibleLimit((value) => value + ANALYSIS_BATCH_SIZE)} /></div>
+                </>}
+
+                {analysisMode === "ai" && <>
+                  <div className="ai-disclosure"><span>AI</span><div><strong>AI 创作明确标记</strong><p>这里汇总标题或简介中明确说明 AI 生成、AI 翻唱、AI 配音及 AI 辅助的作品；不对未声明内容作主观判断。</p></div></div>
+                  <div className="ranking-head"><strong>AI 生成与辅助创作</strong><span>{aiItems.length} 部</span></div>
+                  <div className="rank-list">{aiItems.map((item, index) => <MediaCard item={{ ...item, badge: item.aiLabel || item.badge }} rank={index + 1} compact viewed={viewedItems.has(item.id)} onViewed={markViewed} onPlay={setPlayingItem} key={item.id} />)}{aiItems.length === 0 && <div className="empty-ranking"><strong>暂无未看的 AI 标记作品</strong><p>切换“全部作品”可以查看完整归档。</p></div>}</div>
+                </>}
               </div>
             )}
 
             {active === "heaven" && realmStatus.heaven === "ready" && (
-              <div className="module-view creation-view">
-                <nav className="filter-rail category-rail" aria-label="二创推荐与分类">
-                  {creationCategories.map((category) => (
-                    <button className={creationCategory === category ? "active" : ""} type="button" onClick={() => setCreationCategory(category)} key={category}>
-                      <strong>{category}</strong><small>{creationFilterCount(category)} 部</small>
-                    </button>
-                  ))}
-                </nav>
-                <div className="ranking-head">
-                  <strong>{creationCategory} · 天道榜</strong>
-                  <div className="ranking-head-aside"><span>{creationCategory === "总榜" ? "按累计播放" : "按推荐分与新鲜度"}</span><button className={onlyUnseen.heaven ? "active" : ""} type="button" onClick={() => setOnlyUnseen((value) => ({ ...value, heaven: !value.heaven }))}>{onlyUnseen.heaven ? "显示全部" : "只看未看"}</button></div>
+              <div className="module-view daily-view">
+                <section className="daily-briefing">
+                  <div><small>天道盟 · DAILY DISCOVERY</small><strong>今日十一荐</strong><p>新作、增长、互动、新作者与历史口碑共同入选；同一 UP 不重复刷屏。</p></div>
+                  <div className="daily-progress"><span><b>{dailyViewedCount}</b> / {dailySelection.all.length} 已阅</span><i><b style={{ width: `${dailySelection.all.length ? dailyViewedCount / dailySelection.all.length * 100 : 0}%` }} /></i><button className={onlyUnseen.heaven ? "active" : ""} type="button" onClick={() => setOnlyUnseen((value) => ({ ...value, heaven: !value.heaven }))}>{onlyUnseen.heaven ? "优先未看" : "包含已看"}</button></div>
+                </section>
+                <div className="daily-sections">
+                  <section><header><div><small>01 · TODAY&apos;S PICKS</small><strong>今日必看</strong></div><span>综合新鲜度、推荐分与互动表现</span></header><div className="daily-grid">{dailySelection.must.filter((item) => !onlyUnseen.heaven || !viewedItems.has(item.id)).map((item, index) => <RecommendationCard item={item} rank={index + 1} viewed={viewedItems.has(item.id)} onViewed={markViewed} onPlay={setPlayingItem} key={item.id} />)}</div></section>
+                  <section><header><div><small>02 · NEW DISCOVERY</small><strong>新发现</strong></div><span>新作者与 72 小时内首次发现</span></header><div className="daily-grid compact">{dailySelection.discoveries.filter((item) => !onlyUnseen.heaven || !viewedItems.has(item.id)).map((item, index) => <RecommendationCard item={item} rank={index + 1} viewed={viewedItems.has(item.id)} onViewed={markViewed} onPlay={setPlayingItem} key={item.id} />)}</div></section>
+                  <section><header><div><small>03 · HIDDEN GEMS</small><strong>沧海遗珠</strong></div><span>时间稍久但互动与口碑仍然出色</span></header><div className="daily-grid compact">{dailySelection.hidden.filter((item) => !onlyUnseen.heaven || !viewedItems.has(item.id)).map((item, index) => <RecommendationCard item={item} rank={index + 1} viewed={viewedItems.has(item.id)} onViewed={markViewed} onPlay={setPlayingItem} key={item.id} />)}</div></section>
+                  {onlyUnseen.heaven && dailyViewedCount === dailySelection.all.length && <div className="empty-ranking"><strong>今日精选已经全部看完</strong><p>晨晚两次寻迹会补入新作；也可以切换为“包含已看”重新回顾。</p></div>}
+                  <details className="daily-submission"><summary><span>荐</span><div><strong>发现一部漏网好作？</strong><small>粘贴 UP 名称或 B 站链接，道友上报会进入审核队列。</small></div><b>展开举荐 ＋</b></summary><CommunityHub variant="discovery" items={[]} onRefresh={() => undefined} /></details>
                 </div>
-                <div className="rank-list creation-rank">
-                  {creationItems.map((item, index) => <MediaCard item={item} rank={index + 1} compact viewed={viewedItems.has(item.id)} onViewed={markViewed} onPlay={setPlayingItem} key={item.id} />)}
-                  {creationItems.length === 0 && <div className="empty-ranking"><strong>这个榜单暂时没有未看作品</strong><p>切换“显示全部”即可重新查看。</p></div>}
-                </div>
-              </div>
-            )}
-
-            {active === "nine" && realmStatus.nine === "ready" && (
-              <div className="module-view community-view">
-                <CommunityHub items={communityItems} onRefresh={() => void loadRealmData("nine", true)} />
               </div>
             )}
           </div>

@@ -95,7 +95,7 @@ type StatusResult = {
   updatedAt: string;
 };
 
-export default function CommunityHub({ items, onRefresh }: { items: CommunityItem[]; onRefresh: () => void }) {
+export default function CommunityHub({ items, onRefresh, variant = "community" }: { items: CommunityItem[]; onRefresh: () => void; variant?: "community" | "discovery" }) {
   const [mode, setMode] = useState<"submit" | "status" | "published">("submit");
   const [intent, setIntent] = useState<"recommend" | "correction">("recommend");
   const [targetUrl, setTargetUrl] = useState("");
@@ -113,6 +113,7 @@ export default function CommunityHub({ items, onRefresh }: { items: CommunityIte
   const [statusResult, setStatusResult] = useState<StatusResult | null>(null);
   const [querying, setQuerying] = useState(false);
   const siteKey = process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY || "";
+  const discoveryMode = variant === "discovery";
 
   useEffect(() => {
     try {
@@ -170,7 +171,7 @@ export default function CommunityHub({ items, onRefresh }: { items: CommunityIte
       saveReceipt(next);
       setTargetUrl("");
       setReason("");
-      setMessage({ kind: "success", text: next.status === "duplicate" ? "已经有道友推荐过了，我们仍记录了你的支持" : "已收到，审核后会进入道友推荐" });
+      setMessage({ kind: "success", text: next.status === "duplicate" ? "已经有道友推荐过了，我们仍记录了你的支持" : discoveryMode ? "已收到，审核后会进入每日发现候选" : "已收到，审核后会进入道友推荐" });
       resetChallenge();
     } catch (error) {
       setMessage({ kind: "error", text: error instanceof Error ? error.message : "投稿失败，请稍后重试" });
@@ -217,9 +218,9 @@ export default function CommunityHub({ items, onRefresh }: { items: CommunityIte
   return (
     <div className="community-hub">
       <div className="quick-community-nav" aria-label="道友共建功能">
-        <button className={mode === "submit" ? "active" : ""} type="button" onClick={() => setMode("submit")}>九国举荐</button>
-        <button className={mode === "published" ? "active" : ""} type="button" onClick={() => setMode("published")}>道友推荐 <small>{items.length}</small></button>
-        <button className={mode === "status" ? "active" : ""} type="button" onClick={() => setMode("status")}>我的投稿 <small>{savedReceipts.length}</small></button>
+        <button className={mode === "submit" ? "active" : ""} type="button" onClick={() => setMode("submit")}>{discoveryMode ? "举荐好作品" : "九国举荐"}</button>
+        {!discoveryMode && <button className={mode === "published" ? "active" : ""} type="button" onClick={() => setMode("published")}>道友推荐 <small>{items.length}</small></button>}
+        <button className={mode === "status" ? "active" : ""} type="button" onClick={() => setMode("status")}>{discoveryMode ? "我的举荐" : "我的投稿"} <small>{savedReceipts.length}</small></button>
       </div>
 
       {message && <div className={`community-message ${message.kind}`}>{message.text}</div>}
@@ -228,11 +229,11 @@ export default function CommunityHub({ items, onRefresh }: { items: CommunityIte
         <section className="quick-submit-card">
           <header>
             <span className="atlas-seal">荐</span>
-            <div><small className="quick-campaign">慕兰之战 · 九国盟征募令</small><h2>举荐你喜欢的 UP 主参战</h2><p>输入名字或者粘贴 B 站链接，一步完成举荐；重名账号由审核时确认。</p></div>
+            <div><small className="quick-campaign">{discoveryMode ? "天道盟 · 道友寻宝帖" : "慕兰之战 · 九国盟征募令"}</small><h2>{discoveryMode ? "举荐一部值得被看见的作品" : "举荐你喜欢的 UP 主参战"}</h2><p>输入名字或者粘贴 B 站链接，一步完成举荐；重名账号由审核时确认。</p></div>
           </header>
           <form onSubmit={submit}>
             <div className="quick-intent">
-              <button className={intent === "recommend" ? "active" : ""} type="button" onClick={() => changeIntent("recommend")}>举荐 UP / 作品</button>
+              <button className={intent === "recommend" ? "active" : ""} type="button" onClick={() => changeIntent("recommend")}>{discoveryMode ? "举荐作品 / UP" : "举荐 UP / 作品"}</button>
               <button className={intent === "correction" ? "active" : ""} type="button" onClick={() => changeIntent("correction")}>纠错 / 补档</button>
             </div>
             <div className="quick-link-row">
@@ -240,7 +241,7 @@ export default function CommunityHub({ items, onRefresh }: { items: CommunityIte
                 <span>{intent === "recommend" ? "UP 名称或 B 站链接" : "需要纠错的本站或 B 站链接"}</span>
                 <input type={intent === "recommend" ? "text" : "url"} value={targetUrl} onChange={(event) => setTargetUrl(event.target.value)} placeholder={intent === "recommend" ? "例如：骚人风希，或粘贴 UP / 视频链接" : "https://fanrenmap.pages.dev/…"} required />
               </label>
-              <button className="submit-button" type="submit" disabled={submitting}>{submitting ? "递交中…" : intent === "recommend" ? "举荐参战" : "提交纠错"}</button>
+              <button className="submit-button" type="submit" disabled={submitting}>{submitting ? "递交中…" : intent === "recommend" ? discoveryMode ? "送入候选" : "举荐参战" : "提交纠错"}</button>
             </div>
             <button className="quick-details-toggle" type="button" onClick={() => setDetailsOpen((value) => !value)}>{detailsOpen ? "收起补充" : "+ 补充一句（可选）"}</button>
             {detailsOpen && (
@@ -252,7 +253,7 @@ export default function CommunityHub({ items, onRefresh }: { items: CommunityIte
             <div className="quick-verification"><TurnstileWidget key={turnstileKey} siteKey={siteKey} onToken={setTurnstileToken} /></div>
           </form>
           <footer>
-            <span>只填名字也可以 · 无需登录 · 先审核再公开</span>
+            <span>{discoveryMode ? "无需登录 · 审核后进入推荐候选 · 不保证当天上榜" : "只填名字也可以 · 无需登录 · 先审核再公开"}</span>
             {receipt && <button type="button" onClick={() => chooseReceipt(receipt)}>已收到 {receipt.id} · 查看进度</button>}
           </footer>
         </section>
@@ -261,7 +262,7 @@ export default function CommunityHub({ items, onRefresh }: { items: CommunityIte
       {mode === "status" && (
         <div className="status-layout quick-status-layout">
           <header><h2>我的投稿</h2><p>这台设备提交过的内容会自动保存在这里。</p></header>
-          {savedReceipts.length > 0 ? <section className="saved-receipts"><div>{savedReceipts.map((item) => <button type="button" onClick={() => chooseReceipt(item)} key={item.id}><span>{item.id}</span><small>{SUBMISSION_STATUS_LABELS[item.status]}</small></button>)}</div></section> : <div className="empty-ranking"><strong>还没有投稿记录</strong><p>回到“九国举荐”，输入名字或链接即可完成。</p></div>}
+          {savedReceipts.length > 0 ? <section className="saved-receipts"><div>{savedReceipts.map((item) => <button type="button" onClick={() => chooseReceipt(item)} key={item.id}><span>{item.id}</span><small>{SUBMISSION_STATUS_LABELS[item.status]}</small></button>)}</div></section> : <div className="empty-ranking"><strong>还没有投稿记录</strong><p>回到“{discoveryMode ? "举荐好作品" : "九国举荐"}”，输入名字或链接即可完成。</p></div>}
           {querying && <div className="community-message">正在查询…</div>}
           {statusResult && <section className="status-result"><small>{statusResult.id}</small><strong>{SUBMISSION_STATUS_LABELS[statusResult.status]}</strong><h2>{statusResult.title}</h2>{statusResult.publicNote && <p>{statusResult.publicNote}</p>}<time>最近更新：{new Date(statusResult.updatedAt).toLocaleString("zh-CN")}</time></section>}
           <details className="manual-query">
