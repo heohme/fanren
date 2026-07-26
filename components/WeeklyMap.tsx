@@ -18,7 +18,21 @@ import type {
 type RealmKey = "righteous" | "demonic" | "heaven" | "nine";
 type OpenRealm = Exclude<RealmKey, "nine">;
 type AnalysisMode = "latest" | "episode" | "directory" | "character" | "category" | "ai";
-const CREATION_CATEGORY_ORDER = ["人物志", "剧情二创", "趣味整活", "混剪手书", "音乐配音", "同人创作"];
+const CREATION_CATEGORY_ORDER = [
+  "本集解析",
+  "剧情杂谈",
+  "改编讨论",
+  "人物赏析",
+  "设定考据",
+  "Reaction",
+  "剧情二创",
+  "趣味整活",
+  "混剪手书",
+  "音乐配音",
+  "同人创作",
+  "多集拉片",
+  "其他内容",
+];
 const ANALYSIS_BATCH_SIZE = 80;
 const VIEWED_ITEMS_KEY = "fanrenmap-viewed-items-v1";
 
@@ -301,11 +315,17 @@ function RecommendationCard({ item, rank, viewed, onViewed, onPlay }: { item: Cr
 function selectDiverse(items: CreationAtlasItem[], limit: number, used = new Set<string>()) {
   const result: CreationAtlasItem[] = [];
   const creators = new Map<string, number>();
+  const categories = new Map<string, number>();
   for (const item of items) {
-    if (used.has(item.id) || (creators.get(item.upId) || 0) >= 1) continue;
+    if (
+      used.has(item.id) ||
+      (creators.get(item.upId) || 0) >= 1 ||
+      (categories.get(item.category) || 0) >= 2
+    ) continue;
     result.push(item);
     used.add(item.id);
     creators.set(item.upId, (creators.get(item.upId) || 0) + 1);
+    categories.set(item.category, (categories.get(item.category) || 0) + 1);
     if (result.length >= limit) break;
   }
   return result;
@@ -687,14 +707,16 @@ export default function WeeklyMap({
       (viewedItems.has(item.id) ? 0 : 1_000_000) + item.score * 10_000 + Math.min(item.metrics.growth, 500_000) + item.metrics.engagementRate * 100_000 + item.publishedAt / 1_000_000_000;
     const ranked = creations.slice().sort((a, b) => value(b) - value(a));
     const recent = ranked.filter((item) => latestAt - item.publishedAt <= 14 * 24 * 60 * 60 * 1000);
-    const must = selectDiverse(recent.length ? recent : ranked, 5, used);
-    const discoveries = selectDiverse(ranked.filter((item) => item.lane === "new_creator_watch" || latestAt - item.firstSeenAt <= 72 * 60 * 60 * 1000), 3, used);
-    const hidden = selectDiverse(ranked.filter((item) => item.lane === "hidden_gem" || (item.metrics.engagementRate >= 0.06 && latestAt - item.publishedAt > 7 * 24 * 60 * 60 * 1000)), 3, used);
+    const currentEpisodePicks = ranked.filter((item) => currentEpisode != null && item.episodes.includes(currentEpisode));
+    const must = selectDiverse(currentEpisodePicks, 3, used);
+    must.push(...selectDiverse((recent.length ? recent : ranked).filter((item) => !used.has(item.id)), 5 - must.length, used));
+    const discoveries = selectDiverse(ranked.filter((item) => item.lane === "new_creator_watch"), 3, used);
+    const hidden = selectDiverse(ranked.filter((item) => item.lane === "hidden_gem" || item.lane === "related_archive" || (item.metrics.engagementRate >= 0.06 && latestAt - item.publishedAt > 7 * 24 * 60 * 60 * 1000)), 3, used);
     if (must.length < 5) must.push(...selectDiverse(ranked, 5 - must.length, used));
     if (discoveries.length < 3) discoveries.push(...selectDiverse(ranked, 3 - discoveries.length, used));
     if (hidden.length < 3) hidden.push(...selectDiverse(ranked, 3 - hidden.length, used));
     return { must, discoveries, hidden, all: [...must, ...discoveries, ...hidden] };
-  }, [creations, viewedItems]);
+  }, [creations, currentEpisode, viewedItems]);
   const dailyViewedCount = dailySelection.all.filter((item) => viewedItems.has(item.id)).length;
 
   const openRealm = (realm: Realm) => {
