@@ -108,10 +108,15 @@ function biliPlayerUrl(item: AtlasItem) {
     poster: "1",
     refer: "1",
   });
-  if (bvid) params.set("bvid", bvid);
-  else if (episodeId) params.set("episodeId", episodeId);
+  if (episodeId) params.set("episodeId", episodeId);
+  else if (bvid) params.set("bvid", bvid);
   else return null;
   return `https://player.bilibili.com/player.html?${params.toString()}`;
+}
+
+function isOfficialEpisode(item: AtlasItem): item is OfficialAtlasItem {
+  const candidate = item as Partial<OfficialAtlasItem>;
+  return typeof candidate.ep === "number" && typeof candidate.arc === "string";
 }
 
 function MediaCard({
@@ -119,6 +124,7 @@ function MediaCard({
   rank,
   compact = false,
   official = false,
+  adminMode = false,
   viewed = false,
   onViewed,
   onPlay,
@@ -127,11 +133,13 @@ function MediaCard({
   rank: number;
   compact?: boolean;
   official?: boolean;
+  adminMode?: boolean;
   viewed?: boolean;
   onViewed?: (id: string) => void;
   onPlay?: (item: AtlasItem) => void;
 }) {
-  const canPlayInline = Boolean(onPlay && biliPlayerUrl(item));
+  const adminEpisode = adminMode && official && isOfficialEpisode(item);
+  const canPlayInline = Boolean(onPlay && (adminEpisode || biliPlayerUrl(item)));
   const openInline = () => {
     onViewed?.(item.id);
     onPlay?.(item);
@@ -154,7 +162,7 @@ function MediaCard({
             <span>{item.durationLabel || "完整正片"}</span>
             <span>{item.publishedLabel || "已上线"}</span>
           </div>
-          <footer><small>{item.subtitle}</small><strong>{canPlayInline ? "站内播放 ▶" : "前往观看 →"}</strong></footer>
+          <footer><small>{adminEpisode ? "暴风资源 · 管理员片源" : item.subtitle}</small><strong>{adminEpisode ? "暴风片源 ▶" : canPlayInline ? "站内播放 ▶" : "前往 B 站 ↗"}</strong></footer>
         </div>
       </>
     );
@@ -201,9 +209,91 @@ function MediaCard({
   );
 }
 
-function VideoPlayerModal({ item, onClose }: { item: AtlasItem; onClose: () => void }) {
+function AdminStreamPlayer({ episode, poster }: { episode: number; poster: string }) {
+  const videoRef = useRef<HTMLVideoElement>(null);
+  const [phase, setPhase] = useState<"loading" | "ready" | "error">("loading");
+  const [attempt, setAttempt] = useState(0);
+
+  useEffect(() => {
+    const video = videoRef.current;
+    if (!video) return;
+
+    let disposed = false;
+    let hls: { destroy: () => void } | null = null;
+    const manifestUrl = `/api/admin-stream?mode=admin&ep=${episode}&attempt=${attempt}`;
+    const ready = () => {
+      if (!disposed) setPhase("ready");
+    };
+    const failed = () => {
+      if (!disposed) setPhase("error");
+    };
+
+    setPhase("loading");
+    video.addEventListener("canplay", ready);
+    video.addEventListener("error", failed);
+
+    void (async () => {
+      try {
+        const { default: Hls } = await import("hls.js");
+        if (disposed) return;
+        if (Hls.isSupported()) {
+          const instance = new Hls({
+            enableWorker: true,
+            lowLatencyMode: false,
+            backBufferLength: 90,
+            maxBufferLength: 30,
+            fragLoadingMaxRetry: 5,
+            manifestLoadingMaxRetry: 3,
+          });
+          hls = instance;
+          instance.on(Hls.Events.MANIFEST_PARSED, ready);
+          instance.on(Hls.Events.ERROR, (_event, data) => {
+            if (!data.fatal) return;
+            if (data.type === Hls.ErrorTypes.NETWORK_ERROR) instance.startLoad();
+            else if (data.type === Hls.ErrorTypes.MEDIA_ERROR) instance.recoverMediaError();
+            else failed();
+          });
+          instance.loadSource(manifestUrl);
+          instance.attachMedia(video);
+          return;
+        }
+
+        if (video.canPlayType("application/vnd.apple.mpegurl")) {
+          video.src = manifestUrl;
+          video.load();
+          return;
+        }
+        failed();
+      } catch {
+        failed();
+      }
+    })();
+
+    return () => {
+      disposed = true;
+      video.removeEventListener("canplay", ready);
+      video.removeEventListener("error", failed);
+      hls?.destroy();
+      video.pause();
+      video.removeAttribute("src");
+      video.load();
+    };
+  }, [attempt, episode]);
+
+  return (
+    <div className="admin-video-shell">
+      <video ref={videoRef} controls playsInline preload="metadata" poster={poster} aria-label={`第 ${episode} 话暴风资源播放器`} />
+      {phase === "loading" && <div className="admin-player-state"><span className="atlas-seal">载</span><strong>正在接引暴风片源</strong><small>首次展开可能需要几秒</small></div>}
+      {phase === "error" && <div className="admin-player-state error"><span className="atlas-seal">候</span><strong>片源暂时未能接通</strong><button type="button" onClick={() => setAttempt((value) => value + 1)}>重新加载</button></div>}
+      <span className="admin-stream-badge">ADMIN · BFZY · 第 {episode} 话</span>
+    </div>
+  );
+}
+
+function VideoPlayerModal({ item, adminMode, onClose }: { item: AtlasItem; adminMode: boolean; onClose: () => void }) {
   const closeRef = useRef<HTMLButtonElement>(null);
-  const playerUrl = biliPlayerUrl(item);
+  const adminEpisode = adminMode && isOfficialEpisode(item);
+  const playerUrl = adminEpisode ? null : biliPlayerUrl(item);
 
   useEffect(() => {
     const previousFocus = document.activeElement instanceof HTMLElement ? document.activeElement : null;
@@ -211,34 +301,38 @@ function VideoPlayerModal({ item, onClose }: { item: AtlasItem; onClose: () => v
     return () => previousFocus?.focus();
   }, []);
 
-  if (!playerUrl) return null;
+  if (!adminEpisode && !playerUrl) return null;
 
   return (
     <div className="video-player-overlay" role="presentation" onClick={onClose}>
       <section className="video-player-dialog" role="dialog" aria-modal="true" aria-labelledby="video-player-title" onClick={(event) => event.stopPropagation()}>
         <header>
           <div>
-            <span>残图留影 · BILIBILI PLAYER</span>
+            <span>{adminEpisode ? "残图密录 · BFZY HLS PLAYER" : "残图留影 · BILIBILI PLAYER"}</span>
             <h2 id="video-player-title">{item.title}</h2>
-            <p>{item.subtitle}</p>
+            <p>{adminEpisode ? `管理员片源模式 · 暴风资源 · 第 ${item.ep} 话` : item.subtitle}</p>
           </div>
           <button ref={closeRef} type="button" onClick={onClose} aria-label="关闭站内播放器">×</button>
         </header>
         <div className="video-player-frame">
-          <iframe
-            src={playerUrl}
-            title={`${item.title} - B站播放器`}
-            scrolling="no"
-            allow="autoplay; encrypted-media; picture-in-picture; fullscreen"
-            allowFullScreen
-            referrerPolicy="strict-origin-when-cross-origin"
-          />
+          {adminEpisode ? (
+            <AdminStreamPlayer episode={item.ep} poster={item.cover} />
+          ) : (
+            <iframe
+              src={playerUrl!}
+              title={`${item.title} - B站播放器`}
+              scrolling="no"
+              allow="autoplay; encrypted-media; picture-in-picture; fullscreen"
+              allowFullScreen
+              referrerPolicy="strict-origin-when-cross-origin"
+            />
+          )}
         </div>
         <footer>
-          <p>播放器由哔哩哔哩提供；需要更高清画质、登录、点赞或评论时，可前往 B 站继续观看。</p>
+          <p>{adminEpisode ? "片源来自暴风资源，采用参考 LibreTV 的 HLS 播放与广告片段过滤方案；片源失效时可使用右侧官方入口。" : "播放器由哔哩哔哩提供；需要更高清画质、登录、点赞或评论时，可前往 B 站继续观看。"}</p>
           <div>
             <button type="button" onClick={onClose}>返回残图</button>
-            <a href={item.url} target="_blank" rel="noreferrer">去 B 站看高清与评论 ↗</a>
+            <a href={item.url} target="_blank" rel="noreferrer">{adminEpisode ? "官方 B 站备用 ↗" : "去 B 站看高清与评论 ↗"}</a>
           </div>
         </footer>
       </section>
@@ -387,12 +481,17 @@ export default function WeeklyMap({
   const [onlyUnseen, setOnlyUnseen] = useState<Record<OpenRealm, boolean>>({ righteous: false, demonic: false, heaven: true });
   const [exitConfirm, setExitConfirm] = useState(false);
   const [playingItem, setPlayingItem] = useState<AtlasItem | null>(null);
+  const [adminMode, setAdminMode] = useState(false);
   const exitBypassRef = useRef(false);
   const deepLinkReadyRef = useRef(false);
   const deepLinkLoadRequestedRef = useRef(false);
   const shareFeedbackTimerRef = useRef<number | null>(null);
   const loadedRealmsRef = useRef<Set<OpenRealm>>(new Set());
   const loadingRealmsRef = useRef<Set<OpenRealm>>(new Set());
+
+  useEffect(() => {
+    setAdminMode(new URLSearchParams(window.location.search).get("mode") === "admin");
+  }, []);
 
   const loadRealmData = useCallback(async (realm: OpenRealm, force = false) => {
     if (!force && (loadedRealmsRef.current.has(realm) || loadingRealmsRef.current.has(realm))) return;
@@ -845,7 +944,7 @@ export default function WeeklyMap({
                     <button className={officialMode === "episodes" ? "active" : ""} type="button" onClick={() => setOfficialMode("episodes")}>正片档案</button>
                     <button className={officialMode === "previews" ? "active" : ""} type="button" onClick={() => setOfficialMode("previews")}>官方预告 <small>{officialPreviews.length}</small></button>
                   </div>
-                  <span>{officialMode === "episodes" ? "正片只认官方上线集数" : "预告独立成卷，不计入最新正片"}</span>
+                  <span className={adminMode && officialMode === "episodes" ? "admin-source-indicator" : ""}>{officialMode === "episodes" ? adminMode ? "管理员片源 · 暴风资源已接入" : "正片只认官方上线集数" : "预告独立成卷，不计入最新正片"}</span>
                 </div>
 
                 {officialMode === "episodes" && <>
@@ -879,7 +978,7 @@ export default function WeeklyMap({
                     <div className="ranking-head-aside"><span>{officialItems.length} 话</span><button className={onlyUnseen.righteous ? "active" : ""} type="button" onClick={() => setOnlyUnseen((value) => ({ ...value, righteous: !value.righteous }))}>{onlyUnseen.righteous ? "显示全部" : "只看未看"}</button></div>
                   </div>
                   <div className="content-rail episode-rail">
-                    {officialItems.map((item, index) => <MediaCard item={item} rank={index + 1} official viewed={viewedItems.has(item.id)} onViewed={markViewed} onPlay={setPlayingItem} key={item.id} />)}
+                    {officialItems.map((item, index) => <MediaCard item={item} rank={index + 1} official adminMode={adminMode} viewed={viewedItems.has(item.id)} onViewed={markViewed} onPlay={setPlayingItem} key={item.id} />)}
                     {officialItems.length === 0 && <div className="empty-ranking"><strong>这一篇章都看过了</strong><p>切换“显示全部”即可回看已浏览的正片。</p></div>}
                   </div>
                 </>}
@@ -1003,7 +1102,7 @@ export default function WeeklyMap({
         </div>
         <div className="scroll-roller right" aria-hidden="true"><i /><i /></div>
       </section>
-      {playingItem && <VideoPlayerModal item={playingItem} onClose={() => setPlayingItem(null)} />}
+      {playingItem && <VideoPlayerModal item={playingItem} adminMode={adminMode} onClose={() => setPlayingItem(null)} />}
     </main>
   );
 }

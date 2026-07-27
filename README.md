@@ -6,7 +6,7 @@
 
 - [V1.1：UP 名录、推荐模式、已看记录与加载优化](docs/updates/2026-07-19-v1.1.md)
 
-凡人残图自动整理每周正片、分集解析、人物专题与公开物料，并按照集数和剧情线索归档。项目不搬运正片或创作者内容，所有入口都回到原始发布页。
+凡人残图自动整理每周正片、分集解析、人物专题与公开物料，并按照集数和剧情线索归档。公开模式不搬运正片或创作者内容，所有入口都回到原始发布页；管理员片源模式仅用于私有测试。
 
 新一季 **2026/6/13 起，每周六 11:00** 更新一集。
 本项目自动抓取 B 站官方番剧与关注 UP 主的最新内容，通过一张可探索的古卷地图呈现本周正片、百家论道、人物行迹和物料见闻；历史内容则按「集数 × UP 主」聚合归档。
@@ -20,6 +20,7 @@
 - 历史回填：按集搜索解析视频，目标每集覆盖 10+ 位 UP，支持断点续跑
 - 二创发现：每天两次检索近期内容、每周一次回查历史热门，并按人物志、剧情二创、趣味整活、混剪手书、音乐配音、同人创作归档
 - 统一内容池：官方物料、逐集解析、人物专题、Reaction 与二创按 BV 号去重，各模块只负责筛选和展示
+- 管理员片源：URL 携带 `?mode=admin` 时，正道剧集使用暴风资源 HLS 站内播放，普通访问使用 B 站官方番剧播放器
 - 新内容提示：浏览器本地记录上次访问时间
 - 道友共建：推荐 UP、作品或纠错补档，经过审核后进入九国盟推荐榜
 - 投稿审核：D1 保存投稿与审核轨迹，Turnstile 防刷，Cloudflare Access 保护后台
@@ -45,7 +46,7 @@ fanren/
 │   ├── discovery-review.json # 待人工复核内容（自动生成）
 │   ├── creations.json       # 审核策略通过的发布层（自动生成）
 │   └── snapshot.json        # 抓取快照（自动生成）
-├── functions/             # Cloudflare Pages Functions 投稿与审核 API
+├── functions/             # Cloudflare Pages Functions 投稿、审核与管理员片源 API
 ├── migrations/            # D1 数据库迁移
 └── .github/workflows/
     └── fetch.yml            # 常规定时抓取 + 周六高峰巡检
@@ -60,6 +61,7 @@ npm run backfill     # 从最新集开始分批回填历史解析
 npm run coverage     # 查看最近 20 集的 UP 覆盖率
 npm run discover:creations # 刷新二创发现与分类索引
 npm run dev          # 本地预览 http://localhost:3000
+npm run build && npm run preview:cloudflare # 连同 Pages Functions 完整预览
 ```
 
 ## 配置
@@ -174,6 +176,19 @@ GitHub Actions Secret 使用 `ARK_API_KEY`，默认模型为 `doubao-seed-2-0-mi
 - **正道**只读取官方正片、预告和物料。
 - **魔道**读取全部解析与二创档案，并提供集数、UP、人物和类型筛选。
 - **正道盟**从同一内容池挑选本集热议、新人发现、沧海遗珠和关联旧作，不再维护独立内容来源。
+
+### 管理员片源模式
+
+访问 `/?mode=admin` 后进入管理员片源模式。正道的正片卡片会改用暴风资源（bfzy）播放，预告、魔道和正道盟仍保持原来的 B 站播放方式。
+
+- Cloudflare Pages Function 会按集数读取暴风资源 ID `9145`，无需把 m3u8 地址写入前端。
+- 播放清单经过域名与《凡人修仙传》路径校验，并移除明确标记为 `adjump` 的广告分片。
+- 播放器使用 `hls.js`，网络或片源失败时保留 B 站官方入口。
+- 普通访问不请求暴风资源接口，正道正片使用 B 站官方 `episodeId` 站内播放，并保留官方番剧页外链。
+
+`mode=admin` 只是功能开关，不是身份认证。如果需要真正限制访问，应在 Cloudflare Access 中保护该地址或 `/api/admin-stream`。
+
+播放链路参考 [LibreSpark/LibreTV](https://github.com/LibreSpark/LibreTV) 的苹果 CMS V10、HLS.js 与清单过滤方案；LibreTV 采用 Apache-2.0 License。
 
 ### ⚠️ 建议仓库设为 Public
 

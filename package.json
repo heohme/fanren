@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "preview:cloudflare": "wrangler pages dev out",
     "build:cloudbase": "next build",
     "start": "next start",
     "fetch": "node scripts/fetch-bilibili.mjs",
@@ -14,9 +15,11 @@
     "discover:creations": "node scripts/discover-creations.mjs",
     "test:classifier": "node scripts/test-classifier.mjs",
     "test:discovery": "node scripts/test-creation-discovery.mjs",
-    "test:community": "node scripts/test-community.mjs"
+    "test:community": "node scripts/test-community.mjs",
+    "test:stream": "node scripts/test-bfzy-stream.mjs"
   },
   "dependencies": {
+    "hls.js": "^1.6.16",
     "next": "14.2.5",
     "react": "18.3.1",
     "react-dom": "18.3.1"
@@ -27,6 +30,7 @@
     "autoprefixer": "10.4.19",
     "postcss": "8.4.39",
     "tailwindcss": "3.4.6",
-    "typescript": "5.5.3"
+    "typescript": "5.5.3",
+    "wrangler": "^4.50.0"
   }
 }
