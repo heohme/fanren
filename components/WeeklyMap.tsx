@@ -35,6 +35,7 @@ const CREATION_CATEGORY_ORDER = [
 ];
 const ANALYSIS_BATCH_SIZE = 80;
 const VIEWED_ITEMS_KEY = "fanrenmap-viewed-items-v1";
+const CREATOR_RANKING_PRIOR_WORKS = 5;
 
 interface Realm {
   key: RealmKey;
@@ -503,11 +504,17 @@ function LoadMore({ shown, total, onMore }: { shown: number; total: number; onMo
   return <button className="load-more" type="button" onClick={onMore}><span>已展卷 {shown} / {total}</span><strong>再展开 {Math.min(ANALYSIS_BATCH_SIZE, total - shown)} 部 ＋</strong></button>;
 }
 
-function CreatorCard({ creator, onSelect, reason }: { creator: CreatorProfile; onSelect: (id: string) => void; reason?: string }) {
+type RankedCreator = CreatorProfile & { stableAveragePlay: number };
+
+function CreatorCard({ creator, onSelect, reason, rank }: { creator: RankedCreator; onSelect: (id: string) => void; reason?: string; rank?: number }) {
   return (
     <button className="creator-card" type="button" onClick={() => onSelect(creator.id)}>
-      <span className="creator-card-top"><strong>{creator.name}</strong><em>{reason || creator.sourceLabel}</em></span>
-      <small>{creator.latestEpisode ? `最新第 ${creator.latestEpisode} 话` : `${creator.count} 部作品`} · {creator.sourceLabel}</small>
+      <span className="creator-card-top"><strong>{creator.name}</strong><em>{rank ? `第 ${String(rank).padStart(2, "0")} 位` : reason || creator.sourceLabel}</em></span>
+      <span className="creator-card-performance">
+        <strong><small>稳定均播</small>{formatPlay(creator.stableAveragePlay)}</strong>
+        <span>实际均播 {formatPlay(creator.averagePlay)} · {creator.count} 部</span>
+      </span>
+      <small>{creator.latestEpisode ? `最新跟进第 ${creator.latestEpisode} 话 · ` : ""}总播放 {formatPlay(creator.totalPlay)} · {creator.sourceLabel}</small>
       <span className="creator-tags">
         {(creator.tags.length ? creator.tags : ["内容待完善"]).slice(0, 3).map((tag) => <i key={tag}>{tag}</i>)}
       </span>
@@ -668,10 +675,25 @@ export default function WeeklyMap({
       .filter((ep): ep is number => ep != null))).sort((a, b) => b - a),
     [analysisArchive]
   );
-  const analysisUps = useMemo(
-    () => analysisCreators.slice().sort((a, b) => b.latestPublishedAt - a.latestPublishedAt || b.count - a.count || a.name.localeCompare(b.name, "zh-CN")),
-    [analysisCreators]
-  );
+  const analysisUps = useMemo(() => {
+    const totalPlay = analysisCreators.reduce((sum, creator) => sum + creator.totalPlay, 0);
+    const totalWorks = analysisCreators.reduce((sum, creator) => sum + creator.count, 0);
+    const globalAveragePlay = totalWorks ? totalPlay / totalWorks : 0;
+    return analysisCreators.map((creator): RankedCreator => ({
+      ...creator,
+      stableAveragePlay: Math.round(
+        (creator.totalPlay + globalAveragePlay * CREATOR_RANKING_PRIOR_WORKS) /
+        (creator.count + CREATOR_RANKING_PRIOR_WORKS)
+      ),
+    })).sort((a, b) =>
+      b.stableAveragePlay - a.stableAveragePlay ||
+      b.averagePlay - a.averagePlay ||
+      b.totalPlay - a.totalPlay ||
+      b.count - a.count ||
+      b.latestPublishedAt - a.latestPublishedAt ||
+      a.name.localeCompare(b.name, "zh-CN")
+    );
+  }, [analysisCreators]);
   const creatorTags = useMemo(() => [
     "全部",
     ...Array.from(new Set(analysisUps.flatMap((up) => up.tags))).sort((a, b) => a.localeCompare(b, "zh-CN")),
@@ -1118,8 +1140,8 @@ export default function WeeklyMap({
                       {creatorTags.map((tag) => <button className={creatorTag === tag ? "active" : ""} type="button" onClick={() => setCreatorTag(tag)} key={tag}><strong>{tag}</strong></button>)}
                     </nav>
                   </div>
-                  <div className="ranking-head"><strong>百家名录</strong><span>{filteredCreators.length} 位 · 点击查看全部收录作品</span></div>
-                  <div className="creator-grid">{filteredCreators.map((creator) => <CreatorCard creator={creator} onSelect={selectAnalysisUp} key={creator.id} />)}</div>
+                  <div className="ranking-head"><strong>百家名录 · 稳定均播排行</strong><span>{filteredCreators.length} 位 · 兼顾实际均播与收录量，单篇爆款适度降权</span></div>
+                  <div className="creator-grid">{filteredCreators.map((creator, index) => <CreatorCard creator={creator} rank={index + 1} onSelect={selectAnalysisUp} key={creator.id} />)}</div>
                 </>}
 
                 {analysisMode === "directory" && selectedCreator && <>
