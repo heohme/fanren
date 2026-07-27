@@ -1,0 +1,26 @@
+components/WeeklyMap.tsx
+  s_ebdcadc4eca024::t_50b1bcc79e0171 38,507-509,514-515,517,678-689,695-696
+  s_ebdcadc4eca024::t_7bef2b8e88881e 512-513,516,690-694,1144
+  s_ebdcadc4eca024::t_6f0e260259689a 1143
+app/globals.css
+  s_ebdcadc4eca024::t_928d9fc12ce585 800-982,984,987-991,995-1037
+  s_ebdcadc4eca024::t_6f0e260259689a 597,983,985-986
+  s_ebdcadc4eca024::t_0144c095663963 1038-1042
+  s_ebdcadc4eca024::t_7bef2b8e88881e 586-589,992-994
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.5",
+  "base_commit_sha": "833cacb61a3118acad321172b4e71ce59f19be1d",
+  "prompts": {},
+  "sessions": {
+    "s_ebdcadc4eca024": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019f63b1-5a76-78b3-aaaf-f6ea70aab084",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "贺庆阳 <heqingyang@xiaohongshu.com>"
+    }
+  }
+}
