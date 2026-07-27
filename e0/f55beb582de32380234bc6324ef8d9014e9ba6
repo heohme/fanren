@@ -1,0 +1,21 @@
+app/globals.css
+  s_2b12040d6cb286::t_5a942b33181267 413-415,450-451
+components/WeeklyMap.tsx
+  s_2b12040d6cb286::t_5a942b33181267 180,184-185,247-319,518-519,527,536-545
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.5",
+  "base_commit_sha": "e0f55beb582de32380234bc6324ef8d9014e9ba6",
+  "prompts": {},
+  "sessions": {
+    "s_2b12040d6cb286": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019f5eae-eabb-7fc1-a138-ce2e9993ccc5",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "贺庆阳 <heqingyang@xiaohongshu.com>"
+    }
+  }
+}

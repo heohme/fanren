@@ -1,0 +1,23 @@
+components/WeeklyMap.tsx
+  s_2b12040d6cb286::t_dfc3de3a879665 3,152-153,156-178,180,184-186,330-346
+  s_2b12040d6cb286::t_1f1fe5b8e9e6a7 179,181-183,187,189-191,195
+  s_2b12040d6cb286::t_770953444230ba 347
+app/globals.css
+  s_2b12040d6cb286::t_dfc3de3a879665 24,175-214
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.5",
+  "base_commit_sha": "19c8aba3a66e88ffeb9437bd9841bb22a3828461",
+  "prompts": {},
+  "sessions": {
+    "s_2b12040d6cb286": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019f5eae-eabb-7fc1-a138-ce2e9993ccc5",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "贺庆阳 <heqingyang@xiaohongshu.com>"
+    }
+  }
+}

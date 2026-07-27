@@ -1,0 +1,28 @@
+components/WeeklyMap.tsx
+  s_ebdcadc4eca024::t_4b295796cdd1fd 801,855,894,921,942,957
+  s_ebdcadc4eca024::t_8ac5c59eb4bf0f 373,469,472-473,478
+  s_ebdcadc4eca024::t_0aa8575da25bb1 93-108,116,124,126-131,133-134,149,151-162,166-167,178,180-191,196-229,231-232,234-239
+  s_ebdcadc4eca024::t_e7f45dd82742bd 230,233
+  s_ebdcadc4eca024::t_1805cfda45a416 240
+app/globals.css
+  s_ebdcadc4eca024::t_322074aa53c0c6 24,370-371,436-447,449-496,657-658,683,726-733
+  s_ebdcadc4eca024::t_8f39fabc025608 690-694,696
+  s_ebdcadc4eca024::t_e7f45dd82742bd 448
+  s_ebdcadc4eca024::t_06cf88e37770e5 697-699
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.5",
+  "base_commit_sha": "fd52ddbb1383af4e6b23b1b9376ad1f55f96273f",
+  "prompts": {},
+  "sessions": {
+    "s_ebdcadc4eca024": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019f63b1-5a76-78b3-aaaf-f6ea70aab084",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "贺庆阳 <heqingyang@xiaohongshu.com>"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+.env.example
+  s_2b12040d6cb286::t_b81676b6318303 1-5
+README.md
+  s_2b12040d6cb286::t_b81676b6318303 70-89,104
+cloudbaserc.json
+  s_2b12040d6cb286::t_b81676b6318303 1-5
+next.config.mjs
+  s_2b12040d6cb286::t_b81676b6318303 3-6,8-9
+package.json
+  s_2b12040d6cb286::t_b81676b6318303 8
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.5",
+  "base_commit_sha": "e3367d1d13ed15e4c70e9c10280f10030e9c5866",
+  "prompts": {},
+  "sessions": {
+    "s_2b12040d6cb286": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019f5eae-eabb-7fc1-a138-ce2e9993ccc5",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "贺庆阳 <heqingyang@xiaohongshu.com>"
+    }
+  }
+}

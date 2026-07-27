@@ -1,0 +1,25 @@
+functions/api/admin-stream.js
+  s_ebdcadc4eca024::t_bea95db9a28c80 1,4-5,7,12-14,19-41,49-54,56-57
+README.md
+  s_ebdcadc4eca024::t_a59e7ccd4d66f2 184-186,191
+components/WeeklyMap.tsx
+  s_ebdcadc4eca024::t_0a8b938c79f754 405
+  s_ebdcadc4eca024::t_bea95db9a28c80 122-158,252,261,263-266,268-273,278-279,285-291,295-296,302-307,312-324,327,337-340,346,360
+  s_ebdcadc4eca024::t_bd1d450c50e24e 275,281,348
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.5",
+  "base_commit_sha": "0d11dfba782a4141902c9a8e35587ed9deb4285c",
+  "prompts": {},
+  "sessions": {
+    "s_ebdcadc4eca024": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019f63b1-5a76-78b3-aaaf-f6ea70aab084",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "贺庆阳 <heqingyang@xiaohongshu.com>"
+    }
+  }
+}

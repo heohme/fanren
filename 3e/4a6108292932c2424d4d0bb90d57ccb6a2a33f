@@ -1,0 +1,21 @@
+data/ups.json
+  s_ebdcadc4eca024::t_b66957ea610a83 62,80-95
+.github/workflows/fetch.yml
+  s_ebdcadc4eca024::t_b66957ea610a83 5
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.5",
+  "base_commit_sha": "3e4a6108292932c2424d4d0bb90d57ccb6a2a33f",
+  "prompts": {},
+  "sessions": {
+    "s_ebdcadc4eca024": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019f63b1-5a76-78b3-aaaf-f6ea70aab084",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "贺庆阳 <heqingyang@xiaohongshu.com>"
+    }
+  }
+}
