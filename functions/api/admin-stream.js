@@ -1,15 +1,42 @@
-import { extractBfzyEpisodes, filterBfzyManifest } from "../_lib/bfzy.js";
+import { extractBfzyEpisodes } from "../_lib/bfzy.js";
 
 const BFZY_DETAIL_URL = "https://bfzyapi.com/api.php/provide/vod/?ac=videolist&ids=9145";
+const DETAIL_FETCH_ATTEMPTS = 3;
+const DETAIL_FETCH_TIMEOUT_MS = 8000;
 
-function json(data, status = 200) {
+function json(data, status = 200, cacheControl = "no-store") {
   return new Response(JSON.stringify(data), {
     status,
     headers: {
       "content-type": "application/json; charset=utf-8",
-      "cache-control": "no-store",
+      "cache-control": cacheControl,
+      "access-control-allow-origin": "*",
+      "x-content-type-options": "nosniff",
     },
   });
+}
+
+async function fetchBfzyEpisodes() {
+  let lastError;
+  for (let attempt = 1; attempt <= DETAIL_FETCH_ATTEMPTS; attempt += 1) {
+    try {
+      const response = await fetch(BFZY_DETAIL_URL, {
+        headers: {
+          accept: "application/json",
+          "user-agent": "Mozilla/5.0",
+        },
+        signal: AbortSignal.timeout(DETAIL_FETCH_TIMEOUT_MS),
+      });
+      if (!response.ok) throw new Error(`bfzy detail ${response.status}`);
+
+      const episodes = extractBfzyEpisodes(await response.json());
+      if (!episodes.length) throw new Error("bfzy detail contains no playable episodes");
+      return episodes;
+    } catch (error) {
+      lastError = error;
+    }
+  }
+  throw lastError || new Error("bfzy detail unavailable");
 }
 
 export async function onRequestGet({ request }) {
@@ -18,51 +45,15 @@ export async function onRequestGet({ request }) {
     return json({ ok: false, error: "管理员片源模式未开启" }, 404);
   }
 
-  const episode = Number(requestUrl.searchParams.get("ep"));
-  if (!Number.isInteger(episode) || episode < 1 || episode > 999) {
-    return json({ ok: false, error: "集数参数不正确" }, 400);
-  }
-
   try {
-    const detailResponse = await fetch(BFZY_DETAIL_URL, {
-      headers: {
-        accept: "application/json",
-        "user-agent": "fanrenmap-admin-stream/1.0",
-      },
-    });
-    if (!detailResponse.ok) throw new Error(`bfzy detail ${detailResponse.status}`);
-
-    const episodes = extractBfzyEpisodes(await detailResponse.json());
-    const stream = episodes.find((item) => item.episode === episode);
-    if (!stream) return json({ ok: false, error: `暴风资源暂未收录第 ${episode} 话` }, 404);
-
-    const manifestResponse = await fetch(stream.url, {
-      headers: {
-        accept: "application/vnd.apple.mpegurl, application/x-mpegURL, */*",
-        referer: "https://bfzyapi.com/",
-        "user-agent": "Mozilla/5.0",
-      },
-    });
-    if (!manifestResponse.ok) throw new Error(`bfzy manifest ${manifestResponse.status}`);
-
-    const rawManifest = await manifestResponse.text();
-    if (!rawManifest.trimStart().startsWith("#EXTM3U")) {
-      throw new Error("bfzy manifest format invalid");
-    }
-    const manifest = filterBfzyManifest(rawManifest, stream.url);
-    return new Response(manifest, {
-      status: 200,
-      headers: {
-        "content-type": "application/vnd.apple.mpegurl; charset=utf-8",
-        "cache-control": "public, max-age=300, stale-while-revalidate=1800",
-        "access-control-allow-origin": "*",
-        "x-content-type-options": "nosniff",
-        "x-fanren-stream-source": "bfzy",
-        "x-fanren-stream-episode": String(episode),
-      },
-    });
+    const episodes = await fetchBfzyEpisodes();
+    return json({
+      ok: true,
+      source: "bfzy",
+      episodes,
+    }, 200, "public, max-age=300, stale-while-revalidate=3600");
   } catch (error) {
-    console.error("admin stream unavailable", error);
-    return json({ ok: false, error: "暴风片源暂时不可用，请稍后重试或前往 B 站" }, 502);
+    console.error("admin stream index unavailable", error);
+    return json({ ok: false, error: "暴风剧集地址暂时不可用，请稍后重试或前往 B 站" }, 502);
   }
 }

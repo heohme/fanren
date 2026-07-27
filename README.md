@@ -181,14 +181,14 @@ GitHub Actions Secret 使用 `ARK_API_KEY`，默认模型为 `doubao-seed-2-0-mi
 
 访问 `/?mode=admin` 后进入管理员片源模式。正道的正片卡片会改用暴风资源（bfzy）播放，预告、魔道和正道盟仍保持原来的 B 站播放方式。
 
-- Cloudflare Pages Function 会按集数读取暴风资源 ID `9145`，无需把 m3u8 地址写入前端。
-- 播放清单经过域名与《凡人修仙传》路径校验，并移除明确标记为 `adjump` 的广告分片。
-- 播放器使用 `hls.js`，网络或片源失败时保留 B 站官方入口。
+- Cloudflare Pages Function 只读取一次暴风资源 ID `9145` 的剧集地址索引，并对域名与《凡人修仙传》路径进行校验。
+- 地址索引会在当前页面会话中复用；播放器使用 `hls.js` 直接读取所选剧集的源站 m3u8，不再由 Function 二次抓取播放清单。
+- 播放器设有加载超时与有限恢复次数，网络或片源失败时会显示明确提示并保留 B 站官方入口。
 - 普通访问不请求暴风资源接口，正道正片使用 B 站官方 `episodeId` 站内播放，并保留官方番剧页外链。
 
 `mode=admin` 只是功能开关，不是身份认证。如果需要真正限制访问，应在 Cloudflare Access 中保护该地址或 `/api/admin-stream`。
 
-播放链路参考 [LibreSpark/LibreTV](https://github.com/LibreSpark/LibreTV) 的苹果 CMS V10、HLS.js 与清单过滤方案；LibreTV 采用 Apache-2.0 License。
+播放链路参考 [LibreSpark/LibreTV](https://github.com/LibreSpark/LibreTV) 的苹果 CMS V10 与 HLS.js 直连方案；LibreTV 采用 Apache-2.0 License。
 
 ### ⚠️ 建议仓库设为 Public
 

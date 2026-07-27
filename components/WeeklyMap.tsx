@@ -119,6 +119,43 @@ function isOfficialEpisode(item: AtlasItem): item is OfficialAtlasItem {
   return typeof candidate.ep === "number" && typeof candidate.arc === "string";
 }
 
+interface AdminStreamIndexResponse {
+  ok: boolean;
+  episodes?: Array<{ episode: number; url: string }>;
+  error?: string;
+}
+
+let adminStreamIndexPromise: Promise<Map<number, string>> | null = null;
+
+async function loadAdminStreamIndex(force = false) {
+  if (force) adminStreamIndexPromise = null;
+  if (adminStreamIndexPromise) return adminStreamIndexPromise;
+
+  adminStreamIndexPromise = (async () => {
+    const controller = new AbortController();
+    const timeout = window.setTimeout(() => controller.abort(), 10000);
+    try {
+      const response = await fetch("/api/admin-stream?mode=admin", {
+        headers: { accept: "application/json" },
+        signal: controller.signal,
+      });
+      const payload = await response.json() as AdminStreamIndexResponse;
+      if (!response.ok || !payload.ok || !Array.isArray(payload.episodes)) {
+        throw new Error(payload.error || `片源索引请求失败（${response.status}）`);
+      }
+
+      return new Map(payload.episodes.map((item) => [item.episode, item.url]));
+    } finally {
+      window.clearTimeout(timeout);
+    }
+  })().catch((error) => {
+    adminStreamIndexPromise = null;
+    throw error;
+  });
+
+  return adminStreamIndexPromise;
+}
+
 function MediaCard({
   item,
   rank,
@@ -212,6 +249,7 @@ function MediaCard({
 function AdminStreamPlayer({ episode, poster }: { episode: number; poster: string }) {
   const videoRef = useRef<HTMLVideoElement>(null);
   const [phase, setPhase] = useState<"loading" | "ready" | "error">("loading");
+  const [errorMessage, setErrorMessage] = useState("片源暂时未能接通");
   const [attempt, setAttempt] = useState(0);
 
   useEffect(() => {
@@ -220,41 +258,73 @@ function AdminStreamPlayer({ episode, poster }: { episode: number; poster: strin
 
     let disposed = false;
     let hls: { destroy: () => void } | null = null;
-    const manifestUrl = `/api/admin-stream?mode=admin&ep=${episode}&attempt=${attempt}`;
+    let loadTimeout = 0;
     const ready = () => {
-      if (!disposed) setPhase("ready");
+      if (!disposed) {
+        window.clearTimeout(loadTimeout);
+        setPhase("ready");
+      }
     };
-    const failed = () => {
-      if (!disposed) setPhase("error");
+    const failed = (message = "片源暂时未能接通") => {
+      if (!disposed) {
+        window.clearTimeout(loadTimeout);
+        setErrorMessage(message);
+        setPhase("error");
+      }
     };
+    const handleVideoError = () => failed("浏览器未能加载当前片源");
 
     setPhase("loading");
+    setErrorMessage("片源暂时未能接通");
+    loadTimeout = window.setTimeout(() => failed("片源加载超时，请重新加载"), 15000);
     video.addEventListener("canplay", ready);
-    video.addEventListener("error", failed);
+    video.addEventListener("error", handleVideoError);
 
     void (async () => {
       try {
+        const streams = await loadAdminStreamIndex(attempt > 0);
+        const manifestUrl = streams.get(episode);
+        if (!manifestUrl) {
+          failed(`暴风资源暂未收录第 ${episode} 话`);
+          return;
+        }
+
         const { default: Hls } = await import("hls.js");
         if (disposed) return;
         if (Hls.isSupported()) {
+          let networkRecoveryCount = 0;
+          let mediaRecoveryCount = 0;
           const instance = new Hls({
             enableWorker: true,
             lowLatencyMode: false,
             backBufferLength: 90,
             maxBufferLength: 30,
-            fragLoadingMaxRetry: 5,
-            manifestLoadingMaxRetry: 3,
+            fragLoadingMaxRetry: 3,
+            fragLoadingRetryDelay: 750,
+            manifestLoadingMaxRetry: 2,
+            manifestLoadingRetryDelay: 750,
+            manifestLoadingTimeOut: 10000,
+            fragLoadingTimeOut: 15000,
           });
           hls = instance;
-          instance.on(Hls.Events.MANIFEST_PARSED, ready);
           instance.on(Hls.Events.ERROR, (_event, data) => {
             if (!data.fatal) return;
-            if (data.type === Hls.ErrorTypes.NETWORK_ERROR) instance.startLoad();
-            else if (data.type === Hls.ErrorTypes.MEDIA_ERROR) instance.recoverMediaError();
-            else failed();
+            if (data.type === Hls.ErrorTypes.NETWORK_ERROR && networkRecoveryCount < 2) {
+              networkRecoveryCount += 1;
+              instance.startLoad();
+              return;
+            }
+            if (data.type === Hls.ErrorTypes.MEDIA_ERROR && mediaRecoveryCount < 1) {
+              mediaRecoveryCount += 1;
+              instance.recoverMediaError();
+              return;
+            }
+            failed(data.type === Hls.ErrorTypes.NETWORK_ERROR
+              ? "暴风片源网络连接失败"
+              : "当前片源格式暂时无法播放");
           });
-          instance.loadSource(manifestUrl);
           instance.attachMedia(video);
+          instance.loadSource(manifestUrl);
           return;
         }
 
@@ -264,15 +334,18 @@ function AdminStreamPlayer({ episode, poster }: { episode: number; poster: strin
           return;
         }
         failed();
-      } catch {
-        failed();
+      } catch (error) {
+        failed(error instanceof Error && error.name === "AbortError"
+          ? "获取剧集地址超时，请重新加载"
+          : error instanceof Error ? error.message : "片源暂时未能接通");
       }
     })();
 
     return () => {
       disposed = true;
+      window.clearTimeout(loadTimeout);
       video.removeEventListener("canplay", ready);
-      video.removeEventListener("error", failed);
+      video.removeEventListener("error", handleVideoError);
       hls?.destroy();
       video.pause();
       video.removeAttribute("src");
@@ -284,7 +357,7 @@ function AdminStreamPlayer({ episode, poster }: { episode: number; poster: strin
     <div className="admin-video-shell">
       <video ref={videoRef} controls playsInline preload="metadata" poster={poster} aria-label={`第 ${episode} 话暴风资源播放器`} />
       {phase === "loading" && <div className="admin-player-state"><span className="atlas-seal">载</span><strong>正在接引暴风片源</strong><small>首次展开可能需要几秒</small></div>}
-      {phase === "error" && <div className="admin-player-state error"><span className="atlas-seal">候</span><strong>片源暂时未能接通</strong><button type="button" onClick={() => setAttempt((value) => value + 1)}>重新加载</button></div>}
+      {phase === "error" && <div className="admin-player-state error"><span className="atlas-seal">候</span><strong>{errorMessage}</strong><button type="button" onClick={() => setAttempt((value) => value + 1)}>重新加载</button></div>}
       <span className="admin-stream-badge">ADMIN · BFZY · 第 {episode} 话</span>
     </div>
   );
@@ -329,7 +402,7 @@ function VideoPlayerModal({ item, adminMode, onClose }: { item: AtlasItem; admin
           )}
         </div>
         <footer>
-          <p>{adminEpisode ? "片源来自暴风资源，采用参考 LibreTV 的 HLS 播放与广告片段过滤方案；片源失效时可使用右侧官方入口。" : "播放器由哔哩哔哩提供；需要更高清画质、登录、点赞或评论时，可前往 B 站继续观看。"}</p>
+          <p>{adminEpisode ? "播放器通过浏览器直连暴风资源的 HLS 片源；片源失效时可使用右侧官方入口。" : "播放器由哔哩哔哩提供；需要更高清画质、登录、点赞或评论时，可前往 B 站继续观看。"}</p>
           <div>
             <button type="button" onClick={onClose}>返回残图</button>
             <a href={item.url} target="_blank" rel="noreferrer">{adminEpisode ? "官方 B 站备用 ↗" : "去 B 站看高清与评论 ↗"}</a>
