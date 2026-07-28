@@ -205,84 +205,84 @@ button, a, [role="button"] { -webkit-tap-highlight-color: transparent; }
   z-index: 15;
   display: grid;
   place-items: end center;
-  padding: clamp(16px, 3vw, 32px);
+  padding: clamp(18px, 3vw, 34px);
   pointer-events: none;
 }
 .onboarding-shade {
   position: absolute;
   inset: 0;
-  background: rgba(12,14,10,.08);
+  background: radial-gradient(circle at 50% 50%, transparent 45%, rgba(12,14,10,.06));
   pointer-events: auto;
 }
 .onboarding-card {
-  width: min(92vw, 460px);
-  padding: 21px 22px 18px;
+  width: min(92vw, 620px);
+  padding: 18px 38px 38px 42px;
   position: relative;
   z-index: 1;
   color: #352718;
-  border: 1px solid rgba(105,65,31,.62);
-  background:
-    linear-gradient(90deg, rgba(91,52,20,.13), transparent 8%, transparent 92%, rgba(91,52,20,.13)),
-    repeating-radial-gradient(circle at 25% 20%, rgba(83,55,25,.07) 0 .7px, transparent 1px 7px),
-    #dfc994;
-  box-shadow: 0 16px 48px rgba(0,0,0,.42), inset 0 0 38px rgba(100,59,21,.12);
+  border: 23px solid transparent;
+  border-image-source: url("/onboarding-scroll-v3.webp");
+  border-image-slice: 94 108 fill;
+  border-image-width: 1;
+  border-image-repeat: stretch;
+  background: transparent;
+  filter: drop-shadow(0 12px 24px rgba(14,12,8,.27));
   pointer-events: auto;
   animation: onboarding-rise 320ms cubic-bezier(.2,.8,.2,1);
 }
 .onboarding-card::before, .onboarding-card::after {
-  content: "";
-  position: absolute;
-  left: 16px;
-  right: 16px;
-  height: 1px;
-  background: linear-gradient(90deg, transparent, rgba(102,62,27,.38), transparent);
+  display: none;
 }
-.onboarding-card::before { top: 12px; }
-.onboarding-card::after { bottom: 11px; }
-.onboarding-card > header { display: grid; grid-template-columns: auto 1fr auto; align-items: center; gap: 12px; }
+.onboarding-card > header { display: grid; grid-template-columns: 1fr auto; align-items: center; gap: 12px; }
 .onboarding-seal {
-  width: 38px;
-  height: 38px;
-  display: grid;
-  place-items: center;
-  color: #f8e8bc;
-  background: var(--cinnabar);
-  box-shadow: inset 0 0 0 3px rgba(255,255,255,.1), 0 5px 14px rgba(74,34,22,.22);
-  font-size: 16px;
-  font-weight: 700;
-  transform: rotate(-3deg);
+  display: none;
 }
-.onboarding-card header p { margin: 0 0 4px; color: #91382c; font-family: ui-sans-serif, system-ui, sans-serif; font-size: 10px; font-weight: 600; letter-spacing: .12em; }
-.onboarding-card h2 { margin: 0; font-size: clamp(19px, 2.4vw, 23px); letter-spacing: .06em; }
+.onboarding-card header p { margin: 0 0 3px; color: #8b493a; font-family: ui-sans-serif, system-ui, sans-serif; font-size: 9px; font-weight: 600; letter-spacing: .14em; }
+.onboarding-card h2 {
+  margin: 0;
+  color: #2e2419;
+  font-family: "Ma Shan Zheng Scroll", "STKaiti", "Kaiti SC", "Xingkai SC", cursive;
+  font-size: clamp(27px, 3vw, 33px);
+  font-weight: 400;
+  letter-spacing: .055em;
+  line-height: 1.15;
+  text-shadow: .5px .7px 0 rgba(79,51,28,.15);
+}
 .onboarding-card header button {
-  padding: 4px 0 5px 10px;
+  padding: 5px 0 5px 12px;
   border: 0;
-  color: #80684b;
+  color: #80694d;
   background: transparent;
   font-family: inherit;
-  font-size: 11px;
+  font-size: 10px;
   cursor: pointer;
 }
-.onboarding-description { margin: 15px 0 5px; font-size: 15px; line-height: 1.65; }
-.onboarding-card > small { display: block; color: #725f46; font-family: ui-sans-serif, system-ui, sans-serif; font-size: 11px; line-height: 1.6; }
-.onboarding-card > footer { margin-top: 17px; display: flex; align-items: center; justify-content: space-between; gap: 16px; }
+.onboarding-description { margin: 14px 0 3px; font-size: 14px; line-height: 1.65; }
+.onboarding-card > small { display: block; color: #78664d; font-family: ui-sans-serif, system-ui, sans-serif; font-size: 10px; line-height: 1.6; }
+.onboarding-card > footer { margin-top: 15px; display: flex; align-items: center; justify-content: space-between; gap: 16px; }
 .onboarding-progress { display: flex; gap: 6px; }
-.onboarding-progress i { width: 16px; height: 3px; background: rgba(91,58,31,.2); transition: background 180ms ease, width 180ms ease; }
+.onboarding-progress i { width: 5px; height: 5px; border-radius: 50%; background: rgba(91,58,31,.2); transition: background 180ms ease, width 180ms ease; }
 .onboarding-progress i.done { background: rgba(116,65,37,.5); }
-.onboarding-progress i.active { width: 26px; background: var(--cinnabar); }
+.onboarding-progress i.active { width: 17px; border-radius: 999px; background: var(--cinnabar); }
 .onboarding-card footer > div:last-child { display: flex; gap: 8px; }
 .onboarding-card footer button {
-  min-width: 84px;
-  min-height: 36px;
-  padding: 0 14px;
-  border: 1px solid rgba(91,58,31,.28);
+  min-width: 64px;
+  min-height: 31px;
+  padding: 0 9px;
+  border: 0;
   color: #614930;
-  background: rgba(245,225,178,.38);
+  background: transparent;
   font-family: inherit;
-  font-size: 11px;
+  font-size: 10px;
   cursor: pointer;
 }
-.onboarding-card footer button.primary { color: #fae9bf; border-color: #8e342a; background: #8e342a; }
+.onboarding-card footer button.primary {
+  color: #7f3027;
+  border: 1px solid rgba(127,48,39,.48);
+  background: rgba(244,230,194,.76);
+  box-shadow: inset 0 0 0 2px rgba(127,48,39,.055);
+  font-weight: 700;
+}
 
 .scroll-backdrop {
   position: fixed;
@@ -937,7 +937,7 @@ button, a, [role="button"] { -webkit-tap-highlight-color: transparent; }
 }
 .scroll-heading p { font-size: 10px; }
 .scroll-heading h1 {
-  font-family: "Xingkai SC", "STXingkai", "Ma Shan Zheng Scroll", "Kaiti SC", "STKaiti", cursive;
+  font-family: "Ma Shan Zheng Scroll", "STKaiti", "Kaiti SC", "Xingkai SC", cursive;
   font-size: clamp(38px, 4vw, 54px);
   font-weight: 400;
   letter-spacing: .07em;
@@ -1220,19 +1220,18 @@ button, a, [role="button"] { -webkit-tap-highlight-color: transparent; }
   .atlas-header { padding-inline: 12px; }
   .atlas-seal { width: 35px; height: 35px; }
   .atlas-guide button { min-height: 30px; padding-inline: 7px; font-size: 7px; }
-  .atlas-onboarding { padding: 12px; }
-  .onboarding-card { padding: 19px 17px 16px; }
-  .onboarding-card > header { grid-template-columns: auto 1fr; gap: 10px; }
-  .onboarding-card header button { position: absolute; right: 17px; top: 16px; }
-  .onboarding-seal { width: 36px; height: 36px; font-size: 15px; }
+  .atlas-onboarding { padding: 14px; }
+  .onboarding-card { padding: 17px 21px 34px 25px; border-width: 16px; }
+  .onboarding-card > header { grid-template-columns: 1fr auto; gap: 10px; }
+  .onboarding-card header button { position: static; }
   .onboarding-card header p { padding-right: 40px; }
-  .onboarding-card h2 { font-size: 17px; line-height: 1.45; }
-  .onboarding-description { margin-top: 13px; font-size: 14px; }
-  .onboarding-card > small { font-size: 10px; }
-  .onboarding-card > footer { margin-top: 16px; align-items: flex-end; }
-  .onboarding-progress i { width: 11px; }
-  .onboarding-progress i.active { width: 18px; }
-  .onboarding-card footer button { min-width: 67px; padding-inline: 10px; }
+  .onboarding-card h2 { font-size: 27px; line-height: 1.15; }
+  .onboarding-description { margin-top: 12px; font-size: 13px; }
+  .onboarding-card > small { font-size: 9px; }
+  .onboarding-card > footer { margin-top: 14px; align-items: flex-end; }
+  .onboarding-progress i { width: 5px; }
+  .onboarding-progress i.active { width: 15px; }
+  .onboarding-card footer button { min-width: 58px; padding-inline: 8px; }
   .realm-badge { min-width: 68px; padding: 4px 5px; }
   .realm-badge strong { font-size: 9px; }
   .realm-badge > span { font-size: 5px; }
