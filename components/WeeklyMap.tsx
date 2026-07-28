@@ -1,6 +1,10 @@
 "use client";
 
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
+import AtlasOnboarding, {
+  ONBOARDING_STEPS,
+  type GuidedRealm,
+} from "@/components/AtlasGuidance";
 import CommunityHub from "@/components/CommunityHub";
 import type {
   AnalysisAtlasItem,
@@ -35,6 +39,8 @@ const CREATION_CATEGORY_ORDER = [
 ];
 const ANALYSIS_BATCH_SIZE = 80;
 const VIEWED_ITEMS_KEY = "fanrenmap-viewed-items-v1";
+const ONBOARDING_VERSION = "2";
+const ONBOARDING_KEY = "fanrenmap-onboarding-version";
 const CREATOR_RANKING_PRIOR_WORKS = 5;
 
 interface Realm {
@@ -569,12 +575,30 @@ export default function WeeklyMap({
   const [exitConfirm, setExitConfirm] = useState(false);
   const [playingItem, setPlayingItem] = useState<AtlasItem | null>(null);
   const [adminMode, setAdminMode] = useState(false);
+  const [onboardingOpen, setOnboardingOpen] = useState(false);
+  const [onboardingStep, setOnboardingStep] = useState(0);
   const exitBypassRef = useRef(false);
   const deepLinkReadyRef = useRef(false);
   const deepLinkLoadRequestedRef = useRef(false);
   const shareFeedbackTimerRef = useRef<number | null>(null);
   const loadedRealmsRef = useRef<Set<OpenRealm>>(new Set());
   const loadingRealmsRef = useRef<Set<OpenRealm>>(new Set());
+
+  useEffect(() => {
+    const url = new URL(window.location.href);
+    const isPlainHome = url.pathname === "/" && !url.search && !url.hash;
+    const onboardingComplete = localStorage.getItem(ONBOARDING_KEY) === ONBOARDING_VERSION;
+    if (isPlainHome && !onboardingComplete) {
+      setOnboardingStep(0);
+      setOnboardingOpen(true);
+    }
+  }, []);
+
+  const finishOnboarding = () => {
+    localStorage.setItem(ONBOARDING_KEY, ONBOARDING_VERSION);
+    setOnboardingOpen(false);
+    setOnboardingStep(0);
+  };
 
   useEffect(() => {
     setAdminMode(new URLSearchParams(window.location.search).get("mode") === "admin");
@@ -869,8 +893,8 @@ export default function WeeklyMap({
     {
       key: "heaven",
       name: "天道盟",
-      module: "每日精选",
-      description: "晨晚两次寻迹，从万卷二创中挑出今天值得看的作品。",
+      module: "今日追番",
+      description: "今日新发现的解析与二创推荐，不知道看什么就从这里开始。",
       count: counts.creations,
       path: paths.heaven,
     },
@@ -965,16 +989,21 @@ export default function WeeklyMap({
     setActive(key);
     void loadRealmData(key);
   };
+  const guidedRealms = onboardingOpen
+    ? new Set<GuidedRealm>(ONBOARDING_STEPS[onboardingStep].targets)
+    : new Set<GuidedRealm>();
 
   return (
-    <main className={`atlas-shell ${active ? "scroll-open" : ""}`}>
+    <main className={`atlas-shell ${active ? "scroll-open" : ""} ${onboardingOpen ? "is-guiding" : ""}`}>
       <header className="atlas-header">
         <a className="atlas-brand" href="#atlas" aria-label="凡人残图首页">
           <span className="atlas-seal" aria-hidden="true">凡<br />图</span>
           <span><strong>凡人残图</strong><small>天南寻迹图</small></span>
         </a>
         <p>第 {currentEpisode || "—"} 话 · {generatedLabel}</p>
-        <span className="atlas-guide">悬停寻境 · 点击开卷</span>
+        <div className="atlas-guide">
+          <button type="button" aria-label="残图指引" onClick={() => { setOnboardingStep(0); setOnboardingOpen(true); }}>残图指引</button>
+        </div>
       </header>
 
       <section className="atlas-stage" id="atlas" aria-label="天南势力内容地图">
@@ -995,7 +1024,7 @@ export default function WeeklyMap({
           <svg className="realm-overlay" viewBox="0 0 1882 1044" role="group" aria-label="可探索区域">
             {realms.map((realm) => (
               <g
-                className={`realm realm-${realm.key} ${hovered === realm.key ? "is-hovered" : ""} ${realm.locked ? "is-locked" : ""}`}
+                className={`realm realm-${realm.key} ${hovered === realm.key ? "is-hovered" : ""} ${guidedRealms.has(realm.key) ? "is-guided" : ""} ${realm.locked ? "is-locked" : ""}`}
                 key={realm.key}
                 onMouseEnter={() => setHovered(realm.key)}
                 onMouseLeave={() => setHovered(null)}
@@ -1019,7 +1048,7 @@ export default function WeeklyMap({
 
           {realms.map((realm) => (
             <div
-              className={`realm-badge badge-${realm.key} ${hovered === realm.key ? "is-hovered" : ""}`}
+              className={`realm-badge badge-${realm.key} ${hovered === realm.key ? "is-hovered" : ""} ${guidedRealms.has(realm.key) ? "is-guided" : ""}`}
               style={labelPositions[realm.key]}
               key={realm.key}
               aria-hidden="true"
@@ -1031,6 +1060,14 @@ export default function WeeklyMap({
           ))}
         </div>
       </section>
+      {onboardingOpen && (
+        <AtlasOnboarding
+          step={onboardingStep}
+          onStepChange={setOnboardingStep}
+          onComplete={finishOnboarding}
+          onSkip={finishOnboarding}
+        />
+      )}
 
       <div className={`scroll-backdrop ${active ? "visible" : ""}`} onClick={() => setActive(null)} aria-hidden={!active} />
 
