@@ -1,0 +1,32 @@
+components/WeeklyMap.tsx
+  s_ebdcadc4eca024::t_fb7f3c62fb78c9 4-7,42-43,578-579,587-602,896-897,992-994,997,1004-1006,1027,1051,1063-1070
+app/globals.css
+  s_ebdcadc4eca024::t_a77abd90b723d0 5-12,391,932,935,940-945,957,1178,1241,1245
+  s_ebdcadc4eca024::t_21c16ad3c0faa2 403-404,1181,1242-1244,1246
+  s_ebdcadc4eca024::t_3b6ea9b9f1abb4 923-925,1175,1222-1235
+  s_ebdcadc4eca024::t_8a76cae474f4b0 1251-1252
+  s_ebdcadc4eca024::t_86c8959ff4ca67 293-294,351,360-361,368,475,477,479,929
+  s_ebdcadc4eca024::t_3498f63fb83006 352,359,362-366,372-388,394-395,397,399,418
+  s_ebdcadc4eca024::t_21ac2b91562d20 32,81-95,146-152,191-196,202-285
+  s_ebdcadc4eca024::t_08ec666079cc2f 286
+components/AtlasGuidance.tsx
+  s_ebdcadc4eca024::t_fb7f3c62fb78c9 1-86
+public/fonts/MaShanZheng-OFL.txt
+  s_ebdcadc4eca024::t_8df4aadd88cb42 1-93
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.5",
+  "base_commit_sha": "6898427097e6c599abc20ac63925bf6c5a660ef8",
+  "prompts": {},
+  "sessions": {
+    "s_ebdcadc4eca024": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019f63b1-5a76-78b3-aaaf-f6ea70aab084",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "贺庆阳 <heqingyang@xiaohongshu.com>"
+    }
+  }
+}
