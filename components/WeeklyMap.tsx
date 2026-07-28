@@ -71,7 +71,7 @@ function formatPlay(value = 0) {
 }
 
 function episodeFromSearch(params: URLSearchParams) {
-  const token = params.get("episode")?.trim();
+  const token = (params.get("e") || params.get("episode"))?.trim();
   if (!token || !/^\d+$/.test(token)) return null;
   const episode = Number(token);
   return Number.isSafeInteger(episode) && episode > 0 ? episode : null;
@@ -793,6 +793,7 @@ export default function WeeklyMap({
     if (!up) return null;
     const url = new URL(window.location.href);
     url.searchParams.set("up", up.shareCode || up.name);
+    url.searchParams.delete("e");
     url.searchParams.delete("episode");
     url.hash = "";
     history.replaceState(history.state, "", url);
@@ -801,7 +802,8 @@ export default function WeeklyMap({
 
   const setEpisodeInAddress = (episode: number) => {
     const url = new URL(window.location.href);
-    url.searchParams.set("episode", String(episode));
+    url.searchParams.set("e", String(episode));
+    url.searchParams.delete("episode");
     url.searchParams.delete("up");
     url.hash = "";
     history.replaceState(history.state, "", url);
@@ -820,8 +822,9 @@ export default function WeeklyMap({
     if (mode === "directory") return;
     const url = new URL(window.location.href);
     url.searchParams.delete("up");
-    if (mode === "episode" && analysisEpisode > 0) url.searchParams.set("episode", String(analysisEpisode));
-    else url.searchParams.delete("episode");
+    url.searchParams.delete("episode");
+    if (mode === "episode" && analysisEpisode > 0) url.searchParams.set("e", String(analysisEpisode));
+    else url.searchParams.delete("e");
     history.replaceState(history.state, "", url);
   };
 
@@ -837,6 +840,7 @@ export default function WeeklyMap({
     setShareCopied(false);
     const url = new URL(window.location.href);
     url.searchParams.delete("up");
+    url.searchParams.delete("e");
     url.searchParams.delete("episode");
     history.replaceState(history.state, "", url);
   };
