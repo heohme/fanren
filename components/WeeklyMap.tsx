@@ -70,6 +70,13 @@ function formatPlay(value = 0) {
   return String(value);
 }
 
+function episodeFromSearch(params: URLSearchParams) {
+  const token = params.get("episode")?.trim();
+  if (!token || !/^\d+$/.test(token)) return null;
+  const episode = Number(token);
+  return Number.isSafeInteger(episode) && episode > 0 ? episode : null;
+}
+
 function biliThumbnail(url: string, width: number) {
   const normalized = url.replace(/^http:\/\//, "https://");
   if (!/\.hdslb\.com\//.test(normalized) || normalized.includes("@")) return normalized;
@@ -675,6 +682,13 @@ export default function WeeklyMap({
       .filter((ep): ep is number => ep != null))).sort((a, b) => b - a),
     [analysisArchive]
   );
+  const analysisEpisodeOptions = useMemo(
+    () => Array.from(new Set([
+      ...(analysisEpisode > 0 ? [analysisEpisode] : []),
+      ...analysisEpisodes,
+    ])).sort((a, b) => b - a),
+    [analysisEpisode, analysisEpisodes]
+  );
   const analysisUps = useMemo(() => {
     const totalPlay = analysisCreators.reduce((sum, creator) => sum + creator.totalPlay, 0);
     const totalWorks = analysisCreators.reduce((sum, creator) => sum + creator.count, 0);
@@ -731,7 +745,8 @@ export default function WeeklyMap({
 
   useEffect(() => {
     if (deepLinkLoadRequestedRef.current) return;
-    const hasDeepLink = new URLSearchParams(window.location.search).has("up");
+    const params = new URLSearchParams(window.location.search);
+    const hasDeepLink = params.has("up") || episodeFromSearch(params) != null;
     if (!hasDeepLink) return;
     deepLinkLoadRequestedRef.current = true;
     setActive("demonic");
@@ -739,10 +754,10 @@ export default function WeeklyMap({
   }, [loadRealmData]);
 
   useEffect(() => {
-    if (deepLinkReadyRef.current || !analysisUps.length) return;
-    deepLinkReadyRef.current = true;
+    if (deepLinkReadyRef.current || !analysisArchive.length) return;
 
-    const token = new URLSearchParams(window.location.search).get("up")?.normalize("NFKC").trim();
+    const params = new URLSearchParams(window.location.search);
+    const token = params.get("up")?.normalize("NFKC").trim();
     const normalizedToken = token?.toLocaleLowerCase("zh-CN");
     const linkedUp = normalizedToken
       ? analysisUps.find((up) =>
@@ -753,13 +768,21 @@ export default function WeeklyMap({
         )
       : undefined;
 
+    deepLinkReadyRef.current = true;
     if (linkedUp) {
       setAnalysisUp(linkedUp.id);
       setAnalysisMode("directory");
       setActive("demonic");
       return;
     }
-  }, [analysisUps]);
+
+    const linkedEpisode = episodeFromSearch(params);
+    if (linkedEpisode != null) {
+      setAnalysisEpisode(linkedEpisode);
+      setAnalysisMode("episode");
+      setActive("demonic");
+    }
+  }, [analysisArchive.length, analysisUps]);
 
   useEffect(() => () => {
     if (shareFeedbackTimerRef.current) window.clearTimeout(shareFeedbackTimerRef.current);
@@ -770,9 +793,18 @@ export default function WeeklyMap({
     if (!up) return null;
     const url = new URL(window.location.href);
     url.searchParams.set("up", up.shareCode || up.name);
+    url.searchParams.delete("episode");
     url.hash = "";
     history.replaceState(history.state, "", url);
     return url;
+  };
+
+  const setEpisodeInAddress = (episode: number) => {
+    const url = new URL(window.location.href);
+    url.searchParams.set("episode", String(episode));
+    url.searchParams.delete("up");
+    url.hash = "";
+    history.replaceState(history.state, "", url);
   };
 
   const selectAnalysisUp = (upId: string) => {
@@ -788,7 +820,16 @@ export default function WeeklyMap({
     if (mode === "directory") return;
     const url = new URL(window.location.href);
     url.searchParams.delete("up");
+    if (mode === "episode" && analysisEpisode > 0) url.searchParams.set("episode", String(analysisEpisode));
+    else url.searchParams.delete("episode");
     history.replaceState(history.state, "", url);
+  };
+
+  const selectAnalysisEpisode = (episode: number) => {
+    setAnalysisEpisode(episode);
+    setAnalysisMode("episode");
+    setShareCopied(false);
+    setEpisodeInAddress(episode);
   };
 
   const clearAnalysisUp = () => {
@@ -796,6 +837,7 @@ export default function WeeklyMap({
     setShareCopied(false);
     const url = new URL(window.location.href);
     url.searchParams.delete("up");
+    url.searchParams.delete("episode");
     history.replaceState(history.state, "", url);
   };
 
@@ -1105,8 +1147,8 @@ export default function WeeklyMap({
                 <div className="mode-row dimension-filters">
                   {analysisMode === "episode" && (
                     <div className="filter-rail slim episode-filter">
-                      {analysisEpisodes.map((ep) => (
-                        <button className={analysisEpisode === ep ? "active" : ""} type="button" onClick={() => setAnalysisEpisode(ep)} key={ep}>
+                      {analysisEpisodeOptions.map((ep) => (
+                        <button className={analysisEpisode === ep ? "active" : ""} type="button" onClick={() => selectAnalysisEpisode(ep)} key={ep}>
                           <strong>{ep}</strong><small>话</small>
                         </button>
                       ))}
