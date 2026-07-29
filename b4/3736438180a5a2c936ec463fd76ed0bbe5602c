@@ -1,0 +1,47 @@
+components/WeeklyMap.tsx
+  s_ebdcadc4eca024::t_11197e0be83a96 93,97
+  s_ebdcadc4eca024::t_956a8c71b3ea9f 797-798
+  s_ebdcadc4eca024::t_086829c64461ea 9,87-92,94-96,98-101,168,198,208,214,247,276,449,468,474,480,503,509,613,619-626,631-648,650-652,866,876,885-893,901,905,923,946-952,1052-1055,1057,1061-1070,1084,1090-1098,1101,1103,1105-1106,1108-1109,1156,1158,1224-1227,1252,1261,1291-1292,1298,1307,1334,1341,1346,1352,1364-1366
+functions/api/admin-stream.js
+  s_ebdcadc4eca024::t_086829c64461ea 44-45
+components/CommunityHub.tsx
+  s_ebdcadc4eca024::t_086829c64461ea 66-69
+lib/analytics.ts
+  s_ebdcadc4eca024::t_086829c64461ea 1-133
+README.md
+  s_ebdcadc4eca024::t_086829c64461ea 23,27,130-131,185,192
+docs/behavior-analytics.md
+  s_ebdcadc4eca024::t_086829c64461ea 1-54
+components/AdminAnalytics.tsx
+  s_ebdcadc4eca024::t_0480bcd5051e95 1-143
+app/admin/analytics/page.tsx
+  s_ebdcadc4eca024::t_81c9e2893bfe31 1-10
+app/globals.css
+  s_ebdcadc4eca024::t_806d4536051fa2 29,888-889,912-925,1220,1328,1334
+app/layout.tsx
+  s_ebdcadc4eca024::t_d113e588ec4d71 38
+components/AdminSubmissions.tsx
+  s_ebdcadc4eca024::t_be8dd7bb55df67 114
+functions/api/admin/analytics.js
+  s_ebdcadc4eca024::t_91128e9f0167a3 1-90
+functions/api/events.js
+  s_ebdcadc4eca024::t_f1837c0b65d6b8 1-109
+migrations/0002_analytics.sql
+  s_ebdcadc4eca024::t_268668ad0a213a 1-32
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.5",
+  "base_commit_sha": "b43736438180a5a2c936ec463fd76ed0bbe5602c",
+  "prompts": {},
+  "sessions": {
+    "s_ebdcadc4eca024": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019f63b1-5a76-78b3-aaaf-f6ea70aab084",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "贺庆阳 <heqingyang@xiaohongshu.com>"
+    }
+  }
+}
