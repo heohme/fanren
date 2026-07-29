@@ -1,5 +1,5 @@
 {
-  "generatedAt": 1785331496863,
+  "generatedAt": 1785335901083,
   "series": {
     "title": "凡人修仙传",
     "seasonId": "28747",
@@ -3511,9 +3511,10 @@
         "利维坦LWT"
       ],
       "note": "经典解析向",
+      "source": "search-backfill",
       "error": null,
-      "lastFetched": 1785331204100,
-      "lastSuccess": 1785331204100,
+      "lastFetched": 1785335901083,
+      "lastSuccess": 1785335901083,
       "videos": [
         {
           "bvid": "BV1cL3M6sEYt",
@@ -4737,7 +4738,7 @@
           "cover": "https://i2.hdslb.com/bfs/archive/5ebaaa83bfcc93c76d913209621364dcf929798f.jpg",
           "pubTime": 1726912500000,
           "duration": "9:7",
-          "play": 508373,
+          "play": 508406,
           "videoUrl": "http://www.bilibili.com/video/av113173042627845",
           "matched": true,
           "ep": 120,
@@ -5039,7 +5040,7 @@
           "cover": "https://i1.hdslb.com/bfs/archive/49bb52cc5ce1144ee18a6049bc8443dbde0ec319.jpg",
           "pubTime": 1714815300000,
           "duration": "8:34",
-          "play": 654846,
+          "play": 654857,
           "videoUrl": "http://www.bilibili.com/video/av1604236499",
           "matched": true,
           "ep": 100,
@@ -5073,7 +5074,7 @@
           "cover": "https://i0.hdslb.com/bfs/archive/97fee466850c26bab23cacca0493e964505c8fdb.jpg",
           "pubTime": 1713608695000,
           "duration": "10:20",
-          "play": 573524,
+          "play": 573542,
           "videoUrl": "http://www.bilibili.com/video/av1303283016",
           "matched": true,
           "ep": 98,
@@ -5090,7 +5091,7 @@
           "cover": "https://i1.hdslb.com/bfs/archive/825f52c52145166dcf5ed9509913dac6fef04e75.jpg",
           "pubTime": 1713003916000,
           "duration": "10:55",
-          "play": 599992,
+          "play": 600016,
           "videoUrl": "http://www.bilibili.com/video/av1103088356",
           "matched": true,
           "ep": 97,
@@ -5107,7 +5108,7 @@
           "cover": "https://i0.hdslb.com/bfs/archive/40f1a1702c7f3b0d98265a32b68e89cc3ae1381f.jpg",
           "pubTime": 1712394300000,
           "duration": "7:48",
-          "play": 638049,
+          "play": 638071,
           "videoUrl": "http://www.bilibili.com/video/av1852792479",
           "matched": true,
           "ep": 96,
@@ -5175,7 +5176,7 @@
           "cover": "https://i0.hdslb.com/bfs/archive/2c9e9af143ba1192283b0a80db7388c8aa7295e2.jpg",
           "pubTime": 1709978700000,
           "duration": "11:27",
-          "play": 561314,
+          "play": 561335,
           "videoUrl": "http://www.bilibili.com/video/av1051645181",
           "matched": true,
           "ep": 92,
@@ -5192,10 +5193,27 @@
           "cover": "https://i1.hdslb.com/bfs/archive/6ca160fe0261812b3e0e3d091c18bb16330e61db.jpg",
           "pubTime": 1709372100000,
           "duration": "8:51",
-          "play": 579301,
+          "play": 579323,
           "videoUrl": "http://www.bilibili.com/video/av1151325969",
           "matched": true,
           "ep": 91,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [],
+          "discoveredBy": "episode-search"
+        },
+        {
+          "bvid": "BV17m411S7Aj",
+          "aid": 1900918105,
+          "title": "播放破20亿！战斗逻辑堪称一流！《凡人修仙传》90逐帧解析",
+          "description": "斗法解析来了！感谢大家的三连与转发啦~",
+          "cover": "https://i1.hdslb.com/bfs/archive/f626bd3ece45f42d4c256f8b58b5290178373270.jpg",
+          "pubTime": 1708769100000,
+          "duration": "9:25",
+          "play": 671091,
+          "videoUrl": "http://www.bilibili.com/video/av1900918105",
+          "matched": true,
+          "ep": 90,
           "isCompilation": false,
           "contentType": "episode",
           "characters": [],
@@ -5924,10 +5942,11 @@
       "uid": "57868863",
       "name": "白马猴子",
       "alias": [],
-      "note": "",
+      "note": "按集搜索发现",
+      "source": "search-backfill",
       "error": null,
-      "lastFetched": 1785331286195,
-      "lastSuccess": 1785331286195,
+      "lastFetched": 1785335901083,
+      "lastSuccess": 1785335901083,
       "videos": [
         {
           "bvid": "BV1HB3u6tExQ",
@@ -7659,7 +7678,7 @@
           "cover": "https://i1.hdslb.com/bfs/archive/78a04f44f7012ddc5ec5f2692f0e3b8189d6b8bf.jpg",
           "pubTime": 1712397116000,
           "duration": "7:26",
-          "play": 305520,
+          "play": 305528,
           "videoUrl": "http://www.bilibili.com/video/av1152762817",
           "matched": true,
           "ep": 96,
@@ -7749,7 +7768,7 @@
           "cover": "https://i1.hdslb.com/bfs/archive/139f24da18eec8c15993512f372a72a260843ea6.jpg",
           "pubTime": 1709374827000,
           "duration": "6:36",
-          "play": 248808,
+          "play": 248815,
           "videoUrl": "http://www.bilibili.com/video/av1501300265",
           "matched": true,
           "ep": 91,
@@ -7758,6 +7777,23 @@
           "characters": [
             "玄骨"
           ],
+          "discoveredBy": "episode-search"
+        },
+        {
+          "bvid": "BV1sZ421y7gr",
+          "aid": 1151148159,
+          "title": "凡人的斗法究竟有多精彩？这个视频让你看个明白！《凡人修仙传》第90集逐帧解析",
+          "description": "感谢本期视频的配音小哥哥@鲜氣菌",
+          "cover": "https://i2.hdslb.com/bfs/archive/4f223259678372decca567b7dbee9c4c02f36fa8.jpg",
+          "pubTime": 1708784883000,
+          "duration": "12:12",
+          "play": 237645,
+          "videoUrl": "http://www.bilibili.com/video/av1151148159",
+          "matched": true,
+          "ep": 90,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [],
           "discoveredBy": "episode-search"
         }
       ],
@@ -9871,9 +9907,10 @@
       "name": "飞天心宏",
       "alias": [],
       "note": "命运流深度解读",
+      "source": "search-backfill",
       "error": "all retries failed",
-      "lastFetched": 1785331418012,
-      "lastSuccess": 1785327556413,
+      "lastFetched": 1785335683528,
+      "lastSuccess": 1785335683528,
       "videos": [
         {
           "bvid": "BV1Hb3q6MEn4",
@@ -12245,9 +12282,10 @@
       "name": "双份豆包",
       "alias": [],
       "note": "道友推荐，剧情解析",
+      "source": "search-backfill",
       "error": null,
-      "lastFetched": 1785327655246,
-      "lastSuccess": 1785327655246,
+      "lastFetched": 1785335851526,
+      "lastSuccess": 1785335851526,
       "videos": [
         {
           "bvid": "BV1cKgt6uEEB",
@@ -13419,7 +13457,7 @@
           "cover": "https://i0.hdslb.com/bfs/archive/30792456094da831fc59f471a7cb02c254f6ae1b.jpg",
           "pubTime": 1712420373000,
           "duration": "6:50",
-          "play": 27756,
+          "play": 27757,
           "videoUrl": "http://www.bilibili.com/video/av1852931646",
           "matched": true,
           "ep": 96,
@@ -16154,8 +16192,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1785316518899,
-      "lastSuccess": 1785316518899,
+      "lastFetched": 1785335803472,
+      "lastSuccess": 1785335803472,
       "videos": [
         {
           "bvid": "BV13jMw6UECD",
@@ -17261,7 +17299,7 @@
           "cover": "https://i2.hdslb.com/bfs/archive/23fe23b15ef0e63278af819368c284fc9d132c9a.jpg",
           "pubTime": 1771669989000,
           "duration": "15:46",
-          "play": 686,
+          "play": 687,
           "videoUrl": "http://www.bilibili.com/video/av116108132614772",
           "matched": true,
           "ep": 98,
@@ -17280,7 +17318,7 @@
           "cover": "https://i2.hdslb.com/bfs/archive/23fe23b15ef0e63278af819368c284fc9d132c9a.jpg",
           "pubTime": 1771658525000,
           "duration": "16:11",
-          "play": 745,
+          "play": 746,
           "videoUrl": "http://www.bilibili.com/video/av116107377706868",
           "matched": true,
           "ep": 96,
@@ -17553,8 +17591,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1785229809136,
-      "lastSuccess": 1785229809136,
+      "lastFetched": 1785335589289,
+      "lastSuccess": 1785335589289,
       "videos": [
         {
           "bvid": "BV1BpKR6qELt",
@@ -17695,6 +17733,26 @@
           "discoveredBy": "episode-search"
         },
         {
+          "bvid": "BV1bbESzHEvK",
+          "aid": 114531141420777,
+          "title": "【凡人reaction】EP120 六道传人温天仁正式登场，“青易门徒”韩立逃出南明岛",
+          "description": "",
+          "cover": "https://i0.hdslb.com/bfs/archive/55a35e30755348189fcb3d8a9189515504f8bdab.jpg",
+          "pubTime": 1747627200000,
+          "duration": "22:43",
+          "play": 17526,
+          "videoUrl": "http://www.bilibili.com/video/av114531141420777",
+          "matched": true,
+          "ep": 120,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [
+            "温天仁",
+            "韩立"
+          ],
+          "discoveredBy": "episode-search"
+        },
+        {
           "bvid": "BV1E3EbzVEGD",
           "aid": 114518759837426,
           "title": "【凡人reaction】EP115 蛮胡子抢到补天丹，小丑下线，玄骨揭露星宫骗局",
@@ -17802,8 +17860,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1785316471523,
-      "lastSuccess": 1785316471523,
+      "lastFetched": 1785335901083,
+      "lastSuccess": 1785335901083,
       "videos": [
         {
           "bvid": "BV1Cb7H6yEsE",
@@ -18372,7 +18430,7 @@
           "cover": "https://i0.hdslb.com/bfs/archive/c0d9e9947da9b092ba7bef7f5bdd3e9b53b6ae75.jpg",
           "pubTime": 1774152000000,
           "duration": "21:12",
-          "play": 9530,
+          "play": 9532,
           "videoUrl": "http://www.bilibili.com/video/av116264949256367",
           "matched": true,
           "ep": 92,
@@ -18380,6 +18438,25 @@
           "contentType": "episode",
           "characters": [
             "玄骨"
+          ],
+          "discoveredBy": "episode-search"
+        },
+        {
+          "bvid": "BV1TPwrzUE2v",
+          "aid": 116253926628019,
+          "title": "【猫踢看凡人E90】韩立本命法宝plus版小试牛刀，顺手笑纳花篮怪人古宝，这波不亏~ | 试锋视角看凡人修仙传reaction",
+          "description": "",
+          "cover": "https://i1.hdslb.com/bfs/archive/9c7f66285970f676aa6137224693b9af65fd4788.jpg",
+          "pubTime": 1773979200000,
+          "duration": "16:47",
+          "play": 7675,
+          "videoUrl": "http://www.bilibili.com/video/av116253926628019",
+          "matched": true,
+          "ep": 90,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [
+            "韩立"
           ],
           "discoveredBy": "episode-search"
         }
@@ -19227,8 +19304,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1785316471523,
-      "lastSuccess": 1785316471523,
+      "lastFetched": 1785335803472,
+      "lastSuccess": 1785335803472,
       "videos": [
         {
           "bvid": "BV1SqJx6rE3g",
@@ -19408,7 +19485,7 @@
           "cover": "https://i0.hdslb.com/bfs/archive/05d50193d5eda380ccb96be83e952cfe7bbbb1d4.jpg",
           "pubTime": 1775671283000,
           "duration": "248:6",
-          "play": 16031,
+          "play": 16038,
           "videoUrl": "http://www.bilibili.com/video/av116370360567575",
           "matched": true,
           "ep": 92,
@@ -21971,8 +22048,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1785316437394,
-      "lastSuccess": 1785316437394,
+      "lastFetched": 1785335721855,
+      "lastSuccess": 1785335721855,
       "videos": [
         {
           "bvid": "BV1AJNT63EVp",
@@ -22598,7 +22675,7 @@
           "cover": "https://i1.hdslb.com/bfs/archive/527ef2d15f881f046eabd63a14f726acf43ce6c6.jpg",
           "pubTime": 1781503200000,
           "duration": "37:43",
-          "play": 278,
+          "play": 279,
           "videoUrl": "http://www.bilibili.com/video/av116742881806345",
           "matched": true,
           "ep": 97,
@@ -24153,8 +24230,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1785229809136,
-      "lastSuccess": 1785229809136,
+      "lastFetched": 1785335901083,
+      "lastSuccess": 1785335901083,
       "videos": [
         {
           "bvid": "BV1Zg7z6SEY6",
@@ -24255,6 +24332,40 @@
           "videoUrl": "http://www.bilibili.com/video/av116344758540106",
           "matched": true,
           "ep": 104,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [],
+          "discoveredBy": "episode-search"
+        },
+        {
+          "bvid": "BV1TZQBBUEGY",
+          "aid": 116283806849559,
+          "title": "小夭【凡人修仙传Reaction】第98集 灭杀虎伥  获得留影珠",
+          "description": "❤️来咯❤️嘿嘿增加了新片头",
+          "cover": "https://i1.hdslb.com/bfs/archive/2815485da14dbf710782a87ec078a4eb65f6c2e3.jpg",
+          "pubTime": 1774350384000,
+          "duration": "16:16",
+          "play": 16716,
+          "videoUrl": "http://www.bilibili.com/video/av116283806849559",
+          "matched": true,
+          "ep": 98,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [],
+          "discoveredBy": "episode-search"
+        },
+        {
+          "bvid": "BV1WSwtz6Ema",
+          "aid": 116227267695076,
+          "title": "小夭【凡人修仙传Reaction】第90集 花篮怪人",
+          "description": "来了❤️来了❤️",
+          "cover": "https://i1.hdslb.com/bfs/archive/c8a2858b32bd439c9e120b8be66aec64f3addfa1.jpg",
+          "pubTime": 1773487880000,
+          "duration": "15:16",
+          "play": 6586,
+          "videoUrl": "http://www.bilibili.com/video/av116227267695076",
+          "matched": true,
+          "ep": 90,
           "isCompilation": false,
           "contentType": "episode",
           "characters": [],
@@ -24396,6 +24507,25 @@
           "isCompilation": false,
           "contentType": "episode",
           "characters": [],
+          "discoveredBy": "episode-search"
+        },
+        {
+          "bvid": "BV1AayaY7EMA",
+          "aid": 113339103447852,
+          "title": "表演系大学生看《凡人修仙传》 第120集 反应 Reaction 温天仁",
+          "description": "补档",
+          "cover": "https://i1.hdslb.com/bfs/archive/3f048c0af8bdf99a8e7f9fa3150fb5d306bf291e.png",
+          "pubTime": 1729418122000,
+          "duration": "16:25",
+          "play": 9932,
+          "videoUrl": "http://www.bilibili.com/video/av113339103447852",
+          "matched": true,
+          "ep": 120,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [
+            "温天仁"
+          ],
           "discoveredBy": "episode-search"
         },
         {
@@ -25703,8 +25833,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1785316518899,
-      "lastSuccess": 1785316518899,
+      "lastFetched": 1785335851526,
+      "lastSuccess": 1785335851526,
       "videos": [
         {
           "bvid": "BV13XoNBrETX",
@@ -25856,7 +25986,7 @@
           "cover": "https://i2.hdslb.com/bfs/archive/42a3c6fa129a67b1d331d6efb3cc7d3331fe6273.jpg",
           "pubTime": 1775203200000,
           "duration": "55:39",
-          "play": 14918,
+          "play": 14920,
           "videoUrl": "http://www.bilibili.com/video/av116294762372534",
           "matched": true,
           "ep": 91,
@@ -26009,8 +26139,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1785316437394,
-      "lastSuccess": 1785316437394,
+      "lastFetched": 1785335769972,
+      "lastSuccess": 1785335769972,
       "videos": [
         {
           "bvid": "BV1yUM2zyEeM",
@@ -26333,8 +26463,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1785316389412,
-      "lastSuccess": 1785316389412,
+      "lastFetched": 1785335769972,
+      "lastSuccess": 1785335769972,
       "videos": [
         {
           "bvid": "BV1JF6QB1EYY",
@@ -26402,8 +26532,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1785316224365,
-      "lastSuccess": 1785316224365,
+      "lastFetched": 1785335589289,
+      "lastSuccess": 1785335589289,
       "videos": [
         {
           "bvid": "BV195TXzuEGr",
@@ -26568,7 +26698,7 @@
           "cover": "https://i2.hdslb.com/bfs/archive/e1beae49a6fad0e1874fcd7e030a01fa9094af3d.jpg",
           "pubTime": 1726914333000,
           "duration": "20:21",
-          "play": 22892,
+          "play": 22893,
           "videoUrl": "http://www.bilibili.com/video/av113175005561796",
           "matched": true,
           "ep": 120,
@@ -26695,8 +26825,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1785316273811,
-      "lastSuccess": 1785316273811,
+      "lastFetched": 1785335634572,
+      "lastSuccess": 1785335634572,
       "videos": [
         {
           "bvid": "BV1bM5GziEBf",
@@ -27291,7 +27421,7 @@
           "cover": "https://i2.hdslb.com/bfs/archive/fbf97c9ddc980518604223b55430200908f7537e.png",
           "pubTime": 1717903501000,
           "duration": "24:11",
-          "play": 13106,
+          "play": 13107,
           "videoUrl": "http://www.bilibili.com/video/av1555700316",
           "matched": true,
           "ep": 100,
@@ -27497,8 +27627,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1785316518899,
-      "lastSuccess": 1785316518899,
+      "lastFetched": 1785335851526,
+      "lastSuccess": 1785335851526,
       "videos": [
         {
           "bvid": "BV1Ry5xzEEyJ",
@@ -27547,7 +27677,7 @@
           "cover": "https://i2.hdslb.com/bfs/archive/f9a6daf68e69ca4345f0583738fb6ef748fea8b5.jpg",
           "pubTime": 1714811864000,
           "duration": "8:10",
-          "play": 24920,
+          "play": 24923,
           "videoUrl": "http://www.bilibili.com/video/av1254189435",
           "matched": true,
           "ep": 100,
@@ -27566,7 +27696,7 @@
           "cover": "https://i1.hdslb.com/bfs/archive/9125822f57bed353ec23aa37022e47ae121c3eaf.jpg",
           "pubTime": 1713604813000,
           "duration": "8:54",
-          "play": 63481,
+          "play": 63484,
           "videoUrl": "http://www.bilibili.com/video/av1753498274",
           "matched": true,
           "ep": 98,
@@ -27602,7 +27732,7 @@
           "cover": "https://i2.hdslb.com/bfs/archive/29d6811ccb0d9bb54142d749e50a84346a40a733.jpg",
           "pubTime": 1709367937000,
           "duration": "8:19",
-          "play": 52754,
+          "play": 52755,
           "videoUrl": "http://www.bilibili.com/video/av1151419749",
           "matched": true,
           "ep": 91,
@@ -29368,8 +29498,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1785316273811,
-      "lastSuccess": 1785316273811,
+      "lastFetched": 1785335634572,
+      "lastSuccess": 1785335634572,
       "videos": [
         {
           "bvid": "BV1aBfZYuEva",
@@ -29466,7 +29596,7 @@
           "cover": "https://i2.hdslb.com/bfs/archive/31c012f715aca34974f5434bbf1ea636b75c14af.png",
           "pubTime": 1719918327000,
           "duration": "25:24",
-          "play": 11864,
+          "play": 11865,
           "videoUrl": "http://www.bilibili.com/video/av1456213586",
           "matched": true,
           "ep": 100,
@@ -29523,8 +29653,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1785316518899,
-      "lastSuccess": 1785316518899,
+      "lastFetched": 1785335851526,
+      "lastSuccess": 1785335851526,
       "videos": [
         {
           "bvid": "BV1YtFNeFEWd",
@@ -29963,8 +30093,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1785316224365,
-      "lastSuccess": 1785316224365,
+      "lastFetched": 1785335589289,
+      "lastSuccess": 1785335589289,
       "videos": [
         {
           "bvid": "BV1XFtrewE2T",
@@ -29974,7 +30104,7 @@
           "cover": "https://i2.hdslb.com/bfs/archive/0bfd4364e1dcf7db55a36096a5de05087278c595.jpg",
           "pubTime": 1726891058000,
           "duration": "8:47",
-          "play": 13711,
+          "play": 13712,
           "videoUrl": "http://www.bilibili.com/video/av113173478776366",
           "matched": true,
           "ep": 120,
@@ -29991,7 +30121,7 @@
           "cover": "https://i2.hdslb.com/bfs/archive/56c704bdb720427b95380b9e02e4de5753425f06.jpg",
           "pubTime": 1726889684000,
           "duration": "4:34",
-          "play": 981,
+          "play": 982,
           "videoUrl": "http://www.bilibili.com/video/av113173394949075",
           "matched": true,
           "ep": 120,
@@ -30433,8 +30563,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1785316437394,
-      "lastSuccess": 1785316437394,
+      "lastFetched": 1785335683528,
+      "lastSuccess": 1785335683528,
       "videos": [
         {
           "bvid": "BV11i42167J6",
@@ -30788,8 +30918,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1785316273811,
-      "lastSuccess": 1785316273811,
+      "lastFetched": 1785335634572,
+      "lastSuccess": 1785335634572,
       "videos": [
         {
           "bvid": "BV1pt421c7oY",
@@ -30799,7 +30929,7 @@
           "cover": "https://i0.hdslb.com/bfs/archive/336440614500c7271e7746187b5c1052b8a714a6.png",
           "pubTime": 1714626919000,
           "duration": "14:17",
-          "play": 2771,
+          "play": 2772,
           "videoUrl": "http://www.bilibili.com/video/av1753807869",
           "matched": true,
           "ep": 100,
@@ -30855,9 +30985,26 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1785074468416,
-      "lastSuccess": 1785074468416,
+      "lastFetched": 1785335634572,
+      "lastSuccess": 1785335634572,
       "videos": [
+        {
+          "bvid": "BV1bWUSYnE8T",
+          "aid": 113519626292994,
+          "title": "凡人修仙传-EP100-reaction",
+          "description": "快乐追剧人",
+          "cover": "https://i2.hdslb.com/bfs/archive/30805ec6f5a1cc5d1c5ed0d00d6a89a453798132.jpg",
+          "pubTime": 1732172073000,
+          "duration": "18:4",
+          "play": 1562,
+          "videoUrl": "http://www.bilibili.com/video/av113519626292994",
+          "matched": true,
+          "ep": 100,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [],
+          "discoveredBy": "episode-search"
+        },
         {
           "bvid": "BV1noSuY8ECo",
           "aid": 113515381721848,
@@ -31285,9 +31432,26 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1785316471523,
-      "lastSuccess": 1785316471523,
+      "lastFetched": 1785335901083,
+      "lastSuccess": 1785335901083,
       "videos": [
+        {
+          "bvid": "BV1i7Y9zjEqk",
+          "aid": 115067005767318,
+          "title": "【凡人修仙传】96集 第一关开始啦",
+          "description": "家人们我又开始当牛马了5555",
+          "cover": "https://i1.hdslb.com/bfs/archive/e79f46eacc41034816f90fee2b019fb481b245b4.jpg",
+          "pubTime": 1755783577000,
+          "duration": "17:11",
+          "play": 2128,
+          "videoUrl": "http://www.bilibili.com/video/av115067005767318",
+          "matched": true,
+          "ep": 96,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [],
+          "discoveredBy": "episode-search"
+        },
         {
           "bvid": "BV1PMYvz6E4o",
           "aid": 115038450879320,
@@ -31323,6 +31487,26 @@
           "isCompilation": false,
           "contentType": "episode",
           "characters": [],
+          "discoveredBy": "episode-search"
+        },
+        {
+          "bvid": "BV1a6tbzdEuw",
+          "aid": 114998235958867,
+          "title": "【凡人修仙传】90集 韩立的结丹初期含金量太高了",
+          "description": "持续更新",
+          "cover": "https://i2.hdslb.com/bfs/archive/94b2c705a45a307dcdc27d1e0485e9aedeac21d1.jpg",
+          "pubTime": 1754734170000,
+          "duration": "17:14",
+          "play": 2893,
+          "videoUrl": "http://www.bilibili.com/video/av114998235958867",
+          "matched": true,
+          "ep": 90,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [
+            "韩立",
+            "结丹"
+          ],
           "discoveredBy": "episode-search"
         }
       ],
