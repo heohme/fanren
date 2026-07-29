@@ -111,7 +111,7 @@ export default function AdminSubmissions() {
 
   return (
     <main className="admin-shell">
-      <header className="admin-heading"><div><span className="atlas-seal">审</span><div><p>九国盟 · COMMUNITY REVIEW</p><h1>投稿审核</h1></div></div><a href="/">返回天南舆图</a></header>
+      <header className="admin-heading"><div><span className="atlas-seal">审</span><div><p>九国盟 · COMMUNITY REVIEW</p><h1>投稿审核</h1></div></div><nav><a href="/admin/analytics/">行为统计</a><a href="/">返回天南舆图</a></nav></header>
       <section className="admin-toolbar">
         <label><span>本地管理员令牌</span><input type="password" value={token} onChange={(event) => setToken(event.target.value)} placeholder="已通过 Cloudflare Access 登录可留空" /></label>
         <label><span>审核状态</span><select value={status} onChange={(event) => setStatus(event.target.value as SubmissionStatus)}>{FILTERS.map((item) => <option value={item} key={item}>{SUBMISSION_STATUS_LABELS[item]}</option>)}</select></label>

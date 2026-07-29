@@ -20,10 +20,11 @@
 - 历史回填：按集搜索解析视频，目标每集覆盖 10+ 位 UP，支持断点续跑
 - 二创发现：每天两次检索近期内容、每周一次回查历史热门，并按人物志、剧情二创、趣味整活、混剪手书、音乐配音、同人创作归档
 - 统一内容池：官方物料、逐集解析、人物专题、Reaction 与二创按 BV 号去重，各模块只负责筛选和展示
-- 管理员片源：URL 携带 `?mode=admin` 时，正道剧集使用暴风资源 HLS 站内播放，普通访问使用 B 站官方番剧播放器
+- 管理员片源：URL 携带 `?m=admin` 时，正道剧集使用暴风资源 HLS 站内播放，普通访问使用 B 站官方番剧播放器
 - 新内容提示：浏览器本地记录上次访问时间
 - 道友共建：推荐 UP、作品或纠错补档，经过审核后进入九国盟推荐榜
 - 投稿审核：D1 保存投稿与审核轨迹，Turnstile 防刷，Cloudflare Access 保护后台
+- 行为统计：匿名记录区域展开、UP 查看、视频打开与新手指引漏斗，并在管理员页面汇总
 
 ## 目录结构
 
@@ -126,6 +127,8 @@ GitHub Actions（普通白名单每小时、核心 UP 每 30 分钟、周六官�
 
 投稿系统需要额外配置 Cloudflare D1、Turnstile 和 Access。完整接口、数据表、本地开发与上线步骤见 [九国盟投稿系统文档](docs/community-submissions.md)。
 
+行为统计沿用同一个 D1 绑定，事件范围、隐私约定与部署迁移见 [行为统计文档](docs/behavior-analytics.md)。
+
 抓取任务按范围分为三档：`official` 只检查官方剧集，`core` 只更新 `data/ups.json` 中标记为核心的 UP，`all` 更新全部配置白名单。历史回填发现的其他 UP 只保留在快照中，不参与定时空间轮询。
 
 ### 历史解析批量回填
@@ -179,14 +182,14 @@ GitHub Actions Secret 使用 `ARK_API_KEY`，默认模型为 `doubao-seed-2-0-mi
 
 ### 管理员片源模式
 
-访问 `/?mode=admin` 后进入管理员片源模式。正道的正片卡片会改用暴风资源（bfzy）播放，预告、魔道和正道盟仍保持原来的 B 站播放方式。
+访问 `/?m=admin` 后进入管理员片源模式。正道的正片卡片会改用暴风资源（bfzy）播放，预告、魔道和正道盟仍保持原来的 B 站播放方式。
 
 - Cloudflare Pages Function 只读取一次暴风资源 ID `9145` 的剧集地址索引，并对域名与《凡人修仙传》路径进行校验。
 - 地址索引会在当前页面会话中复用；播放器使用 `hls.js` 直接读取所选剧集的源站 m3u8，不再由 Function 二次抓取播放清单。
 - 播放器设有加载超时与有限恢复次数，网络或片源失败时会显示明确提示并保留 B 站官方入口。
 - 普通访问不请求暴风资源接口，正道正片使用 B 站官方 `episodeId` 站内播放，并保留官方番剧页外链。
 
-`mode=admin` 只是功能开关，不是身份认证。如果需要真正限制访问，应在 Cloudflare Access 中保护该地址或 `/api/admin-stream`。
+`m=admin` 只是功能开关，不是身份认证。如果需要真正限制访问，应在 Cloudflare Access 中保护该地址或 `/api/admin-stream`。旧的 `mode=admin` 链接仍然兼容。
 
 播放链路参考 [LibreSpark/LibreTV](https://github.com/LibreSpark/LibreTV) 的苹果 CMS V10 与 HLS.js 直连方案；LibreTV 采用 Apache-2.0 License。
 

@@ -35,21 +35,7 @@ export default function RootLayout({
     <html lang="zh-CN">
       <head>
         <link rel="preload" as="image" href="/tiannan-map-960.webp" type="image/webp" media="(max-width: 720px)" />
-        <link rel="preload" as="image" href="/tiannan-map.webp" type="image/webp" media="(min-width: 721px)" />
-        {/* 使用国内可访问的 Google Fonts 镜像，避免国内 CI/CD 构建机器访问被墙导致 build 超时 */}
-        <link
-          rel="preconnect"
-          href="https://fonts.loli.net"
-        />
-        <link
-          rel="preconnect"
-          href="https://gstatic.loli.net"
-          crossOrigin=""
-        />
-        <link
-          href="https://fonts.loli.net/css2?family=Noto+Serif+SC:wght@400;500;700&display=swap"
-          rel="stylesheet"
-        />
+        <link rel="preload" as="image" href="/tiannan-map-1440.webp" type="image/webp" media="(min-width: 721px)" />
       </head>
       <body>{children}</body>
     </html>

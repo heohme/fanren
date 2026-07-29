@@ -41,7 +41,8 @@ async function fetchBfzyEpisodes() {
 
 export async function onRequestGet({ request }) {
   const requestUrl = new URL(request.url);
-  if (requestUrl.searchParams.get("mode") !== "admin") {
+  const mode = requestUrl.searchParams.get("m") || requestUrl.searchParams.get("mode");
+  if (mode !== "admin") {
     return json({ ok: false, error: "管理员片源模式未开启" }, 404);
   }
 

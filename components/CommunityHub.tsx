@@ -63,7 +63,10 @@ function TurnstileWidget({ siteKey, onToken }: { siteKey: string; onToken: (toke
 
 function sourceChannel() {
   const params = new URLSearchParams(window.location.search);
-  const campaign = params.get("utm_source");
+  const campaign = params.get("f")
+    || params.get("from")
+    || params.get("src")
+    || params.get("utm_source");
   if (campaign) return campaign;
   try {
     return document.referrer ? new URL(document.referrer).hostname : "direct";
