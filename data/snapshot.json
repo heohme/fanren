@@ -1,5 +1,5 @@
 {
-  "generatedAt": 1785486145757,
+  "generatedAt": 1785489810953,
   "series": {
     "title": "凡人修仙传",
     "seasonId": "28747",
@@ -3511,9 +3511,10 @@
         "利维坦LWT"
       ],
       "note": "经典解析向",
+      "source": "search-backfill",
       "error": null,
-      "lastFetched": 1785485947394,
-      "lastSuccess": 1785485947394,
+      "lastFetched": 1785489810953,
+      "lastSuccess": 1785489810953,
       "videos": [
         {
           "bvid": "BV1cL3M6sEYt",
@@ -5090,7 +5091,7 @@
           "cover": "https://i1.hdslb.com/bfs/archive/825f52c52145166dcf5ed9509913dac6fef04e75.jpg",
           "pubTime": 1713003916000,
           "duration": "10:55",
-          "play": 600119,
+          "play": 600146,
           "videoUrl": "http://www.bilibili.com/video/av1103088356",
           "matched": true,
           "ep": 97,
@@ -5175,7 +5176,7 @@
           "cover": "https://i0.hdslb.com/bfs/archive/2c9e9af143ba1192283b0a80db7388c8aa7295e2.jpg",
           "pubTime": 1709978700000,
           "duration": "11:27",
-          "play": 561467,
+          "play": 561480,
           "videoUrl": "http://www.bilibili.com/video/av1051645181",
           "matched": true,
           "ep": 92,
@@ -5192,7 +5193,7 @@
           "cover": "https://i1.hdslb.com/bfs/archive/6ca160fe0261812b3e0e3d091c18bb16330e61db.jpg",
           "pubTime": 1709372100000,
           "duration": "8:51",
-          "play": 579442,
+          "play": 579455,
           "videoUrl": "http://www.bilibili.com/video/av1151325969",
           "matched": true,
           "ep": 91,
@@ -5209,7 +5210,7 @@
           "cover": "https://i1.hdslb.com/bfs/archive/f626bd3ece45f42d4c256f8b58b5290178373270.jpg",
           "pubTime": 1708769100000,
           "duration": "9:25",
-          "play": 671220,
+          "play": 671233,
           "videoUrl": "http://www.bilibili.com/video/av1900918105",
           "matched": true,
           "ep": 90,
@@ -5279,7 +5280,7 @@
           "cover": "https://i1.hdslb.com/bfs/archive/aec0690d976678637905265ac5d47720487f7953.jpg",
           "pubTime": 1705143900000,
           "duration": "6:53",
-          "play": 602400,
+          "play": 602415,
           "videoUrl": "http://www.bilibili.com/video/av538749951",
           "matched": true,
           "ep": 84,
@@ -5319,6 +5320,59 @@
           "videoUrl": "http://www.bilibili.com/video/av283067089",
           "matched": true,
           "ep": 82,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [],
+          "discoveredBy": "episode-search"
+        },
+        {
+          "bvid": "BV13g4y1y7kP",
+          "aid": 835127369,
+          "title": "播放18亿！这就是元婴修士的压迫感？《凡人修仙传》81集逐帧解析",
+          "description": "作为承上启下的过渡集，这集就简单聊聊吧~\n求个三连呀！",
+          "cover": "https://i0.hdslb.com/bfs/archive/faa95e90b3c7ac497bb4225368cdbc7e50fc27e9.jpg",
+          "pubTime": 1703324700000,
+          "duration": "7:14",
+          "play": 629718,
+          "videoUrl": "http://www.bilibili.com/video/av835127369",
+          "matched": true,
+          "ep": 81,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [
+            "元婴"
+          ],
+          "discoveredBy": "episode-search"
+        },
+        {
+          "bvid": "BV1xC4y1Q7pV",
+          "aid": 792345990,
+          "title": "混战拉满！蝎岛斗法究竟埋藏了多少细节？《凡人修仙传》80集逐帧解析",
+          "description": "感谢道友们的支持！\n求个三连！",
+          "cover": "https://i0.hdslb.com/bfs/archive/1babb9621de82bb6c3d5ece55b3c7b76b7581a2d.jpg",
+          "pubTime": 1702721100000,
+          "duration": "9:42",
+          "play": 599790,
+          "videoUrl": "http://www.bilibili.com/video/av792345990",
+          "matched": true,
+          "ep": 80,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [],
+          "discoveredBy": "episode-search"
+        },
+        {
+          "bvid": "BV1Fa4y1d7AV",
+          "aid": 664392096,
+          "title": "大战一触即发！阴谋诡计的极限对撞！《凡人修仙传》79集逐帧解析",
+          "description": "求三连与转发！\n求三连与转发！\n求三连与转发！",
+          "cover": "https://i0.hdslb.com/bfs/archive/bac676c2d996a3c5d5e6fdd0cdd7ee5a4cff47f5.jpg",
+          "pubTime": 1702115400000,
+          "duration": "8:16",
+          "play": 586165,
+          "videoUrl": "http://www.bilibili.com/video/av664392096",
+          "matched": true,
+          "ep": 79,
           "isCompilation": false,
           "contentType": "episode",
           "characters": [],
@@ -6047,10 +6101,11 @@
       "uid": "57868863",
       "name": "白马猴子",
       "alias": [],
-      "note": "",
+      "note": "按集搜索发现",
+      "source": "search-backfill",
       "error": null,
-      "lastFetched": 1785485991709,
-      "lastSuccess": 1785485991709,
+      "lastFetched": 1785489810953,
+      "lastSuccess": 1785489810953,
       "videos": [
         {
           "bvid": "BV1HB3u6tExQ",
@@ -7855,7 +7910,7 @@
           "cover": "https://i0.hdslb.com/bfs/archive/e0f41b899d705c2ef2a84130d396296e7c37946b.jpg",
           "pubTime": 1709977951000,
           "duration": "6:12",
-          "play": 226037,
+          "play": 226040,
           "videoUrl": "http://www.bilibili.com/video/av1951524066",
           "matched": true,
           "ep": 92,
@@ -7872,7 +7927,7 @@
           "cover": "https://i1.hdslb.com/bfs/archive/139f24da18eec8c15993512f372a72a260843ea6.jpg",
           "pubTime": 1709374827000,
           "duration": "6:36",
-          "play": 248835,
+          "play": 248839,
           "videoUrl": "http://www.bilibili.com/video/av1501300265",
           "matched": true,
           "ep": 91,
@@ -7891,7 +7946,7 @@
           "cover": "https://i2.hdslb.com/bfs/archive/4f223259678372decca567b7dbee9c4c02f36fa8.jpg",
           "pubTime": 1708784883000,
           "duration": "12:12",
-          "play": 237666,
+          "play": 237670,
           "videoUrl": "http://www.bilibili.com/video/av1151148159",
           "matched": true,
           "ep": 90,
@@ -7933,6 +7988,42 @@
           "contentType": "episode",
           "characters": [],
           "discoveredBy": "episode-search"
+        },
+        {
+          "bvid": "BV17Q4y1g76S",
+          "aid": 707269281,
+          "title": "蝎岛大战开启！斗法 细节 逻辑 内心戏全方位解析《凡人修仙传》80集",
+          "description": "特别感谢本视频的配音小哥@鲜氣菌",
+          "cover": "https://i1.hdslb.com/bfs/archive/fa9c38962bf01643f13b9dcffa35bdb433605050.jpg",
+          "pubTime": 1702731022000,
+          "duration": "10:25",
+          "play": 189581,
+          "videoUrl": "http://www.bilibili.com/video/av707269281",
+          "matched": true,
+          "ep": 80,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [],
+          "discoveredBy": "episode-search"
+        },
+        {
+          "bvid": "BV1DN41157FW",
+          "aid": 494592160,
+          "title": "竟然还能这么改？全面揭秘紫灵的复仇计划！《凡人修仙传》79集逐帧解读",
+          "description": "",
+          "cover": "https://i1.hdslb.com/bfs/archive/3861c112f685bb68f1bc12fdbb552b556816cc69.jpg",
+          "pubTime": 1702129228000,
+          "duration": "10:52",
+          "play": 203143,
+          "videoUrl": "http://www.bilibili.com/video/av494592160",
+          "matched": true,
+          "ep": 79,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [
+            "紫灵"
+          ],
+          "discoveredBy": "episode-search"
         }
       ],
       "recentTitles": [
@@ -7950,10 +8041,11 @@
         "杰克MT",
         "JackMT"
       ],
-      "note": "",
+      "note": "按集搜索发现",
+      "source": "search-backfill",
       "error": "all retries failed",
-      "lastFetched": 1785486058182,
-      "lastSuccess": 1785485389614,
+      "lastFetched": 1785489763731,
+      "lastSuccess": 1785489763731,
       "videos": [
         {
           "bvid": "BV1pn3G6qEDv",
@@ -8936,6 +9028,25 @@
           "contentType": "episode",
           "characters": [],
           "discoveredBy": "episode-search"
+        },
+        {
+          "bvid": "BV1ec41127u4",
+          "aid": 282279483,
+          "title": "这是必看的!紫灵太聪明了吧，结尾挺有节目效果-【凡人修仙传解析-80】",
+          "description": "很快做出来了啊，有时间录音就是爽啊",
+          "cover": "https://i0.hdslb.com/bfs/archive/416940b353ffebc35e10d90a9370ce6ad8c01fc4.jpg",
+          "pubTime": 1702726076000,
+          "duration": "7:29",
+          "play": 138953,
+          "videoUrl": "http://www.bilibili.com/video/av282279483",
+          "matched": true,
+          "ep": 80,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [
+            "紫灵"
+          ],
+          "discoveredBy": "episode-search"
         }
       ],
       "recentTitles": [
@@ -8950,10 +9061,11 @@
       "uid": "1793524011",
       "name": "清植酱",
       "alias": [],
-      "note": "",
+      "note": "按集搜索发现",
+      "source": "search-backfill",
       "error": null,
-      "lastFetched": 1785486069336,
-      "lastSuccess": 1785486069336,
+      "lastFetched": 1785489763731,
+      "lastSuccess": 1785489763731,
       "videos": [
         {
           "bvid": "BV1AV3g6eEon",
@@ -9547,6 +9659,25 @@
             "结丹"
           ],
           "discoveredBy": "episode-search"
+        },
+        {
+          "bvid": "BV12u4y1T7N8",
+          "aid": 922315840,
+          "title": "大胆改编！让紫灵更具运筹帷幄，搅动风云的视野与天分丨《凡人修仙传》80集剧情解析",
+          "description": "",
+          "cover": "https://i2.hdslb.com/bfs/archive/5832b4048f2f342003833b976fcb205649023743.jpg",
+          "pubTime": 1702726616000,
+          "duration": "8:9",
+          "play": 57601,
+          "videoUrl": "http://www.bilibili.com/video/av922315840",
+          "matched": true,
+          "ep": 80,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [
+            "紫灵"
+          ],
+          "discoveredBy": "episode-search"
         }
       ],
       "recentTitles": [
@@ -10082,9 +10213,10 @@
       "name": "飞天心宏",
       "alias": [],
       "note": "命运流深度解读",
+      "source": "search-backfill",
       "error": null,
-      "lastFetched": 1785486082512,
-      "lastSuccess": 1785486082512,
+      "lastFetched": 1785489810953,
+      "lastSuccess": 1785489810953,
       "videos": [
         {
           "bvid": "BV1Hb3q6MEn4",
@@ -11165,6 +11297,23 @@
           "characters": [
             "韩立"
           ],
+          "discoveredBy": "episode-search"
+        },
+        {
+          "bvid": "BV1oe411C7rf",
+          "aid": 237044350,
+          "title": "凡人修仙传动漫第79集点评：乱星海篇成悬疑，故事改编有意思！",
+          "description": "凡人修仙传动漫第79集点评：乱星海篇成悬疑，故事改编有意思！",
+          "cover": "https://i0.hdslb.com/bfs/archive/9b99131e10af88844bc226f4b168e714d657aab1.jpg",
+          "pubTime": 1702125672000,
+          "duration": "16:8",
+          "play": 35403,
+          "videoUrl": "http://www.bilibili.com/video/av237044350",
+          "matched": true,
+          "ep": 79,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [],
           "discoveredBy": "episode-search"
         }
       ],
@@ -12528,9 +12677,10 @@
       "name": "双份豆包",
       "alias": [],
       "note": "道友推荐，剧情解析",
+      "source": "search-backfill",
       "error": null,
-      "lastFetched": 1785485653461,
-      "lastSuccess": 1785485653461,
+      "lastFetched": 1785489763731,
+      "lastSuccess": 1785489763731,
       "videos": [
         {
           "bvid": "BV1cKgt6uEEB",
@@ -13828,6 +13978,40 @@
           "videoUrl": "http://www.bilibili.com/video/av965537454",
           "matched": true,
           "ep": 82,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [],
+          "discoveredBy": "episode-search"
+        },
+        {
+          "bvid": "BV1BG411k7Dw",
+          "aid": 410221475,
+          "title": "凡人修仙传动画81集|围绕弹幕答疑解析",
+          "description": "不是常用设备制作，望大家见谅",
+          "cover": "https://i1.hdslb.com/bfs/archive/25c26e3d23a51ba921c2bf1e0ff0716bc348e326.jpg",
+          "pubTime": 1703344772000,
+          "duration": "4:26",
+          "play": 3449,
+          "videoUrl": "http://www.bilibili.com/video/av410221475",
+          "matched": true,
+          "ep": 81,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [],
+          "discoveredBy": "episode-search"
+        },
+        {
+          "bvid": "BV1MQ4y137Pw",
+          "aid": 707434137,
+          "title": "凡人修仙传动画80集|围绕弹幕答疑解析帮你解惑",
+          "description": "推测推测和谐讨论",
+          "cover": "https://i0.hdslb.com/bfs/archive/fb22127a021cc7c192c7cc68267913161d4c7141.jpg",
+          "pubTime": 1702794559000,
+          "duration": "6:43",
+          "play": 5448,
+          "videoUrl": "http://www.bilibili.com/video/av707434137",
+          "matched": true,
+          "ep": 80,
           "isCompilation": false,
           "contentType": "episode",
           "characters": [],
@@ -16607,8 +16791,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1785470197062,
-      "lastSuccess": 1785470197062,
+      "lastFetched": 1785489715224,
+      "lastSuccess": 1785489715224,
       "videos": [
         {
           "bvid": "BV13jMw6UECD",
@@ -17752,7 +17936,7 @@
           "cover": "https://i2.hdslb.com/bfs/archive/23fe23b15ef0e63278af819368c284fc9d132c9a.jpg",
           "pubTime": 1771576217000,
           "duration": "16:17",
-          "play": 655,
+          "play": 656,
           "videoUrl": "http://www.bilibili.com/video/av116101975379882",
           "matched": true,
           "ep": 92,
@@ -17769,7 +17953,7 @@
           "cover": "https://i2.hdslb.com/bfs/archive/23fe23b15ef0e63278af819368c284fc9d132c9a.jpg",
           "pubTime": 1771571303000,
           "duration": "16:3",
-          "play": 707,
+          "play": 709,
           "videoUrl": "http://www.bilibili.com/video/av116101656610794",
           "matched": true,
           "ep": 91,
@@ -17858,10 +18042,27 @@
           "cover": "https://i2.hdslb.com/bfs/archive/23fe23b15ef0e63278af819368c284fc9d132c9a.jpg",
           "pubTime": 1771392122000,
           "duration": "14:43",
-          "play": 663,
+          "play": 664,
           "videoUrl": "http://www.bilibili.com/video/av116089946179693",
           "matched": true,
           "ep": 84,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [],
+          "discoveredBy": "episode-search"
+        },
+        {
+          "bvid": "BV1shZSBtEHp",
+          "aid": 116088939479051,
+          "title": "【凡人reaction】第81集  极阴老祖登场（乌丑还活着吗）",
+          "description": "-",
+          "cover": "https://i2.hdslb.com/bfs/archive/23fe23b15ef0e63278af819368c284fc9d132c9a.jpg",
+          "pubTime": 1771376997000,
+          "duration": "14:47",
+          "play": 755,
+          "videoUrl": "http://www.bilibili.com/video/av116088939479051",
+          "matched": true,
+          "ep": 81,
           "isCompilation": false,
           "contentType": "episode",
           "characters": [],
@@ -18436,8 +18637,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1785470101350,
-      "lastSuccess": 1785470101350,
+      "lastFetched": 1785489763731,
+      "lastSuccess": 1785489763731,
       "videos": [
         {
           "bvid": "BV1Cb7H6yEsE",
@@ -19006,7 +19207,7 @@
           "cover": "https://i0.hdslb.com/bfs/archive/c0d9e9947da9b092ba7bef7f5bdd3e9b53b6ae75.jpg",
           "pubTime": 1774152000000,
           "duration": "21:12",
-          "play": 9544,
+          "play": 9545,
           "videoUrl": "http://www.bilibili.com/video/av116264949256367",
           "matched": true,
           "ep": 92,
@@ -19033,6 +19234,25 @@
           "contentType": "episode",
           "characters": [
             "韩立"
+          ],
+          "discoveredBy": "episode-search"
+        },
+        {
+          "bvid": "BV1oMPezSEZm",
+          "aid": 116186633347041,
+          "title": "【猫踢看凡人E80】你以为我在第一层？其实我在大气层～这集人人演技派！！｜紫灵视角看凡人修仙传reaction",
+          "description": "",
+          "cover": "https://i0.hdslb.com/bfs/archive/dd62ec91fa4028eec535f52dc4d045f2b8b2457b.jpg",
+          "pubTime": 1773115200000,
+          "duration": "17:36",
+          "play": 9721,
+          "videoUrl": "http://www.bilibili.com/video/av116186633347041",
+          "matched": true,
+          "ep": 80,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [
+            "紫灵"
           ],
           "discoveredBy": "episode-search"
         }
@@ -19778,8 +19998,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1785470005453,
-      "lastSuccess": 1785470005453,
+      "lastFetched": 1785489527652,
+      "lastSuccess": 1785489527652,
       "videos": [
         {
           "bvid": "BV1pFjH66EYP",
@@ -19934,8 +20154,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1785470005453,
-      "lastSuccess": 1785470005453,
+      "lastFetched": 1785489810953,
+      "lastSuccess": 1785489810953,
       "videos": [
         {
           "bvid": "BV1SqJx6rE3g",
@@ -20115,10 +20335,27 @@
           "cover": "https://i0.hdslb.com/bfs/archive/05d50193d5eda380ccb96be83e952cfe7bbbb1d4.jpg",
           "pubTime": 1775671283000,
           "duration": "248:6",
-          "play": 16069,
+          "play": 16072,
           "videoUrl": "http://www.bilibili.com/video/av116370360567575",
           "matched": true,
           "ep": 92,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [],
+          "discoveredBy": "episode-search"
+        },
+        {
+          "bvid": "BV1u8XeBLE1E",
+          "aid": 116319475207821,
+          "title": "【真栗】真栗看《凡人修仙传》第79集-第91集全过程（直播间弹幕版）",
+          "description": "真栗切片视频，关注她不迷路。\n\n真栗主页：https://space.bilibili.com/210752\n真栗直播间：https://live.bilibili.com/883263\n\n关注主播解锁更多二创切片视频~",
+          "cover": "https://i0.hdslb.com/bfs/archive/ddd22c18fb6409ee4ae6c9681764b16cb8412b42.jpg",
+          "pubTime": 1774894970000,
+          "duration": "231:14",
+          "play": 17379,
+          "videoUrl": "http://www.bilibili.com/video/av116319475207821",
+          "matched": true,
+          "ep": 79,
           "isCompilation": false,
           "contentType": "episode",
           "characters": [],
@@ -22678,8 +22915,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1785470233854,
-      "lastSuccess": 1785470233854,
+      "lastFetched": 1785489810953,
+      "lastSuccess": 1785489810953,
       "videos": [
         {
           "bvid": "BV1AJNT63EVp",
@@ -23429,6 +23666,25 @@
           "contentType": "episode",
           "characters": [
             "韩立",
+            "紫灵"
+          ],
+          "discoveredBy": "episode-search"
+        },
+        {
+          "bvid": "BV1Tf7y6pEbp",
+          "aid": 116697600102097,
+          "title": "【凡人修仙传】EP 79/80 reaction 紫灵蝎岛布圈套，多方修士开战",
+          "description": "正片链接：《凡人修仙传》 https://b23.tv/ep785518",
+          "cover": "https://i1.hdslb.com/bfs/archive/c2e497ca1955cab49da5240e2026587a270c6ad7.jpg",
+          "pubTime": 1780725600000,
+          "duration": "33:57",
+          "play": 285,
+          "videoUrl": "http://www.bilibili.com/video/av116697600102097",
+          "matched": true,
+          "ep": 79,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [
             "紫灵"
           ],
           "discoveredBy": "episode-search"
@@ -26677,8 +26933,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1785470281413,
-      "lastSuccess": 1785470281413,
+      "lastFetched": 1785489575235,
+      "lastSuccess": 1785489575235,
       "videos": [
         {
           "bvid": "BV13XoNBrETX",
@@ -27000,8 +27256,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1785469957778,
-      "lastSuccess": 1785469957778,
+      "lastFetched": 1785489480031,
+      "lastSuccess": 1785489480031,
       "videos": [
         {
           "bvid": "BV1yUM2zyEeM",
@@ -27345,8 +27601,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1785470281413,
-      "lastSuccess": 1785470281413,
+      "lastFetched": 1785489715224,
+      "lastSuccess": 1785489715224,
       "videos": [
         {
           "bvid": "BV1JF6QB1EYY",
@@ -27435,6 +27691,23 @@
           "contentType": "episode",
           "characters": [],
           "discoveredBy": "episode-search"
+        },
+        {
+          "bvid": "BV1bXbNzWEAJ",
+          "aid": 115005198502978,
+          "title": "《凡人修仙传》第81集 reaction 有遮挡有删减",
+          "description": "《凡人修仙传》第81集 reaction ！有遮挡有删减",
+          "cover": "https://i1.hdslb.com/bfs/archive/dabff90161291c3e0d8555f75a929ac2db4f4b8a.jpg",
+          "pubTime": 1754840342000,
+          "duration": "15:55",
+          "play": 411,
+          "videoUrl": "http://www.bilibili.com/video/av115005198502978",
+          "matched": true,
+          "ep": 81,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [],
+          "discoveredBy": "episode-search"
         }
       ],
       "recentTitles": [
@@ -27448,8 +27721,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1785470197062,
-      "lastSuccess": 1785470197062,
+      "lastFetched": 1785489666908,
+      "lastSuccess": 1785489666908,
       "videos": [
         {
           "bvid": "BV195TXzuEGr",
@@ -28563,8 +28836,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1785470233854,
-      "lastSuccess": 1785470233854,
+      "lastFetched": 1785489810953,
+      "lastSuccess": 1785489810953,
       "videos": [
         {
           "bvid": "BV1Ry5xzEEyJ",
@@ -28668,7 +28941,7 @@
           "cover": "https://i2.hdslb.com/bfs/archive/29d6811ccb0d9bb54142d749e50a84346a40a733.jpg",
           "pubTime": 1709367937000,
           "duration": "8:19",
-          "play": 52760,
+          "play": 52761,
           "videoUrl": "http://www.bilibili.com/video/av1151419749",
           "matched": true,
           "ep": 91,
@@ -28802,7 +29075,7 @@
           "cover": "https://i2.hdslb.com/bfs/archive/356002185c9fed31ae2a9e796a682518659b2ab3.jpg",
           "pubTime": 1705137952000,
           "duration": "9:51",
-          "play": 68084,
+          "play": 68086,
           "videoUrl": "http://www.bilibili.com/video/av368734254",
           "matched": true,
           "ep": 84,
@@ -28829,6 +29102,62 @@
           "contentType": "episode",
           "characters": [
             "韩立"
+          ],
+          "discoveredBy": "episode-search"
+        },
+        {
+          "bvid": "BV1GK411t7Ru",
+          "aid": 495222664,
+          "title": "极阴老祖现身，天都尸火下的千层博弈《凡人修仙传》81集深度解析",
+          "description": "凡人81集来了，我有点期待下周了，韩立终于快吃瘪了\n这一集极阴的很多设计也非常细节，大家都发现了吗？\n如果大家喜欢本期视频别忘了点赞支持下\n拜托啦这对我真的很重要，求三连，求三连~~~",
+          "cover": "https://i1.hdslb.com/bfs/archive/28a7ec8248977bc7fe4d45bad2fa54c801f9d1c1.jpg",
+          "pubTime": 1703323947000,
+          "duration": "11:21",
+          "play": 41783,
+          "videoUrl": "http://www.bilibili.com/video/av495222664",
+          "matched": true,
+          "ep": 81,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [],
+          "discoveredBy": "episode-search"
+        },
+        {
+          "bvid": "BV1ZC4y1D7aE",
+          "aid": 792288379,
+          "title": "紫灵韩立相认，文戏和武戏都拉满了《凡人修仙传》80集深度解析",
+          "description": "这是凡人80集的解析视频\n抱歉，这周身体不太舒服，后期录音声音有点哑\n如果大家喜欢本期视频别忘了点赞支持下\n拜托啦这对我真的很重要，求三连，求三连~~~",
+          "cover": "https://i0.hdslb.com/bfs/archive/4cd792642e20d6189dfca8cd5ea96d14aa3b6b71.jpg",
+          "pubTime": 1702720062000,
+          "duration": "12:19",
+          "play": 50040,
+          "videoUrl": "http://www.bilibili.com/video/av792288379",
+          "matched": true,
+          "ep": 80,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [
+            "韩立",
+            "紫灵"
+          ],
+          "discoveredBy": "episode-search"
+        },
+        {
+          "bvid": "BV1LC4y1w7Cn",
+          "aid": 749422559,
+          "title": "如履薄冰，紫灵的高情商教学《凡人修仙传》79集深度解析",
+          "description": "《凡人修仙传》79集来了，大家感觉怎么样？\n如果大家喜欢本期视频别忘了点赞支持下\n拜托啦这对我真的很重要，求三连，求三连~~~",
+          "cover": "https://i2.hdslb.com/bfs/archive/2d49baa58beb36617c66e8fff77b34f9d543b3ae.jpg",
+          "pubTime": 1702115235000,
+          "duration": "12:43",
+          "play": 29144,
+          "videoUrl": "http://www.bilibili.com/video/av749422559",
+          "matched": true,
+          "ep": 79,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [
+            "紫灵"
           ],
           "discoveredBy": "episode-search"
         }
@@ -29679,8 +30008,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1785470233854,
-      "lastSuccess": 1785470233854,
+      "lastFetched": 1785489763731,
+      "lastSuccess": 1785489763731,
       "videos": [
         {
           "bvid": "BV1tQKV6qEwK",
@@ -29889,6 +30218,26 @@
           "contentType": "episode",
           "characters": [
             "韩立"
+          ],
+          "discoveredBy": "episode-search"
+        },
+        {
+          "bvid": "BV1nNEP6cEZd",
+          "aid": 116692164283765,
+          "title": "【凡人修仙传】Reaction 第80集 蝎岛困杀除内奸  韩立紫灵再相逢",
+          "description": "带老婆观看凡人修仙传 第80集：战前演戏，紫灵孙门主唱双簧；故人相认，韩立紫灵续前缘；乌丑来袭，战局徒生有变数！",
+          "cover": "https://i1.hdslb.com/bfs/archive/adb5e0bfb0734d33803cc3a101bd42caa443357a.jpg",
+          "pubTime": 1780653600000,
+          "duration": "15:50",
+          "play": 494,
+          "videoUrl": "http://www.bilibili.com/video/av116692164283765",
+          "matched": true,
+          "ep": 80,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [
+            "韩立",
+            "紫灵"
           ],
           "discoveredBy": "episode-search"
         }
@@ -30658,8 +31007,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1785470233854,
-      "lastSuccess": 1785470233854,
+      "lastFetched": 1785489715224,
+      "lastSuccess": 1785489715224,
       "videos": [
         {
           "bvid": "BV1aBfZYuEva",
@@ -30870,6 +31219,23 @@
             "紫灵"
           ],
           "discoveredBy": "episode-search"
+        },
+        {
+          "bvid": "BV1z4421S7Ek",
+          "aid": 1755876750,
+          "title": "天星双圣reaction凡人修仙传第81集 节外生枝极阴附体，逆星之下生死一念",
+          "description": "喜欢凡人系列REACTION的兄弟们多多三连支持~\r\n借简介记录一下自己看番历程：让乌丑现在死了可惜这建模了，再多用一会吧！这波啊，这波是打boss没查攻略，不知道人家还有隐藏技能！大长老也暗示过算盘打得再好，最后也是要以力服人啊，以后紫灵转行做军师吧，打架咱们打不过，这谋略若不是千算万算算不出来还有附身这一手，其实已经是完美执行了，哪怕只是个附身这几个结丹也是对付不来的，润！",
+          "cover": "https://i0.hdslb.com/bfs/archive/d4b7655466fe51d0b569dfacc997be7084e7074c.png",
+          "pubTime": 1719140452000,
+          "duration": "19:40",
+          "play": 11296,
+          "videoUrl": "http://www.bilibili.com/video/av1755876750",
+          "matched": true,
+          "ep": 81,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [],
+          "discoveredBy": "episode-search"
         }
       ],
       "recentTitles": [
@@ -30883,8 +31249,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1785470052854,
-      "lastSuccess": 1785470052854,
+      "lastFetched": 1785489666908,
+      "lastSuccess": 1785489666908,
       "videos": [
         {
           "bvid": "BV1YtFNeFEWd",
@@ -30989,6 +31355,25 @@
           "discoveredBy": "episode-search"
         },
         {
+          "bvid": "BV1Rm411d7C8",
+          "aid": 1901720766,
+          "title": "玄骨再世惊山河！《凡人修仙传》92集逐帧解说",
+          "description": "",
+          "cover": "https://i1.hdslb.com/bfs/archive/ca1ca457718d28c158dbfc30bfb7ba684be91e87.jpg",
+          "pubTime": 1710088607000,
+          "duration": "10:4",
+          "play": 6711,
+          "videoUrl": "http://www.bilibili.com/video/av1901720766",
+          "matched": true,
+          "ep": 92,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [
+            "玄骨"
+          ],
+          "discoveredBy": "episode-search"
+        },
+        {
           "bvid": "BV1xy421i7Zu",
           "aid": 1551410654,
           "title": "千般套路！《凡人修仙传》91集剧情分析",
@@ -31036,6 +31421,23 @@
           "videoUrl": "http://www.bilibili.com/video/av241901384",
           "matched": true,
           "ep": 86,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [],
+          "discoveredBy": "episode-search"
+        },
+        {
+          "bvid": "BV1Q94y1T7Um",
+          "aid": 368718159,
+          "title": "“荆棘女王”！《凡人修仙传》84集，3000字深度解析",
+          "description": "-",
+          "cover": "https://i2.hdslb.com/bfs/archive/6744a84eacaf6bd0a7ee5f0e96de01a7be728d9a.jpg",
+          "pubTime": 1705152794000,
+          "duration": "12:44",
+          "play": 7092,
+          "videoUrl": "http://www.bilibili.com/video/av368718159",
+          "matched": true,
+          "ep": 84,
           "isCompilation": false,
           "contentType": "episode",
           "characters": [],
@@ -31482,8 +31884,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1785470197062,
-      "lastSuccess": 1785470197062,
+      "lastFetched": 1785489666908,
+      "lastSuccess": 1785489666908,
       "videos": [
         {
           "bvid": "BV1Rp421U77r",
@@ -31921,8 +32323,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1785470281413,
-      "lastSuccess": 1785470281413,
+      "lastFetched": 1785489666908,
+      "lastSuccess": 1785489666908,
       "videos": [
         {
           "bvid": "BV11i42167J6",
@@ -32966,8 +33368,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1785470148024,
-      "lastSuccess": 1785470148024,
+      "lastFetched": 1785489763731,
+      "lastSuccess": 1785489763731,
       "videos": [
         {
           "bvid": "BV1i7Y9zjEqk",
@@ -33077,6 +33479,42 @@
           "isCompilation": false,
           "contentType": "episode",
           "characters": [],
+          "discoveredBy": "episode-search"
+        },
+        {
+          "bvid": "BV1o3g8zXENg",
+          "aid": 114884922638571,
+          "title": "【凡人修仙传】 81集 我可以说这个身外化身有点邪门吗",
+          "description": "持续更新",
+          "cover": "https://i0.hdslb.com/bfs/archive/8e3dbd422cec13bd2c7d0eb9f22ebe9445dad354.jpg",
+          "pubTime": 1753005505000,
+          "duration": "15:38",
+          "play": 3756,
+          "videoUrl": "http://www.bilibili.com/video/av114884922638571",
+          "matched": true,
+          "ep": 81,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [],
+          "discoveredBy": "episode-search"
+        },
+        {
+          "bvid": "BV1Ubu2zHEJ4",
+          "aid": 114873648286647,
+          "title": "【凡人修仙传】80集 紫灵就是这么美这么聪明！",
+          "description": "持续更新",
+          "cover": "https://i1.hdslb.com/bfs/archive/63adf769c0ced37bad3871cb30891fa87dce7866.jpg",
+          "pubTime": 1752833414000,
+          "duration": "16:40",
+          "play": 3910,
+          "videoUrl": "http://www.bilibili.com/video/av114873648286647",
+          "matched": true,
+          "ep": 80,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [
+            "紫灵"
+          ],
           "discoveredBy": "episode-search"
         }
       ],
@@ -33223,8 +33661,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1785470281413,
-      "lastSuccess": 1785470281413,
+      "lastFetched": 1785489763731,
+      "lastSuccess": 1785489763731,
       "videos": [
         {
           "bvid": "BV1dg4y117Mg",
@@ -33293,6 +33731,40 @@
           "contentType": "episode",
           "characters": [],
           "discoveredBy": "episode-search"
+        },
+        {
+          "bvid": "BV12g4y1r78c",
+          "aid": 835215100,
+          "title": "凡人修仙传81集REACTION",
+          "description": "剪辑过的，画面遮挡很多的REACTION，喜欢请支持正片。",
+          "cover": "https://i0.hdslb.com/bfs/archive/540b6d251b38a4dd68f0b9316792d0bd5b4e7ceb.jpg",
+          "pubTime": 1703318281000,
+          "duration": "9:47",
+          "play": 2346,
+          "videoUrl": "http://www.bilibili.com/video/av835215100",
+          "matched": true,
+          "ep": 81,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [],
+          "discoveredBy": "episode-search"
+        },
+        {
+          "bvid": "BV1Yu4y1H7Fz",
+          "aid": 919760389,
+          "title": "凡人修仙传80集Reaction",
+          "description": "本视频有大量剪辑和遮挡。\n\n抽奖需要关注并发私信给我，要写清楚b站UID，按时间先后顺序取前六名道友。",
+          "cover": "https://i1.hdslb.com/bfs/archive/f75233c86addebbc18dc1737b1a92a7ddab4abdd.jpg",
+          "pubTime": 1702711751000,
+          "duration": "14:55",
+          "play": 8510,
+          "videoUrl": "http://www.bilibili.com/video/av919760389",
+          "matched": true,
+          "ep": 80,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [],
+          "discoveredBy": "episode-search"
         }
       ],
       "recentTitles": [
@@ -33306,8 +33778,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1785470197062,
-      "lastSuccess": 1785470197062,
+      "lastFetched": 1785489666908,
+      "lastSuccess": 1785489666908,
       "videos": [
         {
           "bvid": "BV1ve411H79h",
@@ -33397,6 +33869,38 @@
       ],
       "recentTitles": [
         "【凡人修仙传】82集尝鲜，看韩立如何逃回天星城"
+      ]
+    },
+    {
+      "uid": "166279492",
+      "name": "阿端没有创作瓶颈",
+      "alias": [],
+      "note": "按集搜索发现",
+      "source": "search-backfill",
+      "error": null,
+      "lastFetched": 1785489763731,
+      "lastSuccess": 1785489763731,
+      "videos": [
+        {
+          "bvid": "BV1Jb4y1V7rV",
+          "aid": 622512938,
+          "title": "【凡人修仙传】第80集深入解析 “以符为号 心动时刻”",
+          "description": "BGM：归期伴奏\n视频创作不易 还望三连+关注多多支持~\n解析视频可能会有过度分析 欢迎大家在评论里多交流探讨~",
+          "cover": "https://i1.hdslb.com/bfs/archive/14c1cbaf91be7abfcc7755ccb65e015b9c107258.jpg",
+          "pubTime": 1703176670000,
+          "duration": "6:26",
+          "play": 577,
+          "videoUrl": "http://www.bilibili.com/video/av622512938",
+          "matched": true,
+          "ep": 80,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [],
+          "discoveredBy": "episode-search"
+        }
+      ],
+      "recentTitles": [
+        "【凡人修仙传】第80集深入解析 “以符为号 心动时刻”"
       ]
     }
   ]
