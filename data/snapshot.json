@@ -1,5 +1,5 @@
 {
-  "generatedAt": 1785543597377,
+  "generatedAt": 1785556593706,
   "series": {
     "title": "凡人修仙传",
     "seasonId": "28747",
@@ -75,11 +75,11 @@
     "cover": "https://i0.hdslb.com/bfs/bangumi/image/19a2d01429bcba6b31791277c016e0d1aa465974.png",
     "newEp": {
       "desc": "连载中, 6月13日起 每周六11:00",
-      "id": 3854808,
-      "is_new": 0,
-      "title": "184"
+      "id": 3854809,
+      "is_new": 1,
+      "title": "185"
     },
-    "totalCount": 285,
+    "totalCount": 287,
     "episodes": [
       {
         "ep": 1,
@@ -3442,6 +3442,18 @@
         "playUrl": "https://www.bilibili.com/bangumi/play/ep4292428"
       },
       {
+        "ep": 185,
+        "epRaw": "185",
+        "longTitle": "慕兰之战09",
+        "bvid": "BV12mgi6GEJR",
+        "aid": 116975900559788,
+        "cover": "http://i0.hdslb.com/bfs/archive/764dc6fe27444be5c81f3542e39192763df5f398.jpg",
+        "pubTime": 1784949300000,
+        "duration": 44000,
+        "link": "https://www.bilibili.com/bangumi/play/ep4292429",
+        "playUrl": "https://www.bilibili.com/bangumi/play/ep4292429"
+      },
+      {
         "ep": 181,
         "epRaw": "181",
         "longTitle": "慕兰之战05",
@@ -3493,13 +3505,25 @@
         "ep": 185,
         "epRaw": "185",
         "longTitle": "慕兰之战09",
-        "bvid": "BV12mgi6GEJR",
-        "aid": 116975900559788,
-        "cover": "http://i0.hdslb.com/bfs/archive/a0dba555269bd48fe58594f20ddd06068f1bd7d9.jpg",
-        "pubTime": 1784949300000,
-        "duration": 44000,
-        "link": "https://www.bilibili.com/bangumi/play/ep4292429",
-        "playUrl": "https://www.bilibili.com/bangumi/play/ep4292429"
+        "bvid": "BV1R9GK6CELH",
+        "aid": 117015360637220,
+        "cover": "http://i0.hdslb.com/bfs/archive/764dc6fe27444be5c81f3542e39192763df5f398.jpg",
+        "pubTime": 1785553200000,
+        "duration": 1241000,
+        "link": "https://www.bilibili.com/bangumi/play/ep3854809",
+        "playUrl": "https://www.bilibili.com/bangumi/play/ep3854809"
+      },
+      {
+        "ep": 186,
+        "epRaw": "186",
+        "longTitle": "慕兰之战10",
+        "bvid": "BV1DAGT6qEJo",
+        "aid": 117015461300162,
+        "cover": "http://i0.hdslb.com/bfs/archive/60ae9571f681329e6536218b9c7a2b2d0c439854.jpg",
+        "pubTime": 1785554100000,
+        "duration": 49000,
+        "link": "https://www.bilibili.com/bangumi/play/ep4292430",
+        "playUrl": "https://www.bilibili.com/bangumi/play/ep4292430"
       }
     ]
   },
@@ -3511,9 +3535,10 @@
         "利维坦LWT"
       ],
       "note": "经典解析向",
+      "source": "search-backfill",
       "error": null,
-      "lastFetched": 1785542997994,
-      "lastSuccess": 1785542997994,
+      "lastFetched": 1785556593706,
+      "lastSuccess": 1785556593706,
       "videos": [
         {
           "bvid": "BV1cL3M6sEYt",
@@ -5090,7 +5115,7 @@
           "cover": "https://i1.hdslb.com/bfs/archive/825f52c52145166dcf5ed9509913dac6fef04e75.jpg",
           "pubTime": 1713003916000,
           "duration": "10:55",
-          "play": 600184,
+          "play": 600196,
           "videoUrl": "http://www.bilibili.com/video/av1103088356",
           "matched": true,
           "ep": 97,
@@ -5175,7 +5200,7 @@
           "cover": "https://i0.hdslb.com/bfs/archive/2c9e9af143ba1192283b0a80db7388c8aa7295e2.jpg",
           "pubTime": 1709978700000,
           "duration": "11:27",
-          "play": 561517,
+          "play": 561532,
           "videoUrl": "http://www.bilibili.com/video/av1051645181",
           "matched": true,
           "ep": 92,
@@ -5192,7 +5217,7 @@
           "cover": "https://i1.hdslb.com/bfs/archive/6ca160fe0261812b3e0e3d091c18bb16330e61db.jpg",
           "pubTime": 1709372100000,
           "duration": "8:51",
-          "play": 579482,
+          "play": 579492,
           "videoUrl": "http://www.bilibili.com/video/av1151325969",
           "matched": true,
           "ep": 91,
@@ -5209,7 +5234,7 @@
           "cover": "https://i1.hdslb.com/bfs/archive/f626bd3ece45f42d4c256f8b58b5290178373270.jpg",
           "pubTime": 1708769100000,
           "duration": "9:25",
-          "play": 671266,
+          "play": 671274,
           "videoUrl": "http://www.bilibili.com/video/av1900918105",
           "matched": true,
           "ep": 90,
@@ -5332,7 +5357,7 @@
           "cover": "https://i0.hdslb.com/bfs/archive/faa95e90b3c7ac497bb4225368cdbc7e50fc27e9.jpg",
           "pubTime": 1703324700000,
           "duration": "7:14",
-          "play": 629739,
+          "play": 629744,
           "videoUrl": "http://www.bilibili.com/video/av835127369",
           "matched": true,
           "ep": 81,
@@ -5368,7 +5393,7 @@
           "cover": "https://i0.hdslb.com/bfs/archive/bac676c2d996a3c5d5e6fdd0cdd7ee5a4cff47f5.jpg",
           "pubTime": 1702115400000,
           "duration": "8:16",
-          "play": 586197,
+          "play": 586210,
           "videoUrl": "http://www.bilibili.com/video/av664392096",
           "matched": true,
           "ep": 79,
@@ -5385,7 +5410,7 @@
           "cover": "https://i0.hdslb.com/bfs/archive/295506dbea93fc2d578548d821844958e481625b.jpg",
           "pubTime": 1701510900000,
           "duration": "10:9",
-          "play": 653144,
+          "play": 653160,
           "videoUrl": "http://www.bilibili.com/video/av664204784",
           "matched": true,
           "ep": 78,
@@ -6136,10 +6161,11 @@
       "uid": "57868863",
       "name": "白马猴子",
       "alias": [],
-      "note": "",
+      "note": "按集搜索发现",
+      "source": "search-backfill",
       "error": "all retries failed",
-      "lastFetched": 1785543134140,
-      "lastSuccess": 1785536182475,
+      "lastFetched": 1785556593706,
+      "lastSuccess": 1785556593706,
       "videos": [
         {
           "bvid": "BV1HB3u6tExQ",
@@ -7980,7 +8006,7 @@
           "cover": "https://i2.hdslb.com/bfs/archive/4f223259678372decca567b7dbee9c4c02f36fa8.jpg",
           "pubTime": 1708784883000,
           "duration": "12:12",
-          "play": 237683,
+          "play": 237692,
           "videoUrl": "http://www.bilibili.com/video/av1151148159",
           "matched": true,
           "ep": 90,
@@ -8048,7 +8074,7 @@
           "cover": "https://i1.hdslb.com/bfs/archive/3861c112f685bb68f1bc12fdbb552b556816cc69.jpg",
           "pubTime": 1702129228000,
           "duration": "10:52",
-          "play": 203151,
+          "play": 203153,
           "videoUrl": "http://www.bilibili.com/video/av494592160",
           "matched": true,
           "ep": 79,
@@ -8067,7 +8093,7 @@
           "cover": "https://i1.hdslb.com/bfs/archive/5de8b50c4976efc31d403a2a3c0ee807a143e234.jpg",
           "pubTime": 1701514769000,
           "duration": "9:20",
-          "play": 195447,
+          "play": 195451,
           "videoUrl": "http://www.bilibili.com/video/av324165458",
           "matched": true,
           "ep": 78,
@@ -9131,10 +9157,11 @@
       "uid": "1793524011",
       "name": "清植酱",
       "alias": [],
-      "note": "",
+      "note": "按集搜索发现",
+      "source": "search-backfill",
       "error": "all retries failed",
-      "lastFetched": 1785543237117,
-      "lastSuccess": 1785534394554,
+      "lastFetched": 1785556593706,
+      "lastSuccess": 1785556593706,
       "videos": [
         {
           "bvid": "BV1hQ3t6hEeP",
@@ -9772,7 +9799,7 @@
           "cover": "https://i1.hdslb.com/bfs/archive/6bdc11eb77329494d7a58e0da8fded322cd73dbb.jpg",
           "pubTime": 1701519106000,
           "duration": "15:29",
-          "play": 50369,
+          "play": 50370,
           "videoUrl": "http://www.bilibili.com/video/av494183623",
           "matched": true,
           "ep": 78,
@@ -10315,9 +10342,10 @@
       "name": "飞天心宏",
       "alias": [],
       "note": "命运流深度解读",
+      "source": "search-backfill",
       "error": "all retries failed",
-      "lastFetched": 1785543371602,
-      "lastSuccess": 1785534409209,
+      "lastFetched": 1785556593706,
+      "lastSuccess": 1785556593706,
       "videos": [
         {
           "bvid": "BV1Hb3q6MEn4",
@@ -11415,6 +11443,26 @@
           "isCompilation": false,
           "contentType": "episode",
           "characters": [],
+          "discoveredBy": "episode-search"
+        },
+        {
+          "bvid": "BV1294y1E7Sn",
+          "aid": 366655331,
+          "title": "凡人修仙传动漫第78集点评：韩立要下副本！紫灵为何很忧伤？",
+          "description": "凡人修仙传动漫第78集点评：韩立要下副本！紫灵为何很忧伤？",
+          "cover": "https://i0.hdslb.com/bfs/archive/68dfbbb1b6407d05d42c819cb863eba4fc9f4f23.jpg",
+          "pubTime": 1701528727000,
+          "duration": "14:49",
+          "play": 29848,
+          "videoUrl": "http://www.bilibili.com/video/av366655331",
+          "matched": true,
+          "ep": 78,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [
+            "韩立",
+            "紫灵"
+          ],
           "discoveredBy": "episode-search"
         },
         {
@@ -12816,9 +12864,10 @@
       "name": "双份豆包",
       "alias": [],
       "note": "道友推荐，剧情解析",
+      "source": "search-backfill",
       "error": null,
-      "lastFetched": 1785543574603,
-      "lastSuccess": 1785543574603,
+      "lastFetched": 1785556498319,
+      "lastSuccess": 1785556498319,
       "videos": [
         {
           "bvid": "BV1kYGw6rEBH",
@@ -14642,9 +14691,28 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1784362208495,
-      "lastSuccess": 1784362208495,
+      "lastFetched": 1785556306201,
+      "lastSuccess": 1785556306201,
       "videos": [
+        {
+          "bvid": "BV1zyGK6SE38",
+          "aid": 117015394126776,
+          "title": "凡人修仙传 185 集：慕兰战役正式打响！韩立拒令狐老祖归宗之邀，坠魔谷主线全面启动",
+          "description": "预告解析，希望大家喜欢，正片将于11点更新，链接已放评论区置顶",
+          "cover": "https://i2.hdslb.com/bfs/archive/4890f531a45b75b490cf54673dae82dd3819591d.jpg",
+          "pubTime": 1785551700000,
+          "duration": "28:22",
+          "play": 3927,
+          "videoUrl": "http://www.bilibili.com/video/av117015394126776",
+          "matched": true,
+          "ep": 185,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [
+            "韩立"
+          ],
+          "discoveredBy": "episode-search"
+        },
         {
           "bvid": "BV1eXN46JEdV",
           "aid": 116899564227278,
@@ -15158,9 +15226,28 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1784967923840,
-      "lastSuccess": 1784967923840,
+      "lastFetched": 1785556306201,
+      "lastSuccess": 1785556306201,
       "videos": [
+        {
+          "bvid": "BV1zyGK6SE8S",
+          "aid": 117015394125649,
+          "title": "凡人修仙传 185 集：拒令狐老祖厚赐邀约！韩立接下坠魔谷之局，慕兰大战全面拉开",
+          "description": "",
+          "cover": "https://i1.hdslb.com/bfs/archive/b4bea797973025b9fa454d68146f76a36c2e9622.jpg",
+          "pubTime": 1785552300000,
+          "duration": "21:59",
+          "play": 1958,
+          "videoUrl": "http://www.bilibili.com/video/av117015394125649",
+          "matched": true,
+          "ep": 185,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [
+            "韩立"
+          ],
+          "discoveredBy": "episode-search"
+        },
         {
           "bvid": "BV1FJgi6aEJ5",
           "aid": 116976135441055,
@@ -16316,9 +16403,49 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1784967923840,
-      "lastSuccess": 1784967923840,
+      "lastFetched": 1785556306201,
+      "lastSuccess": 1785556306201,
       "videos": [
+        {
+          "bvid": "BV1SwGN68Ey5",
+          "aid": 117014639222543,
+          "title": "凡人修仙传185集：韩立再遇令狐老祖与南陇侯，慕兰战役开启！规划坠魔谷之行",
+          "description": "",
+          "cover": "https://i1.hdslb.com/bfs/archive/8b2fdb2b1c65375e95dc3ff5e82a0fc3103687a3.jpg",
+          "pubTime": 1785552300000,
+          "duration": "24:16",
+          "play": 7762,
+          "videoUrl": "http://www.bilibili.com/video/av117014639222543",
+          "matched": true,
+          "ep": 185,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [
+            "南陇侯",
+            "韩立"
+          ],
+          "discoveredBy": "episode-search"
+        },
+        {
+          "bvid": "BV1L43K6uEt5",
+          "aid": 116978568204427,
+          "title": "凡人修仙传185集：慕兰战役开启！韩立赴令狐邀约，南陇侯再次上线！规划坠魔谷之行，，凡人修仙传184集",
+          "description": "",
+          "cover": "https://i1.hdslb.com/bfs/archive/8b2fdb2b1c65375e95dc3ff5e82a0fc3103687a3.jpg",
+          "pubTime": 1784951876000,
+          "duration": "27:37",
+          "play": 47389,
+          "videoUrl": "http://www.bilibili.com/video/av116978568204427",
+          "matched": true,
+          "ep": 185,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [
+            "南陇侯",
+            "韩立"
+          ],
+          "discoveredBy": "episode-search"
+        },
         {
           "bvid": "BV1P5KF6xE6L",
           "aid": 116938906935270,
@@ -16945,8 +17072,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1785527920409,
-      "lastSuccess": 1785527920409,
+      "lastFetched": 1785556593706,
+      "lastSuccess": 1785556593706,
       "videos": [
         {
           "bvid": "BV13jMw6UECD",
@@ -18090,7 +18217,7 @@
           "cover": "https://i2.hdslb.com/bfs/archive/23fe23b15ef0e63278af819368c284fc9d132c9a.jpg",
           "pubTime": 1771576217000,
           "duration": "16:17",
-          "play": 657,
+          "play": 658,
           "videoUrl": "http://www.bilibili.com/video/av116101975379882",
           "matched": true,
           "ep": 92,
@@ -18107,7 +18234,7 @@
           "cover": "https://i2.hdslb.com/bfs/archive/23fe23b15ef0e63278af819368c284fc9d132c9a.jpg",
           "pubTime": 1771571303000,
           "duration": "16:3",
-          "play": 711,
+          "play": 712,
           "videoUrl": "http://www.bilibili.com/video/av116101656610794",
           "matched": true,
           "ep": 91,
@@ -18213,10 +18340,27 @@
           "cover": "https://i2.hdslb.com/bfs/archive/23fe23b15ef0e63278af819368c284fc9d132c9a.jpg",
           "pubTime": 1771376997000,
           "duration": "14:47",
-          "play": 758,
+          "play": 759,
           "videoUrl": "http://www.bilibili.com/video/av116088939479051",
           "matched": true,
           "ep": 81,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [],
+          "discoveredBy": "episode-search"
+        },
+        {
+          "bvid": "BV15NZsBuE5L",
+          "aid": 116073034682288,
+          "title": "【凡人reaction】第78集  妙音门的算计（他们想干什么！）",
+          "description": "-",
+          "cover": "https://i2.hdslb.com/bfs/archive/23fe23b15ef0e63278af819368c284fc9d132c9a.jpg",
+          "pubTime": 1771134518000,
+          "duration": "15:4",
+          "play": 1304,
+          "videoUrl": "http://www.bilibili.com/video/av116073034682288",
+          "matched": true,
+          "ep": 78,
           "isCompilation": false,
           "contentType": "episode",
           "characters": [],
@@ -18825,8 +18969,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1785527920409,
-      "lastSuccess": 1785527920409,
+      "lastFetched": 1785556462289,
+      "lastSuccess": 1785556462289,
       "videos": [
         {
           "bvid": "BV1Cb7H6yEsE",
@@ -20362,8 +20506,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1785527920409,
-      "lastSuccess": 1785527920409,
+      "lastFetched": 1785556547065,
+      "lastSuccess": 1785556547065,
       "videos": [
         {
           "bvid": "BV1SqJx6rE3g",
@@ -20560,7 +20704,7 @@
           "cover": "https://i0.hdslb.com/bfs/archive/05d50193d5eda380ccb96be83e952cfe7bbbb1d4.jpg",
           "pubTime": 1775671283000,
           "duration": "248:6",
-          "play": 16081,
+          "play": 16088,
           "videoUrl": "http://www.bilibili.com/video/av116370360567575",
           "matched": true,
           "ep": 92,
@@ -20577,7 +20721,7 @@
           "cover": "https://i0.hdslb.com/bfs/archive/ddd22c18fb6409ee4ae6c9681764b16cb8412b42.jpg",
           "pubTime": 1774894970000,
           "duration": "231:14",
-          "play": 17389,
+          "play": 17390,
           "videoUrl": "http://www.bilibili.com/video/av116319475207821",
           "matched": true,
           "ep": 79,
@@ -21295,9 +21439,29 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1784967923840,
-      "lastSuccess": 1784967923840,
+      "lastFetched": 1785556306201,
+      "lastSuccess": 1785556306201,
       "videos": [
+        {
+          "bvid": "BV1ui3K6AExe",
+          "aid": 116978668865900,
+          "title": "【凡人修仙传185集】韩立拒绝回归黄枫谷，但答应日后帮黄枫谷出手三次，再次遇见南陇候！",
+          "description": "",
+          "cover": "https://i1.hdslb.com/bfs/archive/5903a4241aa6074d214fd66e2906476b3f39dff0.jpg",
+          "pubTime": 1784953140000,
+          "duration": "46:20",
+          "play": 8795,
+          "videoUrl": "http://www.bilibili.com/video/av116978668865900",
+          "matched": true,
+          "ep": 185,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [
+            "黄枫谷",
+            "韩立"
+          ],
+          "discoveredBy": "episode-search"
+        },
         {
           "bvid": "BV1jtKF61Ezz",
           "aid": 116938957129545,
@@ -21772,8 +21936,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1785229856421,
-      "lastSuccess": 1785229856421,
+      "lastFetched": 1785556593706,
+      "lastSuccess": 1785556593706,
       "videos": [
         {
           "bvid": "BV1vA4y1f7VL",
@@ -21923,6 +22087,23 @@
           "videoUrl": "http://www.bilibili.com/video/av768943745",
           "matched": true,
           "ep": 94,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [],
+          "discoveredBy": "episode-search"
+        },
+        {
+          "bvid": "BV1ru411r7oG",
+          "aid": 511316521,
+          "title": "凡人修仙传之仙界篇：第78集_破链(中)",
+          "description": "凡人修仙传之仙界篇：第78集_破链(中)",
+          "cover": "https://i1.hdslb.com/bfs/archive/34d1715c84798b2efd58d23333721820ba64ba3a.jpg",
+          "pubTime": 1652010780000,
+          "duration": "10:51",
+          "play": 4488,
+          "videoUrl": "http://www.bilibili.com/video/av511316521",
+          "matched": true,
+          "ep": 78,
           "isCompilation": false,
           "contentType": "episode",
           "characters": [],
@@ -22823,9 +23004,30 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1784212060690,
-      "lastSuccess": 1784212060690,
+      "lastFetched": 1785556306201,
+      "lastSuccess": 1785556306201,
       "videos": [
+        {
+          "bvid": "BV1MPGN6FE6r",
+          "aid": 117014689612837,
+          "title": "凡人修仙传185集：韩立集齐两仪环！韩立拒令狐南陇侯！慕兰战炼紫罗极火杀元婴后期！",
+          "description": "",
+          "cover": "https://i0.hdslb.com/bfs/archive/283dde836d591b86982442d2d61211b8ab23fa29.jpg",
+          "pubTime": 1785551400000,
+          "duration": "20:36",
+          "play": 2684,
+          "videoUrl": "http://www.bilibili.com/video/av117014689612837",
+          "matched": true,
+          "ep": 185,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [
+            "南陇侯",
+            "韩立",
+            "元婴"
+          ],
+          "discoveredBy": "episode-search"
+        },
         {
           "bvid": "BV1We1DBwEaq",
           "aid": 115512138860861,
@@ -23157,8 +23359,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1785527634162,
-      "lastSuccess": 1785527634162,
+      "lastFetched": 1785556345504,
+      "lastSuccess": 1785556345504,
       "videos": [
         {
           "bvid": "BV1AJNT63EVp",
@@ -23784,7 +23986,7 @@
           "cover": "https://i1.hdslb.com/bfs/archive/527ef2d15f881f046eabd63a14f726acf43ce6c6.jpg",
           "pubTime": 1781503200000,
           "duration": "37:43",
-          "play": 280,
+          "play": 281,
           "videoUrl": "http://www.bilibili.com/video/av116742881806345",
           "matched": true,
           "ep": 97,
@@ -24776,9 +24978,30 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1784967923840,
-      "lastSuccess": 1784967923840,
+      "lastFetched": 1785556306201,
+      "lastSuccess": 1785556306201,
       "videos": [
+        {
+          "bvid": "BV1L43K6uEeK",
+          "aid": 116978568204671,
+          "title": "凡人修仙传第185集，韩立拒令狐南陇侯！慕兰战炼紫罗极火杀元婴后期！赠侄女李缨宁机缘",
+          "description": "",
+          "cover": "https://i1.hdslb.com/bfs/archive/e7ac6d5b1d31cb1000a37dcc0139b7521e700582.jpg",
+          "pubTime": 1784951481000,
+          "duration": "20:34",
+          "play": 67969,
+          "videoUrl": "http://www.bilibili.com/video/av116978568204671",
+          "matched": true,
+          "ep": 185,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [
+            "南陇侯",
+            "韩立",
+            "元婴"
+          ],
+          "discoveredBy": "episode-search"
+        },
         {
           "bvid": "BV1qtKF61E6J",
           "aid": 116938957200978,
@@ -26708,8 +26931,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1785316437394,
-      "lastSuccess": 1785316437394,
+      "lastFetched": 1785556593706,
+      "lastSuccess": 1785556593706,
       "videos": [
         {
           "bvid": "BV1nfBsBeEnz",
@@ -26823,6 +27046,25 @@
           "contentType": "episode",
           "characters": [
             "韩立",
+            "灵界"
+          ],
+          "discoveredBy": "episode-search"
+        },
+        {
+          "bvid": "BV1HxH4e4EmL",
+          "aid": 113073704731604,
+          "title": "凡人修仙传灵界第78集-胶带",
+          "description": "",
+          "cover": "https://i1.hdslb.com/bfs/archive/8ae215796b6cd5e7505c88e7ea72ad16e3bc28ad.jpg",
+          "pubTime": 1725368902000,
+          "duration": "10:11",
+          "play": 95880,
+          "videoUrl": "http://www.bilibili.com/video/av113073704731604",
+          "matched": true,
+          "ep": 78,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [
             "灵界"
           ],
           "discoveredBy": "episode-search"
@@ -27498,8 +27740,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1785527634162,
-      "lastSuccess": 1785527634162,
+      "lastFetched": 1785556345504,
+      "lastSuccess": 1785556345504,
       "videos": [
         {
           "bvid": "BV1yUM2zyEeM",
@@ -29078,8 +29320,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1785527828739,
-      "lastSuccess": 1785527828739,
+      "lastFetched": 1785556547065,
+      "lastSuccess": 1785556547065,
       "videos": [
         {
           "bvid": "BV1Ry5xzEEyJ",
@@ -29183,7 +29425,7 @@
           "cover": "https://i2.hdslb.com/bfs/archive/29d6811ccb0d9bb54142d749e50a84346a40a733.jpg",
           "pubTime": 1709367937000,
           "duration": "8:19",
-          "play": 52764,
+          "play": 52767,
           "videoUrl": "http://www.bilibili.com/video/av1151419749",
           "matched": true,
           "ep": 91,
@@ -29392,7 +29634,7 @@
           "cover": "https://i2.hdslb.com/bfs/archive/2d49baa58beb36617c66e8fff77b34f9d543b3ae.jpg",
           "pubTime": 1702115235000,
           "duration": "12:43",
-          "play": 29146,
+          "play": 29148,
           "videoUrl": "http://www.bilibili.com/video/av749422559",
           "matched": true,
           "ep": 79,
@@ -30654,9 +30896,29 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1784967923840,
-      "lastSuccess": 1784967923840,
+      "lastFetched": 1785556306201,
+      "lastSuccess": 1785556306201,
       "videos": [
+        {
+          "bvid": "BV1Sq3K6hE5S",
+          "aid": 116978719137751,
+          "title": "【凡人修仙传185集】韩立再遇令狐老祖与南陇侯，三件重宝换取援手三次约定！南陇侯再邀韩立下副本！",
+          "description": "【凡人修仙传185集】韩立再遇令狐老祖与南陇侯，三件重宝换取援手三次约定！南陇侯再邀韩立下副本！",
+          "cover": "https://i0.hdslb.com/bfs/archive/696e293636011075c9b31d546b835b614d4bb0d8.jpg",
+          "pubTime": 1784953952000,
+          "duration": "25:22",
+          "play": 125353,
+          "videoUrl": "http://www.bilibili.com/video/av116978719137751",
+          "matched": true,
+          "ep": 185,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [
+            "南陇侯",
+            "韩立"
+          ],
+          "discoveredBy": "episode-search"
+        },
         {
           "bvid": "BV15qKw67EUB",
           "aid": 116939426897200,
@@ -30928,8 +31190,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1784362208495,
-      "lastSuccess": 1784362208495,
+      "lastFetched": 1785556306201,
+      "lastSuccess": 1785556306201,
       "videos": [
         {
           "bvid": "BV1FfNW6UE8m",
@@ -30946,6 +31208,26 @@
           "isCompilation": false,
           "contentType": "episode",
           "characters": [],
+          "discoveredBy": "episode-search"
+        },
+        {
+          "bvid": "BV1fFKHzWEPS",
+          "aid": 114744010741903,
+          "title": "《凡人修仙传185集》突破元婴，韩立力挽狂澜，落幕，惊变，突兀人",
+          "description": "韩立力挽狂澜，让胜利的天平倾向于天南，但出于某种原因，让天南慕兰巅峰赛落下了帷幕……更新中！！！",
+          "cover": "https://i0.hdslb.com/bfs/archive/9201c3ce28622d80239349ef711f102401c7557d.jpg",
+          "pubTime": 1750855024000,
+          "duration": "22:51",
+          "play": 37847,
+          "videoUrl": "http://www.bilibili.com/video/av114744010741903",
+          "matched": true,
+          "ep": 185,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [
+            "韩立",
+            "元婴"
+          ],
           "discoveredBy": "episode-search"
         }
       ],
@@ -32801,8 +33083,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1785402571661,
-      "lastSuccess": 1785402571661,
+      "lastFetched": 1785556345504,
+      "lastSuccess": 1785556345504,
       "videos": [
         {
           "bvid": "BV189K46kEWw",
@@ -32820,6 +33102,26 @@
           "contentType": "episode",
           "characters": [
             "韩立"
+          ],
+          "discoveredBy": "episode-search"
+        },
+        {
+          "bvid": "BV1TgK36oETY",
+          "aid": 116927699620113,
+          "title": "安利古人朋友看《凡人修仙传》E97|朋友赞叹紫灵心志坚定更胜韩立~",
+          "description": "左边是我的古人朋友@蚊子咬的包啊  ，大家叫她包子吧。因为她的动漫偶像是童年时期的猴哥、葫芦娃、哪吒等等比较传统的经典角色~这是她成年之后第一次看国产长篇动漫，真的0基础~\n右边是我，看过小说（十几年了，忘差不多了），也追了动漫（非细节党），这次是重看~",
+          "cover": "https://i1.hdslb.com/bfs/archive/9e4c82cb222ba18c345ae1793f32c83b0799cd5c.jpg",
+          "pubTime": 1784175555000,
+          "duration": "19:8",
+          "play": 4526,
+          "videoUrl": "http://www.bilibili.com/video/av116927699620113",
+          "matched": true,
+          "ep": 97,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [
+            "韩立",
+            "紫灵"
           ],
           "discoveredBy": "episode-search"
         },
@@ -33195,9 +33497,29 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1785055470357,
-      "lastSuccess": 1785055470357,
+      "lastFetched": 1785556306201,
+      "lastSuccess": 1785556306201,
       "videos": [
+        {
+          "bvid": "BV1nx326wE4x",
+          "aid": 117002576398806,
+          "title": "凡人185集:南陇侯为何寻找韩立？",
+          "description": "-",
+          "cover": "https://i0.hdslb.com/bfs/archive/ba83a22ac87aa124464c5ad60a45e1965cb020a7.jpg",
+          "pubTime": 1785318635000,
+          "duration": "3:18",
+          "play": 5589,
+          "videoUrl": "http://www.bilibili.com/video/av117002576398806",
+          "matched": true,
+          "ep": 185,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [
+            "南陇侯",
+            "韩立"
+          ],
+          "discoveredBy": "episode-search"
+        },
         {
           "bvid": "BV171421m75C",
           "aid": 1552789393,
@@ -33295,9 +33617,26 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1784967923840,
-      "lastSuccess": 1784967923840,
+      "lastFetched": 1785556306201,
+      "lastSuccess": 1785556306201,
       "videos": [
+        {
+          "bvid": "BV12LGu6TEq3",
+          "aid": 117018112100212,
+          "title": "解说小米看凡人修仙传第185集",
+          "description": "-",
+          "cover": "https://i2.hdslb.com/bfs/archive/c6394a4c53227d8a9f0ac944811652ac38f507fb.jpg",
+          "pubTime": 1785554888000,
+          "duration": "18:15",
+          "play": 340,
+          "videoUrl": "http://www.bilibili.com/video/av117018112100212",
+          "matched": true,
+          "ep": 185,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [],
+          "discoveredBy": "episode-search"
+        },
         {
           "bvid": "BV1rX3K6nETb",
           "aid": 116978484251257,
@@ -33610,8 +33949,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1785527877009,
-      "lastSuccess": 1785527877009,
+      "lastFetched": 1785556593706,
+      "lastSuccess": 1785556593706,
       "videos": [
         {
           "bvid": "BV1i7Y9zjEqk",
@@ -33982,8 +34321,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1785527788210,
-      "lastSuccess": 1785527788210,
+      "lastFetched": 1785556498319,
+      "lastSuccess": 1785556498319,
       "videos": [
         {
           "bvid": "BV1dg4y117Mg",
@@ -34061,7 +34400,7 @@
           "cover": "https://i0.hdslb.com/bfs/archive/540b6d251b38a4dd68f0b9316792d0bd5b4e7ceb.jpg",
           "pubTime": 1703318281000,
           "duration": "9:47",
-          "play": 2346,
+          "play": 2347,
           "videoUrl": "http://www.bilibili.com/video/av835215100",
           "matched": true,
           "ep": 81,
@@ -34231,8 +34570,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1785527920409,
-      "lastSuccess": 1785527920409,
+      "lastFetched": 1785556593706,
+      "lastSuccess": 1785556593706,
       "videos": [
         {
           "bvid": "BV1tN411x7nh",
@@ -34306,6 +34645,140 @@
       ],
       "recentTitles": [
         "《凡人修仙传》星海飞驰1，第77集【上部】欢迎讨论."
+      ]
+    },
+    {
+      "uid": "375489715",
+      "name": "answer丶truth",
+      "alias": [],
+      "note": "按集搜索发现",
+      "source": "search-backfill",
+      "error": null,
+      "lastFetched": 1785556306201,
+      "lastSuccess": 1785556306201,
+      "videos": [
+        {
+          "bvid": "BV1fWQoB9EZL",
+          "aid": 116278471755368,
+          "title": "凡人修仙传185集：韩立首战告捷斩天哭 谷双蒲卧底暴露被逮",
+          "description": "凡人修仙传185集：韩立首战告捷斩天哭 谷双蒲卧底暴露被逮",
+          "cover": "https://i2.hdslb.com/bfs/archive/d04d9b8c268d332fbc28ae9698fd6634ea0ec0bb.jpg",
+          "pubTime": 1774268866000,
+          "duration": "8:55",
+          "play": 419,
+          "videoUrl": "http://www.bilibili.com/video/av116278471755368",
+          "matched": true,
+          "ep": 185,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [
+            "韩立"
+          ],
+          "discoveredBy": "episode-search"
+        }
+      ],
+      "recentTitles": [
+        "凡人修仙传185集：韩立首战告捷斩天哭 谷双蒲卧底暴露被逮"
+      ]
+    },
+    {
+      "uid": "3707044366387406",
+      "name": "淼漫77",
+      "alias": [],
+      "note": "按集搜索发现",
+      "source": "search-backfill",
+      "error": null,
+      "lastFetched": 1785556306201,
+      "lastSuccess": 1785556306201,
+      "videos": [
+        {
+          "bvid": "BV1BaGu6xEps",
+          "aid": 117018128878491,
+          "title": "最新最新最新凡人修仙传185集",
+          "description": "-",
+          "cover": "https://i2.hdslb.com/bfs/archive/6cb12ba087f5342bede1e53766fccfe3bb07cccf.jpg",
+          "pubTime": 1785555697000,
+          "duration": "16:4",
+          "play": 275,
+          "videoUrl": "http://www.bilibili.com/video/av117018128878491",
+          "matched": true,
+          "ep": 185,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [],
+          "discoveredBy": "episode-search"
+        }
+      ],
+      "recentTitles": [
+        "最新最新最新凡人修仙传185集"
+      ]
+    },
+    {
+      "uid": "35096799",
+      "name": "那就叫王不留行",
+      "alias": [],
+      "note": "按集搜索发现",
+      "source": "search-backfill",
+      "error": null,
+      "lastFetched": 1785556306201,
+      "lastSuccess": 1785556306201,
+      "videos": [
+        {
+          "bvid": "BV1Yh3K6iEms",
+          "aid": 116978786373767,
+          "title": "两百年前把韩立当炮灰，现在令狐老祖却求他拯救黄枫谷 鲁卫英与南陇侯有什么谋划？凡人185集剧情前瞻 【凡人官方二创大会】",
+          "description": "当天解析流量还是很差 决定还是先做前瞻\n第十六期预告后续剧情解说，剧情前瞻改到周三或周四发\n逐帧解析改到周六或周天当天解析\n求点赞关注，非常感谢观众老爷们了！\n求推流，求求各位道友点赞 视频才能更好的被推荐",
+          "cover": "https://i1.hdslb.com/bfs/archive/d4440f33c7fc7cbfe4bd419f2b38277620db508b.jpg",
+          "pubTime": 1784954777000,
+          "duration": "9:2",
+          "play": 16549,
+          "videoUrl": "http://www.bilibili.com/video/av116978786373767",
+          "matched": true,
+          "ep": 185,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [
+            "黄枫谷",
+            "南陇侯",
+            "韩立"
+          ],
+          "discoveredBy": "episode-search"
+        }
+      ],
+      "recentTitles": [
+        "两百年前把韩立当炮灰，现在令狐老祖却求他拯救黄枫谷 鲁卫英与南陇侯有什么谋划？凡人185集剧情前瞻 【凡人官方二创大会】"
+      ]
+    },
+    {
+      "uid": "1186202787",
+      "name": "听风忆漫",
+      "alias": [],
+      "note": "按集搜索发现",
+      "source": "search-backfill",
+      "error": null,
+      "lastFetched": 1785556547065,
+      "lastSuccess": 1785556547065,
+      "videos": [
+        {
+          "bvid": "BV1k94y1P7xg",
+          "aid": 367091555,
+          "title": "众人心怀鬼胎！权谋之技的极限较量！！！《凡人修仙传》79集 剧情解析",
+          "description": "-",
+          "cover": "https://i2.hdslb.com/bfs/archive/77aa3268a0d92e7e53b5099a23cf722aea7b7c35.jpg",
+          "pubTime": 1702227166000,
+          "duration": "3:51",
+          "play": 161,
+          "videoUrl": "http://www.bilibili.com/video/av367091555",
+          "matched": true,
+          "ep": 79,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [],
+          "discoveredBy": "episode-search"
+        }
+      ],
+      "recentTitles": [
+        "众人心怀鬼胎！权谋之技的极限较量！！！《凡人修仙传》79集 剧情解析"
       ]
     }
   ]
