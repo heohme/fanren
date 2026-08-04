@@ -1,5 +1,5 @@
 {
-  "generatedAt": 1785846702540,
+  "generatedAt": 1785854735378,
   "series": {
     "title": "凡人修仙传",
     "seasonId": "28747",
@@ -3535,9 +3535,10 @@
         "利维坦LWT"
       ],
       "note": "经典解析向",
+      "source": "search-backfill",
       "error": null,
-      "lastFetched": 1785846531877,
-      "lastSuccess": 1785846531877,
+      "lastFetched": 1785854735378,
+      "lastSuccess": 1785854735378,
       "videos": [
         {
           "bvid": "BV1JiGV6uE1L",
@@ -5130,7 +5131,7 @@
           "cover": "https://i1.hdslb.com/bfs/archive/825f52c52145166dcf5ed9509913dac6fef04e75.jpg",
           "pubTime": 1713003916000,
           "duration": "10:55",
-          "play": 600486,
+          "play": 600521,
           "videoUrl": "http://www.bilibili.com/video/av1103088356",
           "matched": true,
           "ep": 97,
@@ -5215,7 +5216,7 @@
           "cover": "https://i0.hdslb.com/bfs/archive/2c9e9af143ba1192283b0a80db7388c8aa7295e2.jpg",
           "pubTime": 1709978700000,
           "duration": "11:27",
-          "play": 561811,
+          "play": 561847,
           "videoUrl": "http://www.bilibili.com/video/av1051645181",
           "matched": true,
           "ep": 92,
@@ -5232,7 +5233,7 @@
           "cover": "https://i1.hdslb.com/bfs/archive/6ca160fe0261812b3e0e3d091c18bb16330e61db.jpg",
           "pubTime": 1709372100000,
           "duration": "8:51",
-          "play": 579761,
+          "play": 579794,
           "videoUrl": "http://www.bilibili.com/video/av1151325969",
           "matched": true,
           "ep": 91,
@@ -5372,7 +5373,7 @@
           "cover": "https://i0.hdslb.com/bfs/archive/faa95e90b3c7ac497bb4225368cdbc7e50fc27e9.jpg",
           "pubTime": 1703324700000,
           "duration": "7:14",
-          "play": 630010,
+          "play": 630037,
           "videoUrl": "http://www.bilibili.com/video/av835127369",
           "matched": true,
           "ep": 81,
@@ -5623,7 +5624,7 @@
           "cover": "https://i2.hdslb.com/bfs/archive/e6ebd814888773625088657750cec2517ea40078.jpg",
           "pubTime": 1664106642000,
           "duration": "9:34",
-          "play": 554989,
+          "play": 555005,
           "videoUrl": "http://www.bilibili.com/video/av430995273",
           "matched": true,
           "ep": 69,
@@ -5640,7 +5641,7 @@
           "cover": "https://i0.hdslb.com/bfs/archive/aef7a13ed97ed4dc7b588a8e967a75f85d04f2cc.jpg",
           "pubTime": 1663504340000,
           "duration": "8:22",
-          "play": 619358,
+          "play": 619382,
           "videoUrl": "http://www.bilibili.com/video/av345676251",
           "matched": true,
           "ep": 68,
@@ -5649,6 +5650,42 @@
           "characters": [
             "韩立"
           ],
+          "discoveredBy": "episode-search"
+        },
+        {
+          "bvid": "BV1uG41137PU",
+          "aid": 430448648,
+          "title": "神秘人物风希与妹子汪凝登场！《凡人修仙传》67集逐帧解析",
+          "description": "这集做的着实难 为了不剧透真的删了很多推测与解读 感谢大家等待！",
+          "cover": "https://i2.hdslb.com/bfs/archive/cab79726c05ebc98ce4d6ba44106990de1b9709c.jpg",
+          "pubTime": 1662901676000,
+          "duration": "8:28",
+          "play": 630543,
+          "videoUrl": "http://www.bilibili.com/video/av430448648",
+          "matched": true,
+          "ep": 67,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [
+            "风希"
+          ],
+          "discoveredBy": "episode-search"
+        },
+        {
+          "bvid": "BV1xG411G7wt",
+          "aid": 430208104,
+          "title": "乱星海妹子元瑶与妍丽登场！《凡人修仙传》66集逐帧解析",
+          "description": "更新了道友们！",
+          "cover": "https://i1.hdslb.com/bfs/archive/2a19b324e33043dc457c407d0787995d2a77e7a5.jpg",
+          "pubTime": 1662294120000,
+          "duration": "8:7",
+          "play": 705696,
+          "videoUrl": "http://www.bilibili.com/video/av430208104",
+          "matched": true,
+          "ep": 66,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [],
           "discoveredBy": "episode-search"
         }
       ],
@@ -6390,10 +6427,11 @@
       "uid": "57868863",
       "name": "白马猴子",
       "alias": [],
-      "note": "",
+      "note": "按集搜索发现",
+      "source": "search-backfill",
       "error": null,
-      "lastFetched": 1785846568949,
-      "lastSuccess": 1785846568949,
+      "lastFetched": 1785854735378,
+      "lastSuccess": 1785854735378,
       "videos": [
         {
           "bvid": "BV1xAGc6VELE",
@@ -8235,7 +8273,7 @@
           "cover": "https://i0.hdslb.com/bfs/archive/e0f41b899d705c2ef2a84130d396296e7c37946b.jpg",
           "pubTime": 1709977951000,
           "duration": "6:12",
-          "play": 226146,
+          "play": 226149,
           "videoUrl": "http://www.bilibili.com/video/av1951524066",
           "matched": true,
           "ep": 92,
@@ -8473,6 +8511,45 @@
           "contentType": "episode",
           "characters": [
             "风希"
+          ],
+          "discoveredBy": "episode-search"
+        },
+        {
+          "bvid": "BV1aY4y1K7ix",
+          "aid": 645483880,
+          "title": "大刀阔斧的改动是好是坏？风希提前登场 第一美女紫灵未长成《凡人修仙传》67集剧情解析",
+          "description": "视频都是个人主观看法 若有不同见解 还请大家理性讨论\n\n特别感谢本视频的配音小哥@鲜氣菌",
+          "cover": "https://i0.hdslb.com/bfs/archive/a639978d1a5d743c8791dcd0066beffa172ed462.jpg",
+          "pubTime": 1662897945000,
+          "duration": "10:24",
+          "play": 465352,
+          "videoUrl": "http://www.bilibili.com/video/av645483880",
+          "matched": true,
+          "ep": 67,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [
+            "紫灵",
+            "风希"
+          ],
+          "discoveredBy": "episode-search"
+        },
+        {
+          "bvid": "BV1ZU4y1B7Ws",
+          "aid": 687667869,
+          "title": "心病难治 绝望无医！墨彩环离世 元瑶惊艳登场《凡人修仙传》66集逐帧解析",
+          "description": "视频都是个人主观看法 若有不同见解 还请大家理性讨论\n\n特别感谢本视频的配音小哥@鲜氣菌",
+          "cover": "https://i0.hdslb.com/bfs/archive/abfd8892c22bcbe9f17b183e52a2544bbba4b15a.jpg",
+          "pubTime": 1662293891000,
+          "duration": "7:33",
+          "play": 218552,
+          "videoUrl": "http://www.bilibili.com/video/av687667869",
+          "matched": true,
+          "ep": 66,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [
+            "墨彩环"
           ],
           "discoveredBy": "episode-search"
         }
@@ -9530,10 +9607,11 @@
       "uid": "1793524011",
       "name": "清植酱",
       "alias": [],
-      "note": "",
+      "note": "按集搜索发现",
+      "source": "search-backfill",
       "error": null,
-      "lastFetched": 1785846610351,
-      "lastSuccess": 1785846610351,
+      "lastFetched": 1785854735378,
+      "lastSuccess": 1785854735378,
       "videos": [
         {
           "bvid": "BV1goMR6wEqS",
@@ -10343,6 +10421,25 @@
           "isCompilation": false,
           "contentType": "episode",
           "characters": [],
+          "discoveredBy": "episode-search"
+        },
+        {
+          "bvid": "BV18V4y1p7XU",
+          "aid": 857733546,
+          "title": "墨彩环遗憾落幕，妍丽元瑶两美女登场丨《凡人修仙传》66集剧情解析",
+          "description": "此生不在今生度\n纵有生从何处生",
+          "cover": "https://i2.hdslb.com/bfs/archive/dd3f18a09c12f38c7a15e6fa561acb78b9f3caf5.jpg",
+          "pubTime": 1662297277000,
+          "duration": "12:34",
+          "play": 314411,
+          "videoUrl": "http://www.bilibili.com/video/av857733546",
+          "matched": true,
+          "ep": 66,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [
+            "墨彩环"
+          ],
           "discoveredBy": "episode-search"
         }
       ],
@@ -17727,8 +17824,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1785834910067,
-      "lastSuccess": 1785834910067,
+      "lastFetched": 1785854551512,
+      "lastSuccess": 1785854551512,
       "videos": [
         {
           "bvid": "BV13jMw6UECD",
@@ -19014,7 +19111,7 @@
           "cover": "https://i2.hdslb.com/bfs/archive/23fe23b15ef0e63278af819368c284fc9d132c9a.jpg",
           "pubTime": 1771376997000,
           "duration": "14:47",
-          "play": 763,
+          "play": 765,
           "videoUrl": "http://www.bilibili.com/video/av116088939479051",
           "matched": true,
           "ep": 81,
@@ -21293,8 +21390,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1785489527652,
-      "lastSuccess": 1785489527652,
+      "lastFetched": 1785854482255,
+      "lastSuccess": 1785854482255,
       "videos": [
         {
           "bvid": "BV1pFjH66EYP",
@@ -21449,8 +21546,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1785834666047,
-      "lastSuccess": 1785834666047,
+      "lastFetched": 1785854482255,
+      "lastSuccess": 1785854482255,
       "videos": [
         {
           "bvid": "BV1SqJx6rE3g",
@@ -21647,7 +21744,7 @@
           "cover": "https://i0.hdslb.com/bfs/archive/05d50193d5eda380ccb96be83e952cfe7bbbb1d4.jpg",
           "pubTime": 1775671283000,
           "duration": "248:6",
-          "play": 16143,
+          "play": 16148,
           "videoUrl": "http://www.bilibili.com/video/av116370360567575",
           "matched": true,
           "ep": 92,
@@ -22879,8 +22976,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1785834957911,
-      "lastSuccess": 1785834957911,
+      "lastFetched": 1785854639517,
+      "lastSuccess": 1785854639517,
       "videos": [
         {
           "bvid": "BV1vA4y1f7VL",
@@ -23283,8 +23380,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1785834910067,
-      "lastSuccess": 1785834910067,
+      "lastFetched": 1785854591462,
+      "lastSuccess": 1785854591462,
       "videos": [
         {
           "bvid": "BV1hFj86kEwz",
@@ -23668,7 +23765,7 @@
           "cover": "https://i0.hdslb.com/bfs/archive/60ddc38512742bc31b8be28b3e8a8c4b15acf6fc.jpg",
           "pubTime": 1778117332000,
           "duration": "0:51",
-          "play": 153,
+          "play": 154,
           "videoUrl": "http://www.bilibili.com/video/av116530666803689",
           "matched": true,
           "ep": 69,
@@ -24421,8 +24518,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1785834618987,
-      "lastSuccess": 1785834618987,
+      "lastFetched": 1785854591462,
+      "lastSuccess": 1785854591462,
       "videos": [
         {
           "bvid": "BV1AJNT63EVp",
@@ -26796,8 +26893,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1785770553244,
-      "lastSuccess": 1785770553244,
+      "lastFetched": 1785854735378,
+      "lastSuccess": 1785854735378,
       "videos": [
         {
           "bvid": "BV1Zg7z6SEY6",
@@ -27352,6 +27449,40 @@
           "videoUrl": "http://www.bilibili.com/video/av1306168452",
           "matched": true,
           "ep": 70,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [],
+          "discoveredBy": "episode-search"
+        },
+        {
+          "bvid": "BV1pi421e7Xk",
+          "aid": 1455763228,
+          "title": "表演系大学生看《凡人修仙传》 第66集 反应 Reaction",
+          "description": "更新",
+          "cover": "https://i2.hdslb.com/bfs/archive/089961cbf186ffabfd6cdb974f181c9b34d58925.png",
+          "pubTime": 1719751419000,
+          "duration": "16:9",
+          "play": 7276,
+          "videoUrl": "http://www.bilibili.com/video/av1455763228",
+          "matched": true,
+          "ep": 66,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [],
+          "discoveredBy": "episode-search"
+        },
+        {
+          "bvid": "BV1Qv421y74u",
+          "aid": 1450683062,
+          "title": "和闺蜜看《凡人修仙传》Reaction 第66集 元瑶 妍丽登场 参加双圣节",
+          "description": "元瑶 妍丽登场 参加双圣节",
+          "cover": "https://i1.hdslb.com/bfs/archive/035df355b8cf84afe83d42e29d918dbe18aeac51.png",
+          "pubTime": 1707814774000,
+          "duration": "16:7",
+          "play": 16266,
+          "videoUrl": "http://www.bilibili.com/video/av1450683062",
+          "matched": true,
+          "ep": 66,
           "isCompilation": false,
           "contentType": "episode",
           "characters": [],
@@ -28664,8 +28795,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1785834715260,
-      "lastSuccess": 1785834715260,
+      "lastFetched": 1785854522300,
+      "lastSuccess": 1785854522300,
       "videos": [
         {
           "bvid": "BV13XoNBrETX",
@@ -28817,7 +28948,7 @@
           "cover": "https://i2.hdslb.com/bfs/archive/42a3c6fa129a67b1d331d6efb3cc7d3331fe6273.jpg",
           "pubTime": 1775203200000,
           "duration": "55:39",
-          "play": 15009,
+          "play": 15025,
           "videoUrl": "http://www.bilibili.com/video/av116294762372534",
           "matched": true,
           "ep": 91,
@@ -28987,8 +29118,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1785834618986,
-      "lastSuccess": 1785834618986,
+      "lastFetched": 1785854446128,
+      "lastSuccess": 1785854446128,
       "videos": [
         {
           "bvid": "BV1yUM2zyEeM",
@@ -29752,8 +29883,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1785834910067,
-      "lastSuccess": 1785834910067,
+      "lastFetched": 1785854735378,
+      "lastSuccess": 1785854735378,
       "videos": [
         {
           "bvid": "BV1iK75z4EMG",
@@ -29784,6 +29915,23 @@
           "videoUrl": "http://www.bilibili.com/video/av900894564",
           "matched": true,
           "ep": 69,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [],
+          "discoveredBy": "episode-search"
+        },
+        {
+          "bvid": "BV1Tt4y177gn",
+          "aid": 985224151,
+          "title": "《归期》歌词浅析；《凡人修仙传》66集解析：大衍诀设定介绍、动画有段暗线？",
+          "description": "《归期》真好听！",
+          "cover": "https://i1.hdslb.com/bfs/archive/16214d465449673f3b0f5c8b652940a4b463c7d7.jpg",
+          "pubTime": 1662362865000,
+          "duration": "12:32",
+          "play": 24812,
+          "videoUrl": "http://www.bilibili.com/video/av985224151",
+          "matched": true,
+          "ep": 66,
           "isCompilation": false,
           "contentType": "episode",
           "characters": [],
@@ -31692,8 +31840,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1785834910067,
-      "lastSuccess": 1785834910067,
+      "lastFetched": 1785854591462,
+      "lastSuccess": 1785854591462,
       "videos": [
         {
           "bvid": "BV1CjXXY4Ewc",
@@ -31760,7 +31908,7 @@
           "cover": "https://i1.hdslb.com/bfs/archive/13023a1e19d5b56aa3b4b0a98b7c3729a977620a.jpg",
           "pubTime": 1664105565000,
           "duration": "7:51",
-          "play": 17290,
+          "play": 17291,
           "videoUrl": "http://www.bilibili.com/video/av773446959",
           "matched": true,
           "ep": 69,
@@ -31851,8 +31999,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1785679346448,
-      "lastSuccess": 1785679346448,
+      "lastFetched": 1785854591462,
+      "lastSuccess": 1785854591462,
       "videos": [
         {
           "bvid": "BV1tQKV6qEwK",
@@ -32139,6 +32287,25 @@
           "isCompilation": false,
           "contentType": "episode",
           "characters": [],
+          "discoveredBy": "episode-search"
+        },
+        {
+          "bvid": "BV1JDVN6DEjp",
+          "aid": 116641094503201,
+          "title": "【凡人修仙传】Reaction 第69集  厉飞雨阵破水罡雷  乌少帅截丹搅大典",
+          "description": "带老婆观看凡人修仙传 第69集：划水终止曲魂救场；六遁水波元磁破雷；合力配合妖兽倒地；乌丑截胡极阴岛现！",
+          "cover": "https://i1.hdslb.com/bfs/archive/bff2ab1ff4733b7f02ee4f3e76482db86e29074c.jpg",
+          "pubTime": 1779802321000,
+          "duration": "15:27",
+          "play": 461,
+          "videoUrl": "http://www.bilibili.com/video/av116641094503201",
+          "matched": true,
+          "ep": 69,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [
+            "厉飞雨"
+          ],
           "discoveredBy": "episode-search"
         }
       ],
@@ -32947,8 +33114,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1785770553244,
-      "lastSuccess": 1785770553244,
+      "lastFetched": 1785854735378,
+      "lastSuccess": 1785854735378,
       "videos": [
         {
           "bvid": "BV1aBfZYuEva",
@@ -33232,6 +33399,40 @@
           "contentType": "episode",
           "characters": [],
           "discoveredBy": "episode-search"
+        },
+        {
+          "bvid": "BV1Ff421Q7H1",
+          "aid": 1205730101,
+          "title": "天星双圣reaction凡人修仙传第67集 文樯被迫生是非，疑团重重风前辈",
+          "description": "喜欢凡人系列REACTION的兄弟们多多三连支持~\r\n\r\n借简介记录一下自己看番历程：文樯是收到极阴岛的指令去换的队伍令牌吗？被极阴岛的人胁迫干啥里应外合破坏大典的事情吗？最后风前辈和乌丑的谜语对话先不大费周章的猜测了，首先是风前辈比乌丑等级要高吧，不然敢直接怼乌丑说&quot;滚吧&quot;，其次风前辈是想要这大典里的一个东西，至于闭关老鬼那这就更无从知晓了。韩立啊韩立这一次真是不知情的跳入火坑里了",
+          "cover": "https://i1.hdslb.com/bfs/archive/2b29a399d3dc4a1a8f4cf6000fb0734e9ae959fc.png",
+          "pubTime": 1718190042000,
+          "duration": "22:55",
+          "play": 11098,
+          "videoUrl": "http://www.bilibili.com/video/av1205730101",
+          "matched": true,
+          "ep": 67,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [],
+          "discoveredBy": "episode-search"
+        },
+        {
+          "bvid": "BV1PZ421g7qf",
+          "aid": 1155686522,
+          "title": "天星双圣reaction凡人修仙传第66集 彩环寿终命无情，闭关成再登魁星",
+          "description": "喜欢凡人系列REACTION的兄弟们多多三连支持~\r\n\r\n借简介记录一下自己看番历程：之后缨宁会不会也有戏份呢？把曲魂变成了身外化身，从此你就是我我就是你，算上是不是冒名顶替一下厉飞雨，这下也算圆了初入七玄门时我想让他们仨夕阳下的美好愿望了。妍丽元瑶初次登场只是感觉不简单，但更不简单的是节日庆典期间居然有人把安保人员杀了，阴谋！妥妥的阴谋！",
+          "cover": "https://i1.hdslb.com/bfs/archive/39f704d3abe274ba9d1a71414a8cb202a2f1ace1.png",
+          "pubTime": 1718103630000,
+          "duration": "22:59",
+          "play": 18005,
+          "videoUrl": "http://www.bilibili.com/video/av1155686522",
+          "matched": true,
+          "ep": 66,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [],
+          "discoveredBy": "episode-search"
         }
       ],
       "recentTitles": [
@@ -33245,8 +33446,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1785834618987,
-      "lastSuccess": 1785834618987,
+      "lastFetched": 1785854446129,
+      "lastSuccess": 1785854446129,
       "videos": [
         {
           "bvid": "BV1YtFNeFEWd",
@@ -34319,8 +34520,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1785770464399,
-      "lastSuccess": 1785770464399,
+      "lastFetched": 1785854688034,
+      "lastSuccess": 1785854688034,
       "videos": [
         {
           "bvid": "BV11i42167J6",
@@ -34598,6 +34799,23 @@
           "characters": [
             "韩立"
           ],
+          "discoveredBy": "episode-search"
+        },
+        {
+          "bvid": "BV1JT411M7HR",
+          "aid": 472967304,
+          "title": "全员打谜语，隐藏在镇妖大典背后的巨大阴谋【凡人修仙传第67集细节解析】",
+          "description": "凡人修仙传第67集细节解析\n囧克君的凡人修仙传人物目录:\n【第一期】向之礼:https://b23.tv/IKfgGcA\n【第二期】云露老魔https://b23.tv/pZDZ11c\n【第三期】云露老魔与红拂https://b23.tv/J5GRRsb\n【第四期】齐云霄辛如音https://b23.tv/lorIaWp\n【第五期】鬼灵门少主王蝉https://b23.tv/VU0S0ju",
+          "cover": "https://i0.hdslb.com/bfs/archive/b3d7b518b50d79d407593a8fd89830aa6317e052.jpg",
+          "pubTime": 1662889262000,
+          "duration": "12:20",
+          "play": 71429,
+          "videoUrl": "http://www.bilibili.com/video/av472967304",
+          "matched": true,
+          "ep": 67,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [],
           "discoveredBy": "episode-search"
         }
       ],
@@ -35611,8 +35829,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1785834666047,
-      "lastSuccess": 1785834666047,
+      "lastFetched": 1785854551512,
+      "lastSuccess": 1785854551512,
       "videos": [
         {
           "bvid": "BV1i7Y9zjEqk",
@@ -36171,8 +36389,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1785834766002,
-      "lastSuccess": 1785834766002,
+      "lastFetched": 1785854551512,
+      "lastSuccess": 1785854551512,
       "videos": [
         {
           "bvid": "BV1dg4y117Mg",
@@ -36931,6 +37149,137 @@
       ],
       "recentTitles": [
         "【凡人修仙传】71集剧情，今年最后一集72集提前播？"
+      ]
+    },
+    {
+      "uid": "27785817",
+      "name": "名侦探拳头",
+      "alias": [],
+      "note": "按集搜索发现",
+      "source": "search-backfill",
+      "error": null,
+      "lastFetched": 1785854688034,
+      "lastSuccess": 1785854688034,
+      "videos": [
+        {
+          "bvid": "BV1qB4y137fJ",
+          "aid": 602914990,
+          "title": "《凡人修仙传》67集原著解读！为何这么改编？都改了哪些内容？",
+          "description": "结合原著解读，如有不当欢迎指出",
+          "cover": "https://i1.hdslb.com/bfs/archive/1122124e6b54729ed78bbbc6121351c0ecdf2976.jpg",
+          "pubTime": 1662898670000,
+          "duration": "5:6",
+          "play": 194464,
+          "videoUrl": "http://www.bilibili.com/video/av602914990",
+          "matched": true,
+          "ep": 67,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [],
+          "discoveredBy": "episode-search"
+        }
+      ],
+      "recentTitles": [
+        "《凡人修仙传》67集原著解读！为何这么改编？都改了哪些内容？"
+      ]
+    },
+    {
+      "uid": "246579818",
+      "name": "暮夏tq",
+      "alias": [],
+      "note": "按集搜索发现",
+      "source": "search-backfill",
+      "error": null,
+      "lastFetched": 1785854735378,
+      "lastSuccess": 1785854735378,
+      "videos": [
+        {
+          "bvid": "BV1wG4y1r7q7",
+          "aid": 815232058,
+          "title": "【凡人修仙传66集】墨彩环寿终正寝，再见是紫灵",
+          "description": "-",
+          "cover": "https://i0.hdslb.com/bfs/archive/9c0a6c49245ce7731c0432b2068e66bfb33d2da9.jpg",
+          "pubTime": 1662280924000,
+          "duration": "1:40",
+          "play": 59234,
+          "videoUrl": "http://www.bilibili.com/video/av815232058",
+          "matched": true,
+          "ep": 66,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [
+            "墨彩环",
+            "紫灵"
+          ],
+          "discoveredBy": "episode-search"
+        }
+      ],
+      "recentTitles": [
+        "【凡人修仙传66集】墨彩环寿终正寝，再见是紫灵"
+      ]
+    },
+    {
+      "uid": "392187114",
+      "name": "啊咯哈你好吗",
+      "alias": [],
+      "note": "按集搜索发现",
+      "source": "search-backfill",
+      "error": null,
+      "lastFetched": 1785854735378,
+      "lastSuccess": 1785854735378,
+      "videos": [
+        {
+          "bvid": "BV199HCzDEv9",
+          "aid": 115174161776763,
+          "title": "【凡人修仙传reaction-EP66】妈呀，是漂亮大姐姐",
+          "description": "",
+          "cover": "https://i2.hdslb.com/bfs/archive/27427f20fcd86f11467e9d7f3891597c70c8b4a9.jpg",
+          "pubTime": 1757418560000,
+          "duration": "16:34",
+          "play": 14819,
+          "videoUrl": "http://www.bilibili.com/video/av115174161776763",
+          "matched": true,
+          "ep": 66,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [],
+          "discoveredBy": "episode-search"
+        }
+      ],
+      "recentTitles": [
+        "【凡人修仙传reaction-EP66】妈呀，是漂亮大姐姐"
+      ]
+    },
+    {
+      "uid": "1539648410",
+      "name": "动漫爱好者Sakura",
+      "alias": [],
+      "note": "按集搜索发现",
+      "source": "search-backfill",
+      "error": null,
+      "lastFetched": 1785854735378,
+      "lastSuccess": 1785854735378,
+      "videos": [
+        {
+          "bvid": "BV1mt4y1j7Y6",
+          "aid": 985163444,
+          "title": "【凡人修仙传66集】元瑶妍丽上线，这口音真的太可爱了",
+          "description": "-",
+          "cover": "https://i0.hdslb.com/bfs/archive/988c5a9c51b277bf2a481a9400084db31171414d.jpg",
+          "pubTime": 1662280101000,
+          "duration": "1:25",
+          "play": 1987,
+          "videoUrl": "http://www.bilibili.com/video/av985163444",
+          "matched": true,
+          "ep": 66,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [],
+          "discoveredBy": "episode-search"
+        }
+      ],
+      "recentTitles": [
+        "【凡人修仙传66集】元瑶妍丽上线，这口音真的太可爱了"
       ]
     }
   ]
