@@ -1,0 +1,41 @@
+components/WeeklyMap.tsx
+  s_ebdcadc4eca024::t_b44b79864c47ab 9,606-608
+  s_ebdcadc4eca024::t_c2dc7f4d7b6677 609
+components/AdminAnalytics.tsx
+  s_ebdcadc4eca024::t_b44b79864c47ab 16-20,25-31,42,88-138,190-193,197-198
+docs/behavior-analytics.md
+  s_ebdcadc4eca024::t_b44b79864c47ab 7,45-53
+  s_ebdcadc4eca024::t_d7fa0aa3c21bf8 54
+lib/analytics.ts
+  s_ebdcadc4eca024::t_b44b79864c47ab 4,20,36,136-148
+  s_ebdcadc4eca024::t_bbb5b5b871363b 149
+functions/api/events.js
+  s_ebdcadc4eca024::t_b44b79864c47ab 4,17
+package.json
+  s_ebdcadc4eca024::t_b1676ec1f34f6a 19
+scripts/test-analytics.mjs
+  s_ebdcadc4eca024::t_b1676ec1f34f6a 1-56,58-60
+  s_ebdcadc4eca024::t_0b223b9ddc2187 57
+app/globals.css
+  s_ebdcadc4eca024::t_b44b79864c47ab 913,927,929-932
+  s_ebdcadc4eca024::t_5b7cb9bb75e68d 926,928
+functions/api/admin/analytics.js
+  s_ebdcadc4eca024::t_b44b79864c47ab 26-28,30,59-61,63-65,67,88-90
+  s_ebdcadc4eca024::t_5b7cb9bb75e68d 29,62
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.5",
+  "base_commit_sha": "7d1eca64d119d63c8208530c4a4d55190b70a7ee",
+  "prompts": {},
+  "sessions": {
+    "s_ebdcadc4eca024": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019f63b1-5a76-78b3-aaaf-f6ea70aab084",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "贺庆阳 <heqingyang@xiaohongshu.com>"
+    }
+  }
+}
