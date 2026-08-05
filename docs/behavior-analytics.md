@@ -4,6 +4,7 @@ Cloudflare Web Analytics 继续负责 Visits、Page Views 与 Core Web Vitals；
 
 ## 已记录事件
 
+- `landing_view`：每个浏览会话首次进入残图，用作模块使用率和来源转化的分母。
 - `realm_open`：展开正道、魔道或天道盟。
 - `realm_locked_click`：点击尚未开放的九国盟。
 - `creator_open`：进入某位 UP 主归档。
@@ -40,6 +41,16 @@ https://fanrenmap.pages.dev/?f=bilibili
 ```
 
 带参数进入后，本次浏览产生的关键行为会归入对应来源；不带参数时使用浏览器提供的来源域名，来源被平台隐藏时显示 `direct`。
+
+为比较小红书不同承接方式，可以进一步拆分来源：
+
+```text
+https://fanrenmap.pages.dev/?f=xhs_text
+https://fanrenmap.pages.dev/?f=xhs_qr
+https://fanrenmap.pages.dev/?f=xhs_inapp
+```
+
+管理后台会展示各来源的到站会话，以及展开模块、查看 UP 和打开视频的会话转化率。模块使用率按“展开过该区域的独立会话 / 到站会话”计算，重复展开不会放大使用率。
 
 ## 公开链接参数
 

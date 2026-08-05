@@ -1,6 +1,7 @@
 "use client";
 
 export type AnalyticsEventName =
+  | "landing_view"
   | "realm_open"
   | "realm_locked_click"
   | "creator_open"
@@ -16,7 +17,7 @@ export type AnalyticsEventName =
 export interface AnalyticsEvent {
   eventName: AnalyticsEventName;
   realm?: string;
-  objectType?: "realm" | "creator" | "video" | "filter" | "guide";
+  objectType?: "page" | "realm" | "creator" | "video" | "filter" | "guide";
   objectId?: string;
   objectLabel?: string;
   context?: string;
@@ -32,6 +33,7 @@ interface QueuedAnalyticsEvent extends AnalyticsEvent {
 }
 
 const SESSION_KEY = "fanrenmap-analytics-session-v1";
+const LANDING_KEY = "fanrenmap-analytics-landing-v1";
 const MAX_QUEUE_SIZE = 12;
 let queue: QueuedAnalyticsEvent[] = [];
 let flushTimer: ReturnType<typeof setTimeout> | null = null;
@@ -130,4 +132,18 @@ export function trackEvent(event: AnalyticsEvent) {
   }
   if (flushTimer) clearTimeout(flushTimer);
   flushTimer = setTimeout(() => flushAnalytics(), 1200);
+}
+
+export function trackLandingView() {
+  if (typeof window === "undefined") return;
+  const currentSessionId = sessionId();
+  if (sessionStorage.getItem(LANDING_KEY) === currentSessionId) return;
+  sessionStorage.setItem(LANDING_KEY, currentSessionId);
+  trackEvent({
+    eventName: "landing_view",
+    objectType: "page",
+    objectId: window.location.pathname,
+    objectLabel: document.title || "凡人残图",
+    context: window.location.search ? "tagged" : "plain",
+  });
 }

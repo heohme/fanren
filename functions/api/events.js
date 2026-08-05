@@ -1,6 +1,7 @@
 import { ApiError, errorResponse, getDb, json, readJson, sha256 } from "../_lib/community.js";
 
 const EVENT_NAMES = new Set([
+  "landing_view",
   "realm_open",
   "realm_locked_click",
   "creator_open",
@@ -13,7 +14,7 @@ const EVENT_NAMES = new Set([
   "content_filter",
   "share_link_copy",
 ]);
-const OBJECT_TYPES = new Set(["realm", "creator", "video", "filter", "guide"]);
+const OBJECT_TYPES = new Set(["page", "realm", "creator", "video", "filter", "guide"]);
 
 function text(value, maxLength, required = false) {
   const normalized = typeof value === "string" ? value.normalize("NFKC").trim() : "";

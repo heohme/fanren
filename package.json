@@ -16,6 +16,7 @@
     "test:classifier": "node scripts/test-classifier.mjs",
     "test:discovery": "node scripts/test-creation-discovery.mjs",
     "test:community": "node scripts/test-community.mjs",
+    "test:analytics": "node scripts/test-analytics.mjs",
     "test:stream": "node scripts/test-bfzy-stream.mjs"
   },
   "dependencies": {

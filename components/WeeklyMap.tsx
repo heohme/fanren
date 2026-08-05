@@ -6,7 +6,7 @@ import AtlasOnboarding, {
   type GuidedRealm,
 } from "@/components/AtlasGuidance";
 import CommunityHub from "@/components/CommunityHub";
-import { trackEvent } from "@/lib/analytics";
+import { trackEvent, trackLandingView } from "@/lib/analytics";
 import type {
   AnalysisAtlasItem,
   AnalysisPayload,
@@ -602,6 +602,10 @@ export default function WeeklyMap({
   const shareFeedbackTimerRef = useRef<number | null>(null);
   const loadedRealmsRef = useRef<Set<OpenRealm>>(new Set());
   const loadingRealmsRef = useRef<Set<OpenRealm>>(new Set());
+
+  useEffect(() => {
+    trackLandingView();
+  }, []);
 
   useEffect(() => {
     const url = new URL(window.location.href);

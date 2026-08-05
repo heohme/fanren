@@ -910,7 +910,7 @@ button, a, [role="button"] { -webkit-tap-highlight-color: transparent; }
 .admin-review-card > footer button:disabled { opacity: .5; }
 .admin-error { color: #8d3027; font-size: 9px; }
 .analytics-toolbar { grid-template-columns: minmax(220px,1fr) 180px auto; }
-.analytics-summary { width: min(1120px,100%); margin: 12px auto 0; display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 12px; }
+.analytics-summary { width: min(1120px,100%); margin: 12px auto 0; display: grid; grid-template-columns: repeat(4,minmax(0,1fr)); gap: 12px; }
 .analytics-summary article { padding: 18px; display: grid; gap: 5px; color: #4e3a27; background: #e2ca94; box-shadow: 0 12px 28px rgba(0,0,0,.13); }
 .analytics-summary span, .analytics-summary small { color: #765f43; font-family: ui-sans-serif, system-ui, sans-serif; font-size: 8px; }
 .analytics-summary strong { color: #8d382d; font-size: 28px; font-weight: 500; }
@@ -923,6 +923,13 @@ button, a, [role="button"] { -webkit-tap-highlight-color: transparent; }
 .analytics-panel li strong { color: #8d382d; font-size: 14px; }
 .analytics-panel li small { color: #78634a; font-family: ui-sans-serif, system-ui, sans-serif; font-size: 7px; }
 .analytics-panel li.analytics-no-data { display: block; color: #78634a; font-size: 9px; text-align: center; }
+.analytics-source-panel { grid-column: 1 / -1; overflow-x: auto; }
+.analytics-source-panel .analytics-funnel-head,
+.analytics-source-panel li { min-width: 520px; display: grid; grid-template-columns: minmax(130px,1fr) repeat(4,minmax(60px,.45fr)); gap: 9px; align-items: center; }
+.analytics-source-panel .analytics-funnel-head { padding: 0 0 8px; color: #78634a; font: 8px ui-sans-serif, system-ui, sans-serif; text-align: right; }
+.analytics-source-panel .analytics-funnel-head span:first-child { text-align: left; }
+.analytics-source-panel li strong,
+.analytics-source-panel li small { text-align: right; }
 .empty-ranking { min-height: 150px; padding: 30px; grid-column: 1 / -1; display: grid; place-content: center; justify-items: center; border: 1px dashed rgba(91,58,31,.3); color: #624d35; background: rgba(244,224,177,.22); text-align: center; }
 .empty-ranking strong { font-size: 13px; }
 .empty-ranking p { max-width: 480px; margin: 9px 0 0; color: #7b684f; font-family: ui-sans-serif, system-ui, sans-serif; font-size: 9px; line-height: 1.7; }

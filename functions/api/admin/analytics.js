@@ -23,7 +23,11 @@ export async function onRequestGet(context) {
       daily,
     ] = await Promise.all([
       db.prepare(`
-        SELECT COUNT(*) AS event_count, COUNT(DISTINCT session_id) AS sessions
+        SELECT COUNT(*) AS event_count,
+               COUNT(DISTINCT session_id) AS sessions,
+               COUNT(DISTINCT CASE WHEN event_name = 'landing_view' THEN session_id END) AS landing_sessions,
+               COUNT(DISTINCT CASE WHEN event_name NOT IN ('landing_view', 'onboarding_start') THEN session_id END) AS engaged_sessions,
+               COUNT(DISTINCT CASE WHEN event_name = 'video_open' THEN session_id END) AS video_sessions
         FROM analytics_events WHERE created_at >= ?
       `).bind(since).first(),
       db.prepare(`
@@ -52,9 +56,15 @@ export async function onRequestGet(context) {
         GROUP BY object_id ORDER BY count DESC LIMIT 20
       `).bind(since).all(),
       db.prepare(`
-        SELECT source, COUNT(DISTINCT session_id) AS sessions
+        SELECT source,
+               COUNT(DISTINCT session_id) AS sessions,
+               COUNT(DISTINCT CASE WHEN event_name = 'landing_view' THEN session_id END) AS landing_sessions,
+               COUNT(DISTINCT CASE WHEN event_name NOT IN ('landing_view', 'onboarding_start') THEN session_id END) AS engaged_sessions,
+               COUNT(DISTINCT CASE WHEN event_name = 'realm_open' THEN session_id END) AS realm_sessions,
+               COUNT(DISTINCT CASE WHEN event_name = 'creator_open' THEN session_id END) AS creator_sessions,
+               COUNT(DISTINCT CASE WHEN event_name = 'video_open' THEN session_id END) AS video_sessions
         FROM analytics_events WHERE created_at >= ?
-        GROUP BY source ORDER BY sessions DESC LIMIT 20
+        GROUP BY source ORDER BY landing_sessions DESC, sessions DESC LIMIT 20
       `).bind(since).all(),
       db.prepare(`
         SELECT device, COUNT(DISTINCT session_id) AS sessions
@@ -75,6 +85,9 @@ export async function onRequestGet(context) {
       summary: {
         eventCount: summary?.event_count || 0,
         sessions: summary?.sessions || 0,
+        landingSessions: summary?.landing_sessions || 0,
+        engagedSessions: summary?.engaged_sessions || 0,
+        videoSessions: summary?.video_sessions || 0,
       },
       events: rows(events),
       realms: rows(realms),

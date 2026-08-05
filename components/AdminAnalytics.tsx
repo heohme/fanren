@@ -13,11 +13,22 @@ interface CountRow {
   device?: string;
   day?: string;
   event_count?: number;
+  landing_sessions?: number;
+  engaged_sessions?: number;
+  realm_sessions?: number;
+  creator_sessions?: number;
+  video_sessions?: number;
 }
 
 interface AnalyticsPayload {
   days: number;
-  summary: { eventCount: number; sessions: number };
+  summary: {
+    eventCount: number;
+    sessions: number;
+    landingSessions: number;
+    engagedSessions: number;
+    videoSessions: number;
+  };
   events: CountRow[];
   realms: CountRow[];
   creators: CountRow[];
@@ -28,6 +39,7 @@ interface AnalyticsPayload {
 }
 
 const EVENT_LABELS: Record<string, string> = {
+  landing_view: "进入残图",
   realm_open: "展开区域",
   realm_locked_click: "点击未开放区域",
   creator_open: "查看 UP 主",
@@ -68,6 +80,57 @@ function Ranking({
           </li>
         ))}
         {rows.length === 0 && <li className="analytics-no-data">等待第一批行为数据</li>}
+      </ol>
+    </section>
+  );
+}
+
+function percent(value: number, total: number) {
+  if (!total) return "0%";
+  return `${Math.round((value / total) * 100)}%`;
+}
+
+function UsageRanking({ rows, total }: { rows: CountRow[]; total: number }) {
+  const byRealm = new Map(rows.map((row) => [row.realm, row]));
+  return (
+    <section className="analytics-panel">
+      <h2>模块使用率</h2>
+      <ol>
+        {Object.entries(REALM_LABELS).filter(([key]) => key !== "nine").map(([key, label]) => {
+          const row = byRealm.get(key);
+          const sessions = row?.sessions || 0;
+          return (
+            <li key={key}>
+              <span>{label}</span>
+              <strong>{percent(sessions, total)}</strong>
+              <small>{sessions} 个会话</small>
+            </li>
+          );
+        })}
+      </ol>
+    </section>
+  );
+}
+
+function SourceFunnels({ rows }: { rows: CountRow[] }) {
+  return (
+    <section className="analytics-panel analytics-source-panel">
+      <h2>来源转化</h2>
+      <div className="analytics-funnel-head"><span>来源</span><span>到站</span><span>展开</span><span>看UP</span><span>播视频</span></div>
+      <ol>
+        {rows.slice(0, 10).map((row) => {
+          const landings = row.landing_sessions || row.sessions || 0;
+          return (
+            <li key={row.source || "direct"}>
+              <span>{row.source || "direct"}</span>
+              <strong>{landings}</strong>
+              <small>{percent(row.realm_sessions || 0, landings)}</small>
+              <small>{percent(row.creator_sessions || 0, landings)}</small>
+              <small>{percent(row.video_sessions || 0, landings)}</small>
+            </li>
+          );
+        })}
+        {rows.length === 0 && <li className="analytics-no-data">等待第一批来源数据</li>}
       </ol>
     </section>
   );
@@ -124,16 +187,17 @@ export default function AdminAnalytics() {
       {data && !loading && (
         <>
           <section className="analytics-summary">
-            <article><span>行为会话</span><strong>{data.summary.sessions}</strong><small>有实际互动的访问</small></article>
-            <article><span>行为总数</span><strong>{data.summary.eventCount}</strong><small>点击、播放与引导操作</small></article>
-            <article><span>人均行为</span><strong>{data.summary.sessions ? (data.summary.eventCount / data.summary.sessions).toFixed(1) : "0"}</strong><small>每个行为会话</small></article>
+            <article><span>到站会话</span><strong>{data.summary.landingSessions}</strong><small>进入残图的独立浏览会话</small></article>
+            <article><span>产生交互</span><strong>{percent(data.summary.engagedSessions, data.summary.landingSessions)}</strong><small>{data.summary.engagedSessions} 个会话展开或点击内容</small></article>
+            <article><span>打开视频</span><strong>{percent(data.summary.videoSessions, data.summary.landingSessions)}</strong><small>{data.summary.videoSessions} 个会话进入视频</small></article>
+            <article><span>行为总数</span><strong>{data.summary.eventCount}</strong><small>含到站、点击、播放与引导</small></article>
           </section>
           <section className="analytics-grid">
             <Ranking title="行为构成" rows={data.events} label={(row) => EVENT_LABELS[row.event_name || ""] || row.event_name || "其他"} />
-            <Ranking title="区域热度" rows={data.realms} label={(row) => REALM_LABELS[row.realm || ""] || row.realm || "未知区域"} />
+            <UsageRanking rows={data.realms} total={data.summary.landingSessions} />
+            <SourceFunnels rows={data.sources} />
             <Ranking title="最常查看的 UP" rows={data.creators} label={(row) => row.label || row.object_id || "未知 UP"} />
             <Ranking title="最常打开的视频" rows={data.videos} label={(row) => row.label || row.object_id || "未知视频"} />
-            <Ranking title="访问来源" rows={data.sources} label={(row) => row.source || "direct"} />
             <Ranking title="设备分布" rows={data.devices} label={(row) => row.device === "mobile" ? "移动端" : "桌面端"} />
           </section>
         </>
