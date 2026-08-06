@@ -105,6 +105,7 @@
     84,
     83,
     82,
+    81,
     80,
     79,
     78,
@@ -119,14 +120,21 @@
     69,
     66,
     65,
+    62,
     61
   ],
   "episodes": {
-    "60": {
+    "59": {
       "beforeUps": 0,
+      "afterUps": 8,
+      "videos": 8,
+      "searchedAt": 1786027624124
+    },
+    "60": {
+      "beforeUps": 4,
       "afterUps": 4,
       "videos": 4,
-      "searchedAt": 1786007583655
+      "searchedAt": 1786027574481
     },
     "61": {
       "beforeUps": 0,
@@ -135,22 +143,22 @@
       "searchedAt": 1785940831087
     },
     "62": {
-      "beforeUps": 6,
-      "afterUps": 9,
-      "videos": 9,
-      "searchedAt": 1786007534000
+      "beforeUps": 9,
+      "afterUps": 10,
+      "videos": 10,
+      "searchedAt": 1786027526358
     },
     "63": {
-      "beforeUps": 6,
+      "beforeUps": 7,
       "afterUps": 7,
       "videos": 9,
-      "searchedAt": 1786007484725
+      "searchedAt": 1786027478530
     },
     "64": {
-      "beforeUps": 2,
-      "afterUps": 5,
-      "videos": 5,
-      "searchedAt": 1786007435181
+      "beforeUps": 5,
+      "afterUps": 6,
+      "videos": 6,
+      "searchedAt": 1786027430560
     },
     "65": {
       "beforeUps": 9,
@@ -168,13 +176,13 @@
       "beforeUps": 7,
       "afterUps": 7,
       "videos": 7,
-      "searchedAt": 1786007341565
+      "searchedAt": 1786027382407
     },
     "68": {
       "beforeUps": 7,
       "afterUps": 7,
       "videos": 7,
-      "searchedAt": 1786007293399
+      "searchedAt": 1786027342397
     },
     "69": {
       "beforeUps": 9,
@@ -250,9 +258,9 @@
     },
     "81": {
       "beforeUps": 9,
-      "afterUps": 9,
-      "videos": 9,
-      "searchedAt": 1786007246093
+      "afterUps": 11,
+      "videos": 11,
+      "searchedAt": 1786027293324
     },
     "82": {
       "beforeUps": 0,
@@ -879,5 +887,5 @@
       "searchedAt": 1785556306201
     }
   },
-  "updatedAt": 1786007583655
+  "updatedAt": 1786027624124
 }
