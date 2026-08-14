@@ -1,5 +1,5 @@
 {
-  "generatedAt": 1786715045050,
+  "generatedAt": 1786715425034,
   "series": {
     "title": "凡人修仙传",
     "seasonId": "28747",
@@ -3559,9 +3559,10 @@
         "利维坦LWT"
       ],
       "note": "经典解析向",
+      "source": "search-backfill",
       "error": "all retries failed",
-      "lastFetched": 1786714608449,
-      "lastSuccess": 1786710505852,
+      "lastFetched": 1786715425033,
+      "lastSuccess": 1786715425033,
       "videos": [
         {
           "bvid": "BV1TYuG6rED6",
@@ -5681,7 +5682,7 @@
           "cover": "https://i0.hdslb.com/bfs/archive/aef7a13ed97ed4dc7b588a8e967a75f85d04f2cc.jpg",
           "pubTime": 1663504340000,
           "duration": "8:22",
-          "play": 620028,
+          "play": 620047,
           "videoUrl": "http://www.bilibili.com/video/av345676251",
           "matched": true,
           "ep": 68,
@@ -5700,7 +5701,7 @@
           "cover": "https://i2.hdslb.com/bfs/archive/cab79726c05ebc98ce4d6ba44106990de1b9709c.jpg",
           "pubTime": 1662901676000,
           "duration": "8:28",
-          "play": 631263,
+          "play": 631282,
           "videoUrl": "http://www.bilibili.com/video/av430448648",
           "matched": true,
           "ep": 67,
@@ -5755,7 +5756,7 @@
           "cover": "https://i0.hdslb.com/bfs/archive/bde2325848afca981373f9532439932c62bb19af.jpg",
           "pubTime": 1661084033000,
           "duration": "7:52",
-          "play": 497423,
+          "play": 497443,
           "videoUrl": "http://www.bilibili.com/video/av217222674",
           "matched": true,
           "ep": 64,
@@ -5810,7 +5811,7 @@
           "cover": "https://i0.hdslb.com/bfs/archive/75adcd024b2730009c3ce3922c3463eed0cb25ba.jpg",
           "pubTime": 1658665314000,
           "duration": "8:16",
-          "play": 498227,
+          "play": 498243,
           "videoUrl": "http://www.bilibili.com/video/av813762004",
           "matched": true,
           "ep": 60,
@@ -5903,7 +5904,7 @@
           "cover": "https://i1.hdslb.com/bfs/archive/c3f907eb6160da9e42eace57f3da26fd819430be.jpg",
           "pubTime": 1655644788000,
           "duration": "10:43",
-          "play": 808922,
+          "play": 808938,
           "videoUrl": "http://www.bilibili.com/video/av512726010",
           "matched": true,
           "ep": 55,
@@ -5920,7 +5921,7 @@
           "cover": "https://i1.hdslb.com/bfs/archive/34abd115482fed8d37ffaa8cd428432faf339ef3.jpg",
           "pubTime": 1655036735000,
           "duration": "9:43",
-          "play": 843874,
+          "play": 843891,
           "videoUrl": "http://www.bilibili.com/video/av257458820",
           "matched": true,
           "ep": 54,
@@ -5939,10 +5940,27 @@
           "cover": "https://i0.hdslb.com/bfs/archive/ba8e6e263ee0f37b646d042c0069fad73c9a8383.jpg",
           "pubTime": 1654434826000,
           "duration": "9:59",
-          "play": 578593,
+          "play": 578608,
           "videoUrl": "http://www.bilibili.com/video/av982158404",
           "matched": true,
           "ep": 53,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [],
+          "discoveredBy": "episode-search"
+        },
+        {
+          "bvid": "BV1T5411Q7x9",
+          "aid": 469598545,
+          "title": "投币破千万！句句埋坑的千层套路！《凡人修仙传》52集逐帧解析",
+          "description": "更新了~这集令狐老祖套路真的深（doge",
+          "cover": "https://i0.hdslb.com/bfs/archive/f04555c034df276284210ba4e865dd1431a036ce.jpg",
+          "pubTime": 1653828801000,
+          "duration": "10:1",
+          "play": 693022,
+          "videoUrl": "http://www.bilibili.com/video/av469598545",
+          "matched": true,
+          "ep": 52,
           "isCompilation": false,
           "contentType": "episode",
           "characters": [],
@@ -6722,10 +6740,11 @@
       "uid": "57868863",
       "name": "白马猴子",
       "alias": [],
-      "note": "",
+      "note": "按集搜索发现",
+      "source": "search-backfill",
       "error": null,
-      "lastFetched": 1786714722880,
-      "lastSuccess": 1786714722880,
+      "lastFetched": 1786715149461,
+      "lastSuccess": 1786715149461,
       "videos": [
         {
           "bvid": "BV1FNgN6rExw",
@@ -10082,10 +10101,11 @@
       "uid": "1793524011",
       "name": "清植酱",
       "alias": [],
-      "note": "",
+      "note": "按集搜索发现",
+      "source": "search-backfill",
       "error": null,
-      "lastFetched": 1786714789062,
-      "lastSuccess": 1786714789062,
+      "lastFetched": 1786715196303,
+      "lastSuccess": 1786715196303,
       "videos": [
         {
           "bvid": "BV1QngN68EsS",
@@ -11018,7 +11038,7 @@
           "cover": "https://i0.hdslb.com/bfs/archive/82428c9008853ffc0c9e032eccb86f6504858c89.jpg",
           "pubTime": 1661083602000,
           "duration": "8:52",
-          "play": 44397,
+          "play": 44398,
           "videoUrl": "http://www.bilibili.com/video/av429731562",
           "matched": true,
           "ep": 64,
@@ -18871,8 +18891,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1786694078362,
-      "lastSuccess": 1786694078362,
+      "lastFetched": 1786715243673,
+      "lastSuccess": 1786715243673,
       "videos": [
         {
           "bvid": "BV13jMw6UECD",
@@ -20784,8 +20804,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1786694173253,
-      "lastSuccess": 1786694173253,
+      "lastFetched": 1786715376870,
+      "lastSuccess": 1786715376870,
       "videos": [
         {
           "bvid": "BV1BpKR6qELt",
@@ -21185,6 +21205,25 @@
           "isCompilation": false,
           "contentType": "episode",
           "characters": [],
+          "discoveredBy": "episode-search"
+        },
+        {
+          "bvid": "BV1fCLPzYEA1",
+          "aid": 114371070001253,
+          "title": "【凡人reaction】EP53-54 韩立、红拂被令狐老祖出卖",
+          "description": "",
+          "cover": "https://i2.hdslb.com/bfs/archive/56be46a81b2ef79ab902593c269ce6a8a424318f.jpg",
+          "pubTime": 1745209200000,
+          "duration": "38:7",
+          "play": 25231,
+          "videoUrl": "http://www.bilibili.com/video/av114371070001253",
+          "matched": true,
+          "ep": 53,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [
+            "韩立"
+          ],
           "discoveredBy": "episode-search"
         }
       ],
@@ -22450,8 +22489,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1786349397759,
-      "lastSuccess": 1786349397759,
+      "lastFetched": 1786715425034,
+      "lastSuccess": 1786715425034,
       "videos": [
         {
           "bvid": "BV1hLjS6PEV5",
@@ -22789,6 +22828,25 @@
           "isCompilation": false,
           "contentType": "episode",
           "characters": [],
+          "discoveredBy": "episode-search"
+        },
+        {
+          "bvid": "BV1RQXNBqEEd",
+          "aid": 116301171332101,
+          "title": "[凡人修仙传reaction]EP52-54离开黄枫谷",
+          "description": "感谢观看~喜欢可以一键三连支持一下up。\n破一百点赞加更一集，以此类推。",
+          "cover": "https://i1.hdslb.com/bfs/archive/ae1d785c47cfa4b1af3508681bf3d57b48733f11.jpg",
+          "pubTime": 1774868400000,
+          "duration": "46:27",
+          "play": 655,
+          "videoUrl": "http://www.bilibili.com/video/av116301171332101",
+          "matched": true,
+          "ep": 52,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [
+            "黄枫谷"
+          ],
           "discoveredBy": "episode-search"
         }
       ],
@@ -24389,8 +24447,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1786694267626,
-      "lastSuccess": 1786694267626,
+      "lastFetched": 1786715425034,
+      "lastSuccess": 1786715425034,
       "videos": [
         {
           "bvid": "BV1iU4y1m7e2",
@@ -24880,6 +24938,23 @@
           "videoUrl": "http://www.bilibili.com/video/av853873062",
           "matched": true,
           "ep": 53,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [],
+          "discoveredBy": "episode-search"
+        },
+        {
+          "bvid": "BV1nY4y1b7Uf",
+          "aid": 641318836,
+          "title": "凡人修仙传之仙界篇：第52集_三名祖神",
+          "description": "凡人修仙传之仙界篇：第52集_三名祖神",
+          "cover": "https://i2.hdslb.com/bfs/archive/c577f686b68f1c1d4550cd89ca63423def317bc9.jpg",
+          "pubTime": 1651834680000,
+          "duration": "10:53",
+          "play": 4962,
+          "videoUrl": "http://www.bilibili.com/video/av641318836",
+          "matched": true,
+          "ep": 52,
           "isCompilation": false,
           "contentType": "episode",
           "characters": [],
@@ -28563,8 +28638,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1786694126402,
-      "lastSuccess": 1786694126402,
+      "lastFetched": 1786715425034,
+      "lastSuccess": 1786715425034,
       "videos": [
         {
           "bvid": "BV1Zg7z6SEY6",
@@ -28964,6 +29039,23 @@
           "videoUrl": "http://www.bilibili.com/video/av114120753943544",
           "matched": true,
           "ep": 56,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [],
+          "discoveredBy": "episode-search"
+        },
+        {
+          "bvid": "BV17KXQYLENY",
+          "aid": 114085437906309,
+          "title": "【凡人修仙传Reaction】第52集 魔道女修 第一次看凡人 令狐老祖",
+          "description": "来咯",
+          "cover": "https://i2.hdslb.com/bfs/archive/a7ebbefc3fcb20532729bc5a661f4e7a845cf2d4.jpg",
+          "pubTime": 1740805786000,
+          "duration": "15:14",
+          "play": 8894,
+          "videoUrl": "http://www.bilibili.com/video/av114085437906309",
+          "matched": true,
+          "ep": 52,
           "isCompilation": false,
           "contentType": "episode",
           "characters": [],
@@ -30087,8 +30179,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1786521294224,
-      "lastSuccess": 1786521294224,
+      "lastFetched": 1786715425034,
+      "lastSuccess": 1786715425034,
       "videos": [
         {
           "bvid": "BV1nfBsBeEnz",
@@ -30315,6 +30407,26 @@
           "videoUrl": "http://www.bilibili.com/video/av1406468042",
           "matched": true,
           "ep": 59,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [
+            "韩立",
+            "灵界"
+          ],
+          "discoveredBy": "episode-search"
+        },
+        {
+          "bvid": "BV1zr421K7wu",
+          "aid": 1406494014,
+          "title": "灵界第52集-韩立初见青元子，欲收徒",
+          "description": "",
+          "cover": "https://i2.hdslb.com/bfs/archive/f52f337e454509646b23f69f55b64983d1cf4d25.jpg",
+          "pubTime": 1721994600000,
+          "duration": "10:48",
+          "play": 148067,
+          "videoUrl": "http://www.bilibili.com/video/av1406494014",
+          "matched": true,
+          "ep": 52,
           "isCompilation": false,
           "contentType": "episode",
           "characters": [
@@ -35372,8 +35484,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1786694267626,
-      "lastSuccess": 1786694267626,
+      "lastFetched": 1786715425034,
+      "lastSuccess": 1786715425034,
       "videos": [
         {
           "bvid": "BV1aBfZYuEva",
@@ -35813,6 +35925,25 @@
           "isCompilation": false,
           "contentType": "episode",
           "characters": [],
+          "discoveredBy": "episode-search"
+        },
+        {
+          "bvid": "BV1Gx4y1n7VB",
+          "aid": 1005107468,
+          "title": "爸妈reaction凡人修仙传第52集 兵败山倒七派乱，元婴老祖皆不管",
+          "description": "审核爹别杀了，哥们拍视频天天心惊胆战的，摇了我吧! 喜欢凡人系列REACTION的兄弟们多多三连支持~\r\n\r\n借简介记录一下自己看番历程：修仙之路只有一个字！苟！就算你资质再好，命没了要修为有啥用？也反应了在凡人修仙传时间观里的主流想法吧，当然也有李化元浮云子这种侠义之人。不能说保命派想法有错，我也只能在道德上谴责令狐老祖了，毕竟人不为己天诛地灭，只是这最后把韩立他们叫去，按韩立的想法怕是又有麻烦了",
+          "cover": "https://i0.hdslb.com/bfs/archive/cb1a0c70152119cd6e0a0533403014567dd2665e.png",
+          "pubTime": 1717066845000,
+          "duration": "21:54",
+          "play": 13834,
+          "videoUrl": "http://www.bilibili.com/video/av1005107468",
+          "matched": true,
+          "ep": 52,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [
+            "元婴"
+          ],
           "discoveredBy": "episode-search"
         }
       ],
@@ -36937,8 +37068,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1786693988663,
-      "lastSuccess": 1786693988663,
+      "lastFetched": 1786715149461,
+      "lastSuccess": 1786715149461,
       "videos": [
         {
           "bvid": "BV11i42167J6",
@@ -40757,6 +40888,104 @@
       ],
       "recentTitles": [
         "凡人修仙传186集顶级权谋深度解析"
+      ]
+    },
+    {
+      "uid": "456490533",
+      "name": "凡人修仙传数据分析",
+      "alias": [],
+      "note": "按集搜索发现",
+      "source": "search-backfill",
+      "error": null,
+      "lastFetched": 1786715425034,
+      "lastSuccess": 1786715425034,
+      "videos": [
+        {
+          "bvid": "BV15B4y147nB",
+          "aid": 600000446,
+          "title": "凡人良心制作组重置第52集，连夜为你逐帧解析重置了哪里？",
+          "description": "凡人良心制作组重置第52集，连夜为你逐帧解析重置了哪里？",
+          "cover": "https://i1.hdslb.com/bfs/archive/9a13c62cf43eec6d6313b6f614be9ac7092c2cd7.jpg",
+          "pubTime": 1655596829000,
+          "duration": "2:41",
+          "play": 43997,
+          "videoUrl": "http://www.bilibili.com/video/av600000446",
+          "matched": true,
+          "ep": 52,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [],
+          "discoveredBy": "episode-search"
+        }
+      ],
+      "recentTitles": [
+        "凡人良心制作组重置第52集，连夜为你逐帧解析重置了哪里？"
+      ]
+    },
+    {
+      "uid": "12160967",
+      "name": "大福的小心心",
+      "alias": [],
+      "note": "按集搜索发现",
+      "source": "search-backfill",
+      "error": null,
+      "lastFetched": 1786715425034,
+      "lastSuccess": 1786715425034,
+      "videos": [
+        {
+          "bvid": "BV1ENcizSEd7",
+          "aid": 116056895131934,
+          "title": "【自制熟肉】第52集丨老外看凡人Reaction",
+          "description": "",
+          "cover": "https://i1.hdslb.com/bfs/archive/4d978a6331fbc0fb4021c913a51f6693826a674b.jpg",
+          "pubTime": 1770955200000,
+          "duration": "18:26",
+          "play": 3948,
+          "videoUrl": "http://www.bilibili.com/video/av116056895131934",
+          "matched": true,
+          "ep": 52,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [],
+          "discoveredBy": "episode-search"
+        }
+      ],
+      "recentTitles": [
+        "【自制熟肉】第52集丨老外看凡人Reaction"
+      ]
+    },
+    {
+      "uid": "57651188",
+      "name": "账号已注销",
+      "alias": [],
+      "note": "按集搜索发现",
+      "source": "search-backfill",
+      "error": null,
+      "lastFetched": 1786715425034,
+      "lastSuccess": 1786715425034,
+      "videos": [
+        {
+          "bvid": "BV1eF41157Ji",
+          "aid": 299512222,
+          "title": "凡人修仙传52集，黄枫谷撤退计划的分析。",
+          "description": "-",
+          "cover": "https://i0.hdslb.com/bfs/archive/4f211f250c48a34332bb361c2dfdb8a0be346aa1.jpg",
+          "pubTime": 1653805284000,
+          "duration": "2:29",
+          "play": 1525,
+          "videoUrl": "http://www.bilibili.com/video/av299512222",
+          "matched": true,
+          "ep": 52,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [
+            "黄枫谷"
+          ],
+          "discoveredBy": "episode-search"
+        }
+      ],
+      "recentTitles": [
+        "凡人修仙传52集，黄枫谷撤退计划的分析。"
       ]
     }
   ]
