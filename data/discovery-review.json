@@ -1,13 +1,13 @@
 {
-  "generatedAt": 1787542424325,
-  "mode": "history",
+  "generatedAt": 1787572969595,
+  "mode": "fresh",
   "taxonomyVersion": 2,
   "policyVersion": 1,
   "summary": {
     "total": 2000,
-    "approved": 117,
-    "review": 191,
-    "rejected": 1692
+    "approved": 113,
+    "review": 187,
+    "rejected": 1700
   },
   "lanes": {
     "event_spotlight": [
@@ -36,14 +36,11 @@
       "BV1zt3v6cEXM",
       "BV1pi3n6bEut",
       "BV1omgx6aEvq",
-      "BV1LBGu6HEcu",
       "BV1wq3r6JEx2",
       "BV1q73m6xEFu",
       "BV1BM3169EJu",
       "BV1wVGG6KE3B",
       "BV1Vi3h6uE5Y",
-      "BV1qM336dEe6",
-      "BV1B4GN6VE5G",
       "BV1o53m6tEej",
       "BV1Z1GP63ESM"
     ],
@@ -85,7 +82,6 @@
       "BV1YTTG6rEcM",
       "BV1Bz7g6ME33",
       "BV1QpE16fEAp",
-      "BV17tgf6xEuQ",
       "BV1FaV46VEWD",
       "BV1dbgf69EQ2",
       "BV1Gp3i6WECk",
@@ -112,9 +108,9 @@
       "BV1Nx6mBGEev",
       "BV1Mwge6KEze",
       "BV1rMWDzpEz5",
-      "BV1G2CrBLEo9",
       "BV1fJr3BYExB",
       "BV16nABzPEmQ",
+      "BV1G2CrBLEo9",
       "BV1DEoaBUEBf",
       "BV1ZShqzaEQ6",
       "BV1s2Ts6YEdR",
@@ -289,7 +285,7 @@
       "originality": "deep_adaptation",
       "eventTag": null,
       "creatorPotential": "observe",
-      "score": 78,
+      "score": 77,
       "lane": null,
       "firstSeenAt": 1785647345421,
       "lastSeenAt": 1785647345421,
@@ -353,91 +349,6 @@
         "favorite": 161,
         "reply": 0,
         "danmaku": 18
-      }
-    },
-    {
-      "id": "BV1Xv3M6rEHy",
-      "bvid": "BV1Xv3M6rEHy",
-      "title": "《凡人》年度混剪！全新剧情向！【上篇】【凡人官方二创大会】",
-      "description": "凡人年度混剪奉上，如果喜欢还望三连",
-      "cover": "https://i2.hdslb.com/bfs/archive/669a7a3577c0aa1f7c0759b323b770fe4a41c5de.jpg",
-      "url": "http://www.bilibili.com/video/av116979574972002",
-      "upId": "18775476",
-      "upName": "奇思Cheers",
-      "play": 5923,
-      "pubTime": 1784966946000,
-      "duration": "11:29",
-      "category": "混剪手书",
-      "confidence": 0.9,
-      "classificationSource": "model",
-      "classificationReason": "凡人修仙传修仙路主题混剪，属于二创大会参赛作品",
-      "contentNature": "secondary_creation",
-      "originality": "light_edit",
-      "eventTag": "凡人官方二创大会",
-      "creatorPotential": "one_off",
-      "score": 75,
-      "lane": null,
-      "firstSeenAt": 1785042183361,
-      "lastSeenAt": 1787542424325,
-      "sourceQueries": [
-        "韩立 二创",
-        "凡人官方二创大会",
-        "凡人修仙传 混剪 手书"
-      ],
-      "discoveryModes": [
-        "fresh",
-        "history"
-      ],
-      "riskFlags": [],
-      "policyReason": "疑似轻度剪辑，需人工确认原创性",
-      "stats": {
-        "play": 5923,
-        "like": 761,
-        "coin": 315,
-        "favorite": 198,
-        "reply": 49,
-        "danmaku": 57
-      }
-    },
-    {
-      "id": "BV1Gp3i6WESe",
-      "bvid": "BV1Gp3i6WESe",
-      "title": "凡人修仙传同人二创尸魈丢牌变身",
-      "description": "我看不少人喜欢尸魈这个建模的，搞点二创玩玩",
-      "cover": "https://i2.hdslb.com/bfs/archive/a8bb4dbe0cbda6d6dd17be900e6ebf0635dfabef.jpg",
-      "url": "http://www.bilibili.com/video/av116996083616274",
-      "upId": "43791739",
-      "upName": "海月下的谎言",
-      "play": 1378,
-      "pubTime": 1785218595000,
-      "duration": "0:11",
-      "category": "趣味整活",
-      "confidence": 0.8,
-      "classificationSource": "model",
-      "classificationReason": "尸魈丢牌变身的同人二创内容",
-      "contentNature": "secondary_creation",
-      "originality": "original",
-      "eventTag": null,
-      "creatorPotential": "one_off",
-      "score": 75,
-      "lane": null,
-      "firstSeenAt": 1785244584356,
-      "lastSeenAt": 1785765586604,
-      "sourceQueries": [
-        "凡人修仙传 同人"
-      ],
-      "discoveryModes": [
-        "fresh"
-      ],
-      "riskFlags": [],
-      "policyReason": "内容可收录，但需人工复核分类或风险",
-      "stats": {
-        "play": 1378,
-        "like": 0,
-        "coin": 0,
-        "favorite": 37,
-        "reply": 0,
-        "danmaku": 0
       }
     },
     {
@@ -524,6 +435,47 @@
         "favorite": 105,
         "reply": 154,
         "danmaku": 357
+      }
+    },
+    {
+      "id": "BV1Gp3i6WESe",
+      "bvid": "BV1Gp3i6WESe",
+      "title": "凡人修仙传同人二创尸魈丢牌变身",
+      "description": "我看不少人喜欢尸魈这个建模的，搞点二创玩玩",
+      "cover": "https://i2.hdslb.com/bfs/archive/a8bb4dbe0cbda6d6dd17be900e6ebf0635dfabef.jpg",
+      "url": "http://www.bilibili.com/video/av116996083616274",
+      "upId": "43791739",
+      "upName": "海月下的谎言",
+      "play": 1378,
+      "pubTime": 1785218595000,
+      "duration": "0:11",
+      "category": "趣味整活",
+      "confidence": 0.8,
+      "classificationSource": "model",
+      "classificationReason": "尸魈丢牌变身的同人二创内容",
+      "contentNature": "secondary_creation",
+      "originality": "original",
+      "eventTag": null,
+      "creatorPotential": "one_off",
+      "score": 74,
+      "lane": null,
+      "firstSeenAt": 1785244584356,
+      "lastSeenAt": 1785765586604,
+      "sourceQueries": [
+        "凡人修仙传 同人"
+      ],
+      "discoveryModes": [
+        "fresh"
+      ],
+      "riskFlags": [],
+      "policyReason": "内容可收录，但需人工复核分类或风险",
+      "stats": {
+        "play": 1378,
+        "like": 0,
+        "coin": 0,
+        "favorite": 37,
+        "reply": 0,
+        "danmaku": 0
       }
     },
     {
@@ -663,6 +615,50 @@
       }
     },
     {
+      "id": "BV1Xv3M6rEHy",
+      "bvid": "BV1Xv3M6rEHy",
+      "title": "《凡人》年度混剪！全新剧情向！【上篇】【凡人官方二创大会】",
+      "description": "凡人年度混剪奉上，如果喜欢还望三连",
+      "cover": "https://i2.hdslb.com/bfs/archive/669a7a3577c0aa1f7c0759b323b770fe4a41c5de.jpg",
+      "url": "http://www.bilibili.com/video/av116979574972002",
+      "upId": "18775476",
+      "upName": "奇思Cheers",
+      "play": 5923,
+      "pubTime": 1784966946000,
+      "duration": "11:29",
+      "category": "混剪手书",
+      "confidence": 0.9,
+      "classificationSource": "model",
+      "classificationReason": "凡人修仙传修仙路主题混剪，属于二创大会参赛作品",
+      "contentNature": "secondary_creation",
+      "originality": "light_edit",
+      "eventTag": "凡人官方二创大会",
+      "creatorPotential": "one_off",
+      "score": 71,
+      "lane": null,
+      "firstSeenAt": 1785042183361,
+      "lastSeenAt": 1787542424325,
+      "sourceQueries": [
+        "韩立 二创",
+        "凡人官方二创大会",
+        "凡人修仙传 混剪 手书"
+      ],
+      "discoveryModes": [
+        "fresh",
+        "history"
+      ],
+      "riskFlags": [],
+      "policyReason": "疑似轻度剪辑，需人工确认原创性",
+      "stats": {
+        "play": 5923,
+        "like": 761,
+        "coin": 315,
+        "favorite": 198,
+        "reply": 49,
+        "danmaku": 57
+      }
+    },
+    {
       "id": "BV12CKr61Ehr",
       "bvid": "BV12CKr61Ehr",
       "title": "“很狂啊，这波让他装到了！”【凡人官方二创大会】",
@@ -708,49 +704,6 @@
         "favorite": 725,
         "reply": 146,
         "danmaku": 135
-      }
-    },
-    {
-      "id": "BV1Fk3n6sE4d",
-      "bvid": "BV1Fk3n6sE4d",
-      "title": "韩立诱捕器1",
-      "description": "",
-      "cover": "https://i2.hdslb.com/bfs/archive/2ec1790ca649a9abb122a205c7cabc40a4033808.jpg",
-      "url": "http://www.bilibili.com/video/av117003499085553",
-      "upId": "350870564",
-      "upName": "空心格白",
-      "play": 1075,
-      "pubTime": 1785331983000,
-      "duration": "1:0",
-      "category": "趣味整活",
-      "confidence": 0.8,
-      "classificationSource": "model",
-      "classificationReason": "以韩立为原型创作的趣味整活短内容",
-      "contentNature": "secondary_creation",
-      "originality": "deep_adaptation",
-      "eventTag": null,
-      "creatorPotential": "one_off",
-      "score": 70,
-      "lane": null,
-      "firstSeenAt": 1785386371582,
-      "lastSeenAt": 1785588109330,
-      "sourceQueries": [
-        "凡人官方二创大会",
-        "韩立 二创",
-        "南宫婉 二创"
-      ],
-      "discoveryModes": [
-        "fresh"
-      ],
-      "riskFlags": [],
-      "policyReason": "内容可收录，但需人工复核分类或风险",
-      "stats": {
-        "play": 1075,
-        "like": 0,
-        "coin": 0,
-        "favorite": 31,
-        "reply": 0,
-        "danmaku": 2
       }
     },
     {
@@ -1908,47 +1861,6 @@
       }
     },
     {
-      "id": "BV1is3K66Eht",
-      "bvid": "BV1is3K66Eht",
-      "title": "令狐老祖-凡人宇宙最好的宗门老祖！凡人修仙传人物志·4",
-      "description": "令狐老祖-凡人宇宙最好的宗门老祖！凡人修仙传人物志·4",
-      "cover": "https://i2.hdslb.com/bfs/archive/0d6b973c7c27f1935fb7dc7bf62c414de83810d0.jpg",
-      "url": "http://www.bilibili.com/video/av116978585048752",
-      "upId": "1473206353",
-      "upName": "在下风希",
-      "play": 63521,
-      "pubTime": 1784951754000,
-      "duration": "9:40",
-      "category": "人物志",
-      "confidence": 0.9,
-      "classificationSource": "model",
-      "classificationReason": "围绕凡人修仙传令狐老祖制作的人物志专题内容",
-      "contentNature": "character_or_lore",
-      "originality": "light_edit",
-      "eventTag": null,
-      "creatorPotential": "observe",
-      "score": 61,
-      "lane": null,
-      "firstSeenAt": 1784954073751,
-      "lastSeenAt": 1787539752905,
-      "sourceQueries": [
-        "凡人修仙传 人物志 设定"
-      ],
-      "discoveryModes": [
-        "fresh"
-      ],
-      "riskFlags": [],
-      "policyReason": "疑似轻度剪辑，需人工确认原创性",
-      "stats": {
-        "play": 63521,
-        "like": 1098,
-        "coin": 115,
-        "favorite": 188,
-        "reply": 287,
-        "danmaku": 173
-      }
-    },
-    {
       "id": "BV1knrsBgEKp",
       "bvid": "BV1knrsBgEKp",
       "title": "3d同人，慕沛灵大战韩立剧情版！",
@@ -2123,47 +2035,6 @@
       }
     },
     {
-      "id": "BV1Y2G369EU4",
-      "bvid": "BV1Y2G369EU4",
-      "title": "韩立又喝多了",
-      "description": "-",
-      "cover": "https://i1.hdslb.com/bfs/archive/758ed46ebfde36ed9867dc5b6eb49e1b6d9592e0.jpg",
-      "url": "http://www.bilibili.com/video/av117018531529547",
-      "upId": "28082116",
-      "upName": "师姐TVB",
-      "play": 531,
-      "pubTime": 1785561174000,
-      "duration": "0:21",
-      "category": "趣味整活",
-      "confidence": 0.8,
-      "classificationSource": "model",
-      "classificationReason": "该内容为《凡人修仙传》相关的趣味短二创，参与官方二创大会",
-      "contentNature": "secondary_creation",
-      "originality": "light_edit",
-      "eventTag": "凡人官方二创大会",
-      "creatorPotential": "observe",
-      "score": 61,
-      "lane": null,
-      "firstSeenAt": 1785588109330,
-      "lastSeenAt": 1785588109330,
-      "sourceQueries": [
-        "韩立 二创"
-      ],
-      "discoveryModes": [
-        "fresh"
-      ],
-      "riskFlags": [],
-      "policyReason": "疑似轻度剪辑，需人工确认原创性",
-      "stats": {
-        "play": 531,
-        "like": 0,
-        "coin": 0,
-        "favorite": 26,
-        "reply": 0,
-        "danmaku": 0
-      }
-    },
-    {
       "id": "BV1rmTC6yE4D",
       "bvid": "BV1rmTC6yE4D",
       "title": "凡人最新一集“法宝 神通”盘点【凡人官方二创大会】",
@@ -2311,7 +2182,7 @@
       "score": 60,
       "lane": null,
       "firstSeenAt": 1785244584356,
-      "lastSeenAt": 1787539752905,
+      "lastSeenAt": 1787572969595,
       "sourceQueries": [
         "凡人官方二创大会",
         "凡人修仙传 鬼畜 整活",
@@ -2413,52 +2284,6 @@
         "favorite": 305,
         "reply": 0,
         "danmaku": 97
-      }
-    },
-    {
-      "id": "BV1Ajgi6eELm",
-      "bvid": "BV1Ajgi6eELm",
-      "title": "韩立：“你以后不要再给我打电话了，我怕吕洛误会！”",
-      "description": "-",
-      "cover": "https://i1.hdslb.com/bfs/archive/e5d936dd4ab9ce3dffb077870a0f49cd03c0c0cd.jpg",
-      "url": "http://www.bilibili.com/video/av116976236107475",
-      "upId": "610951861",
-      "upName": "花生仁不忍L",
-      "play": 66650,
-      "pubTime": 1784952000000,
-      "duration": "2:43",
-      "category": "趣味整活",
-      "confidence": 0.8,
-      "classificationSource": "model",
-      "classificationReason": "以韩立口吻玩梗的趣味整活内容，属于二次创作范畴",
-      "contentNature": "secondary_creation",
-      "originality": "light_edit",
-      "eventTag": null,
-      "creatorPotential": "one_off",
-      "score": 59,
-      "lane": null,
-      "firstSeenAt": 1784954073751,
-      "lastSeenAt": 1785736691371,
-      "sourceQueries": [
-        "凡人修仙传 二创",
-        "韩立 二创",
-        "凡人官方二创大会"
-      ],
-      "discoveryModes": [
-        "fresh",
-        "history"
-      ],
-      "riskFlags": [
-        "uncertain"
-      ],
-      "policyReason": "疑似轻度剪辑，需人工确认原创性",
-      "stats": {
-        "play": 66650,
-        "like": 0,
-        "coin": 0,
-        "favorite": 494,
-        "reply": 0,
-        "danmaku": 304
       }
     },
     {
@@ -2734,7 +2559,7 @@
       "score": 59,
       "lane": null,
       "firstSeenAt": 1784525133937,
-      "lastSeenAt": 1787539752905,
+      "lastSeenAt": 1787572969595,
       "sourceQueries": [
         "凡人修仙传 二创",
         "凡人官方二创大会",
@@ -2756,48 +2581,6 @@
         "favorite": 15,
         "reply": 4,
         "danmaku": 25
-      }
-    },
-    {
-      "id": "BV1uG3U6UEUn",
-      "bvid": "BV1uG3U6UEUn",
-      "title": "贵人鸟番外《风希打工传》EP11 | 擂台较技！风希结缘伴冰行",
-      "description": "万妖谷寿宴之上，车老妖当众抛出征伐北夜小极宫的计划，以珍稀寒髓为酬劳招揽各方妖族同道参战。五龙海陆鸣、冰海月璃、乱星海碧道友接连以种种缘由婉拒邀约，唯有羽族风希为给幼子求取寒髓、挣脱金蛟王辖制，决意冒险随军出征。\n为核验战力，车老妖命风希与谷内天赋异禀的吴三目登台切磋；风希修为占优险胜对手，风遁神通却被对方天赋破法天目死死克制，虽取胜却颜面有损。战局落幕，吴三目借激战感悟恳请闭关冲击修为瓶颈，风希也凭借实力得到车老妖认可，正式拿到参战资格。\n比武结束后，冰凤一脉的月璃主动上前，以冰凝灵羽为风希愈合羽翼伤势",
-      "cover": "https://i0.hdslb.com/bfs/archive/38e52e409691331790d331e69f9f493703b3cf3f.jpg",
-      "url": "http://www.bilibili.com/video/av117022675443565",
-      "upId": "14522991",
-      "upName": "轮回店の白白",
-      "play": 869,
-      "pubTime": 1785624439000,
-      "duration": "2:46",
-      "category": "剧情二创",
-      "confidence": 0.9,
-      "classificationSource": "model",
-      "classificationReason": "基于《凡人修仙传》风希相关内容创作的番外剧情",
-      "contentNature": "secondary_creation",
-      "originality": "deep_adaptation",
-      "eventTag": null,
-      "creatorPotential": "observe",
-      "score": 59,
-      "lane": null,
-      "firstSeenAt": 1785647345421,
-      "lastSeenAt": 1785647345421,
-      "sourceQueries": [
-        "凡人修仙传 二创",
-        "凡人官方二创大会"
-      ],
-      "discoveryModes": [
-        "fresh"
-      ],
-      "riskFlags": [],
-      "policyReason": "内容可收录，但需人工复核分类或风险",
-      "stats": {
-        "play": 869,
-        "like": 0,
-        "coin": 0,
-        "favorite": 2,
-        "reply": 0,
-        "danmaku": 1
       }
     },
     {
@@ -2844,49 +2627,6 @@
       }
     },
     {
-      "id": "BV18h3m62Ed9",
-      "bvid": "BV18h3m62Ed9",
-      "title": "“韩兄弟可知这元婴后期之上是何光景？”【凡人官方二创大会】",
-      "description": "",
-      "cover": "https://i0.hdslb.com/bfs/archive/ee8f4734cbb25c533709ee541fc37f25c75d9b11.jpg",
-      "url": "http://www.bilibili.com/video/av117020980941239",
-      "upId": "515106190",
-      "upName": "小腿包の",
-      "play": 304,
-      "pubTime": 1785598673000,
-      "duration": "1:50",
-      "category": "剧情二创",
-      "confidence": 0.9,
-      "classificationSource": "model",
-      "classificationReason": "参与凡人官方二创大会的元婴后期相关剧情创作",
-      "contentNature": "secondary_creation",
-      "originality": "deep_adaptation",
-      "eventTag": "凡人官方二创大会",
-      "creatorPotential": "observe",
-      "score": 59,
-      "lane": null,
-      "firstSeenAt": 1785647345421,
-      "lastSeenAt": 1785674403869,
-      "sourceQueries": [
-        "凡人修仙传 二创",
-        "凡人官方二创大会",
-        "韩立 二创"
-      ],
-      "discoveryModes": [
-        "fresh"
-      ],
-      "riskFlags": [],
-      "policyReason": "内容可收录，但需人工复核分类或风险",
-      "stats": {
-        "play": 304,
-        "like": 0,
-        "coin": 0,
-        "favorite": 0,
-        "reply": 0,
-        "danmaku": 2
-      }
-    },
-    {
       "id": "BV1ZrKJ6qEhp",
       "bvid": "BV1ZrKJ6qEhp",
       "title": "凡人修仙传同人二创小剧场",
@@ -2927,48 +2667,6 @@
         "favorite": 6,
         "reply": 0,
         "danmaku": 0
-      }
-    },
-    {
-      "id": "BV1SG411d7ey",
-      "bvid": "BV1SG411d7ey",
-      "title": "若有执念，凡人亦可成仙！《凡人修仙传》主题曲B站最燃翻唱！",
-      "description": "没想到吧，我又又又又又更新了！！！！！！",
-      "cover": "https://i2.hdslb.com/bfs/archive/5e8346cdce51586728bd1fa7ca36cd2ac7cbe72f.jpg",
-      "url": "http://www.bilibili.com/video/av405419086",
-      "upId": "212029709",
-      "upName": "Leo脑丝",
-      "play": 78518,
-      "pubTime": 1693399511000,
-      "duration": "3:28",
-      "category": "音乐配音",
-      "confidence": 0.9,
-      "classificationSource": "model",
-      "classificationReason": "翻唱凡人修仙传主题曲，属于二次创作内容",
-      "contentNature": "secondary_creation",
-      "originality": "deep_adaptation",
-      "eventTag": null,
-      "creatorPotential": "recommend",
-      "score": 58,
-      "lane": null,
-      "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1787542424325,
-      "sourceQueries": [
-        "legacy-published",
-        "凡人修仙传 配音 翻唱"
-      ],
-      "discoveryModes": [
-        "history"
-      ],
-      "riskFlags": [],
-      "policyReason": "内容可收录，但需人工复核分类或风险",
-      "stats": {
-        "play": 78518,
-        "like": 3215,
-        "coin": 726,
-        "favorite": 470,
-        "reply": 262,
-        "danmaku": 210
       }
     },
     {
@@ -3258,6 +2956,174 @@
         "favorite": 17,
         "reply": 0,
         "danmaku": 4
+      }
+    },
+    {
+      "id": "BV1uG3U6UEUn",
+      "bvid": "BV1uG3U6UEUn",
+      "title": "贵人鸟番外《风希打工传》EP11 | 擂台较技！风希结缘伴冰行",
+      "description": "万妖谷寿宴之上，车老妖当众抛出征伐北夜小极宫的计划，以珍稀寒髓为酬劳招揽各方妖族同道参战。五龙海陆鸣、冰海月璃、乱星海碧道友接连以种种缘由婉拒邀约，唯有羽族风希为给幼子求取寒髓、挣脱金蛟王辖制，决意冒险随军出征。\n为核验战力，车老妖命风希与谷内天赋异禀的吴三目登台切磋；风希修为占优险胜对手，风遁神通却被对方天赋破法天目死死克制，虽取胜却颜面有损。战局落幕，吴三目借激战感悟恳请闭关冲击修为瓶颈，风希也凭借实力得到车老妖认可，正式拿到参战资格。\n比武结束后，冰凤一脉的月璃主动上前，以冰凝灵羽为风希愈合羽翼伤势",
+      "cover": "https://i0.hdslb.com/bfs/archive/38e52e409691331790d331e69f9f493703b3cf3f.jpg",
+      "url": "http://www.bilibili.com/video/av117022675443565",
+      "upId": "14522991",
+      "upName": "轮回店の白白",
+      "play": 869,
+      "pubTime": 1785624439000,
+      "duration": "2:46",
+      "category": "剧情二创",
+      "confidence": 0.9,
+      "classificationSource": "model",
+      "classificationReason": "基于《凡人修仙传》风希相关内容创作的番外剧情",
+      "contentNature": "secondary_creation",
+      "originality": "deep_adaptation",
+      "eventTag": null,
+      "creatorPotential": "observe",
+      "score": 58,
+      "lane": null,
+      "firstSeenAt": 1785647345421,
+      "lastSeenAt": 1785647345421,
+      "sourceQueries": [
+        "凡人修仙传 二创",
+        "凡人官方二创大会"
+      ],
+      "discoveryModes": [
+        "fresh"
+      ],
+      "riskFlags": [],
+      "policyReason": "内容可收录，但需人工复核分类或风险",
+      "stats": {
+        "play": 869,
+        "like": 0,
+        "coin": 0,
+        "favorite": 2,
+        "reply": 0,
+        "danmaku": 1
+      }
+    },
+    {
+      "id": "BV18h3m62Ed9",
+      "bvid": "BV18h3m62Ed9",
+      "title": "“韩兄弟可知这元婴后期之上是何光景？”【凡人官方二创大会】",
+      "description": "",
+      "cover": "https://i0.hdslb.com/bfs/archive/ee8f4734cbb25c533709ee541fc37f25c75d9b11.jpg",
+      "url": "http://www.bilibili.com/video/av117020980941239",
+      "upId": "515106190",
+      "upName": "小腿包の",
+      "play": 304,
+      "pubTime": 1785598673000,
+      "duration": "1:50",
+      "category": "剧情二创",
+      "confidence": 0.9,
+      "classificationSource": "model",
+      "classificationReason": "参与凡人官方二创大会的元婴后期相关剧情创作",
+      "contentNature": "secondary_creation",
+      "originality": "deep_adaptation",
+      "eventTag": "凡人官方二创大会",
+      "creatorPotential": "observe",
+      "score": 58,
+      "lane": null,
+      "firstSeenAt": 1785647345421,
+      "lastSeenAt": 1785674403869,
+      "sourceQueries": [
+        "凡人修仙传 二创",
+        "凡人官方二创大会",
+        "韩立 二创"
+      ],
+      "discoveryModes": [
+        "fresh"
+      ],
+      "riskFlags": [],
+      "policyReason": "内容可收录，但需人工复核分类或风险",
+      "stats": {
+        "play": 304,
+        "like": 0,
+        "coin": 0,
+        "favorite": 0,
+        "reply": 0,
+        "danmaku": 2
+      }
+    },
+    {
+      "id": "BV1SG411d7ey",
+      "bvid": "BV1SG411d7ey",
+      "title": "若有执念，凡人亦可成仙！《凡人修仙传》主题曲B站最燃翻唱！",
+      "description": "没想到吧，我又又又又又更新了！！！！！！",
+      "cover": "https://i2.hdslb.com/bfs/archive/5e8346cdce51586728bd1fa7ca36cd2ac7cbe72f.jpg",
+      "url": "http://www.bilibili.com/video/av405419086",
+      "upId": "212029709",
+      "upName": "Leo脑丝",
+      "play": 78518,
+      "pubTime": 1693399511000,
+      "duration": "3:28",
+      "category": "音乐配音",
+      "confidence": 0.9,
+      "classificationSource": "model",
+      "classificationReason": "翻唱凡人修仙传主题曲，属于二次创作内容",
+      "contentNature": "secondary_creation",
+      "originality": "deep_adaptation",
+      "eventTag": null,
+      "creatorPotential": "recommend",
+      "score": 57,
+      "lane": null,
+      "firstSeenAt": 1784281357983,
+      "lastSeenAt": 1787542424325,
+      "sourceQueries": [
+        "legacy-published",
+        "凡人修仙传 配音 翻唱"
+      ],
+      "discoveryModes": [
+        "history"
+      ],
+      "riskFlags": [],
+      "policyReason": "内容可收录，但需人工复核分类或风险",
+      "stats": {
+        "play": 78518,
+        "like": 3215,
+        "coin": 726,
+        "favorite": 470,
+        "reply": 262,
+        "danmaku": 210
+      }
+    },
+    {
+      "id": "BV1is3K66Eht",
+      "bvid": "BV1is3K66Eht",
+      "title": "令狐老祖-凡人宇宙最好的宗门老祖！凡人修仙传人物志·4",
+      "description": "令狐老祖-凡人宇宙最好的宗门老祖！凡人修仙传人物志·4",
+      "cover": "https://i2.hdslb.com/bfs/archive/0d6b973c7c27f1935fb7dc7bf62c414de83810d0.jpg",
+      "url": "http://www.bilibili.com/video/av116978585048752",
+      "upId": "1473206353",
+      "upName": "在下风希",
+      "play": 63546,
+      "pubTime": 1784951754000,
+      "duration": "9:40",
+      "category": "人物志",
+      "confidence": 0.9,
+      "classificationSource": "model",
+      "classificationReason": "围绕凡人修仙传令狐老祖制作的人物志专题内容",
+      "contentNature": "character_or_lore",
+      "originality": "light_edit",
+      "eventTag": null,
+      "creatorPotential": "observe",
+      "score": 57,
+      "lane": null,
+      "firstSeenAt": 1784954073751,
+      "lastSeenAt": 1787572969595,
+      "sourceQueries": [
+        "凡人修仙传 人物志 设定"
+      ],
+      "discoveryModes": [
+        "fresh"
+      ],
+      "riskFlags": [],
+      "policyReason": "疑似轻度剪辑，需人工确认原创性",
+      "stats": {
+        "play": 63546,
+        "like": 1099,
+        "coin": 115,
+        "favorite": 188,
+        "reply": 287,
+        "danmaku": 173
       }
     },
     {
@@ -3850,89 +3716,49 @@
       }
     },
     {
-      "id": "BV18T3265Eho",
-      "bvid": "BV18T3265Eho",
-      "title": "凡人小剧场：立婉互诉衷肠【凡人官方二创大会】",
+      "id": "BV1Ajgi6eELm",
+      "bvid": "BV1Ajgi6eELm",
+      "title": "韩立：“你以后不要再给我打电话了，我怕吕洛误会！”",
       "description": "-",
-      "cover": "https://i0.hdslb.com/bfs/archive/51ce3418315b5818628e0f0fe16e061ebc4805e9.jpg",
-      "url": "http://www.bilibili.com/video/av117002509289420",
-      "upId": "3706955927390515",
-      "upName": "韩天尊的小鹿角",
-      "play": 122,
-      "pubTime": 1785316840000,
-      "duration": "5:51",
-      "category": "同人创作",
-      "confidence": 0.95,
+      "cover": "https://i1.hdslb.com/bfs/archive/e5d936dd4ab9ce3dffb077870a0f49cd03c0c0cd.jpg",
+      "url": "http://www.bilibili.com/video/av116976236107475",
+      "upId": "610951861",
+      "upName": "花生仁不忍L",
+      "play": 66650,
+      "pubTime": 1784952000000,
+      "duration": "2:43",
+      "category": "趣味整活",
+      "confidence": 0.8,
       "classificationSource": "model",
-      "classificationReason": "参与凡人官方二创大会的凡人修仙传二次创作小剧场，有明确原创剧情设计",
+      "classificationReason": "以韩立口吻玩梗的趣味整活内容，属于二次创作范畴",
       "contentNature": "secondary_creation",
-      "originality": "deep_adaptation",
-      "eventTag": "凡人官方二创大会",
-      "creatorPotential": "recommend",
-      "score": 56,
-      "lane": null,
-      "firstSeenAt": 1785331518945,
-      "lastSeenAt": 1785905592766,
-      "sourceQueries": [
-        "凡人修仙传 二创",
-        "凡人官方二创大会",
-        "韩立 二创",
-        "南宫婉 二创",
-        "凡人修仙传 小剧场"
-      ],
-      "discoveryModes": [
-        "fresh"
-      ],
-      "riskFlags": [],
-      "policyReason": "内容可收录，但需人工复核分类或风险",
-      "stats": {
-        "play": 122,
-        "like": 0,
-        "coin": 0,
-        "favorite": 0,
-        "reply": 0,
-        "danmaku": 0
-      }
-    },
-    {
-      "id": "BV1BybCzVE1B",
-      "bvid": "BV1BybCzVE1B",
-      "title": "韩立手中的五大法宝哪个最好用？ #凡人修仙传 #国漫 #国漫推荐 #韩立 #修仙",
-      "description": "-",
-      "cover": "https://i0.hdslb.com/bfs/archive/35f8ec752100cd6073eb1d81258935326bf3825c.jpg",
-      "url": "http://www.bilibili.com/video/av114908058427026",
-      "upId": "30339986",
-      "upName": "卖男孩的小火柴ii",
-      "play": 57299,
-      "pubTime": 1753358073000,
-      "duration": "4:44",
-      "category": "人物志",
-      "confidence": 0.9,
-      "classificationSource": "model",
-      "classificationReason": "围绕韩立的法宝展开专题讨论",
-      "contentNature": "character_or_lore",
-      "originality": "deep_adaptation",
+      "originality": "light_edit",
       "eventTag": null,
-      "creatorPotential": "observe",
+      "creatorPotential": "one_off",
       "score": 55,
       "lane": null,
-      "firstSeenAt": 1785647345421,
-      "lastSeenAt": 1785647345421,
+      "firstSeenAt": 1784954073751,
+      "lastSeenAt": 1785736691371,
       "sourceQueries": [
-        "凡人修仙传 法宝 功法 人物"
+        "凡人修仙传 二创",
+        "韩立 二创",
+        "凡人官方二创大会"
       ],
       "discoveryModes": [
-        "fresh"
+        "fresh",
+        "history"
       ],
-      "riskFlags": [],
-      "policyReason": "内容可收录，但需人工复核分类或风险",
+      "riskFlags": [
+        "uncertain"
+      ],
+      "policyReason": "疑似轻度剪辑，需人工确认原创性",
       "stats": {
-        "play": 57299,
-        "like": 193,
-        "coin": 6,
-        "favorite": 159,
-        "reply": 20,
-        "danmaku": 7
+        "play": 66650,
+        "like": 0,
+        "coin": 0,
+        "favorite": 494,
+        "reply": 0,
+        "danmaku": 304
       }
     },
     {
@@ -3985,7 +3811,7 @@
       "url": "http://www.bilibili.com/video/av116906291894910",
       "upId": "3493131924277978",
       "upName": "铁牛牛肉面店主",
-      "play": 2620,
+      "play": 2624,
       "pubTime": 1783848594000,
       "duration": "11:17",
       "category": "人物志",
@@ -3999,7 +3825,7 @@
       "score": 55,
       "lane": null,
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1787539752905,
+      "lastSeenAt": 1787572969595,
       "sourceQueries": [
         "凡人修仙传 人物志 设定"
       ],
@@ -4009,7 +3835,7 @@
       "riskFlags": [],
       "policyReason": "内容可收录，但需人工复核分类或风险",
       "stats": {
-        "play": 2620,
+        "play": 2624,
         "like": 0,
         "coin": 0,
         "favorite": 6,
@@ -4040,7 +3866,7 @@
       "score": 55,
       "lane": null,
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1787486254631,
+      "lastSeenAt": 1787572969595,
       "sourceQueries": [
         "凡人修仙传 MMD 同人动画"
       ],
@@ -4266,6 +4092,51 @@
       }
     },
     {
+      "id": "BV18T3265Eho",
+      "bvid": "BV18T3265Eho",
+      "title": "凡人小剧场：立婉互诉衷肠【凡人官方二创大会】",
+      "description": "-",
+      "cover": "https://i0.hdslb.com/bfs/archive/51ce3418315b5818628e0f0fe16e061ebc4805e9.jpg",
+      "url": "http://www.bilibili.com/video/av117002509289420",
+      "upId": "3706955927390515",
+      "upName": "韩天尊的小鹿角",
+      "play": 122,
+      "pubTime": 1785316840000,
+      "duration": "5:51",
+      "category": "同人创作",
+      "confidence": 0.95,
+      "classificationSource": "model",
+      "classificationReason": "参与凡人官方二创大会的凡人修仙传二次创作小剧场，有明确原创剧情设计",
+      "contentNature": "secondary_creation",
+      "originality": "deep_adaptation",
+      "eventTag": "凡人官方二创大会",
+      "creatorPotential": "recommend",
+      "score": 55,
+      "lane": null,
+      "firstSeenAt": 1785331518945,
+      "lastSeenAt": 1785905592766,
+      "sourceQueries": [
+        "凡人修仙传 二创",
+        "凡人官方二创大会",
+        "韩立 二创",
+        "南宫婉 二创",
+        "凡人修仙传 小剧场"
+      ],
+      "discoveryModes": [
+        "fresh"
+      ],
+      "riskFlags": [],
+      "policyReason": "内容可收录，但需人工复核分类或风险",
+      "stats": {
+        "play": 122,
+        "like": 0,
+        "coin": 0,
+        "favorite": 0,
+        "reply": 0,
+        "danmaku": 0
+      }
+    },
+    {
       "id": "BV13QG36nEg5",
       "bvid": "BV13QG36nEg5",
       "title": "细节如斯！有始有终，前后呼应！ #韩立【凡人官方二创大会】",
@@ -4393,6 +4264,47 @@
         "favorite": 552,
         "reply": 270,
         "danmaku": 153
+      }
+    },
+    {
+      "id": "BV1BybCzVE1B",
+      "bvid": "BV1BybCzVE1B",
+      "title": "韩立手中的五大法宝哪个最好用？ #凡人修仙传 #国漫 #国漫推荐 #韩立 #修仙",
+      "description": "-",
+      "cover": "https://i0.hdslb.com/bfs/archive/35f8ec752100cd6073eb1d81258935326bf3825c.jpg",
+      "url": "http://www.bilibili.com/video/av114908058427026",
+      "upId": "30339986",
+      "upName": "卖男孩的小火柴ii",
+      "play": 57299,
+      "pubTime": 1753358073000,
+      "duration": "4:44",
+      "category": "人物志",
+      "confidence": 0.9,
+      "classificationSource": "model",
+      "classificationReason": "围绕韩立的法宝展开专题讨论",
+      "contentNature": "character_or_lore",
+      "originality": "deep_adaptation",
+      "eventTag": null,
+      "creatorPotential": "observe",
+      "score": 54,
+      "lane": null,
+      "firstSeenAt": 1785647345421,
+      "lastSeenAt": 1785647345421,
+      "sourceQueries": [
+        "凡人修仙传 法宝 功法 人物"
+      ],
+      "discoveryModes": [
+        "fresh"
+      ],
+      "riskFlags": [],
+      "policyReason": "内容可收录，但需人工复核分类或风险",
+      "stats": {
+        "play": 57299,
+        "like": 193,
+        "coin": 6,
+        "favorite": 159,
+        "reply": 20,
+        "danmaku": 7
       }
     },
     {
@@ -4566,50 +4478,6 @@
       }
     },
     {
-      "id": "BV1QQ3D6fEAY",
-      "bvid": "BV1QQ3D6fEAY",
-      "title": "南宫婉烫衣服2",
-      "description": "૮ ・ﻌ・ა",
-      "cover": "https://i1.hdslb.com/bfs/archive/ac3e6fcf86cc4aa52c246c8488e256e021ef3477.jpg",
-      "url": "http://www.bilibili.com/video/av117023346526565",
-      "upId": "13952536",
-      "upName": "苍天问过谁",
-      "play": 1198,
-      "pubTime": 1785634669000,
-      "duration": "1:14",
-      "category": "趣味整活",
-      "confidence": 0.7,
-      "classificationSource": "model",
-      "classificationReason": "对《凡人修仙传》南宫婉相关内容的趣味整活",
-      "contentNature": "secondary_creation",
-      "originality": "light_edit",
-      "eventTag": null,
-      "creatorPotential": "one_off",
-      "score": 54,
-      "lane": null,
-      "firstSeenAt": 1785647345421,
-      "lastSeenAt": 1785818860486,
-      "sourceQueries": [
-        "凡人修仙传 二创",
-        "南宫婉 二创"
-      ],
-      "discoveryModes": [
-        "fresh"
-      ],
-      "riskFlags": [
-        "uncertain"
-      ],
-      "policyReason": "疑似轻度剪辑，需人工确认原创性",
-      "stats": {
-        "play": 1198,
-        "like": 0,
-        "coin": 0,
-        "favorite": 17,
-        "reply": 0,
-        "danmaku": 5
-      }
-    },
-    {
       "id": "BV1kX3K6nENe",
       "bvid": "BV1kX3K6nENe",
       "title": "【九重紫】日本小师妹翻唱「凡人修仙传」插曲《归期》生日演唱会",
@@ -4674,7 +4542,7 @@
       "score": 54,
       "lane": null,
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1787539752905,
+      "lastSeenAt": 1787572969595,
       "sourceQueries": [
         "凡人修仙传 鬼畜 整活"
       ],
@@ -4820,6 +4688,50 @@
       }
     },
     {
+      "id": "BV1QQ3D6fEAY",
+      "bvid": "BV1QQ3D6fEAY",
+      "title": "南宫婉烫衣服2",
+      "description": "૮ ・ﻌ・ა",
+      "cover": "https://i1.hdslb.com/bfs/archive/ac3e6fcf86cc4aa52c246c8488e256e021ef3477.jpg",
+      "url": "http://www.bilibili.com/video/av117023346526565",
+      "upId": "13952536",
+      "upName": "苍天问过谁",
+      "play": 1198,
+      "pubTime": 1785634669000,
+      "duration": "1:14",
+      "category": "趣味整活",
+      "confidence": 0.7,
+      "classificationSource": "model",
+      "classificationReason": "对《凡人修仙传》南宫婉相关内容的趣味整活",
+      "contentNature": "secondary_creation",
+      "originality": "light_edit",
+      "eventTag": null,
+      "creatorPotential": "one_off",
+      "score": 53,
+      "lane": null,
+      "firstSeenAt": 1785647345421,
+      "lastSeenAt": 1785818860486,
+      "sourceQueries": [
+        "凡人修仙传 二创",
+        "南宫婉 二创"
+      ],
+      "discoveryModes": [
+        "fresh"
+      ],
+      "riskFlags": [
+        "uncertain"
+      ],
+      "policyReason": "疑似轻度剪辑，需人工确认原创性",
+      "stats": {
+        "play": 1198,
+        "like": 0,
+        "coin": 0,
+        "favorite": 17,
+        "reply": 0,
+        "danmaku": 5
+      }
+    },
+    {
       "id": "BV1SjGw6pEhf",
       "bvid": "BV1SjGw6pEhf",
       "title": "「 韩立×南宫婉 」🖤血色禁地丨打戏丨轻踩点【凡人官方二创大会】",
@@ -4942,47 +4854,6 @@
         "favorite": 349,
         "reply": 0,
         "danmaku": 133
-      }
-    },
-    {
-      "id": "BV1cMC9BfENR",
-      "bvid": "BV1cMC9BfENR",
-      "title": "【凡人修仙传】【韩立个人向】“再切掉一点良心，换一点野心。”",
-      "description": "BGM：《野心》—薛之谦。\n歌词排版@三更步谣",
-      "cover": "https://i1.hdslb.com/bfs/archive/1ffd4d4f57fa2a103a32ffb869d797c6c3948121.jpg",
-      "url": "http://www.bilibili.com/video/av115558930450360",
-      "upId": "1449429926",
-      "upName": "嘉禾318",
-      "play": 23033,
-      "pubTime": 1763289593000,
-      "duration": "3:40",
-      "category": "混剪手书",
-      "confidence": 0.8,
-      "classificationSource": "model",
-      "classificationReason": "该内容为凡人修仙传韩立个人向混剪二次创作",
-      "contentNature": "secondary_creation",
-      "originality": "light_edit",
-      "eventTag": null,
-      "creatorPotential": "observe",
-      "score": 52,
-      "lane": null,
-      "firstSeenAt": 1785132335284,
-      "lastSeenAt": 1786937357683,
-      "sourceQueries": [
-        "凡人修仙传 混剪 手书"
-      ],
-      "discoveryModes": [
-        "history"
-      ],
-      "riskFlags": [],
-      "policyReason": "疑似轻度剪辑，需人工确认原创性",
-      "stats": {
-        "play": 23033,
-        "like": 0,
-        "coin": 0,
-        "favorite": 804,
-        "reply": 0,
-        "danmaku": 36
       }
     },
     {
@@ -5175,7 +5046,7 @@
       "score": 52,
       "lane": null,
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1787539752905,
+      "lastSeenAt": 1787572969595,
       "sourceQueries": [
         "凡人修仙传 混剪 手书"
       ],
@@ -5232,47 +5103,6 @@
         "favorite": 38,
         "reply": 0,
         "danmaku": 10
-      }
-    },
-    {
-      "id": "BV1XZ7N6SEtx",
-      "bvid": "BV1XZ7N6SEtx",
-      "title": "不凡 ｜ 用R&B的方式打开凡人修仙传",
-      "description": "凡人修仙传动画主题曲：《不凡》AI翻唱",
-      "cover": "https://i1.hdslb.com/bfs/archive/12bbd3f52d1f717a9449f43cb8b5b186db6a97e8.jpg",
-      "url": "http://www.bilibili.com/video/av116793414845848",
-      "upId": "589367703",
-      "upName": "喝甜酒也迷糊",
-      "play": 3354,
-      "pubTime": 1782126246000,
-      "duration": "3:41",
-      "category": "音乐配音",
-      "confidence": 0.85,
-      "classificationSource": "model",
-      "classificationReason": "翻唱《凡人修仙传》主题曲的音乐类二创",
-      "contentNature": "secondary_creation",
-      "originality": "light_edit",
-      "eventTag": null,
-      "creatorPotential": "observe",
-      "score": 52,
-      "lane": null,
-      "firstSeenAt": 1785647345421,
-      "lastSeenAt": 1785647345421,
-      "sourceQueries": [
-        "凡人修仙传 配音 翻唱"
-      ],
-      "discoveryModes": [
-        "fresh"
-      ],
-      "riskFlags": [],
-      "policyReason": "疑似轻度剪辑，需人工确认原创性",
-      "stats": {
-        "play": 3354,
-        "like": 0,
-        "coin": 0,
-        "favorite": 72,
-        "reply": 0,
-        "danmaku": 0
       }
     },
     {
@@ -5341,7 +5171,7 @@
       "score": 52,
       "lane": null,
       "firstSeenAt": 1785386371582,
-      "lastSeenAt": 1787539752905,
+      "lastSeenAt": 1787572969595,
       "sourceQueries": [
         "凡人修仙传 二创",
         "凡人官方二创大会",
@@ -5358,48 +5188,6 @@
         "like": 0,
         "coin": 0,
         "favorite": 0,
-        "reply": 0,
-        "danmaku": 0
-      }
-    },
-    {
-      "id": "BV1A4G36BE8A",
-      "bvid": "BV1A4G36BE8A",
-      "title": "“韩立当年，可也是黄枫谷的弟子啊”【凡人官方二创大会】",
-      "description": "-",
-      "cover": "https://i0.hdslb.com/bfs/archive/49e1677784b6b3df4caedd6deb6169727f772636.jpg",
-      "url": "http://www.bilibili.com/video/av117019018133778",
-      "upId": "431875023",
-      "upName": "夏夏四季奶青",
-      "play": 251,
-      "pubTime": 1785568541000,
-      "duration": "0:36",
-      "category": "趣味整活",
-      "confidence": 0.8,
-      "classificationSource": "model",
-      "classificationReason": "该内容为《凡人修仙传》相关的趣味短二创，参与官方二创大会",
-      "contentNature": "secondary_creation",
-      "originality": "light_edit",
-      "eventTag": "凡人官方二创大会",
-      "creatorPotential": "observe",
-      "score": 52,
-      "lane": null,
-      "firstSeenAt": 1785588109330,
-      "lastSeenAt": 1785588109330,
-      "sourceQueries": [
-        "凡人官方二创大会",
-        "韩立 二创"
-      ],
-      "discoveryModes": [
-        "fresh"
-      ],
-      "riskFlags": [],
-      "policyReason": "疑似轻度剪辑，需人工确认原创性",
-      "stats": {
-        "play": 251,
-        "like": 0,
-        "coin": 0,
-        "favorite": 3,
         "reply": 0,
         "danmaku": 0
       }
@@ -5622,6 +5410,47 @@
       }
     },
     {
+      "id": "BV1cMC9BfENR",
+      "bvid": "BV1cMC9BfENR",
+      "title": "【凡人修仙传】【韩立个人向】“再切掉一点良心，换一点野心。”",
+      "description": "BGM：《野心》—薛之谦。\n歌词排版@三更步谣",
+      "cover": "https://i1.hdslb.com/bfs/archive/1ffd4d4f57fa2a103a32ffb869d797c6c3948121.jpg",
+      "url": "http://www.bilibili.com/video/av115558930450360",
+      "upId": "1449429926",
+      "upName": "嘉禾318",
+      "play": 23033,
+      "pubTime": 1763289593000,
+      "duration": "3:40",
+      "category": "混剪手书",
+      "confidence": 0.8,
+      "classificationSource": "model",
+      "classificationReason": "该内容为凡人修仙传韩立个人向混剪二次创作",
+      "contentNature": "secondary_creation",
+      "originality": "light_edit",
+      "eventTag": null,
+      "creatorPotential": "observe",
+      "score": 51,
+      "lane": null,
+      "firstSeenAt": 1785132335284,
+      "lastSeenAt": 1786937357683,
+      "sourceQueries": [
+        "凡人修仙传 混剪 手书"
+      ],
+      "discoveryModes": [
+        "history"
+      ],
+      "riskFlags": [],
+      "policyReason": "疑似轻度剪辑，需人工确认原创性",
+      "stats": {
+        "play": 23033,
+        "like": 0,
+        "coin": 0,
+        "favorite": 804,
+        "reply": 0,
+        "danmaku": 36
+      }
+    },
+    {
       "id": "BV1omfvBVECJ",
       "bvid": "BV1omfvBVECJ",
       "title": "韩立：我厉飞雨何德何能？",
@@ -5660,6 +5489,47 @@
         "favorite": 467,
         "reply": 0,
         "danmaku": 16
+      }
+    },
+    {
+      "id": "BV1XZ7N6SEtx",
+      "bvid": "BV1XZ7N6SEtx",
+      "title": "不凡 ｜ 用R&B的方式打开凡人修仙传",
+      "description": "凡人修仙传动画主题曲：《不凡》AI翻唱",
+      "cover": "https://i1.hdslb.com/bfs/archive/12bbd3f52d1f717a9449f43cb8b5b186db6a97e8.jpg",
+      "url": "http://www.bilibili.com/video/av116793414845848",
+      "upId": "589367703",
+      "upName": "喝甜酒也迷糊",
+      "play": 3354,
+      "pubTime": 1782126246000,
+      "duration": "3:41",
+      "category": "音乐配音",
+      "confidence": 0.85,
+      "classificationSource": "model",
+      "classificationReason": "翻唱《凡人修仙传》主题曲的音乐类二创",
+      "contentNature": "secondary_creation",
+      "originality": "light_edit",
+      "eventTag": null,
+      "creatorPotential": "observe",
+      "score": 51,
+      "lane": null,
+      "firstSeenAt": 1785647345421,
+      "lastSeenAt": 1785647345421,
+      "sourceQueries": [
+        "凡人修仙传 配音 翻唱"
+      ],
+      "discoveryModes": [
+        "fresh"
+      ],
+      "riskFlags": [],
+      "policyReason": "疑似轻度剪辑，需人工确认原创性",
+      "stats": {
+        "play": 3354,
+        "like": 0,
+        "coin": 0,
+        "favorite": 72,
+        "reply": 0,
+        "danmaku": 0
       }
     },
     {
@@ -5844,7 +5714,7 @@
       "url": "http://www.bilibili.com/video/av116958586472140",
       "upId": "12391712",
       "upName": "海外散修韩天尊",
-      "play": 1192,
+      "play": 1193,
       "pubTime": 1784646625000,
       "duration": "0:58",
       "category": "趣味整活",
@@ -5858,7 +5728,7 @@
       "score": 51,
       "lane": null,
       "firstSeenAt": 1784695859320,
-      "lastSeenAt": 1787539752905,
+      "lastSeenAt": 1787572969595,
       "sourceQueries": [
         "凡人修仙传 二创",
         "凡人官方二创大会",
@@ -5872,7 +5742,7 @@
       "riskFlags": [],
       "policyReason": "疑似轻度剪辑，需人工确认原创性",
       "stats": {
-        "play": 1192,
+        "play": 1193,
         "like": 0,
         "coin": 0,
         "favorite": 11,
@@ -6280,7 +6150,7 @@
       "score": 50,
       "lane": null,
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1787539752905,
+      "lastSeenAt": 1787572969595,
       "sourceQueries": [
         "凡人修仙传 人物志 设定"
       ],
@@ -6693,7 +6563,7 @@
       "score": 49,
       "lane": null,
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1787539752905,
+      "lastSeenAt": 1787572969595,
       "sourceQueries": [
         "凡人修仙传 人物志 设定"
       ],
@@ -6918,47 +6788,6 @@
         "favorite": 8,
         "reply": 0,
         "danmaku": 0
-      }
-    },
-    {
-      "id": "BV1MbJJ69EV3",
-      "bvid": "BV1MbJJ69EV3",
-      "title": "【归潮】凡人修仙传复播啦～",
-      "description": "歌曲：归潮\n歌手：蔡明希-不才\n翻唱：是暄熠阿",
-      "cover": "https://i2.hdslb.com/bfs/archive/94131bb59a035c883660e32659e84075687b64bb.jpg",
-      "url": "http://www.bilibili.com/video/av116740885384134",
-      "upId": "602284217",
-      "upName": "是暄熠阿",
-      "play": 2625,
-      "pubTime": 1781324757000,
-      "duration": "0:46",
-      "category": "音乐配音",
-      "confidence": 0.85,
-      "classificationSource": "model",
-      "classificationReason": "翻唱《凡人修仙传》相关歌曲的音乐类二创",
-      "contentNature": "secondary_creation",
-      "originality": "light_edit",
-      "eventTag": null,
-      "creatorPotential": "observe",
-      "score": 48,
-      "lane": null,
-      "firstSeenAt": 1785647345421,
-      "lastSeenAt": 1785647345421,
-      "sourceQueries": [
-        "凡人修仙传 配音 翻唱"
-      ],
-      "discoveryModes": [
-        "fresh"
-      ],
-      "riskFlags": [],
-      "policyReason": "疑似轻度剪辑，需人工确认原创性",
-      "stats": {
-        "play": 2625,
-        "like": 0,
-        "coin": 0,
-        "favorite": 36,
-        "reply": 0,
-        "danmaku": 3
       }
     },
     {
@@ -7255,6 +7084,47 @@
       }
     },
     {
+      "id": "BV1MbJJ69EV3",
+      "bvid": "BV1MbJJ69EV3",
+      "title": "【归潮】凡人修仙传复播啦～",
+      "description": "歌曲：归潮\n歌手：蔡明希-不才\n翻唱：是暄熠阿",
+      "cover": "https://i2.hdslb.com/bfs/archive/94131bb59a035c883660e32659e84075687b64bb.jpg",
+      "url": "http://www.bilibili.com/video/av116740885384134",
+      "upId": "602284217",
+      "upName": "是暄熠阿",
+      "play": 2625,
+      "pubTime": 1781324757000,
+      "duration": "0:46",
+      "category": "音乐配音",
+      "confidence": 0.85,
+      "classificationSource": "model",
+      "classificationReason": "翻唱《凡人修仙传》相关歌曲的音乐类二创",
+      "contentNature": "secondary_creation",
+      "originality": "light_edit",
+      "eventTag": null,
+      "creatorPotential": "observe",
+      "score": 47,
+      "lane": null,
+      "firstSeenAt": 1785647345421,
+      "lastSeenAt": 1785647345421,
+      "sourceQueries": [
+        "凡人修仙传 配音 翻唱"
+      ],
+      "discoveryModes": [
+        "fresh"
+      ],
+      "riskFlags": [],
+      "policyReason": "疑似轻度剪辑，需人工确认原创性",
+      "stats": {
+        "play": 2625,
+        "like": 0,
+        "coin": 0,
+        "favorite": 36,
+        "reply": 0,
+        "danmaku": 3
+      }
+    },
+    {
       "id": "BV1rV3Q6yExH",
       "bvid": "BV1rV3Q6yExH",
       "title": "软萌银月一口一个主人吐槽韩立简直是职场苟神",
@@ -7516,6 +7386,47 @@
       }
     },
     {
+      "id": "BV1eJc8evEh3",
+      "bvid": "BV1eJc8evEh3",
+      "title": "凡人修仙传第六季外海风云开播前，韩立傍身家底盘点(第14期)",
+      "description": "【赞赞】【三连】都是免费滴！但对我这个小小 UP 来说非常重要！为了家里的两只喵，求大家三连支持！感谢！",
+      "cover": "https://i0.hdslb.com/bfs/archive/de6b56af7e4f079e791c00a8d2e48040742626bf.jpg",
+      "url": "http://www.bilibili.com/video/av113827001664256",
+      "upId": "73385238",
+      "upName": "爱漫剪的养喵人",
+      "play": 7840,
+      "pubTime": 1736862383000,
+      "duration": "1:51",
+      "category": "人物志",
+      "confidence": 0.8,
+      "classificationSource": "model",
+      "classificationReason": "围绕韩立的身家底展开的剧情专题盘点内容",
+      "contentNature": "character_or_lore",
+      "originality": "deep_adaptation",
+      "eventTag": null,
+      "creatorPotential": "observe",
+      "score": 46,
+      "lane": null,
+      "firstSeenAt": 1784281357983,
+      "lastSeenAt": 1787539752905,
+      "sourceQueries": [
+        "凡人修仙传 法宝 功法 人物"
+      ],
+      "discoveryModes": [
+        "fresh"
+      ],
+      "riskFlags": [],
+      "policyReason": "人物/设定内容不足 3 分钟，需确认不是竖屏剪辑",
+      "stats": {
+        "play": 7840,
+        "like": 77,
+        "coin": 9,
+        "favorite": 5,
+        "reply": 11,
+        "danmaku": 76
+      }
+    },
+    {
       "id": "BV1xMHYzkEZS",
       "bvid": "BV1xMHYzkEZS",
       "title": "始于霸道，终于悲凉《凡人修仙传》人物志蛮胡子篇！",
@@ -7554,47 +7465,6 @@
         "favorite": 6,
         "reply": 0,
         "danmaku": 27
-      }
-    },
-    {
-      "id": "BV1gaJG6BEv6",
-      "bvid": "BV1gaJG6BEv6",
-      "title": "小说、动漫还不过瘾？这几本高分凡人修仙传同人不容错过！",
-      "description": "",
-      "cover": "https://i1.hdslb.com/bfs/archive/bf50ddc9e822eeffa6d716e2525498bba4dfcbbb.jpg",
-      "url": "http://www.bilibili.com/video/av116754038653280",
-      "upId": "486798014",
-      "upName": "宅胖看书",
-      "play": 2720,
-      "pubTime": 1781525364000,
-      "duration": "1:31",
-      "category": "人物志",
-      "confidence": 0.8,
-      "classificationSource": "model",
-      "classificationReason": "推荐凡人修仙传相关同人作品，围绕作品内容展开",
-      "contentNature": "character_or_lore",
-      "originality": "light_edit",
-      "eventTag": null,
-      "creatorPotential": "one_off",
-      "score": 46,
-      "lane": null,
-      "firstSeenAt": 1784526884576,
-      "lastSeenAt": 1786937357683,
-      "sourceQueries": [
-        "凡人修仙传 同人"
-      ],
-      "discoveryModes": [
-        "history"
-      ],
-      "riskFlags": [],
-      "policyReason": "人物/设定内容不足 3 分钟，需确认不是竖屏剪辑",
-      "stats": {
-        "play": 2720,
-        "like": 0,
-        "coin": 0,
-        "favorite": 36,
-        "reply": 0,
-        "danmaku": 2
       }
     },
     {
@@ -7661,7 +7531,7 @@
       "score": 46,
       "lane": null,
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1787539752905,
+      "lastSeenAt": 1787572969595,
       "sourceQueries": [
         "凡人修仙传 人物志 设定"
       ],
@@ -7702,7 +7572,7 @@
       "score": 46,
       "lane": null,
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1787539752905,
+      "lastSeenAt": 1787572969595,
       "sourceQueries": [
         "凡人修仙传 人物志 设定"
       ],
@@ -7929,44 +7799,44 @@
       }
     },
     {
-      "id": "BV1eJc8evEh3",
-      "bvid": "BV1eJc8evEh3",
-      "title": "凡人修仙传第六季外海风云开播前，韩立傍身家底盘点(第14期)",
-      "description": "【赞赞】【三连】都是免费滴！但对我这个小小 UP 来说非常重要！为了家里的两只喵，求大家三连支持！感谢！",
-      "cover": "https://i0.hdslb.com/bfs/archive/de6b56af7e4f079e791c00a8d2e48040742626bf.jpg",
-      "url": "http://www.bilibili.com/video/av113827001664256",
-      "upId": "73385238",
-      "upName": "爱漫剪的养喵人",
-      "play": 7840,
-      "pubTime": 1736862383000,
-      "duration": "1:51",
+      "id": "BV1gaJG6BEv6",
+      "bvid": "BV1gaJG6BEv6",
+      "title": "小说、动漫还不过瘾？这几本高分凡人修仙传同人不容错过！",
+      "description": "",
+      "cover": "https://i1.hdslb.com/bfs/archive/bf50ddc9e822eeffa6d716e2525498bba4dfcbbb.jpg",
+      "url": "http://www.bilibili.com/video/av116754038653280",
+      "upId": "486798014",
+      "upName": "宅胖看书",
+      "play": 2720,
+      "pubTime": 1781525364000,
+      "duration": "1:31",
       "category": "人物志",
       "confidence": 0.8,
       "classificationSource": "model",
-      "classificationReason": "围绕韩立的身家底展开的剧情专题盘点内容",
+      "classificationReason": "推荐凡人修仙传相关同人作品，围绕作品内容展开",
       "contentNature": "character_or_lore",
-      "originality": "deep_adaptation",
+      "originality": "light_edit",
       "eventTag": null,
-      "creatorPotential": "observe",
+      "creatorPotential": "one_off",
       "score": 45,
       "lane": null,
-      "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1787539752905,
+      "firstSeenAt": 1784526884576,
+      "lastSeenAt": 1786937357683,
       "sourceQueries": [
-        "凡人修仙传 法宝 功法 人物"
+        "凡人修仙传 同人"
       ],
       "discoveryModes": [
-        "fresh"
+        "history"
       ],
       "riskFlags": [],
       "policyReason": "人物/设定内容不足 3 分钟，需确认不是竖屏剪辑",
       "stats": {
-        "play": 7840,
-        "like": 77,
-        "coin": 9,
-        "favorite": 5,
-        "reply": 11,
-        "danmaku": 76
+        "play": 2720,
+        "like": 0,
+        "coin": 0,
+        "favorite": 36,
+        "reply": 0,
+        "danmaku": 2
       }
     },
     {
@@ -8011,47 +7881,6 @@
       }
     },
     {
-      "id": "BV1BZGg64Ep5",
-      "bvid": "BV1BZGg64Ep5",
-      "title": "听到韩立答应后的令狐老祖",
-      "description": "",
-      "cover": "https://i0.hdslb.com/bfs/archive/79e914c700d27bc8ff2a1c9e2522da9582206f06.jpg",
-      "url": "http://www.bilibili.com/video/av117019068338517",
-      "upId": "2618658",
-      "upName": "伊苏米雅琪",
-      "play": 501,
-      "pubTime": 1785569430000,
-      "duration": "0:17",
-      "category": "趣味整活",
-      "confidence": 0.8,
-      "classificationSource": "model",
-      "classificationReason": "该内容为《凡人修仙传》相关的趣味短二创，参与官方二创大会",
-      "contentNature": "secondary_creation",
-      "originality": "light_edit",
-      "eventTag": "凡人官方二创大会",
-      "creatorPotential": "observe",
-      "score": 45,
-      "lane": null,
-      "firstSeenAt": 1785588109330,
-      "lastSeenAt": 1785588109330,
-      "sourceQueries": [
-        "韩立 二创"
-      ],
-      "discoveryModes": [
-        "fresh"
-      ],
-      "riskFlags": [],
-      "policyReason": "疑似轻度剪辑，需人工确认原创性",
-      "stats": {
-        "play": 501,
-        "like": 0,
-        "coin": 0,
-        "favorite": 0,
-        "reply": 0,
-        "danmaku": 0
-      }
-    },
-    {
       "id": "BV1ZDkFBiEFm",
       "bvid": "BV1ZDkFBiEFm",
       "title": "天南散修配音汉克唱歌《凡人修仙传》《不凡》原唱是我的偶像王铮亮翻唱清唱混响效果天南散修配音汉克",
@@ -8074,7 +7903,7 @@
       "score": 45,
       "lane": null,
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1787539752905,
+      "lastSeenAt": 1787572969595,
       "sourceQueries": [
         "凡人修仙传 配音 翻唱"
       ],
@@ -8197,7 +8026,7 @@
       "score": 45,
       "lane": null,
       "firstSeenAt": 1784782626743,
-      "lastSeenAt": 1787539752905,
+      "lastSeenAt": 1787572969595,
       "sourceQueries": [
         "凡人修仙传 人物志 设定"
       ],
