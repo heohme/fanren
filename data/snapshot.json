@@ -1,5 +1,5 @@
 {
-  "generatedAt": 1787943826579,
+  "generatedAt": 1787956060488,
   "series": {
     "title": "凡人修仙传",
     "seasonId": "28747",
@@ -3607,9 +3607,10 @@
         "利维坦LWT"
       ],
       "note": "经典解析向",
+      "source": "search-backfill",
       "error": "all retries failed",
-      "lastFetched": 1787943596009,
-      "lastSuccess": 1787916613789,
+      "lastFetched": 1787956060488,
+      "lastSuccess": 1787956060488,
       "videos": [
         {
           "bvid": "BV1P18y6LEm6",
@@ -5763,7 +5764,7 @@
           "cover": "https://i0.hdslb.com/bfs/archive/aef7a13ed97ed4dc7b588a8e967a75f85d04f2cc.jpg",
           "pubTime": 1663504340000,
           "duration": "8:22",
-          "play": 620959,
+          "play": 621053,
           "videoUrl": "http://www.bilibili.com/video/av345676251",
           "matched": true,
           "ep": 68,
@@ -5782,7 +5783,7 @@
           "cover": "https://i2.hdslb.com/bfs/archive/cab79726c05ebc98ce4d6ba44106990de1b9709c.jpg",
           "pubTime": 1662901676000,
           "duration": "8:28",
-          "play": 632302,
+          "play": 632416,
           "videoUrl": "http://www.bilibili.com/video/av430448648",
           "matched": true,
           "ep": 67,
@@ -5837,7 +5838,7 @@
           "cover": "https://i0.hdslb.com/bfs/archive/bde2325848afca981373f9532439932c62bb19af.jpg",
           "pubTime": 1661084033000,
           "duration": "7:52",
-          "play": 498481,
+          "play": 498533,
           "videoUrl": "http://www.bilibili.com/video/av217222674",
           "matched": true,
           "ep": 64,
@@ -5892,7 +5893,7 @@
           "cover": "https://i0.hdslb.com/bfs/archive/75adcd024b2730009c3ce3922c3463eed0cb25ba.jpg",
           "pubTime": 1658665314000,
           "duration": "8:16",
-          "play": 499207,
+          "play": 499251,
           "videoUrl": "http://www.bilibili.com/video/av813762004",
           "matched": true,
           "ep": 60,
@@ -6002,7 +6003,7 @@
           "cover": "https://i1.hdslb.com/bfs/archive/34abd115482fed8d37ffaa8cd428432faf339ef3.jpg",
           "pubTime": 1655036735000,
           "duration": "9:43",
-          "play": 844900,
+          "play": 844952,
           "videoUrl": "http://www.bilibili.com/video/av257458820",
           "matched": true,
           "ep": 54,
@@ -6021,7 +6022,7 @@
           "cover": "https://i0.hdslb.com/bfs/archive/ba8e6e263ee0f37b646d042c0069fad73c9a8383.jpg",
           "pubTime": 1654434826000,
           "duration": "9:59",
-          "play": 579631,
+          "play": 579656,
           "videoUrl": "http://www.bilibili.com/video/av982158404",
           "matched": true,
           "ep": 53,
@@ -6038,7 +6039,7 @@
           "cover": "https://i0.hdslb.com/bfs/archive/f04555c034df276284210ba4e865dd1431a036ce.jpg",
           "pubTime": 1653828801000,
           "duration": "10:1",
-          "play": 694052,
+          "play": 694071,
           "videoUrl": "http://www.bilibili.com/video/av469598545",
           "matched": true,
           "ep": 52,
@@ -25191,8 +25192,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1787916577168,
-      "lastSuccess": 1787916577168,
+      "lastFetched": 1787956014914,
+      "lastSuccess": 1787956014914,
       "videos": [
         {
           "bvid": "BV1bt4y1x7RT",
@@ -29436,8 +29437,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1787824609561,
-      "lastSuccess": 1787824609561,
+      "lastFetched": 1787955791917,
+      "lastSuccess": 1787955791917,
       "videos": [
         {
           "bvid": "BV1Zg7z6SEY6",
@@ -29666,6 +29667,23 @@
             "曲魂",
             "结丹"
           ],
+          "discoveredBy": "episode-search"
+        },
+        {
+          "bvid": "BV1cuksBkEQR",
+          "aid": 115913869299902,
+          "title": "小夭【凡人修仙传Reaction】第67集 又是帅哥",
+          "description": "❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️",
+          "cover": "https://i0.hdslb.com/bfs/archive/41dbfb4cd2371c2ee449f5b2f507e75197ab4f2c.jpg",
+          "pubTime": 1768705528000,
+          "duration": "16:24",
+          "play": 18325,
+          "videoUrl": "http://www.bilibili.com/video/av115913869299902",
+          "matched": true,
+          "ep": 67,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [],
           "discoveredBy": "episode-search"
         },
         {
@@ -34982,8 +35000,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1785921041027,
-      "lastSuccess": 1785921041027,
+      "lastFetched": 1787955968261,
+      "lastSuccess": 1787955968261,
       "videos": [
         {
           "bvid": "BV1CjXXY4Ewc",
@@ -35057,6 +35075,25 @@
           "isCompilation": false,
           "contentType": "episode",
           "characters": [],
+          "discoveredBy": "episode-search"
+        },
+        {
+          "bvid": "BV1Wr4y137fj",
+          "aid": 769958933,
+          "title": "韩立被逃命队友赖上，魔道如此稳健心机？【凡人修仙传第54集解析】",
+          "description": "希望本期帮助道友念头通达，求关注三连支持一下哇！",
+          "cover": "https://i2.hdslb.com/bfs/archive/13ebfaa39a2680ea7638eb109fdef19255566298.jpg",
+          "pubTime": 1655034336000,
+          "duration": "8:16",
+          "play": 29275,
+          "videoUrl": "http://www.bilibili.com/video/av769958933",
+          "matched": true,
+          "ep": 54,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [
+            "韩立"
+          ],
           "discoveredBy": "episode-search"
         }
       ],
@@ -36371,8 +36408,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1787916613789,
-      "lastSuccess": 1787916613789,
+      "lastFetched": 1787956060488,
+      "lastSuccess": 1787956060488,
       "videos": [
         {
           "bvid": "BV1aBfZYuEva",
@@ -36822,7 +36859,7 @@
           "cover": "https://i0.hdslb.com/bfs/archive/cb1a0c70152119cd6e0a0533403014567dd2665e.png",
           "pubTime": 1717066845000,
           "duration": "21:54",
-          "play": 13897,
+          "play": 13900,
           "videoUrl": "http://www.bilibili.com/video/av1005107468",
           "matched": true,
           "ep": 52,
@@ -40734,8 +40771,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1786694030436,
-      "lastSuccess": 1786694030436,
+      "lastFetched": 1787955838310,
+      "lastSuccess": 1787955838310,
       "videos": [
         {
           "bvid": "BV1wR4y1R72e",
@@ -40762,7 +40799,7 @@
           "cover": "https://i1.hdslb.com/bfs/archive/5401db790af7a81f20bf41aa54b9d45f01076439.jpg",
           "pubTime": 1661087107000,
           "duration": "7:19",
-          "play": 65078,
+          "play": 65082,
           "videoUrl": "http://www.bilibili.com/video/av557165733",
           "matched": true,
           "ep": 64,
@@ -40785,8 +40822,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1787824326883,
-      "lastSuccess": 1787824326883,
+      "lastFetched": 1787955743646,
+      "lastSuccess": 1787955743646,
       "videos": [
         {
           "bvid": "BV1X8411W7Fa",
@@ -40813,7 +40850,7 @@
           "cover": "https://i0.hdslb.com/bfs/archive/5e1674b693e9638ec456c60b6c46ba60c1bd0a88.jpg",
           "pubTime": 1663519632000,
           "duration": "6:55",
-          "play": 20765,
+          "play": 20766,
           "videoUrl": "http://www.bilibili.com/video/av858210531",
           "matched": true,
           "ep": 68,
@@ -41097,8 +41134,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1787824414237,
-      "lastSuccess": 1787824414237,
+      "lastFetched": 1787955838310,
+      "lastSuccess": 1787955838310,
       "videos": [
         {
           "bvid": "BV1214y1x7Nq",
@@ -41837,8 +41874,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1787824609561,
-      "lastSuccess": 1787824609561,
+      "lastFetched": 1787956060488,
+      "lastSuccess": 1787956060488,
       "videos": [
         {
           "bvid": "BV15B4y147nB",
@@ -41869,8 +41906,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1787824609561,
-      "lastSuccess": 1787824609561,
+      "lastFetched": 1787956060488,
+      "lastSuccess": 1787956060488,
       "videos": [
         {
           "bvid": "BV1ENcizSEd7",
@@ -41880,7 +41917,7 @@
           "cover": "https://i1.hdslb.com/bfs/archive/4d978a6331fbc0fb4021c913a51f6693826a674b.jpg",
           "pubTime": 1770955200000,
           "duration": "18:26",
-          "play": 4096,
+          "play": 4108,
           "videoUrl": "http://www.bilibili.com/video/av116056895131934",
           "matched": true,
           "ep": 52,
@@ -41901,8 +41938,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1787824609561,
-      "lastSuccess": 1787824609561,
+      "lastFetched": 1787956060488,
+      "lastSuccess": 1787956060488,
       "videos": [
         {
           "bvid": "BV1eF41157Ji",
