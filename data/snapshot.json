@@ -1,5 +1,5 @@
 {
-  "generatedAt": 1787970642840,
+  "generatedAt": 1787987525781,
   "series": {
     "title": "凡人修仙传",
     "seasonId": "28747",
@@ -75,11 +75,11 @@
     "cover": "https://i0.hdslb.com/bfs/bangumi/image/19a2d01429bcba6b31791277c016e0d1aa465974.png",
     "newEp": {
       "desc": "6月13日起 每周六11:00",
-      "id": 3854812,
-      "is_new": 0,
-      "title": "188"
+      "id": 3854813,
+      "is_new": 1,
+      "title": "189"
     },
-    "totalCount": 293,
+    "totalCount": 295,
     "episodes": [
       {
         "ep": 1,
@@ -3490,6 +3490,18 @@
         "playUrl": "https://www.bilibili.com/bangumi/play/ep4292432"
       },
       {
+        "ep": 189,
+        "epRaw": "189",
+        "longTitle": "慕兰之战13",
+        "bvid": "BV1Ta866BEbq",
+        "aid": 117134831126411,
+        "cover": "http://i0.hdslb.com/bfs/archive/145532e73969446311d96225f2862f7e4f95852b.jpg",
+        "pubTime": 1787368500000,
+        "duration": 34000,
+        "link": "https://www.bilibili.com/bangumi/play/ep4292433",
+        "playUrl": "https://www.bilibili.com/bangumi/play/ep4292433"
+      },
+      {
         "ep": 181,
         "epRaw": "181",
         "longTitle": "慕兰之战05",
@@ -3589,13 +3601,25 @@
         "ep": 189,
         "epRaw": "189",
         "longTitle": "慕兰之战13",
-        "bvid": "BV1Ta866BEbq",
-        "aid": 117134831126411,
-        "cover": "http://i0.hdslb.com/bfs/archive/9c7ed6de4703ca80bbce3d5a25744277add3bd67.jpg",
-        "pubTime": 1787368500000,
-        "duration": 34000,
-        "link": "https://www.bilibili.com/bangumi/play/ep4292433",
-        "playUrl": "https://www.bilibili.com/bangumi/play/ep4292433"
+        "bvid": "BV1AAtT6aE8m",
+        "aid": 117174307915535,
+        "cover": "http://i0.hdslb.com/bfs/archive/145532e73969446311d96225f2862f7e4f95852b.jpg",
+        "pubTime": 1787972400000,
+        "duration": 1108000,
+        "link": "https://www.bilibili.com/bangumi/play/ep3854813",
+        "playUrl": "https://www.bilibili.com/bangumi/play/ep3854813"
+      },
+      {
+        "ep": 190,
+        "epRaw": "190",
+        "longTitle": "慕兰之战14",
+        "bvid": "BV1AAtT6aEGj",
+        "aid": 117174307916551,
+        "cover": "http://i0.hdslb.com/bfs/archive/669d76a2dad4dc86bbb94d0e70466bb349528a0b.jpg",
+        "pubTime": 1787973300000,
+        "duration": 41880,
+        "link": "https://www.bilibili.com/bangumi/play/ep4292434",
+        "playUrl": "https://www.bilibili.com/bangumi/play/ep4292434"
       }
     ]
   },
@@ -3607,9 +3631,10 @@
         "利维坦LWT"
       ],
       "note": "经典解析向",
+      "source": "search-backfill",
       "error": "all retries failed",
-      "lastFetched": 1787970387319,
-      "lastSuccess": 1787969264746,
+      "lastFetched": 1787987525780,
+      "lastSuccess": 1787987525780,
       "videos": [
         {
           "bvid": "BV1P18y6LEm6",
@@ -5837,7 +5862,7 @@
           "cover": "https://i0.hdslb.com/bfs/archive/bde2325848afca981373f9532439932c62bb19af.jpg",
           "pubTime": 1661084033000,
           "duration": "7:52",
-          "play": 498533,
+          "play": 498548,
           "videoUrl": "http://www.bilibili.com/video/av217222674",
           "matched": true,
           "ep": 64,
@@ -5892,7 +5917,7 @@
           "cover": "https://i0.hdslb.com/bfs/archive/75adcd024b2730009c3ce3922c3463eed0cb25ba.jpg",
           "pubTime": 1658665314000,
           "duration": "8:16",
-          "play": 499251,
+          "play": 499261,
           "videoUrl": "http://www.bilibili.com/video/av813762004",
           "matched": true,
           "ep": 60,
@@ -6002,7 +6027,7 @@
           "cover": "https://i1.hdslb.com/bfs/archive/34abd115482fed8d37ffaa8cd428432faf339ef3.jpg",
           "pubTime": 1655036735000,
           "duration": "9:43",
-          "play": 844952,
+          "play": 844958,
           "videoUrl": "http://www.bilibili.com/video/av257458820",
           "matched": true,
           "ep": 54,
@@ -6021,7 +6046,7 @@
           "cover": "https://i0.hdslb.com/bfs/archive/ba8e6e263ee0f37b646d042c0069fad73c9a8383.jpg",
           "pubTime": 1654434826000,
           "duration": "9:59",
-          "play": 579656,
+          "play": 579663,
           "videoUrl": "http://www.bilibili.com/video/av982158404",
           "matched": true,
           "ep": 53,
@@ -16888,9 +16913,43 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1787556566103,
-      "lastSuccess": 1787556566103,
+      "lastFetched": 1787987199700,
+      "lastSuccess": 1787987199700,
       "videos": [
+        {
+          "bvid": "BV1LetP6CEWh",
+          "aid": 117174123364875,
+          "title": "凡人修仙传 189 集：七十二剑布下雷网！青竹蜂云剑配辟邪神雷，天哭魔躯瞬间崩解",
+          "description": "预告解析，希望大家喜欢。正片将于11点更新，链接已放评论区置顶！",
+          "cover": "https://i2.hdslb.com/bfs/archive/4890f531a45b75b490cf54673dae82dd3819591d.jpg",
+          "pubTime": 1787970900000,
+          "duration": "32:13",
+          "play": 7221,
+          "videoUrl": "http://www.bilibili.com/video/av117174123364875",
+          "matched": true,
+          "ep": 189,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [],
+          "discoveredBy": "episode-search"
+        },
+        {
+          "bvid": "BV1Hg8y6uEWU",
+          "aid": 117137079273178,
+          "title": "凡人修仙传 189 集：慕兰圣女乐上师登场！元明灯青焰吞噬法宝，黄龙山防线告急",
+          "description": "预告解析，希望大家喜欢",
+          "cover": "https://i2.hdslb.com/bfs/archive/4890f531a45b75b490cf54673dae82dd3819591d.jpg",
+          "pubTime": 1787370457000,
+          "duration": "32:4",
+          "play": 19171,
+          "videoUrl": "http://www.bilibili.com/video/av117137079273178",
+          "matched": true,
+          "ep": 189,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [],
+          "discoveredBy": "episode-search"
+        },
         {
           "bvid": "BV13n8B6ME5f",
           "aid": 117134462027658,
@@ -17496,9 +17555,46 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1787556578038,
-      "lastSuccess": 1787556578038,
+      "lastFetched": 1787987199700,
+      "lastSuccess": 1787987199700,
       "videos": [
+        {
+          "bvid": "BV1iYtP65EcU",
+          "aid": 117174140210078,
+          "title": "凡人修仙传 189 集：元婴初期斩同阶！韩立秒杀天哭震全场，黄龙山士气彻底逆转",
+          "description": "预告解析，希望大家喜欢",
+          "cover": "https://i1.hdslb.com/bfs/archive/bef4ea7d7de46825847112d13e9ced166572b9df.jpg",
+          "pubTime": 1787971500000,
+          "duration": "26:5",
+          "play": 5608,
+          "videoUrl": "http://www.bilibili.com/video/av117174140210078",
+          "matched": true,
+          "ep": 189,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [
+            "韩立",
+            "元婴"
+          ],
+          "discoveredBy": "episode-search"
+        },
+        {
+          "bvid": "BV1ng8y6uESz",
+          "aid": 117137079275173,
+          "title": "凡人修仙传 189 集：谷双蒲形神俱灭！慕兰圣女怒而出手，元明灯威逼黄龙山防线",
+          "description": "",
+          "cover": "https://i1.hdslb.com/bfs/archive/bef4ea7d7de46825847112d13e9ced166572b9df.jpg",
+          "pubTime": 1787370298000,
+          "duration": "27:52",
+          "play": 42517,
+          "videoUrl": "http://www.bilibili.com/video/av117137079275173",
+          "matched": true,
+          "ep": 189,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [],
+          "discoveredBy": "episode-search"
+        },
         {
           "bvid": "BV13n8B6MEj8",
           "aid": 117134462027634,
@@ -18613,9 +18709,47 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1787556578039,
-      "lastSuccess": 1787556578039,
+      "lastFetched": 1787987199700,
+      "lastSuccess": 1787987199700,
       "videos": [
+        {
+          "bvid": "BV1Tf8R67E1k",
+          "aid": 117161926527726,
+          "title": "凡人修仙传189集：韩立不再藏拙！乾蓝冰焰震慑二老，布下绝杀后手，坐等慕兰大军上门送死",
+          "description": "-",
+          "cover": "https://i0.hdslb.com/bfs/archive/6c42813919b0a7c26be706fecb9ed8ab9df8427b.jpg",
+          "pubTime": 1787971080000,
+          "duration": "21:35",
+          "play": 2369,
+          "videoUrl": "http://www.bilibili.com/video/av117161926527726",
+          "matched": true,
+          "ep": 189,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [
+            "韩立"
+          ],
+          "discoveredBy": "episode-search"
+        },
+        {
+          "bvid": "BV1rL8A6REmv",
+          "aid": 117128640529629,
+          "title": "凡人修仙传189集：韩立暴露底牌，隐忍多年彻底放开实力，正面硬刚慕兰乐上师",
+          "description": "-",
+          "cover": "https://i0.hdslb.com/bfs/archive/2015d34118866e01ef92e39494d4c63decb2396c.jpg",
+          "pubTime": 1787368200000,
+          "duration": "21:36",
+          "play": 15743,
+          "videoUrl": "http://www.bilibili.com/video/av117128640529629",
+          "matched": true,
+          "ep": 189,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [
+            "韩立"
+          ],
+          "discoveredBy": "episode-search"
+        },
         {
           "bvid": "BV1VGuM6zE9P",
           "aid": 117057840483019,
@@ -18941,9 +19075,29 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1786349106552,
-      "lastSuccess": 1786349106552,
+      "lastFetched": 1787987199700,
+      "lastSuccess": 1787987199700,
       "videos": [
+        {
+          "bvid": "BV1vYtw6iE6E",
+          "aid": 117172965806195,
+          "title": "凡人修仙传189集：韩立一战成名，韩立神雷瞬秒天哭 震惊在场所有元婴",
+          "description": "",
+          "cover": "https://i1.hdslb.com/bfs/archive/8b2fdb2b1c65375e95dc3ff5e82a0fc3103687a3.jpg",
+          "pubTime": 1787971500000,
+          "duration": "23:7",
+          "play": 21269,
+          "videoUrl": "http://www.bilibili.com/video/av117172965806195",
+          "matched": true,
+          "ep": 189,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [
+            "韩立",
+            "元婴"
+          ],
+          "discoveredBy": "episode-search"
+        },
         {
           "bvid": "BV1hcu864Ee5",
           "aid": 117054854205723,
@@ -25225,8 +25379,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1787956014914,
-      "lastSuccess": 1787956014914,
+      "lastFetched": 1787987525780,
+      "lastSuccess": 1787987525780,
       "videos": [
         {
           "bvid": "BV1bt4y1x7RT",
@@ -26667,9 +26821,28 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1785556306201,
-      "lastSuccess": 1785556306201,
+      "lastFetched": 1787987199700,
+      "lastSuccess": 1787987199700,
       "videos": [
+        {
+          "bvid": "BV1sw8y6yEJd",
+          "aid": 117137163160967,
+          "title": "凡人修仙传189集：韩立施展辟邪神雷、啼魂兽打败阴罗宗长老天哭上人！阴魔斩千重峰齐出凡人修仙传188集",
+          "description": "",
+          "cover": "https://i0.hdslb.com/bfs/archive/fede18296b540de86367b753ff95da52423ebb5d.jpg",
+          "pubTime": 1787371585000,
+          "duration": "19:19",
+          "play": 8765,
+          "videoUrl": "http://www.bilibili.com/video/av117137163160967",
+          "matched": true,
+          "ep": 189,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [
+            "韩立"
+          ],
+          "discoveredBy": "episode-search"
+        },
         {
           "bvid": "BV1MPGN6FE6r",
           "aid": 117014689612837,
@@ -31345,9 +31518,26 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1786072966768,
-      "lastSuccess": 1786072966768,
+      "lastFetched": 1787987199700,
+      "lastSuccess": 1787987199700,
       "videos": [
+        {
+          "bvid": "BV16rPveiE5T",
+          "aid": 114065691118268,
+          "title": "《凡人修仙传》 第189集 迷魂交锋",
+          "description": "一个普通山村小子，偶然下进入到当地江湖小门派，成了一名记名弟子。他以这样身份，如何在门派中立足,如何以平庸的资质进入到修仙者的行列，从而笑傲三界之中！",
+          "cover": "https://i1.hdslb.com/bfs/archive/e58268ad76edf38907e2bde84fe83bcf3098419d.jpg",
+          "pubTime": 1740505579000,
+          "duration": "13:51",
+          "play": 906,
+          "videoUrl": "http://www.bilibili.com/video/av114065691118268",
+          "matched": true,
+          "ep": 189,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [],
+          "discoveredBy": "episode-search"
+        },
         {
           "bvid": "BV1k8PhetE7Y",
           "aid": 114061731694301,
@@ -35711,9 +35901,28 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1787556578038,
-      "lastSuccess": 1787556578038,
+      "lastFetched": 1787987199700,
+      "lastSuccess": 1787987199700,
       "videos": [
+        {
+          "bvid": "BV1e18C6xEXQ",
+          "aid": 117137347714007,
+          "title": "【凡人修仙传189集】韩立秒杀天哭先生，再除慕兰间谍谷双蒲！恐怖实力震惊马姓老者等一干修士！",
+          "description": "【凡人修仙传189集】韩立秒杀天哭先生，再除慕兰间谍谷双蒲！恐怖实力震惊马姓老者等一干修士！",
+          "cover": "https://i1.hdslb.com/bfs/archive/337af852346b6d0696994056d6fdbd8980bcda75.jpg",
+          "pubTime": 1787374385000,
+          "duration": "25:43",
+          "play": 92139,
+          "videoUrl": "http://www.bilibili.com/video/av117137347714007",
+          "matched": true,
+          "ep": 189,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [
+            "韩立"
+          ],
+          "discoveredBy": "episode-search"
+        },
         {
           "bvid": "BV1M2uT6tEbm",
           "aid": 117058058720277,
@@ -39169,9 +39378,26 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1785556306201,
-      "lastSuccess": 1785556306201,
+      "lastFetched": 1787987199700,
+      "lastSuccess": 1787987199700,
       "videos": [
+        {
+          "bvid": "BV1oQ4k6QEja",
+          "aid": 117176640080080,
+          "title": "解说小米看凡人修仙传第189集",
+          "description": "-",
+          "cover": "https://i0.hdslb.com/bfs/archive/b8ca43c2861ae341edba02507175e6de55630ebe.jpg",
+          "pubTime": 1787973997000,
+          "duration": "17:9",
+          "play": 2399,
+          "videoUrl": "http://www.bilibili.com/video/av117176640080080",
+          "matched": true,
+          "ep": 189,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [],
+          "discoveredBy": "episode-search"
+        },
         {
           "bvid": "BV12LGu6TEq3",
           "aid": 117018112100212,
@@ -41272,9 +41498,28 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1785940831086,
-      "lastSuccess": 1785940831086,
+      "lastFetched": 1787987344001,
+      "lastSuccess": 1787987344001,
       "videos": [
+        {
+          "bvid": "BV16N4y1F7mF",
+          "aid": 899744579,
+          "title": "凡人修仙传64集：韩立初入乱星海，第一个冤大头出现，星宫双圣长这样？",
+          "description": "-",
+          "cover": "https://i1.hdslb.com/bfs/archive/8ea2351670638485def70846962ff2e63c74a044.jpg",
+          "pubTime": 1661043566000,
+          "duration": "2:40",
+          "play": 2557,
+          "videoUrl": "http://www.bilibili.com/video/av899744579",
+          "matched": true,
+          "ep": 64,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [
+            "韩立"
+          ],
+          "discoveredBy": "episode-search"
+        },
         {
           "bvid": "BV1Tr4y1j7r3",
           "aid": 771406252,
@@ -41775,9 +42020,28 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1786349106552,
-      "lastSuccess": 1786349106552,
+      "lastFetched": 1787987199700,
+      "lastSuccess": 1787987199700,
       "videos": [
+        {
+          "bvid": "BV1rg8y6uE6y",
+          "aid": 117137079339922,
+          "title": "【凡人修仙传189集】：韩立斩杀天哭先生，拔出奸细谷双蒲！【凡人官方二创大会】",
+          "description": "原著小说版剧情：韩立出战，以辟邪神雷斩杀慕兰的黑袍天哭先生，敌军暂退。奸细谷双蒲假意诬陷韩立，暗算秃眉大汉，却落入对方与韩立布下的圈套。谷双蒲施展失传附灵术化为蛇妖冲破禁制，韩立用乾蓝冰焰将其冻结，再以辟邪神雷灭其元婴。二人见识韩立实力心生敬畏，谋划次日抵御慕兰大军。",
+          "cover": "https://i0.hdslb.com/bfs/archive/7efebe28b87c5c071e88a39102c593c6242364b6.jpg",
+          "pubTime": 1787370181000,
+          "duration": "27:57",
+          "play": 190412,
+          "videoUrl": "http://www.bilibili.com/video/av117137079339922",
+          "matched": true,
+          "ep": 189,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [
+            "韩立"
+          ],
+          "discoveredBy": "episode-search"
+        },
         {
           "bvid": "BV1o9GM6HESr",
           "aid": 117018279870743,
@@ -42141,6 +42405,136 @@
       ],
       "recentTitles": [
         "陆道友是个屁的傀儡，制作组为什么要刻意安排这段戏|凡人187集拉片解析【凡人官方二创大会】"
+      ]
+    },
+    {
+      "uid": "11138465",
+      "name": "清明™",
+      "alias": [],
+      "note": "按集搜索发现",
+      "source": "search-backfill",
+      "error": null,
+      "lastFetched": 1787987199700,
+      "lastSuccess": 1787987199700,
+      "videos": [
+        {
+          "bvid": "BV1kc4k6dE2H",
+          "aid": 117177193601008,
+          "title": "凡人修仙传189话吐槽",
+          "description": "饭点打开凡人打算美美欣赏一集，这改的我饭都吃不下去了，赶紧发个吐槽，希望大家一起友善讨论，这波改编有合理性吗，后续制作组会怎么填他们的改编。从小说追到动漫，从20年追到现在，还是很喜欢凡人修仙传的制作的，改编不是乱编，戏说不是胡说，你得合理改编啊，吐槽归吐槽，还是希望凡人愈来愈好的",
+          "cover": "https://i1.hdslb.com/bfs/archive/41ce686a4fc50cecd44351aec5d6652baec274c1.jpg",
+          "pubTime": 1787982335000,
+          "duration": "2:17",
+          "play": 683,
+          "videoUrl": "http://www.bilibili.com/video/av117177193601008",
+          "matched": true,
+          "ep": 189,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [],
+          "discoveredBy": "episode-search"
+        }
+      ],
+      "recentTitles": [
+        "凡人修仙传189话吐槽"
+      ]
+    },
+    {
+      "uid": "3706935362718117",
+      "name": "漫步解说",
+      "alias": [],
+      "note": "按集搜索发现",
+      "source": "search-backfill",
+      "error": null,
+      "lastFetched": 1787987199700,
+      "lastSuccess": 1787987199700,
+      "videos": [
+        {
+          "bvid": "BV1oVtT69E6x",
+          "aid": 117174257585632,
+          "title": "《凡人修仙传》第189集预设面临十大硬伤！可怕根本圆不回来！",
+          "description": "-",
+          "cover": "https://i0.hdslb.com/bfs/archive/4daec4bfee50a6125c8cb3b9d9221fbb46058a5a.jpg",
+          "pubTime": 1787937564000,
+          "duration": "2:47",
+          "play": 1273,
+          "videoUrl": "http://www.bilibili.com/video/av117174257585632",
+          "matched": true,
+          "ep": 189,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [],
+          "discoveredBy": "episode-search"
+        }
+      ],
+      "recentTitles": [
+        "《凡人修仙传》第189集预设面临十大硬伤！可怕根本圆不回来！"
+      ]
+    },
+    {
+      "uid": "323321748",
+      "name": "善全观世",
+      "alias": [],
+      "note": "按集搜索发现",
+      "source": "search-backfill",
+      "error": null,
+      "lastFetched": 1787987199700,
+      "lastSuccess": 1787987199700,
+      "videos": [
+        {
+          "bvid": "BV1mf8F6oEhn",
+          "aid": 117126039865243,
+          "title": "《凡人修仙传》第189集：韩立斩天哭，诛双蒲",
+          "description": "-",
+          "cover": "https://i0.hdslb.com/bfs/archive/e5bafaa95f33c6b4645f6ca9b8b81156dfd829c0.jpg",
+          "pubTime": 1787972400000,
+          "duration": "9:50",
+          "play": 531,
+          "videoUrl": "http://www.bilibili.com/video/av117126039865243",
+          "matched": true,
+          "ep": 189,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [
+            "韩立"
+          ],
+          "discoveredBy": "episode-search"
+        }
+      ],
+      "recentTitles": [
+        "《凡人修仙传》第189集：韩立斩天哭，诛双蒲"
+      ]
+    },
+    {
+      "uid": "697167043",
+      "name": "南枫织我意",
+      "alias": [],
+      "note": "按集搜索发现",
+      "source": "search-backfill",
+      "error": null,
+      "lastFetched": 1787987199700,
+      "lastSuccess": 1787987199700,
+      "videos": [
+        {
+          "bvid": "BV1eo4k6EE9o",
+          "aid": 117176858119000,
+          "title": "凡人 189 集完整解析：开篇直接死斗！斩杀天哭只是幌子，内奸才是最大危机",
+          "description": "整场战斗，哪怕手握属性碾压的底牌，他依旧步步试探，绝不无脑硬冲。打赢之后，不沉醉众人惊叹，神识依旧监视身边潜藏的危险。韩老魔从来不是什么热血英雄，权衡利弊，保存自身，看清明枪，提防暗箭，这才是他的生存之道。 斩杀天哭，仅仅只是黄龙山大战其中一战。慕兰联军主力还在，内部内奸虎视眈眈，更加凶险的风波，还在等待韩立。\n以上就是凡人修仙传 189 集完整逐帧解析。一集动画，一半是酣畅淋漓的元婴斗法，一半是同盟之间人心博弈，这也是凡人修仙传区别于其他修仙动画独有的魅力。",
+          "cover": "https://i2.hdslb.com/bfs/archive/9366053c8676aa7b30b46ac9af1bc7e3af2997a2.jpg",
+          "pubTime": 1787977297000,
+          "duration": "9:15",
+          "play": 4185,
+          "videoUrl": "http://www.bilibili.com/video/av117176858119000",
+          "matched": true,
+          "ep": 189,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [],
+          "discoveredBy": "episode-search"
+        }
+      ],
+      "recentTitles": [
+        "凡人 189 集完整解析：开篇直接死斗！斩杀天哭只是幌子，内奸才是最大危机"
       ]
     }
   ]
