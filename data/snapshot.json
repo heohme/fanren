@@ -1,5 +1,5 @@
 {
-  "generatedAt": 1788029647348,
+  "generatedAt": 1788037330409,
   "series": {
     "title": "凡人修仙传",
     "seasonId": "28747",
@@ -3631,9 +3631,10 @@
         "利维坦LWT"
       ],
       "note": "经典解析向",
+      "source": "search-backfill",
       "error": "all retries failed",
-      "lastFetched": 1788029405231,
-      "lastSuccess": 1788027901866,
+      "lastFetched": 1788037330408,
+      "lastSuccess": 1788037330408,
       "videos": [
         {
           "bvid": "BV1T94C6gE5M",
@@ -5805,7 +5806,7 @@
           "cover": "https://i0.hdslb.com/bfs/archive/aef7a13ed97ed4dc7b588a8e967a75f85d04f2cc.jpg",
           "pubTime": 1663504340000,
           "duration": "8:22",
-          "play": 621053,
+          "play": 621118,
           "videoUrl": "http://www.bilibili.com/video/av345676251",
           "matched": true,
           "ep": 68,
@@ -5824,7 +5825,7 @@
           "cover": "https://i2.hdslb.com/bfs/archive/cab79726c05ebc98ce4d6ba44106990de1b9709c.jpg",
           "pubTime": 1662901676000,
           "duration": "8:28",
-          "play": 632460,
+          "play": 632478,
           "videoUrl": "http://www.bilibili.com/video/av430448648",
           "matched": true,
           "ep": 67,
@@ -5879,7 +5880,7 @@
           "cover": "https://i0.hdslb.com/bfs/archive/bde2325848afca981373f9532439932c62bb19af.jpg",
           "pubTime": 1661084033000,
           "duration": "7:52",
-          "play": 498584,
+          "play": 498602,
           "videoUrl": "http://www.bilibili.com/video/av217222674",
           "matched": true,
           "ep": 64,
@@ -5934,7 +5935,7 @@
           "cover": "https://i0.hdslb.com/bfs/archive/75adcd024b2730009c3ce3922c3463eed0cb25ba.jpg",
           "pubTime": 1658665314000,
           "duration": "8:16",
-          "play": 499295,
+          "play": 499309,
           "videoUrl": "http://www.bilibili.com/video/av813762004",
           "matched": true,
           "ep": 60,
@@ -6027,7 +6028,7 @@
           "cover": "https://i1.hdslb.com/bfs/archive/c3f907eb6160da9e42eace57f3da26fd819430be.jpg",
           "pubTime": 1655644788000,
           "duration": "10:43",
-          "play": 808938,
+          "play": 810064,
           "videoUrl": "http://www.bilibili.com/video/av512726010",
           "matched": true,
           "ep": 55,
@@ -6044,7 +6045,7 @@
           "cover": "https://i1.hdslb.com/bfs/archive/34abd115482fed8d37ffaa8cd428432faf339ef3.jpg",
           "pubTime": 1655036735000,
           "duration": "9:43",
-          "play": 844983,
+          "play": 845014,
           "videoUrl": "http://www.bilibili.com/video/av257458820",
           "matched": true,
           "ep": 54,
@@ -6063,7 +6064,7 @@
           "cover": "https://i0.hdslb.com/bfs/archive/ba8e6e263ee0f37b646d042c0069fad73c9a8383.jpg",
           "pubTime": 1654434826000,
           "duration": "9:59",
-          "play": 579692,
+          "play": 579724,
           "videoUrl": "http://www.bilibili.com/video/av982158404",
           "matched": true,
           "ep": 53,
@@ -6080,7 +6081,7 @@
           "cover": "https://i0.hdslb.com/bfs/archive/f04555c034df276284210ba4e865dd1431a036ce.jpg",
           "pubTime": 1653828801000,
           "duration": "10:1",
-          "play": 694071,
+          "play": 694138,
           "videoUrl": "http://www.bilibili.com/video/av469598545",
           "matched": true,
           "ep": 52,
@@ -6898,10 +6899,11 @@
       "uid": "57868863",
       "name": "白马猴子",
       "alias": [],
-      "note": "",
+      "note": "按集搜索发现",
+      "source": "search-backfill",
       "error": null,
-      "lastFetched": 1788029466120,
-      "lastSuccess": 1788029466120,
+      "lastFetched": 1788037330408,
+      "lastSuccess": 1788037330408,
       "videos": [
         {
           "bvid": "BV1yW416BEVR",
@@ -9119,7 +9121,7 @@
           "cover": "https://i0.hdslb.com/bfs/archive/a639978d1a5d743c8791dcd0066beffa172ed462.jpg",
           "pubTime": 1662897945000,
           "duration": "10:24",
-          "play": 465427,
+          "play": 465432,
           "videoUrl": "http://www.bilibili.com/video/av645483880",
           "matched": true,
           "ep": 67,
@@ -9165,6 +9167,25 @@
           "isCompilation": false,
           "contentType": "episode",
           "characters": [],
+          "discoveredBy": "episode-search"
+        },
+        {
+          "bvid": "BV1he4y1f721",
+          "aid": 557135157,
+          "title": "错综复杂的乱星海形势 韩立即将遭劫难《凡人修仙传》64集逐帧解析",
+          "description": "视频都是个人主观看法 若有不同见解 还请大家理性讨论\n\n特别感谢本视频的配音小哥@鲜氣菌",
+          "cover": "https://i2.hdslb.com/bfs/archive/a571abf84d0837851b7e572b5875e5f070abd500.jpg",
+          "pubTime": 1661084082000,
+          "duration": "8:41",
+          "play": 118570,
+          "videoUrl": "http://www.bilibili.com/video/av557135157",
+          "matched": true,
+          "ep": 64,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [
+            "韩立"
+          ],
           "discoveredBy": "episode-search"
         },
         {
@@ -9243,6 +9264,42 @@
           "discoveredBy": "episode-search"
         },
         {
+          "bvid": "BV1zB4y1s7WX",
+          "aid": 600186858,
+          "title": "敬最帅的师傅李化元！唯求念头通达！ 《凡人修仙传》55集逐帧解析",
+          "description": "BGM:一生所爱\n特别感谢本视频的配音小哥@鲜氣菌",
+          "cover": "https://i1.hdslb.com/bfs/archive/2974cfe470d52edb4c8678463031d4c462e0f99e.jpg",
+          "pubTime": 1655648044000,
+          "duration": "9:47",
+          "play": 112137,
+          "videoUrl": "http://www.bilibili.com/video/av600186858",
+          "matched": true,
+          "ep": 55,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [],
+          "discoveredBy": "episode-search"
+        },
+        {
+          "bvid": "BV1GY4y147G4",
+          "aid": 639877417,
+          "title": "神仙大战？与我无缘！韩立：溜了溜了《凡人修仙传》54集逐帧解析",
+          "description": "解析不排除有过度解读的地方 还请大家理性讨论~\n\n特别感谢本视频的配音小哥@鲜氣菌",
+          "cover": "https://i1.hdslb.com/bfs/archive/7df7b4acbc6704abe38d83fb87db7d4303920c92.jpg",
+          "pubTime": 1655042678000,
+          "duration": "10:10",
+          "play": 232708,
+          "videoUrl": "http://www.bilibili.com/video/av639877417",
+          "matched": true,
+          "ep": 54,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [
+            "韩立"
+          ],
+          "discoveredBy": "episode-search"
+        },
+        {
           "bvid": "BV1mt4y1p7Mh",
           "aid": 982142269,
           "title": "人命贱如蝼蚁！全新角度解读令狐老祖的弃子计划！《凡人修仙传》53集逐帧解析",
@@ -9250,13 +9307,32 @@
           "cover": "https://i2.hdslb.com/bfs/archive/00df3156df841fd11ce2375a0df7b0248aacc44e.jpg",
           "pubTime": 1654439426000,
           "duration": "11:54",
-          "play": 256088,
+          "play": 256682,
           "videoUrl": "http://www.bilibili.com/video/av982142269",
           "matched": true,
           "ep": 53,
           "isCompilation": false,
           "contentType": "episode",
           "characters": [],
+          "discoveredBy": "episode-search"
+        },
+        {
+          "bvid": "BV1jv4y1w7hP",
+          "aid": 554557499,
+          "title": "令狐老祖真的不在乎黄枫谷存亡吗？带你看懂令狐的千层套路《凡人修仙传》52集逐帧解析",
+          "description": "解析不排除有过度解读的地方 还请大家理性讨论~\n\n特别感谢本视频的配音小哥@鲜氣菌",
+          "cover": "https://i0.hdslb.com/bfs/archive/80778de339f8bbee44e7efa493e7ab1daf22a5d7.jpg",
+          "pubTime": 1653832135000,
+          "duration": "8:13",
+          "play": 167832,
+          "videoUrl": "http://www.bilibili.com/video/av554557499",
+          "matched": true,
+          "ep": 52,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [
+            "黄枫谷"
+          ],
           "discoveredBy": "episode-search"
         }
       ],
@@ -12110,9 +12186,10 @@
       "name": "飞天心宏",
       "alias": [],
       "note": "命运流深度解读",
+      "source": "search-backfill",
       "error": null,
-      "lastFetched": 1788029566421,
-      "lastSuccess": 1788029566421,
+      "lastFetched": 1788037151079,
+      "lastSuccess": 1788037151079,
       "videos": [
         {
           "bvid": "BV1yP426gEZz",
@@ -13486,6 +13563,26 @@
           "discoveredBy": "episode-search"
         },
         {
+          "bvid": "BV1BP4y1Z7QF",
+          "aid": 900402483,
+          "title": "大战将起，紫灵、文思月还有风希纷纷登场！凡人修仙传动漫67集点评",
+          "description": "然后就是裂风兽风希了，这一集出场的人还真不少。风希更是提前出场了近一百五十年，按照日期来算的话，现在他应该还是八级妖兽，还没进阶到九级，八级妖兽相当于元婴初期。\n能判断出是风希，自然还是因为他那句“既然还会我族的匿风术”，无名敛气术正是出自妖族。\n风希来到魁星岛就比较有意思了，因为高阶妖兽来内星海是相当危险的，内星海元婴中期，元婴后期都有，一旦被发现，那就是必死无疑，在内星海妖兽想逃都没地方逃。\n他来的目的，大体已经知道了，是为了镇妖塔下面的一位老家伙，在风希口中的老家伙，定能不会低于八级妖兽。",
+          "cover": "https://i1.hdslb.com/bfs/archive/1206f4a51a77b7b35bb9c28ad61b13ac252f1d36.jpg",
+          "pubTime": 1662897505000,
+          "duration": "7:45",
+          "play": 33213,
+          "videoUrl": "http://www.bilibili.com/video/av900402483",
+          "matched": true,
+          "ep": 67,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [
+            "紫灵",
+            "风希"
+          ],
+          "discoveredBy": "episode-search"
+        },
+        {
           "bvid": "BV1od4y1N7VH",
           "aid": 344347024,
           "title": "韩立为何会与南宫屏产生暧昧？你看懂了吗？凡人修仙传动漫62集点评",
@@ -13520,6 +13617,25 @@
           "contentType": "episode",
           "characters": [
             "韩立"
+          ],
+          "discoveredBy": "episode-search"
+        },
+        {
+          "bvid": "BV1oa411K7W8",
+          "aid": 216305204,
+          "title": "南宫婉上线的心理需求大于剧情故事，凡人修仙传动漫60集点评",
+          "description": "与韩立一起历经风霜慢慢成长的，不是女主是红颜。这就是典型的入梦共枕眠，风雨难相逢，再聚首早已是沧海变桑田。\n你问我为何独爱南宫婉？ 只因她最早占据了一个人的内心，在韩立的修仙路上，可以没有爱情，可以没有欲望。\n但是每每触景生情，想起一个女人的时候，那就是南宫婉的倩影，这种感觉便是记忆里的爱情。\n而这种淡淡的感觉，影响着一遍又一遍重读原著的我们，似乎“南宫婉”三个字代表的是心心念叨的爱人。\n南宫婉这个名字，南宫婉这个女人，代表着漫漫修仙路上，斩断三千愁丝灭浮尘，独留一念永恒寄伊人。",
+          "cover": "https://i2.hdslb.com/bfs/archive/81b343453a7ddd08cf78bc2914dc5a48b93a0f32.jpg",
+          "pubTime": 1658673379000,
+          "duration": "7:3",
+          "play": 63336,
+          "videoUrl": "http://www.bilibili.com/video/av216305204",
+          "matched": true,
+          "ep": 60,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [
+            "南宫婉"
           ],
           "discoveredBy": "episode-search"
         }
@@ -31320,8 +31436,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1786715425034,
-      "lastSuccess": 1786715425034,
+      "lastFetched": 1788037282130,
+      "lastSuccess": 1788037282130,
       "videos": [
         {
           "bvid": "BV1nfBsBeEnz",
@@ -31505,7 +31621,7 @@
           "cover": "https://i2.hdslb.com/bfs/archive/ce46fd620283543b159fc48e9dd90736d72b3ec6.jpg",
           "pubTime": 1723544700000,
           "duration": "10:17",
-          "play": 97676,
+          "play": 99346,
           "videoUrl": "http://www.bilibili.com/video/av1406305077",
           "matched": true,
           "ep": 67,
@@ -31552,6 +31668,25 @@
           "contentType": "episode",
           "characters": [
             "韩立",
+            "灵界"
+          ],
+          "discoveredBy": "episode-search"
+        },
+        {
+          "bvid": "BV1bT42167Vz",
+          "aid": 1706350059,
+          "title": "凡人修仙传灵界第53集-收徒，新青元剑诀",
+          "description": "",
+          "cover": "https://i0.hdslb.com/bfs/archive/bc39fbab3bab9dc33a19c263e00b89fc6bcd8830.jpg",
+          "pubTime": 1722070800000,
+          "duration": "10:37",
+          "play": 104581,
+          "videoUrl": "http://www.bilibili.com/video/av1706350059",
+          "matched": true,
+          "ep": 53,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [
             "灵界"
           ],
           "discoveredBy": "episode-search"
@@ -33242,8 +33377,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1786072966768,
-      "lastSuccess": 1786072966768,
+      "lastFetched": 1788037016116,
+      "lastSuccess": 1788037016116,
       "videos": [
         {
           "bvid": "BV1iK75z4EMG",
@@ -33277,6 +33412,43 @@
           "isCompilation": false,
           "contentType": "episode",
           "characters": [],
+          "discoveredBy": "episode-search"
+        },
+        {
+          "bvid": "BV1je411K7yY",
+          "aid": 260861381,
+          "title": "《凡人修仙传》68集补充解析：对战婴鲤兽打戏解析、逐帧细看法阵图案、聂某等龙套娱乐讲解。",
+          "description": "法阵图案设计实属良心！！！\n扣细节扣得眼睛都花了，得剪辑一会儿休息一会儿，陆陆续续弄好的。\n关于制作组的小篆方面的细节，我以前视频也有：64集预告、49集奇虫榜、45集阵法文字。",
+          "cover": "https://i1.hdslb.com/bfs/archive/016e8e6b4e519a6617b1af18f3f290f15f1fcfe0.jpg",
+          "pubTime": 1663741142000,
+          "duration": "12:35",
+          "play": 28353,
+          "videoUrl": "http://www.bilibili.com/video/av260861381",
+          "matched": true,
+          "ep": 68,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [],
+          "discoveredBy": "episode-search"
+        },
+        {
+          "bvid": "BV1pW4y1q7jq",
+          "aid": 943165079,
+          "title": "《凡人修仙传》68集解析：小紫灵身后有危险；韩立为什么讨厌组队？",
+          "description": "",
+          "cover": "https://i2.hdslb.com/bfs/archive/3cb0f418fecdd5508961db645f7e8de3371292c7.jpg",
+          "pubTime": 1663511406000,
+          "duration": "9:2",
+          "play": 41329,
+          "videoUrl": "http://www.bilibili.com/video/av943165079",
+          "matched": true,
+          "ep": 68,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [
+            "韩立",
+            "紫灵"
+          ],
           "discoveredBy": "episode-search"
         },
         {
@@ -35325,8 +35497,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1787955968261,
-      "lastSuccess": 1787955968261,
+      "lastFetched": 1788037186870,
+      "lastSuccess": 1788037186870,
       "videos": [
         {
           "bvid": "BV1CjXXY4Ewc",
@@ -35397,6 +35569,23 @@
           "videoUrl": "http://www.bilibili.com/video/av773446959",
           "matched": true,
           "ep": 69,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [],
+          "discoveredBy": "episode-search"
+        },
+        {
+          "bvid": "BV1ng411X7bi",
+          "aid": 512684600,
+          "title": "顶级博弈，一辈子总要帅一次的师父！凡人修仙传第55集解析",
+          "description": "希望帮助道友念头通达，求关注+三连哇！",
+          "cover": "https://i1.hdslb.com/bfs/archive/a27032c79cc17a3a899e6cd7a9ea650fb595dcd9.jpg",
+          "pubTime": 1655636283000,
+          "duration": "8:15",
+          "play": 33519,
+          "videoUrl": "http://www.bilibili.com/video/av512684600",
+          "matched": true,
+          "ep": 55,
           "isCompilation": false,
           "contentType": "episode",
           "characters": [],
@@ -38336,8 +38525,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1786715149461,
-      "lastSuccess": 1786715149461,
+      "lastFetched": 1788037063313,
+      "lastSuccess": 1788037063313,
       "videos": [
         {
           "bvid": "BV11i42167J6",
@@ -38644,7 +38833,7 @@
           "cover": "https://i0.hdslb.com/bfs/archive/b3d7b518b50d79d407593a8fd89830aa6317e052.jpg",
           "pubTime": 1662889262000,
           "duration": "12:20",
-          "play": 71432,
+          "play": 71440,
           "videoUrl": "http://www.bilibili.com/video/av472967304",
           "matched": true,
           "ep": 67,
@@ -41132,8 +41321,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1787955838310,
-      "lastSuccess": 1787955838310,
+      "lastFetched": 1788037063313,
+      "lastSuccess": 1788037063313,
       "videos": [
         {
           "bvid": "BV1wR4y1R72e",
@@ -41150,6 +41339,27 @@
           "isCompilation": false,
           "contentType": "episode",
           "characters": [],
+          "discoveredBy": "episode-search"
+        },
+        {
+          "bvid": "BV1G24y1Z7pa",
+          "aid": 687990368,
+          "title": "《凡人修仙传》动画第67集，风希爸爸连送大礼，墨彩环成功转世小紫灵！",
+          "description": "每周1·3·5更主线,4.5.周末更新动漫杂谈。\n《凡人修仙传》原著作者：忘语",
+          "cover": "https://i1.hdslb.com/bfs/archive/a58b31107031890769d93bd983ad2c995b25196c.jpg",
+          "pubTime": 1662891211000,
+          "duration": "6:55",
+          "play": 32288,
+          "videoUrl": "http://www.bilibili.com/video/av687990368",
+          "matched": true,
+          "ep": 67,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [
+            "墨彩环",
+            "紫灵",
+            "风希"
+          ],
           "discoveredBy": "episode-search"
         },
         {
@@ -41232,8 +41442,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1786455908680,
-      "lastSuccess": 1786455908680,
+      "lastFetched": 1788037063313,
+      "lastSuccess": 1788037063313,
       "videos": [
         {
           "bvid": "BV1qB4y137fJ",
@@ -41243,7 +41453,7 @@
           "cover": "https://i1.hdslb.com/bfs/archive/1122124e6b54729ed78bbbc6121351c0ecdf2976.jpg",
           "pubTime": 1662898670000,
           "duration": "5:6",
-          "play": 194735,
+          "play": 195345,
           "videoUrl": "http://www.bilibili.com/video/av602914990",
           "matched": true,
           "ep": 67,
@@ -42024,9 +42234,64 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1786694126402,
-      "lastSuccess": 1786694126402,
+      "lastFetched": 1788037111060,
+      "lastSuccess": 1788037111060,
       "videos": [
+        {
+          "bvid": "BV1dG4y1q7aP",
+          "aid": 815642297,
+          "title": "凡人68集解析 周媛夫人！你也不想紫灵被欺负吧——【凡人修仙传】",
+          "description": "",
+          "cover": "https://i2.hdslb.com/bfs/archive/9b957b43ba2da8c334400876a2cf3a086a43e3c4.jpg",
+          "pubTime": 1663498832000,
+          "duration": "5:52",
+          "play": 6784,
+          "videoUrl": "http://www.bilibili.com/video/av815642297",
+          "matched": true,
+          "ep": 68,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [
+            "紫灵"
+          ],
+          "discoveredBy": "episode-search"
+        },
+        {
+          "bvid": "BV1NB4y1n75q",
+          "aid": 602995215,
+          "title": "凡人67集剧情解析 文樯叛变  韩立或成乱星海第一傻白甜——【凡人修仙传】",
+          "description": "",
+          "cover": "https://i2.hdslb.com/bfs/archive/ca0b440bb5103cff64512260729bd16242f76c3c.jpg",
+          "pubTime": 1662898696000,
+          "duration": "7:22",
+          "play": 34034,
+          "videoUrl": "http://www.bilibili.com/video/av602995215",
+          "matched": true,
+          "ep": 67,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [
+            "韩立"
+          ],
+          "discoveredBy": "episode-search"
+        },
+        {
+          "bvid": "BV1Td4y1N7mQ",
+          "aid": 344711929,
+          "title": "凡人64集剧情解析 乌丑的现身是极阴代打没跑了——【凡人修仙传】",
+          "description": "",
+          "cover": "https://i1.hdslb.com/bfs/archive/cd416a379903a0fc2040a681733fb2a7cb8c3410.jpg",
+          "pubTime": 1661088315000,
+          "duration": "5:42",
+          "play": 16707,
+          "videoUrl": "http://www.bilibili.com/video/av344711929",
+          "matched": true,
+          "ep": 64,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [],
+          "discoveredBy": "episode-search"
+        },
         {
           "bvid": "BV1EN4y1G7yX",
           "aid": 897825234,
@@ -42056,8 +42321,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1786521420226,
-      "lastSuccess": 1786521420226,
+      "lastFetched": 1788037234836,
+      "lastSuccess": 1788037234836,
       "videos": [
         {
           "bvid": "BV1q34y1W7qJ",
@@ -42071,6 +42336,25 @@
           "videoUrl": "http://www.bilibili.com/video/av812769576",
           "matched": true,
           "ep": 56,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [
+            "结丹"
+          ],
+          "discoveredBy": "episode-search"
+        },
+        {
+          "bvid": "BV1xT411G7KM",
+          "aid": 470062307,
+          "title": "结丹大战，筑基团战，这TM的才叫修仙者的战斗！——凡人修仙传54话",
+          "description": "-",
+          "cover": "https://i1.hdslb.com/bfs/archive/78229b45d0086c61af8fca18b7cb917b29304d5c.jpg",
+          "pubTime": 1655247856000,
+          "duration": "5:44",
+          "play": 4135,
+          "videoUrl": "http://www.bilibili.com/video/av470062307",
+          "matched": true,
+          "ep": 54,
           "isCompilation": false,
           "contentType": "episode",
           "characters": [
@@ -42637,6 +42921,138 @@
       ],
       "recentTitles": [
         "凡人 189 集完整解析：开篇直接死斗！斩杀天哭只是幌子，内奸才是最大危机"
+      ]
+    },
+    {
+      "uid": "293673997",
+      "name": "二啦不二",
+      "alias": [],
+      "note": "按集搜索发现",
+      "source": "search-backfill",
+      "error": null,
+      "lastFetched": 1788037330408,
+      "lastSuccess": 1788037330408,
+      "videos": [
+        {
+          "bvid": "BV12L4y1N7VU",
+          "aid": 855076950,
+          "title": "600W追番！帅炸了《凡人修仙传》55集剧情解析",
+          "description": "希望李化元师傅，念头通达",
+          "cover": "https://i2.hdslb.com/bfs/archive/c35c150f9b318dd7eff7d3e98a137083b109746f.jpg",
+          "pubTime": 1655619012000,
+          "duration": "6:28",
+          "play": 37329,
+          "videoUrl": "http://www.bilibili.com/video/av855076950",
+          "matched": true,
+          "ep": 55,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [],
+          "discoveredBy": "episode-search"
+        },
+        {
+          "bvid": "BV1zr4y1G7bJ",
+          "aid": 769715544,
+          "title": "8亿播放！顶级改编《凡人修仙传》53集剧情解析",
+          "description": "这集的改编太棒了吧",
+          "cover": "https://i1.hdslb.com/bfs/archive/def500ed2accdb192a40311fd9d1b03a819d9e7f.jpg",
+          "pubTime": 1654407603000,
+          "duration": "5:15",
+          "play": 46423,
+          "videoUrl": "http://www.bilibili.com/video/av769715544",
+          "matched": true,
+          "ep": 53,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [],
+          "discoveredBy": "episode-search"
+        },
+        {
+          "bvid": "BV1dW4y1k7CT",
+          "aid": 939524992,
+          "title": "点赞投币千万，念头通达！《凡人修仙传》52集剧情解析",
+          "description": "对于令狐那段，我害怕剧透，就不多说了\n毕竟令狐的安排真的很精彩哈哈哈哈\n还是希望给各位道友第一次的体验\n我准备到这段结束，再从头到尾盘一遍\n给大家看看令狐到底有多精，哈哈哈哈",
+          "cover": "https://i1.hdslb.com/bfs/archive/46875d28ec2347965ab482bbdd6dbd7f8a8b4763.jpg",
+          "pubTime": 1653804448000,
+          "duration": "6:0",
+          "play": 22859,
+          "videoUrl": "http://www.bilibili.com/video/av939524992",
+          "matched": true,
+          "ep": 52,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [],
+          "discoveredBy": "episode-search"
+        }
+      ],
+      "recentTitles": [
+        "600W追番！帅炸了《凡人修仙传》55集剧情解析"
+      ]
+    },
+    {
+      "uid": "12587667",
+      "name": "爱吃东京BBQ的李梅",
+      "alias": [],
+      "note": "按集搜索发现",
+      "source": "search-backfill",
+      "error": null,
+      "lastFetched": 1788037186870,
+      "lastSuccess": 1788037186870,
+      "videos": [
+        {
+          "bvid": "BV1bY411T7oY",
+          "aid": 257638981,
+          "title": "什么叫文武两开花？来看看凡人修仙传吧【原著风格看动画】-55集解析",
+          "description": "",
+          "cover": "https://i0.hdslb.com/bfs/archive/d3c70c00fb8bdcbe70d190f1ffab92b347d85e16.jpg",
+          "pubTime": 1655710039000,
+          "duration": "12:20",
+          "play": 52621,
+          "videoUrl": "http://www.bilibili.com/video/av257638981",
+          "matched": true,
+          "ep": 55,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [],
+          "discoveredBy": "episode-search"
+        }
+      ],
+      "recentTitles": [
+        "什么叫文武两开花？来看看凡人修仙传吧【原著风格看动画】-55集解析"
+      ]
+    },
+    {
+      "uid": "701508915",
+      "name": "小闲漫剧馆",
+      "alias": [],
+      "note": "按集搜索发现",
+      "source": "search-backfill",
+      "error": null,
+      "lastFetched": 1788037330408,
+      "lastSuccess": 1788037330408,
+      "videos": [
+        {
+          "bvid": "BV1tg411R79q",
+          "aid": 512055419,
+          "title": "凡人修仙传52解析：联军大败、黄枫谷即将启动撤离方案",
+          "description": "凡人修仙传52解析：联军大败、黄枫谷即将启动撤离方案",
+          "cover": "https://i2.hdslb.com/bfs/archive/bae38be76ca62420daed4cf128f8923125ad5445.jpg",
+          "pubTime": 1653831600000,
+          "duration": "3:16",
+          "play": 890,
+          "videoUrl": "http://www.bilibili.com/video/av512055419",
+          "matched": true,
+          "ep": 52,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [
+            "黄枫谷"
+          ],
+          "discoveredBy": "episode-search"
+        }
+      ],
+      "recentTitles": [
+        "凡人修仙传52解析：联军大败、黄枫谷即将启动撤离方案"
       ]
     }
   ]
