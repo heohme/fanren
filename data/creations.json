@@ -1,5 +1,5 @@
 {
-  "generatedAt": 1788199639120,
+  "generatedAt": 1788245083648,
   "mode": "fresh",
   "taxonomyVersion": 2,
   "policyVersion": 1,
@@ -17,7 +17,7 @@
     "剧情二创": 20,
     "趣味整活": 18,
     "混剪手书": 6,
-    "音乐配音": 12,
+    "音乐配音": 11,
     "同人创作": 10
   },
   "lanes": {
@@ -42,13 +42,12 @@
     "hidden_gem": [
       "BV1uqMg6TERj",
       "BV1RoM46tEQ8",
-      "BV17aKw6DEFh",
       "BV1KTMH64EA7",
+      "BV17aKw6DEFh",
       "BV176Tx64EXK",
       "BV1jAM86AEVP",
       "BV1o77n6AE2T",
       "BV1L8TK6aEcQ",
-      "BV1gG3U6UEJg",
       "BV1EJK86YEjm",
       "BV1c3ga6HEFR",
       "BV1reTq6FEbD",
@@ -304,7 +303,7 @@
       "score": 84,
       "lane": "event_spotlight",
       "firstSeenAt": 1785560340526,
-      "lastSeenAt": 1788199639120,
+      "lastSeenAt": 1788245083648,
       "sourceQueries": [
         "凡人修仙传 二创",
         "凡人官方二创大会",
@@ -338,7 +337,7 @@
       "score": 82,
       "lane": "new_creator_watch",
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1788199639120,
+      "lastSeenAt": 1788245083648,
       "sourceQueries": [
         "legacy-published",
         "凡人修仙传 鬼畜 整活",
@@ -570,7 +569,7 @@
       "score": 80,
       "lane": "archive",
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1788199639120,
+      "lastSeenAt": 1788245083648,
       "sourceQueries": [
         "凡人修仙传 鬼畜 整活",
         "凡人修仙传 二创",
@@ -709,7 +708,7 @@
       "score": 79,
       "lane": "event_spotlight",
       "firstSeenAt": 1785244584356,
-      "lastSeenAt": 1788199639120,
+      "lastSeenAt": 1788245083648,
       "sourceQueries": [
         "凡人官方二创大会",
         "凡人修仙传 人物志 设定"
@@ -741,7 +740,7 @@
       "score": 78,
       "lane": "hidden_gem",
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1788199639120,
+      "lastSeenAt": 1788245083648,
       "sourceQueries": [
         "legacy-published",
         "凡人修仙传 鬼畜 整活",
@@ -874,7 +873,7 @@
       "score": 77,
       "lane": "hidden_gem",
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1788199639120,
+      "lastSeenAt": 1788245083648,
       "sourceQueries": [
         "legacy-published",
         "凡人修仙传 鬼畜 整活"
@@ -882,6 +881,37 @@
       "discoveryModes": [
         "history",
         "fresh"
+      ]
+    },
+    {
+      "id": "BV1KTMH64EA7",
+      "bvid": "BV1KTMH64EA7",
+      "title": "用这217年结婴风霜重新填词《年轮》【凡人官方二创大会】",
+      "description": "作品类型：填词二创\n原曲：年轮\n策划：玖琉の世界 \n混音：星辰_up \n演唱：阿陶耶\n剪辑：非鱼_Fy\n终究平凡不平庸！",
+      "cover": "https://i2.hdslb.com/bfs/archive/901ed6af106493a6d19f84aac7c7e7099b3e83bf.jpg",
+      "url": "http://www.bilibili.com/video/av116890135435884",
+      "upId": "625186072",
+      "upName": "玖琉の世界",
+      "play": 7938,
+      "pubTime": 1783677900000,
+      "duration": "3:47",
+      "category": "音乐配音",
+      "confidence": 0.9,
+      "classificationSource": "model",
+      "classificationReason": "参与凡人官方二创大会的填词类音乐二次创作",
+      "contentNature": "secondary_creation",
+      "originality": "deep_adaptation",
+      "eventTag": "凡人官方二创大会",
+      "creatorPotential": "observe",
+      "score": 77,
+      "lane": "hidden_gem",
+      "firstSeenAt": 1788166338588,
+      "lastSeenAt": 1788166338588,
+      "sourceQueries": [
+        "凡人修仙传 配音 翻唱"
+      ],
+      "discoveryModes": [
+        "history"
       ]
     },
     {
@@ -938,43 +968,12 @@
       "score": 76,
       "lane": "new_creator_watch",
       "firstSeenAt": 1785560340526,
-      "lastSeenAt": 1788199639120,
+      "lastSeenAt": 1788245083648,
       "sourceQueries": [
         "凡人修仙传 人物志 设定"
       ],
       "discoveryModes": [
         "fresh"
-      ]
-    },
-    {
-      "id": "BV1KTMH64EA7",
-      "bvid": "BV1KTMH64EA7",
-      "title": "用这217年结婴风霜重新填词《年轮》【凡人官方二创大会】",
-      "description": "作品类型：填词二创\n原曲：年轮\n策划：玖琉の世界 \n混音：星辰_up \n演唱：阿陶耶\n剪辑：非鱼_Fy\n终究平凡不平庸！",
-      "cover": "https://i2.hdslb.com/bfs/archive/901ed6af106493a6d19f84aac7c7e7099b3e83bf.jpg",
-      "url": "http://www.bilibili.com/video/av116890135435884",
-      "upId": "625186072",
-      "upName": "玖琉の世界",
-      "play": 7938,
-      "pubTime": 1783677900000,
-      "duration": "3:47",
-      "category": "音乐配音",
-      "confidence": 0.9,
-      "classificationSource": "model",
-      "classificationReason": "参与凡人官方二创大会的填词类音乐二次创作",
-      "contentNature": "secondary_creation",
-      "originality": "deep_adaptation",
-      "eventTag": "凡人官方二创大会",
-      "creatorPotential": "observe",
-      "score": 76,
-      "lane": "hidden_gem",
-      "firstSeenAt": 1788166338588,
-      "lastSeenAt": 1788166338588,
-      "sourceQueries": [
-        "凡人修仙传 配音 翻唱"
-      ],
-      "discoveryModes": [
-        "history"
       ]
     },
     {
@@ -1000,7 +999,7 @@
       "score": 75,
       "lane": "new_creator_watch",
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1788199639120,
+      "lastSeenAt": 1788245083648,
       "sourceQueries": [
         "凡人修仙传 鬼畜 整活"
       ],
@@ -1430,7 +1429,7 @@
       "score": 71,
       "lane": "new_creator_watch",
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1788199639120,
+      "lastSeenAt": 1788245083648,
       "sourceQueries": [
         "凡人修仙传 人物志 设定"
       ],
@@ -1461,7 +1460,7 @@
       "score": 70,
       "lane": "event_spotlight",
       "firstSeenAt": 1784868982615,
-      "lastSeenAt": 1788199639120,
+      "lastSeenAt": 1788245083648,
       "sourceQueries": [
         "凡人修仙传 二创",
         "凡人官方二创大会",
@@ -1496,7 +1495,7 @@
       "score": 70,
       "lane": "hidden_gem",
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1788199639120,
+      "lastSeenAt": 1788245083648,
       "sourceQueries": [
         "凡人修仙传 鬼畜 整活"
       ],
@@ -1654,7 +1653,7 @@
       "score": 67,
       "lane": "archive",
       "firstSeenAt": 1784898301768,
-      "lastSeenAt": 1788199639120,
+      "lastSeenAt": 1788245083648,
       "sourceQueries": [
         "凡人修仙传 二创",
         "凡人官方二创大会",
@@ -1812,7 +1811,7 @@
       "score": 67,
       "lane": "hidden_gem",
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1788199639120,
+      "lastSeenAt": 1788245083648,
       "sourceQueries": [
         "凡人修仙传 鬼畜 整活"
       ],
@@ -1909,7 +1908,7 @@
       "score": 64,
       "lane": "archive",
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1788199639120,
+      "lastSeenAt": 1788245083648,
       "sourceQueries": [
         "legacy-published",
         "凡人修仙传 人物志 设定"
@@ -2004,7 +2003,7 @@
       "score": 64,
       "lane": "hidden_gem",
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1788199639120,
+      "lastSeenAt": 1788245083648,
       "sourceQueries": [
         "凡人修仙传 人物志 设定"
       ],
@@ -2171,38 +2170,6 @@
       ],
       "discoveryModes": [
         "history"
-      ]
-    },
-    {
-      "id": "BV1gG3U6UEJg",
-      "bvid": "BV1gG3U6UEJg",
-      "title": "AI配音：凡人修仙传二创 南陇候极限传音鲁卫英，他能秒你。",
-      "description": "鲁卫英欲图夺宝，南陇候极限传音阻止，韩老魔：叽里咕噜的说什么呢？",
-      "cover": "https://i2.hdslb.com/bfs/archive/b6255e7c81892b550cef612a6d430c32d4449f6a.jpg",
-      "url": "http://www.bilibili.com/video/av117022675441315",
-      "upId": "22062869",
-      "upName": "DMC萌面人",
-      "play": 116,
-      "pubTime": 1785624493000,
-      "duration": "0:26",
-      "category": "音乐配音",
-      "confidence": 0.85,
-      "classificationSource": "model",
-      "classificationReason": "南陇候相关的AI配音二创内容",
-      "contentNature": "secondary_creation",
-      "originality": "deep_adaptation",
-      "eventTag": null,
-      "creatorPotential": "one_off",
-      "score": 63,
-      "lane": "hidden_gem",
-      "firstSeenAt": 1785647345421,
-      "lastSeenAt": 1786076034636,
-      "sourceQueries": [
-        "凡人修仙传 二创",
-        "凡人修仙传 配音 翻唱"
-      ],
-      "discoveryModes": [
-        "fresh"
       ]
     },
     {
@@ -2576,7 +2543,7 @@
       "score": 61,
       "lane": "hidden_gem",
       "firstSeenAt": 1784868982615,
-      "lastSeenAt": 1788199639120,
+      "lastSeenAt": 1788245083648,
       "sourceQueries": [
         "凡人修仙传 人物志 设定"
       ],
@@ -2701,7 +2668,7 @@
       "score": 60,
       "lane": "new_creator_watch",
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1788199639120,
+      "lastSeenAt": 1788245083648,
       "sourceQueries": [
         "legacy-published",
         "凡人修仙传 人物志 设定"
@@ -2734,7 +2701,7 @@
       "score": 60,
       "lane": "hidden_gem",
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1788199639120,
+      "lastSeenAt": 1788245083648,
       "sourceQueries": [
         "凡人修仙传 鬼畜 整活"
       ],
