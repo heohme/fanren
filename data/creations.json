@@ -1,5 +1,5 @@
 {
-  "generatedAt": 1788416865870,
+  "generatedAt": 1788448136862,
   "mode": "fresh",
   "taxonomyVersion": 2,
   "policyVersion": 1,
@@ -48,7 +48,6 @@
       "BV1jAM86AEVP",
       "BV1o77n6AE2T",
       "BV1L8TK6aEcQ",
-      "BV1YN7k6DEAR",
       "BV1EJK86YEjm",
       "BV1c3ga6HEFR",
       "BV1reTq6FEbD",
@@ -91,12 +90,12 @@
       "BV1DEoaBUEBf",
       "BV1ym4y1F7ai",
       "BV1EfR5BrEMk",
-      "BV1FaV46VEWD",
       "BV1bgVS6dEMQ",
       "BV1s2Ts6YEdR",
-      "BV1MsarzFEoz",
+      "BV1FaV46VEWD",
       "BV1Brx3z5EY8",
       "BV1EdcJz6EPN",
+      "BV1MsarzFEoz",
       "BV1RusDz1EwM",
       "BV1V9AUzHEzJ",
       "BV12BGk68E5n",
@@ -110,6 +109,7 @@
       "BV1zuRcBqE5Y",
       "BV12MziYDEpZ",
       "BV15rn9z2Egj",
+      "BV1YN7k6DEAR",
       "BV1PtLn6zEFY"
     ]
   },
@@ -304,7 +304,7 @@
       "score": 84,
       "lane": "event_spotlight",
       "firstSeenAt": 1785560340526,
-      "lastSeenAt": 1788416865870,
+      "lastSeenAt": 1788448136862,
       "sourceQueries": [
         "凡人修仙传 二创",
         "凡人官方二创大会",
@@ -338,7 +338,7 @@
       "score": 83,
       "lane": "new_creator_watch",
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1788416865870,
+      "lastSeenAt": 1788448136862,
       "sourceQueries": [
         "legacy-published",
         "凡人修仙传 鬼畜 整活",
@@ -570,7 +570,7 @@
       "score": 80,
       "lane": "archive",
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1788362153447,
+      "lastSeenAt": 1788448136862,
       "sourceQueries": [
         "凡人修仙传 鬼畜 整活",
         "凡人修仙传 二创",
@@ -709,7 +709,7 @@
       "score": 79,
       "lane": "event_spotlight",
       "firstSeenAt": 1785244584356,
-      "lastSeenAt": 1788416865870,
+      "lastSeenAt": 1788448136862,
       "sourceQueries": [
         "凡人官方二创大会",
         "凡人修仙传 人物志 设定"
@@ -741,7 +741,7 @@
       "score": 78,
       "lane": "hidden_gem",
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1788416865870,
+      "lastSeenAt": 1788448136862,
       "sourceQueries": [
         "legacy-published",
         "凡人修仙传 鬼畜 整活",
@@ -874,7 +874,7 @@
       "score": 77,
       "lane": "hidden_gem",
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1788416865870,
+      "lastSeenAt": 1788448136862,
       "sourceQueries": [
         "legacy-published",
         "凡人修仙传 鬼畜 整活"
@@ -969,7 +969,7 @@
       "score": 76,
       "lane": "new_creator_watch",
       "firstSeenAt": 1785560340526,
-      "lastSeenAt": 1788416865870,
+      "lastSeenAt": 1788448136862,
       "sourceQueries": [
         "凡人修仙传 人物志 设定"
       ],
@@ -1000,7 +1000,7 @@
       "score": 75,
       "lane": "new_creator_watch",
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1788362153447,
+      "lastSeenAt": 1788448136862,
       "sourceQueries": [
         "凡人修仙传 鬼畜 整活"
       ],
@@ -1430,7 +1430,7 @@
       "score": 71,
       "lane": "new_creator_watch",
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1788362153447,
+      "lastSeenAt": 1788448136862,
       "sourceQueries": [
         "凡人修仙传 人物志 设定"
       ],
@@ -1461,7 +1461,7 @@
       "score": 70,
       "lane": "event_spotlight",
       "firstSeenAt": 1784868982615,
-      "lastSeenAt": 1788416865870,
+      "lastSeenAt": 1788448136862,
       "sourceQueries": [
         "凡人修仙传 二创",
         "凡人官方二创大会",
@@ -1685,7 +1685,7 @@
       "score": 67,
       "lane": "archive",
       "firstSeenAt": 1784898301768,
-      "lastSeenAt": 1788416865870,
+      "lastSeenAt": 1788448136862,
       "sourceQueries": [
         "凡人修仙传 二创",
         "凡人官方二创大会",
@@ -1812,7 +1812,7 @@
       "score": 67,
       "lane": "hidden_gem",
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1788362153447,
+      "lastSeenAt": 1788448136862,
       "sourceQueries": [
         "凡人修仙传 鬼畜 整活"
       ],
@@ -1883,38 +1883,6 @@
       ]
     },
     {
-      "id": "BV1FaV46VEWD",
-      "bvid": "BV1FaV46VEWD",
-      "title": "【 “苍 坤” 遗 信 】阴谋or阳谋——凡人修仙传人物志之苍坤篇",
-      "description": "苍坤篇以自述展开，但up猜测“苍坤”非苍坤，这等遗信的作用和目的，可能和金青他们得到玄骨伪装的古修士遗址线索一样。都是为了引诱修士去闯禁地……当然这只是up胡乱猜测，道友们随便看看即可。\n\n喜欢的道友还请多多三连转发支持，另外视频制作不易，有年度大会员的道友，每个月可以白嫖5B劵，想支持up主的话可以用这个劵给up主发电，感谢各位道友！\nhttps://account.bilibili.com/account/big/myPackage",
-      "cover": "https://i2.hdslb.com/bfs/archive/60f810f00ca902e4c7bd675e3292f8c76cb6309c.jpg",
-      "url": "http://www.bilibili.com/video/av116655170523524",
-      "upId": "222851470",
-      "upName": "咕噜咕噜疾",
-      "play": 15538,
-      "pubTime": 1780036800000,
-      "duration": "4:44",
-      "category": "人物志",
-      "confidence": 0.9,
-      "classificationSource": "model",
-      "classificationReason": "围绕凡人角色苍坤展开的专题人物志内容",
-      "contentNature": "character_or_lore",
-      "originality": "deep_adaptation",
-      "eventTag": null,
-      "creatorPotential": "recommend",
-      "score": 65,
-      "lane": "archive",
-      "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1788018288274,
-      "sourceQueries": [
-        "凡人修仙传 人物志 设定"
-      ],
-      "discoveryModes": [
-        "fresh",
-        "history"
-      ]
-    },
-    {
       "id": "BV1bgVS6dEMQ",
       "bvid": "BV1bgVS6dEMQ",
       "title": "【手书/韩立】不凡",
@@ -1971,7 +1939,7 @@
       "score": 64,
       "lane": "archive",
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1788416865870,
+      "lastSeenAt": 1788448136862,
       "sourceQueries": [
         "legacy-published",
         "凡人修仙传 人物志 设定"
@@ -1979,37 +1947,6 @@
       "discoveryModes": [
         "history",
         "fresh"
-      ]
-    },
-    {
-      "id": "BV1MsarzFEoz",
-      "bvid": "BV1MsarzFEoz",
-      "title": "韩立：一看这个人员配置我就知道这个群不简单。",
-      "description": "不好意思，上次的视频有点不对，稍加修改，真的费了很多心思，个人也很喜欢这期，也算是圆了自己对凡人的一个念想，希望大家能够喜欢，能够包容。感谢大家对凡人的热爱，感谢大家对国漫的包容。",
-      "cover": "https://i0.hdslb.com/bfs/archive/bf3a702d513c181bee20136955f4795ab969f0cf.jpg",
-      "url": "http://www.bilibili.com/video/av115140859010599",
-      "upId": "528005471",
-      "upName": "永远18的老刘",
-      "play": 237023,
-      "pubTime": 1756910151000,
-      "duration": "4:55",
-      "category": "趣味整活",
-      "confidence": 0.85,
-      "classificationSource": "model",
-      "classificationReason": "基于《凡人修仙传》设定创作的趣味整活二创内容",
-      "contentNature": "secondary_creation",
-      "originality": "deep_adaptation",
-      "eventTag": null,
-      "creatorPotential": "observe",
-      "score": 64,
-      "lane": "archive",
-      "firstSeenAt": 1784526884576,
-      "lastSeenAt": 1786335367268,
-      "sourceQueries": [
-        "凡人修仙传 小剧场"
-      ],
-      "discoveryModes": [
-        "history"
       ]
     },
     {
@@ -2035,7 +1972,7 @@
       "score": 64,
       "lane": "hidden_gem",
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1788416865870,
+      "lastSeenAt": 1788448136862,
       "sourceQueries": [
         "凡人修仙传 人物志 设定"
       ],
@@ -2044,35 +1981,34 @@
       ]
     },
     {
-      "id": "BV1YN7k6DEAR",
-      "bvid": "BV1YN7k6DEAR",
-      "title": "《凡人修仙传》AI自制第205集：谋定坠魔 GTPimage2+seedance2.0制作！#动画 #凡人修仙传 #韩老魔 #国漫",
-      "description": "",
-      "cover": "https://i2.hdslb.com/bfs/archive/c7496d48b565c4f2250cd22996bd46e90e37bb9d.jpg",
-      "url": "http://www.bilibili.com/video/av116697281337440",
-      "upId": "10976973",
-      "upName": "值友2233333",
-      "play": 17974,
-      "pubTime": 1780659407000,
-      "duration": "9:39",
-      "category": "同人创作",
-      "confidence": 0.85,
+      "id": "BV1FaV46VEWD",
+      "bvid": "BV1FaV46VEWD",
+      "title": "【 “苍 坤” 遗 信 】阴谋or阳谋——凡人修仙传人物志之苍坤篇",
+      "description": "苍坤篇以自述展开，但up猜测“苍坤”非苍坤，这等遗信的作用和目的，可能和金青他们得到玄骨伪装的古修士遗址线索一样。都是为了引诱修士去闯禁地……当然这只是up胡乱猜测，道友们随便看看即可。\n\n喜欢的道友还请多多三连转发支持，另外视频制作不易，有年度大会员的道友，每个月可以白嫖5B劵，想支持up主的话可以用这个劵给up主发电，感谢各位道友！\nhttps://account.bilibili.com/account/big/myPackage",
+      "cover": "https://i2.hdslb.com/bfs/archive/60f810f00ca902e4c7bd675e3292f8c76cb6309c.jpg",
+      "url": "http://www.bilibili.com/video/av116655170523524",
+      "upId": "222851470",
+      "upName": "咕噜咕噜疾",
+      "play": 15538,
+      "pubTime": 1780036800000,
+      "duration": "4:44",
+      "category": "人物志",
+      "confidence": 0.9,
       "classificationSource": "model",
-      "classificationReason": "AI自制的凡人修仙传第205集的二创内容",
-      "contentNature": "secondary_creation",
+      "classificationReason": "围绕凡人角色苍坤展开的专题人物志内容",
+      "contentNature": "character_or_lore",
       "originality": "deep_adaptation",
       "eventTag": null,
-      "creatorPotential": "observe",
+      "creatorPotential": "recommend",
       "score": 64,
-      "lane": "hidden_gem",
-      "firstSeenAt": 1784526884576,
-      "lastSeenAt": 1788166338588,
+      "lane": "archive",
+      "firstSeenAt": 1784281357983,
+      "lastSeenAt": 1788018288274,
       "sourceQueries": [
-        "凡人修仙传 小剧场",
-        "凡人修仙传 二创",
-        "凡人修仙传 同人"
+        "凡人修仙传 人物志 设定"
       ],
       "discoveryModes": [
+        "fresh",
         "history"
       ]
     },
@@ -2167,6 +2103,37 @@
       "lastSeenAt": 1787542424325,
       "sourceQueries": [
         "韩立 二创"
+      ],
+      "discoveryModes": [
+        "history"
+      ]
+    },
+    {
+      "id": "BV1MsarzFEoz",
+      "bvid": "BV1MsarzFEoz",
+      "title": "韩立：一看这个人员配置我就知道这个群不简单。",
+      "description": "不好意思，上次的视频有点不对，稍加修改，真的费了很多心思，个人也很喜欢这期，也算是圆了自己对凡人的一个念想，希望大家能够喜欢，能够包容。感谢大家对凡人的热爱，感谢大家对国漫的包容。",
+      "cover": "https://i0.hdslb.com/bfs/archive/bf3a702d513c181bee20136955f4795ab969f0cf.jpg",
+      "url": "http://www.bilibili.com/video/av115140859010599",
+      "upId": "528005471",
+      "upName": "永远18的老刘",
+      "play": 237023,
+      "pubTime": 1756910151000,
+      "duration": "4:55",
+      "category": "趣味整活",
+      "confidence": 0.85,
+      "classificationSource": "model",
+      "classificationReason": "基于《凡人修仙传》设定创作的趣味整活二创内容",
+      "contentNature": "secondary_creation",
+      "originality": "deep_adaptation",
+      "eventTag": null,
+      "creatorPotential": "observe",
+      "score": 62,
+      "lane": "archive",
+      "firstSeenAt": 1784526884576,
+      "lastSeenAt": 1786335367268,
+      "sourceQueries": [
+        "凡人修仙传 小剧场"
       ],
       "discoveryModes": [
         "history"
@@ -2576,7 +2543,7 @@
       "score": 61,
       "lane": "hidden_gem",
       "firstSeenAt": 1784868982615,
-      "lastSeenAt": 1788416865870,
+      "lastSeenAt": 1788448136862,
       "sourceQueries": [
         "凡人修仙传 人物志 设定"
       ],
@@ -2648,6 +2615,39 @@
       ]
     },
     {
+      "id": "BV1YN7k6DEAR",
+      "bvid": "BV1YN7k6DEAR",
+      "title": "《凡人修仙传》AI自制第205集：谋定坠魔 GTPimage2+seedance2.0制作！#动画 #凡人修仙传 #韩老魔 #国漫",
+      "description": "",
+      "cover": "https://i2.hdslb.com/bfs/archive/c7496d48b565c4f2250cd22996bd46e90e37bb9d.jpg",
+      "url": "http://www.bilibili.com/video/av116697281337440",
+      "upId": "10976973",
+      "upName": "值友2233333",
+      "play": 17974,
+      "pubTime": 1780659407000,
+      "duration": "9:39",
+      "category": "同人创作",
+      "confidence": 0.85,
+      "classificationSource": "model",
+      "classificationReason": "AI自制的凡人修仙传第205集的二创内容",
+      "contentNature": "secondary_creation",
+      "originality": "deep_adaptation",
+      "eventTag": null,
+      "creatorPotential": "observe",
+      "score": 60,
+      "lane": "archive",
+      "firstSeenAt": 1784526884576,
+      "lastSeenAt": 1788166338588,
+      "sourceQueries": [
+        "凡人修仙传 小剧场",
+        "凡人修仙传 二创",
+        "凡人修仙传 同人"
+      ],
+      "discoveryModes": [
+        "history"
+      ]
+    },
+    {
       "id": "BV1PtLn6zEFY",
       "bvid": "BV1PtLn6zEFY",
       "title": "「凡人回战」韩立踏临咒术世界-壹",
@@ -2701,7 +2701,7 @@
       "score": 60,
       "lane": "new_creator_watch",
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1788416865870,
+      "lastSeenAt": 1788448136862,
       "sourceQueries": [
         "legacy-published",
         "凡人修仙传 人物志 设定"
@@ -2734,7 +2734,7 @@
       "score": 60,
       "lane": "hidden_gem",
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1788416865870,
+      "lastSeenAt": 1788448136862,
       "sourceQueries": [
         "凡人修仙传 鬼畜 整活"
       ],
