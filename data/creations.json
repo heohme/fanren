@@ -1,5 +1,5 @@
 {
-  "generatedAt": 1788503450526,
+  "generatedAt": 1788534303709,
   "mode": "fresh",
   "taxonomyVersion": 2,
   "policyVersion": 1,
@@ -41,8 +41,8 @@
     "hidden_gem": [
       "BV1uqMg6TERj",
       "BV1RoM46tEQ8",
-      "BV1KTMH64EA7",
       "BV17aKw6DEFh",
+      "BV1KTMH64EA7",
       "BV176Tx64EXK",
       "BV1jAM86AEVP",
       "BV1o77n6AE2T",
@@ -82,11 +82,11 @@
       "BV1XGPrzcEar",
       "BV19tgozdEKa",
       "BV1rMWDzpEz5",
-      "BV1G2CrBLEo9",
       "BV1fJr3BYExB",
       "BV16nABzPEmQ",
       "BV1Mwge6KEze",
       "BV17zNszhEQ3",
+      "BV1G2CrBLEo9",
       "BV1DEoaBUEBf",
       "BV1ym4y1F7ai",
       "BV1EfR5BrEMk",
@@ -95,13 +95,13 @@
       "BV1s2Ts6YEdR",
       "BV1Brx3z5EY8",
       "BV1EdcJz6EPN",
-      "BV1dV411w72Y",
       "BV1MsarzFEoz",
       "BV1RusDz1EwM",
       "BV1V9AUzHEzJ",
       "BV12BGk68E5n",
       "BV13dorBLEWu",
       "BV19w4m1X7xU",
+      "BV1dV411w72Y",
       "BV1QGebziE1r",
       "BV14KS3YGEk9",
       "BV1Z6uKzQEXg",
@@ -304,7 +304,7 @@
       "score": 84,
       "lane": "event_spotlight",
       "firstSeenAt": 1785560340526,
-      "lastSeenAt": 1788503450526,
+      "lastSeenAt": 1788534303709,
       "sourceQueries": [
         "凡人修仙传 二创",
         "凡人官方二创大会",
@@ -338,7 +338,7 @@
       "score": 83,
       "lane": "new_creator_watch",
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1788503450526,
+      "lastSeenAt": 1788534303709,
       "sourceQueries": [
         "legacy-published",
         "凡人修仙传 鬼畜 整活",
@@ -570,7 +570,7 @@
       "score": 80,
       "lane": "archive",
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1788503450526,
+      "lastSeenAt": 1788534303709,
       "sourceQueries": [
         "凡人修仙传 鬼畜 整活",
         "凡人修仙传 二创",
@@ -709,7 +709,7 @@
       "score": 79,
       "lane": "event_spotlight",
       "firstSeenAt": 1785244584356,
-      "lastSeenAt": 1788503450526,
+      "lastSeenAt": 1788534303709,
       "sourceQueries": [
         "凡人官方二创大会",
         "凡人修仙传 人物志 设定"
@@ -741,7 +741,7 @@
       "score": 78,
       "lane": "hidden_gem",
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1788503450526,
+      "lastSeenAt": 1788534303709,
       "sourceQueries": [
         "legacy-published",
         "凡人修仙传 鬼畜 整活",
@@ -874,7 +874,7 @@
       "score": 77,
       "lane": "hidden_gem",
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1788503450526,
+      "lastSeenAt": 1788534303709,
       "sourceQueries": [
         "legacy-published",
         "凡人修仙传 鬼畜 整活"
@@ -882,37 +882,6 @@
       "discoveryModes": [
         "history",
         "fresh"
-      ]
-    },
-    {
-      "id": "BV1KTMH64EA7",
-      "bvid": "BV1KTMH64EA7",
-      "title": "用这217年结婴风霜重新填词《年轮》【凡人官方二创大会】",
-      "description": "作品类型：填词二创\n原曲：年轮\n策划：玖琉の世界 \n混音：星辰_up \n演唱：阿陶耶\n剪辑：非鱼_Fy\n终究平凡不平庸！",
-      "cover": "https://i2.hdslb.com/bfs/archive/901ed6af106493a6d19f84aac7c7e7099b3e83bf.jpg",
-      "url": "http://www.bilibili.com/video/av116890135435884",
-      "upId": "625186072",
-      "upName": "玖琉の世界",
-      "play": 7938,
-      "pubTime": 1783677900000,
-      "duration": "3:47",
-      "category": "音乐配音",
-      "confidence": 0.9,
-      "classificationSource": "model",
-      "classificationReason": "参与凡人官方二创大会的填词类音乐二次创作",
-      "contentNature": "secondary_creation",
-      "originality": "deep_adaptation",
-      "eventTag": "凡人官方二创大会",
-      "creatorPotential": "observe",
-      "score": 77,
-      "lane": "hidden_gem",
-      "firstSeenAt": 1788166338588,
-      "lastSeenAt": 1788166338588,
-      "sourceQueries": [
-        "凡人修仙传 配音 翻唱"
-      ],
-      "discoveryModes": [
-        "history"
       ]
     },
     {
@@ -969,12 +938,43 @@
       "score": 76,
       "lane": "new_creator_watch",
       "firstSeenAt": 1785560340526,
-      "lastSeenAt": 1788503450526,
+      "lastSeenAt": 1788534303709,
       "sourceQueries": [
         "凡人修仙传 人物志 设定"
       ],
       "discoveryModes": [
         "fresh"
+      ]
+    },
+    {
+      "id": "BV1KTMH64EA7",
+      "bvid": "BV1KTMH64EA7",
+      "title": "用这217年结婴风霜重新填词《年轮》【凡人官方二创大会】",
+      "description": "作品类型：填词二创\n原曲：年轮\n策划：玖琉の世界 \n混音：星辰_up \n演唱：阿陶耶\n剪辑：非鱼_Fy\n终究平凡不平庸！",
+      "cover": "https://i2.hdslb.com/bfs/archive/901ed6af106493a6d19f84aac7c7e7099b3e83bf.jpg",
+      "url": "http://www.bilibili.com/video/av116890135435884",
+      "upId": "625186072",
+      "upName": "玖琉の世界",
+      "play": 7938,
+      "pubTime": 1783677900000,
+      "duration": "3:47",
+      "category": "音乐配音",
+      "confidence": 0.9,
+      "classificationSource": "model",
+      "classificationReason": "参与凡人官方二创大会的填词类音乐二次创作",
+      "contentNature": "secondary_creation",
+      "originality": "deep_adaptation",
+      "eventTag": "凡人官方二创大会",
+      "creatorPotential": "observe",
+      "score": 76,
+      "lane": "hidden_gem",
+      "firstSeenAt": 1788166338588,
+      "lastSeenAt": 1788166338588,
+      "sourceQueries": [
+        "凡人修仙传 配音 翻唱"
+      ],
+      "discoveryModes": [
+        "history"
       ]
     },
     {
@@ -1000,7 +1000,7 @@
       "score": 75,
       "lane": "new_creator_watch",
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1788503450526,
+      "lastSeenAt": 1788534303709,
       "sourceQueries": [
         "凡人修仙传 鬼畜 整活"
       ],
@@ -1430,7 +1430,7 @@
       "score": 71,
       "lane": "new_creator_watch",
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1788503450526,
+      "lastSeenAt": 1788534303709,
       "sourceQueries": [
         "凡人修仙传 人物志 设定"
       ],
@@ -1461,7 +1461,7 @@
       "score": 70,
       "lane": "event_spotlight",
       "firstSeenAt": 1784868982615,
-      "lastSeenAt": 1788503450526,
+      "lastSeenAt": 1788534303709,
       "sourceQueries": [
         "凡人修仙传 二创",
         "凡人官方二创大会",
@@ -1567,37 +1567,6 @@
       ]
     },
     {
-      "id": "BV1G2CrBLEo9",
-      "bvid": "BV1G2CrBLEo9",
-      "title": "[自制MV]落云宗女团给您带来一首《长生梦》",
-      "description": "落云宗女团给您带来一首硬摇滚《长生梦》，可惜落云宗主角女修太少，无奈还得请柳玉、南宫婉来凑个人数，制作水平有限，AI细节难控，大家图个乐呵看吧。",
-      "cover": "https://i1.hdslb.com/bfs/archive/07c10fe61b147d7c9719dc62d349d225304ee262.jpg",
-      "url": "http://www.bilibili.com/video/av115568611037273",
-      "upId": "11646888",
-      "upName": "一奔向未来一",
-      "play": 244891,
-      "pubTime": 1763437165000,
-      "duration": "8:0",
-      "category": "音乐配音",
-      "confidence": 0.85,
-      "classificationSource": "model",
-      "classificationReason": "基于《凡人修仙传》角色制作的自制MV音乐二创内容",
-      "contentNature": "secondary_creation",
-      "originality": "deep_adaptation",
-      "eventTag": null,
-      "creatorPotential": "observe",
-      "score": 68,
-      "lane": "archive",
-      "firstSeenAt": 1784526884576,
-      "lastSeenAt": 1788166338588,
-      "sourceQueries": [
-        "凡人修仙传 配音 翻唱"
-      ],
-      "discoveryModes": [
-        "history"
-      ]
-    },
-    {
       "id": "BV1fJr3BYExB",
       "bvid": "BV1fJr3BYExB",
       "title": "【凡人修仙传/韩立中心同人手书】众山小",
@@ -1685,7 +1654,7 @@
       "score": 67,
       "lane": "archive",
       "firstSeenAt": 1784898301768,
-      "lastSeenAt": 1788503450526,
+      "lastSeenAt": 1788534303709,
       "sourceQueries": [
         "凡人修仙传 二创",
         "凡人官方二创大会",
@@ -1721,6 +1690,37 @@
       "lastSeenAt": 1788166338588,
       "sourceQueries": [
         "凡人修仙传 混剪 手书"
+      ],
+      "discoveryModes": [
+        "history"
+      ]
+    },
+    {
+      "id": "BV1G2CrBLEo9",
+      "bvid": "BV1G2CrBLEo9",
+      "title": "[自制MV]落云宗女团给您带来一首《长生梦》",
+      "description": "落云宗女团给您带来一首硬摇滚《长生梦》，可惜落云宗主角女修太少，无奈还得请柳玉、南宫婉来凑个人数，制作水平有限，AI细节难控，大家图个乐呵看吧。",
+      "cover": "https://i1.hdslb.com/bfs/archive/07c10fe61b147d7c9719dc62d349d225304ee262.jpg",
+      "url": "http://www.bilibili.com/video/av115568611037273",
+      "upId": "11646888",
+      "upName": "一奔向未来一",
+      "play": 244891,
+      "pubTime": 1763437165000,
+      "duration": "8:0",
+      "category": "音乐配音",
+      "confidence": 0.85,
+      "classificationSource": "model",
+      "classificationReason": "基于《凡人修仙传》角色制作的自制MV音乐二创内容",
+      "contentNature": "secondary_creation",
+      "originality": "deep_adaptation",
+      "eventTag": null,
+      "creatorPotential": "observe",
+      "score": 67,
+      "lane": "archive",
+      "firstSeenAt": 1784526884576,
+      "lastSeenAt": 1788166338588,
+      "sourceQueries": [
+        "凡人修仙传 配音 翻唱"
       ],
       "discoveryModes": [
         "history"
@@ -1812,7 +1812,7 @@
       "score": 67,
       "lane": "hidden_gem",
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1788503450526,
+      "lastSeenAt": 1788534303709,
       "sourceQueries": [
         "凡人修仙传 鬼畜 整活"
       ],
@@ -1971,7 +1971,7 @@
       "score": 64,
       "lane": "archive",
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1788503450526,
+      "lastSeenAt": 1788534303709,
       "sourceQueries": [
         "legacy-published",
         "凡人修仙传 人物志 设定"
@@ -2004,7 +2004,7 @@
       "score": 64,
       "lane": "hidden_gem",
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1788503450526,
+      "lastSeenAt": 1788534303709,
       "sourceQueries": [
         "凡人修仙传 人物志 设定"
       ],
@@ -2103,38 +2103,6 @@
       "lastSeenAt": 1787542424325,
       "sourceQueries": [
         "韩立 二创"
-      ],
-      "discoveryModes": [
-        "history"
-      ]
-    },
-    {
-      "id": "BV1dV411w72Y",
-      "bvid": "BV1dV411w72Y",
-      "title": "KTV也能念头通达？炖煮红尘！凡人修仙传《凡人》女声翻唱",
-      "description": "凡人翻唱第二弹指路【原来你的《归期》是遥遥无期 凡人KTV翻唱-哔哩哔哩】 https://b23.tv/6TrDXg9\n怎么说呢，就算是在KTV里，听到这首歌过分熟悉的前奏，还是会有种想按暂停，然后跳到下一集的冲动…",
-      "cover": "https://i2.hdslb.com/bfs/archive/08891efbeae4418abf93b30bc01fe6aa33c73a75.jpg",
-      "url": "http://www.bilibili.com/video/av406121425",
-      "upId": "15166802",
-      "upName": "_雪千寻_",
-      "play": 297274,
-      "pubTime": 1696075200000,
-      "duration": "4:15",
-      "category": "音乐配音",
-      "confidence": 0.9,
-      "classificationSource": "model",
-      "classificationReason": "翻唱凡人修仙传相关歌曲",
-      "contentNature": "secondary_creation",
-      "originality": "deep_adaptation",
-      "eventTag": null,
-      "creatorPotential": "observe",
-      "score": 62,
-      "lane": "archive",
-      "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1788166338588,
-      "sourceQueries": [
-        "legacy-published",
-        "凡人修仙传 配音 翻唱"
       ],
       "discoveryModes": [
         "history"
@@ -2326,6 +2294,38 @@
         "凡人修仙传 混剪 手书",
         "凡人修仙传 配音 翻唱",
         "凡人修仙传 鬼畜 整活"
+      ],
+      "discoveryModes": [
+        "history"
+      ]
+    },
+    {
+      "id": "BV1dV411w72Y",
+      "bvid": "BV1dV411w72Y",
+      "title": "KTV也能念头通达？炖煮红尘！凡人修仙传《凡人》女声翻唱",
+      "description": "凡人翻唱第二弹指路【原来你的《归期》是遥遥无期 凡人KTV翻唱-哔哩哔哩】 https://b23.tv/6TrDXg9\n怎么说呢，就算是在KTV里，听到这首歌过分熟悉的前奏，还是会有种想按暂停，然后跳到下一集的冲动…",
+      "cover": "https://i2.hdslb.com/bfs/archive/08891efbeae4418abf93b30bc01fe6aa33c73a75.jpg",
+      "url": "http://www.bilibili.com/video/av406121425",
+      "upId": "15166802",
+      "upName": "_雪千寻_",
+      "play": 297274,
+      "pubTime": 1696075200000,
+      "duration": "4:15",
+      "category": "音乐配音",
+      "confidence": 0.9,
+      "classificationSource": "model",
+      "classificationReason": "翻唱凡人修仙传相关歌曲",
+      "contentNature": "secondary_creation",
+      "originality": "deep_adaptation",
+      "eventTag": null,
+      "creatorPotential": "observe",
+      "score": 61,
+      "lane": "archive",
+      "firstSeenAt": 1784281357983,
+      "lastSeenAt": 1788166338588,
+      "sourceQueries": [
+        "legacy-published",
+        "凡人修仙传 配音 翻唱"
       ],
       "discoveryModes": [
         "history"
@@ -2543,7 +2543,7 @@
       "score": 61,
       "lane": "hidden_gem",
       "firstSeenAt": 1784868982615,
-      "lastSeenAt": 1788503450526,
+      "lastSeenAt": 1788534303709,
       "sourceQueries": [
         "凡人修仙传 人物志 设定"
       ],
@@ -2701,7 +2701,7 @@
       "score": 60,
       "lane": "new_creator_watch",
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1788503450526,
+      "lastSeenAt": 1788534303709,
       "sourceQueries": [
         "legacy-published",
         "凡人修仙传 人物志 设定"
@@ -2734,7 +2734,7 @@
       "score": 60,
       "lane": "hidden_gem",
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1788503450526,
+      "lastSeenAt": 1788534303709,
       "sourceQueries": [
         "凡人修仙传 鬼畜 整活"
       ],
