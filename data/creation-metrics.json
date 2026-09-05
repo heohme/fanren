@@ -1,6 +1,6 @@
 {
-  "generatedAt": 1788589425963,
-  "count": 557,
+  "generatedAt": 1788616910534,
+  "count": 558,
   "items": {
     "BV11w411S7we": {
       "bvid": "BV11w411S7we",
@@ -2860,25 +2860,14 @@
     "BV1Ar786BEHW": {
       "bvid": "BV1Ar786BEHW",
       "latest": {
-        "play": 101575,
-        "like": 2482,
+        "play": 101954,
+        "like": 2489,
         "coin": 328,
-        "favorite": 582,
-        "reply": 124,
+        "favorite": 583,
+        "reply": 125,
         "danmaku": 86
       },
       "samples": [
-        {
-          "sampledAt": 1785674403869,
-          "stats": {
-            "play": 96553,
-            "like": 2387,
-            "coin": 319,
-            "favorite": 568,
-            "reply": 121,
-            "danmaku": 84
-          }
-        },
         {
           "sampledAt": 1785765586604,
           "stats": {
@@ -3195,6 +3184,17 @@
             "coin": 328,
             "favorite": 582,
             "reply": 124,
+            "danmaku": 86
+          }
+        },
+        {
+          "sampledAt": 1788616910534,
+          "stats": {
+            "play": 101954,
+            "like": 2489,
+            "coin": 328,
+            "favorite": 583,
+            "reply": 125,
             "danmaku": 86
           }
         }
@@ -30174,6 +30174,30 @@
             "favorite": 12,
             "reply": 110,
             "danmaku": 149
+          }
+        }
+      ]
+    },
+    "BV1tCto67Eyf": {
+      "bvid": "BV1tCto67Eyf",
+      "latest": {
+        "play": 5706,
+        "like": 353,
+        "coin": 93,
+        "favorite": 41,
+        "reply": 27,
+        "danmaku": 20
+      },
+      "samples": [
+        {
+          "sampledAt": 1788616910534,
+          "stats": {
+            "play": 5706,
+            "like": 353,
+            "coin": 93,
+            "favorite": 41,
+            "reply": 27,
+            "danmaku": 20
           }
         }
       ]

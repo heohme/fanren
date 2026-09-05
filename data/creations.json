@@ -1,5 +1,5 @@
 {
-  "generatedAt": 1788589425963,
+  "generatedAt": 1788616910534,
   "mode": "fresh",
   "taxonomyVersion": 2,
   "policyVersion": 1,
@@ -304,7 +304,7 @@
       "score": 84,
       "lane": "event_spotlight",
       "firstSeenAt": 1785560340526,
-      "lastSeenAt": 1788589425963,
+      "lastSeenAt": 1788616910534,
       "sourceQueries": [
         "凡人修仙传 二创",
         "凡人官方二创大会",
@@ -338,7 +338,7 @@
       "score": 83,
       "lane": "new_creator_watch",
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1788589425963,
+      "lastSeenAt": 1788616910534,
       "sourceQueries": [
         "legacy-published",
         "凡人修仙传 鬼畜 整活",
@@ -606,7 +606,7 @@
       "score": 80,
       "lane": "archive",
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1788589425963,
+      "lastSeenAt": 1788616910534,
       "sourceQueries": [
         "凡人修仙传 鬼畜 整活",
         "凡人修仙传 二创",
@@ -709,7 +709,7 @@
       "score": 79,
       "lane": "event_spotlight",
       "firstSeenAt": 1785244584356,
-      "lastSeenAt": 1788589425963,
+      "lastSeenAt": 1788616910534,
       "sourceQueries": [
         "凡人官方二创大会",
         "凡人修仙传 人物志 设定"
@@ -741,7 +741,7 @@
       "score": 78,
       "lane": "hidden_gem",
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1788589425963,
+      "lastSeenAt": 1788616910534,
       "sourceQueries": [
         "legacy-published",
         "凡人修仙传 鬼畜 整活",
@@ -874,7 +874,7 @@
       "score": 77,
       "lane": "hidden_gem",
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1788589425963,
+      "lastSeenAt": 1788616910534,
       "sourceQueries": [
         "legacy-published",
         "凡人修仙传 鬼畜 整活"
@@ -907,7 +907,7 @@
       "score": 76,
       "lane": "new_creator_watch",
       "firstSeenAt": 1785560340526,
-      "lastSeenAt": 1788589425963,
+      "lastSeenAt": 1788616910534,
       "sourceQueries": [
         "凡人修仙传 人物志 设定"
       ],
@@ -986,7 +986,7 @@
       "url": "http://www.bilibili.com/video/av116810057780150",
       "upId": "75014708",
       "upName": "浪浪山小蛋仔",
-      "play": 101575,
+      "play": 101954,
       "pubTime": 1782380353000,
       "duration": "2:31",
       "category": "同人创作",
@@ -1000,7 +1000,7 @@
       "score": 75,
       "lane": "new_creator_watch",
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1788589425963,
+      "lastSeenAt": 1788616910534,
       "sourceQueries": [
         "凡人修仙传 鬼畜 整活"
       ],
@@ -1430,7 +1430,7 @@
       "score": 71,
       "lane": "new_creator_watch",
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1788589425963,
+      "lastSeenAt": 1788616910534,
       "sourceQueries": [
         "凡人修仙传 人物志 设定"
       ],
@@ -1461,7 +1461,7 @@
       "score": 70,
       "lane": "event_spotlight",
       "firstSeenAt": 1784868982615,
-      "lastSeenAt": 1788589425963,
+      "lastSeenAt": 1788616910534,
       "sourceQueries": [
         "凡人修仙传 二创",
         "凡人官方二创大会",
@@ -1471,6 +1471,37 @@
       "discoveryModes": [
         "fresh",
         "history"
+      ]
+    },
+    {
+      "id": "BV176Tx64EXK",
+      "bvid": "BV176Tx64EXK",
+      "title": "天南往事【凡人官方二创大会】",
+      "description": "等你昂！",
+      "cover": "https://i2.hdslb.com/bfs/archive/4b0f20a95d2f09d86a5c03c79899406499058439.jpg",
+      "url": "http://www.bilibili.com/video/av116856228743299",
+      "upId": "134352631",
+      "upName": "弄潮儿Ya",
+      "play": 2533,
+      "pubTime": 1783084690000,
+      "duration": "1:17",
+      "category": "剧情二创",
+      "confidence": 0.85,
+      "classificationSource": "model",
+      "classificationReason": "参与凡人官方二创大会的天南往事相关二次创作内容",
+      "contentNature": "secondary_creation",
+      "originality": "deep_adaptation",
+      "eventTag": "凡人官方二创大会",
+      "creatorPotential": "observe",
+      "score": 70,
+      "lane": "hidden_gem",
+      "firstSeenAt": 1784281357983,
+      "lastSeenAt": 1788416865870,
+      "sourceQueries": [
+        "凡人修仙传 鬼畜 整活"
+      ],
+      "discoveryModes": [
+        "fresh"
       ]
     },
     {
@@ -1502,37 +1533,6 @@
       ],
       "discoveryModes": [
         "history"
-      ]
-    },
-    {
-      "id": "BV176Tx64EXK",
-      "bvid": "BV176Tx64EXK",
-      "title": "天南往事【凡人官方二创大会】",
-      "description": "等你昂！",
-      "cover": "https://i2.hdslb.com/bfs/archive/4b0f20a95d2f09d86a5c03c79899406499058439.jpg",
-      "url": "http://www.bilibili.com/video/av116856228743299",
-      "upId": "134352631",
-      "upName": "弄潮儿Ya",
-      "play": 2533,
-      "pubTime": 1783084690000,
-      "duration": "1:17",
-      "category": "剧情二创",
-      "confidence": 0.85,
-      "classificationSource": "model",
-      "classificationReason": "参与凡人官方二创大会的天南往事相关二次创作内容",
-      "contentNature": "secondary_creation",
-      "originality": "deep_adaptation",
-      "eventTag": "凡人官方二创大会",
-      "creatorPotential": "observe",
-      "score": 69,
-      "lane": "hidden_gem",
-      "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1788416865870,
-      "sourceQueries": [
-        "凡人修仙传 鬼畜 整活"
-      ],
-      "discoveryModes": [
-        "fresh"
       ]
     },
     {
@@ -1654,7 +1654,7 @@
       "score": 67,
       "lane": "archive",
       "firstSeenAt": 1784898301768,
-      "lastSeenAt": 1788589425963,
+      "lastSeenAt": 1788616910534,
       "sourceQueries": [
         "凡人修仙传 二创",
         "凡人官方二创大会",
@@ -1812,7 +1812,7 @@
       "score": 67,
       "lane": "hidden_gem",
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1788589425963,
+      "lastSeenAt": 1788616910534,
       "sourceQueries": [
         "凡人修仙传 鬼畜 整活"
       ],
@@ -1849,37 +1849,6 @@
       ],
       "discoveryModes": [
         "history"
-      ]
-    },
-    {
-      "id": "BV1L8TK6aEcQ",
-      "bvid": "BV1L8TK6aEcQ",
-      "title": "凡人修仙传人物志！掩月宗南宫阙的一生！本可借势韩立南宫婉！但却弄巧成拙终作茧！",
-      "description": "凡人修仙传人物志！\n掩月宗南宫阙的一生！\n本可借势韩立南宫婉！\n但却弄巧成拙终作茧！",
-      "cover": "https://i0.hdslb.com/bfs/archive/174f5ecc2fb4ad857367b2d69581ce426d947c68.jpg",
-      "url": "http://www.bilibili.com/video/av116825794808043",
-      "upId": "493383447",
-      "upName": "常在湖边走",
-      "play": 40925,
-      "pubTime": 1782620411000,
-      "duration": "7:21",
-      "category": "人物志",
-      "confidence": 0.9,
-      "classificationSource": "model",
-      "classificationReason": "围绕掩月宗南宫阙的生平展开的人物志专题内容",
-      "contentNature": "character_or_lore",
-      "originality": "deep_adaptation",
-      "eventTag": null,
-      "creatorPotential": "recommend",
-      "score": 65,
-      "lane": "hidden_gem",
-      "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1788589425963,
-      "sourceQueries": [
-        "凡人修仙传 人物志 设定"
-      ],
-      "discoveryModes": [
-        "fresh"
       ]
     },
     {
@@ -1970,13 +1939,44 @@
       "score": 64,
       "lane": "archive",
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1788589425963,
+      "lastSeenAt": 1788616910534,
       "sourceQueries": [
         "legacy-published",
         "凡人修仙传 人物志 设定"
       ],
       "discoveryModes": [
         "history",
+        "fresh"
+      ]
+    },
+    {
+      "id": "BV1L8TK6aEcQ",
+      "bvid": "BV1L8TK6aEcQ",
+      "title": "凡人修仙传人物志！掩月宗南宫阙的一生！本可借势韩立南宫婉！但却弄巧成拙终作茧！",
+      "description": "凡人修仙传人物志！\n掩月宗南宫阙的一生！\n本可借势韩立南宫婉！\n但却弄巧成拙终作茧！",
+      "cover": "https://i0.hdslb.com/bfs/archive/174f5ecc2fb4ad857367b2d69581ce426d947c68.jpg",
+      "url": "http://www.bilibili.com/video/av116825794808043",
+      "upId": "493383447",
+      "upName": "常在湖边走",
+      "play": 40925,
+      "pubTime": 1782620411000,
+      "duration": "7:21",
+      "category": "人物志",
+      "confidence": 0.9,
+      "classificationSource": "model",
+      "classificationReason": "围绕掩月宗南宫阙的生平展开的人物志专题内容",
+      "contentNature": "character_or_lore",
+      "originality": "deep_adaptation",
+      "eventTag": null,
+      "creatorPotential": "recommend",
+      "score": 64,
+      "lane": "hidden_gem",
+      "firstSeenAt": 1784281357983,
+      "lastSeenAt": 1788616910534,
+      "sourceQueries": [
+        "凡人修仙传 人物志 设定"
+      ],
+      "discoveryModes": [
         "fresh"
       ]
     },
@@ -2543,7 +2543,7 @@
       "score": 61,
       "lane": "hidden_gem",
       "firstSeenAt": 1784868982615,
-      "lastSeenAt": 1788589425963,
+      "lastSeenAt": 1788616910534,
       "sourceQueries": [
         "凡人修仙传 人物志 设定"
       ],
@@ -2701,7 +2701,7 @@
       "score": 60,
       "lane": "new_creator_watch",
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1788589425963,
+      "lastSeenAt": 1788616910534,
       "sourceQueries": [
         "legacy-published",
         "凡人修仙传 人物志 设定"
@@ -2734,7 +2734,7 @@
       "score": 60,
       "lane": "hidden_gem",
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1788589425963,
+      "lastSeenAt": 1788616910534,
       "sourceQueries": [
         "凡人修仙传 鬼畜 整活"
       ],
