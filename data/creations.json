@@ -1,5 +1,5 @@
 {
-  "generatedAt": 1788676101546,
+  "generatedAt": 1788704556342,
   "mode": "fresh",
   "taxonomyVersion": 2,
   "policyVersion": 1,
@@ -29,8 +29,8 @@
       "BV1XMG36SEqX",
       "BV1rkGM6fEUv",
       "BV1QxGg6EEz1",
-      "BV1aPGu6yENw",
       "BV11F3i6uE14",
+      "BV1aPGu6yENw",
       "BV1TzGG6EEkb",
       "BV1mA376WEFC",
       "BV1pi3n6bEut",
@@ -91,14 +91,14 @@
       "BV1G2CrBLEo9",
       "BV1DEoaBUEBf",
       "BV1ym4y1F7ai",
-      "BV1EfR5BrEMk",
-      "BV1FaV46VEWD",
       "BV1bgVS6dEMQ",
       "BV1s2Ts6YEdR",
-      "BV1Brx3z5EY8",
+      "BV1EfR5BrEMk",
+      "BV1FaV46VEWD",
       "BV1EdcJz6EPN",
       "BV1MsarzFEoz",
       "BV1RusDz1EwM",
+      "BV1Brx3z5EY8",
       "BV1V9AUzHEzJ",
       "BV12BGk68E5n",
       "BV13dorBLEWu",
@@ -339,7 +339,7 @@
       "score": 84,
       "lane": "event_spotlight",
       "firstSeenAt": 1785560340526,
-      "lastSeenAt": 1788676101546,
+      "lastSeenAt": 1788704556342,
       "sourceQueries": [
         "凡人修仙传 二创",
         "凡人官方二创大会",
@@ -370,10 +370,10 @@
       "originality": "deep_adaptation",
       "eventTag": "凡人官方二创大会",
       "creatorPotential": "observe",
-      "score": 83,
+      "score": 82,
       "lane": "new_creator_watch",
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1788676101546,
+      "lastSeenAt": 1788704556342,
       "sourceQueries": [
         "legacy-published",
         "凡人修仙传 鬼畜 整活",
@@ -606,7 +606,7 @@
       "score": 80,
       "lane": "archive",
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1788676101546,
+      "lastSeenAt": 1788704556342,
       "sourceQueries": [
         "凡人修仙传 鬼畜 整活",
         "凡人修仙传 二创",
@@ -722,39 +722,6 @@
       ]
     },
     {
-      "id": "BV1aPGu6yENw",
-      "bvid": "BV1aPGu6yENw",
-      "title": "银月代恋，沛灵沦陷（韩立结婴闭关的那些年）【凡人官方二创大会】",
-      "description": "内容纯属娱乐，喜欢的朋友麻烦点个赞吧~",
-      "cover": "https://i1.hdslb.com/bfs/archive/8aa9e0b05f79c5fbcaf73613006dd0ccc646b732.jpg",
-      "url": "http://www.bilibili.com/video/av117018497910339",
-      "upId": "383941411",
-      "upName": "非加力-_-",
-      "play": 48817,
-      "pubTime": 1785560685000,
-      "duration": "3:51",
-      "category": "剧情二创",
-      "confidence": 0.9,
-      "classificationSource": "model",
-      "classificationReason": "该内容为《凡人修仙传》相关的剧情二创作品，参与官方二创大会",
-      "contentNature": "secondary_creation",
-      "originality": "deep_adaptation",
-      "eventTag": "凡人官方二创大会",
-      "creatorPotential": "observe",
-      "score": 79,
-      "lane": "event_spotlight",
-      "firstSeenAt": 1785588109330,
-      "lastSeenAt": 1788166338588,
-      "sourceQueries": [
-        "韩立 二创",
-        "凡人官方二创大会"
-      ],
-      "discoveryModes": [
-        "fresh",
-        "history"
-      ]
-    },
-    {
       "id": "BV11F3i6uE14",
       "bvid": "BV11F3i6uE14",
       "title": "凡人人物志之吕洛篇——【凡人官方二创大会】",
@@ -777,7 +744,7 @@
       "score": 79,
       "lane": "event_spotlight",
       "firstSeenAt": 1785244584356,
-      "lastSeenAt": 1788616910534,
+      "lastSeenAt": 1788704556342,
       "sourceQueries": [
         "凡人官方二创大会",
         "凡人修仙传 人物志 设定"
@@ -809,7 +776,7 @@
       "score": 78,
       "lane": "hidden_gem",
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1788676101546,
+      "lastSeenAt": 1788704556342,
       "sourceQueries": [
         "legacy-published",
         "凡人修仙传 鬼畜 整活",
@@ -818,6 +785,39 @@
       "discoveryModes": [
         "history",
         "fresh"
+      ]
+    },
+    {
+      "id": "BV1aPGu6yENw",
+      "bvid": "BV1aPGu6yENw",
+      "title": "银月代恋，沛灵沦陷（韩立结婴闭关的那些年）【凡人官方二创大会】",
+      "description": "内容纯属娱乐，喜欢的朋友麻烦点个赞吧~",
+      "cover": "https://i1.hdslb.com/bfs/archive/8aa9e0b05f79c5fbcaf73613006dd0ccc646b732.jpg",
+      "url": "http://www.bilibili.com/video/av117018497910339",
+      "upId": "383941411",
+      "upName": "非加力-_-",
+      "play": 48817,
+      "pubTime": 1785560685000,
+      "duration": "3:51",
+      "category": "剧情二创",
+      "confidence": 0.9,
+      "classificationSource": "model",
+      "classificationReason": "该内容为《凡人修仙传》相关的剧情二创作品，参与官方二创大会",
+      "contentNature": "secondary_creation",
+      "originality": "deep_adaptation",
+      "eventTag": "凡人官方二创大会",
+      "creatorPotential": "observe",
+      "score": 78,
+      "lane": "event_spotlight",
+      "firstSeenAt": 1785588109330,
+      "lastSeenAt": 1788166338588,
+      "sourceQueries": [
+        "韩立 二创",
+        "凡人官方二创大会"
+      ],
+      "discoveryModes": [
+        "fresh",
+        "history"
       ]
     },
     {
@@ -943,7 +943,7 @@
       "score": 77,
       "lane": "hidden_gem",
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1788676101546,
+      "lastSeenAt": 1788704556342,
       "sourceQueries": [
         "legacy-published",
         "凡人修仙传 鬼畜 整活"
@@ -976,7 +976,7 @@
       "score": 76,
       "lane": "new_creator_watch",
       "firstSeenAt": 1785560340526,
-      "lastSeenAt": 1788616910534,
+      "lastSeenAt": 1788704556342,
       "sourceQueries": [
         "凡人修仙传 人物志 设定"
       ],
@@ -1069,7 +1069,7 @@
       "score": 75,
       "lane": "new_creator_watch",
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1788676101546,
+      "lastSeenAt": 1788704556342,
       "sourceQueries": [
         "凡人修仙传 鬼畜 整活"
       ],
@@ -1244,40 +1244,6 @@
       ]
     },
     {
-      "id": "BV1mA376WEFC",
-      "bvid": "BV1mA376WEFC",
-      "title": "韩立和慕沛灵共同跳一支缠绵悱恻的国风双人舞《卷珠帘》-【凡人官方二创大会】",
-      "description": "让韩立和慕沛灵共同表演一支缠绵悱恻的双人舞《卷珠帘》，稍微弥补一下遗憾，这歌挺适合美人慕师叔的。",
-      "cover": "https://i1.hdslb.com/bfs/archive/31b1b263a214c51c7fdf9c32a7e74efc6a63de75.jpg",
-      "url": "http://www.bilibili.com/video/av116984490496401",
-      "upId": "123710154",
-      "upName": "善见天",
-      "play": 1929,
-      "pubTime": 1785041822000,
-      "duration": "2:1",
-      "category": "同人创作",
-      "confidence": 0.9,
-      "classificationSource": "model",
-      "classificationReason": "基于凡人修仙传角色的同人二次创作，参与官方二创大会",
-      "contentNature": "secondary_creation",
-      "originality": "deep_adaptation",
-      "eventTag": "凡人官方二创大会",
-      "creatorPotential": "one_off",
-      "score": 73,
-      "lane": "event_spotlight",
-      "firstSeenAt": 1785042183361,
-      "lastSeenAt": 1787542424325,
-      "sourceQueries": [
-        "凡人修仙传 二创",
-        "凡人官方二创大会",
-        "韩立 二创"
-      ],
-      "discoveryModes": [
-        "fresh",
-        "history"
-      ]
-    },
-    {
       "id": "BV1Lin7z5EZq",
       "bvid": "BV1Lin7z5EZq",
       "title": "up爆肝10天自制元婴初期韩立大战元婴中期穆兰草原圣女",
@@ -1376,6 +1342,40 @@
       ]
     },
     {
+      "id": "BV1mA376WEFC",
+      "bvid": "BV1mA376WEFC",
+      "title": "韩立和慕沛灵共同跳一支缠绵悱恻的国风双人舞《卷珠帘》-【凡人官方二创大会】",
+      "description": "让韩立和慕沛灵共同表演一支缠绵悱恻的双人舞《卷珠帘》，稍微弥补一下遗憾，这歌挺适合美人慕师叔的。",
+      "cover": "https://i1.hdslb.com/bfs/archive/31b1b263a214c51c7fdf9c32a7e74efc6a63de75.jpg",
+      "url": "http://www.bilibili.com/video/av116984490496401",
+      "upId": "123710154",
+      "upName": "善见天",
+      "play": 1929,
+      "pubTime": 1785041822000,
+      "duration": "2:1",
+      "category": "同人创作",
+      "confidence": 0.9,
+      "classificationSource": "model",
+      "classificationReason": "基于凡人修仙传角色的同人二次创作，参与官方二创大会",
+      "contentNature": "secondary_creation",
+      "originality": "deep_adaptation",
+      "eventTag": "凡人官方二创大会",
+      "creatorPotential": "one_off",
+      "score": 72,
+      "lane": "event_spotlight",
+      "firstSeenAt": 1785042183361,
+      "lastSeenAt": 1787542424325,
+      "sourceQueries": [
+        "凡人修仙传 二创",
+        "凡人官方二创大会",
+        "韩立 二创"
+      ],
+      "discoveryModes": [
+        "fresh",
+        "history"
+      ]
+    },
+    {
       "id": "BV19tgozdEKa",
       "bvid": "BV19tgozdEKa",
       "title": "【凡人修仙传填词】“倘一日，真成了韩老祖”《不谓侠》填词",
@@ -1465,7 +1465,7 @@
       "score": 71,
       "lane": "new_creator_watch",
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1788616910534,
+      "lastSeenAt": 1788704556342,
       "sourceQueries": [
         "凡人修仙传 人物志 设定"
       ],
@@ -1530,7 +1530,7 @@
       "score": 70,
       "lane": "event_spotlight",
       "firstSeenAt": 1784868982615,
-      "lastSeenAt": 1788676101546,
+      "lastSeenAt": 1788704556342,
       "sourceQueries": [
         "凡人修仙传 二创",
         "凡人官方二创大会",
@@ -1723,7 +1723,7 @@
       "score": 67,
       "lane": "archive",
       "firstSeenAt": 1784898301768,
-      "lastSeenAt": 1788616910534,
+      "lastSeenAt": 1788704556342,
       "sourceQueries": [
         "凡人修仙传 二创",
         "凡人官方二创大会",
@@ -1881,7 +1881,7 @@
       "score": 67,
       "lane": "hidden_gem",
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1788676101546,
+      "lastSeenAt": 1788704556342,
       "sourceQueries": [
         "凡人修仙传 鬼畜 整活"
       ],
@@ -1917,100 +1917,6 @@
         "凡人修仙传 配音 翻唱"
       ],
       "discoveryModes": [
-        "history"
-      ]
-    },
-    {
-      "id": "BV1L8TK6aEcQ",
-      "bvid": "BV1L8TK6aEcQ",
-      "title": "凡人修仙传人物志！掩月宗南宫阙的一生！本可借势韩立南宫婉！但却弄巧成拙终作茧！",
-      "description": "凡人修仙传人物志！\n掩月宗南宫阙的一生！\n本可借势韩立南宫婉！\n但却弄巧成拙终作茧！",
-      "cover": "https://i0.hdslb.com/bfs/archive/174f5ecc2fb4ad857367b2d69581ce426d947c68.jpg",
-      "url": "http://www.bilibili.com/video/av116825794808043",
-      "upId": "493383447",
-      "upName": "常在湖边走",
-      "play": 40925,
-      "pubTime": 1782620411000,
-      "duration": "7:21",
-      "category": "人物志",
-      "confidence": 0.9,
-      "classificationSource": "model",
-      "classificationReason": "围绕掩月宗南宫阙的生平展开的人物志专题内容",
-      "contentNature": "character_or_lore",
-      "originality": "deep_adaptation",
-      "eventTag": null,
-      "creatorPotential": "recommend",
-      "score": 65,
-      "lane": "hidden_gem",
-      "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1788616910534,
-      "sourceQueries": [
-        "凡人修仙传 人物志 设定"
-      ],
-      "discoveryModes": [
-        "fresh"
-      ]
-    },
-    {
-      "id": "BV1EfR5BrEMk",
-      "bvid": "BV1EfR5BrEMk",
-      "title": "假如以退婚的方式打开凡人修仙传",
-      "description": "",
-      "cover": "https://i1.hdslb.com/bfs/archive/210dd4a138514da4f191ed9b1171901d3c1c551b.jpg",
-      "url": "http://www.bilibili.com/video/av116502514700554",
-      "upId": "265898085",
-      "upName": "胡闹一转",
-      "play": 30980,
-      "pubTime": 1777687340000,
-      "duration": "4:34",
-      "category": "剧情二创",
-      "confidence": 0.9,
-      "classificationSource": "model",
-      "classificationReason": "以退婚为切入点改编《凡人修仙传》剧情的二创内容",
-      "contentNature": "secondary_creation",
-      "originality": "deep_adaptation",
-      "eventTag": null,
-      "creatorPotential": "observe",
-      "score": 65,
-      "lane": "archive",
-      "firstSeenAt": 1784609746070,
-      "lastSeenAt": 1786365176480,
-      "sourceQueries": [
-        "凡人修仙传 鬼畜 整活"
-      ],
-      "discoveryModes": [
-        "fresh"
-      ]
-    },
-    {
-      "id": "BV1FaV46VEWD",
-      "bvid": "BV1FaV46VEWD",
-      "title": "【 “苍 坤” 遗 信 】阴谋or阳谋——凡人修仙传人物志之苍坤篇",
-      "description": "苍坤篇以自述展开，但up猜测“苍坤”非苍坤，这等遗信的作用和目的，可能和金青他们得到玄骨伪装的古修士遗址线索一样。都是为了引诱修士去闯禁地……当然这只是up胡乱猜测，道友们随便看看即可。\n\n喜欢的道友还请多多三连转发支持，另外视频制作不易，有年度大会员的道友，每个月可以白嫖5B劵，想支持up主的话可以用这个劵给up主发电，感谢各位道友！\nhttps://account.bilibili.com/account/big/myPackage",
-      "cover": "https://i2.hdslb.com/bfs/archive/60f810f00ca902e4c7bd675e3292f8c76cb6309c.jpg",
-      "url": "http://www.bilibili.com/video/av116655170523524",
-      "upId": "222851470",
-      "upName": "咕噜咕噜疾",
-      "play": 15538,
-      "pubTime": 1780036800000,
-      "duration": "4:44",
-      "category": "人物志",
-      "confidence": 0.9,
-      "classificationSource": "model",
-      "classificationReason": "围绕凡人角色苍坤展开的专题人物志内容",
-      "contentNature": "character_or_lore",
-      "originality": "deep_adaptation",
-      "eventTag": null,
-      "creatorPotential": "recommend",
-      "score": 65,
-      "lane": "archive",
-      "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1788018288274,
-      "sourceQueries": [
-        "凡人修仙传 人物志 设定"
-      ],
-      "discoveryModes": [
-        "fresh",
         "history"
       ]
     },
@@ -2071,7 +1977,7 @@
       "score": 64,
       "lane": "archive",
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1788616910534,
+      "lastSeenAt": 1788704556342,
       "sourceQueries": [
         "legacy-published",
         "凡人修仙传 人物志 设定"
@@ -2079,6 +1985,100 @@
       "discoveryModes": [
         "history",
         "fresh"
+      ]
+    },
+    {
+      "id": "BV1L8TK6aEcQ",
+      "bvid": "BV1L8TK6aEcQ",
+      "title": "凡人修仙传人物志！掩月宗南宫阙的一生！本可借势韩立南宫婉！但却弄巧成拙终作茧！",
+      "description": "凡人修仙传人物志！\n掩月宗南宫阙的一生！\n本可借势韩立南宫婉！\n但却弄巧成拙终作茧！",
+      "cover": "https://i0.hdslb.com/bfs/archive/174f5ecc2fb4ad857367b2d69581ce426d947c68.jpg",
+      "url": "http://www.bilibili.com/video/av116825794808043",
+      "upId": "493383447",
+      "upName": "常在湖边走",
+      "play": 40925,
+      "pubTime": 1782620411000,
+      "duration": "7:21",
+      "category": "人物志",
+      "confidence": 0.9,
+      "classificationSource": "model",
+      "classificationReason": "围绕掩月宗南宫阙的生平展开的人物志专题内容",
+      "contentNature": "character_or_lore",
+      "originality": "deep_adaptation",
+      "eventTag": null,
+      "creatorPotential": "recommend",
+      "score": 64,
+      "lane": "hidden_gem",
+      "firstSeenAt": 1784281357983,
+      "lastSeenAt": 1788704556342,
+      "sourceQueries": [
+        "凡人修仙传 人物志 设定"
+      ],
+      "discoveryModes": [
+        "fresh"
+      ]
+    },
+    {
+      "id": "BV1EfR5BrEMk",
+      "bvid": "BV1EfR5BrEMk",
+      "title": "假如以退婚的方式打开凡人修仙传",
+      "description": "",
+      "cover": "https://i1.hdslb.com/bfs/archive/210dd4a138514da4f191ed9b1171901d3c1c551b.jpg",
+      "url": "http://www.bilibili.com/video/av116502514700554",
+      "upId": "265898085",
+      "upName": "胡闹一转",
+      "play": 30980,
+      "pubTime": 1777687340000,
+      "duration": "4:34",
+      "category": "剧情二创",
+      "confidence": 0.9,
+      "classificationSource": "model",
+      "classificationReason": "以退婚为切入点改编《凡人修仙传》剧情的二创内容",
+      "contentNature": "secondary_creation",
+      "originality": "deep_adaptation",
+      "eventTag": null,
+      "creatorPotential": "observe",
+      "score": 64,
+      "lane": "archive",
+      "firstSeenAt": 1784609746070,
+      "lastSeenAt": 1786365176480,
+      "sourceQueries": [
+        "凡人修仙传 鬼畜 整活"
+      ],
+      "discoveryModes": [
+        "fresh"
+      ]
+    },
+    {
+      "id": "BV1FaV46VEWD",
+      "bvid": "BV1FaV46VEWD",
+      "title": "【 “苍 坤” 遗 信 】阴谋or阳谋——凡人修仙传人物志之苍坤篇",
+      "description": "苍坤篇以自述展开，但up猜测“苍坤”非苍坤，这等遗信的作用和目的，可能和金青他们得到玄骨伪装的古修士遗址线索一样。都是为了引诱修士去闯禁地……当然这只是up胡乱猜测，道友们随便看看即可。\n\n喜欢的道友还请多多三连转发支持，另外视频制作不易，有年度大会员的道友，每个月可以白嫖5B劵，想支持up主的话可以用这个劵给up主发电，感谢各位道友！\nhttps://account.bilibili.com/account/big/myPackage",
+      "cover": "https://i2.hdslb.com/bfs/archive/60f810f00ca902e4c7bd675e3292f8c76cb6309c.jpg",
+      "url": "http://www.bilibili.com/video/av116655170523524",
+      "upId": "222851470",
+      "upName": "咕噜咕噜疾",
+      "play": 15538,
+      "pubTime": 1780036800000,
+      "duration": "4:44",
+      "category": "人物志",
+      "confidence": 0.9,
+      "classificationSource": "model",
+      "classificationReason": "围绕凡人角色苍坤展开的专题人物志内容",
+      "contentNature": "character_or_lore",
+      "originality": "deep_adaptation",
+      "eventTag": null,
+      "creatorPotential": "recommend",
+      "score": 64,
+      "lane": "archive",
+      "firstSeenAt": 1784281357983,
+      "lastSeenAt": 1788018288274,
+      "sourceQueries": [
+        "凡人修仙传 人物志 设定"
+      ],
+      "discoveryModes": [
+        "fresh",
+        "history"
       ]
     },
     {
@@ -2112,37 +2112,6 @@
       ],
       "discoveryModes": [
         "fresh",
-        "history"
-      ]
-    },
-    {
-      "id": "BV1Brx3z5EY8",
-      "bvid": "BV1Brx3z5EY8",
-      "title": "凡人修仙传『归期』心痛翻唱&quot;韩大哥，果然还是那一年的烟花最好看&quot;",
-      "description": "点赞过万翻唱下一首《不凡2024》！\n\n《归期》\n原唱：钱润玉\n翻唱：池年\n混音：珊瑚\n视频：BV1Vt4y177cP @万维猫动画  \n\n其他翻唱《暮色回响》：BV1W142187Pd 《何者》：BV1gZrFYbEWK 《唯一》：BV1P3pUzSEU1\n【周杰伦工作室官方评论点赞】《红颜如霜》：BV1W94y1Q7FS\n————————————————————————————————\n嗨！池年是一名VUP，是一只喜欢唱歌打游戏的鲸鱼海妖，如果喜欢还请留下三连和评论弹幕~大家的支持和喜欢就是我最大的动",
-      "cover": "https://i1.hdslb.com/bfs/archive/2233326bc0304b1b86b00018ce39558a51b45106.jpg",
-      "url": "http://www.bilibili.com/video/av115323630001594",
-      "upId": "2341174",
-      "upName": "池年",
-      "play": 57243,
-      "pubTime": 1759806300000,
-      "duration": "4:41",
-      "category": "音乐配音",
-      "confidence": 0.95,
-      "classificationSource": "model",
-      "classificationReason": "翻唱《凡人修仙传》相关歌曲，属于二次创作",
-      "contentNature": "secondary_creation",
-      "originality": "deep_adaptation",
-      "eventTag": null,
-      "creatorPotential": "recommend",
-      "score": 63,
-      "lane": "archive",
-      "firstSeenAt": 1788166338588,
-      "lastSeenAt": 1788166338588,
-      "sourceQueries": [
-        "凡人修仙传 配音 翻唱"
-      ],
-      "discoveryModes": [
         "history"
       ]
     },
@@ -2238,6 +2207,37 @@
       "discoveryModes": [
         "history",
         "fresh"
+      ]
+    },
+    {
+      "id": "BV1Brx3z5EY8",
+      "bvid": "BV1Brx3z5EY8",
+      "title": "凡人修仙传『归期』心痛翻唱&quot;韩大哥，果然还是那一年的烟花最好看&quot;",
+      "description": "点赞过万翻唱下一首《不凡2024》！\n\n《归期》\n原唱：钱润玉\n翻唱：池年\n混音：珊瑚\n视频：BV1Vt4y177cP @万维猫动画  \n\n其他翻唱《暮色回响》：BV1W142187Pd 《何者》：BV1gZrFYbEWK 《唯一》：BV1P3pUzSEU1\n【周杰伦工作室官方评论点赞】《红颜如霜》：BV1W94y1Q7FS\n————————————————————————————————\n嗨！池年是一名VUP，是一只喜欢唱歌打游戏的鲸鱼海妖，如果喜欢还请留下三连和评论弹幕~大家的支持和喜欢就是我最大的动",
+      "cover": "https://i1.hdslb.com/bfs/archive/2233326bc0304b1b86b00018ce39558a51b45106.jpg",
+      "url": "http://www.bilibili.com/video/av115323630001594",
+      "upId": "2341174",
+      "upName": "池年",
+      "play": 57243,
+      "pubTime": 1759806300000,
+      "duration": "4:41",
+      "category": "音乐配音",
+      "confidence": 0.95,
+      "classificationSource": "model",
+      "classificationReason": "翻唱《凡人修仙传》相关歌曲，属于二次创作",
+      "contentNature": "secondary_creation",
+      "originality": "deep_adaptation",
+      "eventTag": null,
+      "creatorPotential": "recommend",
+      "score": 62,
+      "lane": "archive",
+      "firstSeenAt": 1788166338588,
+      "lastSeenAt": 1788166338588,
+      "sourceQueries": [
+        "凡人修仙传 配音 翻唱"
+      ],
+      "discoveryModes": [
+        "history"
       ]
     },
     {
@@ -2612,7 +2612,7 @@
       "score": 61,
       "lane": "hidden_gem",
       "firstSeenAt": 1784868982615,
-      "lastSeenAt": 1788616910534,
+      "lastSeenAt": 1788704556342,
       "sourceQueries": [
         "凡人修仙传 人物志 设定"
       ],
@@ -2770,7 +2770,7 @@
       "score": 60,
       "lane": "new_creator_watch",
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1788616910534,
+      "lastSeenAt": 1788704556342,
       "sourceQueries": [
         "legacy-published",
         "凡人修仙传 人物志 设定"
@@ -2803,7 +2803,7 @@
       "score": 60,
       "lane": "hidden_gem",
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1788676101546,
+      "lastSeenAt": 1788704556342,
       "sourceQueries": [
         "凡人修仙传 鬼畜 整活"
       ],
