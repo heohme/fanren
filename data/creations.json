@@ -1,6 +1,6 @@
 {
-  "generatedAt": 1788766264547,
-  "mode": "history",
+  "generatedAt": 1788799405103,
+  "mode": "fresh",
   "taxonomyVersion": 2,
   "policyVersion": 1,
   "model": "doubao-seed-2-0-mini-260428",
@@ -14,7 +14,7 @@
   ],
   "counts": {
     "人物志": 15,
-    "剧情二创": 19,
+    "剧情二创": 17,
     "趣味整活": 17,
     "混剪手书": 7,
     "音乐配音": 12,
@@ -27,8 +27,8 @@
       "BV1HFGK6DEqq",
       "BV1XMG36SEqX",
       "BV1rkGM6fEUv",
-      "BV11F3i6uE14",
       "BV1aPGu6yENw",
+      "BV11F3i6uE14",
       "BV1TzGG6EEkb",
       "BV1mA376WEFC",
       "BV1pi3n6bEut",
@@ -53,8 +53,8 @@
     "new_creator_watch": [
       "BV1mJME6DEKn",
       "BV1UfTx6VEfb",
-      "BV1MCTK6XEBL",
       "BV1fyjH6zEdR",
+      "BV1MCTK6XEBL",
       "BV19b7p6YESX",
       "BV1fCMe6JEsx",
       "BV1BcGV6AEaJ",
@@ -90,13 +90,11 @@
       "BV1bgVS6dEMQ",
       "BV1s2Ts6YEdR",
       "BV1ym4y1F7ai",
-      "BV1EfR5BrEMk",
       "BV1FaV46VEWD",
       "BV1EdcJz6EPN",
       "BV1RusDz1EwM",
       "BV1Brx3z5EY8",
       "BV1V9AUzHEzJ",
-      "BV12BGk68E5n",
       "BV13dorBLEWu",
       "BV19w4m1X7xU",
       "BV1dV411w72Y",
@@ -104,7 +102,7 @@
       "BV14KS3YGEk9",
       "BV1Z6uKzQEXg",
       "BV1mXEc6hE37",
-      "BV1zuRcBqE5Y",
+      "BV12BGk68E5n",
       "BV12MziYDEpZ",
       "BV15rn9z2Egj",
       "BV1YN7k6DEAR",
@@ -300,7 +298,7 @@
       "score": 84,
       "lane": "event_spotlight",
       "firstSeenAt": 1785560340526,
-      "lastSeenAt": 1788762993615,
+      "lastSeenAt": 1788799405103,
       "sourceQueries": [
         "凡人修仙传 二创",
         "凡人官方二创大会",
@@ -334,13 +332,45 @@
       "score": 82,
       "lane": "new_creator_watch",
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1788762993615,
+      "lastSeenAt": 1788799405103,
       "sourceQueries": [
         "legacy-published",
         "凡人修仙传 鬼畜 整活",
         "凡人修仙传 二创",
         "凡人官方二创大会",
         "韩立 二创"
+      ],
+      "discoveryModes": [
+        "history",
+        "fresh"
+      ]
+    },
+    {
+      "id": "BV1fyjH6zEdR",
+      "bvid": "BV1fyjH6zEdR",
+      "title": "“夯爆了！看到这一幕直接绷不住了！”【凡人官方二创大会】",
+      "description": "",
+      "cover": "https://i1.hdslb.com/bfs/archive/d92785683d89136c56f7cf51b288ec2e6ff14e91.jpg",
+      "url": "http://www.bilibili.com/video/av116782744473198",
+      "upId": "43887712",
+      "upName": "爱睡觉的_Koala",
+      "play": 1023068,
+      "pubTime": 1781963424000,
+      "duration": "3:10",
+      "category": "趣味整活",
+      "confidence": 0.9,
+      "classificationSource": "model",
+      "classificationReason": "该内容为参与凡人官方二创大会的趣味整活内容",
+      "contentNature": "secondary_creation",
+      "originality": "deep_adaptation",
+      "eventTag": "凡人官方二创大会",
+      "creatorPotential": "observe",
+      "score": 82,
+      "lane": "new_creator_watch",
+      "firstSeenAt": 1787542424325,
+      "lastSeenAt": 1788766264547,
+      "sourceQueries": [
+        "凡人官方二创大会"
       ],
       "discoveryModes": [
         "history",
@@ -478,31 +508,36 @@
       ]
     },
     {
-      "id": "BV1fyjH6zEdR",
-      "bvid": "BV1fyjH6zEdR",
-      "title": "“夯爆了！看到这一幕直接绷不住了！”【凡人官方二创大会】",
-      "description": "",
-      "cover": "https://i1.hdslb.com/bfs/archive/d92785683d89136c56f7cf51b288ec2e6ff14e91.jpg",
-      "url": "http://www.bilibili.com/video/av116782744473198",
-      "upId": "43887712",
-      "upName": "爱睡觉的_Koala",
-      "play": 1023068,
-      "pubTime": 1781963424000,
-      "duration": "3:10",
-      "category": "趣味整活",
+      "id": "BV19b7p6YESX",
+      "bvid": "BV19b7p6YESX",
+      "title": "“无能”的婉儿                     【凡人官方二创大会】",
+      "description": "-主要讲述的是善良贤惠的婉儿，遭遇到丈夫出轨，姐妹背叛，最后黑化，孤身带着孩子完成复仇的正能量故事",
+      "cover": "https://i1.hdslb.com/bfs/archive/ac581d66e0e86705313a99a66df49e513ac65b75.jpg",
+      "url": "http://www.bilibili.com/video/av116821432800888",
+      "upId": "1172349285",
+      "upName": "韩历飞羽666",
+      "play": 691691,
+      "pubTime": 1782553956000,
+      "duration": "2:58",
+      "category": "剧情二创",
       "confidence": 0.9,
       "classificationSource": "model",
-      "classificationReason": "该内容为参与凡人官方二创大会的趣味整活内容",
+      "classificationReason": "参与凡人官方二创大会，改编凡人剧情创作婉儿黑化复仇的故事",
       "contentNature": "secondary_creation",
       "originality": "deep_adaptation",
       "eventTag": "凡人官方二创大会",
       "creatorPotential": "observe",
       "score": 81,
       "lane": "new_creator_watch",
-      "firstSeenAt": 1787542424325,
+      "firstSeenAt": 1784281357983,
       "lastSeenAt": 1788766264547,
       "sourceQueries": [
-        "凡人官方二创大会"
+        "legacy-published",
+        "凡人修仙传 二创",
+        "凡人官方二创大会",
+        "韩立 二创",
+        "凡人修仙传 同人",
+        "南宫婉 二创"
       ],
       "discoveryModes": [
         "history",
@@ -532,7 +567,7 @@
       "score": 80,
       "lane": "archive",
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1788762993615,
+      "lastSeenAt": 1788799405103,
       "sourceQueries": [
         "凡人修仙传 鬼畜 整活",
         "凡人修仙传 二创",
@@ -541,43 +576,6 @@
       "discoveryModes": [
         "fresh",
         "history"
-      ]
-    },
-    {
-      "id": "BV19b7p6YESX",
-      "bvid": "BV19b7p6YESX",
-      "title": "“无能”的婉儿                     【凡人官方二创大会】",
-      "description": "-主要讲述的是善良贤惠的婉儿，遭遇到丈夫出轨，姐妹背叛，最后黑化，孤身带着孩子完成复仇的正能量故事",
-      "cover": "https://i1.hdslb.com/bfs/archive/ac581d66e0e86705313a99a66df49e513ac65b75.jpg",
-      "url": "http://www.bilibili.com/video/av116821432800888",
-      "upId": "1172349285",
-      "upName": "韩历飞羽666",
-      "play": 691691,
-      "pubTime": 1782553956000,
-      "duration": "2:58",
-      "category": "剧情二创",
-      "confidence": 0.9,
-      "classificationSource": "model",
-      "classificationReason": "参与凡人官方二创大会，改编凡人剧情创作婉儿黑化复仇的故事",
-      "contentNature": "secondary_creation",
-      "originality": "deep_adaptation",
-      "eventTag": "凡人官方二创大会",
-      "creatorPotential": "observe",
-      "score": 80,
-      "lane": "new_creator_watch",
-      "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1788766264547,
-      "sourceQueries": [
-        "legacy-published",
-        "凡人修仙传 二创",
-        "凡人官方二创大会",
-        "韩立 二创",
-        "凡人修仙传 同人",
-        "南宫婉 二创"
-      ],
-      "discoveryModes": [
-        "history",
-        "fresh"
       ]
     },
     {
@@ -648,6 +646,39 @@
       ]
     },
     {
+      "id": "BV1aPGu6yENw",
+      "bvid": "BV1aPGu6yENw",
+      "title": "银月代恋，沛灵沦陷（韩立结婴闭关的那些年）【凡人官方二创大会】",
+      "description": "内容纯属娱乐，喜欢的朋友麻烦点个赞吧~",
+      "cover": "https://i1.hdslb.com/bfs/archive/8aa9e0b05f79c5fbcaf73613006dd0ccc646b732.jpg",
+      "url": "http://www.bilibili.com/video/av117018497910339",
+      "upId": "383941411",
+      "upName": "非加力-_-",
+      "play": 48817,
+      "pubTime": 1785560685000,
+      "duration": "3:51",
+      "category": "剧情二创",
+      "confidence": 0.9,
+      "classificationSource": "model",
+      "classificationReason": "该内容为《凡人修仙传》相关的剧情二创作品，参与官方二创大会",
+      "contentNature": "secondary_creation",
+      "originality": "deep_adaptation",
+      "eventTag": "凡人官方二创大会",
+      "creatorPotential": "observe",
+      "score": 79,
+      "lane": "event_spotlight",
+      "firstSeenAt": 1785588109330,
+      "lastSeenAt": 1788166338588,
+      "sourceQueries": [
+        "韩立 二创",
+        "凡人官方二创大会"
+      ],
+      "discoveryModes": [
+        "fresh",
+        "history"
+      ]
+    },
+    {
       "id": "BV11F3i6uE14",
       "bvid": "BV11F3i6uE14",
       "title": "凡人人物志之吕洛篇——【凡人官方二创大会】",
@@ -670,7 +701,7 @@
       "score": 79,
       "lane": "event_spotlight",
       "firstSeenAt": 1785244584356,
-      "lastSeenAt": 1788762993615,
+      "lastSeenAt": 1788799405103,
       "sourceQueries": [
         "凡人官方二创大会",
         "凡人修仙传 人物志 设定"
@@ -702,7 +733,7 @@
       "score": 78,
       "lane": "hidden_gem",
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1788762993615,
+      "lastSeenAt": 1788799405103,
       "sourceQueries": [
         "legacy-published",
         "凡人修仙传 鬼畜 整活",
@@ -711,39 +742,6 @@
       "discoveryModes": [
         "history",
         "fresh"
-      ]
-    },
-    {
-      "id": "BV1aPGu6yENw",
-      "bvid": "BV1aPGu6yENw",
-      "title": "银月代恋，沛灵沦陷（韩立结婴闭关的那些年）【凡人官方二创大会】",
-      "description": "内容纯属娱乐，喜欢的朋友麻烦点个赞吧~",
-      "cover": "https://i1.hdslb.com/bfs/archive/8aa9e0b05f79c5fbcaf73613006dd0ccc646b732.jpg",
-      "url": "http://www.bilibili.com/video/av117018497910339",
-      "upId": "383941411",
-      "upName": "非加力-_-",
-      "play": 48817,
-      "pubTime": 1785560685000,
-      "duration": "3:51",
-      "category": "剧情二创",
-      "confidence": 0.9,
-      "classificationSource": "model",
-      "classificationReason": "该内容为《凡人修仙传》相关的剧情二创作品，参与官方二创大会",
-      "contentNature": "secondary_creation",
-      "originality": "deep_adaptation",
-      "eventTag": "凡人官方二创大会",
-      "creatorPotential": "observe",
-      "score": 78,
-      "lane": "event_spotlight",
-      "firstSeenAt": 1785588109330,
-      "lastSeenAt": 1788166338588,
-      "sourceQueries": [
-        "韩立 二创",
-        "凡人官方二创大会"
-      ],
-      "discoveryModes": [
-        "fresh",
-        "history"
       ]
     },
     {
@@ -847,39 +845,6 @@
       ]
     },
     {
-      "id": "BV1RoM46tEQ8",
-      "bvid": "BV1RoM46tEQ8",
-      "title": "⚡师 姐 摇 一 摇⚡【凡人官方二创大会】",
-      "description": "摇一摇~ 摇一摇~",
-      "cover": "https://i1.hdslb.com/bfs/archive/2877c277ec1602d1dc698cbce43982f766ca04d2.jpg",
-      "url": "http://www.bilibili.com/video/av116877451987094",
-      "upId": "327838817",
-      "upName": "明灯-专注脑洞一百年",
-      "play": 29957,
-      "pubTime": 1783408640000,
-      "duration": "1:3",
-      "category": "趣味整活",
-      "confidence": 0.95,
-      "classificationSource": "model",
-      "classificationReason": "参与凡人官方二创大会的趣味整活类二次创作内容",
-      "contentNature": "secondary_creation",
-      "originality": "deep_adaptation",
-      "eventTag": "凡人官方二创大会",
-      "creatorPotential": "recommend",
-      "score": 77,
-      "lane": "hidden_gem",
-      "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1788762993615,
-      "sourceQueries": [
-        "legacy-published",
-        "凡人修仙传 鬼畜 整活"
-      ],
-      "discoveryModes": [
-        "history",
-        "fresh"
-      ]
-    },
-    {
       "id": "BV1ksGu6cEdY",
       "bvid": "BV1ksGu6cEdY",
       "title": "尤道友-最菜最装的元婴修士！凡人修仙传人物志·5",
@@ -902,11 +867,44 @@
       "score": 76,
       "lane": "new_creator_watch",
       "firstSeenAt": 1785560340526,
-      "lastSeenAt": 1788762993615,
+      "lastSeenAt": 1788799405103,
       "sourceQueries": [
         "凡人修仙传 人物志 设定"
       ],
       "discoveryModes": [
+        "fresh"
+      ]
+    },
+    {
+      "id": "BV1RoM46tEQ8",
+      "bvid": "BV1RoM46tEQ8",
+      "title": "⚡师 姐 摇 一 摇⚡【凡人官方二创大会】",
+      "description": "摇一摇~ 摇一摇~",
+      "cover": "https://i1.hdslb.com/bfs/archive/2877c277ec1602d1dc698cbce43982f766ca04d2.jpg",
+      "url": "http://www.bilibili.com/video/av116877451987094",
+      "upId": "327838817",
+      "upName": "明灯-专注脑洞一百年",
+      "play": 29957,
+      "pubTime": 1783408640000,
+      "duration": "1:3",
+      "category": "趣味整活",
+      "confidence": 0.95,
+      "classificationSource": "model",
+      "classificationReason": "参与凡人官方二创大会的趣味整活类二次创作内容",
+      "contentNature": "secondary_creation",
+      "originality": "deep_adaptation",
+      "eventTag": "凡人官方二创大会",
+      "creatorPotential": "recommend",
+      "score": 76,
+      "lane": "hidden_gem",
+      "firstSeenAt": 1784281357983,
+      "lastSeenAt": 1788799405103,
+      "sourceQueries": [
+        "legacy-published",
+        "凡人修仙传 鬼畜 整活"
+      ],
+      "discoveryModes": [
+        "history",
         "fresh"
       ]
     },
@@ -995,7 +993,7 @@
       "score": 75,
       "lane": "new_creator_watch",
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1788762993615,
+      "lastSeenAt": 1788799405103,
       "sourceQueries": [
         "凡人修仙传 鬼畜 整活"
       ],
@@ -1391,7 +1389,7 @@
       "score": 71,
       "lane": "new_creator_watch",
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1788762993615,
+      "lastSeenAt": 1788799405103,
       "sourceQueries": [
         "凡人修仙传 人物志 设定"
       ],
@@ -1456,7 +1454,7 @@
       "score": 70,
       "lane": "hidden_gem",
       "firstSeenAt": 1784868982615,
-      "lastSeenAt": 1788762993615,
+      "lastSeenAt": 1788799405103,
       "sourceQueries": [
         "凡人修仙传 二创",
         "凡人官方二创大会",
@@ -1616,7 +1614,7 @@
       "score": 67,
       "lane": "archive",
       "firstSeenAt": 1784898301768,
-      "lastSeenAt": 1788762993615,
+      "lastSeenAt": 1788799405103,
       "sourceQueries": [
         "凡人修仙传 二创",
         "凡人官方二创大会",
@@ -1776,7 +1774,7 @@
       "score": 67,
       "lane": "hidden_gem",
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1788762993615,
+      "lastSeenAt": 1788799405103,
       "sourceQueries": [
         "凡人修仙传 鬼畜 整活"
       ],
@@ -1872,7 +1870,7 @@
       "score": 64,
       "lane": "archive",
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1788762993615,
+      "lastSeenAt": 1788799405103,
       "sourceQueries": [
         "legacy-published",
         "凡人修仙传 人物志 设定"
@@ -1936,40 +1934,9 @@
       "score": 64,
       "lane": "hidden_gem",
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1788762993615,
+      "lastSeenAt": 1788799405103,
       "sourceQueries": [
         "凡人修仙传 人物志 设定"
-      ],
-      "discoveryModes": [
-        "fresh"
-      ]
-    },
-    {
-      "id": "BV1EfR5BrEMk",
-      "bvid": "BV1EfR5BrEMk",
-      "title": "假如以退婚的方式打开凡人修仙传",
-      "description": "",
-      "cover": "https://i1.hdslb.com/bfs/archive/210dd4a138514da4f191ed9b1171901d3c1c551b.jpg",
-      "url": "http://www.bilibili.com/video/av116502514700554",
-      "upId": "265898085",
-      "upName": "胡闹一转",
-      "play": 30980,
-      "pubTime": 1777687340000,
-      "duration": "4:34",
-      "category": "剧情二创",
-      "confidence": 0.9,
-      "classificationSource": "model",
-      "classificationReason": "以退婚为切入点改编《凡人修仙传》剧情的二创内容",
-      "contentNature": "secondary_creation",
-      "originality": "deep_adaptation",
-      "eventTag": null,
-      "creatorPotential": "observe",
-      "score": 64,
-      "lane": "archive",
-      "firstSeenAt": 1784609746070,
-      "lastSeenAt": 1786365176480,
-      "sourceQueries": [
-        "凡人修仙传 鬼畜 整活"
       ],
       "discoveryModes": [
         "fresh"
@@ -2008,40 +1975,6 @@
       ]
     },
     {
-      "id": "BV1dbgf69EQ2",
-      "bvid": "BV1dbgf69EQ2",
-      "title": "凡人修仙传同人二创银月扮演的尸魈日常",
-      "description": "其实不太想叫她尸魈，更喜欢叫她大银月，我记得原著银月就是御姐",
-      "cover": "https://i0.hdslb.com/bfs/archive/59ecce143d6da576e69a08c809c083018f003969.jpg",
-      "url": "http://www.bilibili.com/video/av116989574120770",
-      "upId": "43791739",
-      "upName": "海月下的谎言",
-      "play": 1000,
-      "pubTime": 1785119318000,
-      "duration": "0:31",
-      "category": "同人创作",
-      "confidence": 0.85,
-      "classificationSource": "model",
-      "classificationReason": "围绕凡人修仙传角色银月创作的同人二创内容",
-      "contentNature": "secondary_creation",
-      "originality": "deep_adaptation",
-      "eventTag": null,
-      "creatorPotential": "one_off",
-      "score": 64,
-      "lane": "new_creator_watch",
-      "firstSeenAt": 1785130133956,
-      "lastSeenAt": 1786937357683,
-      "sourceQueries": [
-        "凡人修仙传 二创",
-        "凡人修仙传 同人",
-        "凡人修仙传 MMD 同人动画"
-      ],
-      "discoveryModes": [
-        "fresh",
-        "history"
-      ]
-    },
-    {
       "id": "BV1EdcJz6EPN",
       "bvid": "BV1EdcJz6EPN",
       "title": "那一晚，韩立接受了元瑶的感谢   Seedance2.0",
@@ -2069,6 +2002,40 @@
         "韩立 二创"
       ],
       "discoveryModes": [
+        "history"
+      ]
+    },
+    {
+      "id": "BV1dbgf69EQ2",
+      "bvid": "BV1dbgf69EQ2",
+      "title": "凡人修仙传同人二创银月扮演的尸魈日常",
+      "description": "其实不太想叫她尸魈，更喜欢叫她大银月，我记得原著银月就是御姐",
+      "cover": "https://i0.hdslb.com/bfs/archive/59ecce143d6da576e69a08c809c083018f003969.jpg",
+      "url": "http://www.bilibili.com/video/av116989574120770",
+      "upId": "43791739",
+      "upName": "海月下的谎言",
+      "play": 1000,
+      "pubTime": 1785119318000,
+      "duration": "0:31",
+      "category": "同人创作",
+      "confidence": 0.85,
+      "classificationSource": "model",
+      "classificationReason": "围绕凡人修仙传角色银月创作的同人二创内容",
+      "contentNature": "secondary_creation",
+      "originality": "deep_adaptation",
+      "eventTag": null,
+      "creatorPotential": "one_off",
+      "score": 63,
+      "lane": "new_creator_watch",
+      "firstSeenAt": 1785130133956,
+      "lastSeenAt": 1786937357683,
+      "sourceQueries": [
+        "凡人修仙传 二创",
+        "凡人修仙传 同人",
+        "凡人修仙传 MMD 同人动画"
+      ],
+      "discoveryModes": [
+        "fresh",
         "history"
       ]
     },
@@ -2165,37 +2132,6 @@
       ],
       "discoveryModes": [
         "history"
-      ]
-    },
-    {
-      "id": "BV12BGk68E5n",
-      "bvid": "BV12BGk68E5n",
-      "title": "凡人二创＆百万英镑：我要一对风雷翅一个虚天鼎还有你的御风车",
-      "description": "",
-      "cover": "https://i0.hdslb.com/bfs/archive/194b1b46e85766b8d93596eaca943d997f101326.jpg",
-      "url": "http://www.bilibili.com/video/av116644600878423",
-      "upId": "11237991",
-      "upName": "这AI有力气",
-      "play": 13335,
-      "pubTime": 1779855463000,
-      "duration": "1:13",
-      "category": "剧情二创",
-      "confidence": 0.85,
-      "classificationSource": "model",
-      "classificationReason": "凡人相关的剧情类二次创作，结合其他作品设定",
-      "contentNature": "secondary_creation",
-      "originality": "deep_adaptation",
-      "eventTag": null,
-      "creatorPotential": "observe",
-      "score": 62,
-      "lane": "archive",
-      "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1788161726123,
-      "sourceQueries": [
-        "凡人修仙传 鬼畜 整活"
-      ],
-      "discoveryModes": [
-        "fresh"
       ]
     },
     {
@@ -2423,29 +2359,29 @@
       ]
     },
     {
-      "id": "BV1zuRcBqE5Y",
-      "bvid": "BV1zuRcBqE5Y",
-      "title": "凡人二创：邰夫人是怎么变老的，韩立和凌玉灵怎么逃掉的。",
+      "id": "BV12BGk68E5n",
+      "bvid": "BV12BGk68E5n",
+      "title": "凡人二创＆百万英镑：我要一对风雷翅一个虚天鼎还有你的御风车",
       "description": "",
-      "cover": "https://i1.hdslb.com/bfs/archive/f07bc938496f6f5df1f656eb65d39ea639ed3f24.jpg",
-      "url": "http://www.bilibili.com/video/av116511255567855",
-      "upId": "3546821225875851",
-      "upName": "狂野青年L",
-      "play": 2075,
-      "pubTime": 1777820933000,
-      "duration": "4:10",
+      "cover": "https://i0.hdslb.com/bfs/archive/194b1b46e85766b8d93596eaca943d997f101326.jpg",
+      "url": "http://www.bilibili.com/video/av116644600878423",
+      "upId": "11237991",
+      "upName": "这AI有力气",
+      "play": 13335,
+      "pubTime": 1779855463000,
+      "duration": "1:13",
       "category": "剧情二创",
       "confidence": 0.85,
       "classificationSource": "model",
-      "classificationReason": "《凡人修仙传》相关剧情的二创内容",
+      "classificationReason": "凡人相关的剧情类二次创作，结合其他作品设定",
       "contentNature": "secondary_creation",
       "originality": "deep_adaptation",
       "eventTag": null,
       "creatorPotential": "observe",
       "score": 61,
       "lane": "archive",
-      "firstSeenAt": 1784609746070,
-      "lastSeenAt": 1786365176480,
+      "firstSeenAt": 1784281357983,
+      "lastSeenAt": 1788161726123,
       "sourceQueries": [
         "凡人修仙传 鬼畜 整活"
       ],
@@ -2476,7 +2412,7 @@
       "score": 61,
       "lane": "hidden_gem",
       "firstSeenAt": 1784868982615,
-      "lastSeenAt": 1788762993615,
+      "lastSeenAt": 1788799405103,
       "sourceQueries": [
         "凡人修仙传 人物志 设定"
       ],
@@ -2634,7 +2570,7 @@
       "score": 60,
       "lane": "new_creator_watch",
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1788762993615,
+      "lastSeenAt": 1788799405103,
       "sourceQueries": [
         "legacy-published",
         "凡人修仙传 人物志 设定"
@@ -2667,7 +2603,7 @@
       "score": 60,
       "lane": "hidden_gem",
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1788762993615,
+      "lastSeenAt": 1788799405103,
       "sourceQueries": [
         "凡人修仙传 鬼畜 整活"
       ],
