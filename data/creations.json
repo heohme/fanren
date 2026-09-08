@@ -1,5 +1,5 @@
 {
-  "generatedAt": 1788849050339,
+  "generatedAt": 1788880660636,
   "mode": "fresh",
   "taxonomyVersion": 2,
   "policyVersion": 1,
@@ -80,10 +80,10 @@
       "BV1XGPrzcEar",
       "BV1Lin7z5EZq",
       "BV19tgozdEKa",
+      "BV1Mwge6KEze",
       "BV1rMWDzpEz5",
       "BV1fJr3BYExB",
       "BV16nABzPEmQ",
-      "BV1Mwge6KEze",
       "BV17zNszhEQ3",
       "BV1G2CrBLEo9",
       "BV1DEoaBUEBf",
@@ -298,7 +298,7 @@
       "score": 84,
       "lane": "event_spotlight",
       "firstSeenAt": 1785560340526,
-      "lastSeenAt": 1788849050339,
+      "lastSeenAt": 1788880660636,
       "sourceQueries": [
         "凡人修仙传 二创",
         "凡人官方二创大会",
@@ -332,7 +332,7 @@
       "score": 83,
       "lane": "new_creator_watch",
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1788849050339,
+      "lastSeenAt": 1788880660636,
       "sourceQueries": [
         "legacy-published",
         "凡人修仙传 鬼畜 整活",
@@ -567,7 +567,7 @@
       "score": 80,
       "lane": "archive",
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1788849050339,
+      "lastSeenAt": 1788880660636,
       "sourceQueries": [
         "凡人修仙传 鬼畜 整活",
         "凡人修仙传 二创",
@@ -701,7 +701,7 @@
       "score": 79,
       "lane": "event_spotlight",
       "firstSeenAt": 1785244584356,
-      "lastSeenAt": 1788849050339,
+      "lastSeenAt": 1788880660636,
       "sourceQueries": [
         "凡人官方二创大会",
         "凡人修仙传 人物志 设定"
@@ -733,7 +733,7 @@
       "score": 78,
       "lane": "hidden_gem",
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1788849050339,
+      "lastSeenAt": 1788880660636,
       "sourceQueries": [
         "legacy-published",
         "凡人修仙传 鬼畜 整活",
@@ -867,7 +867,7 @@
       "score": 77,
       "lane": "hidden_gem",
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1788849050339,
+      "lastSeenAt": 1788880660636,
       "sourceQueries": [
         "legacy-published",
         "凡人修仙传 鬼畜 整活"
@@ -900,7 +900,7 @@
       "score": 76,
       "lane": "new_creator_watch",
       "firstSeenAt": 1785560340526,
-      "lastSeenAt": 1788849050339,
+      "lastSeenAt": 1788880660636,
       "sourceQueries": [
         "凡人修仙传 人物志 设定"
       ],
@@ -993,7 +993,7 @@
       "score": 75,
       "lane": "new_creator_watch",
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1788849050339,
+      "lastSeenAt": 1788880660636,
       "sourceQueries": [
         "凡人修仙传 鬼畜 整活"
       ],
@@ -1389,7 +1389,7 @@
       "score": 71,
       "lane": "new_creator_watch",
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1788849050339,
+      "lastSeenAt": 1788880660636,
       "sourceQueries": [
         "凡人修仙传 人物志 设定"
       ],
@@ -1454,7 +1454,7 @@
       "score": 70,
       "lane": "hidden_gem",
       "firstSeenAt": 1784868982615,
-      "lastSeenAt": 1788849050339,
+      "lastSeenAt": 1788880660636,
       "sourceQueries": [
         "凡人修仙传 二创",
         "凡人官方二创大会",
@@ -1526,6 +1526,39 @@
       ],
       "discoveryModes": [
         "history"
+      ]
+    },
+    {
+      "id": "BV1Mwge6KEze",
+      "bvid": "BV1Mwge6KEze",
+      "title": "三尺之身的火龙童子 亦能顶天立地！小火龙究竟有没有斩杀过元婴级法士？《凡人修仙传》人物志",
+      "description": "感谢本期视频的配音小哥@鲜氣菌",
+      "cover": "https://i1.hdslb.com/bfs/archive/9385c7140d0cae89512dc7eed060388c816ea053.jpg",
+      "url": "http://www.bilibili.com/video/av116973685968982",
+      "upId": "57868863",
+      "upName": "白马侯子",
+      "play": 397203,
+      "pubTime": 1784889000000,
+      "duration": "10:57",
+      "category": "人物志",
+      "confidence": 0.95,
+      "classificationSource": "model",
+      "classificationReason": "围绕凡人修仙传角色火龙童子展开专题探讨，属于人物志类有主题内容",
+      "contentNature": "character_or_lore",
+      "originality": "original",
+      "eventTag": null,
+      "creatorPotential": "recommend",
+      "score": 68,
+      "lane": "archive",
+      "firstSeenAt": 1784898301768,
+      "lastSeenAt": 1788880660636,
+      "sourceQueries": [
+        "凡人修仙传 二创",
+        "凡人官方二创大会",
+        "凡人修仙传 人物志 设定"
+      ],
+      "discoveryModes": [
+        "fresh"
       ]
     },
     {
@@ -1622,39 +1655,6 @@
       ],
       "discoveryModes": [
         "history"
-      ]
-    },
-    {
-      "id": "BV1Mwge6KEze",
-      "bvid": "BV1Mwge6KEze",
-      "title": "三尺之身的火龙童子 亦能顶天立地！小火龙究竟有没有斩杀过元婴级法士？《凡人修仙传》人物志",
-      "description": "感谢本期视频的配音小哥@鲜氣菌",
-      "cover": "https://i1.hdslb.com/bfs/archive/9385c7140d0cae89512dc7eed060388c816ea053.jpg",
-      "url": "http://www.bilibili.com/video/av116973685968982",
-      "upId": "57868863",
-      "upName": "白马侯子",
-      "play": 397203,
-      "pubTime": 1784889000000,
-      "duration": "10:57",
-      "category": "人物志",
-      "confidence": 0.95,
-      "classificationSource": "model",
-      "classificationReason": "围绕凡人修仙传角色火龙童子展开专题探讨，属于人物志类有主题内容",
-      "contentNature": "character_or_lore",
-      "originality": "original",
-      "eventTag": null,
-      "creatorPotential": "recommend",
-      "score": 67,
-      "lane": "archive",
-      "firstSeenAt": 1784898301768,
-      "lastSeenAt": 1788849050339,
-      "sourceQueries": [
-        "凡人修仙传 二创",
-        "凡人官方二创大会",
-        "凡人修仙传 人物志 设定"
-      ],
-      "discoveryModes": [
-        "fresh"
       ]
     },
     {
@@ -1805,7 +1805,7 @@
       "score": 67,
       "lane": "hidden_gem",
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1788849050339,
+      "lastSeenAt": 1788880660636,
       "sourceQueries": [
         "凡人修仙传 鬼畜 整活"
       ],
@@ -1870,7 +1870,7 @@
       "score": 64,
       "lane": "archive",
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1788849050339,
+      "lastSeenAt": 1788880660636,
       "sourceQueries": [
         "legacy-published",
         "凡人修仙传 人物志 设定"
@@ -1934,7 +1934,7 @@
       "score": 64,
       "lane": "hidden_gem",
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1788849050339,
+      "lastSeenAt": 1788880660636,
       "sourceQueries": [
         "凡人修仙传 人物志 设定"
       ],
@@ -2412,7 +2412,7 @@
       "score": 61,
       "lane": "hidden_gem",
       "firstSeenAt": 1784868982615,
-      "lastSeenAt": 1788849050339,
+      "lastSeenAt": 1788880660636,
       "sourceQueries": [
         "凡人修仙传 人物志 设定"
       ],
@@ -2570,7 +2570,7 @@
       "score": 60,
       "lane": "new_creator_watch",
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1788849050339,
+      "lastSeenAt": 1788880660636,
       "sourceQueries": [
         "legacy-published",
         "凡人修仙传 人物志 设定"
@@ -2603,7 +2603,7 @@
       "score": 60,
       "lane": "hidden_gem",
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1788849050339,
+      "lastSeenAt": 1788880660636,
       "sourceQueries": [
         "凡人修仙传 鬼畜 整活"
       ],
