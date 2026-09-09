@@ -1,5 +1,5 @@
 {
-  "generatedAt": 1788880660636,
+  "generatedAt": 1788935880874,
   "mode": "fresh",
   "taxonomyVersion": 2,
   "policyVersion": 1,
@@ -30,9 +30,8 @@
       "BV1aPGu6yENw",
       "BV11F3i6uE14",
       "BV1TzGG6EEkb",
-      "BV1mA376WEFC",
-      "BV1pi3n6bEut",
-      "BV1eXGP6iEP5"
+      "BV1eXGP6iEP5",
+      "BV1pi3n6bEut"
     ],
     "weekly_hot": [],
     "hidden_gem": [
@@ -64,6 +63,7 @@
       "BV13SK46jE3f",
       "BV1Bz7g6ME33",
       "BV16gTp6JEMj",
+      "BV1mA376WEFC",
       "BV1QpE16fEAp",
       "BV1GrMx6SEsr",
       "BV1dbgf69EQ2",
@@ -95,6 +95,7 @@
       "BV1EdcJz6EPN",
       "BV1RusDz1EwM",
       "BV1V9AUzHEzJ",
+      "BV12BGk68E5n",
       "BV13dorBLEWu",
       "BV19w4m1X7xU",
       "BV1dV411w72Y",
@@ -102,7 +103,6 @@
       "BV14KS3YGEk9",
       "BV1Z6uKzQEXg",
       "BV1mXEc6hE37",
-      "BV12BGk68E5n",
       "BV12MziYDEpZ",
       "BV15rn9z2Egj",
       "BV1YN7k6DEAR",
@@ -298,7 +298,7 @@
       "score": 84,
       "lane": "event_spotlight",
       "firstSeenAt": 1785560340526,
-      "lastSeenAt": 1788880660636,
+      "lastSeenAt": 1788935880874,
       "sourceQueries": [
         "凡人修仙传 二创",
         "凡人官方二创大会",
@@ -332,7 +332,7 @@
       "score": 83,
       "lane": "new_creator_watch",
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1788880660636,
+      "lastSeenAt": 1788935880874,
       "sourceQueries": [
         "legacy-published",
         "凡人修仙传 鬼畜 整活",
@@ -567,7 +567,7 @@
       "score": 80,
       "lane": "archive",
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1788880660636,
+      "lastSeenAt": 1788935880874,
       "sourceQueries": [
         "凡人修仙传 鬼畜 整活",
         "凡人修仙传 二创",
@@ -701,7 +701,7 @@
       "score": 79,
       "lane": "event_spotlight",
       "firstSeenAt": 1785244584356,
-      "lastSeenAt": 1788880660636,
+      "lastSeenAt": 1788935880874,
       "sourceQueries": [
         "凡人官方二创大会",
         "凡人修仙传 人物志 设定"
@@ -733,7 +733,7 @@
       "score": 78,
       "lane": "hidden_gem",
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1788880660636,
+      "lastSeenAt": 1788935880874,
       "sourceQueries": [
         "legacy-published",
         "凡人修仙传 鬼畜 整活",
@@ -867,7 +867,7 @@
       "score": 77,
       "lane": "hidden_gem",
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1788880660636,
+      "lastSeenAt": 1788935880874,
       "sourceQueries": [
         "legacy-published",
         "凡人修仙传 鬼畜 整活"
@@ -900,7 +900,7 @@
       "score": 76,
       "lane": "new_creator_watch",
       "firstSeenAt": 1785560340526,
-      "lastSeenAt": 1788880660636,
+      "lastSeenAt": 1788935880874,
       "sourceQueries": [
         "凡人修仙传 人物志 设定"
       ],
@@ -993,7 +993,7 @@
       "score": 75,
       "lane": "new_creator_watch",
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1788880660636,
+      "lastSeenAt": 1788935880874,
       "sourceQueries": [
         "凡人修仙传 鬼畜 整活"
       ],
@@ -1266,6 +1266,40 @@
       ]
     },
     {
+      "id": "BV1eXGP6iEP5",
+      "bvid": "BV1eXGP6iEP5",
+      "title": "【韩立·自由】你的自由，我的自由，好像不一样【凡人官方二创大会】",
+      "description": "( ˘•ω•˘ )",
+      "cover": "https://i0.hdslb.com/bfs/archive/abb520260ec57f7b14faa38ed346e6304b47766a.jpg",
+      "url": "http://www.bilibili.com/video/av117014538486169",
+      "upId": "2670111",
+      "upName": "云间鹿人",
+      "play": 7721,
+      "pubTime": 1785500591000,
+      "duration": "4:53",
+      "category": "人物志",
+      "confidence": 0.85,
+      "classificationSource": "model",
+      "classificationReason": "围绕韩立的自由主题创作，参与官方二创大会",
+      "contentNature": "secondary_creation",
+      "originality": "deep_adaptation",
+      "eventTag": "凡人官方二创大会",
+      "creatorPotential": "one_off",
+      "score": 72,
+      "lane": "event_spotlight",
+      "firstSeenAt": 1785503818280,
+      "lastSeenAt": 1787542424325,
+      "sourceQueries": [
+        "凡人修仙传 二创",
+        "凡人官方二创大会",
+        "韩立 二创"
+      ],
+      "discoveryModes": [
+        "fresh",
+        "history"
+      ]
+    },
+    {
       "id": "BV1mA376WEFC",
       "bvid": "BV1mA376WEFC",
       "title": "韩立和慕沛灵共同跳一支缠绵悱恻的国风双人舞《卷珠帘》-【凡人官方二创大会】",
@@ -1286,7 +1320,7 @@
       "eventTag": "凡人官方二创大会",
       "creatorPotential": "one_off",
       "score": 72,
-      "lane": "event_spotlight",
+      "lane": "new_creator_watch",
       "firstSeenAt": 1785042183361,
       "lastSeenAt": 1787542424325,
       "sourceQueries": [
@@ -1398,40 +1432,6 @@
       ]
     },
     {
-      "id": "BV1eXGP6iEP5",
-      "bvid": "BV1eXGP6iEP5",
-      "title": "【韩立·自由】你的自由，我的自由，好像不一样【凡人官方二创大会】",
-      "description": "( ˘•ω•˘ )",
-      "cover": "https://i0.hdslb.com/bfs/archive/abb520260ec57f7b14faa38ed346e6304b47766a.jpg",
-      "url": "http://www.bilibili.com/video/av117014538486169",
-      "upId": "2670111",
-      "upName": "云间鹿人",
-      "play": 7721,
-      "pubTime": 1785500591000,
-      "duration": "4:53",
-      "category": "人物志",
-      "confidence": 0.85,
-      "classificationSource": "model",
-      "classificationReason": "围绕韩立的自由主题创作，参与官方二创大会",
-      "contentNature": "secondary_creation",
-      "originality": "deep_adaptation",
-      "eventTag": "凡人官方二创大会",
-      "creatorPotential": "one_off",
-      "score": 71,
-      "lane": "event_spotlight",
-      "firstSeenAt": 1785503818280,
-      "lastSeenAt": 1787542424325,
-      "sourceQueries": [
-        "凡人修仙传 二创",
-        "凡人官方二创大会",
-        "韩立 二创"
-      ],
-      "discoveryModes": [
-        "fresh",
-        "history"
-      ]
-    },
-    {
       "id": "BV1omgx6aEvq",
       "bvid": "BV1omgx6aEvq",
       "title": "用仙剑一的方式打开：一曲逍遥叹，半部凡人书【凡人官方二创大会】",
@@ -1454,7 +1454,7 @@
       "score": 70,
       "lane": "hidden_gem",
       "firstSeenAt": 1784868982615,
-      "lastSeenAt": 1788880660636,
+      "lastSeenAt": 1788935880874,
       "sourceQueries": [
         "凡人修仙传 二创",
         "凡人官方二创大会",
@@ -1551,7 +1551,7 @@
       "score": 68,
       "lane": "archive",
       "firstSeenAt": 1784898301768,
-      "lastSeenAt": 1788880660636,
+      "lastSeenAt": 1788935880874,
       "sourceQueries": [
         "凡人修仙传 二创",
         "凡人官方二创大会",
@@ -1805,7 +1805,7 @@
       "score": 67,
       "lane": "hidden_gem",
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1788880660636,
+      "lastSeenAt": 1788935880874,
       "sourceQueries": [
         "凡人修仙传 鬼畜 整活"
       ],
@@ -1870,7 +1870,7 @@
       "score": 64,
       "lane": "archive",
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1788880660636,
+      "lastSeenAt": 1788935880874,
       "sourceQueries": [
         "legacy-published",
         "凡人修仙传 人物志 设定"
@@ -1934,7 +1934,7 @@
       "score": 64,
       "lane": "hidden_gem",
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1788880660636,
+      "lastSeenAt": 1788935880874,
       "sourceQueries": [
         "凡人修仙传 人物志 设定"
       ],
@@ -2132,6 +2132,37 @@
       ],
       "discoveryModes": [
         "history"
+      ]
+    },
+    {
+      "id": "BV12BGk68E5n",
+      "bvid": "BV12BGk68E5n",
+      "title": "凡人二创＆百万英镑：我要一对风雷翅一个虚天鼎还有你的御风车",
+      "description": "",
+      "cover": "https://i0.hdslb.com/bfs/archive/194b1b46e85766b8d93596eaca943d997f101326.jpg",
+      "url": "http://www.bilibili.com/video/av116644600878423",
+      "upId": "11237991",
+      "upName": "这AI有力气",
+      "play": 13335,
+      "pubTime": 1779855463000,
+      "duration": "1:13",
+      "category": "剧情二创",
+      "confidence": 0.85,
+      "classificationSource": "model",
+      "classificationReason": "凡人相关的剧情类二次创作，结合其他作品设定",
+      "contentNature": "secondary_creation",
+      "originality": "deep_adaptation",
+      "eventTag": null,
+      "creatorPotential": "observe",
+      "score": 62,
+      "lane": "archive",
+      "firstSeenAt": 1784281357983,
+      "lastSeenAt": 1788161726123,
+      "sourceQueries": [
+        "凡人修仙传 鬼畜 整活"
+      ],
+      "discoveryModes": [
+        "fresh"
       ]
     },
     {
@@ -2359,37 +2390,6 @@
       ]
     },
     {
-      "id": "BV12BGk68E5n",
-      "bvid": "BV12BGk68E5n",
-      "title": "凡人二创＆百万英镑：我要一对风雷翅一个虚天鼎还有你的御风车",
-      "description": "",
-      "cover": "https://i0.hdslb.com/bfs/archive/194b1b46e85766b8d93596eaca943d997f101326.jpg",
-      "url": "http://www.bilibili.com/video/av116644600878423",
-      "upId": "11237991",
-      "upName": "这AI有力气",
-      "play": 13335,
-      "pubTime": 1779855463000,
-      "duration": "1:13",
-      "category": "剧情二创",
-      "confidence": 0.85,
-      "classificationSource": "model",
-      "classificationReason": "凡人相关的剧情类二次创作，结合其他作品设定",
-      "contentNature": "secondary_creation",
-      "originality": "deep_adaptation",
-      "eventTag": null,
-      "creatorPotential": "observe",
-      "score": 61,
-      "lane": "archive",
-      "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1788161726123,
-      "sourceQueries": [
-        "凡人修仙传 鬼畜 整活"
-      ],
-      "discoveryModes": [
-        "fresh"
-      ]
-    },
-    {
       "id": "BV1c3ga6HEFR",
       "bvid": "BV1c3ga6HEFR",
       "title": "【凡人：青易居士】 一个能把韩立护在身后的人！#韩立 #凡人修仙传 #青易居士 #人物志",
@@ -2412,7 +2412,7 @@
       "score": 61,
       "lane": "hidden_gem",
       "firstSeenAt": 1784868982615,
-      "lastSeenAt": 1788880660636,
+      "lastSeenAt": 1788935880874,
       "sourceQueries": [
         "凡人修仙传 人物志 设定"
       ],
@@ -2570,7 +2570,7 @@
       "score": 60,
       "lane": "new_creator_watch",
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1788880660636,
+      "lastSeenAt": 1788935880874,
       "sourceQueries": [
         "legacy-published",
         "凡人修仙传 人物志 设定"
@@ -2603,7 +2603,7 @@
       "score": 60,
       "lane": "hidden_gem",
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1788880660636,
+      "lastSeenAt": 1788935880874,
       "sourceQueries": [
         "凡人修仙传 鬼畜 整活"
       ],
