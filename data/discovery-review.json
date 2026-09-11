@@ -1,13 +1,13 @@
 {
-  "generatedAt": 1789108872879,
+  "generatedAt": 1789139423418,
   "mode": "fresh",
   "taxonomyVersion": 2,
   "policyVersion": 1,
   "summary": {
     "total": 2000,
-    "approved": 79,
-    "review": 114,
-    "rejected": 1807
+    "approved": 80,
+    "review": 112,
+    "rejected": 1808
   },
   "lanes": {
     "event_spotlight": [
@@ -16,14 +16,14 @@
       "BV1XMG36SEqX",
       "BV1rkGM6fEUv",
       "BV1aPGu6yENw",
-      "BV11F3i6uE14",
       "BV1TzGG6EEkb",
-      "BV1eXGP6iEP5",
-      "BV1pi3n6bEut"
+      "BV1pi3n6bEut",
+      "BV1eXGP6iEP5"
     ],
     "weekly_hot": [],
     "hidden_gem": [
       "BV1ffMM6VEb2",
+      "BV11F3i6uE14",
       "BV1uqMg6TERj",
       "BV1RoM46tEQ8",
       "BV1KTMH64EA7",
@@ -44,8 +44,8 @@
       "BV1fyjH6zEdR",
       "BV1MCTK6XEBL",
       "BV19b7p6YESX",
-      "BV1fCMe6JEsx",
       "BV1BcGV6AEaJ",
+      "BV1fCMe6JEsx",
       "BV1ksGu6cEdY",
       "BV13SK46jE3f",
       "BV1Ar786BEHW",
@@ -64,6 +64,7 @@
       "BV1ocj465EbW",
       "BV1M2Ey6sEPo",
       "BV12eE16HEAa",
+      "BV1RDd2BFErB",
       "BV1XGPrzcEar",
       "BV1Lin7z5EZq",
       "BV19tgozdEKa",
@@ -91,10 +92,10 @@
       "BV1QGebziE1r",
       "BV14KS3YGEk9",
       "BV1Z6uKzQEXg",
-      "BV15rn9z2Egj",
       "BV1mXEc6hE37",
       "BV1jhBTYJE5x",
       "BV12MziYDEpZ",
+      "BV15rn9z2Egj",
       "BV1YN7k6DEAR",
       "BV1PtLn6zEFY"
     ]
@@ -1489,7 +1490,7 @@
       "score": 58,
       "lane": null,
       "firstSeenAt": 1784525133937,
-      "lastSeenAt": 1789108872879,
+      "lastSeenAt": 1789139423418,
       "sourceQueries": [
         "凡人修仙传 二创",
         "凡人官方二创大会",
@@ -1702,13 +1703,15 @@
       "score": 56,
       "lane": null,
       "firstSeenAt": 1784526884576,
-      "lastSeenAt": 1787542424325,
+      "lastSeenAt": 1789139423418,
       "sourceQueries": [
         "凡人修仙传 混剪 手书",
-        "凡人修仙传 人物志 设定"
+        "凡人修仙传 人物志 设定",
+        "凡人修仙传 MMD 同人动画"
       ],
       "discoveryModes": [
-        "history"
+        "history",
+        "fresh"
       ],
       "riskFlags": [],
       "policyReason": "疑似轻度剪辑，需人工确认原创性",
@@ -2044,7 +2047,7 @@
       "score": 55,
       "lane": null,
       "firstSeenAt": 1785244584356,
-      "lastSeenAt": 1789108872879,
+      "lastSeenAt": 1789139423418,
       "sourceQueries": [
         "凡人官方二创大会",
         "凡人修仙传 鬼畜 整活",
@@ -2128,7 +2131,7 @@
       "score": 55,
       "lane": null,
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1789108872879,
+      "lastSeenAt": 1789139423418,
       "sourceQueries": [
         "凡人修仙传 鬼畜 整活"
       ],
@@ -2479,6 +2482,47 @@
       }
     },
     {
+      "id": "BV1DrXrY6Evk",
+      "bvid": "BV1DrXrY6Evk",
+      "title": "【凡人修仙传沙雕动画 灵界篇】第572集",
+      "description": "凡人修仙传灵界篇-原著剧情",
+      "cover": "https://i2.hdslb.com/bfs/archive/dbb024cc232033bcde92cfa178840d5ea8510a3e.jpg",
+      "url": "http://www.bilibili.com/video/av114198986102978",
+      "upId": "442413887",
+      "upName": "在下苟德柱",
+      "play": 45220,
+      "pubTime": 1742539328000,
+      "duration": "4:43",
+      "category": "趣味整活",
+      "confidence": 0.8,
+      "classificationSource": "model",
+      "classificationReason": "凡人修仙传灵界篇的沙雕动画二创内容",
+      "contentNature": "secondary_creation",
+      "originality": "deep_adaptation",
+      "eventTag": null,
+      "creatorPotential": "observe",
+      "score": 53,
+      "lane": null,
+      "firstSeenAt": 1785132335284,
+      "lastSeenAt": 1788166338588,
+      "sourceQueries": [
+        "凡人修仙传 小剧场"
+      ],
+      "discoveryModes": [
+        "history"
+      ],
+      "riskFlags": [],
+      "policyReason": "内容可收录，但需人工复核分类或风险",
+      "stats": {
+        "play": 45220,
+        "like": 0,
+        "coin": 0,
+        "favorite": 133,
+        "reply": 0,
+        "danmaku": 75
+      }
+    },
+    {
       "id": "BV1684y1k7TA",
       "bvid": "BV1684y1k7TA",
       "title": "【凡人修仙传】《落英》翻唱来啦！",
@@ -2735,47 +2779,6 @@
         "favorite": 241,
         "reply": 0,
         "danmaku": 32
-      }
-    },
-    {
-      "id": "BV1DrXrY6Evk",
-      "bvid": "BV1DrXrY6Evk",
-      "title": "【凡人修仙传沙雕动画 灵界篇】第572集",
-      "description": "凡人修仙传灵界篇-原著剧情",
-      "cover": "https://i2.hdslb.com/bfs/archive/dbb024cc232033bcde92cfa178840d5ea8510a3e.jpg",
-      "url": "http://www.bilibili.com/video/av114198986102978",
-      "upId": "442413887",
-      "upName": "在下苟德柱",
-      "play": 45220,
-      "pubTime": 1742539328000,
-      "duration": "4:43",
-      "category": "趣味整活",
-      "confidence": 0.8,
-      "classificationSource": "model",
-      "classificationReason": "凡人修仙传灵界篇的沙雕动画二创内容",
-      "contentNature": "secondary_creation",
-      "originality": "deep_adaptation",
-      "eventTag": null,
-      "creatorPotential": "observe",
-      "score": 52,
-      "lane": null,
-      "firstSeenAt": 1785132335284,
-      "lastSeenAt": 1788166338588,
-      "sourceQueries": [
-        "凡人修仙传 小剧场"
-      ],
-      "discoveryModes": [
-        "history"
-      ],
-      "riskFlags": [],
-      "policyReason": "内容可收录，但需人工复核分类或风险",
-      "stats": {
-        "play": 45220,
-        "like": 0,
-        "coin": 0,
-        "favorite": 133,
-        "reply": 0,
-        "danmaku": 75
       }
     },
     {
@@ -3108,47 +3111,6 @@
       }
     },
     {
-      "id": "BV1zGofBBEKU",
-      "bvid": "BV1zGofBBEKU",
-      "title": "【凡人修仙传】【慕沛灵臻享竖屏】 收藏级画质 凡人修仙传人物志慕沛灵！",
-      "description": "",
-      "cover": "https://i1.hdslb.com/bfs/archive/325baaa5c03ede9b7caf0ac58a07019cd2ec93ec.jpg",
-      "url": "http://www.bilibili.com/video/av116469463585936",
-      "upId": "694050893",
-      "upName": "故长留",
-      "play": 27018,
-      "pubTime": 1777183130000,
-      "duration": "1:3",
-      "category": "人物志",
-      "confidence": 0.85,
-      "classificationSource": "model",
-      "classificationReason": "围绕凡人角色慕沛灵制作的人物志内容",
-      "contentNature": "character_or_lore",
-      "originality": "light_edit",
-      "eventTag": null,
-      "creatorPotential": "observe",
-      "score": 51,
-      "lane": null,
-      "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1786794977783,
-      "sourceQueries": [
-        "凡人修仙传 人物志 设定"
-      ],
-      "discoveryModes": [
-        "fresh"
-      ],
-      "riskFlags": [],
-      "policyReason": "人物/设定内容不足 3 分钟，需确认不是竖屏剪辑",
-      "stats": {
-        "play": 27018,
-        "like": 3254,
-        "coin": 98,
-        "favorite": 823,
-        "reply": 165,
-        "danmaku": 29
-      }
-    },
-    {
       "id": "BV1omfvBVECJ",
       "bvid": "BV1omfvBVECJ",
       "title": "韩立：我厉飞雨何德何能？",
@@ -3243,7 +3205,7 @@
       "url": "http://www.bilibili.com/video/av116958586472140",
       "upId": "12391712",
       "upName": "海外散修韩天尊",
-      "play": 1279,
+      "play": 1280,
       "pubTime": 1784646625000,
       "duration": "0:58",
       "category": "趣味整活",
@@ -3257,7 +3219,7 @@
       "score": 51,
       "lane": null,
       "firstSeenAt": 1784695859320,
-      "lastSeenAt": 1789108872879,
+      "lastSeenAt": 1789139423418,
       "sourceQueries": [
         "凡人修仙传 二创",
         "凡人官方二创大会",
@@ -3271,7 +3233,7 @@
       "riskFlags": [],
       "policyReason": "疑似轻度剪辑，需人工确认原创性",
       "stats": {
-        "play": 1279,
+        "play": 1280,
         "like": 0,
         "coin": 0,
         "favorite": 12,
@@ -3842,7 +3804,7 @@
       "score": 49,
       "lane": null,
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1789108872879,
+      "lastSeenAt": 1789139423418,
       "sourceQueries": [
         "凡人修仙传 法宝 功法 人物"
       ],
@@ -4309,7 +4271,7 @@
       "score": 46,
       "lane": null,
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1789108872879,
+      "lastSeenAt": 1789139423418,
       "sourceQueries": [
         "凡人修仙传 法宝 功法 人物"
       ],
@@ -4325,47 +4287,6 @@
         "favorite": 5,
         "reply": 11,
         "danmaku": 76
-      }
-    },
-    {
-      "id": "BV1xMHYzkEZS",
-      "bvid": "BV1xMHYzkEZS",
-      "title": "始于霸道，终于悲凉《凡人修仙传》人物志蛮胡子篇！",
-      "description": "-",
-      "cover": "https://i1.hdslb.com/bfs/archive/fe012b3bff31421790ca32d90e44aa290a5f7bef.jpg",
-      "url": "http://www.bilibili.com/video/av115185452911191",
-      "upId": "3546924502222922",
-      "upName": "账号已注销",
-      "play": 4895,
-      "pubTime": 1757590660000,
-      "duration": "3:37",
-      "category": "人物志",
-      "confidence": 0.9,
-      "classificationSource": "model",
-      "classificationReason": "《凡人修仙传》蛮胡子人物志专题内容，围绕角色生平展开",
-      "contentNature": "character_or_lore",
-      "originality": "deep_adaptation",
-      "eventTag": null,
-      "creatorPotential": "recommend",
-      "score": 46,
-      "lane": null,
-      "firstSeenAt": 1785132335284,
-      "lastSeenAt": 1786937357683,
-      "sourceQueries": [
-        "凡人修仙传 人物志 设定"
-      ],
-      "discoveryModes": [
-        "history"
-      ],
-      "riskFlags": [],
-      "policyReason": "内容可收录，但需人工复核分类或风险",
-      "stats": {
-        "play": 4895,
-        "like": 0,
-        "coin": 0,
-        "favorite": 6,
-        "reply": 0,
-        "danmaku": 27
       }
     },
     {
@@ -4391,7 +4312,7 @@
       "score": 46,
       "lane": null,
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1789108872879,
+      "lastSeenAt": 1789139423418,
       "sourceQueries": [
         "凡人修仙传 法宝 功法 人物"
       ],
@@ -4473,7 +4394,7 @@
       "score": 46,
       "lane": null,
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1789108872879,
+      "lastSeenAt": 1789139423418,
       "sourceQueries": [
         "凡人修仙传 配音 翻唱"
       ],
@@ -4528,6 +4449,47 @@
         "like": 0,
         "coin": 0,
         "favorite": 0,
+        "reply": 0,
+        "danmaku": 0
+      }
+    },
+    {
+      "id": "BV18e5i6dEzh",
+      "bvid": "BV18e5i6dEzh",
+      "title": "程天坤临终遗书抢先版一一凡人修仙传人物志之程天坤篇",
+      "description": "-",
+      "cover": "https://i2.hdslb.com/bfs/archive/8a6348ccd5f2e9e756e4899934098f199b465ff5.jpg",
+      "url": "http://www.bilibili.com/video/av116578951634421",
+      "upId": "1294431656",
+      "upName": "九州探秘社",
+      "play": 209,
+      "pubTime": 1778854011000,
+      "duration": "5:19",
+      "category": "人物志",
+      "confidence": 0.9,
+      "classificationSource": "model",
+      "classificationReason": "围绕凡人修仙传人物程天坤的专题内容",
+      "contentNature": "character_or_lore",
+      "originality": "deep_adaptation",
+      "eventTag": null,
+      "creatorPotential": "observe",
+      "score": 46,
+      "lane": null,
+      "firstSeenAt": 1784281357983,
+      "lastSeenAt": 1787140811627,
+      "sourceQueries": [
+        "凡人修仙传 人物志 设定"
+      ],
+      "discoveryModes": [
+        "fresh"
+      ],
+      "riskFlags": [],
+      "policyReason": "内容可收录，但需人工复核分类或风险",
+      "stats": {
+        "play": 209,
+        "like": 0,
+        "coin": 0,
+        "favorite": 1,
         "reply": 0,
         "danmaku": 0
       }
@@ -4776,47 +4738,6 @@
         "like": 0,
         "coin": 0,
         "favorite": 2,
-        "reply": 0,
-        "danmaku": 0
-      }
-    },
-    {
-      "id": "BV18e5i6dEzh",
-      "bvid": "BV18e5i6dEzh",
-      "title": "程天坤临终遗书抢先版一一凡人修仙传人物志之程天坤篇",
-      "description": "-",
-      "cover": "https://i2.hdslb.com/bfs/archive/8a6348ccd5f2e9e756e4899934098f199b465ff5.jpg",
-      "url": "http://www.bilibili.com/video/av116578951634421",
-      "upId": "1294431656",
-      "upName": "九州探秘社",
-      "play": 209,
-      "pubTime": 1778854011000,
-      "duration": "5:19",
-      "category": "人物志",
-      "confidence": 0.9,
-      "classificationSource": "model",
-      "classificationReason": "围绕凡人修仙传人物程天坤的专题内容",
-      "contentNature": "character_or_lore",
-      "originality": "deep_adaptation",
-      "eventTag": null,
-      "creatorPotential": "observe",
-      "score": 45,
-      "lane": null,
-      "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1787140811627,
-      "sourceQueries": [
-        "凡人修仙传 人物志 设定"
-      ],
-      "discoveryModes": [
-        "fresh"
-      ],
-      "riskFlags": [],
-      "policyReason": "内容可收录，但需人工复核分类或风险",
-      "stats": {
-        "play": 209,
-        "like": 0,
-        "coin": 0,
-        "favorite": 1,
         "reply": 0,
         "danmaku": 0
       }

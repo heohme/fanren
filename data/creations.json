@@ -1,5 +1,5 @@
 {
-  "generatedAt": 1789108872879,
+  "generatedAt": 1789139423418,
   "mode": "fresh",
   "taxonomyVersion": 2,
   "policyVersion": 1,
@@ -14,7 +14,7 @@
   ],
   "counts": {
     "人物志": 15,
-    "剧情二创": 17,
+    "剧情二创": 18,
     "趣味整活": 18,
     "混剪手书": 7,
     "音乐配音": 12,
@@ -27,14 +27,14 @@
       "BV1XMG36SEqX",
       "BV1rkGM6fEUv",
       "BV1aPGu6yENw",
-      "BV11F3i6uE14",
       "BV1TzGG6EEkb",
-      "BV1eXGP6iEP5",
-      "BV1pi3n6bEut"
+      "BV1pi3n6bEut",
+      "BV1eXGP6iEP5"
     ],
     "weekly_hot": [],
     "hidden_gem": [
       "BV1ffMM6VEb2",
+      "BV11F3i6uE14",
       "BV1uqMg6TERj",
       "BV1RoM46tEQ8",
       "BV1KTMH64EA7",
@@ -55,8 +55,8 @@
       "BV1fyjH6zEdR",
       "BV1MCTK6XEBL",
       "BV19b7p6YESX",
-      "BV1fCMe6JEsx",
       "BV1BcGV6AEaJ",
+      "BV1fCMe6JEsx",
       "BV1ksGu6cEdY",
       "BV13SK46jE3f",
       "BV1Ar786BEHW",
@@ -75,6 +75,7 @@
       "BV1ocj465EbW",
       "BV1M2Ey6sEPo",
       "BV12eE16HEAa",
+      "BV1RDd2BFErB",
       "BV1XGPrzcEar",
       "BV1Lin7z5EZq",
       "BV19tgozdEKa",
@@ -102,10 +103,10 @@
       "BV1QGebziE1r",
       "BV14KS3YGEk9",
       "BV1Z6uKzQEXg",
-      "BV15rn9z2Egj",
       "BV1mXEc6hE37",
       "BV1jhBTYJE5x",
       "BV12MziYDEpZ",
+      "BV15rn9z2Egj",
       "BV1YN7k6DEAR",
       "BV1PtLn6zEFY"
     ]
@@ -299,7 +300,7 @@
       "score": 84,
       "lane": "event_spotlight",
       "firstSeenAt": 1785560340526,
-      "lastSeenAt": 1789108872879,
+      "lastSeenAt": 1789139423418,
       "sourceQueries": [
         "凡人修仙传 二创",
         "凡人官方二创大会",
@@ -333,7 +334,7 @@
       "score": 83,
       "lane": "new_creator_watch",
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1789108872879,
+      "lastSeenAt": 1789139423418,
       "sourceQueries": [
         "legacy-published",
         "凡人修仙传 鬼畜 整活",
@@ -630,7 +631,7 @@
       "eventTag": "凡人官方二创大会",
       "creatorPotential": "observe",
       "score": 79,
-      "lane": "event_spotlight",
+      "lane": "hidden_gem",
       "firstSeenAt": 1785244584356,
       "lastSeenAt": 1789052879715,
       "sourceQueries": [
@@ -639,6 +640,41 @@
       ],
       "discoveryModes": [
         "fresh"
+      ]
+    },
+    {
+      "id": "BV1BcGV6AEaJ",
+      "bvid": "BV1BcGV6AEaJ",
+      "title": "凡人修仙传扯淡梗第2期（依旧超长合集）",
+      "description": "道友手上的两颗极品灵石可否供在下一观？",
+      "cover": "https://i1.hdslb.com/bfs/archive/a4a407b56b4b532097643afd9478aad46f17f8f5.jpg",
+      "url": "http://www.bilibili.com/video/av117019873645742",
+      "upId": "437762558",
+      "upName": "D菌cc",
+      "play": 106732,
+      "pubTime": 1785581805000,
+      "duration": "8:52",
+      "category": "趣味整活",
+      "confidence": 0.85,
+      "classificationSource": "model",
+      "classificationReason": "围绕凡人修仙传创作扯淡梗合集，属于趣味二次创作",
+      "contentNature": "secondary_creation",
+      "originality": "deep_adaptation",
+      "eventTag": null,
+      "creatorPotential": "one_off",
+      "score": 78,
+      "lane": "new_creator_watch",
+      "firstSeenAt": 1785588109330,
+      "lastSeenAt": 1787542424325,
+      "sourceQueries": [
+        "凡人修仙传 二创",
+        "凡人官方二创大会",
+        "凡人修仙传 小剧场",
+        "凡人修仙传 鬼畜 整活"
+      ],
+      "discoveryModes": [
+        "fresh",
+        "history"
       ]
     },
     {
@@ -664,7 +700,7 @@
       "score": 78,
       "lane": "hidden_gem",
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1789108872879,
+      "lastSeenAt": 1789139423418,
       "sourceQueries": [
         "legacy-published",
         "凡人修仙传 鬼畜 整活",
@@ -741,41 +777,6 @@
       ]
     },
     {
-      "id": "BV1BcGV6AEaJ",
-      "bvid": "BV1BcGV6AEaJ",
-      "title": "凡人修仙传扯淡梗第2期（依旧超长合集）",
-      "description": "道友手上的两颗极品灵石可否供在下一观？",
-      "cover": "https://i1.hdslb.com/bfs/archive/a4a407b56b4b532097643afd9478aad46f17f8f5.jpg",
-      "url": "http://www.bilibili.com/video/av117019873645742",
-      "upId": "437762558",
-      "upName": "D菌cc",
-      "play": 106732,
-      "pubTime": 1785581805000,
-      "duration": "8:52",
-      "category": "趣味整活",
-      "confidence": 0.85,
-      "classificationSource": "model",
-      "classificationReason": "围绕凡人修仙传创作扯淡梗合集，属于趣味二次创作",
-      "contentNature": "secondary_creation",
-      "originality": "deep_adaptation",
-      "eventTag": null,
-      "creatorPotential": "one_off",
-      "score": 77,
-      "lane": "new_creator_watch",
-      "firstSeenAt": 1785588109330,
-      "lastSeenAt": 1787542424325,
-      "sourceQueries": [
-        "凡人修仙传 二创",
-        "凡人官方二创大会",
-        "凡人修仙传 小剧场",
-        "凡人修仙传 鬼畜 整活"
-      ],
-      "discoveryModes": [
-        "fresh",
-        "history"
-      ]
-    },
-    {
       "id": "BV1RoM46tEQ8",
       "bvid": "BV1RoM46tEQ8",
       "title": "⚡师 姐 摇 一 摇⚡【凡人官方二创大会】",
@@ -798,7 +799,7 @@
       "score": 77,
       "lane": "hidden_gem",
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1789108872879,
+      "lastSeenAt": 1789139423418,
       "sourceQueries": [
         "legacy-published",
         "凡人修仙传 鬼畜 整活"
@@ -831,7 +832,7 @@
       "score": 76,
       "lane": "archive",
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1789108872879,
+      "lastSeenAt": 1789139423418,
       "sourceQueries": [
         "凡人修仙传 鬼畜 整活",
         "凡人修仙传 二创",
@@ -865,7 +866,7 @@
       "score": 76,
       "lane": "archive",
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1788766264547,
+      "lastSeenAt": 1789139423418,
       "sourceQueries": [
         "legacy-published",
         "凡人修仙传 混剪 手书",
@@ -875,7 +876,8 @@
         "凡人修仙传 MMD 同人动画"
       ],
       "discoveryModes": [
-        "history"
+        "history",
+        "fresh"
       ]
     },
     {
@@ -1003,6 +1005,39 @@
       ]
     },
     {
+      "id": "BV1RDd2BFErB",
+      "bvid": "BV1RDd2BFErB",
+      "title": "慕沛灵化神，韩立哪里跑",
+      "description": "-",
+      "cover": "https://i2.hdslb.com/bfs/archive/c82213d2e4bad62598796f49c03a97f9ef78aaf9.jpg",
+      "url": "http://www.bilibili.com/video/av116441781115394",
+      "upId": "668081958",
+      "upName": "人生如初见ok",
+      "play": 477358,
+      "pubTime": 1776760595000,
+      "duration": "13:4",
+      "category": "剧情二创",
+      "confidence": 0.85,
+      "classificationSource": "model",
+      "classificationReason": "虚构的韩立相关剧情内容，属于二次创作",
+      "contentNature": "secondary_creation",
+      "originality": "deep_adaptation",
+      "eventTag": null,
+      "creatorPotential": "observe",
+      "score": 75,
+      "lane": "archive",
+      "firstSeenAt": 1789139423418,
+      "lastSeenAt": 1789139423418,
+      "sourceQueries": [
+        "凡人修仙传 二创",
+        "凡人修仙传 人物志 设定",
+        "凡人修仙传 混剪 手书"
+      ],
+      "discoveryModes": [
+        "fresh"
+      ]
+    },
+    {
       "id": "BV1Ar786BEHW",
       "bvid": "BV1Ar786BEHW",
       "title": "在超市后门吞云吐雾的修仙者【凡人官方二创大会】",
@@ -1025,7 +1060,7 @@
       "score": 75,
       "lane": "new_creator_watch",
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1789108872879,
+      "lastSeenAt": 1789139423418,
       "sourceQueries": [
         "凡人修仙传 鬼畜 整活"
       ],
@@ -1230,6 +1265,42 @@
       ]
     },
     {
+      "id": "BV1pi3n6bEut",
+      "bvid": "BV1pi3n6bEut",
+      "title": "“仅此53秒，感受凡人修仙传中那些极致压迫感名场面！”【凡人官方二创大会】",
+      "description": "BGM：REVENGE (Super Slowed)\n又又爆肝了一期凡人踩点\n现在做漫剪的UP越来越少了，流量都不高，却要花这么多的精力，画质也尽力做到最好，希望路过的你能点一个免费的赞吧，如果不行的话，也请看完吧，相信一定不会让你失望的。\n审核大大辛苦！",
+      "cover": "https://i2.hdslb.com/bfs/archive/8697ca3c46ae409b555d43560e8c3387ebca9ebf.jpg",
+      "url": "http://www.bilibili.com/video/av117003566253398",
+      "upId": "35974338",
+      "upName": "0零凛",
+      "play": 29381,
+      "pubTime": 1785556800000,
+      "duration": "0:54",
+      "category": "混剪手书",
+      "confidence": 0.9,
+      "classificationSource": "model",
+      "classificationReason": "围绕凡人修仙传名场面创作踩点混剪，属于混剪手书类",
+      "contentNature": "secondary_creation",
+      "originality": "deep_adaptation",
+      "eventTag": "凡人官方二创大会",
+      "creatorPotential": "observe",
+      "score": 72,
+      "lane": "event_spotlight",
+      "firstSeenAt": 1785560340526,
+      "lastSeenAt": 1786937357683,
+      "sourceQueries": [
+        "凡人修仙传 二创",
+        "凡人官方二创大会",
+        "韩立 二创",
+        "凡人修仙传 混剪 手书",
+        "凡人修仙传 鬼畜 整活"
+      ],
+      "discoveryModes": [
+        "fresh",
+        "history"
+      ]
+    },
+    {
       "id": "BV1eXGP6iEP5",
       "bvid": "BV1eXGP6iEP5",
       "title": "【韩立·自由】你的自由，我的自由，好像不一样【凡人官方二创大会】",
@@ -1329,42 +1400,6 @@
       ]
     },
     {
-      "id": "BV1pi3n6bEut",
-      "bvid": "BV1pi3n6bEut",
-      "title": "“仅此53秒，感受凡人修仙传中那些极致压迫感名场面！”【凡人官方二创大会】",
-      "description": "BGM：REVENGE (Super Slowed)\n又又爆肝了一期凡人踩点\n现在做漫剪的UP越来越少了，流量都不高，却要花这么多的精力，画质也尽力做到最好，希望路过的你能点一个免费的赞吧，如果不行的话，也请看完吧，相信一定不会让你失望的。\n审核大大辛苦！",
-      "cover": "https://i2.hdslb.com/bfs/archive/8697ca3c46ae409b555d43560e8c3387ebca9ebf.jpg",
-      "url": "http://www.bilibili.com/video/av117003566253398",
-      "upId": "35974338",
-      "upName": "0零凛",
-      "play": 29381,
-      "pubTime": 1785556800000,
-      "duration": "0:54",
-      "category": "混剪手书",
-      "confidence": 0.9,
-      "classificationSource": "model",
-      "classificationReason": "围绕凡人修仙传名场面创作踩点混剪，属于混剪手书类",
-      "contentNature": "secondary_creation",
-      "originality": "deep_adaptation",
-      "eventTag": "凡人官方二创大会",
-      "creatorPotential": "observe",
-      "score": 71,
-      "lane": "event_spotlight",
-      "firstSeenAt": 1785560340526,
-      "lastSeenAt": 1786937357683,
-      "sourceQueries": [
-        "凡人修仙传 二创",
-        "凡人官方二创大会",
-        "韩立 二创",
-        "凡人修仙传 混剪 手书",
-        "凡人修仙传 鬼畜 整活"
-      ],
-      "discoveryModes": [
-        "fresh",
-        "history"
-      ]
-    },
-    {
       "id": "BV1gjEr6EErF",
       "bvid": "BV1gjEr6EErF",
       "title": "韩立对阵慕兰圣女  【凡人修仙传二创】",
@@ -1384,7 +1419,7 @@
       "originality": "deep_adaptation",
       "eventTag": null,
       "creatorPotential": "observe",
-      "score": 70,
+      "score": 71,
       "lane": "archive",
       "firstSeenAt": 1784281357983,
       "lastSeenAt": 1788766264547,
@@ -1806,7 +1841,7 @@
       "score": 67,
       "lane": "hidden_gem",
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1789108872879,
+      "lastSeenAt": 1789139423418,
       "sourceQueries": [
         "凡人修仙传 鬼畜 整活"
       ],
@@ -2359,37 +2394,6 @@
       ]
     },
     {
-      "id": "BV15rn9z2Egj",
-      "bvid": "BV15rn9z2Egj",
-      "title": "“笑死！160集了终于破译了爽文男主的登录密码！立儿你从前过的是什么苦日子啊”【凡人修仙传/韩立】",
-      "description": "-",
-      "cover": "https://i1.hdslb.com/bfs/archive/3f136fd04c5506092f91d237ba7e56998db9a67b.jpg",
-      "url": "http://www.bilibili.com/video/av115281166863503",
-      "upId": "3493292639521635",
-      "upName": "甜竹糕",
-      "play": 42812,
-      "pubTime": 1759051163000,
-      "duration": "1:24",
-      "category": "趣味整活",
-      "confidence": 0.85,
-      "classificationSource": "model",
-      "classificationReason": "围绕韩立的爽文剧情进行的趣味整活类二次创作",
-      "contentNature": "secondary_creation",
-      "originality": "deep_adaptation",
-      "eventTag": null,
-      "creatorPotential": "observe",
-      "score": 61,
-      "lane": "archive",
-      "firstSeenAt": 1784526884576,
-      "lastSeenAt": 1788166338588,
-      "sourceQueries": [
-        "凡人修仙传 混剪 手书"
-      ],
-      "discoveryModes": [
-        "history"
-      ]
-    },
-    {
       "id": "BV1mXEc6hE37",
       "bvid": "BV1mXEc6hE37",
       "title": "《凡人修仙传》AI自制第204集：再遇紫灵 GTPimage2+seedance2.0制作！#动画",
@@ -2477,7 +2481,7 @@
       "score": 61,
       "lane": "hidden_gem",
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1789108872879,
+      "lastSeenAt": 1789139423418,
       "sourceQueries": [
         "凡人修仙传 鬼畜 整活"
       ],
@@ -2575,6 +2579,37 @@
       "sourceQueries": [
         "legacy-published",
         "凡人修仙传 配音 翻唱"
+      ],
+      "discoveryModes": [
+        "history"
+      ]
+    },
+    {
+      "id": "BV15rn9z2Egj",
+      "bvid": "BV15rn9z2Egj",
+      "title": "“笑死！160集了终于破译了爽文男主的登录密码！立儿你从前过的是什么苦日子啊”【凡人修仙传/韩立】",
+      "description": "-",
+      "cover": "https://i1.hdslb.com/bfs/archive/3f136fd04c5506092f91d237ba7e56998db9a67b.jpg",
+      "url": "http://www.bilibili.com/video/av115281166863503",
+      "upId": "3493292639521635",
+      "upName": "甜竹糕",
+      "play": 42812,
+      "pubTime": 1759051163000,
+      "duration": "1:24",
+      "category": "趣味整活",
+      "confidence": 0.85,
+      "classificationSource": "model",
+      "classificationReason": "围绕韩立的爽文剧情进行的趣味整活类二次创作",
+      "contentNature": "secondary_creation",
+      "originality": "deep_adaptation",
+      "eventTag": null,
+      "creatorPotential": "observe",
+      "score": 60,
+      "lane": "archive",
+      "firstSeenAt": 1784526884576,
+      "lastSeenAt": 1788166338588,
+      "sourceQueries": [
+        "凡人修仙传 混剪 手书"
       ],
       "discoveryModes": [
         "history"
