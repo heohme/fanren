@@ -1,5 +1,5 @@
 {
-  "generatedAt": 1789177021339,
+  "generatedAt": 1789188141038,
   "series": {
     "title": "凡人修仙传",
     "seasonId": "28747",
@@ -75,11 +75,11 @@
     "cover": "https://i0.hdslb.com/bfs/bangumi/image/19a2d01429bcba6b31791277c016e0d1aa465974.png",
     "newEp": {
       "desc": "6月13日起 每周六11:00",
-      "id": 3854814,
-      "is_new": 0,
-      "title": "190"
+      "id": 3854815,
+      "is_new": 1,
+      "title": "191"
     },
-    "totalCount": 297,
+    "totalCount": 299,
     "episodes": [
       {
         "ep": 1,
@@ -3514,6 +3514,18 @@
         "playUrl": "https://www.bilibili.com/bangumi/play/ep4292434"
       },
       {
+        "ep": 191,
+        "epRaw": "191",
+        "longTitle": "慕兰之战15",
+        "bvid": "BV1sEt668EvE",
+        "aid": 117213600155829,
+        "cover": "http://i0.hdslb.com/bfs/archive/0cc60ac5b14303003c1d62706b59a957be3c12d9.jpg",
+        "pubTime": 1788578100000,
+        "duration": 48000,
+        "link": "https://www.bilibili.com/bangumi/play/ep4292435",
+        "playUrl": "https://www.bilibili.com/bangumi/play/ep4292435"
+      },
+      {
         "ep": 181,
         "epRaw": "181",
         "longTitle": "慕兰之战05",
@@ -3617,7 +3629,7 @@
         "aid": 117174307915535,
         "cover": "http://i0.hdslb.com/bfs/archive/145532e73969446311d96225f2862f7e4f95852b.jpg",
         "pubTime": 1787972400000,
-        "duration": 1108000,
+        "duration": 1022960,
         "link": "https://www.bilibili.com/bangumi/play/ep3854813",
         "playUrl": "https://www.bilibili.com/bangumi/play/ep3854813"
       },
@@ -3629,7 +3641,7 @@
         "aid": 117214942333091,
         "cover": "http://i0.hdslb.com/bfs/archive/9a03bdfbe9ef950b61ac65b1284239e020a92d52.jpg",
         "pubTime": 1788577200000,
-        "duration": 1170080,
+        "duration": 1169880,
         "link": "https://www.bilibili.com/bangumi/play/ep3854814",
         "playUrl": "https://www.bilibili.com/bangumi/play/ep3854814"
       },
@@ -3637,13 +3649,25 @@
         "ep": 191,
         "epRaw": "191",
         "longTitle": "慕兰之战15",
-        "bvid": "BV1sEt668EvE",
-        "aid": 117213600155829,
-        "cover": "http://i0.hdslb.com/bfs/archive/22c1fb9c9265116c5a3e98e503355451a5db9c04.jpg",
-        "pubTime": 1788578100000,
-        "duration": 48000,
-        "link": "https://www.bilibili.com/bangumi/play/ep4292435",
-        "playUrl": "https://www.bilibili.com/bangumi/play/ep4292435"
+        "bvid": "BV1EmYm6HE57",
+        "aid": 117254234573046,
+        "cover": "http://i0.hdslb.com/bfs/archive/0cc60ac5b14303003c1d62706b59a957be3c12d9.jpg",
+        "pubTime": 1789182000000,
+        "duration": 1169000,
+        "link": "https://www.bilibili.com/bangumi/play/ep3854815",
+        "playUrl": "https://www.bilibili.com/bangumi/play/ep3854815"
+      },
+      {
+        "ep": 192,
+        "epRaw": "192",
+        "longTitle": "慕兰之战16",
+        "bvid": "BV1SCY26NETK",
+        "aid": 117253127277759,
+        "cover": "http://i0.hdslb.com/bfs/archive/ffa3640add14f17a58d57fb8c375fa06146a18ce.jpg",
+        "pubTime": 1789182900000,
+        "duration": 49000,
+        "link": "https://www.bilibili.com/bangumi/play/ep4292436",
+        "playUrl": "https://www.bilibili.com/bangumi/play/ep4292436"
       }
     ]
   },
@@ -18523,9 +18547,28 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1787987199700,
-      "lastSuccess": 1787987199700,
+      "lastFetched": 1789187878106,
+      "lastSuccess": 1789187878106,
       "videos": [
+        {
+          "bvid": "BV1jmY16CEMW",
+          "aid": 117253462822476,
+          "title": "凡人修仙传 191 集：谷双蒲附灵化蛇妖！三人围杀布下天罗地网，韩立抬手秒内奸",
+          "description": "预告解析,希望大家喜欢.正片将于11点更新,链接已放评论区置顶!",
+          "cover": "https://i2.hdslb.com/bfs/archive/4890f531a45b75b490cf54673dae82dd3819591d.jpg",
+          "pubTime": 1789180500000,
+          "duration": "36:15",
+          "play": 2379,
+          "videoUrl": "http://www.bilibili.com/video/av117253462822476",
+          "matched": true,
+          "ep": 191,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [
+            "韩立"
+          ],
+          "discoveredBy": "episode-search"
+        },
         {
           "bvid": "BV1LetP6CEWh",
           "aid": 117174123364875,
@@ -19165,9 +19208,28 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1788582784743,
-      "lastSuccess": 1788582784743,
+      "lastFetched": 1789187878106,
+      "lastSuccess": 1789187878106,
       "videos": [
+        {
+          "bvid": "BV1omY16CE2i",
+          "aid": 117253462951770,
+          "title": "凡人修仙传 191 集：斩内奸清黄龙山隐患！认故了却百年尘缘，韩立一战一暖两重天",
+          "description": "",
+          "cover": "https://i0.hdslb.com/bfs/archive/e966274a8b191eccfdfd3a6524ae8699209afa85.jpg",
+          "pubTime": 1789181100000,
+          "duration": "25:50",
+          "play": 2231,
+          "videoUrl": "http://www.bilibili.com/video/av117253462951770",
+          "matched": true,
+          "ep": 191,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [
+            "韩立"
+          ],
+          "discoveredBy": "episode-search"
+        },
         {
           "bvid": "BV1idtz6LERB",
           "aid": 117213851813648,
@@ -20336,9 +20398,28 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1787987199700,
-      "lastSuccess": 1787987199700,
+      "lastFetched": 1789187878106,
+      "lastSuccess": 1789187878106,
       "videos": [
+        {
+          "bvid": "BV1PEYt66EX1",
+          "aid": 117241584619065,
+          "title": "【凡人修仙传191集】韩立灭杀妖物谷双蒲，乾蓝冰焰配合辟邪神雷灭杀",
+          "description": "-",
+          "cover": "https://i1.hdslb.com/bfs/archive/2aeaae6ce58499de1a681c461929893ab87fc455.jpg",
+          "pubTime": 1789180260000,
+          "duration": "23:30",
+          "play": 734,
+          "videoUrl": "http://www.bilibili.com/video/av117241584619065",
+          "matched": true,
+          "ep": 191,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [
+            "韩立"
+          ],
+          "discoveredBy": "episode-search"
+        },
         {
           "bvid": "BV1Tf8R67E1k",
           "aid": 117161926527726,
@@ -20449,8 +20530,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1789160694375,
-      "lastSuccess": 1789160694375,
+      "lastFetched": 1789188141038,
+      "lastSuccess": 1789188141038,
       "videos": [
         {
           "bvid": "BV1QmT96sE7g",
@@ -21034,6 +21115,23 @@
           "discoveredBy": "episode-search"
         },
         {
+          "bvid": "BV1n6ZNYPE3M",
+          "aid": 114229470304093,
+          "title": "【凡人修仙传Reaction】EP20｜陷阱",
+          "description": "Reaction向视频，不可避免出现番剧，求放过。\n\n这里是柚子方方方，叫我柚子、方方、阿方都完全🆗 一个什么都沾点边的多面不粘锅、经常咕咕的超绝社畜、以及超级脆皮体质患者👻\n\n目前主要更新方向是Reaction系列。\n\n不是全职做视频且是个剪辑废物，遇见节假日、遇见加班、脆皮体质开始攻击我的时候则会咕咕或者不定时更新噢～(一般会提前说）\n\n秉持的观影原则是：认可大家有不同的看法和观点，可以友好交流但是不要互相强制说服只有某一个看法是正确的。\n希望大家能够友好讨论剧情，吵架引战达咩🙅🏻‍",
+          "cover": "https://i1.hdslb.com/bfs/archive/19999eddfbf090fe025cffc976454619344994ed.jpg",
+          "pubTime": 1743069600000,
+          "duration": "19:58",
+          "play": 2622,
+          "videoUrl": "http://www.bilibili.com/video/av114229470304093",
+          "matched": true,
+          "ep": 20,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [],
+          "discoveredBy": "episode-search"
+        },
+        {
           "bvid": "BV1RvoeYKEF2",
           "aid": 114227406707146,
           "title": "【凡人修仙传Reaction】EP19｜重逢",
@@ -21062,9 +21160,47 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1788582784743,
-      "lastSuccess": 1788582784743,
+      "lastFetched": 1789187878106,
+      "lastSuccess": 1789187878106,
       "videos": [
+        {
+          "bvid": "BV1esY76REnH",
+          "aid": 117252103868914,
+          "title": "凡人修仙传191集：韩立灭杀奸细谷双蒲！韩立与李缨宁相认！",
+          "description": "",
+          "cover": "https://i1.hdslb.com/bfs/archive/8b2fdb2b1c65375e95dc3ff5e82a0fc3103687a3.jpg",
+          "pubTime": 1789180800000,
+          "duration": "22:15",
+          "play": 4285,
+          "videoUrl": "http://www.bilibili.com/video/av117252103868914",
+          "matched": true,
+          "ep": 191,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [
+            "韩立"
+          ],
+          "discoveredBy": "episode-search"
+        },
+        {
+          "bvid": "BV1Cdt16zEpM",
+          "aid": 117216351622951,
+          "title": "凡人修仙传第191集：谷道友奸细身份暴露，黄龙山暗战天南同道齐出手",
+          "description": "-",
+          "cover": "https://i2.hdslb.com/bfs/archive/449cd730e1d414508613a21c8518b4dca8976818.jpg",
+          "pubTime": 1788579852000,
+          "duration": "22:39",
+          "play": 17531,
+          "videoUrl": "http://www.bilibili.com/video/av117216351622951",
+          "matched": true,
+          "ep": 191,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [
+            "天南"
+          ],
+          "discoveredBy": "episode-search"
+        },
         {
           "bvid": "BV1oRtq6MEwK",
           "aid": 117212694256477,
@@ -27915,9 +28051,26 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1789125963581,
-      "lastSuccess": 1789125963581,
+      "lastFetched": 1789187878106,
+      "lastSuccess": 1789187878106,
       "videos": [
+        {
+          "bvid": "BV1754y1Z71N",
+          "aid": 854110394,
+          "title": "凡人修仙传之仙界篇第191集-差距",
+          "description": "凡人修仙传之仙界篇第191集-差距",
+          "cover": "https://i0.hdslb.com/bfs/archive/2961535708b2d23007be198ca51fd2ebd75880b1.jpg",
+          "pubTime": 1652614200000,
+          "duration": "11:40",
+          "play": 3763,
+          "videoUrl": "http://www.bilibili.com/video/av854110394",
+          "matched": true,
+          "ep": 191,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [],
+          "discoveredBy": "episode-search"
+        },
         {
           "bvid": "BV1RT4y1B7Z5",
           "aid": 939116305,
@@ -31863,9 +32016,28 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1788582784743,
-      "lastSuccess": 1788582784743,
+      "lastFetched": 1789187878105,
+      "lastSuccess": 1789187878105,
       "videos": [
+        {
+          "bvid": "BV1kdt16zEvb",
+          "aid": 117216351624575,
+          "title": "凡人修仙传第191集，韩立灭杀谷双蒲真身！大战慕兰圣女噬金虫被压制",
+          "description": "",
+          "cover": "https://i2.hdslb.com/bfs/archive/e1c62d1673638e037429cd338ab2e6db19ef8648.jpg",
+          "pubTime": 1788579956000,
+          "duration": "22:23",
+          "play": 99410,
+          "videoUrl": "http://www.bilibili.com/video/av117216351624575",
+          "matched": true,
+          "ep": 191,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [
+            "韩立"
+          ],
+          "discoveredBy": "episode-search"
+        },
         {
           "bvid": "BV1gT4C6rE9W",
           "aid": 117176807725036,
@@ -32619,8 +32791,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1789160563948,
-      "lastSuccess": 1789160563948,
+      "lastFetched": 1789188055744,
+      "lastSuccess": 1789188055744,
       "videos": [
         {
           "bvid": "BV1Zg7z6SEY6",
@@ -40326,8 +40498,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1788582784743,
-      "lastSuccess": 1788582784743,
+      "lastFetched": 1789187878106,
+      "lastSuccess": 1789187878106,
       "videos": [
         {
           "bvid": "BV1D6t16SEBh",
@@ -40363,6 +40535,27 @@
           "isCompilation": false,
           "contentType": "episode",
           "characters": [],
+          "discoveredBy": "episode-search"
+        },
+        {
+          "bvid": "BV11b3FzXEqo",
+          "aid": 114766844598492,
+          "title": "《凡人修仙传191集》突破元婴，韩立见紫灵梅凝二女，坠魔谷之前，交易",
+          "description": "韩立从极西之地归来，与紫灵梅凝等人商议坠魔谷之事……更新中！！！",
+          "cover": "https://i0.hdslb.com/bfs/archive/e8ad7b62d3b67fef4665cf89bf7a6a2dfb967dc8.jpg",
+          "pubTime": 1751203603000,
+          "duration": "31:37",
+          "play": 41486,
+          "videoUrl": "http://www.bilibili.com/video/av114766844598492",
+          "matched": true,
+          "ep": 191,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [
+            "韩立",
+            "紫灵",
+            "元婴"
+          ],
           "discoveredBy": "episode-search"
         },
         {
@@ -46796,9 +46989,29 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1788582784743,
-      "lastSuccess": 1788582784743,
+      "lastFetched": 1789187878106,
+      "lastSuccess": 1789187878106,
       "videos": [
+        {
+          "bvid": "BV1n7t16iEGi",
+          "aid": 117216435571240,
+          "title": "【凡人修仙传191集】韩立斩杀奸细谷双蒲！附灵术的元婴中期，韩立相认李缨宁！",
+          "description": "原著小说版剧情：奸细谷双蒲假意诬陷韩立，暗算秃眉大汉，却落入对方与韩立布下的圈套。谷双蒲施展失传附灵术化为蛇妖冲破禁制，韩立用乾蓝冰焰将其冻结，再以辟邪神雷灭其元婴。二人见识韩立实力心生敬畏，谋划次日抵御慕兰大军。",
+          "cover": "https://i2.hdslb.com/bfs/archive/0553421977a7fcc6e436c7c7935dfa3d62c942c3.jpg",
+          "pubTime": 1788580922000,
+          "duration": "18:53",
+          "play": 35662,
+          "videoUrl": "http://www.bilibili.com/video/av117216435571240",
+          "matched": true,
+          "ep": 191,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [
+            "韩立",
+            "元婴"
+          ],
+          "discoveredBy": "episode-search"
+        },
         {
           "bvid": "BV1vH426ZEJx",
           "aid": 117178971981188,
@@ -47017,8 +47230,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1789102095391,
-      "lastSuccess": 1789102095391,
+      "lastFetched": 1789188141038,
+      "lastSuccess": 1789188141038,
       "videos": [
         {
           "bvid": "BV1ENcizSEd7",
@@ -47372,6 +47585,23 @@
           "videoUrl": "http://www.bilibili.com/video/av115763394452968",
           "matched": true,
           "ep": 24,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [],
+          "discoveredBy": "episode-search"
+        },
+        {
+          "bvid": "BV1QeBwBHErr",
+          "aid": 115747254770499,
+          "title": "《凡人修仙传》Reaction 第20集【自制熟肉】",
+          "description": "来源：https://www.youtube.com/watch?v=VnNsnqlalmc",
+          "cover": "https://i2.hdslb.com/bfs/archive/0f6ef77e8a8b3b06b24de6fda16c53f1f66dd252.jpg",
+          "pubTime": 1766203200000,
+          "duration": "14:27",
+          "play": 2096,
+          "videoUrl": "http://www.bilibili.com/video/av115747254770499",
+          "matched": true,
+          "ep": 20,
           "isCompilation": false,
           "contentType": "episode",
           "characters": [],
@@ -48085,8 +48315,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1789160516703,
-      "lastSuccess": 1789160516703,
+      "lastFetched": 1789188141037,
+      "lastSuccess": 1789188141037,
       "videos": [
         {
           "bvid": "BV1si421e7Q6",
@@ -48096,10 +48326,29 @@
           "cover": "https://i2.hdslb.com/bfs/archive/19c1a1803dc62f7d0093202b1069c3f7896b14c4.jpg",
           "pubTime": 1719745500000,
           "duration": "5:22",
-          "play": 145491,
+          "play": 145502,
           "videoUrl": "http://www.bilibili.com/video/av1455763720",
           "matched": true,
           "ep": 23,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [
+            "韩立"
+          ],
+          "discoveredBy": "episode-search"
+        },
+        {
+          "bvid": "BV1VJ4m1u7L1",
+          "aid": 1255774949,
+          "title": "《凡人修仙传》第20集丨韩立斩天魔，加入烛龙道！",
+          "description": "凡人修仙传原著党",
+          "cover": "https://i1.hdslb.com/bfs/archive/4216a343a5100ae1cff25fdbcbfe4ae82b1f02d7.jpg",
+          "pubTime": 1719153923000,
+          "duration": "5:22",
+          "play": 140367,
+          "videoUrl": "http://www.bilibili.com/video/av1255774949",
+          "matched": true,
+          "ep": 20,
           "isCompilation": false,
           "contentType": "episode",
           "characters": [
@@ -48264,7 +48513,7 @@
           "cover": "https://i2.hdslb.com/bfs/archive/a787e3a52f61d08e9e9a1ac0c245f520105f8465.jpg",
           "pubTime": 1712077238000,
           "duration": "6:5",
-          "play": 183963,
+          "play": 183987,
           "videoUrl": "http://www.bilibili.com/video/av1702692323",
           "matched": true,
           "ep": 24,
@@ -48283,7 +48532,7 @@
           "cover": "https://i2.hdslb.com/bfs/archive/c91c64e0fa645e780474cd5c2af02af4948a813f.jpg",
           "pubTime": 1711983865000,
           "duration": "5:25",
-          "play": 170258,
+          "play": 170263,
           "videoUrl": "http://www.bilibili.com/video/av1902588561",
           "matched": true,
           "ep": 23,
@@ -48328,6 +48577,26 @@
           "characters": [
             "韩立",
             "紫灵",
+            "元婴"
+          ],
+          "discoveredBy": "episode-search"
+        },
+        {
+          "bvid": "BV16C4y1i7Va",
+          "aid": 793129950,
+          "title": "《凡人修仙传》元婴后期篇 第20集丨韩立收回第二元婴！",
+          "description": "凡人修仙传原著党",
+          "cover": "https://i2.hdslb.com/bfs/archive/3f54df397d6910793779ef624d7a5f929bd20105.jpg",
+          "pubTime": 1704100084000,
+          "duration": "5:7",
+          "play": 152220,
+          "videoUrl": "http://www.bilibili.com/video/av793129950",
+          "matched": true,
+          "ep": 20,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [
+            "韩立",
             "元婴"
           ],
           "discoveredBy": "episode-search"
@@ -48461,9 +48730,29 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1788582784743,
-      "lastSuccess": 1788582784743,
+      "lastFetched": 1789187878106,
+      "lastSuccess": 1789187878106,
       "videos": [
+        {
+          "bvid": "BV1rQYQ6NEwU",
+          "aid": 117255929136688,
+          "title": "【凡人修仙传第191话】内奸暴露，乾蓝冰焰再显威能！谷双蒲形神俱灭，韩立再见暖阳宝玉，墨彩环结局如何？",
+          "description": "-",
+          "cover": "https://i2.hdslb.com/bfs/archive/fe0609f0fac10162c30b54af0d19a4cedd5deac3.jpg",
+          "pubTime": 1789183558000,
+          "duration": "1:39",
+          "play": 721,
+          "videoUrl": "http://www.bilibili.com/video/av117255929136688",
+          "matched": true,
+          "ep": 191,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [
+            "墨彩环",
+            "韩立"
+          ],
+          "discoveredBy": "episode-search"
+        },
         {
           "bvid": "BV1Zpt16wE5X",
           "aid": 117216385175156,
@@ -49913,8 +50202,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1789126027713,
-      "lastSuccess": 1789126027713,
+      "lastFetched": 1789188055744,
+      "lastSuccess": 1789188055744,
       "videos": [
         {
           "bvid": "BV1Mihj6rEDW",
@@ -50479,8 +50768,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1789160563948,
-      "lastSuccess": 1789160563948,
+      "lastFetched": 1789188055744,
+      "lastSuccess": 1789188055744,
       "videos": [
         {
           "bvid": "BV11wNg6JEBv",
@@ -50534,6 +50823,106 @@
       ],
       "recentTitles": [
         "【凡人修仙传】20集逐帧解析#青年创作者计划"
+      ]
+    },
+    {
+      "uid": "3546377242020132",
+      "name": "国学拾光",
+      "alias": [],
+      "note": "按集搜索发现",
+      "source": "search-backfill",
+      "error": null,
+      "lastFetched": 1789187878106,
+      "lastSuccess": 1789187878106,
+      "videos": [
+        {
+          "bvid": "BV1GPYD6EEyj",
+          "aid": 117255157319029,
+          "title": "凡人修仙传191集：韩立李缨宁相认，靠的不是玉佩，是那卷医书！",
+          "description": "预告里李缨宁腰间玉佩一闪，弹幕全在刷暖阳宝玉。但我逐帧对比发现——进门时她双手捧着一卷书册，出门时书没了，玉佩才露出来。她拿书去找韩立确认身份，韩立看完把玉还给她。玉是相认之后才出现的，不是相认的钥匙。190集开篇韩立看众弟子救治伤员那个眼神，比看谷双蒲还专注，为什么？因为墨家医术那一脉的手法，他太熟了。那本医书里的字迹，是墨大夫的。相认那场戏，备好纸巾。\n\n关键词：凡人修仙传191集、韩立李缨宁相认、暖阳宝玉、墨氏医书、墨彩环、韩立李缨宁、谷双蒲内奸、黄龙山大战、凡人修仙传解析、国漫相认名场面\n\n标签：",
+          "cover": "https://i0.hdslb.com/bfs/archive/c20956b327f39dd63d519a80c3648d3194839070.jpg",
+          "pubTime": 1789171839000,
+          "duration": "2:42",
+          "play": 1549,
+          "videoUrl": "http://www.bilibili.com/video/av117255157319029",
+          "matched": true,
+          "ep": 191,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [
+            "韩立"
+          ],
+          "discoveredBy": "episode-search"
+        }
+      ],
+      "recentTitles": [
+        "凡人修仙传191集：韩立李缨宁相认，靠的不是玉佩，是那卷医书！"
+      ]
+    },
+    {
+      "uid": "310572759",
+      "name": "熟陌ing",
+      "alias": [],
+      "note": "按集搜索发现",
+      "source": "search-backfill",
+      "error": null,
+      "lastFetched": 1789187878106,
+      "lastSuccess": 1789187878106,
+      "videos": [
+        {
+          "bvid": "BV1i2ty6oEqn",
+          "aid": 117217039554667,
+          "title": "凡人191集斩奸认亲，我已急哭！！！",
+          "description": "-",
+          "cover": "https://i2.hdslb.com/bfs/archive/1aa8ae2deb48cf90c1a9c5f1a4a6db42cb253e0d.jpg",
+          "pubTime": 1788652200000,
+          "duration": "0:44",
+          "play": 536,
+          "videoUrl": "http://www.bilibili.com/video/av117217039554667",
+          "matched": true,
+          "ep": 191,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [],
+          "discoveredBy": "episode-search"
+        }
+      ],
+      "recentTitles": [
+        "凡人191集斩奸认亲，我已急哭！！！"
+      ]
+    },
+    {
+      "uid": "67610763",
+      "name": "-行者行-",
+      "alias": [],
+      "note": "按集搜索发现",
+      "source": "search-backfill",
+      "error": null,
+      "lastFetched": 1789187878106,
+      "lastSuccess": 1789187878106,
+      "videos": [
+        {
+          "bvid": "BV1YuYX6XE6C",
+          "aid": 117255996250035,
+          "title": "凡人修仙传191集-银月你放心，你家主人马上就会被追杀了。哈哈哈",
+          "description": "凡人修仙传",
+          "cover": "https://i1.hdslb.com/bfs/archive/35316656534c9328447196a1014da166c4f346dd.jpg",
+          "pubTime": 1789184874000,
+          "duration": "1:25",
+          "play": 33,
+          "videoUrl": "http://www.bilibili.com/video/av117255996250035",
+          "matched": true,
+          "ep": 191,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [
+            "银月"
+          ],
+          "discoveredBy": "episode-search"
+        }
+      ],
+      "recentTitles": [
+        "凡人修仙传191集-银月你放心，你家主人马上就会被追杀了。哈哈哈"
       ]
     }
   ]
