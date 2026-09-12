@@ -1,5 +1,5 @@
 {
-  "generatedAt": 1789139423418,
+  "generatedAt": 1789194891102,
   "mode": "fresh",
   "taxonomyVersion": 2,
   "policyVersion": 1,
@@ -13,12 +13,12 @@
     "同人创作"
   ],
   "counts": {
-    "人物志": 15,
+    "人物志": 14,
     "剧情二创": 18,
     "趣味整活": 18,
     "混剪手书": 7,
     "音乐配音": 12,
-    "同人创作": 10
+    "同人创作": 9
   },
   "lanes": {
     "event_spotlight": [
@@ -45,8 +45,7 @@
       "BV1o77n6AE2T",
       "BV1L8TK6aEcQ",
       "BV1reTq6FEbD",
-      "BV1c3ga6HEFR",
-      "BV1sAN96BEju"
+      "BV1c3ga6HEFR"
     ],
     "new_creator_watch": [
       "BV1mJME6DEKn",
@@ -92,21 +91,20 @@
       "BV1ym4y1F7ai",
       "BV1FaV46VEWD",
       "BV1bgVS6dEMQ",
-      "BV1Brx3z5EY8",
       "BV1EdcJz6EPN",
-      "BV13dorBLEWu",
       "BV1RusDz1EwM",
+      "BV1Brx3z5EY8",
+      "BV1Z6uKzQEXg",
       "BV1V9AUzHEzJ",
       "BV12BGk68E5n",
       "BV19w4m1X7xU",
       "BV1dV411w72Y",
       "BV1QGebziE1r",
       "BV14KS3YGEk9",
-      "BV1Z6uKzQEXg",
+      "BV15rn9z2Egj",
       "BV1mXEc6hE37",
       "BV1jhBTYJE5x",
       "BV12MziYDEpZ",
-      "BV15rn9z2Egj",
       "BV1YN7k6DEAR",
       "BV1PtLn6zEFY"
     ]
@@ -300,7 +298,7 @@
       "score": 84,
       "lane": "event_spotlight",
       "firstSeenAt": 1785560340526,
-      "lastSeenAt": 1789139423418,
+      "lastSeenAt": 1789194891102,
       "sourceQueries": [
         "凡人修仙传 二创",
         "凡人官方二创大会",
@@ -334,7 +332,7 @@
       "score": 83,
       "lane": "new_creator_watch",
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1789139423418,
+      "lastSeenAt": 1789194891102,
       "sourceQueries": [
         "legacy-published",
         "凡人修仙传 鬼畜 整活",
@@ -633,7 +631,7 @@
       "score": 79,
       "lane": "hidden_gem",
       "firstSeenAt": 1785244584356,
-      "lastSeenAt": 1789052879715,
+      "lastSeenAt": 1789194891102,
       "sourceQueries": [
         "凡人官方二创大会",
         "凡人修仙传 人物志 设定"
@@ -700,7 +698,7 @@
       "score": 78,
       "lane": "hidden_gem",
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1789139423418,
+      "lastSeenAt": 1789194891102,
       "sourceQueries": [
         "legacy-published",
         "凡人修仙传 鬼畜 整活",
@@ -777,6 +775,37 @@
       ]
     },
     {
+      "id": "BV1ksGu6cEdY",
+      "bvid": "BV1ksGu6cEdY",
+      "title": "尤道友-最菜最装的元婴修士！凡人修仙传人物志·5",
+      "description": "尤道友-最菜最装的元婴修士！凡人修仙传人物志·5",
+      "cover": "https://i1.hdslb.com/bfs/archive/b6c64e442cae1c217cc1b89f39ae757575df23ab.jpg",
+      "url": "http://www.bilibili.com/video/av117018212769587",
+      "upId": "1473206353",
+      "upName": "在下风希",
+      "play": 35412,
+      "pubTime": 1785556301000,
+      "duration": "6:26",
+      "category": "人物志",
+      "confidence": 0.9,
+      "classificationSource": "model",
+      "classificationReason": "围绕《凡人修仙传》角色尤道友创作的人物志专题内容",
+      "contentNature": "character_or_lore",
+      "originality": "original",
+      "eventTag": null,
+      "creatorPotential": "recommend",
+      "score": 77,
+      "lane": "new_creator_watch",
+      "firstSeenAt": 1785560340526,
+      "lastSeenAt": 1789194891102,
+      "sourceQueries": [
+        "凡人修仙传 人物志 设定"
+      ],
+      "discoveryModes": [
+        "fresh"
+      ]
+    },
+    {
       "id": "BV1RoM46tEQ8",
       "bvid": "BV1RoM46tEQ8",
       "title": "⚡师 姐 摇 一 摇⚡【凡人官方二创大会】",
@@ -799,7 +828,7 @@
       "score": 77,
       "lane": "hidden_gem",
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1789139423418,
+      "lastSeenAt": 1789194891102,
       "sourceQueries": [
         "legacy-published",
         "凡人修仙传 鬼畜 整活"
@@ -832,7 +861,7 @@
       "score": 76,
       "lane": "archive",
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1789139423418,
+      "lastSeenAt": 1789194891102,
       "sourceQueries": [
         "凡人修仙传 鬼畜 整活",
         "凡人修仙传 二创",
@@ -877,37 +906,6 @@
       ],
       "discoveryModes": [
         "history",
-        "fresh"
-      ]
-    },
-    {
-      "id": "BV1ksGu6cEdY",
-      "bvid": "BV1ksGu6cEdY",
-      "title": "尤道友-最菜最装的元婴修士！凡人修仙传人物志·5",
-      "description": "尤道友-最菜最装的元婴修士！凡人修仙传人物志·5",
-      "cover": "https://i1.hdslb.com/bfs/archive/b6c64e442cae1c217cc1b89f39ae757575df23ab.jpg",
-      "url": "http://www.bilibili.com/video/av117018212769587",
-      "upId": "1473206353",
-      "upName": "在下风希",
-      "play": 35412,
-      "pubTime": 1785556301000,
-      "duration": "6:26",
-      "category": "人物志",
-      "confidence": 0.9,
-      "classificationSource": "model",
-      "classificationReason": "围绕《凡人修仙传》角色尤道友创作的人物志专题内容",
-      "contentNature": "character_or_lore",
-      "originality": "original",
-      "eventTag": null,
-      "creatorPotential": "recommend",
-      "score": 76,
-      "lane": "new_creator_watch",
-      "firstSeenAt": 1785560340526,
-      "lastSeenAt": 1789052879715,
-      "sourceQueries": [
-        "凡人修仙传 人物志 设定"
-      ],
-      "discoveryModes": [
         "fresh"
       ]
     },
@@ -1060,7 +1058,7 @@
       "score": 75,
       "lane": "new_creator_watch",
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1789139423418,
+      "lastSeenAt": 1789194891102,
       "sourceQueries": [
         "凡人修仙传 鬼畜 整活"
       ],
@@ -1490,7 +1488,7 @@
       "score": 70,
       "lane": "hidden_gem",
       "firstSeenAt": 1784868982615,
-      "lastSeenAt": 1789108872879,
+      "lastSeenAt": 1789194891102,
       "sourceQueries": [
         "凡人修仙传 二创",
         "凡人官方二创大会",
@@ -1556,7 +1554,7 @@
       "score": 68,
       "lane": "archive",
       "firstSeenAt": 1784898301768,
-      "lastSeenAt": 1789052879715,
+      "lastSeenAt": 1789194891102,
       "sourceQueries": [
         "凡人修仙传 二创",
         "凡人官方二创大会",
@@ -1841,7 +1839,7 @@
       "score": 67,
       "lane": "hidden_gem",
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1789139423418,
+      "lastSeenAt": 1789194891102,
       "sourceQueries": [
         "凡人修仙传 鬼畜 整活"
       ],
@@ -1872,7 +1870,7 @@
       "score": 65,
       "lane": "archive",
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1789052879715,
+      "lastSeenAt": 1789194891102,
       "sourceQueries": [
         "legacy-published",
         "凡人修仙传 人物志 设定"
@@ -1936,7 +1934,7 @@
       "score": 65,
       "lane": "hidden_gem",
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1789052879715,
+      "lastSeenAt": 1789194891102,
       "sourceQueries": [
         "凡人修仙传 人物志 设定"
       ],
@@ -2011,6 +2009,69 @@
       ]
     },
     {
+      "id": "BV1EdcJz6EPN",
+      "bvid": "BV1EdcJz6EPN",
+      "title": "那一晚，韩立接受了元瑶的感谢   Seedance2.0",
+      "description": "那一晚，元瑶成功扑进了韩老魔怀里。",
+      "cover": "https://i1.hdslb.com/bfs/archive/035d2645221156a38ae2a0368031eb9f40d04eeb.jpg",
+      "url": "http://www.bilibili.com/video/av116064696467926",
+      "upId": "3706928955918517",
+      "upName": "平行世界的游明",
+      "play": 26323,
+      "pubTime": 1771027980000,
+      "duration": "0:41",
+      "category": "剧情二创",
+      "confidence": 0.85,
+      "classificationSource": "model",
+      "classificationReason": "创作《凡人修仙传》韩立与元瑶相关的同人剧情内容",
+      "contentNature": "secondary_creation",
+      "originality": "deep_adaptation",
+      "eventTag": null,
+      "creatorPotential": "one_off",
+      "score": 64,
+      "lane": "archive",
+      "firstSeenAt": 1787542424325,
+      "lastSeenAt": 1787542424325,
+      "sourceQueries": [
+        "韩立 二创"
+      ],
+      "discoveryModes": [
+        "history"
+      ]
+    },
+    {
+      "id": "BV1RusDz1EwM",
+      "bvid": "BV1RusDz1EwM",
+      "title": "硬核！韩立一共修炼过多少种功法？其中哪种功法最强？《凡人修仙传》",
+      "description": "配音小姐姐@东姝_",
+      "cover": "https://i1.hdslb.com/bfs/archive/20675eae6dfe3d13982176c5d7a628670d38c096.jpg",
+      "url": "http://www.bilibili.com/video/av115446690940123",
+      "upId": "400732402",
+      "upName": "骚人风希",
+      "play": 152459,
+      "pubTime": 1761577315000,
+      "duration": "10:10",
+      "category": "人物志",
+      "confidence": 0.85,
+      "classificationSource": "model",
+      "classificationReason": "围绕《凡人修仙传》韩立功法的专题内容",
+      "contentNature": "character_or_lore",
+      "originality": "deep_adaptation",
+      "eventTag": null,
+      "creatorPotential": "observe",
+      "score": 63,
+      "lane": "archive",
+      "firstSeenAt": 1784526884576,
+      "lastSeenAt": 1786937357683,
+      "sourceQueries": [
+        "凡人修仙传 法宝 功法 人物"
+      ],
+      "discoveryModes": [
+        "history",
+        "fresh"
+      ]
+    },
+    {
       "id": "BV1Brx3z5EY8",
       "bvid": "BV1Brx3z5EY8",
       "title": "凡人修仙传『归期』心痛翻唱&quot;韩大哥，果然还是那一年的烟花最好看&quot;",
@@ -2036,37 +2097,6 @@
       "lastSeenAt": 1788766264547,
       "sourceQueries": [
         "凡人修仙传 配音 翻唱"
-      ],
-      "discoveryModes": [
-        "history"
-      ]
-    },
-    {
-      "id": "BV1EdcJz6EPN",
-      "bvid": "BV1EdcJz6EPN",
-      "title": "那一晚，韩立接受了元瑶的感谢   Seedance2.0",
-      "description": "那一晚，元瑶成功扑进了韩老魔怀里。",
-      "cover": "https://i1.hdslb.com/bfs/archive/035d2645221156a38ae2a0368031eb9f40d04eeb.jpg",
-      "url": "http://www.bilibili.com/video/av116064696467926",
-      "upId": "3706928955918517",
-      "upName": "平行世界的游明",
-      "play": 26323,
-      "pubTime": 1771027980000,
-      "duration": "0:41",
-      "category": "剧情二创",
-      "confidence": 0.85,
-      "classificationSource": "model",
-      "classificationReason": "创作《凡人修仙传》韩立与元瑶相关的同人剧情内容",
-      "contentNature": "secondary_creation",
-      "originality": "deep_adaptation",
-      "eventTag": null,
-      "creatorPotential": "one_off",
-      "score": 63,
-      "lane": "archive",
-      "firstSeenAt": 1787542424325,
-      "lastSeenAt": 1787542424325,
-      "sourceQueries": [
-        "韩立 二创"
       ],
       "discoveryModes": [
         "history"
@@ -2107,52 +2137,21 @@
       ]
     },
     {
-      "id": "BV13dorBLEWu",
-      "bvid": "BV13dorBLEWu",
-      "title": "可爱孤单！银月的改编有多惊艳？《凡人修仙传》人物志",
-      "description": "",
-      "cover": "https://i1.hdslb.com/bfs/archive/40b449b5f10825338b5ba5693d449d9757682ad6.jpg",
-      "url": "http://www.bilibili.com/video/av116475922743832",
-      "upId": "7946432",
-      "upName": "利维坦mY",
-      "play": 860320,
-      "pubTime": 1777283736000,
-      "duration": "10:55",
+      "id": "BV1Z6uKzQEXg",
+      "bvid": "BV1Z6uKzQEXg",
+      "title": "【元 瑶 第 一 视 角 自 述】——凡人修仙传人物志解析",
+      "description": "续上凡人……\n审核大大求通过求推←_←\n★喜欢的道友给个三联吧",
+      "cover": "https://i1.hdslb.com/bfs/archive/ee1d99bc0f7ba1bbbd91c47675ba8a201417353c.jpg",
+      "url": "http://www.bilibili.com/video/av114832208630627",
+      "upId": "222851470",
+      "upName": "咕噜咕噜疾",
+      "play": 53142,
+      "pubTime": 1752200870000,
+      "duration": "5:43",
       "category": "人物志",
       "confidence": 0.9,
       "classificationSource": "model",
-      "classificationReason": "围绕凡人角色银月创作的人物志内容，含原创改编设定",
-      "contentNature": "character_or_lore",
-      "originality": "deep_adaptation",
-      "eventTag": null,
-      "creatorPotential": "observe",
-      "score": 62,
-      "lane": "archive",
-      "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1786934722213,
-      "sourceQueries": [
-        "凡人修仙传 人物志 设定"
-      ],
-      "discoveryModes": [
-        "fresh"
-      ]
-    },
-    {
-      "id": "BV1RusDz1EwM",
-      "bvid": "BV1RusDz1EwM",
-      "title": "硬核！韩立一共修炼过多少种功法？其中哪种功法最强？《凡人修仙传》",
-      "description": "配音小姐姐@东姝_",
-      "cover": "https://i1.hdslb.com/bfs/archive/20675eae6dfe3d13982176c5d7a628670d38c096.jpg",
-      "url": "http://www.bilibili.com/video/av115446690940123",
-      "upId": "400732402",
-      "upName": "骚人风希",
-      "play": 152459,
-      "pubTime": 1761577315000,
-      "duration": "10:10",
-      "category": "人物志",
-      "confidence": 0.85,
-      "classificationSource": "model",
-      "classificationReason": "围绕《凡人修仙传》韩立功法的专题内容",
+      "classificationReason": "以元瑶第一视角进行人物志解析，属于人物专题内容",
       "contentNature": "character_or_lore",
       "originality": "deep_adaptation",
       "eventTag": null,
@@ -2160,13 +2159,12 @@
       "score": 62,
       "lane": "archive",
       "firstSeenAt": 1784526884576,
-      "lastSeenAt": 1786937357683,
+      "lastSeenAt": 1787542424325,
       "sourceQueries": [
-        "凡人修仙传 法宝 功法 人物"
+        "凡人修仙传 人物志 设定"
       ],
       "discoveryModes": [
-        "history",
-        "fresh"
+        "history"
       ]
     },
     {
@@ -2363,31 +2361,31 @@
       ]
     },
     {
-      "id": "BV1Z6uKzQEXg",
-      "bvid": "BV1Z6uKzQEXg",
-      "title": "【元 瑶 第 一 视 角 自 述】——凡人修仙传人物志解析",
-      "description": "续上凡人……\n审核大大求通过求推←_←\n★喜欢的道友给个三联吧",
-      "cover": "https://i1.hdslb.com/bfs/archive/ee1d99bc0f7ba1bbbd91c47675ba8a201417353c.jpg",
-      "url": "http://www.bilibili.com/video/av114832208630627",
-      "upId": "222851470",
-      "upName": "咕噜咕噜疾",
-      "play": 53142,
-      "pubTime": 1752200870000,
-      "duration": "5:43",
-      "category": "人物志",
-      "confidence": 0.9,
+      "id": "BV15rn9z2Egj",
+      "bvid": "BV15rn9z2Egj",
+      "title": "“笑死！160集了终于破译了爽文男主的登录密码！立儿你从前过的是什么苦日子啊”【凡人修仙传/韩立】",
+      "description": "-",
+      "cover": "https://i1.hdslb.com/bfs/archive/3f136fd04c5506092f91d237ba7e56998db9a67b.jpg",
+      "url": "http://www.bilibili.com/video/av115281166863503",
+      "upId": "3493292639521635",
+      "upName": "甜竹糕",
+      "play": 42812,
+      "pubTime": 1759051163000,
+      "duration": "1:24",
+      "category": "趣味整活",
+      "confidence": 0.85,
       "classificationSource": "model",
-      "classificationReason": "以元瑶第一视角进行人物志解析，属于人物专题内容",
-      "contentNature": "character_or_lore",
+      "classificationReason": "围绕韩立的爽文剧情进行的趣味整活类二次创作",
+      "contentNature": "secondary_creation",
       "originality": "deep_adaptation",
       "eventTag": null,
       "creatorPotential": "observe",
       "score": 61,
       "lane": "archive",
       "firstSeenAt": 1784526884576,
-      "lastSeenAt": 1787542424325,
+      "lastSeenAt": 1788166338588,
       "sourceQueries": [
-        "凡人修仙传 人物志 设定"
+        "凡人修仙传 混剪 手书"
       ],
       "discoveryModes": [
         "history"
@@ -2448,7 +2446,7 @@
       "score": 61,
       "lane": "new_creator_watch",
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1789052879715,
+      "lastSeenAt": 1789194891102,
       "sourceQueries": [
         "legacy-published",
         "凡人修仙传 人物志 设定"
@@ -2481,7 +2479,7 @@
       "score": 61,
       "lane": "hidden_gem",
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1789139423418,
+      "lastSeenAt": 1789194891102,
       "sourceQueries": [
         "凡人修仙传 鬼畜 整活"
       ],
@@ -2512,7 +2510,7 @@
       "score": 61,
       "lane": "hidden_gem",
       "firstSeenAt": 1784868982615,
-      "lastSeenAt": 1789052879715,
+      "lastSeenAt": 1789194891102,
       "sourceQueries": [
         "凡人修仙传 人物志 设定"
       ],
@@ -2585,37 +2583,6 @@
       ]
     },
     {
-      "id": "BV15rn9z2Egj",
-      "bvid": "BV15rn9z2Egj",
-      "title": "“笑死！160集了终于破译了爽文男主的登录密码！立儿你从前过的是什么苦日子啊”【凡人修仙传/韩立】",
-      "description": "-",
-      "cover": "https://i1.hdslb.com/bfs/archive/3f136fd04c5506092f91d237ba7e56998db9a67b.jpg",
-      "url": "http://www.bilibili.com/video/av115281166863503",
-      "upId": "3493292639521635",
-      "upName": "甜竹糕",
-      "play": 42812,
-      "pubTime": 1759051163000,
-      "duration": "1:24",
-      "category": "趣味整活",
-      "confidence": 0.85,
-      "classificationSource": "model",
-      "classificationReason": "围绕韩立的爽文剧情进行的趣味整活类二次创作",
-      "contentNature": "secondary_creation",
-      "originality": "deep_adaptation",
-      "eventTag": null,
-      "creatorPotential": "observe",
-      "score": 60,
-      "lane": "archive",
-      "firstSeenAt": 1784526884576,
-      "lastSeenAt": 1788166338588,
-      "sourceQueries": [
-        "凡人修仙传 混剪 手书"
-      ],
-      "discoveryModes": [
-        "history"
-      ]
-    },
-    {
       "id": "BV1YN7k6DEAR",
       "bvid": "BV1YN7k6DEAR",
       "title": "《凡人修仙传》AI自制第205集：谋定坠魔 GTPimage2+seedance2.0制作！#动画 #凡人修仙传 #韩老魔 #国漫",
@@ -2677,37 +2644,6 @@
       ],
       "discoveryModes": [
         "fresh"
-      ]
-    },
-    {
-      "id": "BV1sAN96BEju",
-      "bvid": "BV1sAN96BEju",
-      "title": "【凡人修仙传】南宫阙绝美舞蹈！这仙气溢出屏幕了吧？（内含教程彩蛋）",
-      "description": "各位道友请留步！🙏\n终于让南宫阙在三次元跳起来了！这次特意打磨了衣料物理和面部表情，力求还原原著里“气质优雅高贵”的阙儿形象。\n\n🔧关于制作：\n看到弹幕里好多人在问工作流和模型参数，UP主表示感受到了大家的热情！\n👉 想看制作教程/工程文件的，请在评论区扣【1】或者发弹幕“求教程”\n数量够多我就单独出一期手把手教学视频，绝不藏私！\n.\n如果觉得还不错的话，求个三连支持一下卑微UP🥺 你们的支持就是我爆肝的动力！\n#凡人修仙传 #南宫阙  #国创 #MMD/AI动画 #二次元 #舞蹈翻跳 #凡人修仙传二创",
-      "cover": "https://i0.hdslb.com/bfs/archive/1b47d33fac22ad2883709fa4ae4c53cbfb1e8c44.jpg",
-      "url": "http://www.bilibili.com/video/av116917129974170",
-      "upId": "1295394050",
-      "upName": "Codered-code",
-      "play": 24,
-      "pubTime": 1784013992000,
-      "duration": "0:20",
-      "category": "同人创作",
-      "confidence": 0.9,
-      "classificationSource": "model",
-      "classificationReason": "围绕凡人修仙传南宫阙制作的MMD类二次创作内容，有明确的原创打磨与制作说明",
-      "contentNature": "secondary_creation",
-      "originality": "deep_adaptation",
-      "eventTag": null,
-      "creatorPotential": "recommend",
-      "score": 60,
-      "lane": "hidden_gem",
-      "firstSeenAt": 1785132335284,
-      "lastSeenAt": 1786937357683,
-      "sourceQueries": [
-        "凡人修仙传 MMD 同人动画"
-      ],
-      "discoveryModes": [
-        "history"
       ]
     }
   ]
