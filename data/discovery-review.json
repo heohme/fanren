@@ -1,12 +1,12 @@
 {
-  "generatedAt": 1789281845051,
+  "generatedAt": 1789311691832,
   "mode": "fresh",
   "taxonomyVersion": 2,
   "policyVersion": 1,
   "summary": {
     "total": 2000,
-    "approved": 78,
-    "review": 108,
+    "approved": 77,
+    "review": 109,
     "rejected": 1814
   },
   "lanes": {
@@ -14,7 +14,6 @@
       "BV12tGP6XEjz",
       "BV1HFGK6DEqq",
       "BV1XMG36SEqX",
-      "BV1rkGM6fEUv",
       "BV1aPGu6yENw",
       "BV1TzGG6EEkb",
       "BV1pi3n6bEut",
@@ -71,18 +70,18 @@
       "BV1Mwge6KEze",
       "BV1rMWDzpEz5",
       "BV1fJr3BYExB",
+      "BV16nABzPEmQ",
       "BV17zNszhEQ3",
       "BV1G2CrBLEo9",
       "BV1DEoaBUEBf",
-      "BV16nABzPEmQ",
       "BV1QpE16fEAp",
       "BV1s2Ts6YEdR",
       "BV1ym4y1F7ai",
-      "BV1bgVS6dEMQ",
       "BV1FaV46VEWD",
+      "BV1bgVS6dEMQ",
+      "BV1RusDz1EwM",
       "BV1Brx3z5EY8",
       "BV1EdcJz6EPN",
-      "BV1RusDz1EwM",
       "BV1V9AUzHEzJ",
       "BV12BGk68E5n",
       "BV19w4m1X7xU",
@@ -644,7 +643,7 @@
       "originality": "light_edit",
       "eventTag": null,
       "creatorPotential": "one_off",
-      "score": 63,
+      "score": 64,
       "lane": null,
       "firstSeenAt": 1784898301768,
       "lastSeenAt": 1787542424325,
@@ -879,6 +878,48 @@
       }
     },
     {
+      "id": "BV1K4zaBYEKo",
+      "bvid": "BV1K4zaBYEKo",
+      "title": "《不凡》自制MV，凡人修仙传主题曲，20小时爆肝剪辑=。=",
+      "description": "因为片头曲都是一分钟的剪辑版本，所以自制一个完整版的。韩立一路以来的辛酸苦楚与奇遇经历都在其中，希望这首歌的歌词能印到每一位观众的心中，也希望各位道友能像作品中自己喜欢的每一个人物一样，平凡成就不凡。",
+      "cover": "https://i1.hdslb.com/bfs/archive/93b7de0e913ded2f82df029f8dec8858cf46ad66.jpg",
+      "url": "http://www.bilibili.com/video/av115958932965296",
+      "upId": "97676548",
+      "upName": "小猫快喝水",
+      "play": 6174,
+      "pubTime": 1769393734000,
+      "duration": "3:31",
+      "category": "音乐配音",
+      "confidence": 0.8,
+      "classificationSource": "model",
+      "classificationReason": "自制凡人修仙传主题曲MV，属于音乐类二次创作",
+      "contentNature": "secondary_creation",
+      "originality": "deep_adaptation",
+      "eventTag": null,
+      "creatorPotential": "observe",
+      "score": 60,
+      "lane": null,
+      "firstSeenAt": 1784281357983,
+      "lastSeenAt": 1788166338588,
+      "sourceQueries": [
+        "legacy-published",
+        "凡人修仙传 混剪 手书"
+      ],
+      "discoveryModes": [
+        "history"
+      ],
+      "riskFlags": [],
+      "policyReason": "内容可收录，但需人工复核分类或风险",
+      "stats": {
+        "play": 6174,
+        "like": 0,
+        "coin": 0,
+        "favorite": 133,
+        "reply": 0,
+        "danmaku": 0
+      }
+    },
+    {
       "id": "BV11NGA6SEEH",
       "bvid": "BV11NGA6SEEH",
       "title": "栗碗的结丹期常服也很登对啊【凡人官方二创大会】",
@@ -1004,6 +1045,48 @@
       }
     },
     {
+      "id": "BV1nZ4y1r79E",
+      "bvid": "BV1nZ4y1r79E",
+      "title": "用日语配音打开凡人修仙传！",
+      "description": "这番太上头啦！！！赶紧冲了个pv翻配！",
+      "cover": "https://i2.hdslb.com/bfs/archive/3ac9c46b9105dd308367022f7a171226f166f0c5.jpg",
+      "url": "http://www.bilibili.com/video/av382053137",
+      "upId": "1649943",
+      "upName": "老渡鸽",
+      "play": 62031,
+      "pubTime": 1646636885000,
+      "duration": "1:36",
+      "category": "音乐配音",
+      "confidence": 0.9,
+      "classificationSource": "model",
+      "classificationReason": "用日语配音凡人修仙传内容，属于二次创作",
+      "contentNature": "secondary_creation",
+      "originality": "deep_adaptation",
+      "eventTag": null,
+      "creatorPotential": "recommend",
+      "score": 59,
+      "lane": null,
+      "firstSeenAt": 1784281357983,
+      "lastSeenAt": 1788766264547,
+      "sourceQueries": [
+        "legacy-published",
+        "凡人修仙传 配音 翻唱"
+      ],
+      "discoveryModes": [
+        "history"
+      ],
+      "riskFlags": [],
+      "policyReason": "内容可收录，但需人工复核分类或风险",
+      "stats": {
+        "play": 62031,
+        "like": 1524,
+        "coin": 76,
+        "favorite": 97,
+        "reply": 226,
+        "danmaku": 139
+      }
+    },
+    {
       "id": "BV1bMJCzvEBm",
       "bvid": "BV1bMJCzvEBm",
       "title": "凡人修仙传世界观：基础设定和升级体系是如何逐渐完善的？",
@@ -1087,48 +1170,6 @@
       }
     },
     {
-      "id": "BV1K4zaBYEKo",
-      "bvid": "BV1K4zaBYEKo",
-      "title": "《不凡》自制MV，凡人修仙传主题曲，20小时爆肝剪辑=。=",
-      "description": "因为片头曲都是一分钟的剪辑版本，所以自制一个完整版的。韩立一路以来的辛酸苦楚与奇遇经历都在其中，希望这首歌的歌词能印到每一位观众的心中，也希望各位道友能像作品中自己喜欢的每一个人物一样，平凡成就不凡。",
-      "cover": "https://i1.hdslb.com/bfs/archive/93b7de0e913ded2f82df029f8dec8858cf46ad66.jpg",
-      "url": "http://www.bilibili.com/video/av115958932965296",
-      "upId": "97676548",
-      "upName": "小猫快喝水",
-      "play": 6174,
-      "pubTime": 1769393734000,
-      "duration": "3:31",
-      "category": "音乐配音",
-      "confidence": 0.8,
-      "classificationSource": "model",
-      "classificationReason": "自制凡人修仙传主题曲MV，属于音乐类二次创作",
-      "contentNature": "secondary_creation",
-      "originality": "deep_adaptation",
-      "eventTag": null,
-      "creatorPotential": "observe",
-      "score": 59,
-      "lane": null,
-      "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1788166338588,
-      "sourceQueries": [
-        "legacy-published",
-        "凡人修仙传 混剪 手书"
-      ],
-      "discoveryModes": [
-        "history"
-      ],
-      "riskFlags": [],
-      "policyReason": "内容可收录，但需人工复核分类或风险",
-      "stats": {
-        "play": 6174,
-        "like": 0,
-        "coin": 0,
-        "favorite": 133,
-        "reply": 0,
-        "danmaku": 0
-      }
-    },
-    {
       "id": "BV1SG411d7ey",
       "bvid": "BV1SG411d7ey",
       "title": "若有执念，凡人亦可成仙！《凡人修仙传》主题曲B站最燃翻唱！",
@@ -1168,48 +1209,6 @@
         "favorite": 470,
         "reply": 262,
         "danmaku": 210
-      }
-    },
-    {
-      "id": "BV1nZ4y1r79E",
-      "bvid": "BV1nZ4y1r79E",
-      "title": "用日语配音打开凡人修仙传！",
-      "description": "这番太上头啦！！！赶紧冲了个pv翻配！",
-      "cover": "https://i2.hdslb.com/bfs/archive/3ac9c46b9105dd308367022f7a171226f166f0c5.jpg",
-      "url": "http://www.bilibili.com/video/av382053137",
-      "upId": "1649943",
-      "upName": "老渡鸽",
-      "play": 62031,
-      "pubTime": 1646636885000,
-      "duration": "1:36",
-      "category": "音乐配音",
-      "confidence": 0.9,
-      "classificationSource": "model",
-      "classificationReason": "用日语配音凡人修仙传内容，属于二次创作",
-      "contentNature": "secondary_creation",
-      "originality": "deep_adaptation",
-      "eventTag": null,
-      "creatorPotential": "recommend",
-      "score": 58,
-      "lane": null,
-      "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1788766264547,
-      "sourceQueries": [
-        "legacy-published",
-        "凡人修仙传 配音 翻唱"
-      ],
-      "discoveryModes": [
-        "history"
-      ],
-      "riskFlags": [],
-      "policyReason": "内容可收录，但需人工复核分类或风险",
-      "stats": {
-        "play": 62031,
-        "like": 1524,
-        "coin": 76,
-        "favorite": 97,
-        "reply": 226,
-        "danmaku": 139
       }
     },
     {
@@ -1402,7 +1401,7 @@
       "score": 58,
       "lane": null,
       "firstSeenAt": 1784525133937,
-      "lastSeenAt": 1789281845051,
+      "lastSeenAt": 1789311691832,
       "sourceQueries": [
         "凡人修仙传 二创",
         "凡人官方二创大会",
@@ -1552,6 +1551,50 @@
       }
     },
     {
+      "id": "BV1hH4y1g7Rf",
+      "bvid": "BV1hH4y1g7Rf",
+      "title": "【凡人修仙传】那些无法超越的台词和画面！",
+      "description": "有生之年，见证了凡人修仙传百集连载，\n其文戏感人、打戏精彩，真的值得一看！\n何为凡人，何为仙？\n岂闻韶华尽何年，\n回首沧桑，此恨绵绵，\n风月如剑，看我破天。\n道不尽仙凡殊途，尽人间。\nBGM：《雪见—仙凡之旅》—麦振鸿\n素材：凡人修仙传\n最后辛苦审核菌和运营了，\n也拜托编辑老师给个推荐吧！",
+      "cover": "https://i2.hdslb.com/bfs/archive/606c49c91afcdbd3e4f2a94fc2509073b5d409f8.jpg",
+      "url": "http://www.bilibili.com/video/av1054424424",
+      "upId": "434862779",
+      "upName": "在下南巷哟",
+      "play": 918208,
+      "pubTime": 1715400000000,
+      "duration": "4:15",
+      "category": "混剪手书",
+      "confidence": 0.85,
+      "classificationSource": "model",
+      "classificationReason": "剪辑动画正片搭配BGM的内容，属于二次创作",
+      "contentNature": "secondary_creation",
+      "originality": "light_edit",
+      "eventTag": null,
+      "creatorPotential": "observe",
+      "score": 56,
+      "lane": null,
+      "firstSeenAt": 1784526884576,
+      "lastSeenAt": 1789139423418,
+      "sourceQueries": [
+        "凡人修仙传 混剪 手书",
+        "凡人修仙传 人物志 设定",
+        "凡人修仙传 MMD 同人动画"
+      ],
+      "discoveryModes": [
+        "history",
+        "fresh"
+      ],
+      "riskFlags": [],
+      "policyReason": "疑似轻度剪辑，需人工确认原创性",
+      "stats": {
+        "play": 918208,
+        "like": 35448,
+        "coin": 17834,
+        "favorite": 16151,
+        "reply": 1352,
+        "danmaku": 1207
+      }
+    },
+    {
       "id": "BV1hHVW6pEJK",
       "bvid": "BV1hHVW6pEJK",
       "title": "紫灵个人向深度解析③丨明日高处再相逢",
@@ -1697,7 +1740,7 @@
       "score": 56,
       "lane": null,
       "firstSeenAt": 1785244584356,
-      "lastSeenAt": 1789281845051,
+      "lastSeenAt": 1789311691832,
       "sourceQueries": [
         "凡人官方二创大会",
         "凡人修仙传 鬼畜 整活",
@@ -1715,50 +1758,6 @@
         "favorite": 16,
         "reply": 6,
         "danmaku": 9
-      }
-    },
-    {
-      "id": "BV1hH4y1g7Rf",
-      "bvid": "BV1hH4y1g7Rf",
-      "title": "【凡人修仙传】那些无法超越的台词和画面！",
-      "description": "有生之年，见证了凡人修仙传百集连载，\n其文戏感人、打戏精彩，真的值得一看！\n何为凡人，何为仙？\n岂闻韶华尽何年，\n回首沧桑，此恨绵绵，\n风月如剑，看我破天。\n道不尽仙凡殊途，尽人间。\nBGM：《雪见—仙凡之旅》—麦振鸿\n素材：凡人修仙传\n最后辛苦审核菌和运营了，\n也拜托编辑老师给个推荐吧！",
-      "cover": "https://i2.hdslb.com/bfs/archive/606c49c91afcdbd3e4f2a94fc2509073b5d409f8.jpg",
-      "url": "http://www.bilibili.com/video/av1054424424",
-      "upId": "434862779",
-      "upName": "在下南巷哟",
-      "play": 918208,
-      "pubTime": 1715400000000,
-      "duration": "4:15",
-      "category": "混剪手书",
-      "confidence": 0.85,
-      "classificationSource": "model",
-      "classificationReason": "剪辑动画正片搭配BGM的内容，属于二次创作",
-      "contentNature": "secondary_creation",
-      "originality": "light_edit",
-      "eventTag": null,
-      "creatorPotential": "observe",
-      "score": 55,
-      "lane": null,
-      "firstSeenAt": 1784526884576,
-      "lastSeenAt": 1789139423418,
-      "sourceQueries": [
-        "凡人修仙传 混剪 手书",
-        "凡人修仙传 人物志 设定",
-        "凡人修仙传 MMD 同人动画"
-      ],
-      "discoveryModes": [
-        "history",
-        "fresh"
-      ],
-      "riskFlags": [],
-      "policyReason": "疑似轻度剪辑，需人工确认原创性",
-      "stats": {
-        "play": 918208,
-        "like": 35448,
-        "coin": 17834,
-        "favorite": 16151,
-        "reply": 1352,
-        "danmaku": 1207
       }
     },
     {
@@ -2002,7 +2001,7 @@
       "score": 55,
       "lane": null,
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1789281845051,
+      "lastSeenAt": 1789311691832,
       "sourceQueries": [
         "凡人修仙传 MMD 同人动画"
       ],
@@ -2195,7 +2194,7 @@
       "url": "http://www.bilibili.com/video/av116906291894910",
       "upId": "3493131924277978",
       "upName": "铁牛牛肉面店主",
-      "play": 3082,
+      "play": 3090,
       "pubTime": 1783848594000,
       "duration": "11:17",
       "category": "人物志",
@@ -2209,7 +2208,7 @@
       "score": 54,
       "lane": null,
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1789281845051,
+      "lastSeenAt": 1789311691832,
       "sourceQueries": [
         "凡人修仙传 人物志 设定"
       ],
@@ -2219,7 +2218,7 @@
       "riskFlags": [],
       "policyReason": "内容可收录，但需人工复核分类或风险",
       "stats": {
-        "play": 3082,
+        "play": 3090,
         "like": 0,
         "coin": 0,
         "favorite": 6,
@@ -2292,7 +2291,7 @@
       "score": 53,
       "lane": null,
       "firstSeenAt": 1784954073751,
-      "lastSeenAt": 1789281845051,
+      "lastSeenAt": 1789311691832,
       "sourceQueries": [
         "凡人修仙传 人物志 设定"
       ],
@@ -2349,6 +2348,48 @@
         "favorite": 133,
         "reply": 0,
         "danmaku": 75
+      }
+    },
+    {
+      "id": "BV1ra411e7G5",
+      "bvid": "BV1ra411e7G5",
+      "title": "【炼器师】和【法器、法宝】基础讲解《凡人修仙传》",
+      "description": "恳求道友们点个赞吧！最近太难了，救救孩子。",
+      "cover": "https://i0.hdslb.com/bfs/archive/6de685b7d3b9302fad529bbee51820b0bbea727a.jpg",
+      "url": "http://www.bilibili.com/video/av213127589",
+      "upId": "111775482",
+      "upName": "炼气老K",
+      "play": 28961,
+      "pubTime": 1649937847000,
+      "duration": "7:58",
+      "category": "人物志",
+      "confidence": 0.85,
+      "classificationSource": "model",
+      "classificationReason": "围绕凡人修仙传的法器法宝进行专题讲解的内容",
+      "contentNature": "character_or_lore",
+      "originality": "deep_adaptation",
+      "eventTag": null,
+      "creatorPotential": "observe",
+      "score": 53,
+      "lane": null,
+      "firstSeenAt": 1784526884576,
+      "lastSeenAt": 1788766264547,
+      "sourceQueries": [
+        "凡人修仙传 人物志 设定",
+        "凡人修仙传 法宝 功法 人物"
+      ],
+      "discoveryModes": [
+        "history"
+      ],
+      "riskFlags": [],
+      "policyReason": "内容可收录，但需人工复核分类或风险",
+      "stats": {
+        "play": 28961,
+        "like": 0,
+        "coin": 0,
+        "favorite": 352,
+        "reply": 0,
+        "danmaku": 134
       }
     },
     {
@@ -2456,7 +2497,7 @@
       "score": 53,
       "lane": null,
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1789281845051,
+      "lastSeenAt": 1789311691832,
       "sourceQueries": [
         "凡人修仙传 混剪 手书"
       ],
@@ -2610,48 +2651,6 @@
       }
     },
     {
-      "id": "BV1ra411e7G5",
-      "bvid": "BV1ra411e7G5",
-      "title": "【炼器师】和【法器、法宝】基础讲解《凡人修仙传》",
-      "description": "恳求道友们点个赞吧！最近太难了，救救孩子。",
-      "cover": "https://i0.hdslb.com/bfs/archive/6de685b7d3b9302fad529bbee51820b0bbea727a.jpg",
-      "url": "http://www.bilibili.com/video/av213127589",
-      "upId": "111775482",
-      "upName": "炼气老K",
-      "play": 28961,
-      "pubTime": 1649937847000,
-      "duration": "7:58",
-      "category": "人物志",
-      "confidence": 0.85,
-      "classificationSource": "model",
-      "classificationReason": "围绕凡人修仙传的法器法宝进行专题讲解的内容",
-      "contentNature": "character_or_lore",
-      "originality": "deep_adaptation",
-      "eventTag": null,
-      "creatorPotential": "observe",
-      "score": 52,
-      "lane": null,
-      "firstSeenAt": 1784526884576,
-      "lastSeenAt": 1788766264547,
-      "sourceQueries": [
-        "凡人修仙传 人物志 设定",
-        "凡人修仙传 法宝 功法 人物"
-      ],
-      "discoveryModes": [
-        "history"
-      ],
-      "riskFlags": [],
-      "policyReason": "内容可收录，但需人工复核分类或风险",
-      "stats": {
-        "play": 28961,
-        "like": 0,
-        "coin": 0,
-        "favorite": 352,
-        "reply": 0,
-        "danmaku": 134
-      }
-    },
-    {
       "id": "BV1w7VmzWEXt",
       "bvid": "BV1w7VmzWEXt",
       "title": "紫灵人物志：清冷是她，执念是她，韩立是她的劫，修行是她的解",
@@ -2775,6 +2774,47 @@
       }
     },
     {
+      "id": "BV1sGnPzWE7c",
+      "bvid": "BV1sGnPzWE7c",
+      "title": "【凡人修仙传】最温柔的哼唱 献给每位旅途中的人",
+      "description": "祝每位旅人，都能举着盛满过去的高脚杯，敬献给撰写未来剧本的自己！\n\n原唱：王铮亮\n翻唱：晚音依旧有点饿\n混音：砚青\n视频：倦云衣",
+      "cover": "https://i0.hdslb.com/bfs/archive/b5b1ea61b27987a76a299c57ad743225a68e6c33.jpg",
+      "url": "http://www.bilibili.com/video/av115248635971272",
+      "upId": "502940943",
+      "upName": "晚音依旧有点饿",
+      "play": 15357,
+      "pubTime": 1758600000000,
+      "duration": "4:34",
+      "category": "音乐配音",
+      "confidence": 0.85,
+      "classificationSource": "model",
+      "classificationReason": "翻唱凡人相关歌曲，属于音乐二次创作",
+      "contentNature": "secondary_creation",
+      "originality": "light_edit",
+      "eventTag": null,
+      "creatorPotential": "one_off",
+      "score": 52,
+      "lane": null,
+      "firstSeenAt": 1788166338588,
+      "lastSeenAt": 1788166338588,
+      "sourceQueries": [
+        "凡人修仙传 配音 翻唱"
+      ],
+      "discoveryModes": [
+        "history"
+      ],
+      "riskFlags": [],
+      "policyReason": "疑似轻度剪辑，需人工确认原创性",
+      "stats": {
+        "play": 15357,
+        "like": 820,
+        "coin": 452,
+        "favorite": 238,
+        "reply": 70,
+        "danmaku": 10
+      }
+    },
+    {
       "id": "BV1DASHBeE2X",
       "bvid": "BV1DASHBeE2X",
       "title": "凡人修仙传最新仙侣法宝搭配",
@@ -2857,6 +2897,47 @@
       }
     },
     {
+      "id": "BV1ocs4esEPE",
+      "bvid": "BV1ocs4esEPE",
+      "title": "【凡人修仙传】凡人功法篇之《长春功》：韩立踏入仙途的启蒙功法",
+      "description": "",
+      "cover": "https://i2.hdslb.com/bfs/archive/8323db9f17c7ce3c6e573fe0505bc25c20cf2066.jpg",
+      "url": "http://www.bilibili.com/video/av113033053668765",
+      "upId": "490056685",
+      "upName": "夜半流火",
+      "play": 20785,
+      "pubTime": 1724747695000,
+      "duration": "1:27",
+      "category": "人物志",
+      "confidence": 0.85,
+      "classificationSource": "model",
+      "classificationReason": "围绕凡人修仙传中韩立的启蒙功法《长春功》展开的专题内容",
+      "contentNature": "character_or_lore",
+      "originality": "original",
+      "eventTag": null,
+      "creatorPotential": "observe",
+      "score": 51,
+      "lane": null,
+      "firstSeenAt": 1784526884576,
+      "lastSeenAt": 1787542424325,
+      "sourceQueries": [
+        "凡人修仙传 法宝 功法 人物"
+      ],
+      "discoveryModes": [
+        "history"
+      ],
+      "riskFlags": [],
+      "policyReason": "人物/设定内容不足 3 分钟，需确认不是竖屏剪辑",
+      "stats": {
+        "play": 20785,
+        "like": 0,
+        "coin": 0,
+        "favorite": 68,
+        "reply": 0,
+        "danmaku": 3
+      }
+    },
+    {
       "id": "BV1omfvBVECJ",
       "bvid": "BV1omfvBVECJ",
       "title": "韩立：我厉飞雨何德何能？",
@@ -2896,47 +2977,6 @@
         "favorite": 470,
         "reply": 0,
         "danmaku": 16
-      }
-    },
-    {
-      "id": "BV1sGnPzWE7c",
-      "bvid": "BV1sGnPzWE7c",
-      "title": "【凡人修仙传】最温柔的哼唱 献给每位旅途中的人",
-      "description": "祝每位旅人，都能举着盛满过去的高脚杯，敬献给撰写未来剧本的自己！\n\n原唱：王铮亮\n翻唱：晚音依旧有点饿\n混音：砚青\n视频：倦云衣",
-      "cover": "https://i0.hdslb.com/bfs/archive/b5b1ea61b27987a76a299c57ad743225a68e6c33.jpg",
-      "url": "http://www.bilibili.com/video/av115248635971272",
-      "upId": "502940943",
-      "upName": "晚音依旧有点饿",
-      "play": 15357,
-      "pubTime": 1758600000000,
-      "duration": "4:34",
-      "category": "音乐配音",
-      "confidence": 0.85,
-      "classificationSource": "model",
-      "classificationReason": "翻唱凡人相关歌曲，属于音乐二次创作",
-      "contentNature": "secondary_creation",
-      "originality": "light_edit",
-      "eventTag": null,
-      "creatorPotential": "one_off",
-      "score": 51,
-      "lane": null,
-      "firstSeenAt": 1788166338588,
-      "lastSeenAt": 1788166338588,
-      "sourceQueries": [
-        "凡人修仙传 配音 翻唱"
-      ],
-      "discoveryModes": [
-        "history"
-      ],
-      "riskFlags": [],
-      "policyReason": "疑似轻度剪辑，需人工确认原创性",
-      "stats": {
-        "play": 15357,
-        "like": 820,
-        "coin": 452,
-        "favorite": 238,
-        "reply": 70,
-        "danmaku": 10
       }
     },
     {
@@ -2992,7 +3032,7 @@
       "url": "http://www.bilibili.com/video/av116958586472140",
       "upId": "12391712",
       "upName": "海外散修韩天尊",
-      "play": 1283,
+      "play": 1288,
       "pubTime": 1784646625000,
       "duration": "0:58",
       "category": "趣味整活",
@@ -3006,7 +3046,7 @@
       "score": 51,
       "lane": null,
       "firstSeenAt": 1784695859320,
-      "lastSeenAt": 1789281845051,
+      "lastSeenAt": 1789311691832,
       "sourceQueries": [
         "凡人修仙传 二创",
         "凡人官方二创大会",
@@ -3020,7 +3060,7 @@
       "riskFlags": [],
       "policyReason": "疑似轻度剪辑，需人工确认原创性",
       "stats": {
-        "play": 1283,
+        "play": 1288,
         "like": 0,
         "coin": 0,
         "favorite": 12,
@@ -3051,7 +3091,7 @@
       "score": 51,
       "lane": null,
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1789281845051,
+      "lastSeenAt": 1789311691832,
       "sourceQueries": [
         "凡人修仙传 鬼畜 整活"
       ],
@@ -3190,47 +3230,6 @@
         "favorite": 228,
         "reply": 0,
         "danmaku": 217
-      }
-    },
-    {
-      "id": "BV1ocs4esEPE",
-      "bvid": "BV1ocs4esEPE",
-      "title": "【凡人修仙传】凡人功法篇之《长春功》：韩立踏入仙途的启蒙功法",
-      "description": "",
-      "cover": "https://i2.hdslb.com/bfs/archive/8323db9f17c7ce3c6e573fe0505bc25c20cf2066.jpg",
-      "url": "http://www.bilibili.com/video/av113033053668765",
-      "upId": "490056685",
-      "upName": "夜半流火",
-      "play": 20785,
-      "pubTime": 1724747695000,
-      "duration": "1:27",
-      "category": "人物志",
-      "confidence": 0.85,
-      "classificationSource": "model",
-      "classificationReason": "围绕凡人修仙传中韩立的启蒙功法《长春功》展开的专题内容",
-      "contentNature": "character_or_lore",
-      "originality": "original",
-      "eventTag": null,
-      "creatorPotential": "observe",
-      "score": 50,
-      "lane": null,
-      "firstSeenAt": 1784526884576,
-      "lastSeenAt": 1787542424325,
-      "sourceQueries": [
-        "凡人修仙传 法宝 功法 人物"
-      ],
-      "discoveryModes": [
-        "history"
-      ],
-      "riskFlags": [],
-      "policyReason": "人物/设定内容不足 3 分钟，需确认不是竖屏剪辑",
-      "stats": {
-        "play": 20785,
-        "like": 0,
-        "coin": 0,
-        "favorite": 68,
-        "reply": 0,
-        "danmaku": 3
       }
     },
     {
@@ -3527,48 +3526,6 @@
       }
     },
     {
-      "id": "BV1x2T463E7t",
-      "bvid": "BV1x2T463E7t",
-      "title": "被好多人说我的声线就是银月本月！凡人修仙传配音",
-      "description": "-",
-      "cover": "https://i1.hdslb.com/bfs/archive/fb605a92841ad8ab715e4ac1582aea71eec35498.jpg",
-      "url": "http://www.bilibili.com/video/av116855775694170",
-      "upId": "1223475900",
-      "upName": "软禾001",
-      "play": 11023,
-      "pubTime": 1783077739000,
-      "duration": "1:20",
-      "category": "音乐配音",
-      "confidence": 0.8,
-      "classificationSource": "model",
-      "classificationReason": "凡人相关的配音内容，属于音乐配音类二次创作",
-      "contentNature": "secondary_creation",
-      "originality": "light_edit",
-      "eventTag": null,
-      "creatorPotential": "one_off",
-      "score": 49,
-      "lane": null,
-      "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1786937357683,
-      "sourceQueries": [
-        "legacy-published",
-        "凡人修仙传 配音 翻唱"
-      ],
-      "discoveryModes": [
-        "history"
-      ],
-      "riskFlags": [],
-      "policyReason": "疑似轻度剪辑，需人工确认原创性",
-      "stats": {
-        "play": 11023,
-        "like": 0,
-        "coin": 0,
-        "favorite": 61,
-        "reply": 0,
-        "danmaku": 11
-      }
-    },
-    {
       "id": "BV1mJ47z2E5B",
       "bvid": "BV1mJ47z2E5B",
       "title": "韩立逆天改命账单：法宝开路，功法封神",
@@ -3591,7 +3548,7 @@
       "score": 49,
       "lane": null,
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1789281845051,
+      "lastSeenAt": 1789311691832,
       "sourceQueries": [
         "凡人修仙传 法宝 功法 人物"
       ],
@@ -3973,7 +3930,7 @@
       "score": 47,
       "lane": null,
       "firstSeenAt": 1785386371582,
-      "lastSeenAt": 1789281845051,
+      "lastSeenAt": 1789311691832,
       "sourceQueries": [
         "凡人修仙传 二创",
         "凡人官方二创大会",
@@ -4033,6 +3990,48 @@
         "favorite": 258,
         "reply": 153,
         "danmaku": 77
+      }
+    },
+    {
+      "id": "BV1kjrpBNEwK",
+      "bvid": "BV1kjrpBNEwK",
+      "title": "凡人八大修炼体系全解析！韩老魔身兼数派，到底算哪一种修士？《凡人修仙传》",
+      "description": "",
+      "cover": "https://i1.hdslb.com/bfs/archive/9af11bce8ca77d0a89721b3be09ae51feba55006.jpg",
+      "url": "http://www.bilibili.com/video/av115892780275613",
+      "upId": "490056685",
+      "upName": "夜半流火",
+      "play": 91991,
+      "pubTime": 1768383743000,
+      "duration": "9:35",
+      "category": "人物志",
+      "confidence": 0.8,
+      "classificationSource": "model",
+      "classificationReason": "围绕凡人修仙传的修炼体系展开专题内容",
+      "contentNature": "character_or_lore",
+      "originality": "light_edit",
+      "eventTag": null,
+      "creatorPotential": "observe",
+      "score": 46,
+      "lane": null,
+      "firstSeenAt": 1784526884576,
+      "lastSeenAt": 1787542424325,
+      "sourceQueries": [
+        "凡人修仙传 法宝 功法 人物",
+        "凡人修仙传 人物志 设定"
+      ],
+      "discoveryModes": [
+        "history"
+      ],
+      "riskFlags": [],
+      "policyReason": "疑似轻度剪辑，需人工确认原创性",
+      "stats": {
+        "play": 91991,
+        "like": 1898,
+        "coin": 108,
+        "favorite": 864,
+        "reply": 349,
+        "danmaku": 203
       }
     },
     {
@@ -4140,7 +4139,7 @@
       "score": 46,
       "lane": null,
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1789281845051,
+      "lastSeenAt": 1789311691832,
       "sourceQueries": [
         "凡人修仙传 法宝 功法 人物"
       ],
@@ -4181,7 +4180,7 @@
       "score": 46,
       "lane": null,
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1789281845051,
+      "lastSeenAt": 1789311691832,
       "sourceQueries": [
         "凡人修仙传 法宝 功法 人物"
       ],
@@ -4195,6 +4194,47 @@
         "like": 0,
         "coin": 0,
         "favorite": 5,
+        "reply": 0,
+        "danmaku": 0
+      }
+    },
+    {
+      "id": "BV1t7ED6BE4S",
+      "bvid": "BV1t7ED6BE4S",
+      "title": "【凡人修仙传人物志慕沛灵】明明只是简单追爱，为何会引来如此多的骂名？慕沛灵想要的，真的只是韩立的心那么简单吗？",
+      "description": "-",
+      "cover": "https://i1.hdslb.com/bfs/archive/80f717a164c65bc4b1c46b8dcaa35bf6ab317383.jpg",
+      "url": "http://www.bilibili.com/video/av116722883363459",
+      "upId": "3546696309017426",
+      "upName": "熊大朋友圈",
+      "play": 738,
+      "pubTime": 1781050028000,
+      "duration": "3:9",
+      "category": "人物志",
+      "confidence": 0.9,
+      "classificationSource": "model",
+      "classificationReason": "围绕凡人修仙传角色慕沛灵的人物志内容",
+      "contentNature": "character_or_lore",
+      "originality": "deep_adaptation",
+      "eventTag": null,
+      "creatorPotential": "recommend",
+      "score": 46,
+      "lane": null,
+      "firstSeenAt": 1784281357983,
+      "lastSeenAt": 1788534303709,
+      "sourceQueries": [
+        "凡人修仙传 人物志 设定"
+      ],
+      "discoveryModes": [
+        "fresh"
+      ],
+      "riskFlags": [],
+      "policyReason": "内容可收录，但需人工复核分类或风险",
+      "stats": {
+        "play": 738,
+        "like": 0,
+        "coin": 0,
+        "favorite": 2,
         "reply": 0,
         "danmaku": 0
       }
@@ -4222,7 +4262,7 @@
       "score": 46,
       "lane": null,
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1789281845051,
+      "lastSeenAt": 1789311691832,
       "sourceQueries": [
         "凡人修仙传 配音 翻唱"
       ],
@@ -4263,7 +4303,7 @@
       "score": 46,
       "lane": null,
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1789281845051,
+      "lastSeenAt": 1789311691832,
       "sourceQueries": [
         "凡人修仙传 人物志 设定"
       ],
@@ -4405,32 +4445,31 @@
       }
     },
     {
-      "id": "BV1kjrpBNEwK",
-      "bvid": "BV1kjrpBNEwK",
-      "title": "凡人八大修炼体系全解析！韩老魔身兼数派，到底算哪一种修士？《凡人修仙传》",
-      "description": "",
-      "cover": "https://i1.hdslb.com/bfs/archive/9af11bce8ca77d0a89721b3be09ae51feba55006.jpg",
-      "url": "http://www.bilibili.com/video/av115892780275613",
-      "upId": "490056685",
-      "upName": "夜半流火",
-      "play": 91991,
-      "pubTime": 1768383743000,
-      "duration": "9:35",
-      "category": "人物志",
-      "confidence": 0.8,
+      "id": "BV1De411C7Zj",
+      "bvid": "BV1De411C7Zj",
+      "title": "【凡人修仙传】我⚡️辈⚡️修 ⚡️士⚡️不⚡️蹦⚡️凡⚡️迪！《自由自在》凤凰传奇",
+      "description": "剪辑素材来源：【《凡人修仙传》 第1话 凡人风起天南1重制版-哔哩哔哩国创】https://b23.tv/ep733316\n\n跳舞部分素材来源：【《凡人修仙传》 花絮17 修行人士放飞自我-哔哩哔哩国创】https://b23.tv/ep469750\n\n所用bgm：《自由自在》凤凰传奇\n\n如果对视频还算喜欢的话求各位点个关注支持啦～\n只要条件还能允许，我会继续努力更新的！",
+      "cover": "https://i1.hdslb.com/bfs/archive/52d34255694b6cb2b5e5bf2373f169e74ff48c8f.jpg",
+      "url": "http://www.bilibili.com/video/av237064095",
+      "upId": "299053993",
+      "upName": "凌霄云雨的奇妙剪辑",
+      "play": 113003,
+      "pubTime": 1702117557000,
+      "duration": "2:41",
+      "category": "混剪手书",
+      "confidence": 0.7,
       "classificationSource": "model",
-      "classificationReason": "围绕凡人修仙传的修炼体系展开专题内容",
-      "contentNature": "character_or_lore",
+      "classificationReason": "使用凡人修仙传正片素材搭配凤凰传奇BGM进行二次创作",
+      "contentNature": "secondary_creation",
       "originality": "light_edit",
       "eventTag": null,
-      "creatorPotential": "observe",
+      "creatorPotential": "one_off",
       "score": 45,
       "lane": null,
       "firstSeenAt": 1784526884576,
-      "lastSeenAt": 1787542424325,
+      "lastSeenAt": 1788766264547,
       "sourceQueries": [
-        "凡人修仙传 法宝 功法 人物",
-        "凡人修仙传 人物志 设定"
+        "凡人修仙传 鬼畜 整活"
       ],
       "discoveryModes": [
         "history"
@@ -4438,12 +4477,12 @@
       "riskFlags": [],
       "policyReason": "疑似轻度剪辑，需人工确认原创性",
       "stats": {
-        "play": 91991,
-        "like": 1898,
-        "coin": 108,
-        "favorite": 864,
-        "reply": 349,
-        "danmaku": 203
+        "play": 113003,
+        "like": 8710,
+        "coin": 1512,
+        "favorite": 1429,
+        "reply": 189,
+        "danmaku": 184
       }
     },
     {
@@ -4539,7 +4578,7 @@
       "url": "http://www.bilibili.com/video/av116283370640478",
       "upId": "1624719374",
       "upName": "青梅说剧o",
-      "play": 888,
+      "play": 890,
       "pubTime": 1774344372000,
       "duration": "4:37",
       "category": "人物志",
@@ -4553,7 +4592,7 @@
       "score": 45,
       "lane": null,
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1789281845051,
+      "lastSeenAt": 1789311691832,
       "sourceQueries": [
         "凡人修仙传 混剪 手书"
       ],
@@ -4563,7 +4602,7 @@
       "riskFlags": [],
       "policyReason": "内容可收录，但需人工复核分类或风险",
       "stats": {
-        "play": 888,
+        "play": 890,
         "like": 0,
         "coin": 0,
         "favorite": 3,
@@ -4572,42 +4611,43 @@
       }
     },
     {
-      "id": "BV1t7ED6BE4S",
-      "bvid": "BV1t7ED6BE4S",
-      "title": "【凡人修仙传人物志慕沛灵】明明只是简单追爱，为何会引来如此多的骂名？慕沛灵想要的，真的只是韩立的心那么简单吗？",
-      "description": "-",
-      "cover": "https://i1.hdslb.com/bfs/archive/80f717a164c65bc4b1c46b8dcaa35bf6ab317383.jpg",
-      "url": "http://www.bilibili.com/video/av116722883363459",
-      "upId": "3546696309017426",
-      "upName": "熊大朋友圈",
-      "play": 738,
-      "pubTime": 1781050028000,
-      "duration": "3:9",
-      "category": "人物志",
+      "id": "BV1mLQDYxECq",
+      "bvid": "BV1mLQDYxECq",
+      "title": "《凡人修仙传》最感人的文戏——自制韩立英语配音",
+      "description": "The most touching scene of &quot;A Cultivation Journey: From Mortal to Immortal&quot;——self-made Englisch Dubbing of Han Li&#x27;s line",
+      "cover": "https://i2.hdslb.com/bfs/archive/879e8ac6a0690fce71c4fc015da535ad4c0f0d59.jpg",
+      "url": "http://www.bilibili.com/video/av114166941620931",
+      "upId": "481357056",
+      "upName": "右耳登阶",
+      "play": 179,
+      "pubTime": 1742049649000,
+      "duration": "2:7",
+      "category": "音乐配音",
       "confidence": 0.9,
       "classificationSource": "model",
-      "classificationReason": "围绕凡人修仙传角色慕沛灵的人物志内容",
-      "contentNature": "character_or_lore",
+      "classificationReason": "自制凡人修仙传韩立英语配音的二次创作内容",
+      "contentNature": "secondary_creation",
       "originality": "deep_adaptation",
       "eventTag": null,
-      "creatorPotential": "recommend",
+      "creatorPotential": "one_off",
       "score": 45,
       "lane": null,
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1788534303709,
+      "lastSeenAt": 1788766264547,
       "sourceQueries": [
-        "凡人修仙传 人物志 设定"
+        "legacy-published",
+        "凡人修仙传 配音 翻唱"
       ],
       "discoveryModes": [
-        "fresh"
+        "history"
       ],
       "riskFlags": [],
       "policyReason": "内容可收录，但需人工复核分类或风险",
       "stats": {
-        "play": 738,
+        "play": 179,
         "like": 0,
         "coin": 0,
-        "favorite": 2,
+        "favorite": 1,
         "reply": 0,
         "danmaku": 0
       }
@@ -4635,7 +4675,7 @@
       "score": 45,
       "lane": null,
       "firstSeenAt": 1784782626743,
-      "lastSeenAt": 1789281845051,
+      "lastSeenAt": 1789311691832,
       "sourceQueries": [
         "凡人修仙传 人物志 设定"
       ],
