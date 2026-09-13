@@ -1,5 +1,5 @@
 {
-  "generatedAt": 1789223138253,
+  "generatedAt": 1789281845051,
   "mode": "fresh",
   "taxonomyVersion": 2,
   "policyVersion": 1,
@@ -57,10 +57,10 @@
       "BV19b7p6YESX",
       "BV1BcGV6AEaJ",
       "BV1fCMe6JEsx",
+      "BV1YTTG6rEcM",
       "BV1ksGu6cEdY",
       "BV13SK46jE3f",
       "BV1Ar786BEHW",
-      "BV1YTTG6rEcM",
       "BV1Bz7g6ME33",
       "BV16gTp6JEMj",
       "BV1mA376WEFC",
@@ -82,15 +82,15 @@
       "BV1Mwge6KEze",
       "BV1rMWDzpEz5",
       "BV1fJr3BYExB",
-      "BV16nABzPEmQ",
       "BV17zNszhEQ3",
       "BV1G2CrBLEo9",
       "BV1DEoaBUEBf",
+      "BV16nABzPEmQ",
       "BV1QpE16fEAp",
       "BV1s2Ts6YEdR",
       "BV1ym4y1F7ai",
-      "BV1FaV46VEWD",
       "BV1bgVS6dEMQ",
+      "BV1FaV46VEWD",
       "BV1Brx3z5EY8",
       "BV1EdcJz6EPN",
       "BV1RusDz1EwM",
@@ -298,7 +298,7 @@
       "score": 84,
       "lane": "event_spotlight",
       "firstSeenAt": 1785560340526,
-      "lastSeenAt": 1789223138253,
+      "lastSeenAt": 1789281845051,
       "sourceQueries": [
         "凡人修仙传 二创",
         "凡人官方二创大会",
@@ -332,7 +332,7 @@
       "score": 83,
       "lane": "new_creator_watch",
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1789223138253,
+      "lastSeenAt": 1789281845051,
       "sourceQueries": [
         "legacy-published",
         "凡人修仙传 鬼畜 整活",
@@ -633,7 +633,7 @@
       "score": 79,
       "lane": "hidden_gem",
       "firstSeenAt": 1785244584356,
-      "lastSeenAt": 1789223138253,
+      "lastSeenAt": 1789281845051,
       "sourceQueries": [
         "凡人官方二创大会",
         "凡人修仙传 人物志 设定"
@@ -700,7 +700,7 @@
       "score": 78,
       "lane": "hidden_gem",
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1789223138253,
+      "lastSeenAt": 1789281845051,
       "sourceQueries": [
         "legacy-published",
         "凡人修仙传 鬼畜 整活",
@@ -777,39 +777,6 @@
       ]
     },
     {
-      "id": "BV1RoM46tEQ8",
-      "bvid": "BV1RoM46tEQ8",
-      "title": "⚡师 姐 摇 一 摇⚡【凡人官方二创大会】",
-      "description": "摇一摇~ 摇一摇~",
-      "cover": "https://i1.hdslb.com/bfs/archive/2877c277ec1602d1dc698cbce43982f766ca04d2.jpg",
-      "url": "http://www.bilibili.com/video/av116877451987094",
-      "upId": "327838817",
-      "upName": "明灯-专注脑洞一百年",
-      "play": 29957,
-      "pubTime": 1783408640000,
-      "duration": "1:3",
-      "category": "趣味整活",
-      "confidence": 0.95,
-      "classificationSource": "model",
-      "classificationReason": "参与凡人官方二创大会的趣味整活类二次创作内容",
-      "contentNature": "secondary_creation",
-      "originality": "deep_adaptation",
-      "eventTag": "凡人官方二创大会",
-      "creatorPotential": "recommend",
-      "score": 77,
-      "lane": "hidden_gem",
-      "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1789223138253,
-      "sourceQueries": [
-        "legacy-published",
-        "凡人修仙传 鬼畜 整活"
-      ],
-      "discoveryModes": [
-        "history",
-        "fresh"
-      ]
-    },
-    {
       "id": "BV1M2Ey6sEPo",
       "bvid": "BV1M2Ey6sEPo",
       "title": "《智取南宫婉》天尊下乡传统戏曲片段【凡人官方二创大会】",
@@ -832,7 +799,7 @@
       "score": 76,
       "lane": "archive",
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1789223138253,
+      "lastSeenAt": 1789281845051,
       "sourceQueries": [
         "凡人修仙传 鬼畜 整活",
         "凡人修仙传 二创",
@@ -882,6 +849,39 @@
       ]
     },
     {
+      "id": "BV1YTTG6rEcM",
+      "bvid": "BV1YTTG6rEcM",
+      "title": "南宫婉再遇韩立【凡人官方二创大会】",
+      "description": "-",
+      "cover": "https://i2.hdslb.com/bfs/archive/db11ee4955c9997e6715d38e5d44870ae1beb0cf.jpg",
+      "url": "http://www.bilibili.com/video/av116828546276841",
+      "upId": "477670053",
+      "upName": "晓晓出海",
+      "play": 41389,
+      "pubTime": 1782691200000,
+      "duration": "2:13",
+      "category": "剧情二创",
+      "confidence": 0.9,
+      "classificationSource": "model",
+      "classificationReason": "参与凡人官方二创大会的剧情类二次创作",
+      "contentNature": "secondary_creation",
+      "originality": "deep_adaptation",
+      "eventTag": "凡人官方二创大会",
+      "creatorPotential": "one_off",
+      "score": 76,
+      "lane": "new_creator_watch",
+      "firstSeenAt": 1784281357983,
+      "lastSeenAt": 1787542424325,
+      "sourceQueries": [
+        "legacy-published",
+        "凡人官方二创大会",
+        "韩立 二创"
+      ],
+      "discoveryModes": [
+        "history"
+      ]
+    },
+    {
       "id": "BV1ksGu6cEdY",
       "bvid": "BV1ksGu6cEdY",
       "title": "尤道友-最菜最装的元婴修士！凡人修仙传人物志·5",
@@ -904,11 +904,44 @@
       "score": 76,
       "lane": "new_creator_watch",
       "firstSeenAt": 1785560340526,
-      "lastSeenAt": 1789223138253,
+      "lastSeenAt": 1789281845051,
       "sourceQueries": [
         "凡人修仙传 人物志 设定"
       ],
       "discoveryModes": [
+        "fresh"
+      ]
+    },
+    {
+      "id": "BV1RoM46tEQ8",
+      "bvid": "BV1RoM46tEQ8",
+      "title": "⚡师 姐 摇 一 摇⚡【凡人官方二创大会】",
+      "description": "摇一摇~ 摇一摇~",
+      "cover": "https://i1.hdslb.com/bfs/archive/2877c277ec1602d1dc698cbce43982f766ca04d2.jpg",
+      "url": "http://www.bilibili.com/video/av116877451987094",
+      "upId": "327838817",
+      "upName": "明灯-专注脑洞一百年",
+      "play": 29957,
+      "pubTime": 1783408640000,
+      "duration": "1:3",
+      "category": "趣味整活",
+      "confidence": 0.95,
+      "classificationSource": "model",
+      "classificationReason": "参与凡人官方二创大会的趣味整活类二次创作内容",
+      "contentNature": "secondary_creation",
+      "originality": "deep_adaptation",
+      "eventTag": "凡人官方二创大会",
+      "creatorPotential": "recommend",
+      "score": 76,
+      "lane": "hidden_gem",
+      "firstSeenAt": 1784281357983,
+      "lastSeenAt": 1789281845051,
+      "sourceQueries": [
+        "legacy-published",
+        "凡人修仙传 鬼畜 整活"
+      ],
+      "discoveryModes": [
+        "history",
         "fresh"
       ]
     },
@@ -1062,45 +1095,12 @@
       "score": 75,
       "lane": "new_creator_watch",
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1789223138253,
+      "lastSeenAt": 1789281845051,
       "sourceQueries": [
         "凡人修仙传 鬼畜 整活"
       ],
       "discoveryModes": [
         "fresh"
-      ]
-    },
-    {
-      "id": "BV1YTTG6rEcM",
-      "bvid": "BV1YTTG6rEcM",
-      "title": "南宫婉再遇韩立【凡人官方二创大会】",
-      "description": "-",
-      "cover": "https://i2.hdslb.com/bfs/archive/db11ee4955c9997e6715d38e5d44870ae1beb0cf.jpg",
-      "url": "http://www.bilibili.com/video/av116828546276841",
-      "upId": "477670053",
-      "upName": "晓晓出海",
-      "play": 41389,
-      "pubTime": 1782691200000,
-      "duration": "2:13",
-      "category": "剧情二创",
-      "confidence": 0.9,
-      "classificationSource": "model",
-      "classificationReason": "参与凡人官方二创大会的剧情类二次创作",
-      "contentNature": "secondary_creation",
-      "originality": "deep_adaptation",
-      "eventTag": "凡人官方二创大会",
-      "creatorPotential": "one_off",
-      "score": 75,
-      "lane": "new_creator_watch",
-      "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1787542424325,
-      "sourceQueries": [
-        "legacy-published",
-        "凡人官方二创大会",
-        "韩立 二创"
-      ],
-      "discoveryModes": [
-        "history"
       ]
     },
     {
@@ -1492,7 +1492,7 @@
       "score": 70,
       "lane": "hidden_gem",
       "firstSeenAt": 1784868982615,
-      "lastSeenAt": 1789223138253,
+      "lastSeenAt": 1789281845051,
       "sourceQueries": [
         "凡人修仙传 二创",
         "凡人官方二创大会",
@@ -1558,7 +1558,7 @@
       "score": 68,
       "lane": "archive",
       "firstSeenAt": 1784898301768,
-      "lastSeenAt": 1789223138253,
+      "lastSeenAt": 1789281845051,
       "sourceQueries": [
         "凡人修仙传 二创",
         "凡人官方二创大会",
@@ -1626,39 +1626,6 @@
       "sourceQueries": [
         "legacy-published",
         "凡人修仙传 混剪 手书"
-      ],
-      "discoveryModes": [
-        "history"
-      ]
-    },
-    {
-      "id": "BV16nABzPEmQ",
-      "bvid": "BV16nABzPEmQ",
-      "title": "韩立和紫灵的凡人生活",
-      "description": "emmmm，即梦服务器还是卡，青竹小轩还得断更一天",
-      "cover": "https://i1.hdslb.com/bfs/archive/a0ad413481d355fbc4f547ff96db354b54115cd2.jpg",
-      "url": "http://www.bilibili.com/video/av116152894291969",
-      "upId": "4078757",
-      "upName": "ayanarei",
-      "play": 26422,
-      "pubTime": 1772352556000,
-      "duration": "1:0",
-      "category": "剧情二创",
-      "confidence": 0.85,
-      "classificationSource": "model",
-      "classificationReason": "创作《凡人修仙传》韩立与紫灵的同人日常剧情内容",
-      "contentNature": "secondary_creation",
-      "originality": "deep_adaptation",
-      "eventTag": null,
-      "creatorPotential": "one_off",
-      "score": 68,
-      "lane": "archive",
-      "firstSeenAt": 1785132335284,
-      "lastSeenAt": 1788766264547,
-      "sourceQueries": [
-        "韩立 二创",
-        "凡人修仙传 小剧场",
-        "凡人修仙传 二创"
       ],
       "discoveryModes": [
         "history"
@@ -1790,6 +1757,39 @@
       ]
     },
     {
+      "id": "BV16nABzPEmQ",
+      "bvid": "BV16nABzPEmQ",
+      "title": "韩立和紫灵的凡人生活",
+      "description": "emmmm，即梦服务器还是卡，青竹小轩还得断更一天",
+      "cover": "https://i1.hdslb.com/bfs/archive/a0ad413481d355fbc4f547ff96db354b54115cd2.jpg",
+      "url": "http://www.bilibili.com/video/av116152894291969",
+      "upId": "4078757",
+      "upName": "ayanarei",
+      "play": 26422,
+      "pubTime": 1772352556000,
+      "duration": "1:0",
+      "category": "剧情二创",
+      "confidence": 0.85,
+      "classificationSource": "model",
+      "classificationReason": "创作《凡人修仙传》韩立与紫灵的同人日常剧情内容",
+      "contentNature": "secondary_creation",
+      "originality": "deep_adaptation",
+      "eventTag": null,
+      "creatorPotential": "one_off",
+      "score": 67,
+      "lane": "archive",
+      "firstSeenAt": 1785132335284,
+      "lastSeenAt": 1788766264547,
+      "sourceQueries": [
+        "韩立 二创",
+        "凡人修仙传 小剧场",
+        "凡人修仙传 二创"
+      ],
+      "discoveryModes": [
+        "history"
+      ]
+    },
+    {
       "id": "BV1QpE16fEAp",
       "bvid": "BV1QpE16fEAp",
       "title": "【宋玉与卫师兄的秘辛】——凡人修仙传人物志之宋玉篇",
@@ -1874,7 +1874,7 @@
       "score": 67,
       "lane": "hidden_gem",
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1789223138253,
+      "lastSeenAt": 1789281845051,
       "sourceQueries": [
         "凡人修仙传 鬼畜 整活"
       ],
@@ -1905,7 +1905,7 @@
       "score": 65,
       "lane": "archive",
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1789223138253,
+      "lastSeenAt": 1789281845051,
       "sourceQueries": [
         "legacy-published",
         "凡人修仙传 人物志 设定"
@@ -1966,14 +1966,48 @@
       "originality": "deep_adaptation",
       "eventTag": null,
       "creatorPotential": "recommend",
-      "score": 64,
+      "score": 65,
       "lane": "hidden_gem",
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1789223138253,
+      "lastSeenAt": 1789281845051,
       "sourceQueries": [
         "凡人修仙传 人物志 设定"
       ],
       "discoveryModes": [
+        "fresh"
+      ]
+    },
+    {
+      "id": "BV1bgVS6dEMQ",
+      "bvid": "BV1bgVS6dEMQ",
+      "title": "【手书/韩立】不凡",
+      "description": "第一次做手书  太废人了 ……",
+      "cover": "https://i0.hdslb.com/bfs/archive/5be1a749fa8d678229d50d13a481008131563ca9.jpg",
+      "url": "http://www.bilibili.com/video/av116668877508377",
+      "upId": "2009612470",
+      "upName": "奔跑的巧克力麻薯",
+      "play": 4129,
+      "pubTime": 1780225863000,
+      "duration": "1:57",
+      "category": "混剪手书",
+      "confidence": 0.9,
+      "classificationSource": "model",
+      "classificationReason": "凡人修仙传韩立相关的自制手书，属于混剪手书类二次创作",
+      "contentNature": "secondary_creation",
+      "originality": "deep_adaptation",
+      "eventTag": null,
+      "creatorPotential": "observe",
+      "score": 65,
+      "lane": "archive",
+      "firstSeenAt": 1784281357983,
+      "lastSeenAt": 1787542424325,
+      "sourceQueries": [
+        "legacy-published",
+        "凡人修仙传 混剪 手书",
+        "凡人修仙传 MMD 同人动画"
+      ],
+      "discoveryModes": [
+        "history",
         "fresh"
       ]
     },
@@ -2007,40 +2041,6 @@
       "discoveryModes": [
         "fresh",
         "history"
-      ]
-    },
-    {
-      "id": "BV1bgVS6dEMQ",
-      "bvid": "BV1bgVS6dEMQ",
-      "title": "【手书/韩立】不凡",
-      "description": "第一次做手书  太废人了 ……",
-      "cover": "https://i0.hdslb.com/bfs/archive/5be1a749fa8d678229d50d13a481008131563ca9.jpg",
-      "url": "http://www.bilibili.com/video/av116668877508377",
-      "upId": "2009612470",
-      "upName": "奔跑的巧克力麻薯",
-      "play": 4129,
-      "pubTime": 1780225863000,
-      "duration": "1:57",
-      "category": "混剪手书",
-      "confidence": 0.9,
-      "classificationSource": "model",
-      "classificationReason": "凡人修仙传韩立相关的自制手书，属于混剪手书类二次创作",
-      "contentNature": "secondary_creation",
-      "originality": "deep_adaptation",
-      "eventTag": null,
-      "creatorPotential": "observe",
-      "score": 64,
-      "lane": "archive",
-      "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1787542424325,
-      "sourceQueries": [
-        "legacy-published",
-        "凡人修仙传 混剪 手书",
-        "凡人修仙传 MMD 同人动画"
-      ],
-      "discoveryModes": [
-        "history",
-        "fresh"
       ]
     },
     {
@@ -2416,7 +2416,7 @@
       "score": 61,
       "lane": "new_creator_watch",
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1789223138253,
+      "lastSeenAt": 1789281845051,
       "sourceQueries": [
         "legacy-published",
         "凡人修仙传 人物志 设定"
@@ -2449,7 +2449,7 @@
       "score": 61,
       "lane": "hidden_gem",
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1789223138253,
+      "lastSeenAt": 1789281845051,
       "sourceQueries": [
         "凡人修仙传 鬼畜 整活"
       ],
@@ -2480,7 +2480,7 @@
       "score": 61,
       "lane": "hidden_gem",
       "firstSeenAt": 1784868982615,
-      "lastSeenAt": 1789223138253,
+      "lastSeenAt": 1789281845051,
       "sourceQueries": [
         "凡人修仙传 人物志 设定"
       ],
