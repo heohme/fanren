@@ -1,6 +1,6 @@
 {
-  "generatedAt": 1789373108084,
-  "mode": "history",
+  "generatedAt": 1789405317289,
+  "mode": "fresh",
   "taxonomyVersion": 2,
   "policyVersion": 1,
   "model": "doubao-seed-2-0-mini-260428",
@@ -22,12 +22,10 @@
   },
   "lanes": {
     "event_spotlight": [
-      "BV12tGP6XEjz",
       "BV1HFGK6DEqq",
       "BV1XMG36SEqX",
       "BV1aPGu6yENw",
-      "BV1TzGG6EEkb",
-      "BV1eXGP6iEP5"
+      "BV1TzGG6EEkb"
     ],
     "weekly_hot": [],
     "hidden_gem": [
@@ -41,14 +39,15 @@
       "BV176Tx64EXK",
       "BV1WMGA6mEmz",
       "BV1o77n6AE2T",
-      "BV1L8TK6aEcQ",
       "BV13yg46WE51",
+      "BV1L8TK6aEcQ",
       "BV1dbNq61Ewp",
       "BV1reTq6FEbD",
       "BV1c3ga6HEFR"
     ],
     "new_creator_watch": [
       "BV1mJME6DEKn",
+      "BV12tGP6XEjz",
       "BV1UfTx6VEfb",
       "BV19b7p6YESX",
       "BV1fCMe6JEsx",
@@ -60,6 +59,7 @@
       "BV1Bz7g6ME33",
       "BV16gTp6JEMj",
       "BV1mA376WEFC",
+      "BV1eXGP6iEP5",
       "BV1wq3r6JEx2",
       "BV1GrMx6SEsr",
       "BV1jAM86AEVP",
@@ -158,7 +158,7 @@
       "eventTag": "凡人官方二创大会",
       "creatorPotential": "observe",
       "score": 86,
-      "lane": "event_spotlight",
+      "lane": "new_creator_watch",
       "firstSeenAt": 1785560340526,
       "lastSeenAt": 1788676101546,
       "sourceQueries": [
@@ -260,7 +260,7 @@
       "score": 84,
       "lane": "event_spotlight",
       "firstSeenAt": 1785560340526,
-      "lastSeenAt": 1789369290665,
+      "lastSeenAt": 1789405317289,
       "sourceQueries": [
         "凡人修仙传 二创",
         "凡人官方二创大会",
@@ -294,7 +294,7 @@
       "score": 83,
       "lane": "new_creator_watch",
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1789373108084,
+      "lastSeenAt": 1789405317289,
       "sourceQueries": [
         "legacy-published",
         "凡人修仙传 鬼畜 整活",
@@ -564,7 +564,7 @@
       "score": 79,
       "lane": "hidden_gem",
       "firstSeenAt": 1785244584356,
-      "lastSeenAt": 1789369290665,
+      "lastSeenAt": 1789405317289,
       "sourceQueries": [
         "凡人官方二创大会",
         "凡人修仙传 人物志 设定"
@@ -631,7 +631,7 @@
       "score": 78,
       "lane": "hidden_gem",
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1789369290665,
+      "lastSeenAt": 1789405317289,
       "sourceQueries": [
         "legacy-published",
         "凡人修仙传 鬼畜 整活",
@@ -730,7 +730,7 @@
       "score": 77,
       "lane": "new_creator_watch",
       "firstSeenAt": 1785560340526,
-      "lastSeenAt": 1789369290665,
+      "lastSeenAt": 1789405317289,
       "sourceQueries": [
         "凡人修仙传 人物志 设定"
       ],
@@ -761,7 +761,7 @@
       "score": 77,
       "lane": "hidden_gem",
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1789369290665,
+      "lastSeenAt": 1789405317289,
       "sourceQueries": [
         "legacy-published",
         "凡人修仙传 鬼畜 整活"
@@ -993,7 +993,7 @@
       "score": 75,
       "lane": "new_creator_watch",
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1789369290665,
+      "lastSeenAt": 1789405317289,
       "sourceQueries": [
         "凡人修仙传 鬼畜 整活"
       ],
@@ -1219,7 +1219,7 @@
       "eventTag": "凡人官方二创大会",
       "creatorPotential": "one_off",
       "score": 72,
-      "lane": "event_spotlight",
+      "lane": "new_creator_watch",
       "firstSeenAt": 1785503818280,
       "lastSeenAt": 1787542424325,
       "sourceQueries": [
@@ -1354,7 +1354,7 @@
       "score": 71,
       "lane": "hidden_gem",
       "firstSeenAt": 1784868982615,
-      "lastSeenAt": 1789373108084,
+      "lastSeenAt": 1789405317289,
       "sourceQueries": [
         "凡人修仙传 二创",
         "凡人官方二创大会",
@@ -1451,7 +1451,7 @@
       "score": 68,
       "lane": "archive",
       "firstSeenAt": 1784898301768,
-      "lastSeenAt": 1789369290665,
+      "lastSeenAt": 1789405317289,
       "sourceQueries": [
         "凡人修仙传 二创",
         "凡人官方二创大会",
@@ -1769,7 +1769,7 @@
       "score": 67,
       "lane": "hidden_gem",
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1789369290665,
+      "lastSeenAt": 1789405317289,
       "sourceQueries": [
         "凡人修仙传 鬼畜 整活"
       ],
@@ -1800,44 +1800,13 @@
       "score": 65,
       "lane": "archive",
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1789369290665,
+      "lastSeenAt": 1789405317289,
       "sourceQueries": [
         "legacy-published",
         "凡人修仙传 人物志 设定"
       ],
       "discoveryModes": [
         "history",
-        "fresh"
-      ]
-    },
-    {
-      "id": "BV1L8TK6aEcQ",
-      "bvid": "BV1L8TK6aEcQ",
-      "title": "凡人修仙传人物志！掩月宗南宫阙的一生！本可借势韩立南宫婉！但却弄巧成拙终作茧！",
-      "description": "凡人修仙传人物志！\n掩月宗南宫阙的一生！\n本可借势韩立南宫婉！\n但却弄巧成拙终作茧！",
-      "cover": "https://i0.hdslb.com/bfs/archive/174f5ecc2fb4ad857367b2d69581ce426d947c68.jpg",
-      "url": "http://www.bilibili.com/video/av116825794808043",
-      "upId": "493383447",
-      "upName": "常在湖边走",
-      "play": 40925,
-      "pubTime": 1782620411000,
-      "duration": "7:21",
-      "category": "人物志",
-      "confidence": 0.9,
-      "classificationSource": "model",
-      "classificationReason": "围绕掩月宗南宫阙的生平展开的人物志专题内容",
-      "contentNature": "character_or_lore",
-      "originality": "deep_adaptation",
-      "eventTag": null,
-      "creatorPotential": "recommend",
-      "score": 65,
-      "lane": "hidden_gem",
-      "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1789369290665,
-      "sourceQueries": [
-        "凡人修仙传 人物志 设定"
-      ],
-      "discoveryModes": [
         "fresh"
       ]
     },
@@ -1936,6 +1905,37 @@
       ],
       "discoveryModes": [
         "history"
+      ]
+    },
+    {
+      "id": "BV1L8TK6aEcQ",
+      "bvid": "BV1L8TK6aEcQ",
+      "title": "凡人修仙传人物志！掩月宗南宫阙的一生！本可借势韩立南宫婉！但却弄巧成拙终作茧！",
+      "description": "凡人修仙传人物志！\n掩月宗南宫阙的一生！\n本可借势韩立南宫婉！\n但却弄巧成拙终作茧！",
+      "cover": "https://i0.hdslb.com/bfs/archive/174f5ecc2fb4ad857367b2d69581ce426d947c68.jpg",
+      "url": "http://www.bilibili.com/video/av116825794808043",
+      "upId": "493383447",
+      "upName": "常在湖边走",
+      "play": 41084,
+      "pubTime": 1782620411000,
+      "duration": "7:21",
+      "category": "人物志",
+      "confidence": 0.9,
+      "classificationSource": "model",
+      "classificationReason": "围绕掩月宗南宫阙的生平展开的人物志专题内容",
+      "contentNature": "character_or_lore",
+      "originality": "deep_adaptation",
+      "eventTag": null,
+      "creatorPotential": "recommend",
+      "score": 64,
+      "lane": "hidden_gem",
+      "firstSeenAt": 1784281357983,
+      "lastSeenAt": 1789405317289,
+      "sourceQueries": [
+        "凡人修仙传 人物志 设定"
+      ],
+      "discoveryModes": [
+        "fresh"
       ]
     },
     {
@@ -2310,7 +2310,7 @@
       "score": 61,
       "lane": "new_creator_watch",
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1789373108084,
+      "lastSeenAt": 1789405317289,
       "sourceQueries": [
         "legacy-published",
         "凡人修仙传 人物志 设定"
@@ -2343,7 +2343,7 @@
       "score": 61,
       "lane": "hidden_gem",
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1789369290665,
+      "lastSeenAt": 1789405317289,
       "sourceQueries": [
         "凡人修仙传 鬼畜 整活"
       ],
@@ -2374,7 +2374,7 @@
       "score": 61,
       "lane": "hidden_gem",
       "firstSeenAt": 1784868982615,
-      "lastSeenAt": 1789369290665,
+      "lastSeenAt": 1789405317289,
       "sourceQueries": [
         "凡人修仙传 人物志 设定"
       ],
