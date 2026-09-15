@@ -1,24 +1,24 @@
 {
-  "generatedAt": 1789405317289,
+  "generatedAt": 1789454326265,
   "mode": "fresh",
   "taxonomyVersion": 2,
   "policyVersion": 1,
   "summary": {
     "total": 2000,
-    "approved": 74,
-    "review": 103,
-    "rejected": 1823
+    "approved": 76,
+    "review": 102,
+    "rejected": 1822
   },
   "lanes": {
     "event_spotlight": [
-      "BV1HFGK6DEqq",
       "BV1XMG36SEqX",
-      "BV1aPGu6yENw",
       "BV1TzGG6EEkb"
     ],
     "weekly_hot": [],
     "hidden_gem": [
+      "BV1HFGK6DEqq",
       "BV1ffMM6VEb2",
+      "BV1aPGu6yENw",
       "BV11F3i6uE14",
       "BV1uqMg6TERj",
       "BV1RoM46tEQ8",
@@ -37,6 +37,8 @@
     "new_creator_watch": [
       "BV1mJME6DEKn",
       "BV12tGP6XEjz",
+      "BV1jzKP69EMD",
+      "BV1f1Kd66EQE",
       "BV1UfTx6VEfb",
       "BV19b7p6YESX",
       "BV1fCMe6JEsx",
@@ -56,7 +58,6 @@
     ],
     "archive": [
       "BV1LcKS67Efe",
-      "BV1f1Kd66EQE",
       "BV1M3TM6WEP6",
       "BV1fyjH6zEdR",
       "BV1M2Ey6sEPo",
@@ -74,6 +75,7 @@
       "BV17zNszhEQ3",
       "BV1G2CrBLEo9",
       "BV1DEoaBUEBf",
+      "BV1TkJ56zEQj",
       "BV1QpE16fEAp",
       "BV1s2Ts6YEdR",
       "BV1FaV46VEWD",
@@ -118,7 +120,7 @@
       "score": 85,
       "lane": null,
       "firstSeenAt": 1788676101546,
-      "lastSeenAt": 1788676101546,
+      "lastSeenAt": 1789454326265,
       "sourceQueries": [
         "凡人官方二创大会"
       ],
@@ -920,6 +922,48 @@
       }
     },
     {
+      "id": "BV1pVKa6LErS",
+      "bvid": "BV1pVKa6LErS",
+      "title": "配音演员李诗萌—南宫婉，有没有发现一个问题，凡人的配音演员跟角色很像诶。",
+      "description": "-",
+      "cover": "https://i2.hdslb.com/bfs/archive/68ab26f71234d9f82c27dc35e201b8d2df75ef37.jpg",
+      "url": "http://www.bilibili.com/video/av116957495953211",
+      "upId": "1393255722",
+      "upName": "兜兜不打z豆豆",
+      "play": 15760,
+      "pubTime": 1784629851000,
+      "duration": "0:39",
+      "category": "音乐配音",
+      "confidence": 0.85,
+      "classificationSource": "model",
+      "classificationReason": "围绕凡人修仙传南宫婉的配音演员展开讨论，属于配音相关二次创作",
+      "contentNature": "secondary_creation",
+      "originality": "light_edit",
+      "eventTag": null,
+      "creatorPotential": "observe",
+      "score": 59,
+      "lane": null,
+      "firstSeenAt": 1784695859320,
+      "lastSeenAt": 1788766264547,
+      "sourceQueries": [
+        "凡人修仙传 配音 翻唱"
+      ],
+      "discoveryModes": [
+        "fresh",
+        "history"
+      ],
+      "riskFlags": [],
+      "policyReason": "疑似轻度剪辑，需人工确认原创性",
+      "stats": {
+        "play": 15760,
+        "like": 212,
+        "coin": 0,
+        "favorite": 15,
+        "reply": 43,
+        "danmaku": 1
+      }
+    },
+    {
       "id": "BV1MVyPBKEuC",
       "bvid": "BV1MVyPBKEuC",
       "title": "“炖煮红尘～”高燃翻唱凡人修仙传《凡人》。",
@@ -1043,48 +1087,6 @@
         "favorite": 351,
         "reply": 81,
         "danmaku": 79
-      }
-    },
-    {
-      "id": "BV1pVKa6LErS",
-      "bvid": "BV1pVKa6LErS",
-      "title": "配音演员李诗萌—南宫婉，有没有发现一个问题，凡人的配音演员跟角色很像诶。",
-      "description": "-",
-      "cover": "https://i2.hdslb.com/bfs/archive/68ab26f71234d9f82c27dc35e201b8d2df75ef37.jpg",
-      "url": "http://www.bilibili.com/video/av116957495953211",
-      "upId": "1393255722",
-      "upName": "兜兜不打z豆豆",
-      "play": 15760,
-      "pubTime": 1784629851000,
-      "duration": "0:39",
-      "category": "音乐配音",
-      "confidence": 0.85,
-      "classificationSource": "model",
-      "classificationReason": "围绕凡人修仙传南宫婉的配音演员展开讨论，属于配音相关二次创作",
-      "contentNature": "secondary_creation",
-      "originality": "light_edit",
-      "eventTag": null,
-      "creatorPotential": "observe",
-      "score": 58,
-      "lane": null,
-      "firstSeenAt": 1784695859320,
-      "lastSeenAt": 1788766264547,
-      "sourceQueries": [
-        "凡人修仙传 配音 翻唱"
-      ],
-      "discoveryModes": [
-        "fresh",
-        "history"
-      ],
-      "riskFlags": [],
-      "policyReason": "疑似轻度剪辑，需人工确认原创性",
-      "stats": {
-        "play": 15760,
-        "like": 212,
-        "coin": 0,
-        "favorite": 15,
-        "reply": 43,
-        "danmaku": 1
       }
     },
     {
@@ -1732,47 +1734,6 @@
       }
     },
     {
-      "id": "BV1r3Ng6VEgu",
-      "bvid": "BV1r3Ng6VEgu",
-      "title": "凡人修仙传人物志——大衍神君",
-      "description": "半身风月半残魂，一匣机关一梦深 \nhttps://www.bilibili.com/bangumi/play/ep1231584?bsource=baidu_aladdin",
-      "cover": "https://i1.hdslb.com/bfs/archive/981a646e516804151e317ce1afd894765ea10eba.jpg",
-      "url": "http://www.bilibili.com/video/av116906291894910",
-      "upId": "3493131924277978",
-      "upName": "铁牛牛肉面店主",
-      "play": 3120,
-      "pubTime": 1783848594000,
-      "duration": "11:17",
-      "category": "人物志",
-      "confidence": 0.9,
-      "classificationSource": "model",
-      "classificationReason": "围绕《凡人修仙传》角色大衍神君创作人物志内容",
-      "contentNature": "character_or_lore",
-      "originality": "deep_adaptation",
-      "eventTag": null,
-      "creatorPotential": "recommend",
-      "score": 55,
-      "lane": null,
-      "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1789405317289,
-      "sourceQueries": [
-        "凡人修仙传 人物志 设定"
-      ],
-      "discoveryModes": [
-        "fresh"
-      ],
-      "riskFlags": [],
-      "policyReason": "内容可收录，但需人工复核分类或风险",
-      "stats": {
-        "play": 3120,
-        "like": 0,
-        "coin": 0,
-        "favorite": 6,
-        "reply": 0,
-        "danmaku": 0
-      }
-    },
-    {
       "id": "BV1nW4y1K71k",
       "bvid": "BV1nW4y1K71k",
       "title": "古风舞蹈 凡人修仙传 南宫婉--《半壶纱》",
@@ -1795,7 +1756,7 @@
       "score": 55,
       "lane": null,
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1789405317289,
+      "lastSeenAt": 1789454326265,
       "sourceQueries": [
         "凡人修仙传 MMD 同人动画"
       ],
@@ -1811,6 +1772,48 @@
         "favorite": 34,
         "reply": 28,
         "danmaku": 3
+      }
+    },
+    {
+      "id": "BV1gAVe6jEEP",
+      "bvid": "BV1gAVe6jEEP",
+      "title": "天南渣男韩立！",
+      "description": "",
+      "cover": "https://i2.hdslb.com/bfs/archive/ffa035de7ba21259e72261cb6ddd34016e5ebc1e.jpg",
+      "url": "http://www.bilibili.com/video/av116659482336075",
+      "upId": "3546649473321763",
+      "upName": "LYin落雨呀",
+      "play": 109009,
+      "pubTime": 1780107000000,
+      "duration": "1:14",
+      "category": "人物志",
+      "confidence": 0.7,
+      "classificationSource": "model",
+      "classificationReason": "围绕韩立的人物相关趣味讨论，属于人物主题内容",
+      "contentNature": "character_or_lore",
+      "originality": "light_edit",
+      "eventTag": null,
+      "creatorPotential": "observe",
+      "score": 54,
+      "lane": null,
+      "firstSeenAt": 1788766264547,
+      "lastSeenAt": 1788766264547,
+      "sourceQueries": [
+        "韩立 二创",
+        "凡人修仙传 小剧场"
+      ],
+      "discoveryModes": [
+        "history"
+      ],
+      "riskFlags": [],
+      "policyReason": "人物/设定内容不足 3 分钟，需确认不是竖屏剪辑",
+      "stats": {
+        "play": 109009,
+        "like": 1664,
+        "coin": 85,
+        "favorite": 797,
+        "reply": 138,
+        "danmaku": 82
       }
     },
     {
@@ -2062,45 +2065,44 @@
       }
     },
     {
-      "id": "BV1gAVe6jEEP",
-      "bvid": "BV1gAVe6jEEP",
-      "title": "天南渣男韩立！",
-      "description": "",
-      "cover": "https://i2.hdslb.com/bfs/archive/ffa035de7ba21259e72261cb6ddd34016e5ebc1e.jpg",
-      "url": "http://www.bilibili.com/video/av116659482336075",
-      "upId": "3546649473321763",
-      "upName": "LYin落雨呀",
-      "play": 109009,
-      "pubTime": 1780107000000,
-      "duration": "1:14",
+      "id": "BV1r3Ng6VEgu",
+      "bvid": "BV1r3Ng6VEgu",
+      "title": "凡人修仙传人物志——大衍神君",
+      "description": "半身风月半残魂，一匣机关一梦深 \nhttps://www.bilibili.com/bangumi/play/ep1231584?bsource=baidu_aladdin",
+      "cover": "https://i1.hdslb.com/bfs/archive/981a646e516804151e317ce1afd894765ea10eba.jpg",
+      "url": "http://www.bilibili.com/video/av116906291894910",
+      "upId": "3493131924277978",
+      "upName": "铁牛牛肉面店主",
+      "play": 3120,
+      "pubTime": 1783848594000,
+      "duration": "11:17",
       "category": "人物志",
-      "confidence": 0.7,
+      "confidence": 0.9,
       "classificationSource": "model",
-      "classificationReason": "围绕韩立的人物相关趣味讨论，属于人物主题内容",
+      "classificationReason": "围绕《凡人修仙传》角色大衍神君创作人物志内容",
       "contentNature": "character_or_lore",
-      "originality": "light_edit",
+      "originality": "deep_adaptation",
       "eventTag": null,
-      "creatorPotential": "observe",
-      "score": 53,
+      "creatorPotential": "recommend",
+      "score": 54,
       "lane": null,
-      "firstSeenAt": 1788766264547,
-      "lastSeenAt": 1788766264547,
+      "firstSeenAt": 1784281357983,
+      "lastSeenAt": 1789405317289,
       "sourceQueries": [
-        "韩立 二创",
-        "凡人修仙传 小剧场"
+        "凡人修仙传 人物志 设定"
       ],
       "discoveryModes": [
-        "history"
+        "fresh"
       ],
       "riskFlags": [],
-      "policyReason": "人物/设定内容不足 3 分钟，需确认不是竖屏剪辑",
+      "policyReason": "内容可收录，但需人工复核分类或风险",
       "stats": {
-        "play": 109009,
-        "like": 1664,
-        "coin": 85,
-        "favorite": 797,
-        "reply": 138,
-        "danmaku": 82
+        "play": 3120,
+        "like": 0,
+        "coin": 0,
+        "favorite": 6,
+        "reply": 0,
+        "danmaku": 0
       }
     },
     {
@@ -2291,7 +2293,7 @@
       "score": 53,
       "lane": null,
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1789405317289,
+      "lastSeenAt": 1789454326265,
       "sourceQueries": [
         "凡人修仙传 混剪 手书"
       ],
@@ -3301,7 +3303,7 @@
       "score": 49,
       "lane": null,
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1789405317289,
+      "lastSeenAt": 1789454326265,
       "sourceQueries": [
         "凡人修仙传 法宝 功法 人物"
       ],
@@ -3559,7 +3561,7 @@
       "score": 47,
       "lane": null,
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1789405317289,
+      "lastSeenAt": 1789454326265,
       "sourceQueries": [
         "凡人修仙传 法宝 功法 人物"
       ],
@@ -3600,7 +3602,7 @@
       "score": 47,
       "lane": null,
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1789405317289,
+      "lastSeenAt": 1789454326265,
       "sourceQueries": [
         "凡人修仙传 法宝 功法 人物"
       ],
@@ -4014,7 +4016,7 @@
       "score": 46,
       "lane": null,
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1789405317289,
+      "lastSeenAt": 1789454326265,
       "sourceQueries": [
         "凡人修仙传 混剪 手书"
       ],
@@ -4074,49 +4076,6 @@
       }
     },
     {
-      "id": "BV1dhKC6aEqA",
-      "bvid": "BV1dhKC6aEqA",
-      "title": "陈师姐：明明是我先……韩劳模：加大计量！【凡人官方二创大会】",
-      "description": "BGM:落英-银临",
-      "cover": "https://i1.hdslb.com/bfs/archive/30ab727e6d225c4416df23d7fe95d1c96560d42d.jpg",
-      "url": "http://www.bilibili.com/video/av116947865833824",
-      "upId": "105495768",
-      "upName": "川崎八幡",
-      "play": 585,
-      "pubTime": 1784482958000,
-      "duration": "2:3",
-      "category": "趣味整活",
-      "confidence": 0.85,
-      "classificationSource": "model",
-      "classificationReason": "参与凡人官方二创大会的趣味整活类二次创作",
-      "contentNature": "secondary_creation",
-      "originality": "light_edit",
-      "eventTag": "凡人官方二创大会",
-      "creatorPotential": "one_off",
-      "score": 46,
-      "lane": null,
-      "firstSeenAt": 1789373108084,
-      "lastSeenAt": 1789373108084,
-      "sourceQueries": [
-        "凡人官方二创大会"
-      ],
-      "discoveryModes": [
-        "history"
-      ],
-      "riskFlags": [
-        "weak_relevance"
-      ],
-      "policyReason": "疑似轻度剪辑，需人工确认原创性",
-      "stats": {
-        "play": 585,
-        "like": 0,
-        "coin": 0,
-        "favorite": 3,
-        "reply": 0,
-        "danmaku": 2
-      }
-    },
-    {
       "id": "BV1ZDkFBiEFm",
       "bvid": "BV1ZDkFBiEFm",
       "title": "天南散修配音汉克唱歌《凡人修仙传》《不凡》原唱是我的偶像王铮亮翻唱清唱混响效果天南散修配音汉克",
@@ -4139,7 +4098,7 @@
       "score": 46,
       "lane": null,
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1789405317289,
+      "lastSeenAt": 1789454326265,
       "sourceQueries": [
         "凡人修仙传 配音 翻唱"
       ],
@@ -4365,44 +4324,46 @@
       }
     },
     {
-      "id": "BV1gn2pBcEGD",
-      "bvid": "BV1gn2pBcEGD",
-      "title": "凡人修仙传目前高级法宝佩戴顺序#凡人修仙传 #凡人修仙传人界篇 #凡人修仙传人界篇手游",
-      "description": "凡人修仙传目前高级法宝佩戴顺序#凡人修仙传 #凡人修仙传人界篇 #凡人修仙传人界篇手游",
-      "cover": "https://i0.hdslb.com/bfs/archive/9251fc51de6a09522bc9b61aa63adb582c42a116.jpg",
-      "url": "http://www.bilibili.com/video/av115670180175330",
-      "upId": "678872453",
-      "upName": "凡人修仙传王老魔",
-      "play": 356,
-      "pubTime": 1764987116000,
-      "duration": "0:33",
-      "category": "人物志",
-      "confidence": 0.9,
+      "id": "BV1dhKC6aEqA",
+      "bvid": "BV1dhKC6aEqA",
+      "title": "陈师姐：明明是我先……韩劳模：加大计量！【凡人官方二创大会】",
+      "description": "BGM:落英-银临",
+      "cover": "https://i1.hdslb.com/bfs/archive/30ab727e6d225c4416df23d7fe95d1c96560d42d.jpg",
+      "url": "http://www.bilibili.com/video/av116947865833824",
+      "upId": "105495768",
+      "upName": "川崎八幡",
+      "play": 585,
+      "pubTime": 1784482958000,
+      "duration": "2:3",
+      "category": "趣味整活",
+      "confidence": 0.85,
       "classificationSource": "model",
-      "classificationReason": "凡人修仙传高级法宝佩戴顺序的专题内容",
-      "contentNature": "character_or_lore",
-      "originality": "original",
-      "eventTag": null,
-      "creatorPotential": "observe",
+      "classificationReason": "参与凡人官方二创大会的趣味整活类二次创作",
+      "contentNature": "secondary_creation",
+      "originality": "light_edit",
+      "eventTag": "凡人官方二创大会",
+      "creatorPotential": "one_off",
       "score": 45,
       "lane": null,
-      "firstSeenAt": 1785132335284,
+      "firstSeenAt": 1789373108084,
       "lastSeenAt": 1789373108084,
       "sourceQueries": [
-        "凡人修仙传 法宝 功法 人物"
+        "凡人官方二创大会"
       ],
       "discoveryModes": [
         "history"
       ],
-      "riskFlags": [],
-      "policyReason": "人物/设定内容不足 3 分钟，需确认不是竖屏剪辑",
+      "riskFlags": [
+        "weak_relevance"
+      ],
+      "policyReason": "疑似轻度剪辑，需人工确认原创性",
       "stats": {
-        "play": 356,
+        "play": 585,
         "like": 0,
         "coin": 0,
-        "favorite": 0,
+        "favorite": 3,
         "reply": 0,
-        "danmaku": 0
+        "danmaku": 2
       }
     },
     {

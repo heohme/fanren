@@ -1,5 +1,5 @@
 {
-  "generatedAt": 1789405317289,
+  "generatedAt": 1789454326265,
   "mode": "fresh",
   "taxonomyVersion": 2,
   "policyVersion": 1,
@@ -15,21 +15,21 @@
   "counts": {
     "人物志": 13,
     "剧情二创": 16,
-    "趣味整活": 21,
-    "混剪手书": 5,
+    "趣味整活": 22,
+    "混剪手书": 6,
     "音乐配音": 11,
     "同人创作": 8
   },
   "lanes": {
     "event_spotlight": [
-      "BV1HFGK6DEqq",
       "BV1XMG36SEqX",
-      "BV1aPGu6yENw",
       "BV1TzGG6EEkb"
     ],
     "weekly_hot": [],
     "hidden_gem": [
+      "BV1HFGK6DEqq",
       "BV1ffMM6VEb2",
+      "BV1aPGu6yENw",
       "BV11F3i6uE14",
       "BV1uqMg6TERj",
       "BV1RoM46tEQ8",
@@ -48,6 +48,8 @@
     "new_creator_watch": [
       "BV1mJME6DEKn",
       "BV12tGP6XEjz",
+      "BV1jzKP69EMD",
+      "BV1f1Kd66EQE",
       "BV1UfTx6VEfb",
       "BV19b7p6YESX",
       "BV1fCMe6JEsx",
@@ -67,7 +69,6 @@
     ],
     "archive": [
       "BV1LcKS67Efe",
-      "BV1f1Kd66EQE",
       "BV1M3TM6WEP6",
       "BV1fyjH6zEdR",
       "BV1M2Ey6sEPo",
@@ -85,6 +86,7 @@
       "BV17zNszhEQ3",
       "BV1G2CrBLEo9",
       "BV1DEoaBUEBf",
+      "BV1TkJ56zEQj",
       "BV1QpE16fEAp",
       "BV1s2Ts6YEdR",
       "BV1FaV46VEWD",
@@ -114,7 +116,7 @@
       "cover": "https://i0.hdslb.com/bfs/archive/adea2f2482810935bbda57817c6e4d2dda4b8cfd.jpg",
       "url": "http://www.bilibili.com/video/av116889481188955",
       "upId": "1172349285",
-      "upName": "韩历飞羽666",
+      "upName": "下饭到你家",
       "play": 497736,
       "pubTime": 1783592178000,
       "duration": "3:15",
@@ -129,7 +131,7 @@
       "score": 86,
       "lane": "new_creator_watch",
       "firstSeenAt": 1788676101546,
-      "lastSeenAt": 1788676101546,
+      "lastSeenAt": 1789454326265,
       "sourceQueries": [
         "凡人官方二创大会"
       ],
@@ -171,6 +173,37 @@
       ]
     },
     {
+      "id": "BV1jzKP69EMD",
+      "bvid": "BV1jzKP69EMD",
+      "title": "⚡️硬扛元婴修士一亲⚡️【凡人官方二创大会】",
+      "description": "高阶恋爱，极限拉扯！\n\nBGM: 《如果你也听说.》张惠妹 (填词翻唱：AI自制)\n 剪辑视频不易，您的三连与关注，是我更新视频的最大动力！ \n粉丝灯牌命名为[大乘境]，任意金额充电可得",
+      "cover": "https://i2.hdslb.com/bfs/archive/442a3c4ca08d6416b420d092c68e942e115e390e.jpg",
+      "url": "http://www.bilibili.com/video/av116940232200346",
+      "upId": "3546612548765999",
+      "upName": "从吾君",
+      "play": 6707,
+      "pubTime": 1784366816000,
+      "duration": "5:6",
+      "category": "混剪手书",
+      "confidence": 0.85,
+      "classificationSource": "model",
+      "classificationReason": "该内容为《凡人修仙传》相关的混剪，搭配AI填词翻唱，参与官方二创大会",
+      "contentNature": "secondary_creation",
+      "originality": "deep_adaptation",
+      "eventTag": "凡人官方二创大会",
+      "creatorPotential": "observe",
+      "score": 85,
+      "lane": "new_creator_watch",
+      "firstSeenAt": 1789454326265,
+      "lastSeenAt": 1789454326265,
+      "sourceQueries": [
+        "凡人官方二创大会"
+      ],
+      "discoveryModes": [
+        "fresh"
+      ]
+    },
+    {
       "id": "BV1LcKS67Efe",
       "bvid": "BV1LcKS67Efe",
       "title": "顶疯作案，掩月之巅【凡人官方二创大会】",
@@ -193,7 +226,7 @@
       "score": 84,
       "lane": "archive",
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1789373108084,
+      "lastSeenAt": 1789454326265,
       "sourceQueries": [
         "legacy-published",
         "凡人修仙传 二创",
@@ -226,9 +259,9 @@
       "eventTag": "凡人官方二创大会",
       "creatorPotential": "recommend",
       "score": 84,
-      "lane": "archive",
+      "lane": "new_creator_watch",
       "firstSeenAt": 1784526884576,
-      "lastSeenAt": 1788676101546,
+      "lastSeenAt": 1789454326265,
       "sourceQueries": [
         "凡人官方二创大会"
       ],
@@ -258,7 +291,7 @@
       "eventTag": "凡人官方二创大会",
       "creatorPotential": "observe",
       "score": 84,
-      "lane": "event_spotlight",
+      "lane": "hidden_gem",
       "firstSeenAt": 1785560340526,
       "lastSeenAt": 1789405317289,
       "sourceQueries": [
@@ -361,7 +394,7 @@
       "score": 82,
       "lane": "archive",
       "firstSeenAt": 1787542424325,
-      "lastSeenAt": 1789373108084,
+      "lastSeenAt": 1789454326265,
       "sourceQueries": [
         "凡人官方二创大会",
         "南宫婉 二创"
@@ -451,7 +484,7 @@
       "url": "http://www.bilibili.com/video/av116865623922298",
       "upId": "388982271",
       "upName": "星子稷",
-      "play": 38718,
+      "play": 38945,
       "pubTime": 1783228256000,
       "duration": "6:59",
       "category": "混剪手书",
@@ -465,7 +498,7 @@
       "score": 80,
       "lane": "hidden_gem",
       "firstSeenAt": 1788676101546,
-      "lastSeenAt": 1789223138253,
+      "lastSeenAt": 1789454326265,
       "sourceQueries": [
         "凡人官方二创大会",
         "南宫婉 二创"
@@ -495,7 +528,7 @@
       "eventTag": "凡人官方二创大会",
       "creatorPotential": "observe",
       "score": 79,
-      "lane": "event_spotlight",
+      "lane": "hidden_gem",
       "firstSeenAt": 1785588109330,
       "lastSeenAt": 1788166338588,
       "sourceQueries": [
@@ -1120,7 +1153,7 @@
       "score": 73,
       "lane": "archive",
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1788166338588,
+      "lastSeenAt": 1789454326265,
       "sourceQueries": [
         "legacy-published",
         "凡人修仙传 二创",
@@ -1130,7 +1163,8 @@
         "凡人官方二创大会"
       ],
       "discoveryModes": [
-        "history"
+        "history",
+        "fresh"
       ]
     },
     {
@@ -1354,7 +1388,7 @@
       "score": 71,
       "lane": "hidden_gem",
       "firstSeenAt": 1784868982615,
-      "lastSeenAt": 1789405317289,
+      "lastSeenAt": 1789454326265,
       "sourceQueries": [
         "凡人修仙传 二创",
         "凡人官方二创大会",
@@ -1682,6 +1716,37 @@
       "discoveryModes": [
         "fresh",
         "history"
+      ]
+    },
+    {
+      "id": "BV1TkJ56zEQj",
+      "bvid": "BV1TkJ56zEQj",
+      "title": "《 元⚡婴⚡本⚡色 》【凡人官方二创大会】",
+      "description": "我不想一辈子被人说挂机，你以为我臭配角吗，我忍了百年，就是想等年番开播。",
+      "cover": "https://i1.hdslb.com/bfs/archive/6f45f0bd48a4f4124cabeb2b29cf7845e193c2f8.jpg",
+      "url": "http://www.bilibili.com/video/av116737311776059",
+      "upId": "13921096",
+      "upName": "凡人凡画",
+      "play": 44028,
+      "pubTime": 1781321400000,
+      "duration": "3:25",
+      "category": "趣味整活",
+      "confidence": 0.9,
+      "classificationSource": "model",
+      "classificationReason": "参与官方二创大会的趣味整活二次创作",
+      "contentNature": "secondary_creation",
+      "originality": "deep_adaptation",
+      "eventTag": "凡人官方二创大会",
+      "creatorPotential": "observe",
+      "score": 67,
+      "lane": "archive",
+      "firstSeenAt": 1789454326265,
+      "lastSeenAt": 1789454326265,
+      "sourceQueries": [
+        "凡人官方二创大会"
+      ],
+      "discoveryModes": [
+        "fresh"
       ]
     },
     {
