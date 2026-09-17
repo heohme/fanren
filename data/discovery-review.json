@@ -1,13 +1,13 @@
 {
-  "generatedAt": 1789627339195,
+  "generatedAt": 1789659489035,
   "mode": "fresh",
   "taxonomyVersion": 2,
   "policyVersion": 1,
   "summary": {
     "total": 2000,
     "approved": 76,
-    "review": 102,
-    "rejected": 1822
+    "review": 101,
+    "rejected": 1823
   },
   "lanes": {
     "event_spotlight": [],
@@ -82,11 +82,11 @@
       "BV1EdcJz6EPN",
       "BV1Brx3z5EY8",
       "BV1dV411w72Y",
-      "BV1QGebziE1r",
       "BV1Z6uKzQEXg",
       "BV1V9AUzHEzJ",
       "BV12BGk68E5n",
       "BV19w4m1X7xU",
+      "BV1QGebziE1r",
       "BV14KS3YGEk9",
       "BV15rn9z2Egj",
       "BV1XSkxBAErG",
@@ -732,7 +732,7 @@
       "score": 60,
       "lane": null,
       "firstSeenAt": 1785132335284,
-      "lastSeenAt": 1789373108084,
+      "lastSeenAt": 1789659489035,
       "sourceQueries": [
         "凡人修仙传 混剪 手书",
         "韩立 二创"
@@ -1154,7 +1154,7 @@
       "score": 58,
       "lane": null,
       "firstSeenAt": 1784525133937,
-      "lastSeenAt": 1789627339195,
+      "lastSeenAt": 1789659489035,
       "sourceQueries": [
         "凡人修仙传 二创",
         "凡人官方二创大会",
@@ -1347,50 +1347,6 @@
       }
     },
     {
-      "id": "BV1x2dAYeEGP",
-      "bvid": "BV1x2dAYeEGP",
-      "title": "模仿韩立声线",
-      "description": "都说声音像韩立，来模仿下",
-      "cover": "https://i0.hdslb.com/bfs/archive/074211d0017ef4e8323a2cfb0b45a5e951201252.jpg",
-      "url": "http://www.bilibili.com/video/av114306578384451",
-      "upId": "3493279039490100",
-      "upName": "Cv武艺",
-      "play": 133876,
-      "pubTime": 1744180068000,
-      "duration": "1:27",
-      "category": "趣味整活",
-      "confidence": 0.85,
-      "classificationSource": "model",
-      "classificationReason": "该视频为模仿韩立声线的配音作品，属于配音类二次创作",
-      "contentNature": "secondary_creation",
-      "originality": "deep_adaptation",
-      "eventTag": null,
-      "creatorPotential": "one_off",
-      "score": 56,
-      "lane": null,
-      "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1789373108084,
-      "sourceQueries": [
-        "legacy-published",
-        "凡人修仙传 配音 翻唱"
-      ],
-      "discoveryModes": [
-        "history"
-      ],
-      "riskFlags": [
-        "uncertain"
-      ],
-      "policyReason": "内容可收录，但需人工复核分类或风险",
-      "stats": {
-        "play": 133876,
-        "like": 4715,
-        "coin": 212,
-        "favorite": 280,
-        "reply": 274,
-        "danmaku": 199
-      }
-    },
-    {
       "id": "BV13uX2BEESW",
       "bvid": "BV13uX2BEESW",
       "title": "凡人修仙传女角色泳装走秀：你最喜欢哪一个",
@@ -1542,7 +1498,7 @@
       "score": 56,
       "lane": null,
       "firstSeenAt": 1785244584356,
-      "lastSeenAt": 1789627339195,
+      "lastSeenAt": 1789659489035,
       "sourceQueries": [
         "凡人官方二创大会",
         "凡人修仙传 鬼畜 整活",
@@ -1560,6 +1516,50 @@
         "favorite": 16,
         "reply": 6,
         "danmaku": 9
+      }
+    },
+    {
+      "id": "BV1x2dAYeEGP",
+      "bvid": "BV1x2dAYeEGP",
+      "title": "模仿韩立声线",
+      "description": "都说声音像韩立，来模仿下",
+      "cover": "https://i0.hdslb.com/bfs/archive/074211d0017ef4e8323a2cfb0b45a5e951201252.jpg",
+      "url": "http://www.bilibili.com/video/av114306578384451",
+      "upId": "3493279039490100",
+      "upName": "Cv武艺",
+      "play": 133876,
+      "pubTime": 1744180068000,
+      "duration": "1:27",
+      "category": "趣味整活",
+      "confidence": 0.85,
+      "classificationSource": "model",
+      "classificationReason": "该视频为模仿韩立声线的配音作品，属于配音类二次创作",
+      "contentNature": "secondary_creation",
+      "originality": "deep_adaptation",
+      "eventTag": null,
+      "creatorPotential": "one_off",
+      "score": 55,
+      "lane": null,
+      "firstSeenAt": 1784281357983,
+      "lastSeenAt": 1789373108084,
+      "sourceQueries": [
+        "legacy-published",
+        "凡人修仙传 配音 翻唱"
+      ],
+      "discoveryModes": [
+        "history"
+      ],
+      "riskFlags": [
+        "uncertain"
+      ],
+      "policyReason": "内容可收录，但需人工复核分类或风险",
+      "stats": {
+        "play": 133876,
+        "like": 4715,
+        "coin": 212,
+        "favorite": 280,
+        "reply": 274,
+        "danmaku": 199
       }
     },
     {
@@ -1714,7 +1714,7 @@
       "score": 55,
       "lane": null,
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1789627339195,
+      "lastSeenAt": 1789659489035,
       "sourceQueries": [
         "凡人修仙传 MMD 同人动画"
       ],
@@ -2105,47 +2105,6 @@
       }
     },
     {
-      "id": "BV1DrXrY6Evk",
-      "bvid": "BV1DrXrY6Evk",
-      "title": "【凡人修仙传沙雕动画 灵界篇】第572集",
-      "description": "凡人修仙传灵界篇-原著剧情",
-      "cover": "https://i2.hdslb.com/bfs/archive/dbb024cc232033bcde92cfa178840d5ea8510a3e.jpg",
-      "url": "http://www.bilibili.com/video/av114198986102978",
-      "upId": "442413887",
-      "upName": "在下苟德柱",
-      "play": 45220,
-      "pubTime": 1742539328000,
-      "duration": "4:43",
-      "category": "趣味整活",
-      "confidence": 0.8,
-      "classificationSource": "model",
-      "classificationReason": "凡人修仙传灵界篇的沙雕动画二创内容",
-      "contentNature": "secondary_creation",
-      "originality": "deep_adaptation",
-      "eventTag": null,
-      "creatorPotential": "observe",
-      "score": 53,
-      "lane": null,
-      "firstSeenAt": 1785132335284,
-      "lastSeenAt": 1788166338588,
-      "sourceQueries": [
-        "凡人修仙传 小剧场"
-      ],
-      "discoveryModes": [
-        "history"
-      ],
-      "riskFlags": [],
-      "policyReason": "内容可收录，但需人工复核分类或风险",
-      "stats": {
-        "play": 45220,
-        "like": 0,
-        "coin": 0,
-        "favorite": 133,
-        "reply": 0,
-        "danmaku": 75
-      }
-    },
-    {
       "id": "BV1ra411e7G5",
       "bvid": "BV1ra411e7G5",
       "title": "【炼器师】和【法器、法宝】基础讲解《凡人修仙传》",
@@ -2292,7 +2251,7 @@
       "score": 53,
       "lane": null,
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1789627339195,
+      "lastSeenAt": 1789659489035,
       "sourceQueries": [
         "凡人修仙传 混剪 手书"
       ],
@@ -2484,6 +2443,47 @@
         "favorite": 241,
         "reply": 0,
         "danmaku": 32
+      }
+    },
+    {
+      "id": "BV1DrXrY6Evk",
+      "bvid": "BV1DrXrY6Evk",
+      "title": "【凡人修仙传沙雕动画 灵界篇】第572集",
+      "description": "凡人修仙传灵界篇-原著剧情",
+      "cover": "https://i2.hdslb.com/bfs/archive/dbb024cc232033bcde92cfa178840d5ea8510a3e.jpg",
+      "url": "http://www.bilibili.com/video/av114198986102978",
+      "upId": "442413887",
+      "upName": "在下苟德柱",
+      "play": 45220,
+      "pubTime": 1742539328000,
+      "duration": "4:43",
+      "category": "趣味整活",
+      "confidence": 0.8,
+      "classificationSource": "model",
+      "classificationReason": "凡人修仙传灵界篇的沙雕动画二创内容",
+      "contentNature": "secondary_creation",
+      "originality": "deep_adaptation",
+      "eventTag": null,
+      "creatorPotential": "observe",
+      "score": 52,
+      "lane": null,
+      "firstSeenAt": 1785132335284,
+      "lastSeenAt": 1788166338588,
+      "sourceQueries": [
+        "凡人修仙传 小剧场"
+      ],
+      "discoveryModes": [
+        "history"
+      ],
+      "riskFlags": [],
+      "policyReason": "内容可收录，但需人工复核分类或风险",
+      "stats": {
+        "play": 45220,
+        "like": 0,
+        "coin": 0,
+        "favorite": 133,
+        "reply": 0,
+        "danmaku": 75
       }
     },
     {
@@ -2734,50 +2734,6 @@
       }
     },
     {
-      "id": "BV1QAMA6jEEZ",
-      "bvid": "BV1QAMA6jEEZ",
-      "title": "把180集韩立南宫婉对视时的黑屏延迟几秒钟看看会发生什么，满足一下好奇心-凡人修仙传",
-      "description": "把180集韩立南宫婉对视时的黑屏延迟几秒钟看看会发生什么，满足一下好奇心-凡人修仙传",
-      "cover": "https://i2.hdslb.com/bfs/archive/c616fcfe0e98030a986a4ec8f7e81f49628e2091.jpg",
-      "url": "http://www.bilibili.com/video/av116861194736063",
-      "upId": "123710154",
-      "upName": "善见天",
-      "play": 2229,
-      "pubTime": 1783160561000,
-      "duration": "0:19",
-      "category": "趣味整活",
-      "confidence": 0.95,
-      "classificationSource": "model",
-      "classificationReason": "对凡人修仙传180集特定镜头进行趣味调整，属于二次创作",
-      "contentNature": "secondary_creation",
-      "originality": "light_edit",
-      "eventTag": null,
-      "creatorPotential": "one_off",
-      "score": 51,
-      "lane": null,
-      "firstSeenAt": 1784526884576,
-      "lastSeenAt": 1789373108084,
-      "sourceQueries": [
-        "凡人修仙传 二创",
-        "韩立 二创",
-        "南宫婉 二创",
-        "凡人修仙传 小剧场"
-      ],
-      "discoveryModes": [
-        "history"
-      ],
-      "riskFlags": [],
-      "policyReason": "疑似轻度剪辑，需人工确认原创性",
-      "stats": {
-        "play": 2229,
-        "like": 0,
-        "coin": 0,
-        "favorite": 50,
-        "reply": 0,
-        "danmaku": 0
-      }
-    },
-    {
       "id": "BV1LUMp67Et5",
       "bvid": "BV1LUMp67Et5",
       "title": "“乘风去 一眼过忘川”【凡人修仙传/韩立个人 | 清风月】",
@@ -2844,7 +2800,7 @@
       "score": 51,
       "lane": null,
       "firstSeenAt": 1784695859320,
-      "lastSeenAt": 1789627339195,
+      "lastSeenAt": 1789659489035,
       "sourceQueries": [
         "凡人修仙传 二创",
         "凡人官方二创大会",
@@ -2889,7 +2845,7 @@
       "score": 51,
       "lane": null,
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1789627339195,
+      "lastSeenAt": 1789659489035,
       "sourceQueries": [
         "凡人修仙传 鬼畜 整活"
       ],
@@ -3074,6 +3030,50 @@
       }
     },
     {
+      "id": "BV1QAMA6jEEZ",
+      "bvid": "BV1QAMA6jEEZ",
+      "title": "把180集韩立南宫婉对视时的黑屏延迟几秒钟看看会发生什么，满足一下好奇心-凡人修仙传",
+      "description": "把180集韩立南宫婉对视时的黑屏延迟几秒钟看看会发生什么，满足一下好奇心-凡人修仙传",
+      "cover": "https://i2.hdslb.com/bfs/archive/c616fcfe0e98030a986a4ec8f7e81f49628e2091.jpg",
+      "url": "http://www.bilibili.com/video/av116861194736063",
+      "upId": "123710154",
+      "upName": "善见天",
+      "play": 2229,
+      "pubTime": 1783160561000,
+      "duration": "0:19",
+      "category": "趣味整活",
+      "confidence": 0.95,
+      "classificationSource": "model",
+      "classificationReason": "对凡人修仙传180集特定镜头进行趣味调整，属于二次创作",
+      "contentNature": "secondary_creation",
+      "originality": "light_edit",
+      "eventTag": null,
+      "creatorPotential": "one_off",
+      "score": 50,
+      "lane": null,
+      "firstSeenAt": 1784526884576,
+      "lastSeenAt": 1789373108084,
+      "sourceQueries": [
+        "凡人修仙传 二创",
+        "韩立 二创",
+        "南宫婉 二创",
+        "凡人修仙传 小剧场"
+      ],
+      "discoveryModes": [
+        "history"
+      ],
+      "riskFlags": [],
+      "policyReason": "疑似轻度剪辑，需人工确认原创性",
+      "stats": {
+        "play": 2229,
+        "like": 0,
+        "coin": 0,
+        "favorite": 50,
+        "reply": 0,
+        "danmaku": 0
+      }
+    },
+    {
       "id": "BV1YVgv62Eih",
       "bvid": "BV1YVgv62Eih",
       "title": "百合❤南宫婉被曹颖壁咚",
@@ -3198,88 +3198,6 @@
       }
     },
     {
-      "id": "BV13TEDzxEJQ",
-      "bvid": "BV13TEDzxEJQ",
-      "title": "凡人修仙传法宝解析之风雷翅！",
-      "description": "-",
-      "cover": "https://i0.hdslb.com/bfs/archive/c790e902d5f4da761165499b00bc268b7a9dee89.jpg",
-      "url": "http://www.bilibili.com/video/av114532668153695",
-      "upId": "3546845114533899",
-      "upName": "清水-动漫",
-      "play": 14548,
-      "pubTime": 1747630008000,
-      "duration": "2:13",
-      "category": "人物志",
-      "confidence": 0.9,
-      "classificationSource": "model",
-      "classificationReason": "该内容围绕凡人修仙传法宝风雷翅展开专题内容",
-      "contentNature": "character_or_lore",
-      "originality": "deep_adaptation",
-      "eventTag": null,
-      "creatorPotential": "recommend",
-      "score": 49,
-      "lane": null,
-      "firstSeenAt": 1785132335284,
-      "lastSeenAt": 1789373108084,
-      "sourceQueries": [
-        "凡人修仙传 法宝 功法 人物"
-      ],
-      "discoveryModes": [
-        "history"
-      ],
-      "riskFlags": [],
-      "policyReason": "人物/设定内容不足 3 分钟，需确认不是竖屏剪辑",
-      "stats": {
-        "play": 14548,
-        "like": 0,
-        "coin": 0,
-        "favorite": 54,
-        "reply": 0,
-        "danmaku": 11
-      }
-    },
-    {
-      "id": "BV1pb4y1v7we",
-      "bvid": "BV1pb4y1v7we",
-      "title": "盘点《凡人修仙传》故事设定，门派介绍，人物称呼等（上）",
-      "description": "补全一下动漫里面没有展示的一些东西，我普通话不太好，请见谅，有什么遗漏或者错误的地方可以评论补充一下。下期可以考虑做一些道具类的。",
-      "cover": "https://i2.hdslb.com/bfs/archive/359c340eb3b1756e47bbb73fef2de62f0667433c.jpg",
-      "url": "http://www.bilibili.com/video/av635003078",
-      "upId": "29151008",
-      "upName": "唐懋茂",
-      "play": 9154,
-      "pubTime": 1640316614000,
-      "duration": "14:40",
-      "category": "人物志",
-      "confidence": 0.85,
-      "classificationSource": "model",
-      "classificationReason": "盘点凡人修仙传的门派、设定等内容，属于世界观专题",
-      "contentNature": "character_or_lore",
-      "originality": "deep_adaptation",
-      "eventTag": null,
-      "creatorPotential": "observe",
-      "score": 49,
-      "lane": null,
-      "firstSeenAt": 1785132335284,
-      "lastSeenAt": 1789373108084,
-      "sourceQueries": [
-        "凡人修仙传 人物志 设定"
-      ],
-      "discoveryModes": [
-        "history"
-      ],
-      "riskFlags": [],
-      "policyReason": "内容可收录，但需人工复核分类或风险",
-      "stats": {
-        "play": 9154,
-        "like": 0,
-        "coin": 0,
-        "favorite": 76,
-        "reply": 0,
-        "danmaku": 70
-      }
-    },
-    {
       "id": "BV1mJ47z2E5B",
       "bvid": "BV1mJ47z2E5B",
       "title": "韩立逆天改命账单：法宝开路，功法封神",
@@ -3368,6 +3286,88 @@
         "favorite": 2859,
         "reply": 92,
         "danmaku": 12
+      }
+    },
+    {
+      "id": "BV13TEDzxEJQ",
+      "bvid": "BV13TEDzxEJQ",
+      "title": "凡人修仙传法宝解析之风雷翅！",
+      "description": "-",
+      "cover": "https://i0.hdslb.com/bfs/archive/c790e902d5f4da761165499b00bc268b7a9dee89.jpg",
+      "url": "http://www.bilibili.com/video/av114532668153695",
+      "upId": "3546845114533899",
+      "upName": "清水-动漫",
+      "play": 14548,
+      "pubTime": 1747630008000,
+      "duration": "2:13",
+      "category": "人物志",
+      "confidence": 0.9,
+      "classificationSource": "model",
+      "classificationReason": "该内容围绕凡人修仙传法宝风雷翅展开专题内容",
+      "contentNature": "character_or_lore",
+      "originality": "deep_adaptation",
+      "eventTag": null,
+      "creatorPotential": "recommend",
+      "score": 48,
+      "lane": null,
+      "firstSeenAt": 1785132335284,
+      "lastSeenAt": 1789373108084,
+      "sourceQueries": [
+        "凡人修仙传 法宝 功法 人物"
+      ],
+      "discoveryModes": [
+        "history"
+      ],
+      "riskFlags": [],
+      "policyReason": "人物/设定内容不足 3 分钟，需确认不是竖屏剪辑",
+      "stats": {
+        "play": 14548,
+        "like": 0,
+        "coin": 0,
+        "favorite": 54,
+        "reply": 0,
+        "danmaku": 11
+      }
+    },
+    {
+      "id": "BV1pb4y1v7we",
+      "bvid": "BV1pb4y1v7we",
+      "title": "盘点《凡人修仙传》故事设定，门派介绍，人物称呼等（上）",
+      "description": "补全一下动漫里面没有展示的一些东西，我普通话不太好，请见谅，有什么遗漏或者错误的地方可以评论补充一下。下期可以考虑做一些道具类的。",
+      "cover": "https://i2.hdslb.com/bfs/archive/359c340eb3b1756e47bbb73fef2de62f0667433c.jpg",
+      "url": "http://www.bilibili.com/video/av635003078",
+      "upId": "29151008",
+      "upName": "唐懋茂",
+      "play": 9154,
+      "pubTime": 1640316614000,
+      "duration": "14:40",
+      "category": "人物志",
+      "confidence": 0.85,
+      "classificationSource": "model",
+      "classificationReason": "盘点凡人修仙传的门派、设定等内容，属于世界观专题",
+      "contentNature": "character_or_lore",
+      "originality": "deep_adaptation",
+      "eventTag": null,
+      "creatorPotential": "observe",
+      "score": 48,
+      "lane": null,
+      "firstSeenAt": 1785132335284,
+      "lastSeenAt": 1789373108084,
+      "sourceQueries": [
+        "凡人修仙传 人物志 设定"
+      ],
+      "discoveryModes": [
+        "history"
+      ],
+      "riskFlags": [],
+      "policyReason": "内容可收录，但需人工复核分类或风险",
+      "stats": {
+        "play": 9154,
+        "like": 0,
+        "coin": 0,
+        "favorite": 76,
+        "reply": 0,
+        "danmaku": 70
       }
     },
     {
@@ -3576,47 +3576,6 @@
         "favorite": 5,
         "reply": 11,
         "danmaku": 76
-      }
-    },
-    {
-      "id": "BV1sHRUYsETy",
-      "bvid": "BV1sHRUYsETy",
-      "title": "《凡人修仙传》你最喜欢韩立哪些功法或法宝？",
-      "description": "-",
-      "cover": "https://i2.hdslb.com/bfs/archive/c31bba4ec127582b15ac072ad70cc7f54e28c565.jpg",
-      "url": "http://www.bilibili.com/video/av114296713380874",
-      "upId": "2036844700",
-      "upName": "喜欢文史的猫头鹰",
-      "play": 1168,
-      "pubTime": 1744029655000,
-      "duration": "3:42",
-      "category": "人物志",
-      "confidence": 0.85,
-      "classificationSource": "model",
-      "classificationReason": "围绕凡人修仙传功法、法宝展开的主题讨论内容",
-      "contentNature": "character_or_lore",
-      "originality": "original",
-      "eventTag": null,
-      "creatorPotential": "observe",
-      "score": 47,
-      "lane": null,
-      "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1789627339195,
-      "sourceQueries": [
-        "凡人修仙传 法宝 功法 人物"
-      ],
-      "discoveryModes": [
-        "fresh"
-      ],
-      "riskFlags": [],
-      "policyReason": "内容可收录，但需人工复核分类或风险",
-      "stats": {
-        "play": 1168,
-        "like": 0,
-        "coin": 0,
-        "favorite": 5,
-        "reply": 0,
-        "danmaku": 0
       }
     },
     {
@@ -3952,23 +3911,23 @@
       }
     },
     {
-      "id": "BV1ATQzBkEwV",
-      "bvid": "BV1ATQzBkEwV",
-      "title": "凡人修仙传里的昆吾三老，这三位在书里属于那种哥已不在江湖，但江湖永远有哥的传说",
+      "id": "BV1sHRUYsETy",
+      "bvid": "BV1sHRUYsETy",
+      "title": "《凡人修仙传》你最喜欢韩立哪些功法或法宝？",
       "description": "-",
-      "cover": "https://i2.hdslb.com/bfs/archive/6ba5b1d3b425ed675b139fc64c9b22ca16a774f8.jpg",
-      "url": "http://www.bilibili.com/video/av116283370640478",
-      "upId": "1624719374",
-      "upName": "青梅说剧o",
-      "play": 896,
-      "pubTime": 1774344372000,
-      "duration": "4:37",
+      "cover": "https://i2.hdslb.com/bfs/archive/c31bba4ec127582b15ac072ad70cc7f54e28c565.jpg",
+      "url": "http://www.bilibili.com/video/av114296713380874",
+      "upId": "2036844700",
+      "upName": "喜欢文史的猫头鹰",
+      "play": 1168,
+      "pubTime": 1744029655000,
+      "duration": "3:42",
       "category": "人物志",
-      "confidence": 0.9,
+      "confidence": 0.85,
       "classificationSource": "model",
-      "classificationReason": "凡人修仙传昆吾三老专题，属于人物相关的内容",
+      "classificationReason": "围绕凡人修仙传功法、法宝展开的主题讨论内容",
       "contentNature": "character_or_lore",
-      "originality": "deep_adaptation",
+      "originality": "original",
       "eventTag": null,
       "creatorPotential": "observe",
       "score": 46,
@@ -3976,7 +3935,7 @@
       "firstSeenAt": 1784281357983,
       "lastSeenAt": 1789627339195,
       "sourceQueries": [
-        "凡人修仙传 混剪 手书"
+        "凡人修仙传 法宝 功法 人物"
       ],
       "discoveryModes": [
         "fresh"
@@ -3984,51 +3943,10 @@
       "riskFlags": [],
       "policyReason": "内容可收录，但需人工复核分类或风险",
       "stats": {
-        "play": 896,
+        "play": 1168,
         "like": 0,
         "coin": 0,
-        "favorite": 3,
-        "reply": 0,
-        "danmaku": 0
-      }
-    },
-    {
-      "id": "BV1t7ED6BE4S",
-      "bvid": "BV1t7ED6BE4S",
-      "title": "【凡人修仙传人物志慕沛灵】明明只是简单追爱，为何会引来如此多的骂名？慕沛灵想要的，真的只是韩立的心那么简单吗？",
-      "description": "-",
-      "cover": "https://i1.hdslb.com/bfs/archive/80f717a164c65bc4b1c46b8dcaa35bf6ab317383.jpg",
-      "url": "http://www.bilibili.com/video/av116722883363459",
-      "upId": "3546696309017426",
-      "upName": "熊大朋友圈",
-      "play": 738,
-      "pubTime": 1781050028000,
-      "duration": "3:9",
-      "category": "人物志",
-      "confidence": 0.9,
-      "classificationSource": "model",
-      "classificationReason": "围绕凡人修仙传角色慕沛灵的人物志内容",
-      "contentNature": "character_or_lore",
-      "originality": "deep_adaptation",
-      "eventTag": null,
-      "creatorPotential": "recommend",
-      "score": 46,
-      "lane": null,
-      "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1788534303709,
-      "sourceQueries": [
-        "凡人修仙传 人物志 设定"
-      ],
-      "discoveryModes": [
-        "fresh"
-      ],
-      "riskFlags": [],
-      "policyReason": "内容可收录，但需人工复核分类或风险",
-      "stats": {
-        "play": 738,
-        "like": 0,
-        "coin": 0,
-        "favorite": 2,
+        "favorite": 5,
         "reply": 0,
         "danmaku": 0
       }
@@ -4056,7 +3974,7 @@
       "score": 46,
       "lane": null,
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1789627339195,
+      "lastSeenAt": 1789659489035,
       "sourceQueries": [
         "凡人修仙传 配音 翻唱"
       ],
@@ -4111,47 +4029,6 @@
         "like": 0,
         "coin": 0,
         "favorite": 0,
-        "reply": 0,
-        "danmaku": 0
-      }
-    },
-    {
-      "id": "BV1463kzLE9s",
-      "bvid": "BV1463kzLE9s",
-      "title": "凡人修仙传何仙师水墨动画配音《人生如棋，落子无悔》自己无聊配着玩的，配的不好，轻喷😭",
-      "description": "轻喷，纯属自娱自乐",
-      "cover": "https://i0.hdslb.com/bfs/archive/7c1716b456ca40349c338ab8c4033a9d4ee81b05.jpg",
-      "url": "http://www.bilibili.com/video/av114810482069355",
-      "upId": "8548711",
-      "upName": "小企鹅OuO",
-      "play": 139,
-      "pubTime": 1751869067000,
-      "duration": "2:37",
-      "category": "音乐配音",
-      "confidence": 0.9,
-      "classificationSource": "model",
-      "classificationReason": "自制凡人修仙传相关的水墨动画配音内容",
-      "contentNature": "secondary_creation",
-      "originality": "deep_adaptation",
-      "eventTag": null,
-      "creatorPotential": "observe",
-      "score": 46,
-      "lane": null,
-      "firstSeenAt": 1786335367268,
-      "lastSeenAt": 1787542424325,
-      "sourceQueries": [
-        "凡人修仙传 配音 翻唱"
-      ],
-      "discoveryModes": [
-        "history"
-      ],
-      "riskFlags": [],
-      "policyReason": "内容可收录，但需人工复核分类或风险",
-      "stats": {
-        "play": 139,
-        "like": 0,
-        "coin": 0,
-        "favorite": 1,
         "reply": 0,
         "danmaku": 0
       }
@@ -4277,6 +4154,88 @@
         "like": 0,
         "coin": 0,
         "favorite": 8,
+        "reply": 0,
+        "danmaku": 0
+      }
+    },
+    {
+      "id": "BV1ATQzBkEwV",
+      "bvid": "BV1ATQzBkEwV",
+      "title": "凡人修仙传里的昆吾三老，这三位在书里属于那种哥已不在江湖，但江湖永远有哥的传说",
+      "description": "-",
+      "cover": "https://i2.hdslb.com/bfs/archive/6ba5b1d3b425ed675b139fc64c9b22ca16a774f8.jpg",
+      "url": "http://www.bilibili.com/video/av116283370640478",
+      "upId": "1624719374",
+      "upName": "青梅说剧o",
+      "play": 896,
+      "pubTime": 1774344372000,
+      "duration": "4:37",
+      "category": "人物志",
+      "confidence": 0.9,
+      "classificationSource": "model",
+      "classificationReason": "凡人修仙传昆吾三老专题，属于人物相关的内容",
+      "contentNature": "character_or_lore",
+      "originality": "deep_adaptation",
+      "eventTag": null,
+      "creatorPotential": "observe",
+      "score": 45,
+      "lane": null,
+      "firstSeenAt": 1784281357983,
+      "lastSeenAt": 1789659489035,
+      "sourceQueries": [
+        "凡人修仙传 混剪 手书"
+      ],
+      "discoveryModes": [
+        "fresh"
+      ],
+      "riskFlags": [],
+      "policyReason": "内容可收录，但需人工复核分类或风险",
+      "stats": {
+        "play": 896,
+        "like": 0,
+        "coin": 0,
+        "favorite": 3,
+        "reply": 0,
+        "danmaku": 0
+      }
+    },
+    {
+      "id": "BV1t7ED6BE4S",
+      "bvid": "BV1t7ED6BE4S",
+      "title": "【凡人修仙传人物志慕沛灵】明明只是简单追爱，为何会引来如此多的骂名？慕沛灵想要的，真的只是韩立的心那么简单吗？",
+      "description": "-",
+      "cover": "https://i1.hdslb.com/bfs/archive/80f717a164c65bc4b1c46b8dcaa35bf6ab317383.jpg",
+      "url": "http://www.bilibili.com/video/av116722883363459",
+      "upId": "3546696309017426",
+      "upName": "熊大朋友圈",
+      "play": 738,
+      "pubTime": 1781050028000,
+      "duration": "3:9",
+      "category": "人物志",
+      "confidence": 0.9,
+      "classificationSource": "model",
+      "classificationReason": "围绕凡人修仙传角色慕沛灵的人物志内容",
+      "contentNature": "character_or_lore",
+      "originality": "deep_adaptation",
+      "eventTag": null,
+      "creatorPotential": "recommend",
+      "score": 45,
+      "lane": null,
+      "firstSeenAt": 1784281357983,
+      "lastSeenAt": 1788534303709,
+      "sourceQueries": [
+        "凡人修仙传 人物志 设定"
+      ],
+      "discoveryModes": [
+        "fresh"
+      ],
+      "riskFlags": [],
+      "policyReason": "内容可收录，但需人工复核分类或风险",
+      "stats": {
+        "play": 738,
+        "like": 0,
+        "coin": 0,
+        "favorite": 2,
         "reply": 0,
         "danmaku": 0
       }
