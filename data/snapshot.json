@@ -1,5 +1,5 @@
 {
-  "generatedAt": 1789781844547,
+  "generatedAt": 1789793004713,
   "series": {
     "title": "凡人修仙传",
     "seasonId": "28747",
@@ -75,11 +75,11 @@
     "cover": "https://i0.hdslb.com/bfs/bangumi/image/19a2d01429bcba6b31791277c016e0d1aa465974.png",
     "newEp": {
       "desc": "6月13日起 每周六11:00",
-      "id": 3854815,
-      "is_new": 0,
-      "title": "191"
+      "id": 3854816,
+      "is_new": 1,
+      "title": "192"
     },
-    "totalCount": 299,
+    "totalCount": 301,
     "episodes": [
       {
         "ep": 1,
@@ -3526,6 +3526,18 @@
         "playUrl": "https://www.bilibili.com/bangumi/play/ep4292435"
       },
       {
+        "ep": 192,
+        "epRaw": "192",
+        "longTitle": "慕兰之战16",
+        "bvid": "BV1SCY26NETK",
+        "aid": 117253127277759,
+        "cover": "http://i0.hdslb.com/bfs/archive/435f312becd189da4066d371abfa63e91e6a9640.jpg",
+        "pubTime": 1789182900000,
+        "duration": 49000,
+        "link": "https://www.bilibili.com/bangumi/play/ep4292436",
+        "playUrl": "https://www.bilibili.com/bangumi/play/ep4292436"
+      },
+      {
         "ep": 181,
         "epRaw": "181",
         "longTitle": "慕兰之战05",
@@ -3661,13 +3673,25 @@
         "ep": 192,
         "epRaw": "192",
         "longTitle": "慕兰之战16",
-        "bvid": "BV1SCY26NETK",
-        "aid": 117253127277759,
-        "cover": "http://i0.hdslb.com/bfs/archive/ffa3640add14f17a58d57fb8c375fa06146a18ce.jpg",
-        "pubTime": 1789182900000,
-        "duration": 49000,
-        "link": "https://www.bilibili.com/bangumi/play/ep4292436",
-        "playUrl": "https://www.bilibili.com/bangumi/play/ep4292436"
+        "bvid": "BV1RxeU6EEah",
+        "aid": 117293392593859,
+        "cover": "http://i0.hdslb.com/bfs/archive/435f312becd189da4066d371abfa63e91e6a9640.jpg",
+        "pubTime": 1789786800000,
+        "duration": 1173000,
+        "link": "https://www.bilibili.com/bangumi/play/ep3854816",
+        "playUrl": "https://www.bilibili.com/bangumi/play/ep3854816"
+      },
+      {
+        "ep": 193,
+        "epRaw": "193",
+        "longTitle": "慕兰之战17",
+        "bvid": "BV1RxeU6EEsM",
+        "aid": 117293392593335,
+        "cover": "http://i0.hdslb.com/bfs/archive/da4b48ca0179169ab8d53c671b40bb766a7f575e.jpg",
+        "pubTime": 1789787700000,
+        "duration": 43000,
+        "link": "https://www.bilibili.com/bangumi/play/ep4292437",
+        "playUrl": "https://www.bilibili.com/bangumi/play/ep4292437"
       }
     ]
   },
@@ -3679,9 +3703,10 @@
         "利维坦LWT"
       ],
       "note": "经典解析向",
+      "source": "search-backfill",
       "error": null,
-      "lastFetched": 1789781597730,
-      "lastSuccess": 1789781597730,
+      "lastFetched": 1789792825899,
+      "lastSuccess": 1789792825899,
       "videos": [
         {
           "bvid": "BV1QSYX6sE46",
@@ -6590,7 +6615,7 @@
           "cover": "https://i1.hdslb.com/bfs/archive/45e92ef6ad531450e72dbc31117b94a13d12f6b2.jpg",
           "pubTime": 1638707383000,
           "duration": "7:7",
-          "play": 664180,
+          "play": 664689,
           "videoUrl": "http://www.bilibili.com/video/av977135204",
           "matched": true,
           "ep": 27,
@@ -18836,9 +18861,26 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1789187878106,
-      "lastSuccess": 1789187878106,
+      "lastFetched": 1789792792654,
+      "lastSuccess": 1789792792654,
       "videos": [
+        {
+          "bvid": "BV1kDeU6AEDK",
+          "aid": 117293124356695,
+          "title": "凡人修仙传 192 集：慕兰圣女乐上师再度现身！黄龙山总攻在即，噬金虫暗藏杀招",
+          "description": "预告解析，希望大家喜欢。正片将于11点更新，链接已放评论区置顶！",
+          "cover": "https://i2.hdslb.com/bfs/archive/4890f531a45b75b490cf54673dae82dd3819591d.jpg",
+          "pubTime": 1789785300000,
+          "duration": "36:15",
+          "play": 1354,
+          "videoUrl": "http://www.bilibili.com/video/av117293124356695",
+          "matched": true,
+          "ep": 192,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [],
+          "discoveredBy": "episode-search"
+        },
         {
           "bvid": "BV1jmY16CEMW",
           "aid": 117253462822476,
@@ -19497,9 +19539,26 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1789187878106,
-      "lastSuccess": 1789187878106,
+      "lastFetched": 1789792792654,
+      "lastSuccess": 1789792792654,
       "videos": [
+        {
+          "bvid": "BV1kDeU6wEyA",
+          "aid": 117293124159454,
+          "title": "凡人修仙传 192 集：谷双蒲身死将计就计！陆元镇设下空城计，慕兰大军将入瓮",
+          "description": "预告解析，希望大家喜欢！正片将于11点更新，链接已放评论区置顶！",
+          "cover": "https://i0.hdslb.com/bfs/archive/e966274a8b191eccfdfd3a6524ae8699209afa85.jpg",
+          "pubTime": 1789785900000,
+          "duration": "23:49",
+          "play": 1832,
+          "videoUrl": "http://www.bilibili.com/video/av117293124159454",
+          "matched": true,
+          "ep": 192,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [],
+          "discoveredBy": "episode-search"
+        },
         {
           "bvid": "BV1omY16CE2i",
           "aid": 117253462951770,
@@ -20687,9 +20746,28 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1789187878106,
-      "lastSuccess": 1789187878106,
+      "lastFetched": 1789792792654,
+      "lastSuccess": 1789792792654,
       "videos": [
+        {
+          "bvid": "BV1FUY46cENN",
+          "aid": 117241651661348,
+          "title": "【凡人修仙传192集】噬金虫云现世！慕兰圣女终于确认韩立身份，两大顶级天骄正面死战",
+          "description": "-",
+          "cover": "https://i0.hdslb.com/bfs/archive/cd7632b5d8b72961c9286a18bd4490db35c789fe.jpg",
+          "pubTime": 1789182600000,
+          "duration": "21:29",
+          "play": 2081,
+          "videoUrl": "http://www.bilibili.com/video/av117241651661348",
+          "matched": true,
+          "ep": 192,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [
+            "韩立"
+          ],
+          "discoveredBy": "episode-search"
+        },
         {
           "bvid": "BV1PEYt66EX1",
           "aid": 117241584619065,
@@ -21466,9 +21544,28 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1789187878106,
-      "lastSuccess": 1789187878106,
+      "lastFetched": 1789792792654,
+      "lastSuccess": 1789792792654,
       "videos": [
+        {
+          "bvid": "BV1jAYX6oEKp",
+          "aid": 117256063293185,
+          "title": "凡人修仙传192集：黄龙山战后余波，韩立再会李缨宁，马知墨试探韩立凡人修仙传凡人修仙传191集",
+          "description": "",
+          "cover": "https://i0.hdslb.com/bfs/archive/a4408c7904951a233c87d3d45520e8c238147cc4.jpg",
+          "pubTime": 1789185800000,
+          "duration": "22:15",
+          "play": 4763,
+          "videoUrl": "http://www.bilibili.com/video/av117256063293185",
+          "matched": true,
+          "ep": 192,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [
+            "韩立"
+          ],
+          "discoveredBy": "episode-search"
+        },
         {
           "bvid": "BV1esY76REnH",
           "aid": 117252103868914,
@@ -32407,9 +32504,28 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1789187878105,
-      "lastSuccess": 1789187878105,
+      "lastFetched": 1789792792654,
+      "lastSuccess": 1789792792654,
       "videos": [
+        {
+          "bvid": "BV1qwYX6tEp2",
+          "aid": 117256080134186,
+          "title": "凡人修仙传第192集，韩立李缨宁终相认！慕兰圣女死拼韩立法宝尽出平手",
+          "description": "",
+          "cover": "https://i1.hdslb.com/bfs/archive/ca5c8fac5d691d74b8aeb936bd861a853210a1ca.jpg",
+          "pubTime": 1789185854000,
+          "duration": "22:18",
+          "play": 14928,
+          "videoUrl": "http://www.bilibili.com/video/av117256080134186",
+          "matched": true,
+          "ep": 192,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [
+            "韩立"
+          ],
+          "discoveredBy": "episode-search"
+        },
         {
           "bvid": "BV1kdt16zEvb",
           "aid": 117216351624575,
@@ -33182,8 +33298,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1789748922538,
-      "lastSuccess": 1789748922538,
+      "lastFetched": 1789792953123,
+      "lastSuccess": 1789792953123,
       "videos": [
         {
           "bvid": "BV1Zg7z6SEY6",
@@ -33942,7 +34058,7 @@
           "cover": "https://i1.hdslb.com/bfs/archive/361acf495f2b29de8f1693684716eec4f64c5753.jpg",
           "pubTime": 1737777607000,
           "duration": "17:29",
-          "play": 10886,
+          "play": 10887,
           "videoUrl": "http://www.bilibili.com/video/av113882433590020",
           "matched": true,
           "ep": 22,
@@ -40517,9 +40633,28 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1788582784743,
-      "lastSuccess": 1788582784743,
+      "lastFetched": 1789792792654,
+      "lastSuccess": 1789792792654,
       "videos": [
+        {
+          "bvid": "BV1Q8YQ6JEZg",
+          "aid": 117256096914065,
+          "title": "【凡人修仙传192集】韩立成为对抗慕兰主力，将计就计灭杀数百法士大军！慕兰圣女现身迎战韩立！",
+          "description": "【凡人修仙传192集】韩立成为对抗慕兰法士主力，将计就计灭杀数百法士大军！慕兰圣女现身迎战韩立！",
+          "cover": "https://i0.hdslb.com/bfs/archive/c3026b2387bb1dbef6c0c4a1680e7ef4c74d3073.jpg",
+          "pubTime": 1789186283000,
+          "duration": "25:38",
+          "play": 39194,
+          "videoUrl": "http://www.bilibili.com/video/av117256096914065",
+          "matched": true,
+          "ep": 192,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [
+            "韩立"
+          ],
+          "discoveredBy": "episode-search"
+        },
         {
           "bvid": "BV1aH4k6GEUR",
           "aid": 117176975499228,
@@ -44543,9 +44678,26 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1787987199700,
-      "lastSuccess": 1787987199700,
+      "lastFetched": 1789792792654,
+      "lastSuccess": 1789792792654,
       "videos": [
+        {
+          "bvid": "BV1JkeQ6NEqF",
+          "aid": 117295540077559,
+          "title": "解说小米，看凡人修仙传第192集",
+          "description": "-",
+          "cover": "https://i1.hdslb.com/bfs/archive/260b1a69c5c509ccf3ef0e84fea1605719b30182.jpg",
+          "pubTime": 1789788296000,
+          "duration": "17:40",
+          "play": 943,
+          "videoUrl": "http://www.bilibili.com/video/av117295540077559",
+          "matched": true,
+          "ep": 192,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [],
+          "discoveredBy": "episode-search"
+        },
         {
           "bvid": "BV1oQ4k6QEja",
           "aid": 117176640080080,
@@ -45940,9 +46092,28 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1785556306201,
-      "lastSuccess": 1785556306201,
+      "lastFetched": 1789792792654,
+      "lastSuccess": 1789792792654,
       "videos": [
+        {
+          "bvid": "BV1biYQ6LE58",
+          "aid": 117256298175834,
+          "title": "韩立缨宁通过暖阳宝玉相认 大战将至收到什么宝物？ 黄龙山的策略有效吗？乐上师又会怎样进攻？凡人192集剧情前瞻",
+          "description": "当天解析流量还是很差 决定还是先做前瞻\n第二十三期预告后续剧情解说，\n逐帧解析改到周天当天解析\n求点赞关注，非常感谢观众老爷们了！\n求推流，求求各位道友点赞 视频才能更好的被推荐",
+          "cover": "https://i0.hdslb.com/bfs/archive/f2531e3702f74912f8880564902373b17c0feb3b.jpg",
+          "pubTime": 1789189237000,
+          "duration": "16:23",
+          "play": 45848,
+          "videoUrl": "http://www.bilibili.com/video/av117256298175834",
+          "matched": true,
+          "ep": 192,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [
+            "韩立"
+          ],
+          "discoveredBy": "episode-search"
+        },
         {
           "bvid": "BV1Yh3K6iEms",
           "aid": 116978786373767,
@@ -47486,9 +47657,28 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1789187878106,
-      "lastSuccess": 1789187878106,
+      "lastFetched": 1789792792654,
+      "lastSuccess": 1789792792654,
       "videos": [
+        {
+          "bvid": "BV1Tuen64E1N",
+          "aid": 117274786660610,
+          "title": "【凡人修仙传192集】韩立与李缨宁相认！以画入道的马知墨！",
+          "description": "韩立终于与李缨宁相认，动画升华马知墨的修道历程，这正是动漫的亮点啊！",
+          "cover": "https://i0.hdslb.com/bfs/archive/6b0b6f3d8f595cf8648a58c3c139ccbda7b33da3.jpg",
+          "pubTime": 1789471252000,
+          "duration": "9:5",
+          "play": 4668,
+          "videoUrl": "http://www.bilibili.com/video/av117274786660610",
+          "matched": true,
+          "ep": 192,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [
+            "韩立"
+          ],
+          "discoveredBy": "episode-search"
+        },
         {
           "bvid": "BV1n7t16iEGi",
           "aid": 117216435571240,
@@ -51454,9 +51644,28 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1789187878106,
-      "lastSuccess": 1789187878106,
+      "lastFetched": 1789792792654,
+      "lastSuccess": 1789792792654,
       "videos": [
+        {
+          "bvid": "BV1Q4ec6VEet",
+          "aid": 117280356828030,
+          "title": "凡人修仙传192集：韩立李缨宁终于相认了！",
+          "description": "一个结丹女修，腰间挂着一块不该出现在她身上的玉佩，面对元婴期的韩立，她明明早就认出了他，却一个字都不说。直到韩立主动开口，她才轻描淡写地提到一个名字：墨彩环。三个字，让百年道心瞬间破防。缨宁为什么不直接相认？韩立接下来做了什么？这段戏里藏着的处世智慧，比打斗精彩一百倍。\n\n关键词：凡人修仙传192集解析、墨彩环意难平、韩立缨宁相认、暖阳宝玉、李缨宁试探、韩立处世智慧、国漫人物解析、凡人修仙传细节解读、缨宁为什么挂玉佩、韩立分寸感\n\n标签：#凡人修仙传  #韩立  #李缨宁  #墨彩环  #凡人修仙传192",
+          "cover": "https://i2.hdslb.com/bfs/archive/b02c443efeca6a43ca61729622fdf54243807de9.jpg",
+          "pubTime": 1789556367000,
+          "duration": "2:56",
+          "play": 168,
+          "videoUrl": "http://www.bilibili.com/video/av117280356828030",
+          "matched": true,
+          "ep": 192,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [
+            "韩立"
+          ],
+          "discoveredBy": "episode-search"
+        },
         {
           "bvid": "BV1GPYD6EEyj",
           "aid": 117255157319029,
@@ -51705,6 +51914,90 @@
       ],
       "recentTitles": [
         "【凡人修仙传】19集逐帧解析"
+      ]
+    },
+    {
+      "uid": "411183509",
+      "name": "动漫播放器998",
+      "alias": [],
+      "note": "按集搜索发现",
+      "source": "search-backfill",
+      "error": null,
+      "lastFetched": 1789792792654,
+      "lastSuccess": 1789792792654,
+      "videos": [
+        {
+          "bvid": "BV1peeQ66ECs",
+          "aid": 117295288419335,
+          "title": "凡人修仙传：第192集～破阵之战",
+          "description": "-",
+          "cover": "https://i0.hdslb.com/bfs/archive/b41de1c8fdfd30473831bbda22b09e418f896eed.jpg",
+          "pubTime": 1789784464000,
+          "duration": "15:28",
+          "play": 5049,
+          "videoUrl": "http://www.bilibili.com/video/av117295288419335",
+          "matched": true,
+          "ep": 192,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [],
+          "discoveredBy": "episode-search"
+        },
+        {
+          "bvid": "BV1oGey6rEnh",
+          "aid": 117289382841049,
+          "title": "凡人修仙传：第192集《破阵之战壹》",
+          "description": "-",
+          "cover": "https://i0.hdslb.com/bfs/archive/400f5ad4d81f8aaf7960ba4c047c0490373c08d2.jpg",
+          "pubTime": 1789694305000,
+          "duration": "15:28",
+          "play": 6797,
+          "videoUrl": "http://www.bilibili.com/video/av117289382841049",
+          "matched": true,
+          "ep": 192,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [],
+          "discoveredBy": "episode-search"
+        }
+      ],
+      "recentTitles": [
+        "凡人修仙传：第192集《破阵之战壹》",
+        "凡人修仙传：第192集～破阵之战"
+      ]
+    },
+    {
+      "uid": "1469720812",
+      "name": "酷迷漫剪",
+      "alias": [],
+      "note": "按集搜索发现",
+      "source": "search-backfill",
+      "error": null,
+      "lastFetched": 1789792792654,
+      "lastSuccess": 1789792792654,
+      "videos": [
+        {
+          "bvid": "BV1Kde36PEFn",
+          "aid": 117286564269143,
+          "title": "凡人修仙传第192集小片段，韩立确认身份，赠两宝给李缨宁。",
+          "description": "-",
+          "cover": "https://i0.hdslb.com/bfs/archive/df2f279a50f91bca905592ebcf50bbfc05e1326c.jpg",
+          "pubTime": 1789651056000,
+          "duration": "1:30",
+          "play": 379,
+          "videoUrl": "http://www.bilibili.com/video/av117286564269143",
+          "matched": true,
+          "ep": 192,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [
+            "韩立"
+          ],
+          "discoveredBy": "episode-search"
+        }
+      ],
+      "recentTitles": [
+        "凡人修仙传第192集小片段，韩立确认身份，赠两宝给李缨宁。"
       ]
     }
   ]
