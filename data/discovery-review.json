@@ -1,12 +1,12 @@
 {
-  "generatedAt": 1790011014495,
+  "generatedAt": 1790059516977,
   "mode": "fresh",
   "taxonomyVersion": 2,
   "policyVersion": 1,
   "summary": {
     "total": 2000,
-    "approved": 71,
-    "review": 93,
+    "approved": 72,
+    "review": 92,
     "rejected": 1836
   },
   "lanes": {
@@ -15,8 +15,8 @@
     "hidden_gem": [
       "BV1HFGK6DEqq",
       "BV1ffMM6VEb2",
-      "BV1aPGu6yENw",
       "BV11F3i6uE14",
+      "BV1aPGu6yENw",
       "BV1uqMg6TERj",
       "BV1RoM46tEQ8",
       "BV1KTMH64EA7",
@@ -66,11 +66,11 @@
       "BV1Bz7g6ME33",
       "BV1Mwge6KEze",
       "BV1rMWDzpEz5",
-      "BV1fJr3BYExB",
-      "BV17zNszhEQ3",
       "BV1G2CrBLEo9",
-      "BV1TkJ56zEQj",
+      "BV1fJr3BYExB",
       "BV16nABzPEmQ",
+      "BV17zNszhEQ3",
+      "BV1TkJ56zEQj",
       "BV1QpE16fEAp",
       "BV1gxfqBTEs3",
       "BV1s2Ts6YEdR",
@@ -80,14 +80,15 @@
       "BV1EdcJz6EPN",
       "BV1V9AUzHEzJ",
       "BV1dV411w72Y",
+      "BV1QGebziE1r",
       "BV12BGk68E5n",
       "BV19w4m1X7xU",
-      "BV1QGebziE1r",
       "BV14KS3YGEk9",
       "BV12MziYDEpZ",
       "BV15rn9z2Egj",
+      "BV1YN7k6DEAR",
       "BV1jhBTYJE5x",
-      "BV1YN7k6DEAR"
+      "BV1bMJCzvEBm"
     ]
   },
   "items": [
@@ -114,7 +115,7 @@
       "score": 85,
       "lane": null,
       "firstSeenAt": 1788676101546,
-      "lastSeenAt": 1790011014495,
+      "lastSeenAt": 1790059516977,
       "sourceQueries": [
         "凡人官方二创大会"
       ],
@@ -458,7 +459,7 @@
       "url": "http://www.bilibili.com/video/av116838830768983",
       "upId": "3546392347806403",
       "upName": "鬼马小柒",
-      "play": 51301,
+      "play": 51546,
       "pubTime": 1782819218000,
       "duration": "2:24",
       "category": "同人创作",
@@ -472,7 +473,7 @@
       "score": 66,
       "lane": null,
       "firstSeenAt": 1789799619041,
-      "lastSeenAt": 1789887377857,
+      "lastSeenAt": 1790059516977,
       "sourceQueries": [
         "南宫婉 二创"
       ],
@@ -482,10 +483,10 @@
       "riskFlags": [],
       "policyReason": "内容可收录，但需人工复核分类或风险",
       "stats": {
-        "play": 51301,
+        "play": 51546,
         "like": 0,
         "coin": 0,
-        "favorite": 222,
+        "favorite": 224,
         "reply": 0,
         "danmaku": 114
       }
@@ -554,7 +555,7 @@
       "score": 60,
       "lane": null,
       "firstSeenAt": 1785132335284,
-      "lastSeenAt": 1789978229138,
+      "lastSeenAt": 1790059516977,
       "sourceQueries": [
         "凡人修仙传 混剪 手书",
         "韩立 二创"
@@ -656,47 +657,6 @@
         "favorite": 97,
         "reply": 226,
         "danmaku": 139
-      }
-    },
-    {
-      "id": "BV1bMJCzvEBm",
-      "bvid": "BV1bMJCzvEBm",
-      "title": "凡人修仙传世界观：基础设定和升级体系是如何逐渐完善的？",
-      "description": "",
-      "cover": "https://i0.hdslb.com/bfs/archive/d0be8a1a0e1e8804eba88c71140c7e11bea0c30e.jpg",
-      "url": "http://www.bilibili.com/video/av115253216023179",
-      "upId": "3546884547283661",
-      "upName": "晨枫动漫",
-      "play": 20850,
-      "pubTime": 1758626033000,
-      "duration": "10:19",
-      "category": "人物志",
-      "confidence": 0.85,
-      "classificationSource": "model",
-      "classificationReason": "围绕凡人修仙传世界观基础设定与升级体系展开的专题内容",
-      "contentNature": "character_or_lore",
-      "originality": "original",
-      "eventTag": null,
-      "creatorPotential": "observe",
-      "score": 59,
-      "lane": null,
-      "firstSeenAt": 1784526884576,
-      "lastSeenAt": 1789978229138,
-      "sourceQueries": [
-        "凡人修仙传 人物志 设定"
-      ],
-      "discoveryModes": [
-        "history"
-      ],
-      "riskFlags": [],
-      "policyReason": "内容可收录，但需人工复核分类或风险",
-      "stats": {
-        "play": 20850,
-        "like": 0,
-        "coin": 0,
-        "favorite": 154,
-        "reply": 0,
-        "danmaku": 39
       }
     },
     {
@@ -933,7 +893,7 @@
       "score": 58,
       "lane": null,
       "firstSeenAt": 1784525133937,
-      "lastSeenAt": 1790011014495,
+      "lastSeenAt": 1790059516977,
       "sourceQueries": [
         "凡人修仙传 二创",
         "凡人官方二创大会",
@@ -1325,7 +1285,7 @@
       "score": 56,
       "lane": null,
       "firstSeenAt": 1785244584356,
-      "lastSeenAt": 1790011014495,
+      "lastSeenAt": 1790059516977,
       "sourceQueries": [
         "凡人官方二创大会",
         "凡人修仙传 鬼畜 整活",
@@ -1492,7 +1452,7 @@
       "score": 55,
       "lane": null,
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1790011014495,
+      "lastSeenAt": 1790059516977,
       "sourceQueries": [
         "凡人修仙传 MMD 同人动画"
       ],
@@ -1616,7 +1576,7 @@
       "score": 54,
       "lane": null,
       "firstSeenAt": 1784954073751,
-      "lastSeenAt": 1789974315372,
+      "lastSeenAt": 1790059516977,
       "sourceQueries": [
         "凡人修仙传 人物志 设定"
       ],
@@ -1768,7 +1728,7 @@
       "url": "http://www.bilibili.com/video/av116906291894910",
       "upId": "3493131924277978",
       "upName": "铁牛牛肉面店主",
-      "play": 3334,
+      "play": 3366,
       "pubTime": 1783848594000,
       "duration": "11:17",
       "category": "人物志",
@@ -1782,7 +1742,7 @@
       "score": 54,
       "lane": null,
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1789974315372,
+      "lastSeenAt": 1790059516977,
       "sourceQueries": [
         "凡人修仙传 人物志 设定"
       ],
@@ -1792,7 +1752,7 @@
       "riskFlags": [],
       "policyReason": "内容可收录，但需人工复核分类或风险",
       "stats": {
-        "play": 3334,
+        "play": 3366,
         "like": 0,
         "coin": 0,
         "favorite": 6,
@@ -2248,7 +2208,7 @@
       "score": 52,
       "lane": null,
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1790011014495,
+      "lastSeenAt": 1790059516977,
       "sourceQueries": [
         "凡人修仙传 混剪 手书"
       ],
@@ -2275,7 +2235,7 @@
       "url": "http://www.bilibili.com/video/av116902416424752",
       "upId": "493143567",
       "upName": "邪修Xsm",
-      "play": 721,
+      "play": 722,
       "pubTime": 1783789594000,
       "duration": "0:48",
       "category": "同人创作",
@@ -2289,7 +2249,7 @@
       "score": 52,
       "lane": null,
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1790011014495,
+      "lastSeenAt": 1790059516977,
       "sourceQueries": [
         "凡人修仙传 鬼畜 整活"
       ],
@@ -2299,7 +2259,7 @@
       "riskFlags": [],
       "policyReason": "内容可收录，但需人工复核分类或风险",
       "stats": {
-        "play": 721,
+        "play": 722,
         "like": 0,
         "coin": 0,
         "favorite": 2,
@@ -2387,6 +2347,47 @@
         "favorite": 1527,
         "reply": 715,
         "danmaku": 1213
+      }
+    },
+    {
+      "id": "BV18YMdz2EDx",
+      "bvid": "BV18YMdz2EDx",
+      "title": "对不起了紫灵，这把我选文思月～【凡人修仙传】",
+      "description": "-",
+      "cover": "https://i0.hdslb.com/bfs/archive/58fc81b71830f5e9e4e1135bea92390b2b1fff1f.jpg",
+      "url": "http://www.bilibili.com/video/av114840999824084",
+      "upId": "213329517",
+      "upName": "动漫制作组",
+      "play": 64620,
+      "pubTime": 1752334932000,
+      "duration": "0:52",
+      "category": "趣味整活",
+      "confidence": 0.7,
+      "classificationSource": "model",
+      "classificationReason": "以凡人修仙传角色选择为主题的趣味整活内容",
+      "contentNature": "secondary_creation",
+      "originality": "light_edit",
+      "eventTag": null,
+      "creatorPotential": "one_off",
+      "score": 51,
+      "lane": null,
+      "firstSeenAt": 1788766264547,
+      "lastSeenAt": 1788766264547,
+      "sourceQueries": [
+        "凡人修仙传 MMD 同人动画"
+      ],
+      "discoveryModes": [
+        "history"
+      ],
+      "riskFlags": [],
+      "policyReason": "疑似轻度剪辑，需人工确认原创性",
+      "stats": {
+        "play": 64620,
+        "like": 0,
+        "coin": 0,
+        "favorite": 1542,
+        "reply": 0,
+        "danmaku": 20
       }
     },
     {
@@ -2542,7 +2543,7 @@
       "score": 51,
       "lane": null,
       "firstSeenAt": 1784695859320,
-      "lastSeenAt": 1790011014495,
+      "lastSeenAt": 1790059516977,
       "sourceQueries": [
         "凡人修仙传 二创",
         "凡人官方二创大会",
@@ -2650,47 +2651,6 @@
       }
     },
     {
-      "id": "BV18YMdz2EDx",
-      "bvid": "BV18YMdz2EDx",
-      "title": "对不起了紫灵，这把我选文思月～【凡人修仙传】",
-      "description": "-",
-      "cover": "https://i0.hdslb.com/bfs/archive/58fc81b71830f5e9e4e1135bea92390b2b1fff1f.jpg",
-      "url": "http://www.bilibili.com/video/av114840999824084",
-      "upId": "213329517",
-      "upName": "动漫制作组",
-      "play": 64620,
-      "pubTime": 1752334932000,
-      "duration": "0:52",
-      "category": "趣味整活",
-      "confidence": 0.7,
-      "classificationSource": "model",
-      "classificationReason": "以凡人修仙传角色选择为主题的趣味整活内容",
-      "contentNature": "secondary_creation",
-      "originality": "light_edit",
-      "eventTag": null,
-      "creatorPotential": "one_off",
-      "score": 50,
-      "lane": null,
-      "firstSeenAt": 1788766264547,
-      "lastSeenAt": 1788766264547,
-      "sourceQueries": [
-        "凡人修仙传 MMD 同人动画"
-      ],
-      "discoveryModes": [
-        "history"
-      ],
-      "riskFlags": [],
-      "policyReason": "疑似轻度剪辑，需人工确认原创性",
-      "stats": {
-        "play": 64620,
-        "like": 0,
-        "coin": 0,
-        "favorite": 1542,
-        "reply": 0,
-        "danmaku": 20
-      }
-    },
-    {
       "id": "BV1YVgv62Eih",
       "bvid": "BV1YVgv62Eih",
       "title": "百合❤南宫婉被曹颖壁咚",
@@ -2755,7 +2715,7 @@
       "score": 50,
       "lane": null,
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1790011014495,
+      "lastSeenAt": 1790059516977,
       "sourceQueries": [
         "凡人修仙传 法宝 功法 人物"
       ],
@@ -3221,7 +3181,7 @@
       "score": 47,
       "lane": null,
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1790011014495,
+      "lastSeenAt": 1790059516977,
       "sourceQueries": [
         "凡人修仙传 法宝 功法 人物"
       ],
@@ -3262,7 +3222,7 @@
       "score": 47,
       "lane": null,
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1790011014495,
+      "lastSeenAt": 1790059516977,
       "sourceQueries": [
         "凡人修仙传 法宝 功法 人物"
       ],
@@ -3344,7 +3304,7 @@
       "score": 47,
       "lane": null,
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1790011014495,
+      "lastSeenAt": 1790059516977,
       "sourceQueries": [
         "凡人修仙传 配音 翻唱"
       ],
@@ -3385,7 +3345,7 @@
       "score": 47,
       "lane": null,
       "firstSeenAt": 1785386371582,
-      "lastSeenAt": 1789974315372,
+      "lastSeenAt": 1790059516977,
       "sourceQueries": [
         "凡人修仙传 二创",
         "凡人官方二创大会",
@@ -3676,7 +3636,7 @@
       "score": 46,
       "lane": null,
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1790011014495,
+      "lastSeenAt": 1790059516977,
       "sourceQueries": [
         "凡人修仙传 混剪 手书"
       ],
