@@ -1,5 +1,5 @@
 {
-  "generatedAt": 1790091581197,
+  "generatedAt": 1790145749795,
   "mode": "fresh",
   "taxonomyVersion": 2,
   "policyVersion": 1,
@@ -15,8 +15,8 @@
     "hidden_gem": [
       "BV1HFGK6DEqq",
       "BV1ffMM6VEb2",
-      "BV1aPGu6yENw",
       "BV11F3i6uE14",
+      "BV1aPGu6yENw",
       "BV1uqMg6TERj",
       "BV1RoM46tEQ8",
       "BV1KTMH64EA7",
@@ -67,10 +67,10 @@
       "BV1Mwge6KEze",
       "BV1rMWDzpEz5",
       "BV1fJr3BYExB",
+      "BV16nABzPEmQ",
       "BV17zNszhEQ3",
       "BV1G2CrBLEo9",
       "BV1TkJ56zEQj",
-      "BV16nABzPEmQ",
       "BV1QpE16fEAp",
       "BV1gxfqBTEs3",
       "BV1s2Ts6YEdR",
@@ -79,9 +79,9 @@
       "BV1EdcJz6EPN",
       "BV1V9AUzHEzJ",
       "BV1dV411w72Y",
+      "BV1QGebziE1r",
       "BV12BGk68E5n",
       "BV19w4m1X7xU",
-      "BV1QGebziE1r",
       "BV14KS3YGEk9",
       "BV12MziYDEpZ",
       "BV15rn9z2Egj",
@@ -550,7 +550,7 @@
       "originality": "light_edit",
       "eventTag": null,
       "creatorPotential": "observe",
-      "score": 60,
+      "score": 61,
       "lane": null,
       "firstSeenAt": 1785132335284,
       "lastSeenAt": 1790059516977,
@@ -932,7 +932,7 @@
       "score": 58,
       "lane": null,
       "firstSeenAt": 1784525133937,
-      "lastSeenAt": 1790091581197,
+      "lastSeenAt": 1790145749795,
       "sourceQueries": [
         "凡人修仙传 二创",
         "凡人官方二创大会",
@@ -1324,7 +1324,7 @@
       "score": 56,
       "lane": null,
       "firstSeenAt": 1785244584356,
-      "lastSeenAt": 1790091581197,
+      "lastSeenAt": 1790145749795,
       "sourceQueries": [
         "凡人官方二创大会",
         "凡人修仙传 鬼畜 整活",
@@ -1384,6 +1384,47 @@
         "favorite": 6885,
         "reply": 426,
         "danmaku": 104
+      }
+    },
+    {
+      "id": "BV1qvTc6XEo6",
+      "bvid": "BV1qvTc6XEo6",
+      "title": "[凡人]南宫婉：韩立，说好的只爱我一人呢！",
+      "description": "-",
+      "cover": "https://i0.hdslb.com/bfs/archive/efae55dfd9a65bed0e61144da2ee9251c89624bf.jpg",
+      "url": "http://www.bilibili.com/video/av116839753451646",
+      "upId": "1434115503",
+      "upName": "红颜录_",
+      "play": 104051,
+      "pubTime": 1782833294000,
+      "duration": "2:17",
+      "category": "同人创作",
+      "confidence": 0.75,
+      "classificationSource": "model",
+      "classificationReason": "围绕凡人修仙传韩立与南宫婉的同人创作内容",
+      "contentNature": "secondary_creation",
+      "originality": "light_edit",
+      "eventTag": null,
+      "creatorPotential": "observe",
+      "score": 55,
+      "lane": null,
+      "firstSeenAt": 1789373108084,
+      "lastSeenAt": 1789373108084,
+      "sourceQueries": [
+        "韩立 二创"
+      ],
+      "discoveryModes": [
+        "history"
+      ],
+      "riskFlags": [],
+      "policyReason": "疑似轻度剪辑，需人工确认原创性",
+      "stats": {
+        "play": 104051,
+        "like": 4678,
+        "coin": 79,
+        "favorite": 552,
+        "reply": 270,
+        "danmaku": 153
       }
     },
     {
@@ -1552,47 +1593,6 @@
       }
     },
     {
-      "id": "BV1qvTc6XEo6",
-      "bvid": "BV1qvTc6XEo6",
-      "title": "[凡人]南宫婉：韩立，说好的只爱我一人呢！",
-      "description": "-",
-      "cover": "https://i0.hdslb.com/bfs/archive/efae55dfd9a65bed0e61144da2ee9251c89624bf.jpg",
-      "url": "http://www.bilibili.com/video/av116839753451646",
-      "upId": "1434115503",
-      "upName": "红颜录_",
-      "play": 104051,
-      "pubTime": 1782833294000,
-      "duration": "2:17",
-      "category": "同人创作",
-      "confidence": 0.75,
-      "classificationSource": "model",
-      "classificationReason": "围绕凡人修仙传韩立与南宫婉的同人创作内容",
-      "contentNature": "secondary_creation",
-      "originality": "light_edit",
-      "eventTag": null,
-      "creatorPotential": "observe",
-      "score": 54,
-      "lane": null,
-      "firstSeenAt": 1789373108084,
-      "lastSeenAt": 1789373108084,
-      "sourceQueries": [
-        "韩立 二创"
-      ],
-      "discoveryModes": [
-        "history"
-      ],
-      "riskFlags": [],
-      "policyReason": "疑似轻度剪辑，需人工确认原创性",
-      "stats": {
-        "play": 104051,
-        "like": 4678,
-        "coin": 79,
-        "favorite": 552,
-        "reply": 270,
-        "danmaku": 153
-      }
-    },
-    {
       "id": "BV1is3K66Eht",
       "bvid": "BV1is3K66Eht",
       "title": "令狐老祖-凡人宇宙最好的宗门老祖！凡人修仙传人物志·4",
@@ -1615,7 +1615,7 @@
       "score": 54,
       "lane": null,
       "firstSeenAt": 1784954073751,
-      "lastSeenAt": 1790091581197,
+      "lastSeenAt": 1790145749795,
       "sourceQueries": [
         "凡人修仙传 人物志 设定"
       ],
@@ -1767,7 +1767,7 @@
       "url": "http://www.bilibili.com/video/av116906291894910",
       "upId": "3493131924277978",
       "upName": "铁牛牛肉面店主",
-      "play": 3378,
+      "play": 3390,
       "pubTime": 1783848594000,
       "duration": "11:17",
       "category": "人物志",
@@ -1781,7 +1781,7 @@
       "score": 54,
       "lane": null,
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1790091581197,
+      "lastSeenAt": 1790145749795,
       "sourceQueries": [
         "凡人修仙传 人物志 设定"
       ],
@@ -1791,7 +1791,7 @@
       "riskFlags": [],
       "policyReason": "内容可收录，但需人工复核分类或风险",
       "stats": {
-        "play": 3378,
+        "play": 3390,
         "like": 0,
         "coin": 0,
         "favorite": 6,
@@ -2141,47 +2141,6 @@
       }
     },
     {
-      "id": "BV1sGnPzWE7c",
-      "bvid": "BV1sGnPzWE7c",
-      "title": "【凡人修仙传】最温柔的哼唱 献给每位旅途中的人",
-      "description": "祝每位旅人，都能举着盛满过去的高脚杯，敬献给撰写未来剧本的自己！\n\n原唱：王铮亮\n翻唱：晚音依旧有点饿\n混音：砚青\n视频：倦云衣",
-      "cover": "https://i0.hdslb.com/bfs/archive/b5b1ea61b27987a76a299c57ad743225a68e6c33.jpg",
-      "url": "http://www.bilibili.com/video/av115248635971272",
-      "upId": "502940943",
-      "upName": "晚音依旧有点饿",
-      "play": 15357,
-      "pubTime": 1758600000000,
-      "duration": "4:34",
-      "category": "音乐配音",
-      "confidence": 0.85,
-      "classificationSource": "model",
-      "classificationReason": "翻唱凡人相关歌曲，属于音乐二次创作",
-      "contentNature": "secondary_creation",
-      "originality": "light_edit",
-      "eventTag": null,
-      "creatorPotential": "one_off",
-      "score": 52,
-      "lane": null,
-      "firstSeenAt": 1788166338588,
-      "lastSeenAt": 1788166338588,
-      "sourceQueries": [
-        "凡人修仙传 配音 翻唱"
-      ],
-      "discoveryModes": [
-        "history"
-      ],
-      "riskFlags": [],
-      "policyReason": "疑似轻度剪辑，需人工确认原创性",
-      "stats": {
-        "play": 15357,
-        "like": 820,
-        "coin": 452,
-        "favorite": 238,
-        "reply": 70,
-        "danmaku": 10
-      }
-    },
-    {
       "id": "BV14zjU6fESX",
       "bvid": "BV14zjU6fESX",
       "title": "（凡人修仙传）得知韩立要带自己回落云宗的南宫婉",
@@ -2247,7 +2206,7 @@
       "score": 52,
       "lane": null,
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1790091581197,
+      "lastSeenAt": 1790145749795,
       "sourceQueries": [
         "凡人修仙传 混剪 手书"
       ],
@@ -2274,7 +2233,7 @@
       "url": "http://www.bilibili.com/video/av116902416424752",
       "upId": "493143567",
       "upName": "邪修Xsm",
-      "play": 722,
+      "play": 724,
       "pubTime": 1783789594000,
       "duration": "0:48",
       "category": "同人创作",
@@ -2288,7 +2247,7 @@
       "score": 52,
       "lane": null,
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1790091581197,
+      "lastSeenAt": 1790145749795,
       "sourceQueries": [
         "凡人修仙传 鬼畜 整活"
       ],
@@ -2298,7 +2257,7 @@
       "riskFlags": [],
       "policyReason": "内容可收录，但需人工复核分类或风险",
       "stats": {
-        "play": 722,
+        "play": 724,
         "like": 0,
         "coin": 0,
         "favorite": 2,
@@ -2541,7 +2500,7 @@
       "score": 51,
       "lane": null,
       "firstSeenAt": 1784695859320,
-      "lastSeenAt": 1790091581197,
+      "lastSeenAt": 1790145749795,
       "sourceQueries": [
         "凡人修仙传 二创",
         "凡人官方二创大会",
@@ -2687,6 +2646,47 @@
         "favorite": 1542,
         "reply": 0,
         "danmaku": 20
+      }
+    },
+    {
+      "id": "BV1sGnPzWE7c",
+      "bvid": "BV1sGnPzWE7c",
+      "title": "【凡人修仙传】最温柔的哼唱 献给每位旅途中的人",
+      "description": "祝每位旅人，都能举着盛满过去的高脚杯，敬献给撰写未来剧本的自己！\n\n原唱：王铮亮\n翻唱：晚音依旧有点饿\n混音：砚青\n视频：倦云衣",
+      "cover": "https://i0.hdslb.com/bfs/archive/b5b1ea61b27987a76a299c57ad743225a68e6c33.jpg",
+      "url": "http://www.bilibili.com/video/av115248635971272",
+      "upId": "502940943",
+      "upName": "晚音依旧有点饿",
+      "play": 15357,
+      "pubTime": 1758600000000,
+      "duration": "4:34",
+      "category": "音乐配音",
+      "confidence": 0.85,
+      "classificationSource": "model",
+      "classificationReason": "翻唱凡人相关歌曲，属于音乐二次创作",
+      "contentNature": "secondary_creation",
+      "originality": "light_edit",
+      "eventTag": null,
+      "creatorPotential": "one_off",
+      "score": 50,
+      "lane": null,
+      "firstSeenAt": 1788166338588,
+      "lastSeenAt": 1788166338588,
+      "sourceQueries": [
+        "凡人修仙传 配音 翻唱"
+      ],
+      "discoveryModes": [
+        "history"
+      ],
+      "riskFlags": [],
+      "policyReason": "疑似轻度剪辑，需人工确认原创性",
+      "stats": {
+        "play": 15357,
+        "like": 820,
+        "coin": 452,
+        "favorite": 238,
+        "reply": 70,
+        "danmaku": 10
       }
     },
     {
@@ -2899,6 +2899,47 @@
       }
     },
     {
+      "id": "BV1JsHvzzESn",
+      "bvid": "BV1JsHvzzESn",
+      "title": "韩立银月情侣小剧场",
+      "description": "",
+      "cover": "https://i2.hdslb.com/bfs/archive/5b5f00d61c7b93cde5956f42f66e4cd5114c4ba2.jpg",
+      "url": "http://www.bilibili.com/video/av115186442768203",
+      "upId": "1578924605",
+      "upName": "江湖好声音之华山论音",
+      "play": 6494,
+      "pubTime": 1757605739000,
+      "duration": "0:47",
+      "category": "剧情二创",
+      "confidence": 0.85,
+      "classificationSource": "model",
+      "classificationReason": "韩立与银月的情侣小剧场，为原创剧情演绎的二次创作",
+      "contentNature": "secondary_creation",
+      "originality": "deep_adaptation",
+      "eventTag": null,
+      "creatorPotential": "observe",
+      "score": 49,
+      "lane": null,
+      "firstSeenAt": 1785132335284,
+      "lastSeenAt": 1789978229138,
+      "sourceQueries": [
+        "凡人修仙传 小剧场"
+      ],
+      "discoveryModes": [
+        "history"
+      ],
+      "riskFlags": [],
+      "policyReason": "内容可收录，但需人工复核分类或风险",
+      "stats": {
+        "play": 6494,
+        "like": 0,
+        "coin": 0,
+        "favorite": 26,
+        "reply": 0,
+        "danmaku": 2
+      }
+    },
+    {
       "id": "BV1hsY6zPECn",
       "bvid": "BV1hsY6zPECn",
       "title": "得吃紫灵 | 韩立元婴心魔 | 超写实3D|凡人修仙传",
@@ -3028,47 +3069,6 @@
         "favorite": 262,
         "reply": 0,
         "danmaku": 55
-      }
-    },
-    {
-      "id": "BV1JsHvzzESn",
-      "bvid": "BV1JsHvzzESn",
-      "title": "韩立银月情侣小剧场",
-      "description": "",
-      "cover": "https://i2.hdslb.com/bfs/archive/5b5f00d61c7b93cde5956f42f66e4cd5114c4ba2.jpg",
-      "url": "http://www.bilibili.com/video/av115186442768203",
-      "upId": "1578924605",
-      "upName": "江湖好声音之华山论音",
-      "play": 6494,
-      "pubTime": 1757605739000,
-      "duration": "0:47",
-      "category": "剧情二创",
-      "confidence": 0.85,
-      "classificationSource": "model",
-      "classificationReason": "韩立与银月的情侣小剧场，为原创剧情演绎的二次创作",
-      "contentNature": "secondary_creation",
-      "originality": "deep_adaptation",
-      "eventTag": null,
-      "creatorPotential": "observe",
-      "score": 48,
-      "lane": null,
-      "firstSeenAt": 1785132335284,
-      "lastSeenAt": 1789978229138,
-      "sourceQueries": [
-        "凡人修仙传 小剧场"
-      ],
-      "discoveryModes": [
-        "history"
-      ],
-      "riskFlags": [],
-      "policyReason": "内容可收录，但需人工复核分类或风险",
-      "stats": {
-        "play": 6494,
-        "like": 0,
-        "coin": 0,
-        "favorite": 26,
-        "reply": 0,
-        "danmaku": 2
       }
     },
     {
@@ -3343,7 +3343,7 @@
       "score": 47,
       "lane": null,
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1790091581197,
+      "lastSeenAt": 1790145749795,
       "sourceQueries": [
         "凡人修仙传 配音 翻唱"
       ],
@@ -3384,7 +3384,7 @@
       "score": 47,
       "lane": null,
       "firstSeenAt": 1785386371582,
-      "lastSeenAt": 1790091581197,
+      "lastSeenAt": 1790145749795,
       "sourceQueries": [
         "凡人修仙传 二创",
         "凡人官方二创大会",
@@ -3570,6 +3570,48 @@
       }
     },
     {
+      "id": "BV1aGe6zKEKE",
+      "bvid": "BV1aGe6zKEKE",
+      "title": "【凡人修仙传】 火龙童子性转版配音尝试，元婴级老怪，换个声线很正常吧。",
+      "description": "应观众老爷要求做的火龙童子配音，新人配音，后期处理有点问题，还请大家多多包涵！！！\n视频链接在此，欢迎各位观众老爷观看原片哦！\n【凡人修仙传：第153话 重返天南1】 https://www.bilibili.com/bangumi/play/ep1231561/?share_source=copy_web",
+      "cover": "https://i1.hdslb.com/bfs/archive/ec9d39ab6ddc55ce512f65333c2d286fa8177206.jpg",
+      "url": "http://www.bilibili.com/video/av115078397428161",
+      "upId": "119795008",
+      "upName": "哥布林の祭司",
+      "play": 2242,
+      "pubTime": 1755957493000,
+      "duration": "4:13",
+      "category": "音乐配音",
+      "confidence": 0.85,
+      "classificationSource": "model",
+      "classificationReason": "凡人修仙传角色火龙童子的性转配音类二次创作内容",
+      "contentNature": "secondary_creation",
+      "originality": "deep_adaptation",
+      "eventTag": null,
+      "creatorPotential": "observe",
+      "score": 46,
+      "lane": null,
+      "firstSeenAt": 1784281357983,
+      "lastSeenAt": 1789373108084,
+      "sourceQueries": [
+        "legacy-published",
+        "凡人修仙传 配音 翻唱"
+      ],
+      "discoveryModes": [
+        "history"
+      ],
+      "riskFlags": [],
+      "policyReason": "内容可收录，但需人工复核分类或风险",
+      "stats": {
+        "play": 2242,
+        "like": 0,
+        "coin": 0,
+        "favorite": 8,
+        "reply": 0,
+        "danmaku": 0
+      }
+    },
+    {
       "id": "BV11SdmBSEVg",
       "bvid": "BV11SdmBSEVg",
       "title": "韩立台词纯享（第一弹）",
@@ -3633,7 +3675,7 @@
       "score": 46,
       "lane": null,
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1790091581197,
+      "lastSeenAt": 1790145749795,
       "sourceQueries": [
         "凡人修仙传 混剪 手书"
       ],
@@ -3690,49 +3732,6 @@
         "favorite": 2,
         "reply": 0,
         "danmaku": 0
-      }
-    },
-    {
-      "id": "BV1dhKC6aEqA",
-      "bvid": "BV1dhKC6aEqA",
-      "title": "陈师姐：明明是我先……韩劳模：加大计量！【凡人官方二创大会】",
-      "description": "BGM:落英-银临",
-      "cover": "https://i1.hdslb.com/bfs/archive/30ab727e6d225c4416df23d7fe95d1c96560d42d.jpg",
-      "url": "http://www.bilibili.com/video/av116947865833824",
-      "upId": "105495768",
-      "upName": "川崎八幡",
-      "play": 585,
-      "pubTime": 1784482958000,
-      "duration": "2:3",
-      "category": "趣味整活",
-      "confidence": 0.85,
-      "classificationSource": "model",
-      "classificationReason": "参与凡人官方二创大会的趣味整活类二次创作",
-      "contentNature": "secondary_creation",
-      "originality": "light_edit",
-      "eventTag": "凡人官方二创大会",
-      "creatorPotential": "one_off",
-      "score": 46,
-      "lane": null,
-      "firstSeenAt": 1789373108084,
-      "lastSeenAt": 1789373108084,
-      "sourceQueries": [
-        "凡人官方二创大会"
-      ],
-      "discoveryModes": [
-        "history"
-      ],
-      "riskFlags": [
-        "weak_relevance"
-      ],
-      "policyReason": "疑似轻度剪辑，需人工确认原创性",
-      "stats": {
-        "play": 585,
-        "like": 0,
-        "coin": 0,
-        "favorite": 3,
-        "reply": 0,
-        "danmaku": 2
       }
     },
     {
@@ -3860,48 +3859,6 @@
       }
     },
     {
-      "id": "BV1aGe6zKEKE",
-      "bvid": "BV1aGe6zKEKE",
-      "title": "【凡人修仙传】 火龙童子性转版配音尝试，元婴级老怪，换个声线很正常吧。",
-      "description": "应观众老爷要求做的火龙童子配音，新人配音，后期处理有点问题，还请大家多多包涵！！！\n视频链接在此，欢迎各位观众老爷观看原片哦！\n【凡人修仙传：第153话 重返天南1】 https://www.bilibili.com/bangumi/play/ep1231561/?share_source=copy_web",
-      "cover": "https://i1.hdslb.com/bfs/archive/ec9d39ab6ddc55ce512f65333c2d286fa8177206.jpg",
-      "url": "http://www.bilibili.com/video/av115078397428161",
-      "upId": "119795008",
-      "upName": "哥布林の祭司",
-      "play": 2242,
-      "pubTime": 1755957493000,
-      "duration": "4:13",
-      "category": "音乐配音",
-      "confidence": 0.85,
-      "classificationSource": "model",
-      "classificationReason": "凡人修仙传角色火龙童子的性转配音类二次创作内容",
-      "contentNature": "secondary_creation",
-      "originality": "deep_adaptation",
-      "eventTag": null,
-      "creatorPotential": "observe",
-      "score": 45,
-      "lane": null,
-      "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1789373108084,
-      "sourceQueries": [
-        "legacy-published",
-        "凡人修仙传 配音 翻唱"
-      ],
-      "discoveryModes": [
-        "history"
-      ],
-      "riskFlags": [],
-      "policyReason": "内容可收录，但需人工复核分类或风险",
-      "stats": {
-        "play": 2242,
-        "like": 0,
-        "coin": 0,
-        "favorite": 8,
-        "reply": 0,
-        "danmaku": 0
-      }
-    },
-    {
       "id": "BV1hw3G6SE2A",
       "bvid": "BV1hw3G6SE2A",
       "title": "合欢宗主倾情演唱，汤圆四水『凡人修仙传』主题歌回全收录",
@@ -3938,6 +3895,49 @@
         "like": 0,
         "coin": 0,
         "favorite": 10,
+        "reply": 0,
+        "danmaku": 2
+      }
+    },
+    {
+      "id": "BV1dhKC6aEqA",
+      "bvid": "BV1dhKC6aEqA",
+      "title": "陈师姐：明明是我先……韩劳模：加大计量！【凡人官方二创大会】",
+      "description": "BGM:落英-银临",
+      "cover": "https://i1.hdslb.com/bfs/archive/30ab727e6d225c4416df23d7fe95d1c96560d42d.jpg",
+      "url": "http://www.bilibili.com/video/av116947865833824",
+      "upId": "105495768",
+      "upName": "川崎八幡",
+      "play": 585,
+      "pubTime": 1784482958000,
+      "duration": "2:3",
+      "category": "趣味整活",
+      "confidence": 0.85,
+      "classificationSource": "model",
+      "classificationReason": "参与凡人官方二创大会的趣味整活类二次创作",
+      "contentNature": "secondary_creation",
+      "originality": "light_edit",
+      "eventTag": "凡人官方二创大会",
+      "creatorPotential": "one_off",
+      "score": 45,
+      "lane": null,
+      "firstSeenAt": 1789373108084,
+      "lastSeenAt": 1789373108084,
+      "sourceQueries": [
+        "凡人官方二创大会"
+      ],
+      "discoveryModes": [
+        "history"
+      ],
+      "riskFlags": [
+        "weak_relevance"
+      ],
+      "policyReason": "疑似轻度剪辑，需人工确认原创性",
+      "stats": {
+        "play": 585,
+        "like": 0,
+        "coin": 0,
+        "favorite": 3,
         "reply": 0,
         "danmaku": 2
       }
