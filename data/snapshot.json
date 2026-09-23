@@ -1,5 +1,5 @@
 {
-  "generatedAt": 1790182743189,
+  "generatedAt": 1790183315144,
   "series": {
     "title": "凡人修仙传",
     "seasonId": "28747",
@@ -28758,8 +28758,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1790163912069,
-      "lastSuccess": 1790163912069,
+      "lastFetched": 1790183315144,
+      "lastSuccess": 1790183315144,
       "videos": [
         {
           "bvid": "BV1754y1Z71N",
@@ -29710,6 +29710,23 @@
           "videoUrl": "http://www.bilibili.com/video/av853666400",
           "matched": true,
           "ep": 19,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [],
+          "discoveredBy": "episode-search"
+        },
+        {
+          "bvid": "BV1k3411K7ML",
+          "aid": 426167960,
+          "title": "凡人修仙传之仙界篇：第14集_坊市交易",
+          "description": "凡人修仙传之仙界篇：第14集_坊市交易",
+          "cover": "https://i0.hdslb.com/bfs/archive/1c581cf3ca8db252f95cf5245323ea57132e7f6f.jpg",
+          "pubTime": 1651572240000,
+          "duration": "11:35",
+          "play": 5624,
+          "videoUrl": "http://www.bilibili.com/video/av426167960",
+          "matched": true,
+          "ep": 14,
           "isCompilation": false,
           "contentType": "episode",
           "characters": [],
@@ -48467,8 +48484,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1790163912069,
-      "lastSuccess": 1790163912069,
+      "lastFetched": 1790183315144,
+      "lastSuccess": 1790183315144,
       "videos": [
         {
           "bvid": "BV1ENcizSEd7",
@@ -48890,6 +48907,23 @@
           "videoUrl": "http://www.bilibili.com/video/av115741181350833",
           "matched": true,
           "ep": 19,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [],
+          "discoveredBy": "episode-search"
+        },
+        {
+          "bvid": "BV1eAmeBKEHa",
+          "aid": 115715277461150,
+          "title": "《凡人修仙传》Reaction 第14集【自制熟肉】",
+          "description": "来源：https://www.youtube.com/watch?v=W0XpRM-1bm0",
+          "cover": "https://i1.hdslb.com/bfs/archive/378625e72c3808a424ea5bca8fa4baa7d7c37665.jpg",
+          "pubTime": 1765684800000,
+          "duration": "14:49",
+          "play": 1829,
+          "videoUrl": "http://www.bilibili.com/video/av115715277461150",
+          "matched": true,
+          "ep": 14,
           "isCompilation": false,
           "contentType": "episode",
           "characters": [],
@@ -52792,9 +52826,26 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1790163840713,
-      "lastSuccess": 1790163840713,
+      "lastFetched": 1790183135386,
+      "lastSuccess": 1790183135386,
       "videos": [
+        {
+          "bvid": "BV1Kcht6NEr8",
+          "aid": 117319732828774,
+          "title": "国漫巅峰凡人修仙传动画系列第18集赏析！",
+          "description": "",
+          "cover": "https://i1.hdslb.com/bfs/archive/60354919f285685cb276c021679f5449aefe127d.jpg",
+          "pubTime": 1790157300000,
+          "duration": "8:36",
+          "play": 39,
+          "videoUrl": "http://www.bilibili.com/video/av117319732828774",
+          "matched": true,
+          "ep": 18,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [],
+          "discoveredBy": "episode-search"
+        },
         {
           "bvid": "BV1uChn6pEyM",
           "aid": 117315605632833,
@@ -53079,6 +53130,38 @@
       ],
       "recentTitles": [
         "凡人修仙传-第19集-韩立第一次飞行天际"
+      ]
+    },
+    {
+      "uid": "1118319201",
+      "name": "吃面不蘸酱",
+      "alias": [],
+      "note": "按集搜索发现",
+      "source": "search-backfill",
+      "error": null,
+      "lastFetched": 1790183181687,
+      "lastSuccess": 1790183181687,
+      "videos": [
+        {
+          "bvid": "BV1xjh46NEdK",
+          "aid": 117318138989845,
+          "title": "国漫巅峰凡人修仙传动画系列第17集赏析！",
+          "description": "",
+          "cover": "https://i0.hdslb.com/bfs/archive/baefe96c3947861e325919199e1e3a01fe877ac0.jpg",
+          "pubTime": 1790132882000,
+          "duration": "9:19",
+          "play": 19,
+          "videoUrl": "http://www.bilibili.com/video/av117318138989845",
+          "matched": true,
+          "ep": 17,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [],
+          "discoveredBy": "episode-search"
+        }
+      ],
+      "recentTitles": [
+        "国漫巅峰凡人修仙传动画系列第17集赏析！"
       ]
     }
   ]
