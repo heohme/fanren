@@ -1,5 +1,5 @@
 {
-  "generatedAt": 1790388035640,
+  "generatedAt": 1790399080816,
   "series": {
     "title": "凡人修仙传",
     "seasonId": "28747",
@@ -75,11 +75,11 @@
     "cover": "https://i0.hdslb.com/bfs/bangumi/image/19a2d01429bcba6b31791277c016e0d1aa465974.png",
     "newEp": {
       "desc": "6月13日起 每周六11:00",
-      "id": 3854816,
-      "is_new": 0,
-      "title": "192"
+      "id": 3854817,
+      "is_new": 1,
+      "title": "193"
     },
-    "totalCount": 301,
+    "totalCount": 303,
     "episodes": [
       {
         "ep": 1,
@@ -3538,6 +3538,18 @@
         "playUrl": "https://www.bilibili.com/bangumi/play/ep4292436"
       },
       {
+        "ep": 193,
+        "epRaw": "193",
+        "longTitle": "慕兰之战17",
+        "bvid": "BV1RxeU6EEsM",
+        "aid": 117293392593335,
+        "cover": "http://i0.hdslb.com/bfs/archive/04c4e32d0f106a78d2caef7da5139371cb2ce252.jpg",
+        "pubTime": 1789787700000,
+        "duration": 43000,
+        "link": "https://www.bilibili.com/bangumi/play/ep4292437",
+        "playUrl": "https://www.bilibili.com/bangumi/play/ep4292437"
+      },
+      {
         "ep": 181,
         "epRaw": "181",
         "longTitle": "慕兰之战05",
@@ -3685,13 +3697,25 @@
         "ep": 193,
         "epRaw": "193",
         "longTitle": "慕兰之战17",
-        "bvid": "BV1RxeU6EEsM",
-        "aid": 117293392593335,
-        "cover": "http://i0.hdslb.com/bfs/archive/da4b48ca0179169ab8d53c671b40bb766a7f575e.jpg",
-        "pubTime": 1789787700000,
+        "bvid": "BV17BaA6dERY",
+        "aid": 117325252529597,
+        "cover": "http://i0.hdslb.com/bfs/archive/04c4e32d0f106a78d2caef7da5139371cb2ce252.jpg",
+        "pubTime": 1790391600000,
+        "duration": 1711000,
+        "link": "https://www.bilibili.com/bangumi/play/ep3854817",
+        "playUrl": "https://www.bilibili.com/bangumi/play/ep3854817"
+      },
+      {
+        "ep": 194,
+        "epRaw": "194",
+        "longTitle": "慕兰之战18",
+        "bvid": "BV1zBaA6dEu6",
+        "aid": 117325252593586,
+        "cover": "http://i0.hdslb.com/bfs/archive/e763c381dc2cf0a3b97bd596f9670c084b948d44.jpg",
+        "pubTime": 1790392500000,
         "duration": 43000,
-        "link": "https://www.bilibili.com/bangumi/play/ep4292437",
-        "playUrl": "https://www.bilibili.com/bangumi/play/ep4292437"
+        "link": "https://www.bilibili.com/bangumi/play/ep4292438",
+        "playUrl": "https://www.bilibili.com/bangumi/play/ep4292438"
       }
     ]
   },
@@ -3703,9 +3727,10 @@
         "利维坦LWT"
       ],
       "note": "经典解析向",
+      "source": "search-backfill",
       "error": null,
-      "lastFetched": 1790387761049,
-      "lastSuccess": 1790387761049,
+      "lastFetched": 1790398879098,
+      "lastSuccess": 1790398879098,
       "videos": [
         {
           "bvid": "BV1ZCeb6NEfN",
@@ -6630,7 +6655,7 @@
           "cover": "https://i1.hdslb.com/bfs/archive/45e92ef6ad531450e72dbc31117b94a13d12f6b2.jpg",
           "pubTime": 1638707383000,
           "duration": "7:7",
-          "play": 665264,
+          "play": 665420,
           "videoUrl": "http://www.bilibili.com/video/av977135204",
           "matched": true,
           "ep": 27,
@@ -13655,9 +13680,10 @@
       "name": "飞天心宏",
       "alias": [],
       "note": "命运流深度解读",
+      "source": "search-backfill",
       "error": null,
-      "lastFetched": 1790387974641,
-      "lastSuccess": 1790387974641,
+      "lastFetched": 1790398830700,
+      "lastSuccess": 1790398830700,
       "videos": [
         {
           "bvid": "BV1EThy6NEa5",
@@ -13683,18 +13709,19 @@
           "aid": 117325218975980,
           "title": "慕兰大军总攻黄龙山，圣女乐上师对上韩立！凡人原著导读第193集",
           "description": "慕兰大军总攻黄龙山，圣女乐上师对上韩立！凡人原著导读第193集",
-          "cover": "http://i1.hdslb.com/bfs/archive/a10a9e719e623582d6348340b3531ea6ef2605fe.jpg",
+          "cover": "https://i1.hdslb.com/bfs/archive/a10a9e719e623582d6348340b3531ea6ef2605fe.jpg",
           "pubTime": 1790241330000,
           "duration": "33:36",
-          "play": 9598,
-          "videoUrl": "https://www.bilibili.com/video/BV1HvaA6ZEWV",
+          "play": 10770,
+          "videoUrl": "http://www.bilibili.com/video/av117325218975980",
           "matched": true,
           "ep": 193,
           "isCompilation": false,
           "contentType": "episode",
           "characters": [
             "韩立"
-          ]
+          ],
+          "discoveredBy": "episode-search"
         },
         {
           "bvid": "BV1Z3eg65EX8",
@@ -19161,9 +19188,47 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1789792792654,
-      "lastSuccess": 1789792792654,
+      "lastFetched": 1790398830700,
+      "lastSuccess": 1790398830700,
       "videos": [
+        {
+          "bvid": "BV1eBhm66EXg",
+          "aid": 117332617726655,
+          "title": "凡人修仙传 193 集：全新噬金虫甲登场！韩立主动请缨，直面慕兰圣女乐上师",
+          "description": "预告解析，希望大家喜欢！正片将于11点更新，链接已放评论区置顶！",
+          "cover": "https://i2.hdslb.com/bfs/archive/4890f531a45b75b490cf54673dae82dd3819591d.jpg",
+          "pubTime": 1790390100000,
+          "duration": "37:3",
+          "play": 2087,
+          "videoUrl": "http://www.bilibili.com/video/av117332617726655",
+          "matched": true,
+          "ep": 193,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [
+            "韩立"
+          ],
+          "discoveredBy": "episode-search"
+        },
+        {
+          "bvid": "BV1qset68EVW",
+          "aid": 117295791931674,
+          "title": "凡人修仙传 193 集：噬金虫甲实战首秀！韩立先锋冲阵，硬抗慕兰大军大范围术法",
+          "description": "预告解析，希望大家喜欢",
+          "cover": "https://i2.hdslb.com/bfs/archive/4890f531a45b75b490cf54673dae82dd3819591d.jpg",
+          "pubTime": 1789791994000,
+          "duration": "36:9",
+          "play": 23633,
+          "videoUrl": "http://www.bilibili.com/video/av117295791931674",
+          "matched": true,
+          "ep": 193,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [
+            "韩立"
+          ],
+          "discoveredBy": "episode-search"
+        },
         {
           "bvid": "BV1kDeU6AEDK",
           "aid": 117293124356695,
@@ -21063,9 +21128,28 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1789792792654,
-      "lastSuccess": 1789792792654,
+      "lastFetched": 1790398830700,
+      "lastSuccess": 1790398830700,
       "videos": [
+        {
+          "bvid": "BV1wkY46NEoz",
+          "aid": 117241718770215,
+          "title": "凡人修仙传193集：仲神师追杀老魔，雷遁也甩不掉，连续四天不眠不休的逃亡，韩立被逼使出精血遁术赌上性命",
+          "description": "-",
+          "cover": "https://i1.hdslb.com/bfs/archive/0be93e157b4c60391525662694d7a609460054a0.jpg",
+          "pubTime": 1789183260000,
+          "duration": "23:36",
+          "play": 11141,
+          "videoUrl": "http://www.bilibili.com/video/av117241718770215",
+          "matched": true,
+          "ep": 193,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [
+            "韩立"
+          ],
+          "discoveredBy": "episode-search"
+        },
         {
           "bvid": "BV1FUY46cENN",
           "aid": 117241651661348,
@@ -21912,9 +21996,28 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1789792792654,
-      "lastSuccess": 1789792792654,
+      "lastFetched": 1790398830700,
+      "lastSuccess": 1790398830700,
       "videos": [
+        {
+          "bvid": "BV19het6sEdk",
+          "aid": 117295724697646,
+          "title": "凡人修仙传第193集：激战黄龙山大阵！韩立战慕兰圣女夺宝",
+          "description": "",
+          "cover": "https://i0.hdslb.com/bfs/archive/a4408c7904951a233c87d3d45520e8c238147cc4.jpg",
+          "pubTime": 1789791003000,
+          "duration": "23:14",
+          "play": 47667,
+          "videoUrl": "http://www.bilibili.com/video/av117295724697646",
+          "matched": true,
+          "ep": 193,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [
+            "韩立"
+          ],
+          "discoveredBy": "episode-search"
+        },
         {
           "bvid": "BV1jAYX6oEKp",
           "aid": 117256063293185,
@@ -26726,9 +26829,29 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1788582784743,
-      "lastSuccess": 1788582784743,
+      "lastFetched": 1790398830700,
+      "lastSuccess": 1790398830700,
       "videos": [
+        {
+          "bvid": "BV1SMYt6jEf5",
+          "aid": 117241433556675,
+          "title": "【凡人修仙传193集】韩立死战慕兰圣女！仲神师三大分身紧追不舍，元婴后期的压迫感逼得韩立不惜燃烧精血逃亡",
+          "description": "-",
+          "cover": "https://i0.hdslb.com/bfs/archive/3ccb755faa06746d3539771804aa1ebb09179403.jpg",
+          "pubTime": 1789183440000,
+          "duration": "23:32",
+          "play": 35450,
+          "videoUrl": "http://www.bilibili.com/video/av117241433556675",
+          "matched": true,
+          "ep": 193,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [
+            "韩立",
+            "元婴"
+          ],
+          "discoveredBy": "episode-search"
+        },
         {
           "bvid": "BV1Ms8P6qEjr",
           "aid": 117130032842643,
@@ -28431,9 +28554,29 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1785556306201,
-      "lastSuccess": 1785556306201,
+      "lastFetched": 1790398830700,
+      "lastSuccess": 1790398830700,
       "videos": [
+        {
+          "bvid": "BV1wGet6BEDz",
+          "aid": 117295657584491,
+          "title": "【凡人修仙传193集】激战黄龙山大阵！韩立底牌尽出死磕元婴后期，血遁连发极限逃脱神师死局！",
+          "description": "",
+          "cover": "https://i1.hdslb.com/bfs/archive/326440e2219316f23f1685570ad034950481d6c9.jpg",
+          "pubTime": 1789790041000,
+          "duration": "44:58",
+          "play": 17019,
+          "videoUrl": "http://www.bilibili.com/video/av117295657584491",
+          "matched": true,
+          "ep": 193,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [
+            "韩立",
+            "元婴"
+          ],
+          "discoveredBy": "episode-search"
+        },
         {
           "bvid": "BV1ui3K6AExe",
           "aid": 116978668865900,
@@ -30016,9 +30159,60 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1785527920409,
-      "lastSuccess": 1785527920409,
+      "lastFetched": 1790398830700,
+      "lastSuccess": 1790398830700,
       "videos": [
+        {
+          "bvid": "BV1smhD6wEpH",
+          "aid": 117335184708762,
+          "title": "我靠，凡人修仙传第193集时长竟有足足28分钟，但后面9分钟是众筹名单，这集质量真高",
+          "description": "-",
+          "cover": "https://i2.hdslb.com/bfs/archive/75b8dfee717c48145091d1ee4b48d538a376ebf6.jpg",
+          "pubTime": 1790393072000,
+          "duration": "0:49",
+          "play": 1432,
+          "videoUrl": "http://www.bilibili.com/video/av117335184708762",
+          "matched": true,
+          "ep": 193,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [],
+          "discoveredBy": "episode-search"
+        },
+        {
+          "bvid": "BV1guag6fEqN",
+          "aid": 117329564276054,
+          "title": "我靠，凡人修仙传今天竟然开启超前点映第193集了，9月25日周五",
+          "description": "-",
+          "cover": "https://i1.hdslb.com/bfs/archive/f62761340260cd0aca46612fea2b8bedefdb4e03.jpg",
+          "pubTime": 1790307274000,
+          "duration": "0:54",
+          "play": 33583,
+          "videoUrl": "http://www.bilibili.com/video/av117329564276054",
+          "matched": true,
+          "ep": 193,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [],
+          "discoveredBy": "episode-search"
+        },
+        {
+          "bvid": "BV1v5aT6ZExr",
+          "aid": 117327114802177,
+          "title": "好消息，凡人修仙传今日正式开启超前点映第193集，9月25日周五",
+          "description": "-",
+          "cover": "https://i0.hdslb.com/bfs/archive/32f8d2dc22daf1dd95f8bf69bd513aa3bbffcd37.jpg",
+          "pubTime": 1790269964000,
+          "duration": "0:51",
+          "play": 24480,
+          "videoUrl": "http://www.bilibili.com/video/av117327114802177",
+          "matched": true,
+          "ep": 193,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [],
+          "discoveredBy": "episode-search"
+        },
         {
           "bvid": "BV1QjFDzCE68",
           "aid": 116044781852400,
@@ -33084,9 +33278,28 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1789792792654,
-      "lastSuccess": 1789792792654,
+      "lastFetched": 1790398830700,
+      "lastSuccess": 1790398830700,
       "videos": [
+        {
+          "bvid": "BV11Met6gEhK",
+          "aid": 117295640745065,
+          "title": "凡人修仙传第193集，黄龙山血战开始！韩立战慕兰圣女夺宝，仲神师万里追杀！",
+          "description": "",
+          "cover": "https://i1.hdslb.com/bfs/archive/1c24140583c06b22dff2177c5165bae635dec9b6.jpg",
+          "pubTime": 1789789577000,
+          "duration": "26:19",
+          "play": 18780,
+          "videoUrl": "http://www.bilibili.com/video/av117295640745065",
+          "matched": true,
+          "ep": 193,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [
+            "韩立"
+          ],
+          "discoveredBy": "episode-search"
+        },
         {
           "bvid": "BV1qwYX6tEp2",
           "aid": 117256080134186,
@@ -41370,9 +41583,28 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1789792792654,
-      "lastSuccess": 1789792792654,
+      "lastFetched": 1790398830700,
+      "lastSuccess": 1790398830700,
       "videos": [
+        {
+          "bvid": "BV1qset6bELC",
+          "aid": 117295791741179,
+          "title": "【凡人修仙传193集】韩立成黄龙山大战主力，阵法灭杀数百法士大军！噬金虫群现身惊呆慕兰圣女！",
+          "description": "【凡人修仙传193集】韩立成为黄龙山大战主力，阵法灭杀数百法士大军！噬金虫群现身惊呆慕兰圣女！",
+          "cover": "https://i0.hdslb.com/bfs/archive/ab806b9000f525121949b7267c68112865fded19.jpg",
+          "pubTime": 1789792219000,
+          "duration": "21:44",
+          "play": 52489,
+          "videoUrl": "http://www.bilibili.com/video/av117295791741179",
+          "matched": true,
+          "ep": 193,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [
+            "韩立"
+          ],
+          "discoveredBy": "episode-search"
+        },
         {
           "bvid": "BV1Q8YQ6JEZg",
           "aid": 117256096914065,
@@ -49568,9 +49800,28 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1787987199700,
-      "lastSuccess": 1787987199700,
+      "lastFetched": 1790398830700,
+      "lastSuccess": 1790398830700,
       "videos": [
+        {
+          "bvid": "BV114h96GEYc",
+          "aid": 117335318859434,
+          "title": "凡人修仙传 第193集 慕兰强攻黄龙山，韩立对战乐上师！",
+          "description": "-",
+          "cover": "https://i2.hdslb.com/bfs/archive/495f412d7506157bd4c39db49f22026dd9a7e811.jpg",
+          "pubTime": 1790395414000,
+          "duration": "14:49",
+          "play": 826,
+          "videoUrl": "http://www.bilibili.com/video/av117335318859434",
+          "matched": true,
+          "ep": 193,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [
+            "韩立"
+          ],
+          "discoveredBy": "episode-search"
+        },
         {
           "bvid": "BV1oVtT69E6x",
           "aid": 117174257585632,
@@ -53213,9 +53464,43 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1789792792654,
-      "lastSuccess": 1789792792654,
+      "lastFetched": 1790398830700,
+      "lastSuccess": 1790398830700,
       "videos": [
+        {
+          "bvid": "BV1TzhD6qEKF",
+          "aid": 117335268526371,
+          "title": "凡人修仙传：第193集中秋特别版",
+          "description": "-",
+          "cover": "https://i1.hdslb.com/bfs/archive/31a573ec2c7d62386b834d773ffb5a73c76c58df.jpg",
+          "pubTime": 1790394332000,
+          "duration": "14:55",
+          "play": 3094,
+          "videoUrl": "http://www.bilibili.com/video/av117335268526371",
+          "matched": true,
+          "ep": 193,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [],
+          "discoveredBy": "episode-search"
+        },
+        {
+          "bvid": "BV1HWag6JEmd",
+          "aid": 117329144909221,
+          "title": "凡人修仙传中秋版～第193集～破阵之战",
+          "description": "-",
+          "cover": "https://i0.hdslb.com/bfs/archive/e12cbc160c69fce757f2e8010506d47c503a380a.jpg",
+          "pubTime": 1790301047000,
+          "duration": "16:20",
+          "play": 25773,
+          "videoUrl": "http://www.bilibili.com/video/av117329144909221",
+          "matched": true,
+          "ep": 193,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [],
+          "discoveredBy": "episode-search"
+        },
         {
           "bvid": "BV1peeQ66ECs",
           "aid": 117295288419335,
@@ -53953,6 +54238,170 @@
       ],
       "recentTitles": [
         "国漫巅峰凡人修仙传动画系列第12集解析！"
+      ]
+    },
+    {
+      "uid": "3546848178473876",
+      "name": "佳琪漫馆",
+      "alias": [],
+      "note": "按集搜索发现",
+      "source": "search-backfill",
+      "error": null,
+      "lastFetched": 1790398830700,
+      "lastSuccess": 1790398830700,
+      "videos": [
+        {
+          "bvid": "BV1ZShy6vEja",
+          "aid": 117330235364372,
+          "title": "凡人明天更新！193集看点解析！",
+          "description": "-",
+          "cover": "https://i0.hdslb.com/bfs/archive/59b71e468e517f33cec46367a2f87c8293b96d28.jpg",
+          "pubTime": 1790317407000,
+          "duration": "3:16",
+          "play": 1623,
+          "videoUrl": "http://www.bilibili.com/video/av117330235364372",
+          "matched": true,
+          "ep": 193,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [],
+          "discoveredBy": "episode-search"
+        }
+      ],
+      "recentTitles": [
+        "凡人明天更新！193集看点解析！"
+      ]
+    },
+    {
+      "uid": "474832863",
+      "name": "山河说凡人",
+      "alias": [],
+      "note": "按集搜索发现",
+      "source": "search-backfill",
+      "error": null,
+      "lastFetched": 1790398830700,
+      "lastSuccess": 1790398830700,
+      "videos": [
+        {
+          "bvid": "BV1amhm6eE7U",
+          "aid": 117332852609526,
+          "title": "凡人修仙传193集播前原著前瞻韩立第一人称迎战乐上师",
+          "description": "黄龙山雾海将破，韩立为什么要主动迎向元婴中期的乐上师？这期从韩立第一人称讲起：一块通灵玉佩牵出的旧债，战前布下的后手，以及预告中逼近大阵的火力与巨兽。\n\n本片依据原著相关章节、动画第192集正片和第193集预告制作。元明灯、银月夺灯和仲神师追击属于原著后续前瞻，是否及何时出现在动画中，以正式播出的内容为准；相关旧集镜头只作氛围画面。",
+          "cover": "https://i0.hdslb.com/bfs/archive/41393a6fa9325bc0cd4addc3e8da73e2abd6e1eb.jpg",
+          "pubTime": 1790357532000,
+          "duration": "6:58",
+          "play": 443,
+          "videoUrl": "http://www.bilibili.com/video/av117332852609526",
+          "matched": true,
+          "ep": 193,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [
+            "韩立"
+          ],
+          "discoveredBy": "episode-search"
+        }
+      ],
+      "recentTitles": [
+        "凡人修仙传193集播前原著前瞻韩立第一人称迎战乐上师"
+      ]
+    },
+    {
+      "uid": "3690988170119499",
+      "name": "白小顽",
+      "alias": [],
+      "note": "按集搜索发现",
+      "source": "search-backfill",
+      "error": null,
+      "lastFetched": 1790398830700,
+      "lastSuccess": 1790398830700,
+      "videos": [
+        {
+          "bvid": "BV1DihD6zEu1",
+          "aid": 117335235106561,
+          "title": "凡人修仙传193集怎么样？来评论区聊聊你的看法",
+          "description": "欢迎各位道友在评论区一起交流，说说你看完这一集的感受。",
+          "cover": "https://i1.hdslb.com/bfs/archive/2808ba64125d4f49193bca6ee474c6442314f4d7.jpg",
+          "pubTime": 1790394701000,
+          "duration": "1:30",
+          "play": 380,
+          "videoUrl": "http://www.bilibili.com/video/av117335235106561",
+          "matched": true,
+          "ep": 193,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [],
+          "discoveredBy": "episode-search"
+        }
+      ],
+      "recentTitles": [
+        "凡人修仙传193集怎么样？来评论区聊聊你的看法"
+      ]
+    },
+    {
+      "uid": "151002413",
+      "name": "_阿龍",
+      "alias": [],
+      "note": "按集搜索发现",
+      "source": "search-backfill",
+      "error": null,
+      "lastFetched": 1790398830700,
+      "lastSuccess": 1790398830700,
+      "videos": [
+        {
+          "bvid": "BV1MHh962EXV",
+          "aid": 117335302145864,
+          "title": "如果用 贪玩蓝月 打开凡人修仙传193集？",
+          "description": "",
+          "cover": "https://i1.hdslb.com/bfs/archive/cbbc2ca3db93973d9b3ed81e3b029e715109de46.jpg",
+          "pubTime": 1790394711000,
+          "duration": "2:16",
+          "play": 158,
+          "videoUrl": "http://www.bilibili.com/video/av117335302145864",
+          "matched": true,
+          "ep": 193,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [],
+          "discoveredBy": "episode-search"
+        }
+      ],
+      "recentTitles": [
+        "如果用 贪玩蓝月 打开凡人修仙传193集？"
+      ]
+    },
+    {
+      "uid": "3747559677889995",
+      "name": "KabarMovie_id",
+      "alias": [],
+      "note": "按集搜索发现",
+      "source": "search-backfill",
+      "error": null,
+      "lastFetched": 1790398830700,
+      "lastSuccess": 1790398830700,
+      "videos": [
+        {
+          "bvid": "BV1vyei6mEqZ",
+          "aid": 117302871725683,
+          "title": "凡人修仙传 第193话 | 韩立开始展现真正实力",
+          "description": "#BstationTerbaru#DongHua#DonghuaTerbaru#donghua#Rekomendasidonghuaterbaik#rekomendasidonghuaterbaru2026#ARecordofAMortalsJourneytoImmo#动画#凡人修仙传193#凡人修仙传动画剧",
+          "cover": "https://i2.hdslb.com/bfs/archive/56d3df9819e6264d564ff0ed216ae26a97db22a4.jpg",
+          "pubTime": 1789899926000,
+          "duration": "14:5",
+          "play": 77,
+          "videoUrl": "http://www.bilibili.com/video/av117302871725683",
+          "matched": true,
+          "ep": 193,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [
+            "韩立"
+          ],
+          "discoveredBy": "episode-search"
+        }
+      ],
+      "recentTitles": [
+        "凡人修仙传 第193话 | 韩立开始展现真正实力"
       ]
     }
   ]
