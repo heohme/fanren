@@ -1,5 +1,5 @@
 {
-  "generatedAt": 1790404500892,
+  "generatedAt": 1790435114931,
   "mode": "fresh",
   "taxonomyVersion": 2,
   "policyVersion": 1,
@@ -15,9 +15,9 @@
     "hidden_gem": [
       "BV1HFGK6DEqq",
       "BV1ffMM6VEb2",
+      "BV1fCMe6JEsx",
       "BV11F3i6uE14",
       "BV1uqMg6TERj",
-      "BV1fCMe6JEsx",
       "BV1RoM46tEQ8",
       "BV1KTMH64EA7",
       "BV16gTp6JEMj",
@@ -551,7 +551,7 @@
       "score": 61,
       "lane": null,
       "firstSeenAt": 1785132335284,
-      "lastSeenAt": 1790059516977,
+      "lastSeenAt": 1790435114931,
       "sourceQueries": [
         "凡人修仙传 混剪 手书",
         "韩立 二创"
@@ -956,6 +956,50 @@
       }
     },
     {
+      "id": "BV1x2dAYeEGP",
+      "bvid": "BV1x2dAYeEGP",
+      "title": "模仿韩立声线",
+      "description": "都说声音像韩立，来模仿下",
+      "cover": "https://i0.hdslb.com/bfs/archive/074211d0017ef4e8323a2cfb0b45a5e951201252.jpg",
+      "url": "http://www.bilibili.com/video/av114306578384451",
+      "upId": "3493279039490100",
+      "upName": "Cv武艺",
+      "play": 133876,
+      "pubTime": 1744180068000,
+      "duration": "1:27",
+      "category": "趣味整活",
+      "confidence": 0.85,
+      "classificationSource": "model",
+      "classificationReason": "该视频为模仿韩立声线的配音作品，属于配音类二次创作",
+      "contentNature": "secondary_creation",
+      "originality": "deep_adaptation",
+      "eventTag": null,
+      "creatorPotential": "one_off",
+      "score": 57,
+      "lane": null,
+      "firstSeenAt": 1784281357983,
+      "lastSeenAt": 1789978229138,
+      "sourceQueries": [
+        "legacy-published",
+        "凡人修仙传 配音 翻唱"
+      ],
+      "discoveryModes": [
+        "history"
+      ],
+      "riskFlags": [
+        "uncertain"
+      ],
+      "policyReason": "内容可收录，但需人工复核分类或风险",
+      "stats": {
+        "play": 133876,
+        "like": 4715,
+        "coin": 212,
+        "favorite": 280,
+        "reply": 274,
+        "danmaku": 199
+      }
+    },
+    {
       "id": "BV1gGmfBKE3q",
       "bvid": "BV1gGmfBKE3q",
       "title": "紫灵 收拾书桌",
@@ -1043,6 +1087,52 @@
       }
     },
     {
+      "id": "BV1qGELzNETu",
+      "bvid": "BV1qGELzNETu",
+      "title": "小作坊出品:  韩哥哥，你是第一次嘛？",
+      "description": "韩立，这么漂亮的妹子不娶回家，你修的是什么道？                (更多精彩漫改，请关注我哦！)",
+      "cover": "https://i0.hdslb.com/bfs/archive/dc0d6b5d45ce10b0641848dd4067e93db9e28701.jpg",
+      "url": "http://www.bilibili.com/video/av114492654492876",
+      "upId": "1472224688",
+      "upName": "萱美琳",
+      "play": 31252,
+      "pubTime": 1747045817000,
+      "duration": "2:12",
+      "category": "同人创作",
+      "confidence": 0.75,
+      "classificationSource": "model",
+      "classificationReason": "凡人修仙传同人剧情创作内容",
+      "contentNature": "secondary_creation",
+      "originality": "deep_adaptation",
+      "eventTag": null,
+      "creatorPotential": "one_off",
+      "score": 57,
+      "lane": null,
+      "firstSeenAt": 1784281357983,
+      "lastSeenAt": 1789978229138,
+      "sourceQueries": [
+        "legacy-published",
+        "凡人修仙传 小剧场",
+        "凡人修仙传 同人",
+        "凡人修仙传 MMD 同人动画",
+        "韩立 二创",
+        "凡人修仙传 鬼畜 整活"
+      ],
+      "discoveryModes": [
+        "history"
+      ],
+      "riskFlags": [],
+      "policyReason": "内容可收录，但需人工复核分类或风险",
+      "stats": {
+        "play": 31252,
+        "like": 0,
+        "coin": 0,
+        "favorite": 221,
+        "reply": 0,
+        "danmaku": 74
+      }
+    },
+    {
       "id": "BV1xo3y6AEbj",
       "bvid": "BV1xo3y6AEbj",
       "title": "慕沛灵与紫凝二创片段【凡人官方二创大会】",
@@ -1124,50 +1214,6 @@
         "favorite": 16,
         "reply": 6,
         "danmaku": 9
-      }
-    },
-    {
-      "id": "BV1x2dAYeEGP",
-      "bvid": "BV1x2dAYeEGP",
-      "title": "模仿韩立声线",
-      "description": "都说声音像韩立，来模仿下",
-      "cover": "https://i0.hdslb.com/bfs/archive/074211d0017ef4e8323a2cfb0b45a5e951201252.jpg",
-      "url": "http://www.bilibili.com/video/av114306578384451",
-      "upId": "3493279039490100",
-      "upName": "Cv武艺",
-      "play": 133876,
-      "pubTime": 1744180068000,
-      "duration": "1:27",
-      "category": "趣味整活",
-      "confidence": 0.85,
-      "classificationSource": "model",
-      "classificationReason": "该视频为模仿韩立声线的配音作品，属于配音类二次创作",
-      "contentNature": "secondary_creation",
-      "originality": "deep_adaptation",
-      "eventTag": null,
-      "creatorPotential": "one_off",
-      "score": 56,
-      "lane": null,
-      "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1789978229138,
-      "sourceQueries": [
-        "legacy-published",
-        "凡人修仙传 配音 翻唱"
-      ],
-      "discoveryModes": [
-        "history"
-      ],
-      "riskFlags": [
-        "uncertain"
-      ],
-      "policyReason": "内容可收录，但需人工复核分类或风险",
-      "stats": {
-        "play": 133876,
-        "like": 4715,
-        "coin": 212,
-        "favorite": 280,
-        "reply": 274,
-        "danmaku": 199
       }
     },
     {
@@ -1254,52 +1300,6 @@
       }
     },
     {
-      "id": "BV1qGELzNETu",
-      "bvid": "BV1qGELzNETu",
-      "title": "小作坊出品:  韩哥哥，你是第一次嘛？",
-      "description": "韩立，这么漂亮的妹子不娶回家，你修的是什么道？                (更多精彩漫改，请关注我哦！)",
-      "cover": "https://i0.hdslb.com/bfs/archive/dc0d6b5d45ce10b0641848dd4067e93db9e28701.jpg",
-      "url": "http://www.bilibili.com/video/av114492654492876",
-      "upId": "1472224688",
-      "upName": "萱美琳",
-      "play": 31252,
-      "pubTime": 1747045817000,
-      "duration": "2:12",
-      "category": "同人创作",
-      "confidence": 0.75,
-      "classificationSource": "model",
-      "classificationReason": "凡人修仙传同人剧情创作内容",
-      "contentNature": "secondary_creation",
-      "originality": "deep_adaptation",
-      "eventTag": null,
-      "creatorPotential": "one_off",
-      "score": 56,
-      "lane": null,
-      "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1789978229138,
-      "sourceQueries": [
-        "legacy-published",
-        "凡人修仙传 小剧场",
-        "凡人修仙传 同人",
-        "凡人修仙传 MMD 同人动画",
-        "韩立 二创",
-        "凡人修仙传 鬼畜 整活"
-      ],
-      "discoveryModes": [
-        "history"
-      ],
-      "riskFlags": [],
-      "policyReason": "内容可收录，但需人工复核分类或风险",
-      "stats": {
-        "play": 31252,
-        "like": 0,
-        "coin": 0,
-        "favorite": 221,
-        "reply": 0,
-        "danmaku": 74
-      }
-    },
-    {
       "id": "BV1JVEK6YEdn",
       "bvid": "BV1JVEK6YEdn",
       "title": "【2026】采访第一个走出考场的韩立",
@@ -1338,48 +1338,6 @@
         "favorite": 15,
         "reply": 0,
         "danmaku": 78
-      }
-    },
-    {
-      "id": "BV1gAVe6jEEP",
-      "bvid": "BV1gAVe6jEEP",
-      "title": "天南渣男韩立！",
-      "description": "",
-      "cover": "https://i2.hdslb.com/bfs/archive/ffa035de7ba21259e72261cb6ddd34016e5ebc1e.jpg",
-      "url": "http://www.bilibili.com/video/av116659482336075",
-      "upId": "3546649473321763",
-      "upName": "LYin落雨呀",
-      "play": 109009,
-      "pubTime": 1780107000000,
-      "duration": "1:14",
-      "category": "人物志",
-      "confidence": 0.7,
-      "classificationSource": "model",
-      "classificationReason": "围绕韩立的人物相关趣味讨论，属于人物主题内容",
-      "contentNature": "character_or_lore",
-      "originality": "light_edit",
-      "eventTag": null,
-      "creatorPotential": "observe",
-      "score": 55,
-      "lane": null,
-      "firstSeenAt": 1788766264547,
-      "lastSeenAt": 1788766264547,
-      "sourceQueries": [
-        "韩立 二创",
-        "凡人修仙传 小剧场"
-      ],
-      "discoveryModes": [
-        "history"
-      ],
-      "riskFlags": [],
-      "policyReason": "人物/设定内容不足 3 分钟，需确认不是竖屏剪辑",
-      "stats": {
-        "play": 109009,
-        "like": 1664,
-        "coin": 85,
-        "favorite": 797,
-        "reply": 138,
-        "danmaku": 82
       }
     },
     {
@@ -1611,7 +1569,7 @@
       "score": 55,
       "lane": null,
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1790404500892,
+      "lastSeenAt": 1790435114931,
       "sourceQueries": [
         "凡人修仙传 MMD 同人动画"
       ],
@@ -1627,6 +1585,48 @@
         "favorite": 34,
         "reply": 28,
         "danmaku": 3
+      }
+    },
+    {
+      "id": "BV1gAVe6jEEP",
+      "bvid": "BV1gAVe6jEEP",
+      "title": "天南渣男韩立！",
+      "description": "",
+      "cover": "https://i2.hdslb.com/bfs/archive/ffa035de7ba21259e72261cb6ddd34016e5ebc1e.jpg",
+      "url": "http://www.bilibili.com/video/av116659482336075",
+      "upId": "3546649473321763",
+      "upName": "LYin落雨呀",
+      "play": 109009,
+      "pubTime": 1780107000000,
+      "duration": "1:14",
+      "category": "人物志",
+      "confidence": 0.7,
+      "classificationSource": "model",
+      "classificationReason": "围绕韩立的人物相关趣味讨论，属于人物主题内容",
+      "contentNature": "character_or_lore",
+      "originality": "light_edit",
+      "eventTag": null,
+      "creatorPotential": "observe",
+      "score": 54,
+      "lane": null,
+      "firstSeenAt": 1788766264547,
+      "lastSeenAt": 1788766264547,
+      "sourceQueries": [
+        "韩立 二创",
+        "凡人修仙传 小剧场"
+      ],
+      "discoveryModes": [
+        "history"
+      ],
+      "riskFlags": [],
+      "policyReason": "人物/设定内容不足 3 分钟，需确认不是竖屏剪辑",
+      "stats": {
+        "play": 109009,
+        "like": 1664,
+        "coin": 85,
+        "favorite": 797,
+        "reply": 138,
+        "danmaku": 82
       }
     },
     {
@@ -2037,7 +2037,7 @@
       "score": 52,
       "lane": null,
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1790404500892,
+      "lastSeenAt": 1790435114931,
       "sourceQueries": [
         "凡人修仙传 混剪 手书"
       ],
@@ -2398,6 +2398,47 @@
       }
     },
     {
+      "id": "BV1mJ47z2E5B",
+      "bvid": "BV1mJ47z2E5B",
+      "title": "韩立逆天改命账单：法宝开路，功法封神",
+      "description": "韩立逆天改命账单：法宝开路，功法封神",
+      "cover": "https://i2.hdslb.com/bfs/archive/f407370bfd7a576a0b44d7d206e14008e4cc65d9.jpg",
+      "url": "http://www.bilibili.com/video/av115348762265850",
+      "upId": "3494356373736420",
+      "upName": "随羽时光机",
+      "play": 1048,
+      "pubTime": 1760082951000,
+      "duration": "2:32",
+      "category": "人物志",
+      "confidence": 0.85,
+      "classificationSource": "model",
+      "classificationReason": "围绕韩立的功法、法宝展开的专题内容",
+      "contentNature": "character_or_lore",
+      "originality": "original",
+      "eventTag": null,
+      "creatorPotential": "observe",
+      "score": 51,
+      "lane": null,
+      "firstSeenAt": 1784281357983,
+      "lastSeenAt": 1790435114931,
+      "sourceQueries": [
+        "凡人修仙传 法宝 功法 人物"
+      ],
+      "discoveryModes": [
+        "fresh"
+      ],
+      "riskFlags": [],
+      "policyReason": "人物/设定内容不足 3 分钟，需确认不是竖屏剪辑",
+      "stats": {
+        "play": 1048,
+        "like": 0,
+        "coin": 0,
+        "favorite": 5,
+        "reply": 0,
+        "danmaku": 0
+      }
+    },
+    {
       "id": "BV1uqTi6uEHy",
       "bvid": "BV1uqTi6uEHy",
       "title": "《归期》凡人修仙传 男声翻唱",
@@ -2562,47 +2603,6 @@
         "favorite": 76,
         "reply": 0,
         "danmaku": 70
-      }
-    },
-    {
-      "id": "BV1mJ47z2E5B",
-      "bvid": "BV1mJ47z2E5B",
-      "title": "韩立逆天改命账单：法宝开路，功法封神",
-      "description": "韩立逆天改命账单：法宝开路，功法封神",
-      "cover": "https://i2.hdslb.com/bfs/archive/f407370bfd7a576a0b44d7d206e14008e4cc65d9.jpg",
-      "url": "http://www.bilibili.com/video/av115348762265850",
-      "upId": "3494356373736420",
-      "upName": "随羽时光机",
-      "play": 1048,
-      "pubTime": 1760082951000,
-      "duration": "2:32",
-      "category": "人物志",
-      "confidence": 0.85,
-      "classificationSource": "model",
-      "classificationReason": "围绕韩立的功法、法宝展开的专题内容",
-      "contentNature": "character_or_lore",
-      "originality": "original",
-      "eventTag": null,
-      "creatorPotential": "observe",
-      "score": 50,
-      "lane": null,
-      "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1790404500892,
-      "sourceQueries": [
-        "凡人修仙传 法宝 功法 人物"
-      ],
-      "discoveryModes": [
-        "fresh"
-      ],
-      "riskFlags": [],
-      "policyReason": "人物/设定内容不足 3 分钟，需确认不是竖屏剪辑",
-      "stats": {
-        "play": 1048,
-        "like": 0,
-        "coin": 0,
-        "favorite": 5,
-        "reply": 0,
-        "danmaku": 0
       }
     },
     {
@@ -2927,7 +2927,7 @@
       "score": 48,
       "lane": null,
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1790404500892,
+      "lastSeenAt": 1790435114931,
       "sourceQueries": [
         "凡人修仙传 法宝 功法 人物"
       ],
@@ -2968,7 +2968,7 @@
       "score": 48,
       "lane": null,
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1790404500892,
+      "lastSeenAt": 1790435114931,
       "sourceQueries": [
         "凡人修仙传 法宝 功法 人物"
       ],
@@ -3023,6 +3023,47 @@
         "like": 0,
         "coin": 0,
         "favorite": 3,
+        "reply": 0,
+        "danmaku": 0
+      }
+    },
+    {
+      "id": "BV1ZDkFBiEFm",
+      "bvid": "BV1ZDkFBiEFm",
+      "title": "天南散修配音汉克唱歌《凡人修仙传》《不凡》原唱是我的偶像王铮亮翻唱清唱混响效果天南散修配音汉克",
+      "description": "-",
+      "cover": "https://i0.hdslb.com/bfs/archive/4bb077361ce11126c7ace9a0dfac5f13681ee7cc.jpg",
+      "url": "http://www.bilibili.com/video/av115899105281677",
+      "upId": "35508411",
+      "upName": "生化危机汉克Coser",
+      "play": 487,
+      "pubTime": 1768480230000,
+      "duration": "3:30",
+      "category": "音乐配音",
+      "confidence": 0.9,
+      "classificationSource": "model",
+      "classificationReason": "凡人修仙传相关的翻唱配音内容",
+      "contentNature": "secondary_creation",
+      "originality": "deep_adaptation",
+      "eventTag": null,
+      "creatorPotential": "observe",
+      "score": 48,
+      "lane": null,
+      "firstSeenAt": 1784281357983,
+      "lastSeenAt": 1790435114931,
+      "sourceQueries": [
+        "凡人修仙传 配音 翻唱"
+      ],
+      "discoveryModes": [
+        "fresh"
+      ],
+      "riskFlags": [],
+      "policyReason": "内容可收录，但需人工复核分类或风险",
+      "stats": {
+        "play": 487,
+        "like": 0,
+        "coin": 0,
+        "favorite": 2,
         "reply": 0,
         "danmaku": 0
       }
@@ -3217,7 +3258,7 @@
       "score": 47,
       "lane": null,
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1790404500892,
+      "lastSeenAt": 1790435114931,
       "sourceQueries": [
         "凡人修仙传 混剪 手书"
       ],
@@ -3269,47 +3310,6 @@
       "policyReason": "内容可收录，但需人工复核分类或风险",
       "stats": {
         "play": 738,
-        "like": 0,
-        "coin": 0,
-        "favorite": 2,
-        "reply": 0,
-        "danmaku": 0
-      }
-    },
-    {
-      "id": "BV1ZDkFBiEFm",
-      "bvid": "BV1ZDkFBiEFm",
-      "title": "天南散修配音汉克唱歌《凡人修仙传》《不凡》原唱是我的偶像王铮亮翻唱清唱混响效果天南散修配音汉克",
-      "description": "-",
-      "cover": "https://i0.hdslb.com/bfs/archive/4bb077361ce11126c7ace9a0dfac5f13681ee7cc.jpg",
-      "url": "http://www.bilibili.com/video/av115899105281677",
-      "upId": "35508411",
-      "upName": "生化危机汉克Coser",
-      "play": 487,
-      "pubTime": 1768480230000,
-      "duration": "3:30",
-      "category": "音乐配音",
-      "confidence": 0.9,
-      "classificationSource": "model",
-      "classificationReason": "凡人修仙传相关的翻唱配音内容",
-      "contentNature": "secondary_creation",
-      "originality": "deep_adaptation",
-      "eventTag": null,
-      "creatorPotential": "observe",
-      "score": 47,
-      "lane": null,
-      "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1790404500892,
-      "sourceQueries": [
-        "凡人修仙传 配音 翻唱"
-      ],
-      "discoveryModes": [
-        "fresh"
-      ],
-      "riskFlags": [],
-      "policyReason": "内容可收录，但需人工复核分类或风险",
-      "stats": {
-        "play": 487,
         "like": 0,
         "coin": 0,
         "favorite": 2,
