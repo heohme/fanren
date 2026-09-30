@@ -1,5 +1,5 @@
 {
-  "generatedAt": 1790753293032,
+  "generatedAt": 1790772210148,
   "series": {
     "title": "凡人修仙传",
     "seasonId": "28747",
@@ -38678,8 +38678,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1789101876620,
-      "lastSuccess": 1789101876620,
+      "lastFetched": 1790772210148,
+      "lastSuccess": 1790772210148,
       "videos": [
         {
           "bvid": "BV1iK75z4EMG",
@@ -38693,6 +38693,23 @@
           "videoUrl": "http://www.bilibili.com/video/av114591841456867",
           "matched": true,
           "ep": 143,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [],
+          "discoveredBy": "episode-search"
+        },
+        {
+          "bvid": "BV1Ma4y1N7Sy",
+          "aid": 654861208,
+          "title": "细节解析！《凡人修仙传》11集对比讲解",
+          "description": "",
+          "cover": "https://i2.hdslb.com/bfs/archive/7deeceb331c9c01fd05701048a1e522f11e9486a.jpg",
+          "pubTime": 1681052610000,
+          "duration": "11:49",
+          "play": 19224,
+          "videoUrl": "http://www.bilibili.com/video/av654861208",
+          "matched": true,
+          "ep": 11,
           "isCompilation": false,
           "contentType": "episode",
           "characters": [],
