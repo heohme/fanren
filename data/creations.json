@@ -1,5 +1,5 @@
 {
-  "generatedAt": 1790753308524,
+  "generatedAt": 1790787538397,
   "mode": "fresh",
   "taxonomyVersion": 2,
   "policyVersion": 1,
@@ -17,7 +17,7 @@
     "剧情二创": 12,
     "趣味整活": 18,
     "混剪手书": 6,
-    "音乐配音": 10,
+    "音乐配音": 7,
     "同人创作": 10
   },
   "lanes": {
@@ -73,7 +73,6 @@
       "BV1Mwge6KEze",
       "BV1rMWDzpEz5",
       "BV1fJr3BYExB",
-      "BV1G2CrBLEo9",
       "BV1QpE16fEAp",
       "BV1TkJ56zEQj",
       "BV1gxfqBTEs3",
@@ -82,17 +81,15 @@
       "BV1EdcJz6EPN",
       "BV1V9AUzHEzJ",
       "BV1o77n6AE2T",
-      "BV1dV411w72Y",
       "BV1PLSwYLEqX",
       "BV1QGebziE1r",
       "BV1Z6uKzQEXg",
-      "BV19w4m1X7xU",
-      "BV12MziYDEpZ",
       "BV14KS3YGEk9",
-      "BV1jhBTYJE5x",
+      "BV12MziYDEpZ",
       "BV1L8TK6aEcQ",
-      "BV1YN7k6DEAR",
-      "BV1nZ4y1r79E"
+      "BV1nZ4y1r79E",
+      "BV1jhBTYJE5x",
+      "BV1YN7k6DEAR"
     ]
   },
   "items": [
@@ -217,7 +214,7 @@
       "score": 85,
       "lane": "hidden_gem",
       "firstSeenAt": 1785560340526,
-      "lastSeenAt": 1790753308524,
+      "lastSeenAt": 1790787538397,
       "sourceQueries": [
         "凡人修仙传 二创",
         "凡人官方二创大会",
@@ -480,10 +477,10 @@
       "originality": "deep_adaptation",
       "eventTag": "凡人官方二创大会",
       "creatorPotential": "observe",
-      "score": 80,
+      "score": 81,
       "lane": "hidden_gem",
       "firstSeenAt": 1785244584356,
-      "lastSeenAt": 1790753308524,
+      "lastSeenAt": 1790787538397,
       "sourceQueries": [
         "凡人官方二创大会",
         "凡人修仙传 人物志 设定"
@@ -682,7 +679,7 @@
       "score": 78,
       "lane": "hidden_gem",
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1790753308524,
+      "lastSeenAt": 1790787538397,
       "sourceQueries": [
         "legacy-published",
         "凡人修仙传 鬼畜 整活"
@@ -749,7 +746,7 @@
       "score": 77,
       "lane": "hidden_gem",
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1790753308524,
+      "lastSeenAt": 1790787538397,
       "sourceQueries": [
         "legacy-published",
         "凡人修仙传 鬼畜 整活",
@@ -831,6 +828,41 @@
       ]
     },
     {
+      "id": "BV1RDd2BFErB",
+      "bvid": "BV1RDd2BFErB",
+      "title": "慕沛灵化神，韩立哪里跑",
+      "description": "-",
+      "cover": "https://i2.hdslb.com/bfs/archive/c82213d2e4bad62598796f49c03a97f9ef78aaf9.jpg",
+      "url": "http://www.bilibili.com/video/av116441781115394",
+      "upId": "668081958",
+      "upName": "人生如初见ok",
+      "play": 477358,
+      "pubTime": 1776760595000,
+      "duration": "13:4",
+      "category": "剧情二创",
+      "confidence": 0.85,
+      "classificationSource": "model",
+      "classificationReason": "虚构的韩立相关剧情内容，属于二次创作",
+      "contentNature": "secondary_creation",
+      "originality": "deep_adaptation",
+      "eventTag": null,
+      "creatorPotential": "observe",
+      "score": 76,
+      "lane": "archive",
+      "firstSeenAt": 1789139423418,
+      "lastSeenAt": 1789799619041,
+      "sourceQueries": [
+        "凡人修仙传 二创",
+        "凡人修仙传 人物志 设定",
+        "凡人修仙传 混剪 手书",
+        "凡人修仙传 同人",
+        "凡人修仙传 MMD 同人动画"
+      ],
+      "discoveryModes": [
+        "fresh"
+      ]
+    },
+    {
       "id": "BV1ksGu6cEdY",
       "bvid": "BV1ksGu6cEdY",
       "title": "尤道友-最菜最装的元婴修士！凡人修仙传人物志·5",
@@ -853,44 +885,9 @@
       "score": 76,
       "lane": "new_creator_watch",
       "firstSeenAt": 1785560340526,
-      "lastSeenAt": 1790753308524,
+      "lastSeenAt": 1790787538397,
       "sourceQueries": [
         "凡人修仙传 人物志 设定"
-      ],
-      "discoveryModes": [
-        "fresh"
-      ]
-    },
-    {
-      "id": "BV1RDd2BFErB",
-      "bvid": "BV1RDd2BFErB",
-      "title": "慕沛灵化神，韩立哪里跑",
-      "description": "-",
-      "cover": "https://i2.hdslb.com/bfs/archive/c82213d2e4bad62598796f49c03a97f9ef78aaf9.jpg",
-      "url": "http://www.bilibili.com/video/av116441781115394",
-      "upId": "668081958",
-      "upName": "人生如初见ok",
-      "play": 477358,
-      "pubTime": 1776760595000,
-      "duration": "13:4",
-      "category": "剧情二创",
-      "confidence": 0.85,
-      "classificationSource": "model",
-      "classificationReason": "虚构的韩立相关剧情内容，属于二次创作",
-      "contentNature": "secondary_creation",
-      "originality": "deep_adaptation",
-      "eventTag": null,
-      "creatorPotential": "observe",
-      "score": 75,
-      "lane": "archive",
-      "firstSeenAt": 1789139423418,
-      "lastSeenAt": 1789799619041,
-      "sourceQueries": [
-        "凡人修仙传 二创",
-        "凡人修仙传 人物志 设定",
-        "凡人修仙传 混剪 手书",
-        "凡人修仙传 同人",
-        "凡人修仙传 MMD 同人动画"
       ],
       "discoveryModes": [
         "fresh"
@@ -1245,7 +1242,7 @@
       "score": 71,
       "lane": "hidden_gem",
       "firstSeenAt": 1784868982615,
-      "lastSeenAt": 1790753308524,
+      "lastSeenAt": 1790787538397,
       "sourceQueries": [
         "凡人修仙传 二创",
         "凡人官方二创大会",
@@ -1311,7 +1308,7 @@
       "score": 69,
       "lane": "archive",
       "firstSeenAt": 1784898301768,
-      "lastSeenAt": 1790753308524,
+      "lastSeenAt": 1790787538397,
       "sourceQueries": [
         "凡人修仙传 二创",
         "凡人官方二创大会",
@@ -1387,33 +1384,35 @@
       ]
     },
     {
-      "id": "BV1G2CrBLEo9",
-      "bvid": "BV1G2CrBLEo9",
-      "title": "[自制MV]落云宗女团给您带来一首《长生梦》",
-      "description": "落云宗女团给您带来一首硬摇滚《长生梦》，可惜落云宗主角女修太少，无奈还得请柳玉、南宫婉来凑个人数，制作水平有限，AI细节难控，大家图个乐呵看吧。",
-      "cover": "https://i1.hdslb.com/bfs/archive/07c10fe61b147d7c9719dc62d349d225304ee262.jpg",
-      "url": "http://www.bilibili.com/video/av115568611037273",
-      "upId": "11646888",
-      "upName": "一奔向未来一",
-      "play": 244891,
-      "pubTime": 1763437165000,
-      "duration": "8:0",
-      "category": "音乐配音",
+      "id": "BV1WMGA6mEmz",
+      "bvid": "BV1WMGA6mEmz",
+      "title": "对别人说话一律“韩立劝学”，对老婆说话却秒变夹子，就该这个韩老魔有老婆！",
+      "description": "就这点素材真要给我磕出花来了",
+      "cover": "https://i0.hdslb.com/bfs/archive/e821ac2a6dd00d868984631f47e530b024f7ebbe.jpg",
+      "url": "http://www.bilibili.com/video/av117013531854597",
+      "upId": "19117246",
+      "upName": "是子丹不是子弹",
+      "play": 20142,
+      "pubTime": 1785484819000,
+      "duration": "5:20",
+      "category": "趣味整活",
       "confidence": 0.85,
       "classificationSource": "model",
-      "classificationReason": "基于《凡人修仙传》角色制作的自制MV音乐二创内容",
+      "classificationReason": "围绕韩立对不同角色的说话风格进行趣味创作，属于二次创作",
       "contentNature": "secondary_creation",
       "originality": "deep_adaptation",
       "eventTag": null,
-      "creatorPotential": "observe",
-      "score": 68,
-      "lane": "archive",
-      "firstSeenAt": 1784526884576,
-      "lastSeenAt": 1788766264547,
+      "creatorPotential": "one_off",
+      "score": 69,
+      "lane": "hidden_gem",
+      "firstSeenAt": 1789223138253,
+      "lastSeenAt": 1789373108084,
       "sourceQueries": [
-        "凡人修仙传 配音 翻唱"
+        "南宫婉 二创",
+        "凡人修仙传 二创"
       ],
       "discoveryModes": [
+        "fresh",
         "history"
       ]
     },
@@ -1446,39 +1445,6 @@
       ],
       "discoveryModes": [
         "fresh"
-      ]
-    },
-    {
-      "id": "BV1WMGA6mEmz",
-      "bvid": "BV1WMGA6mEmz",
-      "title": "对别人说话一律“韩立劝学”，对老婆说话却秒变夹子，就该这个韩老魔有老婆！",
-      "description": "就这点素材真要给我磕出花来了",
-      "cover": "https://i0.hdslb.com/bfs/archive/e821ac2a6dd00d868984631f47e530b024f7ebbe.jpg",
-      "url": "http://www.bilibili.com/video/av117013531854597",
-      "upId": "19117246",
-      "upName": "是子丹不是子弹",
-      "play": 20142,
-      "pubTime": 1785484819000,
-      "duration": "5:20",
-      "category": "趣味整活",
-      "confidence": 0.85,
-      "classificationSource": "model",
-      "classificationReason": "围绕韩立对不同角色的说话风格进行趣味创作，属于二次创作",
-      "contentNature": "secondary_creation",
-      "originality": "deep_adaptation",
-      "eventTag": null,
-      "creatorPotential": "one_off",
-      "score": 68,
-      "lane": "hidden_gem",
-      "firstSeenAt": 1789223138253,
-      "lastSeenAt": 1789373108084,
-      "sourceQueries": [
-        "南宫婉 二创",
-        "凡人修仙传 二创"
-      ],
-      "discoveryModes": [
-        "fresh",
-        "history"
       ]
     },
     {
@@ -1772,38 +1738,6 @@
       ]
     },
     {
-      "id": "BV1dV411w72Y",
-      "bvid": "BV1dV411w72Y",
-      "title": "KTV也能念头通达？炖煮红尘！凡人修仙传《凡人》女声翻唱",
-      "description": "凡人翻唱第二弹指路【原来你的《归期》是遥遥无期 凡人KTV翻唱-哔哩哔哩】 https://b23.tv/6TrDXg9\n怎么说呢，就算是在KTV里，听到这首歌过分熟悉的前奏，还是会有种想按暂停，然后跳到下一集的冲动…",
-      "cover": "https://i2.hdslb.com/bfs/archive/08891efbeae4418abf93b30bc01fe6aa33c73a75.jpg",
-      "url": "http://www.bilibili.com/video/av406121425",
-      "upId": "15166802",
-      "upName": "_雪千寻_",
-      "play": 297274,
-      "pubTime": 1696075200000,
-      "duration": "4:15",
-      "category": "音乐配音",
-      "confidence": 0.9,
-      "classificationSource": "model",
-      "classificationReason": "翻唱凡人修仙传相关歌曲",
-      "contentNature": "secondary_creation",
-      "originality": "deep_adaptation",
-      "eventTag": null,
-      "creatorPotential": "observe",
-      "score": 63,
-      "lane": "archive",
-      "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1788766264547,
-      "sourceQueries": [
-        "legacy-published",
-        "凡人修仙传 配音 翻唱"
-      ],
-      "discoveryModes": [
-        "history"
-      ]
-    },
-    {
       "id": "BV1PLSwYLEqX",
       "bvid": "BV1PLSwYLEqX",
       "title": "这命，他认吗?",
@@ -1920,7 +1854,7 @@
       "score": 63,
       "lane": "new_creator_watch",
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1790753308524,
+      "lastSeenAt": 1790787538397,
       "sourceQueries": [
         "legacy-published",
         "凡人修仙传 人物志 设定"
@@ -1962,34 +1896,32 @@
       ]
     },
     {
-      "id": "BV19w4m1X7xU",
-      "bvid": "BV19w4m1X7xU",
-      "title": "韩立单曲《人生如棋，落子无悔》",
-      "description": "原创曲\n祝贺凡人修仙传100集，真的太好看了",
-      "cover": "https://i2.hdslb.com/bfs/archive/e3340ae07da78392e22039da86b0b4ad9ae0a00f.jpg",
-      "url": "http://www.bilibili.com/video/av1104226650",
-      "upId": "59905809",
-      "upName": "哦呼w",
-      "play": 657215,
-      "pubTime": 1714813500000,
-      "duration": "2:50",
-      "category": "音乐配音",
+      "id": "BV14KS3YGEk9",
+      "bvid": "BV14KS3YGEk9",
+      "title": "归期未有期【凡人修仙传手书/动画】",
+      "description": "人生如棋，落子无悔。\n修仙路远，一别两宽。",
+      "cover": "https://i1.hdslb.com/bfs/archive/bef4037556e57d02b10ba8ea921826cd265faab0.jpg",
+      "url": "http://www.bilibili.com/video/av113396313755549",
+      "upId": "23339444",
+      "upName": "酒碗酒碗",
+      "play": 70131,
+      "pubTime": 1730290691000,
+      "duration": "1:24",
+      "category": "混剪手书",
       "confidence": 0.9,
       "classificationSource": "model",
-      "classificationReason": "为凡人修仙传创作的原创歌曲，属于音乐类二次创作",
+      "classificationReason": "凡人修仙传主题的自制手书二次创作",
       "contentNature": "secondary_creation",
       "originality": "deep_adaptation",
       "eventTag": null,
-      "creatorPotential": "observe",
+      "creatorPotential": "recommend",
       "score": 62,
       "lane": "archive",
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1788766264547,
+      "lastSeenAt": 1790585738979,
       "sourceQueries": [
         "legacy-published",
-        "凡人修仙传 混剪 手书",
-        "凡人修仙传 配音 翻唱",
-        "凡人修仙传 鬼畜 整活"
+        "凡人修仙传 混剪 手书"
       ],
       "discoveryModes": [
         "history"
@@ -2028,6 +1960,37 @@
       ]
     },
     {
+      "id": "BV1L8TK6aEcQ",
+      "bvid": "BV1L8TK6aEcQ",
+      "title": "凡人修仙传人物志！掩月宗南宫阙的一生！本可借势韩立南宫婉！但却弄巧成拙终作茧！",
+      "description": "凡人修仙传人物志！\n掩月宗南宫阙的一生！\n本可借势韩立南宫婉！\n但却弄巧成拙终作茧！",
+      "cover": "https://i0.hdslb.com/bfs/archive/174f5ecc2fb4ad857367b2d69581ce426d947c68.jpg",
+      "url": "http://www.bilibili.com/video/av116825794808043",
+      "upId": "493383447",
+      "upName": "常在湖边走",
+      "play": 41084,
+      "pubTime": 1782620411000,
+      "duration": "7:21",
+      "category": "人物志",
+      "confidence": 0.9,
+      "classificationSource": "model",
+      "classificationReason": "围绕掩月宗南宫阙的生平展开的人物志专题内容",
+      "contentNature": "character_or_lore",
+      "originality": "deep_adaptation",
+      "eventTag": null,
+      "creatorPotential": "recommend",
+      "score": 62,
+      "lane": "archive",
+      "firstSeenAt": 1784281357983,
+      "lastSeenAt": 1789405317289,
+      "sourceQueries": [
+        "凡人修仙传 人物志 设定"
+      ],
+      "discoveryModes": [
+        "fresh"
+      ]
+    },
+    {
       "id": "BV1c3ga6HEFR",
       "bvid": "BV1c3ga6HEFR",
       "title": "【凡人：青易居士】 一个能把韩立护在身后的人！#韩立 #凡人修仙传 #青易居士 #人物志",
@@ -2050,7 +2013,7 @@
       "score": 62,
       "lane": "hidden_gem",
       "firstSeenAt": 1784868982615,
-      "lastSeenAt": 1790753308524,
+      "lastSeenAt": 1790787538397,
       "sourceQueries": [
         "凡人修仙传 人物志 设定"
       ],
@@ -2059,21 +2022,21 @@
       ]
     },
     {
-      "id": "BV14KS3YGEk9",
-      "bvid": "BV14KS3YGEk9",
-      "title": "归期未有期【凡人修仙传手书/动画】",
-      "description": "人生如棋，落子无悔。\n修仙路远，一别两宽。",
-      "cover": "https://i1.hdslb.com/bfs/archive/bef4037556e57d02b10ba8ea921826cd265faab0.jpg",
-      "url": "http://www.bilibili.com/video/av113396313755549",
-      "upId": "23339444",
-      "upName": "酒碗酒碗",
-      "play": 70131,
-      "pubTime": 1730290691000,
-      "duration": "1:24",
-      "category": "混剪手书",
+      "id": "BV1nZ4y1r79E",
+      "bvid": "BV1nZ4y1r79E",
+      "title": "用日语配音打开凡人修仙传！",
+      "description": "这番太上头啦！！！赶紧冲了个pv翻配！",
+      "cover": "https://i2.hdslb.com/bfs/archive/3ac9c46b9105dd308367022f7a171226f166f0c5.jpg",
+      "url": "http://www.bilibili.com/video/av382053137",
+      "upId": "1649943",
+      "upName": "老渡鸽",
+      "play": 62031,
+      "pubTime": 1646636885000,
+      "duration": "1:36",
+      "category": "音乐配音",
       "confidence": 0.9,
       "classificationSource": "model",
-      "classificationReason": "凡人修仙传主题的自制手书二次创作",
+      "classificationReason": "用日语配音凡人修仙传内容，属于二次创作",
       "contentNature": "secondary_creation",
       "originality": "deep_adaptation",
       "eventTag": null,
@@ -2084,7 +2047,7 @@
       "lastSeenAt": 1790585738979,
       "sourceQueries": [
         "legacy-published",
-        "凡人修仙传 混剪 手书"
+        "凡人修仙传 配音 翻唱"
       ],
       "discoveryModes": [
         "history"
@@ -2124,37 +2087,6 @@
       ]
     },
     {
-      "id": "BV1L8TK6aEcQ",
-      "bvid": "BV1L8TK6aEcQ",
-      "title": "凡人修仙传人物志！掩月宗南宫阙的一生！本可借势韩立南宫婉！但却弄巧成拙终作茧！",
-      "description": "凡人修仙传人物志！\n掩月宗南宫阙的一生！\n本可借势韩立南宫婉！\n但却弄巧成拙终作茧！",
-      "cover": "https://i0.hdslb.com/bfs/archive/174f5ecc2fb4ad857367b2d69581ce426d947c68.jpg",
-      "url": "http://www.bilibili.com/video/av116825794808043",
-      "upId": "493383447",
-      "upName": "常在湖边走",
-      "play": 41084,
-      "pubTime": 1782620411000,
-      "duration": "7:21",
-      "category": "人物志",
-      "confidence": 0.9,
-      "classificationSource": "model",
-      "classificationReason": "围绕掩月宗南宫阙的生平展开的人物志专题内容",
-      "contentNature": "character_or_lore",
-      "originality": "deep_adaptation",
-      "eventTag": null,
-      "creatorPotential": "recommend",
-      "score": 61,
-      "lane": "archive",
-      "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1789405317289,
-      "sourceQueries": [
-        "凡人修仙传 人物志 设定"
-      ],
-      "discoveryModes": [
-        "fresh"
-      ]
-    },
-    {
       "id": "BV1YN7k6DEAR",
       "bvid": "BV1YN7k6DEAR",
       "title": "《凡人修仙传》AI自制第205集：谋定坠魔 GTPimage2+seedance2.0制作！#动画 #凡人修仙传 #韩老魔 #国漫",
@@ -2182,38 +2114,6 @@
         "凡人修仙传 小剧场",
         "凡人修仙传 二创",
         "凡人修仙传 同人"
-      ],
-      "discoveryModes": [
-        "history"
-      ]
-    },
-    {
-      "id": "BV1nZ4y1r79E",
-      "bvid": "BV1nZ4y1r79E",
-      "title": "用日语配音打开凡人修仙传！",
-      "description": "这番太上头啦！！！赶紧冲了个pv翻配！",
-      "cover": "https://i2.hdslb.com/bfs/archive/3ac9c46b9105dd308367022f7a171226f166f0c5.jpg",
-      "url": "http://www.bilibili.com/video/av382053137",
-      "upId": "1649943",
-      "upName": "老渡鸽",
-      "play": 62031,
-      "pubTime": 1646636885000,
-      "duration": "1:36",
-      "category": "音乐配音",
-      "confidence": 0.9,
-      "classificationSource": "model",
-      "classificationReason": "用日语配音凡人修仙传内容，属于二次创作",
-      "contentNature": "secondary_creation",
-      "originality": "deep_adaptation",
-      "eventTag": null,
-      "creatorPotential": "recommend",
-      "score": 60,
-      "lane": "archive",
-      "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1790585738979,
-      "sourceQueries": [
-        "legacy-published",
-        "凡人修仙传 配音 翻唱"
       ],
       "discoveryModes": [
         "history"
