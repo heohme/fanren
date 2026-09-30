@@ -1,5 +1,5 @@
 {
-  "generatedAt": 1790701196398,
+  "generatedAt": 1790753308524,
   "mode": "fresh",
   "taxonomyVersion": 2,
   "policyVersion": 1,
@@ -14,10 +14,10 @@
   ],
   "counts": {
     "人物志": 9,
-    "剧情二创": 13,
+    "剧情二创": 12,
     "趣味整活": 18,
     "混剪手书": 6,
-    "音乐配音": 11,
+    "音乐配音": 10,
     "同人创作": 10
   },
   "lanes": {
@@ -27,9 +27,9 @@
       "BV1HFGK6DEqq",
       "BV1ffMM6VEb2",
       "BV11F3i6uE14",
-      "BV1uqMg6TERj",
       "BV1fCMe6JEsx",
       "BV1RoM46tEQ8",
+      "BV1uqMg6TERj",
       "BV1KTMH64EA7",
       "BV16gTp6JEMj",
       "BV1omgx6aEvq",
@@ -74,14 +74,12 @@
       "BV1rMWDzpEz5",
       "BV1fJr3BYExB",
       "BV1G2CrBLEo9",
-      "BV16nABzPEmQ",
       "BV1QpE16fEAp",
       "BV1TkJ56zEQj",
       "BV1gxfqBTEs3",
       "BV1s2Ts6YEdR",
-      "BV1Brx3z5EY8",
-      "BV1EdcJz6EPN",
       "BV1bgVS6dEMQ",
+      "BV1EdcJz6EPN",
       "BV1V9AUzHEzJ",
       "BV1o77n6AE2T",
       "BV1dV411w72Y",
@@ -197,6 +195,40 @@
       ]
     },
     {
+      "id": "BV1HFGK6DEqq",
+      "bvid": "BV1HFGK6DEqq",
+      "title": "⚡️新宝岛⚡️你们要的哈基月纯享版来了！结尾有彩蛋！【凡人官方二创大会】",
+      "description": "应上个视频B友的要求，银月纯享版来了！\n本视频使用音乐《新宝岛》，一起整波文艺复兴！\n使用 updream 制作完成\nB站官方AI制作工具，值得大家一试\nhttps://www.updream.cn/\n购买会员填写邀请码：Tc7qft7tD4\n您可以获得对应的积分奖励",
+      "cover": "https://i1.hdslb.com/bfs/archive/d2c281b7ae3aff01b0fc4481770c4ae1cd42aeaf.jpg",
+      "url": "http://www.bilibili.com/video/av117015947844339",
+      "upId": "171452765",
+      "upName": "卡布奇诺ultra",
+      "play": 12934,
+      "pubTime": 1785546000000,
+      "duration": "1:47",
+      "category": "音乐配音",
+      "confidence": 0.9,
+      "classificationSource": "model",
+      "classificationReason": "使用《凡人修仙传》角色素材改编音乐的二创内容",
+      "contentNature": "secondary_creation",
+      "originality": "deep_adaptation",
+      "eventTag": "凡人官方二创大会",
+      "creatorPotential": "observe",
+      "score": 85,
+      "lane": "hidden_gem",
+      "firstSeenAt": 1785560340526,
+      "lastSeenAt": 1790753308524,
+      "sourceQueries": [
+        "凡人修仙传 二创",
+        "凡人官方二创大会",
+        "凡人修仙传 鬼畜 整活"
+      ],
+      "discoveryModes": [
+        "fresh",
+        "history"
+      ]
+    },
+    {
       "id": "BV1jzKP69EMD",
       "bvid": "BV1jzKP69EMD",
       "title": "⚡️硬扛元婴修士一亲⚡️【凡人官方二创大会】",
@@ -256,40 +288,6 @@
       ],
       "discoveryModes": [
         "fresh"
-      ]
-    },
-    {
-      "id": "BV1HFGK6DEqq",
-      "bvid": "BV1HFGK6DEqq",
-      "title": "⚡️新宝岛⚡️你们要的哈基月纯享版来了！结尾有彩蛋！【凡人官方二创大会】",
-      "description": "应上个视频B友的要求，银月纯享版来了！\n本视频使用音乐《新宝岛》，一起整波文艺复兴！\n使用 updream 制作完成\nB站官方AI制作工具，值得大家一试\nhttps://www.updream.cn/\n购买会员填写邀请码：Tc7qft7tD4\n您可以获得对应的积分奖励",
-      "cover": "https://i1.hdslb.com/bfs/archive/d2c281b7ae3aff01b0fc4481770c4ae1cd42aeaf.jpg",
-      "url": "http://www.bilibili.com/video/av117015947844339",
-      "upId": "171452765",
-      "upName": "卡布奇诺ultra",
-      "play": 12934,
-      "pubTime": 1785546000000,
-      "duration": "1:47",
-      "category": "音乐配音",
-      "confidence": 0.9,
-      "classificationSource": "model",
-      "classificationReason": "使用《凡人修仙传》角色素材改编音乐的二创内容",
-      "contentNature": "secondary_creation",
-      "originality": "deep_adaptation",
-      "eventTag": "凡人官方二创大会",
-      "creatorPotential": "observe",
-      "score": 84,
-      "lane": "hidden_gem",
-      "firstSeenAt": 1785560340526,
-      "lastSeenAt": 1790701196398,
-      "sourceQueries": [
-        "凡人修仙传 二创",
-        "凡人官方二创大会",
-        "凡人修仙传 鬼畜 整活"
-      ],
-      "discoveryModes": [
-        "fresh",
-        "history"
       ]
     },
     {
@@ -485,7 +483,7 @@
       "score": 80,
       "lane": "hidden_gem",
       "firstSeenAt": 1785244584356,
-      "lastSeenAt": 1790701196398,
+      "lastSeenAt": 1790753308524,
       "sourceQueries": [
         "凡人官方二创大会",
         "凡人修仙传 人物志 设定"
@@ -591,40 +589,6 @@
       ]
     },
     {
-      "id": "BV1uqMg6TERj",
-      "bvid": "BV1uqMg6TERj",
-      "title": "⚡韩立神师摇一摇⚡【凡人官方二创大会】",
-      "description": "严父即将登场，老魔摇一摇热身准备跑路~\n部分画面来源：@兰斯的画室LanceStudio",
-      "cover": "https://i2.hdslb.com/bfs/archive/743d964412924baa035b2880bbf3928faad6ea6b.jpg",
-      "url": "http://www.bilibili.com/video/av116883877530037",
-      "upId": "3546926083475628",
-      "upName": "凡人柳玉",
-      "play": 48995,
-      "pubTime": 1783506635000,
-      "duration": "1:8",
-      "category": "趣味整活",
-      "confidence": 0.9,
-      "classificationSource": "model",
-      "classificationReason": "参与凡人官方二创大会的趣味整活类二次创作",
-      "contentNature": "secondary_creation",
-      "originality": "deep_adaptation",
-      "eventTag": "凡人官方二创大会",
-      "creatorPotential": "one_off",
-      "score": 79,
-      "lane": "hidden_gem",
-      "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1790701196398,
-      "sourceQueries": [
-        "legacy-published",
-        "凡人修仙传 鬼畜 整活",
-        "凡人官方二创大会"
-      ],
-      "discoveryModes": [
-        "history",
-        "fresh"
-      ]
-    },
-    {
       "id": "BV1fCMe6JEsx",
       "bvid": "BV1fCMe6JEsx",
       "title": "我错了吗？我没错！- 师姐南宫阙【凡人官方二创大会】",
@@ -718,7 +682,7 @@
       "score": 78,
       "lane": "hidden_gem",
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1790701196398,
+      "lastSeenAt": 1790753308524,
       "sourceQueries": [
         "legacy-published",
         "凡人修仙传 鬼畜 整活"
@@ -759,6 +723,72 @@
       ],
       "discoveryModes": [
         "fresh",
+        "history"
+      ]
+    },
+    {
+      "id": "BV1uqMg6TERj",
+      "bvid": "BV1uqMg6TERj",
+      "title": "⚡韩立神师摇一摇⚡【凡人官方二创大会】",
+      "description": "严父即将登场，老魔摇一摇热身准备跑路~\n部分画面来源：@兰斯的画室LanceStudio",
+      "cover": "https://i2.hdslb.com/bfs/archive/743d964412924baa035b2880bbf3928faad6ea6b.jpg",
+      "url": "http://www.bilibili.com/video/av116883877530037",
+      "upId": "3546926083475628",
+      "upName": "凡人柳玉",
+      "play": 49497,
+      "pubTime": 1783506635000,
+      "duration": "1:8",
+      "category": "趣味整活",
+      "confidence": 0.9,
+      "classificationSource": "model",
+      "classificationReason": "参与凡人官方二创大会的趣味整活类二次创作",
+      "contentNature": "secondary_creation",
+      "originality": "deep_adaptation",
+      "eventTag": "凡人官方二创大会",
+      "creatorPotential": "one_off",
+      "score": 77,
+      "lane": "hidden_gem",
+      "firstSeenAt": 1784281357983,
+      "lastSeenAt": 1790753308524,
+      "sourceQueries": [
+        "legacy-published",
+        "凡人修仙传 鬼畜 整活",
+        "凡人官方二创大会"
+      ],
+      "discoveryModes": [
+        "history",
+        "fresh"
+      ]
+    },
+    {
+      "id": "BV1KTMH64EA7",
+      "bvid": "BV1KTMH64EA7",
+      "title": "用这217年结婴风霜重新填词《年轮》【凡人官方二创大会】",
+      "description": "作品类型：填词二创\n原曲：年轮\n策划：玖琉の世界 \n混音：星辰_up \n演唱：阿陶耶\n剪辑：非鱼_Fy\n终究平凡不平庸！",
+      "cover": "https://i2.hdslb.com/bfs/archive/901ed6af106493a6d19f84aac7c7e7099b3e83bf.jpg",
+      "url": "http://www.bilibili.com/video/av116890135435884",
+      "upId": "625186072",
+      "upName": "玖琉の世界",
+      "play": 8755,
+      "pubTime": 1783677900000,
+      "duration": "3:47",
+      "category": "音乐配音",
+      "confidence": 0.9,
+      "classificationSource": "model",
+      "classificationReason": "参与凡人官方二创大会的填词类音乐二次创作",
+      "contentNature": "secondary_creation",
+      "originality": "deep_adaptation",
+      "eventTag": "凡人官方二创大会",
+      "creatorPotential": "observe",
+      "score": 77,
+      "lane": "hidden_gem",
+      "firstSeenAt": 1788166338588,
+      "lastSeenAt": 1789373108084,
+      "sourceQueries": [
+        "凡人修仙传 配音 翻唱",
+        "凡人官方二创大会"
+      ],
+      "discoveryModes": [
         "history"
       ]
     },
@@ -823,44 +853,12 @@
       "score": 76,
       "lane": "new_creator_watch",
       "firstSeenAt": 1785560340526,
-      "lastSeenAt": 1790701196398,
+      "lastSeenAt": 1790753308524,
       "sourceQueries": [
         "凡人修仙传 人物志 设定"
       ],
       "discoveryModes": [
         "fresh"
-      ]
-    },
-    {
-      "id": "BV1KTMH64EA7",
-      "bvid": "BV1KTMH64EA7",
-      "title": "用这217年结婴风霜重新填词《年轮》【凡人官方二创大会】",
-      "description": "作品类型：填词二创\n原曲：年轮\n策划：玖琉の世界 \n混音：星辰_up \n演唱：阿陶耶\n剪辑：非鱼_Fy\n终究平凡不平庸！",
-      "cover": "https://i2.hdslb.com/bfs/archive/901ed6af106493a6d19f84aac7c7e7099b3e83bf.jpg",
-      "url": "http://www.bilibili.com/video/av116890135435884",
-      "upId": "625186072",
-      "upName": "玖琉の世界",
-      "play": 8755,
-      "pubTime": 1783677900000,
-      "duration": "3:47",
-      "category": "音乐配音",
-      "confidence": 0.9,
-      "classificationSource": "model",
-      "classificationReason": "参与凡人官方二创大会的填词类音乐二次创作",
-      "contentNature": "secondary_creation",
-      "originality": "deep_adaptation",
-      "eventTag": "凡人官方二创大会",
-      "creatorPotential": "observe",
-      "score": 76,
-      "lane": "hidden_gem",
-      "firstSeenAt": 1788166338588,
-      "lastSeenAt": 1789373108084,
-      "sourceQueries": [
-        "凡人修仙传 配音 翻唱",
-        "凡人官方二创大会"
-      ],
-      "discoveryModes": [
-        "history"
       ]
     },
     {
@@ -1247,7 +1245,7 @@
       "score": 71,
       "lane": "hidden_gem",
       "firstSeenAt": 1784868982615,
-      "lastSeenAt": 1790701196398,
+      "lastSeenAt": 1790753308524,
       "sourceQueries": [
         "凡人修仙传 二创",
         "凡人官方二创大会",
@@ -1313,7 +1311,7 @@
       "score": 69,
       "lane": "archive",
       "firstSeenAt": 1784898301768,
-      "lastSeenAt": 1790701196398,
+      "lastSeenAt": 1790753308524,
       "sourceQueries": [
         "凡人修仙传 二创",
         "凡人官方二创大会",
@@ -1420,39 +1418,6 @@
       ]
     },
     {
-      "id": "BV16nABzPEmQ",
-      "bvid": "BV16nABzPEmQ",
-      "title": "韩立和紫灵的凡人生活",
-      "description": "emmmm，即梦服务器还是卡，青竹小轩还得断更一天",
-      "cover": "https://i1.hdslb.com/bfs/archive/a0ad413481d355fbc4f547ff96db354b54115cd2.jpg",
-      "url": "http://www.bilibili.com/video/av116152894291969",
-      "upId": "4078757",
-      "upName": "ayanarei",
-      "play": 26422,
-      "pubTime": 1772352556000,
-      "duration": "1:0",
-      "category": "剧情二创",
-      "confidence": 0.85,
-      "classificationSource": "model",
-      "classificationReason": "创作《凡人修仙传》韩立与紫灵的同人日常剧情内容",
-      "contentNature": "secondary_creation",
-      "originality": "deep_adaptation",
-      "eventTag": null,
-      "creatorPotential": "one_off",
-      "score": 68,
-      "lane": "archive",
-      "firstSeenAt": 1785132335284,
-      "lastSeenAt": 1788766264547,
-      "sourceQueries": [
-        "韩立 二创",
-        "凡人修仙传 小剧场",
-        "凡人修仙传 二创"
-      ],
-      "discoveryModes": [
-        "history"
-      ]
-    },
-    {
       "id": "BV1QpE16fEAp",
       "bvid": "BV1QpE16fEAp",
       "title": "【宋玉与卫师兄的秘辛】——凡人修仙传人物志之宋玉篇",
@@ -1513,6 +1478,37 @@
       ],
       "discoveryModes": [
         "fresh",
+        "history"
+      ]
+    },
+    {
+      "id": "BV1jAM86AEVP",
+      "bvid": "BV1jAM86AEVP",
+      "title": "修罗场预警！银月漏嘴爆大料，韩立乱星海的“风流账”兜不住了！【凡人官方二创大会】",
+      "description": "韩立刚离开，器灵银月便向南宫婉疯狂漏嘴，爆出韩立在乱星海看元瑶沐浴、与梅凝亲吻等诸多“风流账”。南宫婉醋意大发，手持朱雀环杀气腾腾地踹开药园大门，对毫无防备的韩立展开“家暴”。韩立痛骂银月坑主并连连求饶，上演爆笑修罗场。",
+      "cover": "https://i2.hdslb.com/bfs/archive/30d7accda80f04833cdabc2164b46985157f7019.jpg",
+      "url": "http://www.bilibili.com/video/av116878156699557",
+      "upId": "397462959",
+      "upName": "翘翘日志",
+      "play": 7850,
+      "pubTime": 1783419325000,
+      "duration": "1:43",
+      "category": "剧情二创",
+      "confidence": 0.95,
+      "classificationSource": "model",
+      "classificationReason": "参与凡人官方二创大会的原创剧情二创，围绕韩立与银月的修罗场展开",
+      "contentNature": "secondary_creation",
+      "originality": "deep_adaptation",
+      "eventTag": "凡人官方二创大会",
+      "creatorPotential": "recommend",
+      "score": 68,
+      "lane": "new_creator_watch",
+      "firstSeenAt": 1785132335284,
+      "lastSeenAt": 1789373108084,
+      "sourceQueries": [
+        "凡人官方二创大会"
+      ],
+      "discoveryModes": [
         "history"
       ]
     },
@@ -1580,37 +1576,6 @@
       ]
     },
     {
-      "id": "BV1jAM86AEVP",
-      "bvid": "BV1jAM86AEVP",
-      "title": "修罗场预警！银月漏嘴爆大料，韩立乱星海的“风流账”兜不住了！【凡人官方二创大会】",
-      "description": "韩立刚离开，器灵银月便向南宫婉疯狂漏嘴，爆出韩立在乱星海看元瑶沐浴、与梅凝亲吻等诸多“风流账”。南宫婉醋意大发，手持朱雀环杀气腾腾地踹开药园大门，对毫无防备的韩立展开“家暴”。韩立痛骂银月坑主并连连求饶，上演爆笑修罗场。",
-      "cover": "https://i2.hdslb.com/bfs/archive/30d7accda80f04833cdabc2164b46985157f7019.jpg",
-      "url": "http://www.bilibili.com/video/av116878156699557",
-      "upId": "397462959",
-      "upName": "翘翘日志",
-      "play": 7850,
-      "pubTime": 1783419325000,
-      "duration": "1:43",
-      "category": "剧情二创",
-      "confidence": 0.95,
-      "classificationSource": "model",
-      "classificationReason": "参与凡人官方二创大会的原创剧情二创，围绕韩立与银月的修罗场展开",
-      "contentNature": "secondary_creation",
-      "originality": "deep_adaptation",
-      "eventTag": "凡人官方二创大会",
-      "creatorPotential": "recommend",
-      "score": 67,
-      "lane": "new_creator_watch",
-      "firstSeenAt": 1785132335284,
-      "lastSeenAt": 1789373108084,
-      "sourceQueries": [
-        "凡人官方二创大会"
-      ],
-      "discoveryModes": [
-        "history"
-      ]
-    },
-    {
       "id": "BV1s2Ts6YEdR",
       "bvid": "BV1s2Ts6YEdR",
       "title": "主修毒功 却正得发邪的天南第一大修士-魏无涯！带你了解人界少有的正义之士！《凡人修仙传》魏无涯人物志",
@@ -1644,34 +1609,37 @@
       ]
     },
     {
-      "id": "BV1Brx3z5EY8",
-      "bvid": "BV1Brx3z5EY8",
-      "title": "凡人修仙传『归期』心痛翻唱&quot;韩大哥，果然还是那一年的烟花最好看&quot;",
-      "description": "点赞过万翻唱下一首《不凡2024》！\n\n《归期》\n原唱：钱润玉\n翻唱：池年\n混音：珊瑚\n视频：BV1Vt4y177cP @万维猫动画  \n\n其他翻唱《暮色回响》：BV1W142187Pd 《何者》：BV1gZrFYbEWK 《唯一》：BV1P3pUzSEU1\n【周杰伦工作室官方评论点赞】《红颜如霜》：BV1W94y1Q7FS\n————————————————————————————————\n嗨！池年是一名VUP，是一只喜欢唱歌打游戏的鲸鱼海妖，如果喜欢还请留下三连和评论弹幕~大家的支持和喜欢就是我最大的动",
-      "cover": "https://i1.hdslb.com/bfs/archive/2233326bc0304b1b86b00018ce39558a51b45106.jpg",
-      "url": "http://www.bilibili.com/video/av115323630001594",
-      "upId": "2341174",
-      "upName": "池年",
-      "play": 57371,
-      "pubTime": 1759806300000,
-      "duration": "4:41",
-      "category": "音乐配音",
-      "confidence": 0.95,
+      "id": "BV1bgVS6dEMQ",
+      "bvid": "BV1bgVS6dEMQ",
+      "title": "【手书/韩立】不凡",
+      "description": "第一次做手书  太废人了 ……",
+      "cover": "https://i0.hdslb.com/bfs/archive/5be1a749fa8d678229d50d13a481008131563ca9.jpg",
+      "url": "http://www.bilibili.com/video/av116668877508377",
+      "upId": "2009612470",
+      "upName": "奔跑的巧力克薯麻",
+      "play": 4252,
+      "pubTime": 1780225863000,
+      "duration": "1:57",
+      "category": "混剪手书",
+      "confidence": 0.9,
       "classificationSource": "model",
-      "classificationReason": "翻唱《凡人修仙传》相关歌曲，属于二次创作",
+      "classificationReason": "凡人修仙传韩立相关的自制手书，属于混剪手书类二次创作",
       "contentNature": "secondary_creation",
       "originality": "deep_adaptation",
       "eventTag": null,
-      "creatorPotential": "recommend",
-      "score": 65,
+      "creatorPotential": "observe",
+      "score": 66,
       "lane": "archive",
-      "firstSeenAt": 1788166338588,
-      "lastSeenAt": 1788766264547,
+      "firstSeenAt": 1784281357983,
+      "lastSeenAt": 1789373108084,
       "sourceQueries": [
-        "凡人修仙传 配音 翻唱"
+        "legacy-published",
+        "凡人修仙传 混剪 手书",
+        "凡人修仙传 MMD 同人动画"
       ],
       "discoveryModes": [
-        "history"
+        "history",
+        "fresh"
       ]
     },
     {
@@ -1705,40 +1673,6 @@
       ],
       "discoveryModes": [
         "history"
-      ]
-    },
-    {
-      "id": "BV1bgVS6dEMQ",
-      "bvid": "BV1bgVS6dEMQ",
-      "title": "【手书/韩立】不凡",
-      "description": "第一次做手书  太废人了 ……",
-      "cover": "https://i0.hdslb.com/bfs/archive/5be1a749fa8d678229d50d13a481008131563ca9.jpg",
-      "url": "http://www.bilibili.com/video/av116668877508377",
-      "upId": "2009612470",
-      "upName": "奔跑的巧力克薯麻",
-      "play": 4252,
-      "pubTime": 1780225863000,
-      "duration": "1:57",
-      "category": "混剪手书",
-      "confidence": 0.9,
-      "classificationSource": "model",
-      "classificationReason": "凡人修仙传韩立相关的自制手书，属于混剪手书类二次创作",
-      "contentNature": "secondary_creation",
-      "originality": "deep_adaptation",
-      "eventTag": null,
-      "creatorPotential": "observe",
-      "score": 65,
-      "lane": "archive",
-      "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1789373108084,
-      "sourceQueries": [
-        "legacy-published",
-        "凡人修仙传 混剪 手书",
-        "凡人修仙传 MMD 同人动画"
-      ],
-      "discoveryModes": [
-        "history",
-        "fresh"
       ]
     },
     {
@@ -1986,7 +1920,7 @@
       "score": 63,
       "lane": "new_creator_watch",
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1790701196398,
+      "lastSeenAt": 1790753308524,
       "sourceQueries": [
         "legacy-published",
         "凡人修仙传 人物志 设定"
@@ -2116,7 +2050,7 @@
       "score": 62,
       "lane": "hidden_gem",
       "firstSeenAt": 1784868982615,
-      "lastSeenAt": 1790701196398,
+      "lastSeenAt": 1790753308524,
       "sourceQueries": [
         "凡人修仙传 人物志 设定"
       ],
