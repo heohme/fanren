@@ -1,5 +1,5 @@
 {
-  "generatedAt": 1790860371932,
+  "generatedAt": 1790861078247,
   "series": {
     "title": "凡人修仙传",
     "seasonId": "28747",
@@ -3727,9 +3727,10 @@
         "利维坦LWT"
       ],
       "note": "经典解析向",
+      "source": "search-backfill",
       "error": "all retries failed",
-      "lastFetched": 1790859914020,
-      "lastSuccess": 1790846647106,
+      "lastFetched": 1790860825423,
+      "lastSuccess": 1790860825423,
       "videos": [
         {
           "bvid": "BV1T2hR6EEie",
@@ -6670,7 +6671,7 @@
           "cover": "https://i1.hdslb.com/bfs/archive/45e92ef6ad531450e72dbc31117b94a13d12f6b2.jpg",
           "pubTime": 1638707383000,
           "duration": "7:7",
-          "play": 665892,
+          "play": 666155,
           "videoUrl": "http://www.bilibili.com/video/av977135204",
           "matched": true,
           "ep": 27,
@@ -6687,7 +6688,7 @@
           "cover": "https://i2.hdslb.com/bfs/archive/8182dbdee6eddbbdc69bd83c45c5e8c717f026b7.jpg",
           "pubTime": 1638353112000,
           "duration": "7:20",
-          "play": 812911,
+          "play": 813225,
           "videoUrl": "http://www.bilibili.com/video/av934529896",
           "matched": true,
           "ep": 26,
@@ -6729,10 +6730,11 @@
         "拂水房",
         "房东"
       ],
-      "note": "",
+      "note": "按集搜索发现",
+      "source": "search-backfill",
       "error": null,
-      "lastFetched": 1790859926860,
-      "lastSuccess": 1790859926860,
+      "lastFetched": 1790861078247,
+      "lastSuccess": 1790861078247,
       "videos": [
         {
           "bvid": "BV1PYat6TEJ2",
@@ -7436,6 +7438,25 @@
           "discoveredBy": "episode-search"
         },
         {
+          "bvid": "BV1yXhwzCETE",
+          "aid": 114941830959087,
+          "title": "【凡人剧版第10集斗法解析】 斗法细节爆炸！顶级真人博弈！杨洋版韩立真没毛病！",
+          "description": "",
+          "cover": "https://i0.hdslb.com/bfs/archive/8f757805fdb7605df58e45253652d04fff3bec02.jpg",
+          "pubTime": 1753873527000,
+          "duration": "6:11",
+          "play": 628098,
+          "videoUrl": "http://www.bilibili.com/video/av114941830959087",
+          "matched": true,
+          "ep": 10,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [
+            "韩立"
+          ],
+          "discoveredBy": "episode-search"
+        },
+        {
           "bvid": "BV1Sw88ztE9b",
           "aid": 114919450084487,
           "title": "【凡人153集逐帧解析】 一剑破万法！",
@@ -7635,10 +7656,11 @@
       "uid": "57868863",
       "name": "白马猴子",
       "alias": [],
-      "note": "",
+      "note": "按集搜索发现",
+      "source": "search-backfill",
       "error": null,
-      "lastFetched": 1790859959274,
-      "lastSuccess": 1790859959274,
+      "lastFetched": 1790860776169,
+      "lastSuccess": 1790860776169,
       "videos": [
         {
           "bvid": "BV1TQho6XEmo",
@@ -10515,7 +10537,7 @@
           "cover": "https://i2.hdslb.com/bfs/archive/00632e527ac0145072e24fc0bc79f547972c78fa.jpg",
           "pubTime": 1638785602000,
           "duration": "8:31",
-          "play": 324306,
+          "play": 324677,
           "videoUrl": "http://www.bilibili.com/video/av379652237",
           "matched": true,
           "ep": 27,
@@ -23038,8 +23060,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1790720486068,
-      "lastSuccess": 1790720486068,
+      "lastFetched": 1790860939316,
+      "lastSuccess": 1790860939316,
       "videos": [
         {
           "bvid": "BV13jMw6UECD",
@@ -25005,6 +25027,23 @@
           "characters": [
             "韩立"
           ],
+          "discoveredBy": "episode-search"
+        },
+        {
+          "bvid": "BV1SNFgzfEht",
+          "aid": 116003660892100,
+          "title": "【凡人reaction】第17集  奸细？吴师叔身死",
+          "description": "-",
+          "cover": "https://i2.hdslb.com/bfs/archive/23fe23b15ef0e63278af819368c284fc9d132c9a.jpg",
+          "pubTime": 1770075666000,
+          "duration": "15:19",
+          "play": 91,
+          "videoUrl": "http://www.bilibili.com/video/av116003660892100",
+          "matched": true,
+          "ep": 17,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [],
           "discoveredBy": "episode-search"
         },
         {
@@ -29323,8 +29362,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1790746736901,
-      "lastSuccess": 1790746736901,
+      "lastFetched": 1790861027681,
+      "lastSuccess": 1790861027681,
       "videos": [
         {
           "bvid": "BV1754y1Z71N",
@@ -30288,10 +30327,44 @@
           "cover": "https://i0.hdslb.com/bfs/archive/76c13f883cffb8a20b5327b085882ce386cd036a.jpg",
           "pubTime": 1651574880000,
           "duration": "10:48",
-          "play": 6200,
+          "play": 6204,
           "videoUrl": "http://www.bilibili.com/video/av511204942",
           "matched": true,
           "ep": 18,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [],
+          "discoveredBy": "episode-search"
+        },
+        {
+          "bvid": "BV1JY4y1k7hz",
+          "aid": 638638781,
+          "title": "凡人修仙传之仙界篇：第17集_冷焰老祖",
+          "description": "凡人修仙传之仙界篇：第17集_冷焰老祖",
+          "cover": "https://i0.hdslb.com/bfs/archive/6bf1d049163a5cc9cd05c19a7c550fd0d13b1d9b.jpg",
+          "pubTime": 1651574161000,
+          "duration": "11:35",
+          "play": 5810,
+          "videoUrl": "http://www.bilibili.com/video/av638638781",
+          "matched": true,
+          "ep": 17,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [],
+          "discoveredBy": "episode-search"
+        },
+        {
+          "bvid": "BV1qL4y1c7Qz",
+          "aid": 853715673,
+          "title": "凡人修仙传之仙界篇：第16集_偷阅书籍",
+          "description": "凡人修仙传之仙界篇：第16集_偷阅书籍",
+          "cover": "https://i1.hdslb.com/bfs/archive/c7231a1196e291ccb77e9c982841457817c83a0c.jpg",
+          "pubTime": 1651573440000,
+          "duration": "11:37",
+          "play": 5470,
+          "videoUrl": "http://www.bilibili.com/video/av853715673",
+          "matched": true,
+          "ep": 16,
           "isCompilation": false,
           "contentType": "episode",
           "characters": [],
@@ -30326,6 +30399,23 @@
           "videoUrl": "http://www.bilibili.com/video/av468687503",
           "matched": true,
           "ep": 13,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [],
+          "discoveredBy": "episode-search"
+        },
+        {
+          "bvid": "BV1pU4y1U7AF",
+          "aid": 683734197,
+          "title": "凡人修仙传之仙界篇：第11集_阴魂不散",
+          "description": "凡人修仙传之仙界篇：第11集_阴魂不散",
+          "cover": "https://i2.hdslb.com/bfs/archive/4798940fb1bfdaf753205cb2f4c6ce2de002c936.jpg",
+          "pubTime": 1651489920000,
+          "duration": "11:1",
+          "play": 6053,
+          "videoUrl": "http://www.bilibili.com/video/av683734197",
+          "matched": true,
+          "ep": 11,
           "isCompilation": false,
           "contentType": "episode",
           "characters": [],
@@ -34343,8 +34433,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1790746736901,
-      "lastSuccess": 1790746736901,
+      "lastFetched": 1790860825423,
+      "lastSuccess": 1790860825423,
       "videos": [
         {
           "bvid": "BV17p376rEeq",
@@ -35415,7 +35505,7 @@
           "cover": "https://i0.hdslb.com/bfs/archive/a75d20adea37bc1fac04cd8fbcfcb7f169fa522e.png",
           "pubTime": 1724939482000,
           "duration": "7:18",
-          "play": 1963,
+          "play": 1964,
           "videoUrl": "http://www.bilibili.com/video/av113045552497388",
           "matched": true,
           "ep": 26,
@@ -36833,8 +36923,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1790163912069,
-      "lastSuccess": 1790163912069,
+      "lastFetched": 1790861027681,
+      "lastSuccess": 1790861027681,
       "videos": [
         {
           "bvid": "BV16rPveiE5T",
@@ -37409,6 +37499,40 @@
           "videoUrl": "http://www.bilibili.com/video/av114056262386487",
           "matched": true,
           "ep": 19,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [],
+          "discoveredBy": "episode-search"
+        },
+        {
+          "bvid": "BV1FSAdeZE2J",
+          "aid": 114056245545438,
+          "title": "《凡人修仙传》 第17集 枭雄末路",
+          "description": "一个普通山村小子，偶然下进入到当地江湖小门派，成了一名记名弟子。他以这样身份，如何在门派中立足,如何以平庸的资质进入到修仙者的行列，从而笑傲三界之中！",
+          "cover": "https://i2.hdslb.com/bfs/archive/ead3f0a14179338c1e8f14324558ad0fe2c6c6d6.jpg",
+          "pubTime": 1740360813000,
+          "duration": "14:42",
+          "play": 66,
+          "videoUrl": "http://www.bilibili.com/video/av114056245545438",
+          "matched": true,
+          "ep": 17,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [],
+          "discoveredBy": "episode-search"
+        },
+        {
+          "bvid": "BV1w1AdehEYH",
+          "aid": 114056228768982,
+          "title": "《凡人修仙传》 第11集 江湖斗",
+          "description": "一个普通山村小子，偶然下进入到当地江湖小门派，成了一名记名弟子。他以这样身份，如何在门派中立足,如何以平庸的资质进入到修仙者的行列，从而笑傲三界之中！",
+          "cover": "https://i1.hdslb.com/bfs/archive/ddbf8fff6d3e822a09dd91148d1daee1a2094359.jpg",
+          "pubTime": 1740360484000,
+          "duration": "12:17",
+          "play": 72,
+          "videoUrl": "http://www.bilibili.com/video/av114056228768982",
+          "matched": true,
+          "ep": 11,
           "isCompilation": false,
           "contentType": "episode",
           "characters": [],
@@ -46696,9 +46820,26 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1785751935675,
-      "lastSuccess": 1785751935675,
+      "lastFetched": 1790861027681,
+      "lastSuccess": 1790861027681,
       "videos": [
+        {
+          "bvid": "BV1j8411v7nw",
+          "aid": 233606961,
+          "title": "【再读凡人】 新凡人修仙传 人界篇 第11集 ：江湖斗",
+          "description": "",
+          "cover": "https://i0.hdslb.com/bfs/archive/9275166b49fff30f152c511d0ff783ed5be721ea.jpg",
+          "pubTime": 1694919110000,
+          "duration": "12:5",
+          "play": 1554,
+          "videoUrl": "http://www.bilibili.com/video/av233606961",
+          "matched": true,
+          "ep": 11,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [],
+          "discoveredBy": "episode-search"
+        },
         {
           "bvid": "BV1R14y1C7Bx",
           "aid": 787816772,
@@ -49401,8 +49542,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1790834651794,
-      "lastSuccess": 1790834651794,
+      "lastFetched": 1790861078247,
+      "lastSuccess": 1790861078247,
       "videos": [
         {
           "bvid": "BV1ENcizSEd7",
@@ -49854,7 +49995,7 @@
           "cover": "https://i0.hdslb.com/bfs/archive/4157bfab5106c53729047f329a34ce394b31a4e2.jpg",
           "pubTime": 1765944000000,
           "duration": "17:29",
-          "play": 2092,
+          "play": 2098,
           "videoUrl": "http://www.bilibili.com/video/av115731131864587",
           "matched": true,
           "ep": 17,
@@ -49943,6 +50084,23 @@
           "videoUrl": "http://www.bilibili.com/video/av115703784938373",
           "matched": true,
           "ep": 12,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [],
+          "discoveredBy": "episode-search"
+        },
+        {
+          "bvid": "BV1fsm8BeELT",
+          "aid": 115696252034786,
+          "title": "《凡人修仙传》Reaction 第11集【自制熟肉】",
+          "description": "来源：https://www.youtube.com/watch?v=CK3WO_W5y9Q",
+          "cover": "https://i0.hdslb.com/bfs/archive/c0f01d0a6d6059eaeef12935925b9db0e66b9aae.jpg",
+          "pubTime": 1765425600000,
+          "duration": "22:49",
+          "play": 3364,
+          "videoUrl": "http://www.bilibili.com/video/av115696252034786",
+          "matched": true,
+          "ep": 11,
           "isCompilation": false,
           "contentType": "episode",
           "characters": [],
@@ -50692,8 +50850,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1790285899262,
-      "lastSuccess": 1790285899262,
+      "lastFetched": 1790860893808,
+      "lastSuccess": 1790860893808,
       "videos": [
         {
           "bvid": "BV146421f7aD",
@@ -51102,6 +51260,23 @@
           "characters": [
             "韩立"
           ],
+          "discoveredBy": "episode-search"
+        },
+        {
+          "bvid": "BV1bt42187vH",
+          "aid": 1800671562,
+          "title": "《凡人修仙传》合体篇 第17集丨宝花得知洗澡团目的！",
+          "description": "凡人修仙传原著党",
+          "cover": "https://i2.hdslb.com/bfs/archive/c2113962b7a40de034ff6383a9b3cf48a6b1db80.jpg",
+          "pubTime": 1708005336000,
+          "duration": "6:27",
+          "play": 144872,
+          "videoUrl": "http://www.bilibili.com/video/av1800671562",
+          "matched": true,
+          "ep": 17,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [],
           "discoveredBy": "episode-search"
         },
         {
@@ -51845,8 +52020,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1790544437078,
-      "lastSuccess": 1790544437078,
+      "lastFetched": 1790860989649,
+      "lastSuccess": 1790860989649,
       "videos": [
         {
           "bvid": "BV1jT421C7aS",
@@ -51913,6 +52088,23 @@
           "videoUrl": "http://www.bilibili.com/video/av1303291427",
           "matched": true,
           "ep": 14,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [],
+          "discoveredBy": "episode-search"
+        },
+        {
+          "bvid": "BV1Br421V7CD",
+          "aid": 1403105738,
+          "title": "【凡人修仙传12集 reaction】",
+          "description": "-",
+          "cover": "https://i0.hdslb.com/bfs/archive/2a124db402044bdca7623b2f0face1ce971060d4.jpg",
+          "pubTime": 1713244810000,
+          "duration": "14:43",
+          "play": 1037,
+          "videoUrl": "http://www.bilibili.com/video/av1403105738",
+          "matched": true,
+          "ep": 12,
           "isCompilation": false,
           "contentType": "episode",
           "characters": [],
@@ -53079,9 +53271,28 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1790163840713,
-      "lastSuccess": 1790163840713,
+      "lastFetched": 1790860849932,
+      "lastSuccess": 1790860849932,
       "videos": [
+        {
+          "bvid": "BV1dGkCBHE12",
+          "aid": 115530576959518,
+          "title": "《凡人修仙传》-第18集-皇宫大战，宋蒙枪枪精妙",
+          "description": "",
+          "cover": "https://i1.hdslb.com/bfs/archive/52f6994c69abc05e7f05af3394597e9ed3a51f05.jpg",
+          "pubTime": 1762856815000,
+          "duration": "3:58",
+          "play": 175,
+          "videoUrl": "http://www.bilibili.com/video/av115530576959518",
+          "matched": true,
+          "ep": 18,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [
+            "宋蒙"
+          ],
+          "discoveredBy": "episode-search"
+        },
         {
           "bvid": "BV1dVkCBDEuW",
           "aid": 115530560183018,
@@ -53395,8 +53606,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1790163712959,
-      "lastSuccess": 1790163712959,
+      "lastFetched": 1790860893808,
+      "lastSuccess": 1790860893808,
       "videos": [
         {
           "bvid": "BV1tekoByEyA",
@@ -53433,6 +53644,25 @@
           "isCompilation": false,
           "contentType": "episode",
           "characters": [],
+          "discoveredBy": "episode-search"
+        },
+        {
+          "bvid": "BV1VAkZBRELN",
+          "aid": 115523564084652,
+          "title": "《凡人修仙传》-第17集-韩立大战鬼灵门少主",
+          "description": "",
+          "cover": "https://i0.hdslb.com/bfs/archive/a1b07bd771751a3bb8cfb9204f6746e6c6cbf5a7.jpg",
+          "pubTime": 1762750032000,
+          "duration": "3:21",
+          "play": 76,
+          "videoUrl": "http://www.bilibili.com/video/av115523564084652",
+          "matched": true,
+          "ep": 17,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [
+            "韩立"
+          ],
           "discoveredBy": "episode-search"
         }
       ],
@@ -53543,8 +53773,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1790544353476,
-      "lastSuccess": 1790544353476,
+      "lastFetched": 1790860893808,
+      "lastSuccess": 1790860893808,
       "videos": [
         {
           "bvid": "BV11HKB6PEJt",
@@ -54368,8 +54598,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1790285851579,
-      "lastSuccess": 1790285851579,
+      "lastFetched": 1790861027681,
+      "lastSuccess": 1790861027681,
       "videos": [
         {
           "bvid": "BV1oD4y1Q7m2",
@@ -54406,6 +54636,25 @@
           "contentType": "episode",
           "characters": [
             "南宫婉",
+            "韩立"
+          ],
+          "discoveredBy": "episode-search"
+        },
+        {
+          "bvid": "BV1fk4y1C7L5",
+          "aid": 754964771,
+          "title": "【凡人修仙传第11集】陈巧倩激情吻戏上线！啊好刺激！韩立痛失初吻。",
+          "description": "-",
+          "cover": "https://i2.hdslb.com/bfs/archive/60484afdfbcd610bbf5c7f508560c0591208e025.jpg",
+          "pubTime": 1602994401000,
+          "duration": "1:29",
+          "play": 4179,
+          "videoUrl": "http://www.bilibili.com/video/av754964771",
+          "matched": true,
+          "ep": 11,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [
             "韩立"
           ],
           "discoveredBy": "episode-search"
@@ -54586,9 +54835,43 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1790285851580,
-      "lastSuccess": 1790285851580,
+      "lastFetched": 1790860939316,
+      "lastSuccess": 1790860939316,
       "videos": [
+        {
+          "bvid": "BV1mV4y1r75c",
+          "aid": 868642766,
+          "title": "凡人修仙传第16集精彩片段！",
+          "description": "-",
+          "cover": "https://i2.hdslb.com/bfs/archive/60eefb057b8aca2056e793683c784f7717a7e3ff.jpg",
+          "pubTime": 1684049647000,
+          "duration": "2:21",
+          "play": 269,
+          "videoUrl": "http://www.bilibili.com/video/av868642766",
+          "matched": true,
+          "ep": 16,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [],
+          "discoveredBy": "episode-search"
+        },
+        {
+          "bvid": "BV1Xo4y137LW",
+          "aid": 398737386,
+          "title": "凡人修仙传第16集精彩看点！",
+          "description": "-",
+          "cover": "https://i0.hdslb.com/bfs/archive/32fe1062bacefcd63e6b744b1a651d49d21d68b9.jpg",
+          "pubTime": 1684047437000,
+          "duration": "1:19",
+          "play": 165,
+          "videoUrl": "http://www.bilibili.com/video/av398737386",
+          "matched": true,
+          "ep": 16,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [],
+          "discoveredBy": "episode-search"
+        },
         {
           "bvid": "BV1GL41187qZ",
           "aid": 443315539,
@@ -54886,8 +55169,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1790720581482,
-      "lastSuccess": 1790720581482,
+      "lastFetched": 1790860989649,
+      "lastSuccess": 1790860989649,
       "videos": [
         {
           "bvid": "BV1tjKB6qEsB",
@@ -55031,8 +55314,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1790746695988,
-      "lastSuccess": 1790746695988,
+      "lastFetched": 1790860939316,
+      "lastSuccess": 1790860939316,
       "videos": [
         {
           "bvid": "BV1j7aR6wEUs",
@@ -55042,7 +55325,7 @@
           "cover": "https://i1.hdslb.com/bfs/archive/7f5d19cbc9036160242bf10c523ae9cbf0f69239.jpg",
           "pubTime": 1790722531000,
           "duration": "13:0",
-          "play": 32,
+          "play": 78,
           "videoUrl": "http://www.bilibili.com/video/av117356760144485",
           "matched": true,
           "ep": 16,
@@ -55127,8 +55410,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1790834508095,
-      "lastSuccess": 1790834508095,
+      "lastFetched": 1790860939316,
+      "lastSuccess": 1790860939316,
       "videos": [
         {
           "bvid": "BV1y8YF6tEpU",
@@ -55138,7 +55421,7 @@
           "cover": "https://i2.hdslb.com/bfs/archive/47991a6371fa8498ec6b374a55e9b1e86f20432c.jpg",
           "pubTime": 1790801146000,
           "duration": "13:0",
-          "play": 35,
+          "play": 37,
           "videoUrl": "http://www.bilibili.com/video/av117361927521892",
           "matched": true,
           "ep": 16,
@@ -55159,8 +55442,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1790806930345,
-      "lastSuccess": 1790806930345,
+      "lastFetched": 1790860989649,
+      "lastSuccess": 1790860989649,
       "videos": [
         {
           "bvid": "BV1dpao6iE7R",
@@ -55170,7 +55453,7 @@
           "cover": "https://i2.hdslb.com/bfs/archive/c2cb69cbf0a612bdc7bb91069a7f1a05bbc06302.jpg",
           "pubTime": 1790767964000,
           "duration": "9:18",
-          "play": 135,
+          "play": 196,
           "videoUrl": "http://www.bilibili.com/video/av117359746614212",
           "matched": true,
           "ep": 12,
@@ -55214,6 +55497,266 @@
       ],
       "recentTitles": [
         "国漫巅峰《凡人修仙传》动画系列第10集赏析！"
+      ]
+    },
+    {
+      "uid": "3690973978692467",
+      "name": "片段拾光记",
+      "alias": [],
+      "note": "按集搜索发现",
+      "source": "search-backfill",
+      "error": null,
+      "lastFetched": 1790860893808,
+      "lastSuccess": 1790860893808,
+      "videos": [
+        {
+          "bvid": "BV1oHNy6eEcL",
+          "aid": 116910217829830,
+          "title": "【凡人修仙传】17集逐帧解析",
+          "description": "【凡人修仙传】17集逐帧解析 #韩立#凡人修仙传#青年创作者计划",
+          "cover": "https://i1.hdslb.com/bfs/archive/9b68758e543132899a94c9234f208b211f736ba0.jpg",
+          "pubTime": 1783908568000,
+          "duration": "5:31",
+          "play": 188,
+          "videoUrl": "http://www.bilibili.com/video/av116910217829830",
+          "matched": true,
+          "ep": 17,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [],
+          "discoveredBy": "episode-search"
+        }
+      ],
+      "recentTitles": [
+        "【凡人修仙传】17集逐帧解析"
+      ]
+    },
+    {
+      "uid": "513954721",
+      "name": "怼家魁首--怼子",
+      "alias": [],
+      "note": "按集搜索发现",
+      "source": "search-backfill",
+      "error": null,
+      "lastFetched": 1790860893808,
+      "lastSuccess": 1790860893808,
+      "videos": [
+        {
+          "bvid": "BV1Gu41177Ge",
+          "aid": 532424474,
+          "title": "【科学修仙】第17集 我准备了三年，终于和韩老魔搭上了关系。",
+          "description": "",
+          "cover": "https://i1.hdslb.com/bfs/archive/5742b5ad70bf3309c0105604db7161c38e71a009.jpg",
+          "pubTime": 1692411159000,
+          "duration": "29:32",
+          "play": 866,
+          "videoUrl": "http://www.bilibili.com/video/av532424474",
+          "matched": true,
+          "ep": 17,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [
+            "韩老魔"
+          ],
+          "discoveredBy": "episode-search"
+        }
+      ],
+      "recentTitles": [
+        "【科学修仙】第17集 我准备了三年，终于和韩老魔搭上了关系。"
+      ]
+    },
+    {
+      "uid": "3706951905052852",
+      "name": "繁城薄文",
+      "alias": [],
+      "note": "按集搜索发现",
+      "source": "search-backfill",
+      "error": null,
+      "lastFetched": 1790861078247,
+      "lastSuccess": 1790861078247,
+      "videos": [
+        {
+          "bvid": "BV1NsNC6CEAJ",
+          "aid": 116910838518110,
+          "title": "【凡人修仙传】10集逐帧解析",
+          "description": "【凡人修仙传】10集逐帧解析 #韩立#凡人修仙传",
+          "cover": "https://i2.hdslb.com/bfs/archive/c63d83b9acc84e3322dc84b3121e2f93f6251079.jpg",
+          "pubTime": 1783920226000,
+          "duration": "6:7",
+          "play": 71,
+          "videoUrl": "http://www.bilibili.com/video/av116910838518110",
+          "matched": true,
+          "ep": 10,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [],
+          "discoveredBy": "episode-search"
+        },
+        {
+          "bvid": "BV1xHNC61Eh3",
+          "aid": 116910670814032,
+          "title": "【凡人修仙传】16集逐帧解析",
+          "description": "【凡人修仙传】16集逐帧解析 #韩立#凡人修仙传#青年创作者计划",
+          "cover": "https://i1.hdslb.com/bfs/archive/75771a598871fc6344d9cb0af0fe493dbe74b6a1.jpg",
+          "pubTime": 1783917127000,
+          "duration": "5:30",
+          "play": 83,
+          "videoUrl": "http://www.bilibili.com/video/av116910670814032",
+          "matched": true,
+          "ep": 16,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [],
+          "discoveredBy": "episode-search"
+        }
+      ],
+      "recentTitles": [
+        "【凡人修仙传】16集逐帧解析"
+      ]
+    },
+    {
+      "uid": "3632312193386580",
+      "name": "芷笺书乱世",
+      "alias": [],
+      "note": "按集搜索发现",
+      "source": "search-backfill",
+      "error": null,
+      "lastFetched": 1790860989649,
+      "lastSuccess": 1790860989649,
+      "videos": [
+        {
+          "bvid": "BV1ziNC6KEVb",
+          "aid": 116910788321117,
+          "title": "【凡人修仙传】12集逐帧解析",
+          "description": "【凡人修仙传】12集逐帧解析 #韩立#凡人修仙传",
+          "cover": "https://i0.hdslb.com/bfs/archive/bf735f824a7c9af534b19ac1a905c62487599930.jpg",
+          "pubTime": 1783919854000,
+          "duration": "5:30",
+          "play": 75,
+          "videoUrl": "http://www.bilibili.com/video/av116910788321117",
+          "matched": true,
+          "ep": 12,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [],
+          "discoveredBy": "episode-search"
+        }
+      ],
+      "recentTitles": [
+        "【凡人修仙传】12集逐帧解析"
+      ]
+    },
+    {
+      "uid": "3690972076575033",
+      "name": "浅川话平生",
+      "alias": [],
+      "note": "按集搜索发现",
+      "source": "search-backfill",
+      "error": null,
+      "lastFetched": 1790861027681,
+      "lastSuccess": 1790861027681,
+      "videos": [
+        {
+          "bvid": "BV16GNy66EsK",
+          "aid": 116910117095345,
+          "title": "【凡人修仙传】11集逐帧解析",
+          "description": "【凡人修仙传】11集逐帧解析 #韩立#凡人修仙传",
+          "cover": "https://i0.hdslb.com/bfs/archive/f724dc45409c0fb7b65b1c0e84a143bcb1e1913b.jpg",
+          "pubTime": 1783907005000,
+          "duration": "6:27",
+          "play": 60,
+          "videoUrl": "http://www.bilibili.com/video/av116910117095345",
+          "matched": true,
+          "ep": 11,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [],
+          "discoveredBy": "episode-search"
+        }
+      ],
+      "recentTitles": [
+        "【凡人修仙传】11集逐帧解析"
+      ]
+    },
+    {
+      "uid": "3706951768738773",
+      "name": "动漫推荐官江静萦",
+      "alias": [],
+      "note": "按集搜索发现",
+      "source": "search-backfill",
+      "error": null,
+      "lastFetched": 1790861078247,
+      "lastSuccess": 1790861078247,
+      "videos": [
+        {
+          "bvid": "BV1xHKB6PE7q",
+          "aid": 116944879490121,
+          "title": "【凡人修仙传】10集逐帧解析",
+          "description": "",
+          "cover": "https://i2.hdslb.com/bfs/archive/0a83ddfb9ad45b0c0d0383e05ca7159887d96db1.jpg",
+          "pubTime": 1784437335000,
+          "duration": "6:7",
+          "play": 8,
+          "videoUrl": "http://www.bilibili.com/video/av116944879490121",
+          "matched": true,
+          "ep": 10,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [],
+          "discoveredBy": "episode-search"
+        },
+        {
+          "bvid": "BV1tjKB6qE4A",
+          "aid": 116944862713000,
+          "title": "【凡人修仙传】11集逐帧解析",
+          "description": "",
+          "cover": "https://i0.hdslb.com/bfs/archive/be0167213cdfd4f4cf36801118a448ffb2b3715c.jpg",
+          "pubTime": 1784437230000,
+          "duration": "6:27",
+          "play": 9,
+          "videoUrl": "http://www.bilibili.com/video/av116944862713000",
+          "matched": true,
+          "ep": 11,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [],
+          "discoveredBy": "episode-search"
+        }
+      ],
+      "recentTitles": [
+        "【凡人修仙传】11集逐帧解析"
+      ]
+    },
+    {
+      "uid": "572635154",
+      "name": "秦大仙侃剧movie",
+      "alias": [],
+      "note": "按集搜索发现",
+      "source": "search-backfill",
+      "error": null,
+      "lastFetched": 1790861027681,
+      "lastSuccess": 1790861027681,
+      "videos": [
+        {
+          "bvid": "BV1vC81z1ESK",
+          "aid": 114947870758453,
+          "title": "《凡人修仙传》11集打戏特效燃爆，每一帧都是细糠，3亿投资太值了",
+          "description": "《凡人修仙传》打戏特效燃爆，每一帧都是细糠，3亿投资太值了",
+          "cover": "https://i0.hdslb.com/bfs/archive/e65a79cad34702e634baa3750e136248ddfa970e.jpg",
+          "pubTime": 1753965398000,
+          "duration": "4:2",
+          "play": 55756,
+          "videoUrl": "http://www.bilibili.com/video/av114947870758453",
+          "matched": true,
+          "ep": 11,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [],
+          "discoveredBy": "episode-search"
+        }
+      ],
+      "recentTitles": [
+        "《凡人修仙传》11集打戏特效燃爆，每一帧都是细糠，3亿投资太值了"
       ]
     }
   ]
