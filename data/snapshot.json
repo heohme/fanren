@@ -1,5 +1,5 @@
 {
-  "generatedAt": 1790975072888,
+  "generatedAt": 1790979681638,
   "series": {
     "title": "凡人修仙传",
     "seasonId": "28747",
@@ -29359,8 +29359,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1790861027681,
-      "lastSuccess": 1790861027681,
+      "lastFetched": 1790979681637,
+      "lastSuccess": 1790979681637,
       "videos": [
         {
           "bvid": "BV1754y1Z71N",
@@ -30413,6 +30413,23 @@
           "videoUrl": "http://www.bilibili.com/video/av683734197",
           "matched": true,
           "ep": 11,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [],
+          "discoveredBy": "episode-search"
+        },
+        {
+          "bvid": "BV1AA4y1Q73W",
+          "aid": 896187578,
+          "title": "凡人修仙传之仙界篇：第8集_前往宗门",
+          "description": "凡人修仙传之仙界篇：第8集_前往宗门",
+          "cover": "https://i2.hdslb.com/bfs/archive/b113affe4892bdcf3b47c40a2d7a009fbe0acab3.jpg",
+          "pubTime": 1651488900000,
+          "duration": "10:45",
+          "play": 5984,
+          "videoUrl": "http://www.bilibili.com/video/av896187578",
+          "matched": true,
+          "ep": 8,
           "isCompilation": false,
           "contentType": "episode",
           "characters": [],
