@@ -1,5 +1,5 @@
 {
-  "generatedAt": 1790875724190,
+  "generatedAt": 1790926148663,
   "mode": "fresh",
   "taxonomyVersion": 2,
   "policyVersion": 1,
@@ -54,8 +54,8 @@
       "BV1XGPrzcEar",
       "BV1ocj465EbW",
       "BV1gtp9zVEGm",
-      "BV1gjEr6EErF",
       "BV1Ar786BEHW",
+      "BV1gjEr6EErF",
       "BV1Bz7g6ME33",
       "BV1Lin7z5EZq",
       "BV16gTp6JEMj",
@@ -74,10 +74,10 @@
       "BV1Z6uKzQEXg",
       "BV1s2Ts6YEdR",
       "BV14KS3YGEk9",
+      "BV1jhBTYJE5x",
       "BV12MziYDEpZ",
       "BV1L8TK6aEcQ",
       "BV1nZ4y1r79E",
-      "BV1jhBTYJE5x",
       "BV1YN7k6DEAR"
     ]
   },
@@ -144,7 +144,7 @@
       "originality": "deep_adaptation",
       "eventTag": null,
       "creatorPotential": "observe",
-      "score": 73,
+      "score": 74,
       "lane": null,
       "firstSeenAt": 1785132335284,
       "lastSeenAt": 1790585738979,
@@ -714,7 +714,7 @@
       "score": 59,
       "lane": null,
       "firstSeenAt": 1784525133937,
-      "lastSeenAt": 1790875724190,
+      "lastSeenAt": 1790926148663,
       "sourceQueries": [
         "凡人修仙传 二创",
         "凡人官方二创大会",
@@ -1313,7 +1313,7 @@
       "score": 55,
       "lane": null,
       "firstSeenAt": 1784954073751,
-      "lastSeenAt": 1790875724190,
+      "lastSeenAt": 1790926148663,
       "sourceQueries": [
         "凡人修仙传 人物志 设定"
       ],
@@ -1329,6 +1329,47 @@
         "favorite": 189,
         "reply": 287,
         "danmaku": 175
+      }
+    },
+    {
+      "id": "BV1DrXrY6Evk",
+      "bvid": "BV1DrXrY6Evk",
+      "title": "【凡人修仙传沙雕动画 灵界篇】第572集",
+      "description": "凡人修仙传灵界篇-原著剧情",
+      "cover": "https://i2.hdslb.com/bfs/archive/dbb024cc232033bcde92cfa178840d5ea8510a3e.jpg",
+      "url": "http://www.bilibili.com/video/av114198986102978",
+      "upId": "442413887",
+      "upName": "在下苟德柱",
+      "play": 46546,
+      "pubTime": 1742539328000,
+      "duration": "4:43",
+      "category": "趣味整活",
+      "confidence": 0.8,
+      "classificationSource": "model",
+      "classificationReason": "凡人修仙传灵界篇的沙雕动画二创内容",
+      "contentNature": "secondary_creation",
+      "originality": "deep_adaptation",
+      "eventTag": null,
+      "creatorPotential": "observe",
+      "score": 55,
+      "lane": null,
+      "firstSeenAt": 1790585738979,
+      "lastSeenAt": 1790585738979,
+      "sourceQueries": [
+        "凡人修仙传 小剧场"
+      ],
+      "discoveryModes": [
+        "history"
+      ],
+      "riskFlags": [],
+      "policyReason": "内容可收录，但需人工复核分类或风险",
+      "stats": {
+        "play": 46546,
+        "like": 0,
+        "coin": 0,
+        "favorite": 133,
+        "reply": 0,
+        "danmaku": 75
       }
     },
     {
@@ -1519,7 +1560,7 @@
       "score": 55,
       "lane": null,
       "firstSeenAt": 1785244584356,
-      "lastSeenAt": 1790875724190,
+      "lastSeenAt": 1790926148663,
       "sourceQueries": [
         "凡人官方二创大会",
         "凡人修仙传 鬼畜 整活",
@@ -1660,47 +1701,6 @@
         "favorite": 241,
         "reply": 0,
         "danmaku": 32
-      }
-    },
-    {
-      "id": "BV1DrXrY6Evk",
-      "bvid": "BV1DrXrY6Evk",
-      "title": "【凡人修仙传沙雕动画 灵界篇】第572集",
-      "description": "凡人修仙传灵界篇-原著剧情",
-      "cover": "https://i2.hdslb.com/bfs/archive/dbb024cc232033bcde92cfa178840d5ea8510a3e.jpg",
-      "url": "http://www.bilibili.com/video/av114198986102978",
-      "upId": "442413887",
-      "upName": "在下苟德柱",
-      "play": 46546,
-      "pubTime": 1742539328000,
-      "duration": "4:43",
-      "category": "趣味整活",
-      "confidence": 0.8,
-      "classificationSource": "model",
-      "classificationReason": "凡人修仙传灵界篇的沙雕动画二创内容",
-      "contentNature": "secondary_creation",
-      "originality": "deep_adaptation",
-      "eventTag": null,
-      "creatorPotential": "observe",
-      "score": 54,
-      "lane": null,
-      "firstSeenAt": 1790585738979,
-      "lastSeenAt": 1790585738979,
-      "sourceQueries": [
-        "凡人修仙传 小剧场"
-      ],
-      "discoveryModes": [
-        "history"
-      ],
-      "riskFlags": [],
-      "policyReason": "内容可收录，但需人工复核分类或风险",
-      "stats": {
-        "play": 46546,
-        "like": 0,
-        "coin": 0,
-        "favorite": 133,
-        "reply": 0,
-        "danmaku": 75
       }
     },
     {
@@ -2233,7 +2233,7 @@
       "score": 52,
       "lane": null,
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1790875724190,
+      "lastSeenAt": 1790926148663,
       "sourceQueries": [
         "凡人修仙传 混剪 手书"
       ],
@@ -2318,7 +2318,7 @@
       "score": 52,
       "lane": null,
       "firstSeenAt": 1784695859320,
-      "lastSeenAt": 1790875724190,
+      "lastSeenAt": 1790926148663,
       "sourceQueries": [
         "凡人修仙传 二创",
         "凡人官方二创大会",
@@ -2363,7 +2363,7 @@
       "score": 52,
       "lane": null,
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1790875724190,
+      "lastSeenAt": 1790926148663,
       "sourceQueries": [
         "凡人修仙传 鬼畜 整活"
       ],
@@ -2426,6 +2426,47 @@
       }
     },
     {
+      "id": "BV13AYTzgEEP",
+      "bvid": "BV13AYTzgEEP",
+      "title": "“我不爱无聊人间，只偏爱你眉眼”",
+      "description": "159集·元婴韩立4k舔屏向混剪\nbgm：昨夜风今宵月",
+      "cover": "https://i2.hdslb.com/bfs/archive/1497142c94cb85d7234c0da11d9534af8b2d603a.jpg",
+      "url": "http://www.bilibili.com/video/av115157166460191",
+      "upId": "27690936",
+      "upName": "-桂馥兰馨-",
+      "play": 52061,
+      "pubTime": 1757158979000,
+      "duration": "1:28",
+      "category": "混剪手书",
+      "confidence": 0.9,
+      "classificationSource": "model",
+      "classificationReason": "基于正片片段制作的舔屏向混剪，配指定BGM",
+      "contentNature": "secondary_creation",
+      "originality": "light_edit",
+      "eventTag": null,
+      "creatorPotential": "one_off",
+      "score": 51,
+      "lane": null,
+      "firstSeenAt": 1790585738979,
+      "lastSeenAt": 1790585738979,
+      "sourceQueries": [
+        "凡人修仙传 混剪 手书"
+      ],
+      "discoveryModes": [
+        "history"
+      ],
+      "riskFlags": [],
+      "policyReason": "疑似轻度剪辑，需人工确认原创性",
+      "stats": {
+        "play": 52061,
+        "like": 0,
+        "coin": 0,
+        "favorite": 982,
+        "reply": 0,
+        "danmaku": 151
+      }
+    },
+    {
       "id": "BV1mJ47z2E5B",
       "bvid": "BV1mJ47z2E5B",
       "title": "韩立逆天改命账单：法宝开路，功法封神",
@@ -2448,7 +2489,7 @@
       "score": 51,
       "lane": null,
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1790875724190,
+      "lastSeenAt": 1790926148663,
       "sourceQueries": [
         "凡人修仙传 法宝 功法 人物"
       ],
@@ -2599,47 +2640,6 @@
         "favorite": 866,
         "reply": 0,
         "danmaku": 479
-      }
-    },
-    {
-      "id": "BV13AYTzgEEP",
-      "bvid": "BV13AYTzgEEP",
-      "title": "“我不爱无聊人间，只偏爱你眉眼”",
-      "description": "159集·元婴韩立4k舔屏向混剪\nbgm：昨夜风今宵月",
-      "cover": "https://i2.hdslb.com/bfs/archive/1497142c94cb85d7234c0da11d9534af8b2d603a.jpg",
-      "url": "http://www.bilibili.com/video/av115157166460191",
-      "upId": "27690936",
-      "upName": "-桂馥兰馨-",
-      "play": 52061,
-      "pubTime": 1757158979000,
-      "duration": "1:28",
-      "category": "混剪手书",
-      "confidence": 0.9,
-      "classificationSource": "model",
-      "classificationReason": "基于正片片段制作的舔屏向混剪，配指定BGM",
-      "contentNature": "secondary_creation",
-      "originality": "light_edit",
-      "eventTag": null,
-      "creatorPotential": "one_off",
-      "score": 50,
-      "lane": null,
-      "firstSeenAt": 1790585738979,
-      "lastSeenAt": 1790585738979,
-      "sourceQueries": [
-        "凡人修仙传 混剪 手书"
-      ],
-      "discoveryModes": [
-        "history"
-      ],
-      "riskFlags": [],
-      "policyReason": "疑似轻度剪辑，需人工确认原创性",
-      "stats": {
-        "play": 52061,
-        "like": 0,
-        "coin": 0,
-        "favorite": 982,
-        "reply": 0,
-        "danmaku": 151
       }
     },
     {
@@ -2870,7 +2870,7 @@
       "score": 49,
       "lane": null,
       "firstSeenAt": 1785386371582,
-      "lastSeenAt": 1790875724190,
+      "lastSeenAt": 1790926148663,
       "sourceQueries": [
         "凡人修仙传 二创",
         "凡人官方二创大会",
@@ -3040,7 +3040,7 @@
       "score": 48,
       "lane": null,
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1790875724190,
+      "lastSeenAt": 1790926148663,
       "sourceQueries": [
         "凡人修仙传 法宝 功法 人物"
       ],
@@ -3081,7 +3081,7 @@
       "score": 48,
       "lane": null,
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1790875724190,
+      "lastSeenAt": 1790926148663,
       "sourceQueries": [
         "凡人修仙传 法宝 功法 人物"
       ],
@@ -3122,7 +3122,7 @@
       "score": 48,
       "lane": null,
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1790875724190,
+      "lastSeenAt": 1790926148663,
       "sourceQueries": [
         "凡人修仙传 配音 翻唱"
       ],
@@ -3411,7 +3411,7 @@
       "score": 47,
       "lane": null,
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1790875724190,
+      "lastSeenAt": 1790926148663,
       "sourceQueries": [
         "凡人修仙传 混剪 手书"
       ],

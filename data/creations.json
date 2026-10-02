@@ -1,5 +1,5 @@
 {
-  "generatedAt": 1790875724190,
+  "generatedAt": 1790926148663,
   "mode": "fresh",
   "taxonomyVersion": 2,
   "policyVersion": 1,
@@ -65,8 +65,8 @@
       "BV1XGPrzcEar",
       "BV1ocj465EbW",
       "BV1gtp9zVEGm",
-      "BV1gjEr6EErF",
       "BV1Ar786BEHW",
+      "BV1gjEr6EErF",
       "BV1Bz7g6ME33",
       "BV1Lin7z5EZq",
       "BV16gTp6JEMj",
@@ -85,10 +85,10 @@
       "BV1Z6uKzQEXg",
       "BV1s2Ts6YEdR",
       "BV14KS3YGEk9",
+      "BV1jhBTYJE5x",
       "BV12MziYDEpZ",
       "BV1L8TK6aEcQ",
       "BV1nZ4y1r79E",
-      "BV1jhBTYJE5x",
       "BV1YN7k6DEAR"
     ]
   },
@@ -214,7 +214,7 @@
       "score": 85,
       "lane": "hidden_gem",
       "firstSeenAt": 1785560340526,
-      "lastSeenAt": 1790875724190,
+      "lastSeenAt": 1790926148663,
       "sourceQueries": [
         "凡人修仙传 二创",
         "凡人官方二创大会",
@@ -444,7 +444,7 @@
       "score": 81,
       "lane": "hidden_gem",
       "firstSeenAt": 1785244584356,
-      "lastSeenAt": 1790875724190,
+      "lastSeenAt": 1790926148663,
       "sourceQueries": [
         "凡人官方二创大会",
         "凡人修仙传 人物志 设定"
@@ -679,7 +679,7 @@
       "score": 78,
       "lane": "hidden_gem",
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1790875724190,
+      "lastSeenAt": 1790926148663,
       "sourceQueries": [
         "legacy-published",
         "凡人修仙传 鬼畜 整活"
@@ -746,7 +746,7 @@
       "score": 77,
       "lane": "hidden_gem",
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1790875724190,
+      "lastSeenAt": 1790926148663,
       "sourceQueries": [
         "legacy-published",
         "凡人修仙传 鬼畜 整活",
@@ -850,7 +850,7 @@
       "score": 76,
       "lane": "new_creator_watch",
       "firstSeenAt": 1785560340526,
-      "lastSeenAt": 1790875724190,
+      "lastSeenAt": 1790926148663,
       "sourceQueries": [
         "凡人修仙传 人物志 设定"
       ],
@@ -1024,6 +1024,37 @@
       ]
     },
     {
+      "id": "BV1Ar786BEHW",
+      "bvid": "BV1Ar786BEHW",
+      "title": "在超市后门吞云吐雾的修仙者【凡人官方二创大会】",
+      "description": "视频内容纯属虚构，请勿模仿",
+      "cover": "https://i0.hdslb.com/bfs/archive/cb0340f8063d410ab188f78f15e1743eef51648d.jpg",
+      "url": "http://www.bilibili.com/video/av116810057780150",
+      "upId": "75014708",
+      "upName": "浪浪山小蛋仔",
+      "play": 103204,
+      "pubTime": 1782380353000,
+      "duration": "2:31",
+      "category": "同人创作",
+      "confidence": 0.95,
+      "classificationSource": "model",
+      "classificationReason": "参与凡人官方二创大会的同人创作内容",
+      "contentNature": "secondary_creation",
+      "originality": "deep_adaptation",
+      "eventTag": "凡人官方二创大会",
+      "creatorPotential": "recommend",
+      "score": 73,
+      "lane": "archive",
+      "firstSeenAt": 1784281357983,
+      "lastSeenAt": 1789887377857,
+      "sourceQueries": [
+        "凡人修仙传 鬼畜 整活"
+      ],
+      "discoveryModes": [
+        "fresh"
+      ]
+    },
+    {
       "id": "BV1mA376WEFC",
       "bvid": "BV1mA376WEFC",
       "title": "韩立和慕沛灵共同跳一支缠绵悱恻的国风双人舞《卷珠帘》-【凡人官方二创大会】",
@@ -1092,37 +1123,6 @@
       ],
       "discoveryModes": [
         "history",
-        "fresh"
-      ]
-    },
-    {
-      "id": "BV1Ar786BEHW",
-      "bvid": "BV1Ar786BEHW",
-      "title": "在超市后门吞云吐雾的修仙者【凡人官方二创大会】",
-      "description": "视频内容纯属虚构，请勿模仿",
-      "cover": "https://i0.hdslb.com/bfs/archive/cb0340f8063d410ab188f78f15e1743eef51648d.jpg",
-      "url": "http://www.bilibili.com/video/av116810057780150",
-      "upId": "75014708",
-      "upName": "浪浪山小蛋仔",
-      "play": 103204,
-      "pubTime": 1782380353000,
-      "duration": "2:31",
-      "category": "同人创作",
-      "confidence": 0.95,
-      "classificationSource": "model",
-      "classificationReason": "参与凡人官方二创大会的同人创作内容",
-      "contentNature": "secondary_creation",
-      "originality": "deep_adaptation",
-      "eventTag": "凡人官方二创大会",
-      "creatorPotential": "recommend",
-      "score": 72,
-      "lane": "archive",
-      "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1789887377857,
-      "sourceQueries": [
-        "凡人修仙传 鬼畜 整活"
-      ],
-      "discoveryModes": [
         "fresh"
       ]
     },
@@ -1211,7 +1211,7 @@
       "score": 71,
       "lane": "hidden_gem",
       "firstSeenAt": 1784868982615,
-      "lastSeenAt": 1790875724190,
+      "lastSeenAt": 1790926148663,
       "sourceQueries": [
         "凡人修仙传 二创",
         "凡人官方二创大会",
@@ -1308,7 +1308,7 @@
       "score": 69,
       "lane": "archive",
       "firstSeenAt": 1784898301768,
-      "lastSeenAt": 1790875724190,
+      "lastSeenAt": 1790926148663,
       "sourceQueries": [
         "凡人修仙传 二创",
         "凡人官方二创大会",
@@ -1403,7 +1403,7 @@
       "originality": "deep_adaptation",
       "eventTag": null,
       "creatorPotential": "observe",
-      "score": 68,
+      "score": 69,
       "lane": "archive",
       "firstSeenAt": 1784281357983,
       "lastSeenAt": 1788880660636,
@@ -1928,6 +1928,39 @@
       ]
     },
     {
+      "id": "BV1jhBTYJE5x",
+      "bvid": "BV1jhBTYJE5x",
+      "title": "凡人修仙传《念诗之王》",
+      "description": "剪辑素材∶国产动画《凡人修仙传》系列\n剪辑bgm∶《念诗之王》\n\n感谢万维猫动画与粉丝朋友们的支持！\n如果还算喜欢的话求个关注、三连，谢谢大家了～",
+      "cover": "https://i0.hdslb.com/bfs/archive/30bffdaeb51c1cc5576c22278419194367fd977e.jpg",
+      "url": "http://www.bilibili.com/video/av113645891617318",
+      "upId": "299053993",
+      "upName": "凌霄云雨的奇妙剪辑",
+      "play": 59612,
+      "pubTime": 1734099036000,
+      "duration": "2:22",
+      "category": "趣味整活",
+      "confidence": 0.9,
+      "classificationSource": "model",
+      "classificationReason": "将凡人修仙传内容与《念诗之王》结合的整活二次创作",
+      "contentNature": "secondary_creation",
+      "originality": "deep_adaptation",
+      "eventTag": null,
+      "creatorPotential": "recommend",
+      "score": 62,
+      "lane": "archive",
+      "firstSeenAt": 1784281357983,
+      "lastSeenAt": 1789978229138,
+      "sourceQueries": [
+        "legacy-published",
+        "凡人修仙传 鬼畜 整活",
+        "凡人修仙传 配音 翻唱"
+      ],
+      "discoveryModes": [
+        "history"
+      ]
+    },
+    {
       "id": "BV12MziYDEpZ",
       "bvid": "BV12MziYDEpZ",
       "title": "【翻唱】和原唱声音超像的『凡人』【凡人修仙传】",
@@ -2013,7 +2046,7 @@
       "score": 62,
       "lane": "hidden_gem",
       "firstSeenAt": 1784868982615,
-      "lastSeenAt": 1790875724190,
+      "lastSeenAt": 1790926148663,
       "sourceQueries": [
         "凡人修仙传 人物志 设定"
       ],
@@ -2047,39 +2080,6 @@
       "lastSeenAt": 1790585738979,
       "sourceQueries": [
         "legacy-published",
-        "凡人修仙传 配音 翻唱"
-      ],
-      "discoveryModes": [
-        "history"
-      ]
-    },
-    {
-      "id": "BV1jhBTYJE5x",
-      "bvid": "BV1jhBTYJE5x",
-      "title": "凡人修仙传《念诗之王》",
-      "description": "剪辑素材∶国产动画《凡人修仙传》系列\n剪辑bgm∶《念诗之王》\n\n感谢万维猫动画与粉丝朋友们的支持！\n如果还算喜欢的话求个关注、三连，谢谢大家了～",
-      "cover": "https://i0.hdslb.com/bfs/archive/30bffdaeb51c1cc5576c22278419194367fd977e.jpg",
-      "url": "http://www.bilibili.com/video/av113645891617318",
-      "upId": "299053993",
-      "upName": "凌霄云雨的奇妙剪辑",
-      "play": 59612,
-      "pubTime": 1734099036000,
-      "duration": "2:22",
-      "category": "趣味整活",
-      "confidence": 0.9,
-      "classificationSource": "model",
-      "classificationReason": "将凡人修仙传内容与《念诗之王》结合的整活二次创作",
-      "contentNature": "secondary_creation",
-      "originality": "deep_adaptation",
-      "eventTag": null,
-      "creatorPotential": "recommend",
-      "score": 61,
-      "lane": "archive",
-      "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1789978229138,
-      "sourceQueries": [
-        "legacy-published",
-        "凡人修仙传 鬼畜 整活",
         "凡人修仙传 配音 翻唱"
       ],
       "discoveryModes": [
