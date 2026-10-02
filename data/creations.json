@@ -1,5 +1,5 @@
 {
-  "generatedAt": 1790926148663,
+  "generatedAt": 1790959717734,
   "mode": "fresh",
   "taxonomyVersion": 2,
   "policyVersion": 1,
@@ -31,6 +31,7 @@
       "BV1RoM46tEQ8",
       "BV1uqMg6TERj",
       "BV1KTMH64EA7",
+      "BV1mA376WEFC",
       "BV1omgx6aEvq",
       "BV1WMGA6mEmz",
       "BV13yg46WE51",
@@ -44,7 +45,6 @@
       "BV1jzKP69EMD",
       "BV1XMG36SEqX",
       "BV1ksGu6cEdY",
-      "BV1mA376WEFC",
       "BV1wq3r6JEx2",
       "BV1jAM86AEVP",
       "BV1vuNw6kEgC"
@@ -67,8 +67,8 @@
       "BV1gtp9zVEGm",
       "BV1Ar786BEHW",
       "BV1gjEr6EErF",
-      "BV1Bz7g6ME33",
       "BV1Lin7z5EZq",
+      "BV1Bz7g6ME33",
       "BV16gTp6JEMj",
       "BV1Mwge6KEze",
       "BV1rMWDzpEz5",
@@ -214,7 +214,7 @@
       "score": 85,
       "lane": "hidden_gem",
       "firstSeenAt": 1785560340526,
-      "lastSeenAt": 1790926148663,
+      "lastSeenAt": 1790959717734,
       "sourceQueries": [
         "凡人修仙传 二创",
         "凡人官方二创大会",
@@ -444,7 +444,7 @@
       "score": 81,
       "lane": "hidden_gem",
       "firstSeenAt": 1785244584356,
-      "lastSeenAt": 1790926148663,
+      "lastSeenAt": 1790959717734,
       "sourceQueries": [
         "凡人官方二创大会",
         "凡人修仙传 人物志 设定"
@@ -679,7 +679,7 @@
       "score": 78,
       "lane": "hidden_gem",
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1790926148663,
+      "lastSeenAt": 1790959717734,
       "sourceQueries": [
         "legacy-published",
         "凡人修仙传 鬼畜 整活"
@@ -746,7 +746,7 @@
       "score": 77,
       "lane": "hidden_gem",
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1790926148663,
+      "lastSeenAt": 1790959717734,
       "sourceQueries": [
         "legacy-published",
         "凡人修仙传 鬼畜 整活",
@@ -850,7 +850,7 @@
       "score": 76,
       "lane": "new_creator_watch",
       "firstSeenAt": 1785560340526,
-      "lastSeenAt": 1790926148663,
+      "lastSeenAt": 1790959717734,
       "sourceQueries": [
         "凡人修仙传 人物志 设定"
       ],
@@ -1075,7 +1075,7 @@
       "eventTag": "凡人官方二创大会",
       "creatorPotential": "one_off",
       "score": 73,
-      "lane": "new_creator_watch",
+      "lane": "hidden_gem",
       "firstSeenAt": 1785042183361,
       "lastSeenAt": 1789373108084,
       "sourceQueries": [
@@ -1123,6 +1123,37 @@
       ],
       "discoveryModes": [
         "history",
+        "fresh"
+      ]
+    },
+    {
+      "id": "BV1Lin7z5EZq",
+      "bvid": "BV1Lin7z5EZq",
+      "title": "up爆肝10天自制元婴初期韩立大战元婴中期穆兰草原圣女",
+      "description": "均是ai娱乐自制 看正版请去凡人官方看正版，配音:光和积木",
+      "cover": "https://i1.hdslb.com/bfs/archive/67938b9128954dc6907e5273563e032a8e2108cd.jpg",
+      "url": "http://www.bilibili.com/video/av115274204322347",
+      "upId": "21617072",
+      "upName": "贝儿大大",
+      "play": 3052229,
+      "pubTime": 1758945384000,
+      "duration": "6:3",
+      "category": "同人创作",
+      "confidence": 0.85,
+      "classificationSource": "model",
+      "classificationReason": "AI自制的韩立与穆兰的战斗同人内容，属于二次创作",
+      "contentNature": "secondary_creation",
+      "originality": "deep_adaptation",
+      "eventTag": null,
+      "creatorPotential": "observe",
+      "score": 71,
+      "lane": "archive",
+      "firstSeenAt": 1790318024159,
+      "lastSeenAt": 1790318024159,
+      "sourceQueries": [
+        "凡人官方二创大会"
+      ],
+      "discoveryModes": [
         "fresh"
       ]
     },
@@ -1211,7 +1242,7 @@
       "score": 71,
       "lane": "hidden_gem",
       "firstSeenAt": 1784868982615,
-      "lastSeenAt": 1790926148663,
+      "lastSeenAt": 1790959717734,
       "sourceQueries": [
         "凡人修仙传 二创",
         "凡人官方二创大会",
@@ -1221,37 +1252,6 @@
       "discoveryModes": [
         "fresh",
         "history"
-      ]
-    },
-    {
-      "id": "BV1Lin7z5EZq",
-      "bvid": "BV1Lin7z5EZq",
-      "title": "up爆肝10天自制元婴初期韩立大战元婴中期穆兰草原圣女",
-      "description": "均是ai娱乐自制 看正版请去凡人官方看正版，配音:光和积木",
-      "cover": "https://i1.hdslb.com/bfs/archive/67938b9128954dc6907e5273563e032a8e2108cd.jpg",
-      "url": "http://www.bilibili.com/video/av115274204322347",
-      "upId": "21617072",
-      "upName": "贝儿大大",
-      "play": 3052229,
-      "pubTime": 1758945384000,
-      "duration": "6:3",
-      "category": "同人创作",
-      "confidence": 0.85,
-      "classificationSource": "model",
-      "classificationReason": "AI自制的韩立与穆兰的战斗同人内容，属于二次创作",
-      "contentNature": "secondary_creation",
-      "originality": "deep_adaptation",
-      "eventTag": null,
-      "creatorPotential": "observe",
-      "score": 70,
-      "lane": "archive",
-      "firstSeenAt": 1790318024159,
-      "lastSeenAt": 1790318024159,
-      "sourceQueries": [
-        "凡人官方二创大会"
-      ],
-      "discoveryModes": [
-        "fresh"
       ]
     },
     {
@@ -1308,7 +1308,7 @@
       "score": 69,
       "lane": "archive",
       "firstSeenAt": 1784898301768,
-      "lastSeenAt": 1790926148663,
+      "lastSeenAt": 1790959717734,
       "sourceQueries": [
         "凡人修仙传 二创",
         "凡人官方二创大会",
@@ -2046,7 +2046,7 @@
       "score": 62,
       "lane": "hidden_gem",
       "firstSeenAt": 1784868982615,
-      "lastSeenAt": 1790926148663,
+      "lastSeenAt": 1790959717734,
       "sourceQueries": [
         "凡人修仙传 人物志 设定"
       ],

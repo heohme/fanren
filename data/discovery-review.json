@@ -1,5 +1,5 @@
 {
-  "generatedAt": 1790926148663,
+  "generatedAt": 1790959717734,
   "mode": "fresh",
   "taxonomyVersion": 2,
   "policyVersion": 1,
@@ -20,6 +20,7 @@
       "BV1RoM46tEQ8",
       "BV1uqMg6TERj",
       "BV1KTMH64EA7",
+      "BV1mA376WEFC",
       "BV1omgx6aEvq",
       "BV1WMGA6mEmz",
       "BV13yg46WE51",
@@ -33,7 +34,6 @@
       "BV1jzKP69EMD",
       "BV1XMG36SEqX",
       "BV1ksGu6cEdY",
-      "BV1mA376WEFC",
       "BV1wq3r6JEx2",
       "BV1jAM86AEVP",
       "BV1vuNw6kEgC"
@@ -56,8 +56,8 @@
       "BV1gtp9zVEGm",
       "BV1Ar786BEHW",
       "BV1gjEr6EErF",
-      "BV1Bz7g6ME33",
       "BV1Lin7z5EZq",
+      "BV1Bz7g6ME33",
       "BV16gTp6JEMj",
       "BV1Mwge6KEze",
       "BV1rMWDzpEz5",
@@ -481,6 +481,48 @@
       }
     },
     {
+      "id": "BV1K4zaBYEKo",
+      "bvid": "BV1K4zaBYEKo",
+      "title": "《不凡》自制MV，凡人修仙传主题曲，20小时爆肝剪辑=。=",
+      "description": "因为片头曲都是一分钟的剪辑版本，所以自制一个完整版的。韩立一路以来的辛酸苦楚与奇遇经历都在其中，希望这首歌的歌词能印到每一位观众的心中，也希望各位道友能像作品中自己喜欢的每一个人物一样，平凡成就不凡。",
+      "cover": "https://i1.hdslb.com/bfs/archive/93b7de0e913ded2f82df029f8dec8858cf46ad66.jpg",
+      "url": "http://www.bilibili.com/video/av115958932965296",
+      "upId": "97676548",
+      "upName": "小猫快喝水",
+      "play": 6672,
+      "pubTime": 1769393734000,
+      "duration": "3:31",
+      "category": "音乐配音",
+      "confidence": 0.8,
+      "classificationSource": "model",
+      "classificationReason": "自制凡人修仙传主题曲MV，属于音乐类二次创作",
+      "contentNature": "secondary_creation",
+      "originality": "deep_adaptation",
+      "eventTag": null,
+      "creatorPotential": "observe",
+      "score": 62,
+      "lane": null,
+      "firstSeenAt": 1784281357983,
+      "lastSeenAt": 1790585738979,
+      "sourceQueries": [
+        "legacy-published",
+        "凡人修仙传 混剪 手书"
+      ],
+      "discoveryModes": [
+        "history"
+      ],
+      "riskFlags": [],
+      "policyReason": "内容可收录，但需人工复核分类或风险",
+      "stats": {
+        "play": 6672,
+        "like": 0,
+        "coin": 0,
+        "favorite": 143,
+        "reply": 0,
+        "danmaku": 1
+      }
+    },
+    {
       "id": "BV1LfwvzmEFA",
       "bvid": "BV1LfwvzmEFA",
       "title": "是高岭之花，也是神女普照众生。元婴期韩立的美貌超乎想象！【韩立 舔颜向】",
@@ -521,48 +563,6 @@
         "favorite": 5343,
         "reply": 1247,
         "danmaku": 468
-      }
-    },
-    {
-      "id": "BV1K4zaBYEKo",
-      "bvid": "BV1K4zaBYEKo",
-      "title": "《不凡》自制MV，凡人修仙传主题曲，20小时爆肝剪辑=。=",
-      "description": "因为片头曲都是一分钟的剪辑版本，所以自制一个完整版的。韩立一路以来的辛酸苦楚与奇遇经历都在其中，希望这首歌的歌词能印到每一位观众的心中，也希望各位道友能像作品中自己喜欢的每一个人物一样，平凡成就不凡。",
-      "cover": "https://i1.hdslb.com/bfs/archive/93b7de0e913ded2f82df029f8dec8858cf46ad66.jpg",
-      "url": "http://www.bilibili.com/video/av115958932965296",
-      "upId": "97676548",
-      "upName": "小猫快喝水",
-      "play": 6672,
-      "pubTime": 1769393734000,
-      "duration": "3:31",
-      "category": "音乐配音",
-      "confidence": 0.8,
-      "classificationSource": "model",
-      "classificationReason": "自制凡人修仙传主题曲MV，属于音乐类二次创作",
-      "contentNature": "secondary_creation",
-      "originality": "deep_adaptation",
-      "eventTag": null,
-      "creatorPotential": "observe",
-      "score": 61,
-      "lane": null,
-      "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1790585738979,
-      "sourceQueries": [
-        "legacy-published",
-        "凡人修仙传 混剪 手书"
-      ],
-      "discoveryModes": [
-        "history"
-      ],
-      "riskFlags": [],
-      "policyReason": "内容可收录，但需人工复核分类或风险",
-      "stats": {
-        "play": 6672,
-        "like": 0,
-        "coin": 0,
-        "favorite": 143,
-        "reply": 0,
-        "danmaku": 1
       }
     },
     {
@@ -714,7 +714,7 @@
       "score": 59,
       "lane": null,
       "firstSeenAt": 1784525133937,
-      "lastSeenAt": 1790926148663,
+      "lastSeenAt": 1790959717734,
       "sourceQueries": [
         "凡人修仙传 二创",
         "凡人官方二创大会",
@@ -1208,6 +1208,47 @@
       }
     },
     {
+      "id": "BV1nW4y1K71k",
+      "bvid": "BV1nW4y1K71k",
+      "title": "古风舞蹈 凡人修仙传 南宫婉--《半壶纱》",
+      "description": "弄了5个小时光效。。。",
+      "cover": "https://i1.hdslb.com/bfs/archive/759f1a66c2348d3c331c1d25385494c5a9ea034e.jpg",
+      "url": "http://www.bilibili.com/video/av946737514",
+      "upId": "34116783",
+      "upName": "暮雪飞歌",
+      "play": 2333,
+      "pubTime": 1671917494000,
+      "duration": "2:3",
+      "category": "音乐配音",
+      "confidence": 0.8,
+      "classificationSource": "model",
+      "classificationReason": "凡人修仙传角色南宫婉的古风舞蹈配音类二次创作内容",
+      "contentNature": "secondary_creation",
+      "originality": "deep_adaptation",
+      "eventTag": null,
+      "creatorPotential": "observe",
+      "score": 56,
+      "lane": null,
+      "firstSeenAt": 1784281357983,
+      "lastSeenAt": 1790959717734,
+      "sourceQueries": [
+        "凡人修仙传 MMD 同人动画"
+      ],
+      "discoveryModes": [
+        "fresh"
+      ],
+      "riskFlags": [],
+      "policyReason": "内容可收录，但需人工复核分类或风险",
+      "stats": {
+        "play": 2333,
+        "like": 150,
+        "coin": 14,
+        "favorite": 34,
+        "reply": 28,
+        "danmaku": 3
+      }
+    },
+    {
       "id": "BV11Z4y1d7W5",
       "bvid": "BV11Z4y1d7W5",
       "title": "过年整活就服凡人！韩立竟在南宫婉房间跳起来了！【凡人修仙传】",
@@ -1313,7 +1354,7 @@
       "score": 55,
       "lane": null,
       "firstSeenAt": 1784954073751,
-      "lastSeenAt": 1790926148663,
+      "lastSeenAt": 1790959717734,
       "sourceQueries": [
         "凡人修仙传 人物志 设定"
       ],
@@ -1560,7 +1601,7 @@
       "score": 55,
       "lane": null,
       "firstSeenAt": 1785244584356,
-      "lastSeenAt": 1790926148663,
+      "lastSeenAt": 1790959717734,
       "sourceQueries": [
         "凡人官方二创大会",
         "凡人修仙传 鬼畜 整活",
@@ -1578,47 +1619,6 @@
         "favorite": 16,
         "reply": 6,
         "danmaku": 9
-      }
-    },
-    {
-      "id": "BV1nW4y1K71k",
-      "bvid": "BV1nW4y1K71k",
-      "title": "古风舞蹈 凡人修仙传 南宫婉--《半壶纱》",
-      "description": "弄了5个小时光效。。。",
-      "cover": "https://i1.hdslb.com/bfs/archive/759f1a66c2348d3c331c1d25385494c5a9ea034e.jpg",
-      "url": "http://www.bilibili.com/video/av946737514",
-      "upId": "34116783",
-      "upName": "暮雪飞歌",
-      "play": 2333,
-      "pubTime": 1671917494000,
-      "duration": "2:3",
-      "category": "音乐配音",
-      "confidence": 0.8,
-      "classificationSource": "model",
-      "classificationReason": "凡人修仙传角色南宫婉的古风舞蹈配音类二次创作内容",
-      "contentNature": "secondary_creation",
-      "originality": "deep_adaptation",
-      "eventTag": null,
-      "creatorPotential": "observe",
-      "score": 55,
-      "lane": null,
-      "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1790875724190,
-      "sourceQueries": [
-        "凡人修仙传 MMD 同人动画"
-      ],
-      "discoveryModes": [
-        "fresh"
-      ],
-      "riskFlags": [],
-      "policyReason": "内容可收录，但需人工复核分类或风险",
-      "stats": {
-        "play": 2333,
-        "like": 150,
-        "coin": 14,
-        "favorite": 34,
-        "reply": 28,
-        "danmaku": 3
       }
     },
     {
@@ -2233,7 +2233,7 @@
       "score": 52,
       "lane": null,
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1790926148663,
+      "lastSeenAt": 1790959717734,
       "sourceQueries": [
         "凡人修仙传 混剪 手书"
       ],
@@ -2249,50 +2249,6 @@
         "favorite": 21,
         "reply": 4,
         "danmaku": 3
-      }
-    },
-    {
-      "id": "BV1QAMA6jEEZ",
-      "bvid": "BV1QAMA6jEEZ",
-      "title": "把180集韩立南宫婉对视时的黑屏延迟几秒钟看看会发生什么，满足一下好奇心-凡人修仙传",
-      "description": "把180集韩立南宫婉对视时的黑屏延迟几秒钟看看会发生什么，满足一下好奇心-凡人修仙传",
-      "cover": "https://i2.hdslb.com/bfs/archive/c616fcfe0e98030a986a4ec8f7e81f49628e2091.jpg",
-      "url": "http://www.bilibili.com/video/av116861194736063",
-      "upId": "123710154",
-      "upName": "善见天",
-      "play": 2294,
-      "pubTime": 1783160561000,
-      "duration": "0:19",
-      "category": "趣味整活",
-      "confidence": 0.95,
-      "classificationSource": "model",
-      "classificationReason": "对凡人修仙传180集特定镜头进行趣味调整，属于二次创作",
-      "contentNature": "secondary_creation",
-      "originality": "light_edit",
-      "eventTag": null,
-      "creatorPotential": "one_off",
-      "score": 52,
-      "lane": null,
-      "firstSeenAt": 1784526884576,
-      "lastSeenAt": 1790585738979,
-      "sourceQueries": [
-        "凡人修仙传 二创",
-        "韩立 二创",
-        "南宫婉 二创",
-        "凡人修仙传 小剧场"
-      ],
-      "discoveryModes": [
-        "history"
-      ],
-      "riskFlags": [],
-      "policyReason": "疑似轻度剪辑，需人工确认原创性",
-      "stats": {
-        "play": 2294,
-        "like": 0,
-        "coin": 0,
-        "favorite": 52,
-        "reply": 0,
-        "danmaku": 0
       }
     },
     {
@@ -2318,7 +2274,7 @@
       "score": 52,
       "lane": null,
       "firstSeenAt": 1784695859320,
-      "lastSeenAt": 1790926148663,
+      "lastSeenAt": 1790959717734,
       "sourceQueries": [
         "凡人修仙传 二创",
         "凡人官方二创大会",
@@ -2349,7 +2305,7 @@
       "url": "http://www.bilibili.com/video/av116902416424752",
       "upId": "493143567",
       "upName": "邪修Xsm",
-      "play": 738,
+      "play": 739,
       "pubTime": 1783789594000,
       "duration": "0:48",
       "category": "同人创作",
@@ -2363,7 +2319,7 @@
       "score": 52,
       "lane": null,
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1790926148663,
+      "lastSeenAt": 1790959717734,
       "sourceQueries": [
         "凡人修仙传 鬼畜 整活"
       ],
@@ -2373,7 +2329,7 @@
       "riskFlags": [],
       "policyReason": "内容可收录，但需人工复核分类或风险",
       "stats": {
-        "play": 738,
+        "play": 739,
         "like": 0,
         "coin": 0,
         "favorite": 1,
@@ -2489,7 +2445,7 @@
       "score": 51,
       "lane": null,
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1790926148663,
+      "lastSeenAt": 1790959717734,
       "sourceQueries": [
         "凡人修仙传 法宝 功法 人物"
       ],
@@ -2870,7 +2826,7 @@
       "score": 49,
       "lane": null,
       "firstSeenAt": 1785386371582,
-      "lastSeenAt": 1790926148663,
+      "lastSeenAt": 1790959717734,
       "sourceQueries": [
         "凡人修仙传 二创",
         "凡人官方二创大会",
@@ -3040,7 +2996,7 @@
       "score": 48,
       "lane": null,
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1790926148663,
+      "lastSeenAt": 1790959717734,
       "sourceQueries": [
         "凡人修仙传 法宝 功法 人物"
       ],
@@ -3056,6 +3012,50 @@
         "favorite": 5,
         "reply": 11,
         "danmaku": 76
+      }
+    },
+    {
+      "id": "BV1QAMA6jEEZ",
+      "bvid": "BV1QAMA6jEEZ",
+      "title": "把180集韩立南宫婉对视时的黑屏延迟几秒钟看看会发生什么，满足一下好奇心-凡人修仙传",
+      "description": "把180集韩立南宫婉对视时的黑屏延迟几秒钟看看会发生什么，满足一下好奇心-凡人修仙传",
+      "cover": "https://i2.hdslb.com/bfs/archive/c616fcfe0e98030a986a4ec8f7e81f49628e2091.jpg",
+      "url": "http://www.bilibili.com/video/av116861194736063",
+      "upId": "123710154",
+      "upName": "善见天",
+      "play": 2294,
+      "pubTime": 1783160561000,
+      "duration": "0:19",
+      "category": "趣味整活",
+      "confidence": 0.95,
+      "classificationSource": "model",
+      "classificationReason": "对凡人修仙传180集特定镜头进行趣味调整，属于二次创作",
+      "contentNature": "secondary_creation",
+      "originality": "light_edit",
+      "eventTag": null,
+      "creatorPotential": "one_off",
+      "score": 48,
+      "lane": null,
+      "firstSeenAt": 1784526884576,
+      "lastSeenAt": 1790585738979,
+      "sourceQueries": [
+        "凡人修仙传 二创",
+        "韩立 二创",
+        "南宫婉 二创",
+        "凡人修仙传 小剧场"
+      ],
+      "discoveryModes": [
+        "history"
+      ],
+      "riskFlags": [],
+      "policyReason": "疑似轻度剪辑，需人工确认原创性",
+      "stats": {
+        "play": 2294,
+        "like": 0,
+        "coin": 0,
+        "favorite": 52,
+        "reply": 0,
+        "danmaku": 0
       }
     },
     {
@@ -3081,7 +3081,7 @@
       "score": 48,
       "lane": null,
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1790926148663,
+      "lastSeenAt": 1790959717734,
       "sourceQueries": [
         "凡人修仙传 法宝 功法 人物"
       ],
@@ -3122,7 +3122,7 @@
       "score": 48,
       "lane": null,
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1790926148663,
+      "lastSeenAt": 1790959717734,
       "sourceQueries": [
         "凡人修仙传 配音 翻唱"
       ],
@@ -3397,7 +3397,7 @@
       "url": "http://www.bilibili.com/video/av116283370640478",
       "upId": "1624719374",
       "upName": "青梅说剧o",
-      "play": 897,
+      "play": 899,
       "pubTime": 1774344372000,
       "duration": "4:37",
       "category": "人物志",
@@ -3411,7 +3411,7 @@
       "score": 47,
       "lane": null,
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1790926148663,
+      "lastSeenAt": 1790959717734,
       "sourceQueries": [
         "凡人修仙传 混剪 手书"
       ],
@@ -3421,7 +3421,7 @@
       "riskFlags": [],
       "policyReason": "内容可收录，但需人工复核分类或风险",
       "stats": {
-        "play": 897,
+        "play": 899,
         "like": 0,
         "coin": 0,
         "favorite": 3,
