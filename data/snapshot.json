@@ -1,5 +1,5 @@
 {
-  "generatedAt": 1790993015494,
+  "generatedAt": 1791005275298,
   "series": {
     "title": "凡人修仙传",
     "seasonId": "28747",
@@ -75,11 +75,11 @@
     "cover": "https://i0.hdslb.com/bfs/bangumi/image/19a2d01429bcba6b31791277c016e0d1aa465974.png",
     "newEp": {
       "desc": "6月13日起 每周六11:00",
-      "id": 3854817,
-      "is_new": 0,
-      "title": "193"
+      "id": 3854818,
+      "is_new": 1,
+      "title": "194"
     },
-    "totalCount": 303,
+    "totalCount": 305,
     "episodes": [
       {
         "ep": 1,
@@ -3550,6 +3550,18 @@
         "playUrl": "https://www.bilibili.com/bangumi/play/ep4292437"
       },
       {
+        "ep": 194,
+        "epRaw": "194",
+        "longTitle": "慕兰之战18",
+        "bvid": "BV1zBaA6dEu6",
+        "aid": 117325252593586,
+        "cover": "http://i0.hdslb.com/bfs/archive/0e6cf6561f1270b3532a236b4766f39fe2e9a98d.jpg",
+        "pubTime": 1790392500000,
+        "duration": 43000,
+        "link": "https://www.bilibili.com/bangumi/play/ep4292438",
+        "playUrl": "https://www.bilibili.com/bangumi/play/ep4292438"
+      },
+      {
         "ep": 181,
         "epRaw": "181",
         "longTitle": "慕兰之战05",
@@ -3709,13 +3721,25 @@
         "ep": 194,
         "epRaw": "194",
         "longTitle": "慕兰之战18",
-        "bvid": "BV1zBaA6dEu6",
-        "aid": 117325252593586,
-        "cover": "http://i0.hdslb.com/bfs/archive/e763c381dc2cf0a3b97bd596f9670c084b948d44.jpg",
-        "pubTime": 1790392500000,
-        "duration": 43000,
-        "link": "https://www.bilibili.com/bangumi/play/ep4292438",
-        "playUrl": "https://www.bilibili.com/bangumi/play/ep4292438"
+        "bvid": "BV1DxYP62EF3",
+        "aid": 117363974340956,
+        "cover": "http://i0.hdslb.com/bfs/archive/0e6cf6561f1270b3532a236b4766f39fe2e9a98d.jpg",
+        "pubTime": 1790996400000,
+        "duration": 1167000,
+        "link": "https://www.bilibili.com/bangumi/play/ep3854818",
+        "playUrl": "https://www.bilibili.com/bangumi/play/ep3854818"
+      },
+      {
+        "ep": 195,
+        "epRaw": "195",
+        "longTitle": "慕兰之战19",
+        "bvid": "BV1SxYP62EW5",
+        "aid": 117363974342983,
+        "cover": "http://i0.hdslb.com/bfs/archive/1485c2969d2975b5cb66ff61d5d0c5393033ea59.jpg",
+        "pubTime": 1790997300000,
+        "duration": 48000,
+        "link": "https://www.bilibili.com/bangumi/play/ep4292439",
+        "playUrl": "https://www.bilibili.com/bangumi/play/ep4292439"
       }
     ]
   },
@@ -13815,20 +13839,21 @@
       "name": "飞天心宏",
       "alias": [],
       "note": "命运流深度解读",
+      "source": "search-backfill",
       "error": null,
-      "lastFetched": 1790992699392,
-      "lastSuccess": 1790992699392,
+      "lastFetched": 1791004935450,
+      "lastSuccess": 1791004935450,
       "videos": [
         {
           "bvid": "BV1EThy6NEa5",
           "aid": 117330973562479,
           "title": "韩立被圣女打得想跑路，银月偷袭抢古灯！凡人原著导读第194集",
           "description": "韩立被圣女打得想跑路，银月偷袭抢古灯！凡人原著导读第194集",
-          "cover": "http://i2.hdslb.com/bfs/archive/9f789504dc252f9d3567977c7fd41988d6a05ee6.jpg",
+          "cover": "https://i2.hdslb.com/bfs/archive/9f789504dc252f9d3567977c7fd41988d6a05ee6.jpg",
           "pubTime": 1790329046000,
           "duration": "33:53",
-          "play": 69615,
-          "videoUrl": "https://www.bilibili.com/video/BV1EThy6NEa5",
+          "play": 70376,
+          "videoUrl": "http://www.bilibili.com/video/av117330973562479",
           "matched": true,
           "ep": 194,
           "isCompilation": false,
@@ -13836,7 +13861,8 @@
           "characters": [
             "韩立",
             "银月"
-          ]
+          ],
+          "discoveredBy": "episode-search"
         },
         {
           "bvid": "BV1HvaA6ZEWV",
@@ -19425,9 +19451,48 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1790398830700,
-      "lastSuccess": 1790398830700,
+      "lastFetched": 1791004935450,
+      "lastSuccess": 1791004935450,
       "videos": [
+        {
+          "bvid": "BV1nfaS6ZEdZ",
+          "aid": 117372732048143,
+          "title": "凡人修仙传 194 集：噬金虫被黄灵鼎克制！韩立王牌全废，遭乐上师全面压制",
+          "description": "预告解析，希望大家喜欢。正片将于11点更新，链接已放评论区置顶！",
+          "cover": "https://i2.hdslb.com/bfs/archive/4890f531a45b75b490cf54673dae82dd3819591d.jpg",
+          "pubTime": 1790994600000,
+          "duration": "37:3",
+          "play": 1076,
+          "videoUrl": "http://www.bilibili.com/video/av117372732048143",
+          "matched": true,
+          "ep": 194,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [
+            "韩立"
+          ],
+          "discoveredBy": "episode-search"
+        },
+        {
+          "bvid": "BV1V5hd6FEXK",
+          "aid": 117336493328595,
+          "title": "凡人修仙传 194 集：元明灯被夺激怒仲神师！元婴后期降临，一掌重创银月",
+          "description": "预告解析，希望大家喜欢",
+          "cover": "https://i2.hdslb.com/bfs/archive/4890f531a45b75b490cf54673dae82dd3819591d.jpg",
+          "pubTime": 1790413305000,
+          "duration": "37:4",
+          "play": 7153,
+          "videoUrl": "http://www.bilibili.com/video/av117336493328595",
+          "matched": true,
+          "ep": 194,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [
+            "银月",
+            "元婴"
+          ],
+          "discoveredBy": "episode-search"
+        },
         {
           "bvid": "BV1eBhm66EXg",
           "aid": 117332617726655,
@@ -20141,9 +20206,47 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1789792792654,
-      "lastSuccess": 1789792792654,
+      "lastFetched": 1791004935450,
+      "lastSuccess": 1791004935450,
       "videos": [
+        {
+          "bvid": "BV1mTHh6sEgW",
+          "aid": 117374963485016,
+          "title": "凡人修仙传 194 集：韩立正面硬撼乐上师！黄灵鼎克虫白莲护体，节节败退",
+          "description": "",
+          "cover": "https://i0.hdslb.com/bfs/archive/e966274a8b191eccfdfd3a6524ae8699209afa85.jpg",
+          "pubTime": 1791000033000,
+          "duration": "24:18",
+          "play": 2306,
+          "videoUrl": "http://www.bilibili.com/video/av117374963485016",
+          "matched": true,
+          "ep": 194,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [
+            "韩立"
+          ],
+          "discoveredBy": "episode-search"
+        },
+        {
+          "bvid": "BV1oMhd6AEWG",
+          "aid": 117336560372077,
+          "title": "凡人修仙传 194 集：银月紫铖兜偷袭！元明灯被夺乐上师崩溃",
+          "description": "预告解析",
+          "cover": "https://i0.hdslb.com/bfs/archive/e966274a8b191eccfdfd3a6524ae8699209afa85.jpg",
+          "pubTime": 1790414223000,
+          "duration": "30:26",
+          "play": 55920,
+          "videoUrl": "http://www.bilibili.com/video/av117336560372077",
+          "matched": true,
+          "ep": 194,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [
+            "银月"
+          ],
+          "discoveredBy": "episode-search"
+        },
         {
           "bvid": "BV1kDeU6wEyA",
           "aid": 117293124159454,
@@ -22233,9 +22336,47 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1790398830700,
-      "lastSuccess": 1790398830700,
+      "lastFetched": 1791004935450,
+      "lastSuccess": 1791004935450,
       "videos": [
+        {
+          "bvid": "BV1GfaD6mERc",
+          "aid": 117371809372808,
+          "title": "凡人修仙传第194集：韩立对战乐上师",
+          "description": "",
+          "cover": "https://i2.hdslb.com/bfs/archive/68a830d60cf2979f67ce81748777bd168ac19dae.jpg",
+          "pubTime": 1790995500000,
+          "duration": "23:2",
+          "play": 2925,
+          "videoUrl": "http://www.bilibili.com/video/av117371809372808",
+          "matched": true,
+          "ep": 194,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [
+            "韩立"
+          ],
+          "discoveredBy": "episode-search"
+        },
+        {
+          "bvid": "BV1KNaV6FEpR",
+          "aid": 117348791031650,
+          "title": "凡人修仙传第194集：韩立VS乐上师",
+          "description": "",
+          "cover": "https://i0.hdslb.com/bfs/archive/6c46d0cc3ee05c034074403a905c39dc728d5725.jpg",
+          "pubTime": 1790600826000,
+          "duration": "22:35",
+          "play": 8855,
+          "videoUrl": "http://www.bilibili.com/video/av117348791031650",
+          "matched": true,
+          "ep": 194,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [
+            "韩立"
+          ],
+          "discoveredBy": "episode-search"
+        },
         {
           "bvid": "BV19het6sEdk",
           "aid": 117295724697646,
@@ -28842,9 +28983,29 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1790398830700,
-      "lastSuccess": 1790398830700,
+      "lastFetched": 1791004935450,
+      "lastSuccess": 1791004935450,
       "videos": [
+        {
+          "bvid": "BV12wet65Ehg",
+          "aid": 117295976287425,
+          "title": "【凡人修仙传194集】黄龙山之战结束，韩立名扬天南！天道盟出大血拉拢，坠魔谷“造化丹”引出致命诱惑！",
+          "description": "",
+          "cover": "https://i2.hdslb.com/bfs/archive/d2136967f7a30851cb1b45ad22a87355ef42f1f8.jpg",
+          "pubTime": 1789794857000,
+          "duration": "50:5",
+          "play": 19328,
+          "videoUrl": "http://www.bilibili.com/video/av117295976287425",
+          "matched": true,
+          "ep": 194,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [
+            "韩立",
+            "天南"
+          ],
+          "discoveredBy": "episode-search"
+        },
         {
           "bvid": "BV1wGet6BEDz",
           "aid": 117295657584491,
@@ -29359,8 +29520,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1790979681637,
-      "lastSuccess": 1790979681637,
+      "lastFetched": 1791004935450,
+      "lastSuccess": 1791004935450,
       "videos": [
         {
           "bvid": "BV1754y1Z71N",
@@ -30433,6 +30594,25 @@
           "isCompilation": false,
           "contentType": "episode",
           "characters": [],
+          "discoveredBy": "episode-search"
+        },
+        {
+          "bvid": "BV11Q4y1e7CN",
+          "aid": 719747002,
+          "title": "凡人修仙传第194集：太诡异了，韩立差点被击穿",
+          "description": "凡人修仙传第194集：太诡异了，韩立差点被击穿",
+          "cover": "https://i2.hdslb.com/bfs/archive/bdf15492c8fedb2f0d23594f51b4c932c3224b30.jpg",
+          "pubTime": 1639132819000,
+          "duration": "15:27",
+          "play": 3651,
+          "videoUrl": "http://www.bilibili.com/video/av719747002",
+          "matched": true,
+          "ep": 194,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [
+            "韩立"
+          ],
           "discoveredBy": "episode-search"
         },
         {
@@ -33634,9 +33814,28 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1790398830700,
-      "lastSuccess": 1790398830700,
+      "lastFetched": 1791004935450,
+      "lastSuccess": 1791004935450,
       "videos": [
+        {
+          "bvid": "BV1uBhD6MEim",
+          "aid": 117335218196811,
+          "title": "凡人修仙传第194集，韩立封神之战！力压慕兰圣女,甩仲神师万里！吕师兄开心坏了",
+          "description": "",
+          "cover": "https://i1.hdslb.com/bfs/archive/b5cf5efea218f3183d104b0fc452b989057e7920.jpg",
+          "pubTime": 1790393478000,
+          "duration": "24:39",
+          "play": 29018,
+          "videoUrl": "http://www.bilibili.com/video/av117335218196811",
+          "matched": true,
+          "ep": 194,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [
+            "韩立"
+          ],
+          "discoveredBy": "episode-search"
+        },
         {
           "bvid": "BV11Met6gEhK",
           "aid": 117295640745065,
@@ -42094,9 +42293,29 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1790398830700,
-      "lastSuccess": 1790398830700,
+      "lastFetched": 1791004935450,
+      "lastSuccess": 1791004935450,
       "videos": [
+        {
+          "bvid": "BV1Ceh96qEtF",
+          "aid": 117335436303085,
+          "title": "【凡人修仙传194集】韩立大战慕兰乐上师，古灯发威韩立被打吐血！银月偷袭成功抢得神秘古灯！",
+          "description": "【凡人修仙传194集】韩立披甲大战慕兰乐上师，古灯发威韩立被打吐血！银月偷袭成功抢得神秘古灯！",
+          "cover": "https://i2.hdslb.com/bfs/archive/4d37e85ced047167a11bc84bac0419ae37482b93.jpg",
+          "pubTime": 1790397033000,
+          "duration": "27:48",
+          "play": 55860,
+          "videoUrl": "http://www.bilibili.com/video/av117335436303085",
+          "matched": true,
+          "ep": 194,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [
+            "韩立",
+            "银月"
+          ],
+          "discoveredBy": "episode-search"
+        },
         {
           "bvid": "BV1qset6bELC",
           "aid": 117295791741179,
@@ -42540,9 +42759,28 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1789187878106,
-      "lastSuccess": 1789187878106,
+      "lastFetched": 1791004935450,
+      "lastSuccess": 1791004935450,
       "videos": [
+        {
+          "bvid": "BV1XLh96SEJT",
+          "aid": 117335369192874,
+          "title": "《凡人修仙传194集》韩立大战乐上师",
+          "description": "决战黄龙山……更新中！！！",
+          "cover": "https://i2.hdslb.com/bfs/archive/d42715bfe46809341ea76b583c0c98859bf8aeeb.jpg",
+          "pubTime": 1790395866000,
+          "duration": "19:7",
+          "play": 9261,
+          "videoUrl": "http://www.bilibili.com/video/av117335369192874",
+          "matched": true,
+          "ep": 194,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [
+            "韩立"
+          ],
+          "discoveredBy": "episode-search"
+        },
         {
           "bvid": "BV1D6t16SEBh",
           "aid": 117216183849423,
@@ -49592,8 +49830,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1790919849398,
-      "lastSuccess": 1790919849398,
+      "lastFetched": 1791005079952,
+      "lastSuccess": 1791005079952,
       "videos": [
         {
           "bvid": "BV1ENcizSEd7",
@@ -50028,7 +50266,7 @@
           "cover": "https://i1.hdslb.com/bfs/archive/1f678f72b721b2220455f4d424f5607641aa00c7.jpg",
           "pubTime": 1766030400000,
           "duration": "15:12",
-          "play": 2137,
+          "play": 2138,
           "videoUrl": "http://www.bilibili.com/video/av115736668279704",
           "matched": true,
           "ep": 18,
@@ -55104,9 +55342,43 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1790398830700,
-      "lastSuccess": 1790398830700,
+      "lastFetched": 1791004935450,
+      "lastSuccess": 1791004935450,
       "videos": [
+        {
+          "bvid": "BV18wHh6ZEZH",
+          "aid": 117374745319650,
+          "title": "b站凡人修仙传194集观众留言",
+          "description": "欢迎各位道友在评论区一起交流，说说你看完这一集的感受。",
+          "cover": "https://i0.hdslb.com/bfs/archive/e3aa654b9e4d670d890e498a3687ecc39f45526d.jpg",
+          "pubTime": 1790997013000,
+          "duration": "1:30",
+          "play": 106,
+          "videoUrl": "http://www.bilibili.com/video/av117374745319650",
+          "matched": true,
+          "ep": 194,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [],
+          "discoveredBy": "episode-search"
+        },
+        {
+          "bvid": "BV1eFah6xELL",
+          "aid": 117342046524890,
+          "title": "凡人修仙传194集黄龙山之战PV",
+          "description": "-",
+          "cover": "https://i1.hdslb.com/bfs/archive/2da8c0ec019c55da37bfa67df45ad6e5b77dde09.jpg",
+          "pubTime": 1790497767000,
+          "duration": "0:36",
+          "play": 8978,
+          "videoUrl": "http://www.bilibili.com/video/av117342046524890",
+          "matched": true,
+          "ep": 194,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [],
+          "discoveredBy": "episode-search"
+        },
         {
           "bvid": "BV1DihD6zEu1",
           "aid": 117335235106561,
