@@ -1,5 +1,5 @@
 {
-  "generatedAt": 1791129460426,
+  "generatedAt": 1791185952467,
   "mode": "fresh",
   "taxonomyVersion": 2,
   "policyVersion": 1,
@@ -13,7 +13,7 @@
     "同人创作"
   ],
   "counts": {
-    "人物志": 9,
+    "人物志": 10,
     "剧情二创": 11,
     "趣味整活": 18,
     "混剪手书": 6,
@@ -27,7 +27,6 @@
       "BV1HFGK6DEqq",
       "BV11F3i6uE14",
       "BV1fCMe6JEsx",
-      "BV1RoM46tEQ8",
       "BV1uqMg6TERj",
       "BV1KTMH64EA7",
       "BV1mA376WEFC",
@@ -58,28 +57,29 @@
       "BV1MCTK6XEBL",
       "BV1M2Ey6sEPo",
       "BV19b7p6YESX",
-      "BV1ffMM6VEb2",
       "BV12eE16HEAa",
+      "BV1ffMM6VEb2",
       "BV1RDd2BFErB",
       "BV1LZVZ6dEch",
       "BV1XGPrzcEar",
       "BV1ocj465EbW",
+      "BV1RoM46tEQ8",
       "BV1gtp9zVEGm",
-      "BV1gjEr6EErF",
       "BV1Ar786BEHW",
+      "BV1gjEr6EErF",
       "BV1Lin7z5EZq",
       "BV1Bz7g6ME33",
       "BV16gTp6JEMj",
+      "BV1Mwge6KEze",
       "BV1rMWDzpEz5",
       "BV1fJr3BYExB",
-      "BV1Mwge6KEze",
       "BV1TkJ56zEQj",
       "BV1gxfqBTEs3",
       "BV1bgVS6dEMQ",
       "BV1EdcJz6EPN",
+      "BV1PLSwYLEqX",
       "BV1V9AUzHEzJ",
       "BV1o77n6AE2T",
-      "BV1PLSwYLEqX",
       "BV1QGebziE1r",
       "BV1Z6uKzQEXg",
       "BV1s2Ts6YEdR",
@@ -88,7 +88,8 @@
       "BV12MziYDEpZ",
       "BV1nZ4y1r79E",
       "BV1L8TK6aEcQ",
-      "BV1YN7k6DEAR"
+      "BV1YN7k6DEAR",
+      "BV1qdYbzVEEN"
     ]
   },
   "items": [
@@ -213,7 +214,7 @@
       "score": 85,
       "lane": "hidden_gem",
       "firstSeenAt": 1785560340526,
-      "lastSeenAt": 1791129460426,
+      "lastSeenAt": 1791185952467,
       "sourceQueries": [
         "凡人修仙传 二创",
         "凡人官方二创大会",
@@ -410,7 +411,7 @@
       "score": 81,
       "lane": "hidden_gem",
       "firstSeenAt": 1785244584356,
-      "lastSeenAt": 1791129460426,
+      "lastSeenAt": 1791185952467,
       "sourceQueries": [
         "凡人官方二创大会",
         "凡人修仙传 人物志 设定"
@@ -657,32 +658,37 @@
       ]
     },
     {
-      "id": "BV1RoM46tEQ8",
-      "bvid": "BV1RoM46tEQ8",
-      "title": "⚡师 姐 摇 一 摇⚡【凡人官方二创大会】",
-      "description": "摇一摇~ 摇一摇~",
-      "cover": "https://i1.hdslb.com/bfs/archive/2877c277ec1602d1dc698cbce43982f766ca04d2.jpg",
-      "url": "http://www.bilibili.com/video/av116877451987094",
-      "upId": "327838817",
-      "upName": "明灯-专注脑洞一百年",
-      "play": 29957,
-      "pubTime": 1783408640000,
-      "duration": "1:3",
-      "category": "趣味整活",
-      "confidence": 0.95,
+      "id": "BV12eE16HEAa",
+      "bvid": "BV12eE16HEAa",
+      "title": "【凡人修仙传】短片动画｜览青山",
+      "description": "我有一壶酒，足以慰风尘。泛舟江海间，举杯赠世人。”\n 杀人放火厉飞雨，万人敬仰韩天尊。从炼气踏至元婴，二百春秋，血泪铸道，步步峥嵘。\n何为凡人，何为仙？岂闻朝华尽何年。\n回首沧桑，此恨绵绵。风月如剑，看我破天。\n道不尽仙殊途，尽人间。\n寄语诸位道友：\n愿每一个隐于众生、默默前行的普通人，终能褪去怯懦，直面来路，不负半生风雨与坚守。\n仙路漫漫，各自珍重。\n生为凡人，心自不凡。",
+      "cover": "https://i0.hdslb.com/bfs/archive/c016e11b5f3927e3626bf1eaa84976c3818e4bac.jpg",
+      "url": "http://www.bilibili.com/video/av116736456137506",
+      "upId": "11742550",
+      "upName": "哈米伦的弄笛者",
+      "play": 526100,
+      "pubTime": 1781321400000,
+      "duration": "2:31",
+      "category": "剧情二创",
+      "confidence": 0.9,
       "classificationSource": "model",
-      "classificationReason": "参与凡人官方二创大会的趣味整活类二次创作内容",
+      "classificationReason": "创作凡人修仙传主题的短片动画，有原创叙事表达",
       "contentNature": "secondary_creation",
       "originality": "deep_adaptation",
-      "eventTag": "凡人官方二创大会",
-      "creatorPotential": "recommend",
-      "score": 78,
-      "lane": "hidden_gem",
+      "eventTag": null,
+      "creatorPotential": "observe",
+      "score": 77,
+      "lane": "archive",
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1791040429278,
+      "lastSeenAt": 1790585738979,
       "sourceQueries": [
         "legacy-published",
-        "凡人修仙传 鬼畜 整活"
+        "凡人修仙传 混剪 手书",
+        "凡人官方二创大会",
+        "凡人修仙传 鬼畜 整活",
+        "韩立 二创",
+        "凡人修仙传 MMD 同人动画",
+        "凡人修仙传 同人"
       ],
       "discoveryModes": [
         "history",
@@ -789,44 +795,6 @@
       ]
     },
     {
-      "id": "BV12eE16HEAa",
-      "bvid": "BV12eE16HEAa",
-      "title": "【凡人修仙传】短片动画｜览青山",
-      "description": "我有一壶酒，足以慰风尘。泛舟江海间，举杯赠世人。”\n 杀人放火厉飞雨，万人敬仰韩天尊。从炼气踏至元婴，二百春秋，血泪铸道，步步峥嵘。\n何为凡人，何为仙？岂闻朝华尽何年。\n回首沧桑，此恨绵绵。风月如剑，看我破天。\n道不尽仙殊途，尽人间。\n寄语诸位道友：\n愿每一个隐于众生、默默前行的普通人，终能褪去怯懦，直面来路，不负半生风雨与坚守。\n仙路漫漫，各自珍重。\n生为凡人，心自不凡。",
-      "cover": "https://i0.hdslb.com/bfs/archive/c016e11b5f3927e3626bf1eaa84976c3818e4bac.jpg",
-      "url": "http://www.bilibili.com/video/av116736456137506",
-      "upId": "11742550",
-      "upName": "哈米伦的弄笛者",
-      "play": 526100,
-      "pubTime": 1781321400000,
-      "duration": "2:31",
-      "category": "剧情二创",
-      "confidence": 0.9,
-      "classificationSource": "model",
-      "classificationReason": "创作凡人修仙传主题的短片动画，有原创叙事表达",
-      "contentNature": "secondary_creation",
-      "originality": "deep_adaptation",
-      "eventTag": null,
-      "creatorPotential": "observe",
-      "score": 76,
-      "lane": "archive",
-      "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1790585738979,
-      "sourceQueries": [
-        "legacy-published",
-        "凡人修仙传 混剪 手书",
-        "凡人官方二创大会",
-        "凡人修仙传 鬼畜 整活",
-        "韩立 二创",
-        "凡人修仙传 MMD 同人动画",
-        "凡人修仙传 同人"
-      ],
-      "discoveryModes": [
-        "history",
-        "fresh"
-      ]
-    },
-    {
       "id": "BV1ksGu6cEdY",
       "bvid": "BV1ksGu6cEdY",
       "title": "尤道友-最菜最装的元婴修士！凡人修仙传人物志·5",
@@ -849,7 +817,7 @@
       "score": 76,
       "lane": "new_creator_watch",
       "firstSeenAt": 1785560340526,
-      "lastSeenAt": 1791129460426,
+      "lastSeenAt": 1791185952467,
       "sourceQueries": [
         "凡人修仙传 人物志 设定"
       ],
@@ -992,6 +960,39 @@
       ]
     },
     {
+      "id": "BV1RoM46tEQ8",
+      "bvid": "BV1RoM46tEQ8",
+      "title": "⚡师 姐 摇 一 摇⚡【凡人官方二创大会】",
+      "description": "摇一摇~ 摇一摇~",
+      "cover": "https://i1.hdslb.com/bfs/archive/2877c277ec1602d1dc698cbce43982f766ca04d2.jpg",
+      "url": "http://www.bilibili.com/video/av116877451987094",
+      "upId": "327838817",
+      "upName": "明灯-专注脑洞一百年",
+      "play": 29957,
+      "pubTime": 1783408640000,
+      "duration": "1:3",
+      "category": "趣味整活",
+      "confidence": 0.95,
+      "classificationSource": "model",
+      "classificationReason": "参与凡人官方二创大会的趣味整活类二次创作内容",
+      "contentNature": "secondary_creation",
+      "originality": "deep_adaptation",
+      "eventTag": "凡人官方二创大会",
+      "creatorPotential": "recommend",
+      "score": 74,
+      "lane": "archive",
+      "firstSeenAt": 1784281357983,
+      "lastSeenAt": 1791040429278,
+      "sourceQueries": [
+        "legacy-published",
+        "凡人修仙传 鬼畜 整活"
+      ],
+      "discoveryModes": [
+        "history",
+        "fresh"
+      ]
+    },
+    {
       "id": "BV1gtp9zVEGm",
       "bvid": "BV1gtp9zVEGm",
       "title": "韩立的极阴岛企业文化传承",
@@ -1020,6 +1021,37 @@
       ],
       "discoveryModes": [
         "history"
+      ]
+    },
+    {
+      "id": "BV1Ar786BEHW",
+      "bvid": "BV1Ar786BEHW",
+      "title": "在超市后门吞云吐雾的修仙者【凡人官方二创大会】",
+      "description": "视频内容纯属虚构，请勿模仿",
+      "cover": "https://i0.hdslb.com/bfs/archive/cb0340f8063d410ab188f78f15e1743eef51648d.jpg",
+      "url": "http://www.bilibili.com/video/av116810057780150",
+      "upId": "75014708",
+      "upName": "浪浪山小蛋仔",
+      "play": 103204,
+      "pubTime": 1782380353000,
+      "duration": "2:31",
+      "category": "同人创作",
+      "confidence": 0.95,
+      "classificationSource": "model",
+      "classificationReason": "参与凡人官方二创大会的同人创作内容",
+      "contentNature": "secondary_creation",
+      "originality": "deep_adaptation",
+      "eventTag": "凡人官方二创大会",
+      "creatorPotential": "recommend",
+      "score": 73,
+      "lane": "archive",
+      "firstSeenAt": 1784281357983,
+      "lastSeenAt": 1789887377857,
+      "sourceQueries": [
+        "凡人修仙传 鬼畜 整活"
+      ],
+      "discoveryModes": [
+        "fresh"
       ]
     },
     {
@@ -1091,37 +1123,6 @@
       ],
       "discoveryModes": [
         "history",
-        "fresh"
-      ]
-    },
-    {
-      "id": "BV1Ar786BEHW",
-      "bvid": "BV1Ar786BEHW",
-      "title": "在超市后门吞云吐雾的修仙者【凡人官方二创大会】",
-      "description": "视频内容纯属虚构，请勿模仿",
-      "cover": "https://i0.hdslb.com/bfs/archive/cb0340f8063d410ab188f78f15e1743eef51648d.jpg",
-      "url": "http://www.bilibili.com/video/av116810057780150",
-      "upId": "75014708",
-      "upName": "浪浪山小蛋仔",
-      "play": 103204,
-      "pubTime": 1782380353000,
-      "duration": "2:31",
-      "category": "同人创作",
-      "confidence": 0.95,
-      "classificationSource": "model",
-      "classificationReason": "参与凡人官方二创大会的同人创作内容",
-      "contentNature": "secondary_creation",
-      "originality": "deep_adaptation",
-      "eventTag": "凡人官方二创大会",
-      "creatorPotential": "recommend",
-      "score": 72,
-      "lane": "archive",
-      "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1789887377857,
-      "sourceQueries": [
-        "凡人修仙传 鬼畜 整活"
-      ],
-      "discoveryModes": [
         "fresh"
       ]
     },
@@ -1241,7 +1242,7 @@
       "score": 71,
       "lane": "hidden_gem",
       "firstSeenAt": 1784868982615,
-      "lastSeenAt": 1791129460426,
+      "lastSeenAt": 1791185952467,
       "sourceQueries": [
         "凡人修仙传 二创",
         "凡人官方二创大会",
@@ -1282,6 +1283,39 @@
       ],
       "discoveryModes": [
         "history"
+      ]
+    },
+    {
+      "id": "BV1Mwge6KEze",
+      "bvid": "BV1Mwge6KEze",
+      "title": "三尺之身的火龙童子 亦能顶天立地！小火龙究竟有没有斩杀过元婴级法士？《凡人修仙传》人物志",
+      "description": "感谢本期视频的配音小哥@鲜氣菌",
+      "cover": "https://i1.hdslb.com/bfs/archive/9385c7140d0cae89512dc7eed060388c816ea053.jpg",
+      "url": "http://www.bilibili.com/video/av116973685968982",
+      "upId": "57868863",
+      "upName": "白马侯子",
+      "play": 420274,
+      "pubTime": 1784889000000,
+      "duration": "10:57",
+      "category": "人物志",
+      "confidence": 0.95,
+      "classificationSource": "model",
+      "classificationReason": "围绕凡人修仙传角色火龙童子展开专题探讨，属于人物志类有主题内容",
+      "contentNature": "character_or_lore",
+      "originality": "original",
+      "eventTag": null,
+      "creatorPotential": "recommend",
+      "score": 69,
+      "lane": "archive",
+      "firstSeenAt": 1784898301768,
+      "lastSeenAt": 1791185952467,
+      "sourceQueries": [
+        "凡人修仙传 二创",
+        "凡人官方二创大会",
+        "凡人修仙传 人物志 设定"
+      ],
+      "discoveryModes": [
+        "fresh"
       ]
     },
     {
@@ -1347,39 +1381,6 @@
       ],
       "discoveryModes": [
         "history"
-      ]
-    },
-    {
-      "id": "BV1Mwge6KEze",
-      "bvid": "BV1Mwge6KEze",
-      "title": "三尺之身的火龙童子 亦能顶天立地！小火龙究竟有没有斩杀过元婴级法士？《凡人修仙传》人物志",
-      "description": "感谢本期视频的配音小哥@鲜氣菌",
-      "cover": "https://i1.hdslb.com/bfs/archive/9385c7140d0cae89512dc7eed060388c816ea053.jpg",
-      "url": "http://www.bilibili.com/video/av116973685968982",
-      "upId": "57868863",
-      "upName": "白马侯子",
-      "play": 420274,
-      "pubTime": 1784889000000,
-      "duration": "10:57",
-      "category": "人物志",
-      "confidence": 0.95,
-      "classificationSource": "model",
-      "classificationReason": "围绕凡人修仙传角色火龙童子展开专题探讨，属于人物志类有主题内容",
-      "contentNature": "character_or_lore",
-      "originality": "original",
-      "eventTag": null,
-      "creatorPotential": "recommend",
-      "score": 68,
-      "lane": "archive",
-      "firstSeenAt": 1784898301768,
-      "lastSeenAt": 1791129460426,
-      "sourceQueries": [
-        "凡人修仙传 二创",
-        "凡人官方二创大会",
-        "凡人修仙传 人物志 设定"
-      ],
-      "discoveryModes": [
-        "fresh"
       ]
     },
     {
@@ -1608,6 +1609,37 @@
       ]
     },
     {
+      "id": "BV1PLSwYLEqX",
+      "bvid": "BV1PLSwYLEqX",
+      "title": "这命，他认吗?",
+      "description": "@凡人修仙传动画连续剧 \n他，不服天理，不信天命。\n他，一往无前，万难不屈。\n\nBGM：《宇宙尽头的碎片》夜魔知晏 \n            《Titan》\n旁白声音来自于《凡人修仙传》动画中，红尘劫里的下棋老者的AI生成\n“也许真正的他早就死在了那座岛上”，这句只是为了增加旁白讲故事的氛围，没有意指他遭难前后对比好与不好，莫要误会。",
+      "cover": "https://i2.hdslb.com/bfs/archive/e1be1fc56fcb218c4c3b62c4e47b8964450112e4.jpg",
+      "url": "http://www.bilibili.com/video/av113509694246568",
+      "upId": "589353391",
+      "upName": "学不会锅包肉",
+      "play": 195987,
+      "pubTime": 1732021310000,
+      "duration": "3:21",
+      "category": "同人创作",
+      "confidence": 0.85,
+      "classificationSource": "model",
+      "classificationReason": "该视频为基于《凡人修仙传》动画内容的二次创作，通过旁白营造氛围",
+      "contentNature": "secondary_creation",
+      "originality": "deep_adaptation",
+      "eventTag": null,
+      "creatorPotential": "observe",
+      "score": 64,
+      "lane": "archive",
+      "firstSeenAt": 1790585738979,
+      "lastSeenAt": 1790585738979,
+      "sourceQueries": [
+        "凡人修仙传 混剪 手书"
+      ],
+      "discoveryModes": [
+        "history"
+      ]
+    },
+    {
       "id": "BV1V9AUzHEzJ",
       "bvid": "BV1V9AUzHEzJ",
       "title": "凡人二创：银月要做大的！",
@@ -1670,37 +1702,6 @@
       ],
       "discoveryModes": [
         "fresh"
-      ]
-    },
-    {
-      "id": "BV1PLSwYLEqX",
-      "bvid": "BV1PLSwYLEqX",
-      "title": "这命，他认吗?",
-      "description": "@凡人修仙传动画连续剧 \n他，不服天理，不信天命。\n他，一往无前，万难不屈。\n\nBGM：《宇宙尽头的碎片》夜魔知晏 \n            《Titan》\n旁白声音来自于《凡人修仙传》动画中，红尘劫里的下棋老者的AI生成\n“也许真正的他早就死在了那座岛上”，这句只是为了增加旁白讲故事的氛围，没有意指他遭难前后对比好与不好，莫要误会。",
-      "cover": "https://i2.hdslb.com/bfs/archive/e1be1fc56fcb218c4c3b62c4e47b8964450112e4.jpg",
-      "url": "http://www.bilibili.com/video/av113509694246568",
-      "upId": "589353391",
-      "upName": "学不会锅包肉",
-      "play": 195987,
-      "pubTime": 1732021310000,
-      "duration": "3:21",
-      "category": "同人创作",
-      "confidence": 0.85,
-      "classificationSource": "model",
-      "classificationReason": "该视频为基于《凡人修仙传》动画内容的二次创作，通过旁白营造氛围",
-      "contentNature": "secondary_creation",
-      "originality": "deep_adaptation",
-      "eventTag": null,
-      "creatorPotential": "observe",
-      "score": 63,
-      "lane": "archive",
-      "firstSeenAt": 1790585738979,
-      "lastSeenAt": 1790585738979,
-      "sourceQueries": [
-        "凡人修仙传 混剪 手书"
-      ],
-      "discoveryModes": [
-        "history"
       ]
     },
     {
@@ -1983,7 +1984,7 @@
       "score": 62,
       "lane": "hidden_gem",
       "firstSeenAt": 1784868982615,
-      "lastSeenAt": 1791129460426,
+      "lastSeenAt": 1791185952467,
       "sourceQueries": [
         "凡人修仙传 人物志 设定"
       ],
@@ -2085,6 +2086,39 @@
       ],
       "discoveryModes": [
         "history"
+      ]
+    },
+    {
+      "id": "BV1qdYbzVEEN",
+      "bvid": "BV1qdYbzVEEN",
+      "title": "凡人修仙传：韩立140件法宝/法器   23分钟完整版（十七）",
+      "description": "凡人修仙传：韩立140件法宝/法器  23分钟完整版（十七）",
+      "cover": "https://i0.hdslb.com/bfs/archive/3c2da54bd7fcccac6d5d2104a285a129f127df3f.jpg",
+      "url": "http://www.bilibili.com/video/av115052342416842",
+      "upId": "525593394",
+      "upName": "V暂停键V",
+      "play": 9903,
+      "pubTime": 1755559762000,
+      "duration": "23:17",
+      "category": "人物志",
+      "confidence": 0.85,
+      "classificationSource": "model",
+      "classificationReason": "该内容为凡人修仙传法宝设定专题整理",
+      "contentNature": "character_or_lore",
+      "originality": "deep_adaptation",
+      "eventTag": null,
+      "creatorPotential": "observe",
+      "score": 60,
+      "lane": "archive",
+      "firstSeenAt": 1784526884576,
+      "lastSeenAt": 1789978229138,
+      "sourceQueries": [
+        "凡人修仙传 法宝 功法 人物",
+        "凡人修仙传 人物志 设定"
+      ],
+      "discoveryModes": [
+        "history",
+        "fresh"
       ]
     }
   ]
