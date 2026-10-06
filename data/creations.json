@@ -1,5 +1,5 @@
 {
-  "generatedAt": 1791229737172,
+  "generatedAt": 1791273895740,
   "mode": "fresh",
   "taxonomyVersion": 2,
   "policyVersion": 1,
@@ -26,7 +26,6 @@
     "hidden_gem": [
       "BV1HFGK6DEqq",
       "BV11F3i6uE14",
-      "BV1fCMe6JEsx",
       "BV1uqMg6TERj",
       "BV1KTMH64EA7",
       "BV1rT3m6AE3H",
@@ -61,6 +60,7 @@
       "BV1ffMM6VEb2",
       "BV1RDd2BFErB",
       "BV1LZVZ6dEch",
+      "BV1fCMe6JEsx",
       "BV1XGPrzcEar",
       "BV1ocj465EbW",
       "BV1gtp9zVEGm",
@@ -79,10 +79,10 @@
       "BV1gxfqBTEs3",
       "BV1bgVS6dEMQ",
       "BV1EdcJz6EPN",
-      "BV1o77n6AE2T",
       "BV1PLSwYLEqX",
       "BV1RusDz1EwM",
       "BV1V9AUzHEzJ",
+      "BV1o77n6AE2T",
       "BV1s2Ts6YEdR",
       "BV1QGebziE1r",
       "BV1Z6uKzQEXg",
@@ -279,7 +279,7 @@
       "score": 84,
       "lane": "hidden_gem",
       "firstSeenAt": 1785560340526,
-      "lastSeenAt": 1791229737172,
+      "lastSeenAt": 1791273895740,
       "sourceQueries": [
         "凡人修仙传 二创",
         "凡人官方二创大会",
@@ -519,40 +519,6 @@
         "凡人官方二创大会"
       ],
       "discoveryModes": [
-        "fresh"
-      ]
-    },
-    {
-      "id": "BV1fCMe6JEsx",
-      "bvid": "BV1fCMe6JEsx",
-      "title": "我错了吗？我没错！- 师姐南宫阙【凡人官方二创大会】",
-      "description": "#凡人修仙传 #凡人二创 #凡人 #南宫阙 #师姐",
-      "cover": "https://i2.hdslb.com/bfs/archive/e97d638a2fa5d745c631d5ad290a8484885788e0.jpg",
-      "url": "http://www.bilibili.com/video/av116881864262558",
-      "upId": "402909148",
-      "upName": "阳江稻草",
-      "play": 48318,
-      "pubTime": 1783476128000,
-      "duration": "4:42",
-      "category": "剧情二创",
-      "confidence": 0.9,
-      "classificationSource": "model",
-      "classificationReason": "参与凡人官方二创大会的剧情类二次创作",
-      "contentNature": "secondary_creation",
-      "originality": "deep_adaptation",
-      "eventTag": "凡人官方二创大会",
-      "creatorPotential": "recommend",
-      "score": 79,
-      "lane": "hidden_gem",
-      "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1790232141979,
-      "sourceQueries": [
-        "legacy-published",
-        "凡人官方二创大会",
-        "韩立 二创"
-      ],
-      "discoveryModes": [
-        "history",
         "fresh"
       ]
     },
@@ -895,6 +861,40 @@
       ]
     },
     {
+      "id": "BV1fCMe6JEsx",
+      "bvid": "BV1fCMe6JEsx",
+      "title": "我错了吗？我没错！- 师姐南宫阙【凡人官方二创大会】",
+      "description": "#凡人修仙传 #凡人二创 #凡人 #南宫阙 #师姐",
+      "cover": "https://i2.hdslb.com/bfs/archive/e97d638a2fa5d745c631d5ad290a8484885788e0.jpg",
+      "url": "http://www.bilibili.com/video/av116881864262558",
+      "upId": "402909148",
+      "upName": "阳江稻草",
+      "play": 48318,
+      "pubTime": 1783476128000,
+      "duration": "4:42",
+      "category": "剧情二创",
+      "confidence": 0.9,
+      "classificationSource": "model",
+      "classificationReason": "参与凡人官方二创大会的剧情类二次创作",
+      "contentNature": "secondary_creation",
+      "originality": "deep_adaptation",
+      "eventTag": "凡人官方二创大会",
+      "creatorPotential": "recommend",
+      "score": 75,
+      "lane": "archive",
+      "firstSeenAt": 1784281357983,
+      "lastSeenAt": 1790232141979,
+      "sourceQueries": [
+        "legacy-published",
+        "凡人官方二创大会",
+        "韩立 二创"
+      ],
+      "discoveryModes": [
+        "history",
+        "fresh"
+      ]
+    },
+    {
       "id": "BV1XGPrzcEar",
       "bvid": "BV1XGPrzcEar",
       "title": "凡人二创 ： 黄龙山之战-慕兰神师 【B站AI创作大赛-开放赛道】",
@@ -1214,7 +1214,7 @@
       "score": 71,
       "lane": "hidden_gem",
       "firstSeenAt": 1784868982615,
-      "lastSeenAt": 1791229737172,
+      "lastSeenAt": 1791273895740,
       "sourceQueries": [
         "凡人修仙传 二创",
         "凡人官方二创大会",
@@ -1643,37 +1643,6 @@
       ]
     },
     {
-      "id": "BV1o77n6AE2T",
-      "bvid": "BV1o77n6AE2T",
-      "title": "我有两颗忘尘丹【凡人官方二创大会】",
-      "description": "搞完搞完！",
-      "cover": "https://i1.hdslb.com/bfs/archive/ba7ad359d1827ea2e052846859324cd5512683a1.jpg",
-      "url": "http://www.bilibili.com/video/av116820526826342",
-      "upId": "838539",
-      "upName": "云霏宇",
-      "play": 1359,
-      "pubTime": 1782539895000,
-      "duration": "0:38",
-      "category": "同人创作",
-      "confidence": 0.95,
-      "classificationSource": "model",
-      "classificationReason": "参与凡人官方二创大会的同人创作内容",
-      "contentNature": "secondary_creation",
-      "originality": "deep_adaptation",
-      "eventTag": "凡人官方二创大会",
-      "creatorPotential": "recommend",
-      "score": 64,
-      "lane": "archive",
-      "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1789974315372,
-      "sourceQueries": [
-        "凡人修仙传 鬼畜 整活"
-      ],
-      "discoveryModes": [
-        "fresh"
-      ]
-    },
-    {
       "id": "BV13yg46WE51",
       "bvid": "BV13yg46WE51",
       "title": "爆肝30000积分，凡人修仙传AI二创动画】《凡尘仙途》｜韩立修仙路主题曲，凡尘一梦终问仙【凡人官方二创大会】",
@@ -1798,6 +1767,37 @@
       ],
       "discoveryModes": [
         "history"
+      ]
+    },
+    {
+      "id": "BV1o77n6AE2T",
+      "bvid": "BV1o77n6AE2T",
+      "title": "我有两颗忘尘丹【凡人官方二创大会】",
+      "description": "搞完搞完！",
+      "cover": "https://i1.hdslb.com/bfs/archive/ba7ad359d1827ea2e052846859324cd5512683a1.jpg",
+      "url": "http://www.bilibili.com/video/av116820526826342",
+      "upId": "838539",
+      "upName": "云霏宇",
+      "play": 1359,
+      "pubTime": 1782539895000,
+      "duration": "0:38",
+      "category": "同人创作",
+      "confidence": 0.95,
+      "classificationSource": "model",
+      "classificationReason": "参与凡人官方二创大会的同人创作内容",
+      "contentNature": "secondary_creation",
+      "originality": "deep_adaptation",
+      "eventTag": "凡人官方二创大会",
+      "creatorPotential": "recommend",
+      "score": 63,
+      "lane": "archive",
+      "firstSeenAt": 1784281357983,
+      "lastSeenAt": 1789974315372,
+      "sourceQueries": [
+        "凡人修仙传 鬼畜 整活"
+      ],
+      "discoveryModes": [
+        "fresh"
       ]
     },
     {
