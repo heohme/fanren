@@ -1,5 +1,5 @@
 {
-  "generatedAt": 1791446251324,
+  "generatedAt": 1791482519225,
   "mode": "fresh",
   "taxonomyVersion": 2,
   "policyVersion": 1,
@@ -16,7 +16,6 @@
       "BV12tGP6XEjz",
       "BV1HFGK6DEqq",
       "BV11F3i6uE14",
-      "BV1KTMH64EA7",
       "BV1rT3m6AE3H",
       "BV1omgx6aEvq",
       "BV1wq3r6JEx2",
@@ -51,9 +50,10 @@
       "BV1gtp9zVEGm",
       "BV1uqMg6TERj",
       "BV1RoM46tEQ8",
+      "BV1gjEr6EErF",
       "BV1Ar786BEHW",
       "BV1vMJ46nENz",
-      "BV1gjEr6EErF",
+      "BV1KTMH64EA7",
       "BV1Lin7z5EZq",
       "BV1Bz7g6ME33",
       "BV1rMWDzpEz5",
@@ -65,20 +65,20 @@
       "BV1gxfqBTEs3",
       "BV1bgVS6dEMQ",
       "BV1EdcJz6EPN",
-      "BV1o77n6AE2T",
       "BV1PLSwYLEqX",
       "BV1RusDz1EwM",
+      "BV1Z6uKzQEXg",
       "BV1V9AUzHEzJ",
       "BV1jAM86AEVP",
+      "BV1o77n6AE2T",
       "BV1s2Ts6YEdR",
       "BV1QGebziE1r",
-      "BV1Z6uKzQEXg",
       "BV14KS3YGEk9",
       "BV1jhBTYJE5x",
       "BV12MziYDEpZ",
       "BV1L8TK6aEcQ",
-      "BV1YN7k6DEAR",
-      "BV1nZ4y1r79E"
+      "BV1nZ4y1r79E",
+      "BV1YN7k6DEAR"
     ]
   },
   "items": [
@@ -888,7 +888,7 @@
       "score": 58,
       "lane": null,
       "firstSeenAt": 1784525133937,
-      "lastSeenAt": 1791446251324,
+      "lastSeenAt": 1791482519225,
       "sourceQueries": [
         "凡人修仙传 二创",
         "凡人官方二创大会",
@@ -1274,7 +1274,7 @@
       "score": 55,
       "lane": null,
       "firstSeenAt": 1784954073751,
-      "lastSeenAt": 1791446251324,
+      "lastSeenAt": 1791482519225,
       "sourceQueries": [
         "凡人修仙传 人物志 设定"
       ],
@@ -1398,7 +1398,7 @@
       "score": 55,
       "lane": null,
       "firstSeenAt": 1785244584356,
-      "lastSeenAt": 1791446251324,
+      "lastSeenAt": 1791482519225,
       "sourceQueries": [
         "凡人官方二创大会",
         "凡人修仙传 鬼畜 整活",
@@ -2280,7 +2280,7 @@
       "score": 52,
       "lane": null,
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1791446251324,
+      "lastSeenAt": 1791482519225,
       "sourceQueries": [
         "凡人修仙传 混剪 手书"
       ],
@@ -2556,7 +2556,7 @@
       "url": "http://www.bilibili.com/video/av116958586472140",
       "upId": "12391712",
       "upName": "海外散修韩天尊",
-      "play": 1323,
+      "play": 1324,
       "pubTime": 1784646625000,
       "duration": "0:58",
       "category": "趣味整活",
@@ -2570,7 +2570,7 @@
       "score": 51,
       "lane": null,
       "firstSeenAt": 1784695859320,
-      "lastSeenAt": 1791446251324,
+      "lastSeenAt": 1791482519225,
       "sourceQueries": [
         "凡人修仙传 二创",
         "凡人官方二创大会",
@@ -2584,53 +2584,12 @@
       "riskFlags": [],
       "policyReason": "疑似轻度剪辑，需人工确认原创性",
       "stats": {
-        "play": 1323,
+        "play": 1324,
         "like": 0,
         "coin": 0,
         "favorite": 12,
         "reply": 0,
         "danmaku": 15
-      }
-    },
-    {
-      "id": "BV1rvNw6REyB",
-      "bvid": "BV1rvNw6REyB",
-      "title": "师姐的自我救赎",
-      "description": "记得看凡人修仙传",
-      "cover": "https://i1.hdslb.com/bfs/archive/547b394f78f921019cb62cd5fdfaba2699bdf54f.jpg",
-      "url": "http://www.bilibili.com/video/av116902416424752",
-      "upId": "493143567",
-      "upName": "邪修Xsm",
-      "play": 742,
-      "pubTime": 1783789594000,
-      "duration": "0:48",
-      "category": "同人创作",
-      "confidence": 0.8,
-      "classificationSource": "model",
-      "classificationReason": "凡人修仙传相关的同人小剧场内容",
-      "contentNature": "secondary_creation",
-      "originality": "deep_adaptation",
-      "eventTag": null,
-      "creatorPotential": "observe",
-      "score": 51,
-      "lane": null,
-      "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1791229737172,
-      "sourceQueries": [
-        "凡人修仙传 鬼畜 整活"
-      ],
-      "discoveryModes": [
-        "fresh"
-      ],
-      "riskFlags": [],
-      "policyReason": "内容可收录，但需人工复核分类或风险",
-      "stats": {
-        "play": 742,
-        "like": 0,
-        "coin": 0,
-        "favorite": 1,
-        "reply": 0,
-        "danmaku": 0
       }
     },
     {
@@ -2783,7 +2742,7 @@
       "score": 50,
       "lane": null,
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1791446251324,
+      "lastSeenAt": 1791482519225,
       "sourceQueries": [
         "凡人修仙传 法宝 功法 人物"
       ],
@@ -2797,6 +2756,47 @@
         "like": 0,
         "coin": 0,
         "favorite": 5,
+        "reply": 0,
+        "danmaku": 0
+      }
+    },
+    {
+      "id": "BV1rvNw6REyB",
+      "bvid": "BV1rvNw6REyB",
+      "title": "师姐的自我救赎",
+      "description": "记得看凡人修仙传",
+      "cover": "https://i1.hdslb.com/bfs/archive/547b394f78f921019cb62cd5fdfaba2699bdf54f.jpg",
+      "url": "http://www.bilibili.com/video/av116902416424752",
+      "upId": "493143567",
+      "upName": "邪修Xsm",
+      "play": 742,
+      "pubTime": 1783789594000,
+      "duration": "0:48",
+      "category": "同人创作",
+      "confidence": 0.8,
+      "classificationSource": "model",
+      "classificationReason": "凡人修仙传相关的同人小剧场内容",
+      "contentNature": "secondary_creation",
+      "originality": "deep_adaptation",
+      "eventTag": null,
+      "creatorPotential": "observe",
+      "score": 50,
+      "lane": null,
+      "firstSeenAt": 1784281357983,
+      "lastSeenAt": 1791229737172,
+      "sourceQueries": [
+        "凡人修仙传 鬼畜 整活"
+      ],
+      "discoveryModes": [
+        "fresh"
+      ],
+      "riskFlags": [],
+      "policyReason": "内容可收录，但需人工复核分类或风险",
+      "stats": {
+        "play": 742,
+        "like": 0,
+        "coin": 0,
+        "favorite": 1,
         "reply": 0,
         "danmaku": 0
       }
@@ -3174,7 +3174,7 @@
       "score": 48,
       "lane": null,
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1791446251324,
+      "lastSeenAt": 1791482519225,
       "sourceQueries": [
         "凡人修仙传 法宝 功法 人物"
       ],
@@ -3215,7 +3215,7 @@
       "score": 48,
       "lane": null,
       "firstSeenAt": 1785386371582,
-      "lastSeenAt": 1791446251324,
+      "lastSeenAt": 1791482519225,
       "sourceQueries": [
         "凡人修仙传 二创",
         "凡人官方二创大会",
@@ -3510,7 +3510,7 @@
       "score": 47,
       "lane": null,
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1791446251324,
+      "lastSeenAt": 1791482519225,
       "sourceQueries": [
         "凡人修仙传 法宝 功法 人物"
       ],
@@ -3551,7 +3551,7 @@
       "score": 47,
       "lane": null,
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1791446251324,
+      "lastSeenAt": 1791482519225,
       "sourceQueries": [
         "凡人修仙传 配音 翻唱"
       ],
@@ -3702,7 +3702,7 @@
       "url": "http://www.bilibili.com/video/av116283370640478",
       "upId": "1624719374",
       "upName": "青梅说剧o",
-      "play": 901,
+      "play": 902,
       "pubTime": 1774344372000,
       "duration": "4:37",
       "category": "人物志",
@@ -3716,7 +3716,7 @@
       "score": 46,
       "lane": null,
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1791446251324,
+      "lastSeenAt": 1791482519225,
       "sourceQueries": [
         "凡人修仙传 混剪 手书"
       ],
@@ -3726,7 +3726,7 @@
       "riskFlags": [],
       "policyReason": "内容可收录，但需人工复核分类或风险",
       "stats": {
-        "play": 901,
+        "play": 902,
         "like": 0,
         "coin": 0,
         "favorite": 3,
