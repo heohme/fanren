@@ -1,5 +1,5 @@
 {
-  "generatedAt": 1791618493421,
+  "generatedAt": 1791649315901,
   "taxonomyVersion": 2,
   "promptVersion": 2,
   "model": "doubao-seed-2-0-mini-260428",
@@ -9,7 +9,7 @@
     "total": 0,
     "requests": 0
   },
-  "count": 5968,
+  "count": 6020,
   "items": {
     "BV1khTq6wEfq": {
       "id": "BV1khTq6wEfq",
@@ -105493,6 +105493,942 @@
       "taxonomyVersion": 2,
       "promptVersion": 2,
       "classifiedAt": 1791618493421
+    },
+    "BV1gepg6gEiZ": {
+      "id": "BV1gepg6gEiZ",
+      "relevance": "related",
+      "contentNature": "episode_analysis",
+      "creationType": "剧情二创",
+      "originality": "unknown",
+      "eventTag": null,
+      "creatorPotential": "one_off",
+      "confidence": 0.99,
+      "riskFlags": [
+        "episode_analysis"
+      ],
+      "reason": "命中逐集解析、正片、预告或长篇复述硬排除规则",
+      "source": "rule",
+      "taxonomyVersion": 2,
+      "promptVersion": 2,
+      "classifiedAt": 1791649315901
+    },
+    "BV1g9pu6qESE": {
+      "id": "BV1g9pu6qESE",
+      "relevance": "related",
+      "contentNature": "episode_analysis",
+      "creationType": "剧情二创",
+      "originality": "unknown",
+      "eventTag": null,
+      "creatorPotential": "one_off",
+      "confidence": 0.99,
+      "riskFlags": [
+        "episode_analysis"
+      ],
+      "reason": "命中逐集解析、正片、预告或长篇复述硬排除规则",
+      "source": "rule",
+      "taxonomyVersion": 2,
+      "promptVersion": 2,
+      "classifiedAt": 1791649315901
+    },
+    "BV19apG6EERN": {
+      "id": "BV19apG6EERN",
+      "relevance": "related",
+      "contentNature": "episode_analysis",
+      "creationType": "剧情二创",
+      "originality": "unknown",
+      "eventTag": null,
+      "creatorPotential": "one_off",
+      "confidence": 0.99,
+      "riskFlags": [
+        "episode_analysis"
+      ],
+      "reason": "命中逐集解析、正片、预告或长篇复述硬排除规则",
+      "source": "rule",
+      "taxonomyVersion": 2,
+      "promptVersion": 2,
+      "classifiedAt": 1791649315901
+    },
+    "BV1oWpG69ERo": {
+      "id": "BV1oWpG69ERo",
+      "relevance": "related",
+      "contentNature": "episode_analysis",
+      "creationType": "剧情二创",
+      "originality": "unknown",
+      "eventTag": null,
+      "creatorPotential": "one_off",
+      "confidence": 0.99,
+      "riskFlags": [
+        "episode_analysis"
+      ],
+      "reason": "命中逐集解析、正片、预告或长篇复述硬排除规则",
+      "source": "rule",
+      "taxonomyVersion": 2,
+      "promptVersion": 2,
+      "classifiedAt": 1791649315901
+    },
+    "BV1P9pv6YEJu": {
+      "id": "BV1P9pv6YEJu",
+      "relevance": "weak",
+      "contentNature": "unknown",
+      "creationType": "趣味整活",
+      "originality": "unknown",
+      "eventTag": null,
+      "creatorPotential": "one_off",
+      "confidence": 0.2,
+      "riskFlags": [
+        "uncertain"
+      ],
+      "reason": "模型返回不完整，安全排除：火山方舟 HTTP 429: {\"error\":{\"code\":\"SetLimitExceeded\",\"message\":\"Your account [2100137173] has reached ",
+      "source": "fallback",
+      "taxonomyVersion": 2,
+      "promptVersion": 2,
+      "classifiedAt": 1791649315901
+    },
+    "BV198pG6SEhm": {
+      "id": "BV198pG6SEhm",
+      "relevance": "weak",
+      "contentNature": "unknown",
+      "creationType": "趣味整活",
+      "originality": "unknown",
+      "eventTag": null,
+      "creatorPotential": "one_off",
+      "confidence": 0.2,
+      "riskFlags": [
+        "uncertain"
+      ],
+      "reason": "模型返回不完整，安全排除：火山方舟 HTTP 429: {\"error\":{\"code\":\"SetLimitExceeded\",\"message\":\"Your account [2100137173] has reached ",
+      "source": "fallback",
+      "taxonomyVersion": 2,
+      "promptVersion": 2,
+      "classifiedAt": 1791649315901
+    },
+    "BV1nspT6UEZS": {
+      "id": "BV1nspT6UEZS",
+      "relevance": "weak",
+      "contentNature": "unknown",
+      "creationType": "趣味整活",
+      "originality": "unknown",
+      "eventTag": null,
+      "creatorPotential": "one_off",
+      "confidence": 0.2,
+      "riskFlags": [
+        "uncertain"
+      ],
+      "reason": "模型返回不完整，安全排除：火山方舟 HTTP 429: {\"error\":{\"code\":\"SetLimitExceeded\",\"message\":\"Your account [2100137173] has reached ",
+      "source": "fallback",
+      "taxonomyVersion": 2,
+      "promptVersion": 2,
+      "classifiedAt": 1791649315901
+    },
+    "BV1fAeK6PEcs": {
+      "id": "BV1fAeK6PEcs",
+      "relevance": "weak",
+      "contentNature": "unknown",
+      "creationType": "趣味整活",
+      "originality": "unknown",
+      "eventTag": null,
+      "creatorPotential": "one_off",
+      "confidence": 0.2,
+      "riskFlags": [
+        "uncertain"
+      ],
+      "reason": "模型返回不完整，安全排除：火山方舟 HTTP 429: {\"error\":{\"code\":\"SetLimitExceeded\",\"message\":\"Your account [2100137173] has reached ",
+      "source": "fallback",
+      "taxonomyVersion": 2,
+      "promptVersion": 2,
+      "classifiedAt": 1791649315901
+    },
+    "BV1mwpg6wEFG": {
+      "id": "BV1mwpg6wEFG",
+      "relevance": "weak",
+      "contentNature": "unknown",
+      "creationType": "剧情二创",
+      "originality": "unknown",
+      "eventTag": null,
+      "creatorPotential": "one_off",
+      "confidence": 0.2,
+      "riskFlags": [
+        "uncertain"
+      ],
+      "reason": "模型返回不完整，安全排除：火山方舟 HTTP 429: {\"error\":{\"code\":\"SetLimitExceeded\",\"message\":\"Your account [2100137173] has reached ",
+      "source": "fallback",
+      "taxonomyVersion": 2,
+      "promptVersion": 2,
+      "classifiedAt": 1791649315901
+    },
+    "BV1eYpG6UETG": {
+      "id": "BV1eYpG6UETG",
+      "relevance": "weak",
+      "contentNature": "unknown",
+      "creationType": "趣味整活",
+      "originality": "unknown",
+      "eventTag": null,
+      "creatorPotential": "one_off",
+      "confidence": 0.2,
+      "riskFlags": [
+        "uncertain"
+      ],
+      "reason": "模型返回不完整，安全排除：火山方舟 HTTP 429: {\"error\":{\"code\":\"SetLimitExceeded\",\"message\":\"Your account [2100137173] has reached ",
+      "source": "fallback",
+      "taxonomyVersion": 2,
+      "promptVersion": 2,
+      "classifiedAt": 1791649315901
+    },
+    "BV11Cpg6AEj1": {
+      "id": "BV11Cpg6AEj1",
+      "relevance": "weak",
+      "contentNature": "unknown",
+      "creationType": "趣味整活",
+      "originality": "unknown",
+      "eventTag": null,
+      "creatorPotential": "one_off",
+      "confidence": 0.2,
+      "riskFlags": [
+        "uncertain"
+      ],
+      "reason": "模型返回不完整，安全排除：火山方舟 HTTP 429: {\"error\":{\"code\":\"SetLimitExceeded\",\"message\":\"Your account [2100137173] has reached ",
+      "source": "fallback",
+      "taxonomyVersion": 2,
+      "promptVersion": 2,
+      "classifiedAt": 1791649315901
+    },
+    "BV1c7pG6fETp": {
+      "id": "BV1c7pG6fETp",
+      "relevance": "weak",
+      "contentNature": "unknown",
+      "creationType": "趣味整活",
+      "originality": "unknown",
+      "eventTag": null,
+      "creatorPotential": "one_off",
+      "confidence": 0.2,
+      "riskFlags": [
+        "uncertain"
+      ],
+      "reason": "模型返回不完整，安全排除：火山方舟 HTTP 429: {\"error\":{\"code\":\"SetLimitExceeded\",\"message\":\"Your account [2100137173] has reached ",
+      "source": "fallback",
+      "taxonomyVersion": 2,
+      "promptVersion": 2,
+      "classifiedAt": 1791649315901
+    },
+    "BV1empu6rENR": {
+      "id": "BV1empu6rENR",
+      "relevance": "weak",
+      "contentNature": "unknown",
+      "creationType": "趣味整活",
+      "originality": "unknown",
+      "eventTag": null,
+      "creatorPotential": "one_off",
+      "confidence": 0.2,
+      "riskFlags": [
+        "uncertain"
+      ],
+      "reason": "模型返回不完整，安全排除：火山方舟 HTTP 429: {\"error\":{\"code\":\"SetLimitExceeded\",\"message\":\"Your account [2100137173] has reached ",
+      "source": "fallback",
+      "taxonomyVersion": 2,
+      "promptVersion": 2,
+      "classifiedAt": 1791649315901
+    },
+    "BV1DJpi6yEHn": {
+      "id": "BV1DJpi6yEHn",
+      "relevance": "weak",
+      "contentNature": "unknown",
+      "creationType": "人物志",
+      "originality": "unknown",
+      "eventTag": null,
+      "creatorPotential": "one_off",
+      "confidence": 0.2,
+      "riskFlags": [
+        "uncertain"
+      ],
+      "reason": "模型返回不完整，安全排除：火山方舟 HTTP 429: {\"error\":{\"code\":\"SetLimitExceeded\",\"message\":\"Your account [2100137173] has reached ",
+      "source": "fallback",
+      "taxonomyVersion": 2,
+      "promptVersion": 2,
+      "classifiedAt": 1791649315901
+    },
+    "BV1PupG6NEPA": {
+      "id": "BV1PupG6NEPA",
+      "relevance": "weak",
+      "contentNature": "unknown",
+      "creationType": "趣味整活",
+      "originality": "unknown",
+      "eventTag": null,
+      "creatorPotential": "one_off",
+      "confidence": 0.2,
+      "riskFlags": [
+        "uncertain"
+      ],
+      "reason": "模型返回不完整，安全排除：火山方舟 HTTP 429: {\"error\":{\"code\":\"SetLimitExceeded\",\"message\":\"Your account [2100137173] has reached ",
+      "source": "fallback",
+      "taxonomyVersion": 2,
+      "promptVersion": 2,
+      "classifiedAt": 1791649315901
+    },
+    "BV1RRp46fEJw": {
+      "id": "BV1RRp46fEJw",
+      "relevance": "weak",
+      "contentNature": "unknown",
+      "creationType": "人物志",
+      "originality": "unknown",
+      "eventTag": null,
+      "creatorPotential": "one_off",
+      "confidence": 0.2,
+      "riskFlags": [
+        "uncertain"
+      ],
+      "reason": "模型返回不完整，安全排除：火山方舟 HTTP 429: {\"error\":{\"code\":\"SetLimitExceeded\",\"message\":\"Your account [2100137173] has reached ",
+      "source": "fallback",
+      "taxonomyVersion": 2,
+      "promptVersion": 2,
+      "classifiedAt": 1791649315901
+    },
+    "BV121pG6zEGD": {
+      "id": "BV121pG6zEGD",
+      "relevance": "weak",
+      "contentNature": "unknown",
+      "creationType": "趣味整活",
+      "originality": "unknown",
+      "eventTag": null,
+      "creatorPotential": "one_off",
+      "confidence": 0.2,
+      "riskFlags": [
+        "uncertain"
+      ],
+      "reason": "模型返回不完整，安全排除：火山方舟 HTTP 429: {\"error\":{\"code\":\"SetLimitExceeded\",\"message\":\"Your account [2100137173] has reached ",
+      "source": "fallback",
+      "taxonomyVersion": 2,
+      "promptVersion": 2,
+      "classifiedAt": 1791649315901
+    },
+    "BV1Jvpu6SEhx": {
+      "id": "BV1Jvpu6SEhx",
+      "relevance": "weak",
+      "contentNature": "unknown",
+      "creationType": "趣味整活",
+      "originality": "unknown",
+      "eventTag": null,
+      "creatorPotential": "one_off",
+      "confidence": 0.2,
+      "riskFlags": [
+        "uncertain"
+      ],
+      "reason": "模型返回不完整，安全排除：火山方舟 HTTP 429: {\"error\":{\"code\":\"SetLimitExceeded\",\"message\":\"Your account [2100137173] has reached ",
+      "source": "fallback",
+      "taxonomyVersion": 2,
+      "promptVersion": 2,
+      "classifiedAt": 1791649315901
+    },
+    "BV1R8pG6SEHi": {
+      "id": "BV1R8pG6SEHi",
+      "relevance": "weak",
+      "contentNature": "unknown",
+      "creationType": "趣味整活",
+      "originality": "unknown",
+      "eventTag": null,
+      "creatorPotential": "one_off",
+      "confidence": 0.2,
+      "riskFlags": [
+        "uncertain"
+      ],
+      "reason": "模型返回不完整，安全排除：火山方舟 HTTP 429: {\"error\":{\"code\":\"SetLimitExceeded\",\"message\":\"Your account [2100137173] has reached ",
+      "source": "fallback",
+      "taxonomyVersion": 2,
+      "promptVersion": 2,
+      "classifiedAt": 1791649315901
+    },
+    "BV152pu6GEJq": {
+      "id": "BV152pu6GEJq",
+      "relevance": "weak",
+      "contentNature": "unknown",
+      "creationType": "趣味整活",
+      "originality": "unknown",
+      "eventTag": null,
+      "creatorPotential": "one_off",
+      "confidence": 0.2,
+      "riskFlags": [
+        "uncertain"
+      ],
+      "reason": "模型返回不完整，安全排除：火山方舟 HTTP 429: {\"error\":{\"code\":\"SetLimitExceeded\",\"message\":\"Your account [2100137173] has reached ",
+      "source": "fallback",
+      "taxonomyVersion": 2,
+      "promptVersion": 2,
+      "classifiedAt": 1791649315901
+    },
+    "BV1XvpG6jEBp": {
+      "id": "BV1XvpG6jEBp",
+      "relevance": "weak",
+      "contentNature": "unknown",
+      "creationType": "趣味整活",
+      "originality": "unknown",
+      "eventTag": null,
+      "creatorPotential": "one_off",
+      "confidence": 0.2,
+      "riskFlags": [
+        "uncertain"
+      ],
+      "reason": "模型返回不完整，安全排除：火山方舟 HTTP 429: {\"error\":{\"code\":\"SetLimitExceeded\",\"message\":\"Your account [2100137173] has reached ",
+      "source": "fallback",
+      "taxonomyVersion": 2,
+      "promptVersion": 2,
+      "classifiedAt": 1791649315901
+    },
+    "BV1mrpG6GEdS": {
+      "id": "BV1mrpG6GEdS",
+      "relevance": "weak",
+      "contentNature": "unknown",
+      "creationType": "趣味整活",
+      "originality": "unknown",
+      "eventTag": null,
+      "creatorPotential": "one_off",
+      "confidence": 0.2,
+      "riskFlags": [
+        "uncertain"
+      ],
+      "reason": "模型返回不完整，安全排除：火山方舟 HTTP 429: {\"error\":{\"code\":\"SetLimitExceeded\",\"message\":\"Your account [2100137173] has reached ",
+      "source": "fallback",
+      "taxonomyVersion": 2,
+      "promptVersion": 2,
+      "classifiedAt": 1791649315901
+    },
+    "BV1XYpG6mEmF": {
+      "id": "BV1XYpG6mEmF",
+      "relevance": "weak",
+      "contentNature": "unknown",
+      "creationType": "趣味整活",
+      "originality": "unknown",
+      "eventTag": null,
+      "creatorPotential": "one_off",
+      "confidence": 0.2,
+      "riskFlags": [
+        "uncertain"
+      ],
+      "reason": "模型返回不完整，安全排除：火山方舟 HTTP 429: {\"error\":{\"code\":\"SetLimitExceeded\",\"message\":\"Your account [2100137173] has reached ",
+      "source": "fallback",
+      "taxonomyVersion": 2,
+      "promptVersion": 2,
+      "classifiedAt": 1791649315901
+    },
+    "BV1ZnpG6dECT": {
+      "id": "BV1ZnpG6dECT",
+      "relevance": "weak",
+      "contentNature": "unknown",
+      "creationType": "趣味整活",
+      "originality": "unknown",
+      "eventTag": null,
+      "creatorPotential": "one_off",
+      "confidence": 0.2,
+      "riskFlags": [
+        "uncertain"
+      ],
+      "reason": "模型返回不完整，安全排除：火山方舟 HTTP 429: {\"error\":{\"code\":\"SetLimitExceeded\",\"message\":\"Your account [2100137173] has reached ",
+      "source": "fallback",
+      "taxonomyVersion": 2,
+      "promptVersion": 2,
+      "classifiedAt": 1791649315901
+    },
+    "BV1gFpG63EgE": {
+      "id": "BV1gFpG63EgE",
+      "relevance": "weak",
+      "contentNature": "unknown",
+      "creationType": "趣味整活",
+      "originality": "unknown",
+      "eventTag": null,
+      "creatorPotential": "one_off",
+      "confidence": 0.2,
+      "riskFlags": [
+        "uncertain"
+      ],
+      "reason": "模型返回不完整，安全排除：火山方舟 HTTP 429: {\"error\":{\"code\":\"SetLimitExceeded\",\"message\":\"Your account [2100137173] has reached ",
+      "source": "fallback",
+      "taxonomyVersion": 2,
+      "promptVersion": 2,
+      "classifiedAt": 1791649315901
+    },
+    "BV1DBpG65EBc": {
+      "id": "BV1DBpG65EBc",
+      "relevance": "weak",
+      "contentNature": "unknown",
+      "creationType": "趣味整活",
+      "originality": "unknown",
+      "eventTag": null,
+      "creatorPotential": "one_off",
+      "confidence": 0.2,
+      "riskFlags": [
+        "uncertain"
+      ],
+      "reason": "模型返回不完整，安全排除：火山方舟 HTTP 429: {\"error\":{\"code\":\"SetLimitExceeded\",\"message\":\"Your account [2100137173] has reached ",
+      "source": "fallback",
+      "taxonomyVersion": 2,
+      "promptVersion": 2,
+      "classifiedAt": 1791649315901
+    },
+    "BV121pG6zEWV": {
+      "id": "BV121pG6zEWV",
+      "relevance": "weak",
+      "contentNature": "unknown",
+      "creationType": "趣味整活",
+      "originality": "unknown",
+      "eventTag": null,
+      "creatorPotential": "one_off",
+      "confidence": 0.2,
+      "riskFlags": [
+        "uncertain"
+      ],
+      "reason": "模型返回不完整，安全排除：火山方舟 HTTP 429: {\"error\":{\"code\":\"SetLimitExceeded\",\"message\":\"Your account [2100137173] has reached ",
+      "source": "fallback",
+      "taxonomyVersion": 2,
+      "promptVersion": 2,
+      "classifiedAt": 1791649315901
+    },
+    "BV1TcpG66E1M": {
+      "id": "BV1TcpG66E1M",
+      "relevance": "weak",
+      "contentNature": "unknown",
+      "creationType": "趣味整活",
+      "originality": "unknown",
+      "eventTag": null,
+      "creatorPotential": "one_off",
+      "confidence": 0.2,
+      "riskFlags": [
+        "uncertain"
+      ],
+      "reason": "模型返回不完整，安全排除：火山方舟 HTTP 429: {\"error\":{\"code\":\"SetLimitExceeded\",\"message\":\"Your account [2100137173] has reached ",
+      "source": "fallback",
+      "taxonomyVersion": 2,
+      "promptVersion": 2,
+      "classifiedAt": 1791649315901
+    },
+    "BV1m1pG6zEVW": {
+      "id": "BV1m1pG6zEVW",
+      "relevance": "weak",
+      "contentNature": "unknown",
+      "creationType": "趣味整活",
+      "originality": "unknown",
+      "eventTag": null,
+      "creatorPotential": "one_off",
+      "confidence": 0.2,
+      "riskFlags": [
+        "uncertain"
+      ],
+      "reason": "模型返回不完整，安全排除：火山方舟 HTTP 429: {\"error\":{\"code\":\"SetLimitExceeded\",\"message\":\"Your account [2100137173] has reached ",
+      "source": "fallback",
+      "taxonomyVersion": 2,
+      "promptVersion": 2,
+      "classifiedAt": 1791649315901
+    },
+    "BV1QYpG6mEkc": {
+      "id": "BV1QYpG6mEkc",
+      "relevance": "weak",
+      "contentNature": "unknown",
+      "creationType": "趣味整活",
+      "originality": "unknown",
+      "eventTag": null,
+      "creatorPotential": "one_off",
+      "confidence": 0.2,
+      "riskFlags": [
+        "uncertain"
+      ],
+      "reason": "模型返回不完整，安全排除：火山方舟 HTTP 429: {\"error\":{\"code\":\"SetLimitExceeded\",\"message\":\"Your account [2100137173] has reached ",
+      "source": "fallback",
+      "taxonomyVersion": 2,
+      "promptVersion": 2,
+      "classifiedAt": 1791649315901
+    },
+    "BV1KTpG6iEpE": {
+      "id": "BV1KTpG6iEpE",
+      "relevance": "weak",
+      "contentNature": "unknown",
+      "creationType": "趣味整活",
+      "originality": "unknown",
+      "eventTag": null,
+      "creatorPotential": "one_off",
+      "confidence": 0.2,
+      "riskFlags": [
+        "uncertain"
+      ],
+      "reason": "模型返回不完整，安全排除：火山方舟 HTTP 429: {\"error\":{\"code\":\"SetLimitExceeded\",\"message\":\"Your account [2100137173] has reached ",
+      "source": "fallback",
+      "taxonomyVersion": 2,
+      "promptVersion": 2,
+      "classifiedAt": 1791649315901
+    },
+    "BV1PgpG6eEmY": {
+      "id": "BV1PgpG6eEmY",
+      "relevance": "weak",
+      "contentNature": "unknown",
+      "creationType": "趣味整活",
+      "originality": "unknown",
+      "eventTag": null,
+      "creatorPotential": "one_off",
+      "confidence": 0.2,
+      "riskFlags": [
+        "uncertain"
+      ],
+      "reason": "模型返回不完整，安全排除：火山方舟 HTTP 429: {\"error\":{\"code\":\"SetLimitExceeded\",\"message\":\"Your account [2100137173] has reached ",
+      "source": "fallback",
+      "taxonomyVersion": 2,
+      "promptVersion": 2,
+      "classifiedAt": 1791649315901
+    },
+    "BV1m1pG6zEY4": {
+      "id": "BV1m1pG6zEY4",
+      "relevance": "weak",
+      "contentNature": "unknown",
+      "creationType": "趣味整活",
+      "originality": "unknown",
+      "eventTag": null,
+      "creatorPotential": "one_off",
+      "confidence": 0.2,
+      "riskFlags": [
+        "uncertain"
+      ],
+      "reason": "模型返回不完整，安全排除：火山方舟 HTTP 429: {\"error\":{\"code\":\"SetLimitExceeded\",\"message\":\"Your account [2100137173] has reached ",
+      "source": "fallback",
+      "taxonomyVersion": 2,
+      "promptVersion": 2,
+      "classifiedAt": 1791649315901
+    },
+    "BV111pG6zE9q": {
+      "id": "BV111pG6zE9q",
+      "relevance": "weak",
+      "contentNature": "unknown",
+      "creationType": "趣味整活",
+      "originality": "unknown",
+      "eventTag": null,
+      "creatorPotential": "one_off",
+      "confidence": 0.2,
+      "riskFlags": [
+        "uncertain"
+      ],
+      "reason": "模型返回不完整，安全排除：火山方舟 HTTP 429: {\"error\":{\"code\":\"SetLimitExceeded\",\"message\":\"Your account [2100137173] has reached ",
+      "source": "fallback",
+      "taxonomyVersion": 2,
+      "promptVersion": 2,
+      "classifiedAt": 1791649315901
+    },
+    "BV1MFpG63Ebv": {
+      "id": "BV1MFpG63Ebv",
+      "relevance": "weak",
+      "contentNature": "unknown",
+      "creationType": "趣味整活",
+      "originality": "unknown",
+      "eventTag": null,
+      "creatorPotential": "one_off",
+      "confidence": 0.2,
+      "riskFlags": [
+        "uncertain"
+      ],
+      "reason": "模型返回不完整，安全排除：火山方舟 HTTP 429: {\"error\":{\"code\":\"SetLimitExceeded\",\"message\":\"Your account [2100137173] has reached ",
+      "source": "fallback",
+      "taxonomyVersion": 2,
+      "promptVersion": 2,
+      "classifiedAt": 1791649315901
+    },
+    "BV1QipG61Em7": {
+      "id": "BV1QipG61Em7",
+      "relevance": "weak",
+      "contentNature": "unknown",
+      "creationType": "趣味整活",
+      "originality": "unknown",
+      "eventTag": null,
+      "creatorPotential": "one_off",
+      "confidence": 0.2,
+      "riskFlags": [
+        "uncertain"
+      ],
+      "reason": "模型返回不完整，安全排除：火山方舟 HTTP 429: {\"error\":{\"code\":\"SetLimitExceeded\",\"message\":\"Your account [2100137173] has reached ",
+      "source": "fallback",
+      "taxonomyVersion": 2,
+      "promptVersion": 2,
+      "classifiedAt": 1791649315901
+    },
+    "BV1hBpG6LExR": {
+      "id": "BV1hBpG6LExR",
+      "relevance": "weak",
+      "contentNature": "unknown",
+      "creationType": "趣味整活",
+      "originality": "unknown",
+      "eventTag": null,
+      "creatorPotential": "one_off",
+      "confidence": 0.2,
+      "riskFlags": [
+        "uncertain"
+      ],
+      "reason": "模型返回不完整，安全排除：火山方舟 HTTP 429: {\"error\":{\"code\":\"SetLimitExceeded\",\"message\":\"Your account [2100137173] has reached ",
+      "source": "fallback",
+      "taxonomyVersion": 2,
+      "promptVersion": 2,
+      "classifiedAt": 1791649315901
+    },
+    "BV1MypG63E5j": {
+      "id": "BV1MypG63E5j",
+      "relevance": "weak",
+      "contentNature": "unknown",
+      "creationType": "趣味整活",
+      "originality": "unknown",
+      "eventTag": null,
+      "creatorPotential": "one_off",
+      "confidence": 0.2,
+      "riskFlags": [
+        "uncertain"
+      ],
+      "reason": "模型返回不完整，安全排除：火山方舟 HTTP 429: {\"error\":{\"code\":\"SetLimitExceeded\",\"message\":\"Your account [2100137173] has reached ",
+      "source": "fallback",
+      "taxonomyVersion": 2,
+      "promptVersion": 2,
+      "classifiedAt": 1791649315901
+    },
+    "BV1QipG61EU9": {
+      "id": "BV1QipG61EU9",
+      "relevance": "weak",
+      "contentNature": "unknown",
+      "creationType": "趣味整活",
+      "originality": "unknown",
+      "eventTag": null,
+      "creatorPotential": "one_off",
+      "confidence": 0.2,
+      "riskFlags": [
+        "uncertain"
+      ],
+      "reason": "模型返回不完整，安全排除：火山方舟 HTTP 429: {\"error\":{\"code\":\"SetLimitExceeded\",\"message\":\"Your account [2100137173] has reached ",
+      "source": "fallback",
+      "taxonomyVersion": 2,
+      "promptVersion": 2,
+      "classifiedAt": 1791649315901
+    },
+    "BV1F7pG6fEjK": {
+      "id": "BV1F7pG6fEjK",
+      "relevance": "weak",
+      "contentNature": "unknown",
+      "creationType": "趣味整活",
+      "originality": "unknown",
+      "eventTag": null,
+      "creatorPotential": "one_off",
+      "confidence": 0.2,
+      "riskFlags": [
+        "uncertain"
+      ],
+      "reason": "模型返回不完整，安全排除：火山方舟 HTTP 429: {\"error\":{\"code\":\"SetLimitExceeded\",\"message\":\"Your account [2100137173] has reached ",
+      "source": "fallback",
+      "taxonomyVersion": 2,
+      "promptVersion": 2,
+      "classifiedAt": 1791649315901
+    },
+    "BV1SrpG6GEpx": {
+      "id": "BV1SrpG6GEpx",
+      "relevance": "weak",
+      "contentNature": "unknown",
+      "creationType": "趣味整活",
+      "originality": "unknown",
+      "eventTag": null,
+      "creatorPotential": "one_off",
+      "confidence": 0.2,
+      "riskFlags": [
+        "uncertain"
+      ],
+      "reason": "模型返回不完整，安全排除：火山方舟 HTTP 429: {\"error\":{\"code\":\"SetLimitExceeded\",\"message\":\"Your account [2100137173] has reached ",
+      "source": "fallback",
+      "taxonomyVersion": 2,
+      "promptVersion": 2,
+      "classifiedAt": 1791649315901
+    },
+    "BV1aipG62EnZ": {
+      "id": "BV1aipG62EnZ",
+      "relevance": "weak",
+      "contentNature": "unknown",
+      "creationType": "趣味整活",
+      "originality": "unknown",
+      "eventTag": null,
+      "creatorPotential": "one_off",
+      "confidence": 0.2,
+      "riskFlags": [
+        "uncertain"
+      ],
+      "reason": "模型返回不完整，安全排除：火山方舟 HTTP 429: {\"error\":{\"code\":\"SetLimitExceeded\",\"message\":\"Your account [2100137173] has reached ",
+      "source": "fallback",
+      "taxonomyVersion": 2,
+      "promptVersion": 2,
+      "classifiedAt": 1791649315901
+    },
+    "BV1QipG61Eif": {
+      "id": "BV1QipG61Eif",
+      "relevance": "weak",
+      "contentNature": "unknown",
+      "creationType": "趣味整活",
+      "originality": "unknown",
+      "eventTag": null,
+      "creatorPotential": "one_off",
+      "confidence": 0.2,
+      "riskFlags": [
+        "uncertain"
+      ],
+      "reason": "模型返回不完整，安全排除：火山方舟 HTTP 429: {\"error\":{\"code\":\"SetLimitExceeded\",\"message\":\"Your account [2100137173] has reached ",
+      "source": "fallback",
+      "taxonomyVersion": 2,
+      "promptVersion": 2,
+      "classifiedAt": 1791649315901
+    },
+    "BV1SBpG65Exb": {
+      "id": "BV1SBpG65Exb",
+      "relevance": "weak",
+      "contentNature": "unknown",
+      "creationType": "趣味整活",
+      "originality": "unknown",
+      "eventTag": null,
+      "creatorPotential": "one_off",
+      "confidence": 0.2,
+      "riskFlags": [
+        "uncertain"
+      ],
+      "reason": "模型返回不完整，安全排除：火山方舟 HTTP 429: {\"error\":{\"code\":\"SetLimitExceeded\",\"message\":\"Your account [2100137173] has reached ",
+      "source": "fallback",
+      "taxonomyVersion": 2,
+      "promptVersion": 2,
+      "classifiedAt": 1791649315901
+    },
+    "BV121pG6zE87": {
+      "id": "BV121pG6zE87",
+      "relevance": "weak",
+      "contentNature": "unknown",
+      "creationType": "趣味整活",
+      "originality": "unknown",
+      "eventTag": null,
+      "creatorPotential": "one_off",
+      "confidence": 0.2,
+      "riskFlags": [
+        "uncertain"
+      ],
+      "reason": "模型返回不完整，安全排除：火山方舟 HTTP 429: {\"error\":{\"code\":\"SetLimitExceeded\",\"message\":\"Your account [2100137173] has reached ",
+      "source": "fallback",
+      "taxonomyVersion": 2,
+      "promptVersion": 2,
+      "classifiedAt": 1791649315901
+    },
+    "BV1m1pG6zEtt": {
+      "id": "BV1m1pG6zEtt",
+      "relevance": "weak",
+      "contentNature": "unknown",
+      "creationType": "趣味整活",
+      "originality": "unknown",
+      "eventTag": null,
+      "creatorPotential": "one_off",
+      "confidence": 0.2,
+      "riskFlags": [
+        "uncertain"
+      ],
+      "reason": "模型返回不完整，安全排除：火山方舟 HTTP 429: {\"error\":{\"code\":\"SetLimitExceeded\",\"message\":\"Your account [2100137173] has reached ",
+      "source": "fallback",
+      "taxonomyVersion": 2,
+      "promptVersion": 2,
+      "classifiedAt": 1791649315901
+    },
+    "BV1dbpG6nEgK": {
+      "id": "BV1dbpG6nEgK",
+      "relevance": "weak",
+      "contentNature": "unknown",
+      "creationType": "趣味整活",
+      "originality": "unknown",
+      "eventTag": null,
+      "creatorPotential": "one_off",
+      "confidence": 0.2,
+      "riskFlags": [
+        "uncertain"
+      ],
+      "reason": "模型返回不完整，安全排除：火山方舟 HTTP 429: {\"error\":{\"code\":\"SetLimitExceeded\",\"message\":\"Your account [2100137173] has reached ",
+      "source": "fallback",
+      "taxonomyVersion": 2,
+      "promptVersion": 2,
+      "classifiedAt": 1791649315901
+    },
+    "BV1LbpG6HEkS": {
+      "id": "BV1LbpG6HEkS",
+      "relevance": "weak",
+      "contentNature": "unknown",
+      "creationType": "趣味整活",
+      "originality": "unknown",
+      "eventTag": null,
+      "creatorPotential": "one_off",
+      "confidence": 0.2,
+      "riskFlags": [
+        "uncertain"
+      ],
+      "reason": "模型返回不完整，安全排除：火山方舟 HTTP 429: {\"error\":{\"code\":\"SetLimitExceeded\",\"message\":\"Your account [2100137173] has reached ",
+      "source": "fallback",
+      "taxonomyVersion": 2,
+      "promptVersion": 2,
+      "classifiedAt": 1791649315901
+    },
+    "BV19bpG6nEBs": {
+      "id": "BV19bpG6nEBs",
+      "relevance": "weak",
+      "contentNature": "unknown",
+      "creationType": "趣味整活",
+      "originality": "unknown",
+      "eventTag": null,
+      "creatorPotential": "one_off",
+      "confidence": 0.2,
+      "riskFlags": [
+        "uncertain"
+      ],
+      "reason": "模型返回不完整，安全排除：火山方舟 HTTP 429: {\"error\":{\"code\":\"SetLimitExceeded\",\"message\":\"Your account [2100137173] has reached ",
+      "source": "fallback",
+      "taxonomyVersion": 2,
+      "promptVersion": 2,
+      "classifiedAt": 1791649315901
+    },
+    "BV1o4pG6QEF8": {
+      "id": "BV1o4pG6QEF8",
+      "relevance": "weak",
+      "contentNature": "unknown",
+      "creationType": "趣味整活",
+      "originality": "unknown",
+      "eventTag": null,
+      "creatorPotential": "one_off",
+      "confidence": 0.2,
+      "riskFlags": [
+        "uncertain"
+      ],
+      "reason": "模型返回不完整，安全排除：火山方舟 HTTP 429: {\"error\":{\"code\":\"SetLimitExceeded\",\"message\":\"Your account [2100137173] has reached ",
+      "source": "fallback",
+      "taxonomyVersion": 2,
+      "promptVersion": 2,
+      "classifiedAt": 1791649315901
+    },
+    "BV15bpG6HEai": {
+      "id": "BV15bpG6HEai",
+      "relevance": "weak",
+      "contentNature": "unknown",
+      "creationType": "趣味整活",
+      "originality": "unknown",
+      "eventTag": null,
+      "creatorPotential": "one_off",
+      "confidence": 0.2,
+      "riskFlags": [
+        "uncertain"
+      ],
+      "reason": "模型返回不完整，安全排除：火山方舟 HTTP 429: {\"error\":{\"code\":\"SetLimitExceeded\",\"message\":\"Your account [2100137173] has reached ",
+      "source": "fallback",
+      "taxonomyVersion": 2,
+      "promptVersion": 2,
+      "classifiedAt": 1791649315901
+    },
+    "BV1XvpG6jEJa": {
+      "id": "BV1XvpG6jEJa",
+      "relevance": "weak",
+      "contentNature": "unknown",
+      "creationType": "趣味整活",
+      "originality": "unknown",
+      "eventTag": null,
+      "creatorPotential": "one_off",
+      "confidence": 0.2,
+      "riskFlags": [
+        "uncertain"
+      ],
+      "reason": "模型返回不完整，安全排除：火山方舟 HTTP 429: {\"error\":{\"code\":\"SetLimitExceeded\",\"message\":\"Your account [2100137173] has reached ",
+      "source": "fallback",
+      "taxonomyVersion": 2,
+      "promptVersion": 2,
+      "classifiedAt": 1791649315901
     }
   }
 }
