@@ -1,5 +1,5 @@
 {
-  "generatedAt": 1791836775251,
+  "generatedAt": 1791879806578,
   "mode": "fresh",
   "taxonomyVersion": 2,
   "policyVersion": 1,
@@ -40,27 +40,27 @@
       "BV1ffMM6VEb2",
       "BV1gGinBaE1z",
       "BV1LZVZ6dEch",
-      "BV1fCMe6JEsx",
       "BV1XGPrzcEar",
+      "BV1fCMe6JEsx",
       "BV1uqMg6TERj",
       "BV1RoM46tEQ8",
       "BV1vMJ46nENz",
       "BV1gjEr6EErF",
       "BV1Lin7z5EZq",
-      "BV1rMWDzpEz5",
-      "BV1fJr3BYExB",
       "BV1Mwge6KEze",
+      "BV1rMWDzpEz5",
       "BV1G2CrBLEo9",
+      "BV1fJr3BYExB",
       "BV1noJ56FEir",
       "BV1gxfqBTEs3",
       "BV1bgVS6dEMQ",
       "BV1EdcJz6EPN",
-      "BV1o77n6AE2T",
       "BV1PLSwYLEqX",
       "BV1RusDz1EwM",
-      "BV1QGebziE1r",
       "BV1V9AUzHEzJ",
+      "BV1o77n6AE2T",
       "BV19w4m1X7xU",
+      "BV1QGebziE1r",
       "BV1Z6uKzQEXg",
       "BV14KS3YGEk9",
       "BV1jhBTYJE5x",
@@ -1027,50 +1027,6 @@
       }
     },
     {
-      "id": "BV1x2dAYeEGP",
-      "bvid": "BV1x2dAYeEGP",
-      "title": "模仿韩立声线",
-      "description": "都说声音像韩立，来模仿下",
-      "cover": "https://i0.hdslb.com/bfs/archive/074211d0017ef4e8323a2cfb0b45a5e951201252.jpg",
-      "url": "http://www.bilibili.com/video/av114306578384451",
-      "upId": "3493279039490100",
-      "upName": "Cv武艺",
-      "play": 133876,
-      "pubTime": 1744180068000,
-      "duration": "1:27",
-      "category": "趣味整活",
-      "confidence": 0.85,
-      "classificationSource": "model",
-      "classificationReason": "该视频为模仿韩立声线的配音作品，属于配音类二次创作",
-      "contentNature": "secondary_creation",
-      "originality": "deep_adaptation",
-      "eventTag": null,
-      "creatorPotential": "one_off",
-      "score": 57,
-      "lane": null,
-      "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1791798094018,
-      "sourceQueries": [
-        "legacy-published",
-        "凡人修仙传 配音 翻唱"
-      ],
-      "discoveryModes": [
-        "history"
-      ],
-      "riskFlags": [
-        "uncertain"
-      ],
-      "policyReason": "内容可收录，但需人工复核分类或风险",
-      "stats": {
-        "play": 133876,
-        "like": 4715,
-        "coin": 212,
-        "favorite": 280,
-        "reply": 274,
-        "danmaku": 199
-      }
-    },
-    {
       "id": "BV1Sf6NYuEB5",
       "bvid": "BV1Sf6NYuEB5",
       "title": "浮光｜玄骨上人手书｜漫漫人间我待他归",
@@ -1109,6 +1065,50 @@
         "favorite": 180,
         "reply": 0,
         "danmaku": 3
+      }
+    },
+    {
+      "id": "BV1x2dAYeEGP",
+      "bvid": "BV1x2dAYeEGP",
+      "title": "模仿韩立声线",
+      "description": "都说声音像韩立，来模仿下",
+      "cover": "https://i0.hdslb.com/bfs/archive/074211d0017ef4e8323a2cfb0b45a5e951201252.jpg",
+      "url": "http://www.bilibili.com/video/av114306578384451",
+      "upId": "3493279039490100",
+      "upName": "Cv武艺",
+      "play": 133876,
+      "pubTime": 1744180068000,
+      "duration": "1:27",
+      "category": "趣味整活",
+      "confidence": 0.85,
+      "classificationSource": "model",
+      "classificationReason": "该视频为模仿韩立声线的配音作品，属于配音类二次创作",
+      "contentNature": "secondary_creation",
+      "originality": "deep_adaptation",
+      "eventTag": null,
+      "creatorPotential": "one_off",
+      "score": 56,
+      "lane": null,
+      "firstSeenAt": 1784281357983,
+      "lastSeenAt": 1791798094018,
+      "sourceQueries": [
+        "legacy-published",
+        "凡人修仙传 配音 翻唱"
+      ],
+      "discoveryModes": [
+        "history"
+      ],
+      "riskFlags": [
+        "uncertain"
+      ],
+      "policyReason": "内容可收录，但需人工复核分类或风险",
+      "stats": {
+        "play": 133876,
+        "like": 4715,
+        "coin": 212,
+        "favorite": 280,
+        "reply": 274,
+        "danmaku": 199
       }
     },
     {
@@ -1223,7 +1223,7 @@
       "score": 56,
       "lane": null,
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1791836775251,
+      "lastSeenAt": 1791879806578,
       "sourceQueries": [
         "凡人修仙传 MMD 同人动画"
       ],
@@ -1430,7 +1430,7 @@
       "score": 55,
       "lane": null,
       "firstSeenAt": 1785244584356,
-      "lastSeenAt": 1791836775251,
+      "lastSeenAt": 1791879806578,
       "sourceQueries": [
         "凡人官方二创大会",
         "凡人修仙传 鬼畜 整活",
@@ -1824,47 +1824,6 @@
       }
     },
     {
-      "id": "BV1DASHBeE2X",
-      "bvid": "BV1DASHBeE2X",
-      "title": "凡人修仙传最新仙侣法宝搭配",
-      "description": "凡人修仙传最新仙侣法宝搭配",
-      "cover": "https://i2.hdslb.com/bfs/archive/7e193a3b66586b42bc0b63fa7b4f2fa5a489dc0e.jpg",
-      "url": "http://www.bilibili.com/video/av115647346446746",
-      "upId": "678872453",
-      "upName": "凡人修仙传王老魔",
-      "play": 277,
-      "pubTime": 1764638712000,
-      "duration": "5:34",
-      "category": "人物志",
-      "confidence": 0.9,
-      "classificationSource": "model",
-      "classificationReason": "凡人修仙传最新仙侣法宝搭配的专题内容",
-      "contentNature": "character_or_lore",
-      "originality": "original",
-      "eventTag": null,
-      "creatorPotential": "observe",
-      "score": 54,
-      "lane": null,
-      "firstSeenAt": 1785132335284,
-      "lastSeenAt": 1791798094018,
-      "sourceQueries": [
-        "凡人修仙传 法宝 功法 人物"
-      ],
-      "discoveryModes": [
-        "history"
-      ],
-      "riskFlags": [],
-      "policyReason": "内容可收录，但需人工复核分类或风险",
-      "stats": {
-        "play": 277,
-        "like": 0,
-        "coin": 0,
-        "favorite": 3,
-        "reply": 0,
-        "danmaku": 0
-      }
-    },
-    {
       "id": "BV1pEkJBcExU",
       "bvid": "BV1pEkJBcExU",
       "title": "宋玉-凡人修仙传-素与荤",
@@ -1959,47 +1918,6 @@
       }
     },
     {
-      "id": "BV13F4m1V7S4",
-      "bvid": "BV13F4m1V7S4",
-      "title": "凡人修仙传 合体篇 53集丨冰凤仙子",
-      "description": "原创动画\n凡人修仙传灵界篇合体期",
-      "cover": "https://i2.hdslb.com/bfs/archive/b3d4eff76cbdef81cff62aacb21658a0ec37718b.jpg",
-      "url": "http://www.bilibili.com/video/av1201446677",
-      "upId": "421210560",
-      "upName": "魔子动画",
-      "play": 50582,
-      "pubTime": 1709641947000,
-      "duration": "7:33",
-      "category": "同人创作",
-      "confidence": 0.85,
-      "classificationSource": "model",
-      "classificationReason": "自制《凡人修仙传》灵界篇合体期原创动画内容",
-      "contentNature": "secondary_creation",
-      "originality": "deep_adaptation",
-      "eventTag": null,
-      "creatorPotential": "observe",
-      "score": 53,
-      "lane": null,
-      "firstSeenAt": 1790585738979,
-      "lastSeenAt": 1790585738979,
-      "sourceQueries": [
-        "凡人修仙传 小剧场"
-      ],
-      "discoveryModes": [
-        "history"
-      ],
-      "riskFlags": [],
-      "policyReason": "内容可收录，但需人工复核分类或风险",
-      "stats": {
-        "play": 50582,
-        "like": 0,
-        "coin": 0,
-        "favorite": 118,
-        "reply": 0,
-        "danmaku": 208
-      }
-    },
-    {
       "id": "BV1fJ3M6DEKG",
       "bvid": "BV1fJ3M6DEKG",
       "title": "鸣潮主播小汤难绷凡人搞笑翻唱二创，看完念头不通达了！感谢风希老板打赏的风雷翅一双，我看这王婵才是真爱啊，追韩立到天涯海角！【汤圆四水】",
@@ -2041,6 +1959,47 @@
       }
     },
     {
+      "id": "BV1DASHBeE2X",
+      "bvid": "BV1DASHBeE2X",
+      "title": "凡人修仙传最新仙侣法宝搭配",
+      "description": "凡人修仙传最新仙侣法宝搭配",
+      "cover": "https://i2.hdslb.com/bfs/archive/7e193a3b66586b42bc0b63fa7b4f2fa5a489dc0e.jpg",
+      "url": "http://www.bilibili.com/video/av115647346446746",
+      "upId": "678872453",
+      "upName": "凡人修仙传王老魔",
+      "play": 277,
+      "pubTime": 1764638712000,
+      "duration": "5:34",
+      "category": "人物志",
+      "confidence": 0.9,
+      "classificationSource": "model",
+      "classificationReason": "凡人修仙传最新仙侣法宝搭配的专题内容",
+      "contentNature": "character_or_lore",
+      "originality": "original",
+      "eventTag": null,
+      "creatorPotential": "observe",
+      "score": 53,
+      "lane": null,
+      "firstSeenAt": 1785132335284,
+      "lastSeenAt": 1791798094018,
+      "sourceQueries": [
+        "凡人修仙传 法宝 功法 人物"
+      ],
+      "discoveryModes": [
+        "history"
+      ],
+      "riskFlags": [],
+      "policyReason": "内容可收录，但需人工复核分类或风险",
+      "stats": {
+        "play": 277,
+        "like": 0,
+        "coin": 0,
+        "favorite": 3,
+        "reply": 0,
+        "danmaku": 0
+      }
+    },
+    {
       "id": "BV12o4y1U7Mu",
       "bvid": "BV12o4y1U7Mu",
       "title": "一剑诛魔灭仙！！ 韩立最强法宝盘点【凡人修仙传法宝篇】",
@@ -2079,6 +2038,47 @@
         "favorite": 1527,
         "reply": 715,
         "danmaku": 1213
+      }
+    },
+    {
+      "id": "BV13F4m1V7S4",
+      "bvid": "BV13F4m1V7S4",
+      "title": "凡人修仙传 合体篇 53集丨冰凤仙子",
+      "description": "原创动画\n凡人修仙传灵界篇合体期",
+      "cover": "https://i2.hdslb.com/bfs/archive/b3d4eff76cbdef81cff62aacb21658a0ec37718b.jpg",
+      "url": "http://www.bilibili.com/video/av1201446677",
+      "upId": "421210560",
+      "upName": "魔子动画",
+      "play": 50582,
+      "pubTime": 1709641947000,
+      "duration": "7:33",
+      "category": "同人创作",
+      "confidence": 0.85,
+      "classificationSource": "model",
+      "classificationReason": "自制《凡人修仙传》灵界篇合体期原创动画内容",
+      "contentNature": "secondary_creation",
+      "originality": "deep_adaptation",
+      "eventTag": null,
+      "creatorPotential": "observe",
+      "score": 52,
+      "lane": null,
+      "firstSeenAt": 1790585738979,
+      "lastSeenAt": 1790585738979,
+      "sourceQueries": [
+        "凡人修仙传 小剧场"
+      ],
+      "discoveryModes": [
+        "history"
+      ],
+      "riskFlags": [],
+      "policyReason": "内容可收录，但需人工复核分类或风险",
+      "stats": {
+        "play": 50582,
+        "like": 0,
+        "coin": 0,
+        "favorite": 118,
+        "reply": 0,
+        "danmaku": 208
       }
     },
     {
@@ -2187,7 +2187,7 @@
       "score": 52,
       "lane": null,
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1791836775251,
+      "lastSeenAt": 1791879806578,
       "sourceQueries": [
         "凡人修仙传 混剪 手书"
       ],
@@ -2422,7 +2422,7 @@
       "url": "http://www.bilibili.com/video/av116958586472140",
       "upId": "12391712",
       "upName": "海外散修韩天尊",
-      "play": 1326,
+      "play": 1327,
       "pubTime": 1784646625000,
       "duration": "0:58",
       "category": "趣味整活",
@@ -2436,7 +2436,7 @@
       "score": 51,
       "lane": null,
       "firstSeenAt": 1784695859320,
-      "lastSeenAt": 1791836775251,
+      "lastSeenAt": 1791879806578,
       "sourceQueries": [
         "凡人修仙传 二创",
         "凡人官方二创大会",
@@ -2450,7 +2450,7 @@
       "riskFlags": [],
       "policyReason": "疑似轻度剪辑，需人工确认原创性",
       "stats": {
-        "play": 1326,
+        "play": 1327,
         "like": 0,
         "coin": 0,
         "favorite": 12,
@@ -2806,47 +2806,6 @@
       }
     },
     {
-      "id": "BV1Ap1gB7Eu1",
-      "bvid": "BV1Ap1gB7Eu1",
-      "title": "韩立灵界、仙界的功法大排行！最强的竟然是它？",
-      "description": "配音小姐姐是@东姝_",
-      "cover": "https://i2.hdslb.com/bfs/archive/9c94d4b0de88722647e75c9a11e362b28a40123a.jpg",
-      "url": "http://www.bilibili.com/video/av115469138791345",
-      "upId": "400732402",
-      "upName": "骚人风希",
-      "play": 97568,
-      "pubTime": 1761919502000,
-      "duration": "10:26",
-      "category": "人物志",
-      "confidence": 0.8,
-      "classificationSource": "model",
-      "classificationReason": "围绕韩立灵界、仙界功法排行展开专题内容",
-      "contentNature": "character_or_lore",
-      "originality": "light_edit",
-      "eventTag": null,
-      "creatorPotential": "observe",
-      "score": 48,
-      "lane": null,
-      "firstSeenAt": 1791192844647,
-      "lastSeenAt": 1791192844647,
-      "sourceQueries": [
-        "凡人修仙传 法宝 功法 人物"
-      ],
-      "discoveryModes": [
-        "history"
-      ],
-      "riskFlags": [],
-      "policyReason": "疑似轻度剪辑，需人工确认原创性",
-      "stats": {
-        "play": 97568,
-        "like": 2743,
-        "coin": 275,
-        "favorite": 469,
-        "reply": 226,
-        "danmaku": 280
-      }
-    },
-    {
       "id": "BV1nzEp6SEdw",
       "bvid": "BV1nzEp6SEdw",
       "title": "【魔修韩立】元瑶⚡️我要你助我修行",
@@ -3040,7 +2999,7 @@
       "score": 48,
       "lane": null,
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1791836775251,
+      "lastSeenAt": 1791879806578,
       "sourceQueries": [
         "凡人修仙传 法宝 功法 人物"
       ],
@@ -3081,7 +3040,7 @@
       "score": 48,
       "lane": null,
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1791836775251,
+      "lastSeenAt": 1791879806578,
       "sourceQueries": [
         "凡人修仙传 法宝 功法 人物"
       ],
@@ -3095,47 +3054,6 @@
         "like": 0,
         "coin": 0,
         "favorite": 5,
-        "reply": 0,
-        "danmaku": 0
-      }
-    },
-    {
-      "id": "BV1ZDkFBiEFm",
-      "bvid": "BV1ZDkFBiEFm",
-      "title": "天南散修配音汉克唱歌《凡人修仙传》《不凡》原唱是我的偶像王铮亮翻唱清唱混响效果天南散修配音汉克",
-      "description": "-",
-      "cover": "https://i0.hdslb.com/bfs/archive/4bb077361ce11126c7ace9a0dfac5f13681ee7cc.jpg",
-      "url": "http://www.bilibili.com/video/av115899105281677",
-      "upId": "35508411",
-      "upName": "生化危机汉克Coser",
-      "play": 487,
-      "pubTime": 1768480230000,
-      "duration": "3:30",
-      "category": "音乐配音",
-      "confidence": 0.9,
-      "classificationSource": "model",
-      "classificationReason": "凡人修仙传相关的翻唱配音内容",
-      "contentNature": "secondary_creation",
-      "originality": "deep_adaptation",
-      "eventTag": null,
-      "creatorPotential": "observe",
-      "score": 48,
-      "lane": null,
-      "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1791836775251,
-      "sourceQueries": [
-        "凡人修仙传 配音 翻唱"
-      ],
-      "discoveryModes": [
-        "fresh"
-      ],
-      "riskFlags": [],
-      "policyReason": "内容可收录，但需人工复核分类或风险",
-      "stats": {
-        "play": 487,
-        "like": 0,
-        "coin": 0,
-        "favorite": 2,
         "reply": 0,
         "danmaku": 0
       }
@@ -3182,6 +3100,47 @@
         "favorite": 0,
         "reply": 0,
         "danmaku": 0
+      }
+    },
+    {
+      "id": "BV1Ap1gB7Eu1",
+      "bvid": "BV1Ap1gB7Eu1",
+      "title": "韩立灵界、仙界的功法大排行！最强的竟然是它？",
+      "description": "配音小姐姐是@东姝_",
+      "cover": "https://i2.hdslb.com/bfs/archive/9c94d4b0de88722647e75c9a11e362b28a40123a.jpg",
+      "url": "http://www.bilibili.com/video/av115469138791345",
+      "upId": "400732402",
+      "upName": "骚人风希",
+      "play": 97568,
+      "pubTime": 1761919502000,
+      "duration": "10:26",
+      "category": "人物志",
+      "confidence": 0.8,
+      "classificationSource": "model",
+      "classificationReason": "围绕韩立灵界、仙界功法排行展开专题内容",
+      "contentNature": "character_or_lore",
+      "originality": "light_edit",
+      "eventTag": null,
+      "creatorPotential": "observe",
+      "score": 47,
+      "lane": null,
+      "firstSeenAt": 1791192844647,
+      "lastSeenAt": 1791192844647,
+      "sourceQueries": [
+        "凡人修仙传 法宝 功法 人物"
+      ],
+      "discoveryModes": [
+        "history"
+      ],
+      "riskFlags": [],
+      "policyReason": "疑似轻度剪辑，需人工确认原创性",
+      "stats": {
+        "play": 97568,
+        "like": 2743,
+        "coin": 275,
+        "favorite": 469,
+        "reply": 226,
+        "danmaku": 280
       }
     },
     {
@@ -3321,7 +3280,7 @@
       "url": "http://www.bilibili.com/video/av116283370640478",
       "upId": "1624719374",
       "upName": "青梅说剧o",
-      "play": 902,
+      "play": 903,
       "pubTime": 1774344372000,
       "duration": "4:37",
       "category": "人物志",
@@ -3335,7 +3294,7 @@
       "score": 47,
       "lane": null,
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1791836775251,
+      "lastSeenAt": 1791879806578,
       "sourceQueries": [
         "凡人修仙传 混剪 手书"
       ],
@@ -3345,7 +3304,7 @@
       "riskFlags": [],
       "policyReason": "内容可收录，但需人工复核分类或风险",
       "stats": {
-        "play": 902,
+        "play": 903,
         "like": 0,
         "coin": 0,
         "favorite": 3,
@@ -3390,6 +3349,47 @@
         "like": 0,
         "coin": 0,
         "favorite": 1,
+        "reply": 0,
+        "danmaku": 0
+      }
+    },
+    {
+      "id": "BV1ZDkFBiEFm",
+      "bvid": "BV1ZDkFBiEFm",
+      "title": "天南散修配音汉克唱歌《凡人修仙传》《不凡》原唱是我的偶像王铮亮翻唱清唱混响效果天南散修配音汉克",
+      "description": "-",
+      "cover": "https://i0.hdslb.com/bfs/archive/4bb077361ce11126c7ace9a0dfac5f13681ee7cc.jpg",
+      "url": "http://www.bilibili.com/video/av115899105281677",
+      "upId": "35508411",
+      "upName": "生化危机汉克Coser",
+      "play": 487,
+      "pubTime": 1768480230000,
+      "duration": "3:30",
+      "category": "音乐配音",
+      "confidence": 0.9,
+      "classificationSource": "model",
+      "classificationReason": "凡人修仙传相关的翻唱配音内容",
+      "contentNature": "secondary_creation",
+      "originality": "deep_adaptation",
+      "eventTag": null,
+      "creatorPotential": "observe",
+      "score": 47,
+      "lane": null,
+      "firstSeenAt": 1784281357983,
+      "lastSeenAt": 1791879806578,
+      "sourceQueries": [
+        "凡人修仙传 配音 翻唱"
+      ],
+      "discoveryModes": [
+        "fresh"
+      ],
+      "riskFlags": [],
+      "policyReason": "内容可收录，但需人工复核分类或风险",
+      "stats": {
+        "play": 487,
+        "like": 0,
+        "coin": 0,
+        "favorite": 2,
         "reply": 0,
         "danmaku": 0
       }
