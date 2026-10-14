@@ -1,13 +1,13 @@
 {
-  "generatedAt": 1791959974687,
+  "generatedAt": 1791993411366,
   "mode": "fresh",
   "taxonomyVersion": 2,
   "policyVersion": 1,
   "summary": {
     "total": 2000,
     "approved": 49,
-    "review": 84,
-    "rejected": 1867
+    "review": 83,
+    "rejected": 1868
   },
   "lanes": {
     "event_spotlight": [],
@@ -27,8 +27,8 @@
       "BV16Tgz6TED4",
       "BV1XMG36SEqX",
       "BV1mJME6DEKn",
-      "BV1LcKS67Efe",
       "BV1f1Kd66EQE",
+      "BV1LcKS67Efe",
       "BV1kjNU6WEXf",
       "BV1UfTx6VEfb",
       "BV1M3TM6WEP6",
@@ -156,48 +156,6 @@
         "favorite": 2432,
         "reply": 0,
         "danmaku": 136
-      }
-    },
-    {
-      "id": "BV1vaMv62EU6",
-      "bvid": "BV1vaMv62EU6",
-      "title": "韩立的幸福生活11",
-      "description": "-",
-      "cover": "https://i0.hdslb.com/bfs/archive/f074a0ee5b536f86bd3913b28fc8dbac8eb502dc.jpg",
-      "url": "http://www.bilibili.com/video/av116881327397014",
-      "upId": "57971899",
-      "upName": "画i想",
-      "play": 14331,
-      "pubTime": 1783467723000,
-      "duration": "0:11",
-      "category": "趣味整活",
-      "confidence": 0.75,
-      "classificationSource": "model",
-      "classificationReason": "创作韩立的趣味日常小剧情，属于二次创作",
-      "contentNature": "secondary_creation",
-      "originality": "deep_adaptation",
-      "eventTag": null,
-      "creatorPotential": "observe",
-      "score": 69,
-      "lane": null,
-      "firstSeenAt": 1785132335284,
-      "lastSeenAt": 1791192844647,
-      "sourceQueries": [
-        "韩立 二创",
-        "南宫婉 二创"
-      ],
-      "discoveryModes": [
-        "history"
-      ],
-      "riskFlags": [],
-      "policyReason": "内容可收录，但需人工复核分类或风险",
-      "stats": {
-        "play": 14331,
-        "like": 0,
-        "coin": 0,
-        "favorite": 500,
-        "reply": 0,
-        "danmaku": 2
       }
     },
     {
@@ -383,6 +341,48 @@
       }
     },
     {
+      "id": "BV1vaMv62EU6",
+      "bvid": "BV1vaMv62EU6",
+      "title": "韩立的幸福生活11",
+      "description": "-",
+      "cover": "https://i0.hdslb.com/bfs/archive/f074a0ee5b536f86bd3913b28fc8dbac8eb502dc.jpg",
+      "url": "http://www.bilibili.com/video/av116881327397014",
+      "upId": "57971899",
+      "upName": "画i想",
+      "play": 14331,
+      "pubTime": 1783467723000,
+      "duration": "0:11",
+      "category": "趣味整活",
+      "confidence": 0.75,
+      "classificationSource": "model",
+      "classificationReason": "创作韩立的趣味日常小剧情，属于二次创作",
+      "contentNature": "secondary_creation",
+      "originality": "deep_adaptation",
+      "eventTag": null,
+      "creatorPotential": "observe",
+      "score": 68,
+      "lane": null,
+      "firstSeenAt": 1785132335284,
+      "lastSeenAt": 1791192844647,
+      "sourceQueries": [
+        "韩立 二创",
+        "南宫婉 二创"
+      ],
+      "discoveryModes": [
+        "history"
+      ],
+      "riskFlags": [],
+      "policyReason": "内容可收录，但需人工复核分类或风险",
+      "stats": {
+        "play": 14331,
+        "like": 0,
+        "coin": 0,
+        "favorite": 500,
+        "reply": 0,
+        "danmaku": 2
+      }
+    },
+    {
       "id": "BV1gGa5zWEUf",
       "bvid": "BV1gGa5zWEUf",
       "title": "凡人修仙传-煞气反噬（1-3） | 韩立归来，元婴中期，震撼天南",
@@ -402,7 +402,7 @@
       "originality": "deep_adaptation",
       "eventTag": null,
       "creatorPotential": "observe",
-      "score": 67,
+      "score": 66,
       "lane": null,
       "firstSeenAt": 1784526884576,
       "lastSeenAt": 1791798094018,
@@ -897,47 +897,6 @@
       }
     },
     {
-      "id": "BV18mqoBMETA",
-      "bvid": "BV18mqoBMETA",
-      "title": "紫灵-MMD舞蹈-歌曲【Got That Boom】",
-      "description": "人物：EROS\n场景：FrogFrog\n企鹅：164O591O82",
-      "cover": "https://i0.hdslb.com/bfs/archive/eab7e719493597f6a3c96ded91d39ca4fcbaaa8f.jpg",
-      "url": "http://www.bilibili.com/video/av115744151046518",
-      "upId": "8531201",
-      "upName": "那么这件事情",
-      "play": 192,
-      "pubTime": 1766115767000,
-      "duration": "3:27",
-      "category": "混剪手书",
-      "confidence": 0.9,
-      "classificationSource": "model",
-      "classificationReason": "凡人修仙传角色紫灵的MMD舞蹈二次创作内容",
-      "contentNature": "secondary_creation",
-      "originality": "deep_adaptation",
-      "eventTag": null,
-      "creatorPotential": "one_off",
-      "score": 58,
-      "lane": null,
-      "firstSeenAt": 1790524012138,
-      "lastSeenAt": 1790524012138,
-      "sourceQueries": [
-        "凡人修仙传 MMD 同人动画"
-      ],
-      "discoveryModes": [
-        "fresh"
-      ],
-      "riskFlags": [],
-      "policyReason": "内容可收录，但需人工复核分类或风险",
-      "stats": {
-        "play": 192,
-        "like": 0,
-        "coin": 0,
-        "favorite": 9,
-        "reply": 0,
-        "danmaku": 0
-      }
-    },
-    {
       "id": "BV13uX2BEESW",
       "bvid": "BV13uX2BEESW",
       "title": "凡人修仙传女角色泳装走秀：你最喜欢哪一个",
@@ -1026,44 +985,44 @@
       }
     },
     {
-      "id": "BV1uzC2BsEaV",
-      "bvid": "BV1uzC2BsEaV",
-      "title": "凡人修仙传《旅人》翻唱，猪道友深情款款！",
-      "description": "谢谢B站支持我的小伙伴们，大家还有什么想听的歌曲，我也可以多尝试尝试哇！",
-      "cover": "https://i0.hdslb.com/bfs/archive/1ad3887c2599ba54606a7c86ba37b0f6af35786f.jpg",
-      "url": "http://www.bilibili.com/video/av115554669037388",
-      "upId": "526649102",
-      "upName": "菠萝去哪啦",
-      "play": 4576,
-      "pubTime": 1763224801000,
-      "duration": "4:39",
-      "category": "音乐配音",
-      "confidence": 0.85,
+      "id": "BV18mqoBMETA",
+      "bvid": "BV18mqoBMETA",
+      "title": "紫灵-MMD舞蹈-歌曲【Got That Boom】",
+      "description": "人物：EROS\n场景：FrogFrog\n企鹅：164O591O82",
+      "cover": "https://i0.hdslb.com/bfs/archive/eab7e719493597f6a3c96ded91d39ca4fcbaaa8f.jpg",
+      "url": "http://www.bilibili.com/video/av115744151046518",
+      "upId": "8531201",
+      "upName": "那么这件事情",
+      "play": 192,
+      "pubTime": 1766115767000,
+      "duration": "3:27",
+      "category": "混剪手书",
+      "confidence": 0.9,
       "classificationSource": "model",
-      "classificationReason": "《凡人修仙传》相关歌曲翻唱，属于二次创作",
+      "classificationReason": "凡人修仙传角色紫灵的MMD舞蹈二次创作内容",
       "contentNature": "secondary_creation",
       "originality": "deep_adaptation",
       "eventTag": null,
-      "creatorPotential": "observe",
+      "creatorPotential": "one_off",
       "score": 57,
       "lane": null,
-      "firstSeenAt": 1785132335284,
-      "lastSeenAt": 1789978229138,
+      "firstSeenAt": 1790524012138,
+      "lastSeenAt": 1790524012138,
       "sourceQueries": [
-        "凡人修仙传 配音 翻唱"
+        "凡人修仙传 MMD 同人动画"
       ],
       "discoveryModes": [
-        "history"
+        "fresh"
       ],
       "riskFlags": [],
       "policyReason": "内容可收录，但需人工复核分类或风险",
       "stats": {
-        "play": 4576,
+        "play": 192,
         "like": 0,
         "coin": 0,
-        "favorite": 75,
+        "favorite": 9,
         "reply": 0,
-        "danmaku": 7
+        "danmaku": 0
       }
     },
     {
@@ -1388,7 +1347,7 @@
       "score": 55,
       "lane": null,
       "firstSeenAt": 1785244584356,
-      "lastSeenAt": 1791959974687,
+      "lastSeenAt": 1791993411366,
       "sourceQueries": [
         "凡人官方二创大会",
         "凡人修仙传 鬼畜 整活",
@@ -1431,7 +1390,7 @@
       "score": 55,
       "lane": null,
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1791959974687,
+      "lastSeenAt": 1791993411366,
       "sourceQueries": [
         "凡人修仙传 MMD 同人动画"
       ],
@@ -1530,47 +1489,6 @@
         "favorite": 797,
         "reply": 138,
         "danmaku": 82
-      }
-    },
-    {
-      "id": "BV1eeptzVEG4",
-      "bvid": "BV1eeptzVEG4",
-      "title": "怎么会有人长发施法这么火辣 | 【韩立舔颜向】",
-      "description": "是最新两集的一个栗子舔颜向！\n长发披着真的太美了，明明穿的这么严实，施法打架怎么会这么火辣，非常性感的人7栗子！\n而且制作组还总是给嘴巴特写，我就问谁不想亲！\n就这样被我大嬷特嬷！！！\n歌词排版：@红山茶售卖商",
-      "cover": "https://i0.hdslb.com/bfs/archive/edb97cf3fd9decb658cf63e924ba71c2bc4b48f1.jpg",
-      "url": "http://www.bilibili.com/video/av115219443549493",
-      "upId": "25763517",
-      "upName": "闻雪寻春",
-      "play": 96091,
-      "pubTime": 1758109340000,
-      "duration": "1:43",
-      "category": "混剪手书",
-      "confidence": 0.7,
-      "classificationSource": "model",
-      "classificationReason": "制作韩立的舔颜向剪辑内容",
-      "contentNature": "secondary_creation",
-      "originality": "light_edit",
-      "eventTag": null,
-      "creatorPotential": "one_off",
-      "score": 54,
-      "lane": null,
-      "firstSeenAt": 1790585738979,
-      "lastSeenAt": 1791192844647,
-      "sourceQueries": [
-        "凡人修仙传 混剪 手书"
-      ],
-      "discoveryModes": [
-        "history"
-      ],
-      "riskFlags": [],
-      "policyReason": "疑似轻度剪辑，需人工确认原创性",
-      "stats": {
-        "play": 96091,
-        "like": 2223,
-        "coin": 339,
-        "favorite": 1044,
-        "reply": 227,
-        "danmaku": 76
       }
     },
     {
@@ -1876,6 +1794,47 @@
       }
     },
     {
+      "id": "BV1eeptzVEG4",
+      "bvid": "BV1eeptzVEG4",
+      "title": "怎么会有人长发施法这么火辣 | 【韩立舔颜向】",
+      "description": "是最新两集的一个栗子舔颜向！\n长发披着真的太美了，明明穿的这么严实，施法打架怎么会这么火辣，非常性感的人7栗子！\n而且制作组还总是给嘴巴特写，我就问谁不想亲！\n就这样被我大嬷特嬷！！！\n歌词排版：@红山茶售卖商",
+      "cover": "https://i0.hdslb.com/bfs/archive/edb97cf3fd9decb658cf63e924ba71c2bc4b48f1.jpg",
+      "url": "http://www.bilibili.com/video/av115219443549493",
+      "upId": "25763517",
+      "upName": "闻雪寻春",
+      "play": 96091,
+      "pubTime": 1758109340000,
+      "duration": "1:43",
+      "category": "混剪手书",
+      "confidence": 0.7,
+      "classificationSource": "model",
+      "classificationReason": "制作韩立的舔颜向剪辑内容",
+      "contentNature": "secondary_creation",
+      "originality": "light_edit",
+      "eventTag": null,
+      "creatorPotential": "one_off",
+      "score": 53,
+      "lane": null,
+      "firstSeenAt": 1790585738979,
+      "lastSeenAt": 1791192844647,
+      "sourceQueries": [
+        "凡人修仙传 混剪 手书"
+      ],
+      "discoveryModes": [
+        "history"
+      ],
+      "riskFlags": [],
+      "policyReason": "疑似轻度剪辑，需人工确认原创性",
+      "stats": {
+        "play": 96091,
+        "like": 2223,
+        "coin": 339,
+        "favorite": 1044,
+        "reply": 227,
+        "danmaku": 76
+      }
+    },
+    {
       "id": "BV16m4y1M7Gz",
       "bvid": "BV16m4y1M7Gz",
       "title": "【翻唱】凡人（《凡人修仙传》片尾曲）（原唱：段奥娟）",
@@ -1914,6 +1873,47 @@
         "favorite": 242,
         "reply": 0,
         "danmaku": 32
+      }
+    },
+    {
+      "id": "BV1fJ3M6DEKG",
+      "bvid": "BV1fJ3M6DEKG",
+      "title": "鸣潮主播小汤难绷凡人搞笑翻唱二创，看完念头不通达了！感谢风希老板打赏的风雷翅一双，我看这王婵才是真爱啊，追韩立到天涯海角！【汤圆四水】",
+      "description": "主播：@汤圆四水  \n视频地址：\n《王婵归期》BV1k3icBhEgN\n《风希：I&#x27;m a Deadman》BV1vft8zaEGn\n《飞鸟和婵》BV1ZVveB5Eig\n《放错》BV17FvqBQE9j",
+      "cover": "https://i2.hdslb.com/bfs/archive/b6384f2ff249179d3fe0718228f4c281601fee3d.jpg",
+      "url": "http://www.bilibili.com/video/av116979406997855",
+      "upId": "3546862114048313",
+      "upName": "龙吟耀世",
+      "play": 4618,
+      "pubTime": 1784964401000,
+      "duration": "10:29",
+      "category": "音乐配音",
+      "confidence": 0.8,
+      "classificationSource": "model",
+      "classificationReason": "凡人修仙传相关的搞笑翻唱二创，属于汤圆四水活动内容",
+      "contentNature": "secondary_creation",
+      "originality": "light_edit",
+      "eventTag": "汤圆四水",
+      "creatorPotential": "one_off",
+      "score": 53,
+      "lane": null,
+      "firstSeenAt": 1791192844647,
+      "lastSeenAt": 1791192844647,
+      "sourceQueries": [
+        "凡人修仙传 配音 翻唱"
+      ],
+      "discoveryModes": [
+        "history"
+      ],
+      "riskFlags": [],
+      "policyReason": "疑似轻度剪辑，需人工确认原创性",
+      "stats": {
+        "play": 4618,
+        "like": 0,
+        "coin": 0,
+        "favorite": 22,
+        "reply": 0,
+        "danmaku": 45
       }
     },
     {
@@ -2079,47 +2079,6 @@
         "favorite": 488,
         "reply": 0,
         "danmaku": 16
-      }
-    },
-    {
-      "id": "BV1fJ3M6DEKG",
-      "bvid": "BV1fJ3M6DEKG",
-      "title": "鸣潮主播小汤难绷凡人搞笑翻唱二创，看完念头不通达了！感谢风希老板打赏的风雷翅一双，我看这王婵才是真爱啊，追韩立到天涯海角！【汤圆四水】",
-      "description": "主播：@汤圆四水  \n视频地址：\n《王婵归期》BV1k3icBhEgN\n《风希：I&#x27;m a Deadman》BV1vft8zaEGn\n《飞鸟和婵》BV1ZVveB5Eig\n《放错》BV17FvqBQE9j",
-      "cover": "https://i2.hdslb.com/bfs/archive/b6384f2ff249179d3fe0718228f4c281601fee3d.jpg",
-      "url": "http://www.bilibili.com/video/av116979406997855",
-      "upId": "3546862114048313",
-      "upName": "龙吟耀世",
-      "play": 4618,
-      "pubTime": 1784964401000,
-      "duration": "10:29",
-      "category": "音乐配音",
-      "confidence": 0.8,
-      "classificationSource": "model",
-      "classificationReason": "凡人修仙传相关的搞笑翻唱二创，属于汤圆四水活动内容",
-      "contentNature": "secondary_creation",
-      "originality": "light_edit",
-      "eventTag": "汤圆四水",
-      "creatorPotential": "one_off",
-      "score": 52,
-      "lane": null,
-      "firstSeenAt": 1791192844647,
-      "lastSeenAt": 1791192844647,
-      "sourceQueries": [
-        "凡人修仙传 配音 翻唱"
-      ],
-      "discoveryModes": [
-        "history"
-      ],
-      "riskFlags": [],
-      "policyReason": "疑似轻度剪辑，需人工确认原创性",
-      "stats": {
-        "play": 4618,
-        "like": 0,
-        "coin": 0,
-        "favorite": 22,
-        "reply": 0,
-        "danmaku": 45
       }
     },
     {
@@ -2435,7 +2394,7 @@
       "score": 51,
       "lane": null,
       "firstSeenAt": 1784695859320,
-      "lastSeenAt": 1791959974687,
+      "lastSeenAt": 1791993411366,
       "sourceQueries": [
         "凡人修仙传 二创",
         "凡人官方二创大会",
@@ -2954,7 +2913,7 @@
       "score": 48,
       "lane": null,
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1791959974687,
+      "lastSeenAt": 1791993411366,
       "sourceQueries": [
         "凡人修仙传 法宝 功法 人物"
       ],
@@ -2995,7 +2954,7 @@
       "score": 48,
       "lane": null,
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1791959974687,
+      "lastSeenAt": 1791993411366,
       "sourceQueries": [
         "凡人修仙传 法宝 功法 人物"
       ],
@@ -3293,7 +3252,7 @@
       "score": 47,
       "lane": null,
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1791959974687,
+      "lastSeenAt": 1791993411366,
       "sourceQueries": [
         "凡人修仙传 混剪 手书"
       ],
@@ -3375,7 +3334,7 @@
       "score": 47,
       "lane": null,
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1791959974687,
+      "lastSeenAt": 1791993411366,
       "sourceQueries": [
         "凡人修仙传 配音 翻唱"
       ],
@@ -3559,6 +3518,48 @@
       }
     },
     {
+      "id": "BV1mLQDYxECq",
+      "bvid": "BV1mLQDYxECq",
+      "title": "《凡人修仙传》最感人的文戏——自制韩立英语配音",
+      "description": "The most touching scene of &quot;A Cultivation Journey: From Mortal to Immortal&quot;——self-made Englisch Dubbing of Han Li&#x27;s line",
+      "cover": "https://i2.hdslb.com/bfs/archive/879e8ac6a0690fce71c4fc015da535ad4c0f0d59.jpg",
+      "url": "http://www.bilibili.com/video/av114166941620931",
+      "upId": "481357056",
+      "upName": "右耳登阶",
+      "play": 184,
+      "pubTime": 1742049649000,
+      "duration": "2:7",
+      "category": "音乐配音",
+      "confidence": 0.9,
+      "classificationSource": "model",
+      "classificationReason": "自制凡人修仙传韩立英语配音的二次创作内容",
+      "contentNature": "secondary_creation",
+      "originality": "deep_adaptation",
+      "eventTag": null,
+      "creatorPotential": "one_off",
+      "score": 46,
+      "lane": null,
+      "firstSeenAt": 1784281357983,
+      "lastSeenAt": 1791798094018,
+      "sourceQueries": [
+        "legacy-published",
+        "凡人修仙传 配音 翻唱"
+      ],
+      "discoveryModes": [
+        "history"
+      ],
+      "riskFlags": [],
+      "policyReason": "内容可收录，但需人工复核分类或风险",
+      "stats": {
+        "play": 184,
+        "like": 0,
+        "coin": 0,
+        "favorite": 1,
+        "reply": 0,
+        "danmaku": 0
+      }
+    },
+    {
       "id": "BV1De411C7Zj",
       "bvid": "BV1De411C7Zj",
       "title": "【凡人修仙传】我⚡️辈⚡️修 ⚡️士⚡️不⚡️蹦⚡️凡⚡️迪！《自由自在》凤凰传奇",
@@ -3597,48 +3598,6 @@
         "favorite": 1429,
         "reply": 189,
         "danmaku": 184
-      }
-    },
-    {
-      "id": "BV1mLQDYxECq",
-      "bvid": "BV1mLQDYxECq",
-      "title": "《凡人修仙传》最感人的文戏——自制韩立英语配音",
-      "description": "The most touching scene of &quot;A Cultivation Journey: From Mortal to Immortal&quot;——self-made Englisch Dubbing of Han Li&#x27;s line",
-      "cover": "https://i2.hdslb.com/bfs/archive/879e8ac6a0690fce71c4fc015da535ad4c0f0d59.jpg",
-      "url": "http://www.bilibili.com/video/av114166941620931",
-      "upId": "481357056",
-      "upName": "右耳登阶",
-      "play": 184,
-      "pubTime": 1742049649000,
-      "duration": "2:7",
-      "category": "音乐配音",
-      "confidence": 0.9,
-      "classificationSource": "model",
-      "classificationReason": "自制凡人修仙传韩立英语配音的二次创作内容",
-      "contentNature": "secondary_creation",
-      "originality": "deep_adaptation",
-      "eventTag": null,
-      "creatorPotential": "one_off",
-      "score": 45,
-      "lane": null,
-      "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1791798094018,
-      "sourceQueries": [
-        "legacy-published",
-        "凡人修仙传 配音 翻唱"
-      ],
-      "discoveryModes": [
-        "history"
-      ],
-      "riskFlags": [],
-      "policyReason": "内容可收录，但需人工复核分类或风险",
-      "stats": {
-        "play": 184,
-        "like": 0,
-        "coin": 0,
-        "favorite": 1,
-        "reply": 0,
-        "danmaku": 0
       }
     }
   ]
