@@ -1,5 +1,5 @@
 {
-  "generatedAt": 1791972954681,
+  "generatedAt": 1791979301721,
   "series": {
     "title": "凡人修仙传",
     "seasonId": "28747",
@@ -3775,9 +3775,10 @@
         "利维坦LWT"
       ],
       "note": "经典解析向",
+      "source": "search-backfill",
       "error": "all retries failed",
-      "lastFetched": 1791972459154,
-      "lastSuccess": 1791964787756,
+      "lastFetched": 1791978970320,
+      "lastSuccess": 1791978970320,
       "videos": [
         {
           "bvid": "BV1YTp362Eff",
@@ -6771,7 +6772,7 @@
           "cover": "https://i2.hdslb.com/bfs/archive/8182dbdee6eddbbdc69bd83c45c5e8c717f026b7.jpg",
           "pubTime": 1638353112000,
           "duration": "7:20",
-          "play": 815160,
+          "play": 815344,
           "videoUrl": "http://www.bilibili.com/video/av934529896",
           "matched": true,
           "ep": 26,
@@ -19209,9 +19210,10 @@
         "王十二"
       ],
       "note": "道友推荐，拉片解析",
+      "source": "search-backfill",
       "error": null,
-      "lastFetched": 1791972943619,
-      "lastSuccess": 1791972943619,
+      "lastFetched": 1791979204178,
+      "lastSuccess": 1791979204178,
       "videos": [
         {
           "bvid": "BV1UCpc6GEYj",
@@ -19700,7 +19702,7 @@
           "cover": "https://i2.hdslb.com/bfs/archive/cdbffce7bf0ce43400d6e2c2e9776acea515529f.jpg",
           "pubTime": 1771646400000,
           "duration": "13:47",
-          "play": 8902,
+          "play": 8908,
           "videoUrl": "http://www.bilibili.com/video/av116096220861928",
           "matched": true,
           "ep": 7,
@@ -19717,7 +19719,7 @@
           "cover": "https://i2.hdslb.com/bfs/archive/312392a6501643092971884f4bc6dc539b0b15a0.jpg",
           "pubTime": 1771560000000,
           "duration": "15:4",
-          "play": 39910,
+          "play": 39915,
           "videoUrl": "http://www.bilibili.com/video/av116096187307307",
           "matched": true,
           "ep": 6,
@@ -35164,8 +35166,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1791954070846,
-      "lastSuccess": 1791954070846,
+      "lastFetched": 1791979301721,
+      "lastSuccess": 1791979301721,
       "videos": [
         {
           "bvid": "BV17p376rEeq",
@@ -36325,7 +36327,7 @@
           "cover": "https://i0.hdslb.com/bfs/archive/829eabeefff6bae9734638a65268359bfc346722.jpg",
           "pubTime": 1735214417000,
           "duration": "17:4",
-          "play": 26437,
+          "play": 26440,
           "videoUrl": "http://www.bilibili.com/video/av113714158179390",
           "matched": true,
           "ep": 4,
@@ -50669,8 +50671,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1791953877645,
-      "lastSuccess": 1791953877645,
+      "lastFetched": 1791979252228,
+      "lastSuccess": 1791979252228,
       "videos": [
         {
           "bvid": "BV1ENcizSEd7",
@@ -51292,7 +51294,7 @@
           "cover": "https://i1.hdslb.com/bfs/archive/5e7b20992c2ffe1a6551bc21e92952fea3d529d4.jpg",
           "pubTime": 1764907535000,
           "duration": "19:45",
-          "play": 4779,
+          "play": 4781,
           "videoUrl": "http://www.bilibili.com/video/av115664962525038",
           "matched": true,
           "ep": 5,
@@ -52028,8 +52030,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1791044447609,
-      "lastSuccess": 1791044447609,
+      "lastFetched": 1791979252228,
+      "lastSuccess": 1791979252228,
       "videos": [
         {
           "bvid": "BV146421f7aD",
@@ -52157,6 +52159,25 @@
           "videoUrl": "http://www.bilibili.com/video/av1155294249",
           "matched": true,
           "ep": 14,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [
+            "韩立"
+          ],
+          "discoveredBy": "episode-search"
+        },
+        {
+          "bvid": "BV1Tz421e7dr",
+          "aid": 1354951251,
+          "title": "《凡人修仙传》仙界篇 第7集丨韩立重返仙界！",
+          "description": "凡人修仙传原著党",
+          "cover": "https://i1.hdslb.com/bfs/archive/4ac2224b7088023e1adf2def70461bda26c835d6.jpg",
+          "pubTime": 1716132151000,
+          "duration": "5:23",
+          "play": 176033,
+          "videoUrl": "http://www.bilibili.com/video/av1354951251",
+          "matched": true,
+          "ep": 7,
           "isCompilation": false,
           "contentType": "episode",
           "characters": [
@@ -52381,6 +52402,25 @@
           "isCompilation": false,
           "contentType": "episode",
           "characters": [],
+          "discoveredBy": "episode-search"
+        },
+        {
+          "bvid": "BV1g2421K7Qy",
+          "aid": 1601923740,
+          "title": "《凡人修仙传》大乘篇 第5集丨韩立大战虫母（二）",
+          "description": "凡人修仙传原著党",
+          "cover": "https://i1.hdslb.com/bfs/archive/ad3f9dce0a2eac7d71e2625de10ae35027ec8823.jpg",
+          "pubTime": 1710435078000,
+          "duration": "5:15",
+          "play": 207409,
+          "videoUrl": "http://www.bilibili.com/video/av1601923740",
+          "matched": true,
+          "ep": 5,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [
+            "韩立"
+          ],
           "discoveredBy": "episode-search"
         },
         {
@@ -57495,8 +57535,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1791785114002,
-      "lastSuccess": 1791785114002,
+      "lastFetched": 1791979157009,
+      "lastSuccess": 1791979157009,
       "videos": [
         {
           "bvid": "BV1KT4y1A7ga",
