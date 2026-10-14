@@ -1,5 +1,5 @@
 {
-  "generatedAt": 1791916138448,
+  "generatedAt": 1791959974687,
   "mode": "fresh",
   "taxonomyVersion": 2,
   "policyVersion": 1,
@@ -18,7 +18,7 @@
     "趣味整活": 14,
     "混剪手书": 5,
     "音乐配音": 10,
-    "同人创作": 6
+    "同人创作": 5
   },
   "lanes": {
     "event_spotlight": [],
@@ -53,8 +53,8 @@
       "BV1LZVZ6dEch",
       "BV1XGPrzcEar",
       "BV1fCMe6JEsx",
-      "BV1uqMg6TERj",
       "BV1RoM46tEQ8",
+      "BV1uqMg6TERj",
       "BV1vMJ46nENz",
       "BV1gjEr6EErF",
       "BV1Lin7z5EZq",
@@ -69,7 +69,6 @@
       "BV1PLSwYLEqX",
       "BV1RusDz1EwM",
       "BV1V9AUzHEzJ",
-      "BV1o77n6AE2T",
       "BV19w4m1X7xU",
       "BV1QGebziE1r",
       "BV1Z6uKzQEXg",
@@ -169,7 +168,7 @@
       "score": 84,
       "lane": "hidden_gem",
       "firstSeenAt": 1785560340526,
-      "lastSeenAt": 1791916138448,
+      "lastSeenAt": 1791959974687,
       "sourceQueries": [
         "凡人修仙传 二创",
         "凡人官方二创大会",
@@ -702,7 +701,7 @@
       "originality": "deep_adaptation",
       "eventTag": null,
       "creatorPotential": "observe",
-      "score": 74,
+      "score": 75,
       "lane": "archive",
       "firstSeenAt": 1791798094018,
       "lastSeenAt": 1791798094018,
@@ -847,40 +846,6 @@
       ]
     },
     {
-      "id": "BV1uqMg6TERj",
-      "bvid": "BV1uqMg6TERj",
-      "title": "⚡韩立神师摇一摇⚡【凡人官方二创大会】",
-      "description": "严父即将登场，老魔摇一摇热身准备跑路~\n部分画面来源：@兰斯的画室LanceStudio",
-      "cover": "https://i2.hdslb.com/bfs/archive/743d964412924baa035b2880bbf3928faad6ea6b.jpg",
-      "url": "http://www.bilibili.com/video/av116883877530037",
-      "upId": "3546926083475628",
-      "upName": "凡人柳玉",
-      "play": 49497,
-      "pubTime": 1783506635000,
-      "duration": "1:8",
-      "category": "趣味整活",
-      "confidence": 0.9,
-      "classificationSource": "model",
-      "classificationReason": "参与凡人官方二创大会的趣味整活类二次创作",
-      "contentNature": "secondary_creation",
-      "originality": "deep_adaptation",
-      "eventTag": "凡人官方二创大会",
-      "creatorPotential": "one_off",
-      "score": 73,
-      "lane": "archive",
-      "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1791129460426,
-      "sourceQueries": [
-        "legacy-published",
-        "凡人修仙传 鬼畜 整活",
-        "凡人官方二创大会"
-      ],
-      "discoveryModes": [
-        "history",
-        "fresh"
-      ]
-    },
-    {
       "id": "BV1RoM46tEQ8",
       "bvid": "BV1RoM46tEQ8",
       "title": "⚡师 姐 摇 一 摇⚡【凡人官方二创大会】",
@@ -907,6 +872,40 @@
       "sourceQueries": [
         "legacy-published",
         "凡人修仙传 鬼畜 整活"
+      ],
+      "discoveryModes": [
+        "history",
+        "fresh"
+      ]
+    },
+    {
+      "id": "BV1uqMg6TERj",
+      "bvid": "BV1uqMg6TERj",
+      "title": "⚡韩立神师摇一摇⚡【凡人官方二创大会】",
+      "description": "严父即将登场，老魔摇一摇热身准备跑路~\n部分画面来源：@兰斯的画室LanceStudio",
+      "cover": "https://i2.hdslb.com/bfs/archive/743d964412924baa035b2880bbf3928faad6ea6b.jpg",
+      "url": "http://www.bilibili.com/video/av116883877530037",
+      "upId": "3546926083475628",
+      "upName": "凡人柳玉",
+      "play": 49497,
+      "pubTime": 1783506635000,
+      "duration": "1:8",
+      "category": "趣味整活",
+      "confidence": 0.9,
+      "classificationSource": "model",
+      "classificationReason": "参与凡人官方二创大会的趣味整活类二次创作",
+      "contentNature": "secondary_creation",
+      "originality": "deep_adaptation",
+      "eventTag": "凡人官方二创大会",
+      "creatorPotential": "one_off",
+      "score": 72,
+      "lane": "archive",
+      "firstSeenAt": 1784281357983,
+      "lastSeenAt": 1791129460426,
+      "sourceQueries": [
+        "legacy-published",
+        "凡人修仙传 鬼畜 整活",
+        "凡人官方二创大会"
       ],
       "discoveryModes": [
         "history",
@@ -1005,7 +1004,7 @@
       "score": 71,
       "lane": "hidden_gem",
       "firstSeenAt": 1784868982615,
-      "lastSeenAt": 1791916138448,
+      "lastSeenAt": 1791959974687,
       "sourceQueries": [
         "凡人修仙传 二创",
         "凡人官方二创大会",
@@ -1401,37 +1400,6 @@
       ],
       "discoveryModes": [
         "history"
-      ]
-    },
-    {
-      "id": "BV1o77n6AE2T",
-      "bvid": "BV1o77n6AE2T",
-      "title": "我有两颗忘尘丹【凡人官方二创大会】",
-      "description": "搞完搞完！",
-      "cover": "https://i1.hdslb.com/bfs/archive/ba7ad359d1827ea2e052846859324cd5512683a1.jpg",
-      "url": "http://www.bilibili.com/video/av116820526826342",
-      "upId": "838539",
-      "upName": "云霏宇",
-      "play": 1359,
-      "pubTime": 1782539895000,
-      "duration": "0:38",
-      "category": "同人创作",
-      "confidence": 0.95,
-      "classificationSource": "model",
-      "classificationReason": "参与凡人官方二创大会的同人创作内容",
-      "contentNature": "secondary_creation",
-      "originality": "deep_adaptation",
-      "eventTag": "凡人官方二创大会",
-      "creatorPotential": "recommend",
-      "score": 63,
-      "lane": "archive",
-      "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1789974315372,
-      "sourceQueries": [
-        "凡人修仙传 鬼畜 整活"
-      ],
-      "discoveryModes": [
-        "fresh"
       ]
     },
     {
