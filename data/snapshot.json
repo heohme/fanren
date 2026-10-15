@@ -1,5 +1,5 @@
 {
-  "generatedAt": 1792058196295,
+  "generatedAt": 1792064311229,
   "series": {
     "title": "凡人修仙传",
     "seasonId": "28747",
@@ -19228,9 +19228,10 @@
         "王十二"
       ],
       "note": "道友推荐，拉片解析",
+      "source": "search-backfill",
       "error": null,
-      "lastFetched": 1792058185730,
-      "lastSuccess": 1792058185730,
+      "lastFetched": 1792064214502,
+      "lastSuccess": 1792064214502,
       "videos": [
         {
           "bvid": "BV1UCpc6GEYj",
@@ -19719,7 +19720,7 @@
           "cover": "https://i2.hdslb.com/bfs/archive/cdbffce7bf0ce43400d6e2c2e9776acea515529f.jpg",
           "pubTime": 1771646400000,
           "duration": "13:47",
-          "play": 8914,
+          "play": 8915,
           "videoUrl": "http://www.bilibili.com/video/av116096220861928",
           "matched": true,
           "ep": 7,
@@ -19736,7 +19737,7 @@
           "cover": "https://i2.hdslb.com/bfs/archive/312392a6501643092971884f4bc6dc539b0b15a0.jpg",
           "pubTime": 1771560000000,
           "duration": "15:4",
-          "play": 39920,
+          "play": 39921,
           "videoUrl": "http://www.bilibili.com/video/av116096187307307",
           "matched": true,
           "ep": 6,
@@ -30023,8 +30024,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1792039555451,
-      "lastSuccess": 1792039555451,
+      "lastFetched": 1792064166271,
+      "lastSuccess": 1792064166271,
       "videos": [
         {
           "bvid": "BV1754y1Z71N",
@@ -57720,8 +57721,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1791819032319,
-      "lastSuccess": 1791819032319,
+      "lastFetched": 1792064311229,
+      "lastSuccess": 1792064311229,
       "videos": [
         {
           "bvid": "BV1AppX6mErN",
@@ -57837,10 +57838,61 @@
             "灵界"
           ],
           "discoveredBy": "episode-search"
+        },
+        {
+          "bvid": "BV13SpX6FEF1",
+          "aid": 117425530014531,
+          "title": "【凡人修仙传 灵界篇】第4集：误入飞灵族地界，伪装天鹏圣子夺天鹏之誓！",
+          "description": "《凡人修仙传 灵界篇》第4集精读解说（第1271-1325章）。\n【本集核心看点】：踏入飞灵圣城天鹏殿；大长老严苛血脉甄别；鲲鹏羽翼掀起风雷；长老合议认可圣子；传授飞灵族上古秘术；天鹏圣坛祭祀大典。\n上集回顾：韩立在蛮荒深处遭遇空间裂缝卷入飞灵族圣界，救下重伤的天鹏圣女雷兰，毅然答应伪装天鹏圣子参加地渊生死试炼。\n韩立在浩瀚灵界历经生死劫难，坚守本心，凭借惊人意志与智谋一步步踏上通天仙途！",
+          "cover": "https://i0.hdslb.com/bfs/archive/9b7e27933e5ae7e7fecae084bdf89027db7a7545.png",
+          "pubTime": 1791771574000,
+          "duration": "9:13",
+          "play": 24,
+          "videoUrl": "http://www.bilibili.com/video/av117425530014531",
+          "matched": true,
+          "ep": 4,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [
+            "灵界"
+          ],
+          "discoveredBy": "episode-search"
         }
       ],
       "recentTitles": [
         "【凡人修仙传 灵界篇】第16集：重返灵界遭遇魔灾大爆发，血战天渊城狂澜挽狂！"
+      ]
+    },
+    {
+      "uid": "1433305070",
+      "name": "sos影-",
+      "alias": [],
+      "note": "按集搜索发现",
+      "source": "search-backfill",
+      "error": null,
+      "lastFetched": 1792064261879,
+      "lastSuccess": 1792064261879,
+      "videos": [
+        {
+          "bvid": "BV1vaHQ6ZE8M",
+          "aid": 117404306773961,
+          "title": "卫斯理系列Ai奇幻剧《神仙》第5集 仙人洞府，真正的凡人修仙传",
+          "description": "-",
+          "cover": "https://i2.hdslb.com/bfs/archive/0e8aafa81aa11f9e51651a8bf3c9c3adf53cafcb.jpg",
+          "pubTime": 1791447858000,
+          "duration": "14:37",
+          "play": 4172,
+          "videoUrl": "http://www.bilibili.com/video/av117404306773961",
+          "matched": true,
+          "ep": 5,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [],
+          "discoveredBy": "episode-search"
+        }
+      ],
+      "recentTitles": [
+        "卫斯理系列Ai奇幻剧《神仙》第5集 仙人洞府，真正的凡人修仙传"
       ]
     }
   ]
