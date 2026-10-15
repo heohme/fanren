@@ -1,5 +1,5 @@
 {
-  "generatedAt": 1791993411366,
+  "generatedAt": 1792045664423,
   "mode": "fresh",
   "taxonomyVersion": 2,
   "policyVersion": 1,
@@ -18,7 +18,7 @@
     "趣味整活": 14,
     "混剪手书": 5,
     "音乐配音": 10,
-    "同人创作": 5
+    "同人创作": 4
   },
   "lanes": {
     "event_spotlight": [],
@@ -53,15 +53,15 @@
       "BV1LZVZ6dEch",
       "BV1XGPrzcEar",
       "BV1fCMe6JEsx",
-      "BV1RoM46tEQ8",
       "BV1uqMg6TERj",
+      "BV1RoM46tEQ8",
       "BV1vMJ46nENz",
       "BV1gjEr6EErF",
       "BV1Lin7z5EZq",
-      "BV1Mwge6KEze",
       "BV1rMWDzpEz5",
-      "BV1G2CrBLEo9",
       "BV1fJr3BYExB",
+      "BV1Mwge6KEze",
+      "BV1G2CrBLEo9",
       "BV1noJ56FEir",
       "BV1gxfqBTEs3",
       "BV1bgVS6dEMQ",
@@ -75,7 +75,6 @@
       "BV14KS3YGEk9",
       "BV1jhBTYJE5x",
       "BV12MziYDEpZ",
-      "BV1YN7k6DEAR",
       "BV1nZ4y1r79E"
     ]
   },
@@ -168,7 +167,7 @@
       "score": 84,
       "lane": "hidden_gem",
       "firstSeenAt": 1785560340526,
-      "lastSeenAt": 1791993411366,
+      "lastSeenAt": 1792045664423,
       "sourceQueries": [
         "凡人修仙传 二创",
         "凡人官方二创大会",
@@ -846,6 +845,40 @@
       ]
     },
     {
+      "id": "BV1uqMg6TERj",
+      "bvid": "BV1uqMg6TERj",
+      "title": "⚡韩立神师摇一摇⚡【凡人官方二创大会】",
+      "description": "严父即将登场，老魔摇一摇热身准备跑路~\n部分画面来源：@兰斯的画室LanceStudio",
+      "cover": "https://i2.hdslb.com/bfs/archive/743d964412924baa035b2880bbf3928faad6ea6b.jpg",
+      "url": "http://www.bilibili.com/video/av116883877530037",
+      "upId": "3546926083475628",
+      "upName": "凡人柳玉",
+      "play": 49497,
+      "pubTime": 1783506635000,
+      "duration": "1:8",
+      "category": "趣味整活",
+      "confidence": 0.9,
+      "classificationSource": "model",
+      "classificationReason": "参与凡人官方二创大会的趣味整活类二次创作",
+      "contentNature": "secondary_creation",
+      "originality": "deep_adaptation",
+      "eventTag": "凡人官方二创大会",
+      "creatorPotential": "one_off",
+      "score": 73,
+      "lane": "archive",
+      "firstSeenAt": 1784281357983,
+      "lastSeenAt": 1791129460426,
+      "sourceQueries": [
+        "legacy-published",
+        "凡人修仙传 鬼畜 整活",
+        "凡人官方二创大会"
+      ],
+      "discoveryModes": [
+        "history",
+        "fresh"
+      ]
+    },
+    {
       "id": "BV1RoM46tEQ8",
       "bvid": "BV1RoM46tEQ8",
       "title": "⚡师 姐 摇 一 摇⚡【凡人官方二创大会】",
@@ -872,40 +905,6 @@
       "sourceQueries": [
         "legacy-published",
         "凡人修仙传 鬼畜 整活"
-      ],
-      "discoveryModes": [
-        "history",
-        "fresh"
-      ]
-    },
-    {
-      "id": "BV1uqMg6TERj",
-      "bvid": "BV1uqMg6TERj",
-      "title": "⚡韩立神师摇一摇⚡【凡人官方二创大会】",
-      "description": "严父即将登场，老魔摇一摇热身准备跑路~\n部分画面来源：@兰斯的画室LanceStudio",
-      "cover": "https://i2.hdslb.com/bfs/archive/743d964412924baa035b2880bbf3928faad6ea6b.jpg",
-      "url": "http://www.bilibili.com/video/av116883877530037",
-      "upId": "3546926083475628",
-      "upName": "凡人柳玉",
-      "play": 49497,
-      "pubTime": 1783506635000,
-      "duration": "1:8",
-      "category": "趣味整活",
-      "confidence": 0.9,
-      "classificationSource": "model",
-      "classificationReason": "参与凡人官方二创大会的趣味整活类二次创作",
-      "contentNature": "secondary_creation",
-      "originality": "deep_adaptation",
-      "eventTag": "凡人官方二创大会",
-      "creatorPotential": "one_off",
-      "score": 72,
-      "lane": "archive",
-      "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1791129460426,
-      "sourceQueries": [
-        "legacy-published",
-        "凡人修仙传 鬼畜 整活",
-        "凡人官方二创大会"
       ],
       "discoveryModes": [
         "history",
@@ -1004,7 +1003,7 @@
       "score": 71,
       "lane": "hidden_gem",
       "firstSeenAt": 1784868982615,
-      "lastSeenAt": 1791993411366,
+      "lastSeenAt": 1792045664423,
       "sourceQueries": [
         "凡人修仙传 二创",
         "凡人官方二创大会",
@@ -1048,6 +1047,71 @@
       ]
     },
     {
+      "id": "BV1rMWDzpEz5",
+      "bvid": "BV1rMWDzpEz5",
+      "title": "元瑶劲爆AI动画",
+      "description": "",
+      "cover": "https://i1.hdslb.com/bfs/archive/9f6578c2d394cc4672403793133ae8b1157f2b43.jpg",
+      "url": "http://www.bilibili.com/video/av115409546124865",
+      "upId": "3493260429363697",
+      "upName": "元宇宙国风美",
+      "play": 295049,
+      "pubTime": 1761010389000,
+      "duration": "3:8",
+      "category": "同人创作",
+      "confidence": 0.85,
+      "classificationSource": "model",
+      "classificationReason": "基于《凡人修仙传》元瑶角色制作的AI动画二创内容",
+      "contentNature": "secondary_creation",
+      "originality": "deep_adaptation",
+      "eventTag": null,
+      "creatorPotential": "observe",
+      "score": 69,
+      "lane": "archive",
+      "firstSeenAt": 1784526884576,
+      "lastSeenAt": 1791192844647,
+      "sourceQueries": [
+        "凡人修仙传 MMD 同人动画",
+        "凡人修仙传 二创",
+        "凡人修仙传 同人"
+      ],
+      "discoveryModes": [
+        "history"
+      ]
+    },
+    {
+      "id": "BV1fJr3BYExB",
+      "bvid": "BV1fJr3BYExB",
+      "title": "【凡人修仙传/韩立中心同人手书】众山小",
+      "description": "凡人停更 我念头不通达了\n特此奉上\nmusic：众山小-冯子晨\n\n前前后后画了将近60个小时，，从头开始构思故事性手书的分镜实在是对自己一次新的挑战，凡人衣服都太精致了为了画好人物的特征和细节对着模型研究了很久，肯定还有很多瑕疵，所幸最后还是做出了大概满意的效果，希望大家看的开心",
+      "cover": "https://i1.hdslb.com/bfs/archive/32dbf6b451f199678b96635094558fc90c945b41.jpg",
+      "url": "http://www.bilibili.com/video/av115867748663992",
+      "upId": "332703426",
+      "upName": "XbadR",
+      "play": 134342,
+      "pubTime": 1768001727000,
+      "duration": "1:4",
+      "category": "混剪手书",
+      "confidence": 0.95,
+      "classificationSource": "model",
+      "classificationReason": "该视频为《凡人修仙传》韩立中心同人手书，有明确原创分镜与故事性，属于优质二创",
+      "contentNature": "secondary_creation",
+      "originality": "deep_adaptation",
+      "eventTag": null,
+      "creatorPotential": "recommend",
+      "score": 69,
+      "lane": "archive",
+      "firstSeenAt": 1784281357983,
+      "lastSeenAt": 1791798094018,
+      "sourceQueries": [
+        "legacy-published",
+        "凡人修仙传 混剪 手书"
+      ],
+      "discoveryModes": [
+        "history"
+      ]
+    },
+    {
       "id": "BV1Mwge6KEze",
       "bvid": "BV1Mwge6KEze",
       "title": "三尺之身的火龙童子 亦能顶天立地！小火龙究竟有没有斩杀过元婴级法士？《凡人修仙传》人物志",
@@ -1081,39 +1145,6 @@
       ]
     },
     {
-      "id": "BV1rMWDzpEz5",
-      "bvid": "BV1rMWDzpEz5",
-      "title": "元瑶劲爆AI动画",
-      "description": "",
-      "cover": "https://i1.hdslb.com/bfs/archive/9f6578c2d394cc4672403793133ae8b1157f2b43.jpg",
-      "url": "http://www.bilibili.com/video/av115409546124865",
-      "upId": "3493260429363697",
-      "upName": "元宇宙国风美",
-      "play": 295049,
-      "pubTime": 1761010389000,
-      "duration": "3:8",
-      "category": "同人创作",
-      "confidence": 0.85,
-      "classificationSource": "model",
-      "classificationReason": "基于《凡人修仙传》元瑶角色制作的AI动画二创内容",
-      "contentNature": "secondary_creation",
-      "originality": "deep_adaptation",
-      "eventTag": null,
-      "creatorPotential": "observe",
-      "score": 68,
-      "lane": "archive",
-      "firstSeenAt": 1784526884576,
-      "lastSeenAt": 1791192844647,
-      "sourceQueries": [
-        "凡人修仙传 MMD 同人动画",
-        "凡人修仙传 二创",
-        "凡人修仙传 同人"
-      ],
-      "discoveryModes": [
-        "history"
-      ]
-    },
-    {
       "id": "BV1G2CrBLEo9",
       "bvid": "BV1G2CrBLEo9",
       "title": "[自制MV]落云宗女团给您带来一首《长生梦》",
@@ -1139,38 +1170,6 @@
       "lastSeenAt": 1791798094018,
       "sourceQueries": [
         "凡人修仙传 配音 翻唱"
-      ],
-      "discoveryModes": [
-        "history"
-      ]
-    },
-    {
-      "id": "BV1fJr3BYExB",
-      "bvid": "BV1fJr3BYExB",
-      "title": "【凡人修仙传/韩立中心同人手书】众山小",
-      "description": "凡人停更 我念头不通达了\n特此奉上\nmusic：众山小-冯子晨\n\n前前后后画了将近60个小时，，从头开始构思故事性手书的分镜实在是对自己一次新的挑战，凡人衣服都太精致了为了画好人物的特征和细节对着模型研究了很久，肯定还有很多瑕疵，所幸最后还是做出了大概满意的效果，希望大家看的开心",
-      "cover": "https://i1.hdslb.com/bfs/archive/32dbf6b451f199678b96635094558fc90c945b41.jpg",
-      "url": "http://www.bilibili.com/video/av115867748663992",
-      "upId": "332703426",
-      "upName": "XbadR",
-      "play": 134342,
-      "pubTime": 1768001727000,
-      "duration": "1:4",
-      "category": "混剪手书",
-      "confidence": 0.95,
-      "classificationSource": "model",
-      "classificationReason": "该视频为《凡人修仙传》韩立中心同人手书，有明确原创分镜与故事性，属于优质二创",
-      "contentNature": "secondary_creation",
-      "originality": "deep_adaptation",
-      "eventTag": null,
-      "creatorPotential": "recommend",
-      "score": 68,
-      "lane": "archive",
-      "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1791798094018,
-      "sourceQueries": [
-        "legacy-published",
-        "凡人修仙传 混剪 手书"
       ],
       "discoveryModes": [
         "history"
@@ -1619,39 +1618,6 @@
       "sourceQueries": [
         "legacy-published",
         "凡人修仙传 配音 翻唱"
-      ],
-      "discoveryModes": [
-        "history"
-      ]
-    },
-    {
-      "id": "BV1YN7k6DEAR",
-      "bvid": "BV1YN7k6DEAR",
-      "title": "《凡人修仙传》AI自制第205集：谋定坠魔 GTPimage2+seedance2.0制作！#动画 #凡人修仙传 #韩老魔 #国漫",
-      "description": "",
-      "cover": "https://i2.hdslb.com/bfs/archive/c7496d48b565c4f2250cd22996bd46e90e37bb9d.jpg",
-      "url": "http://www.bilibili.com/video/av116697281337440",
-      "upId": "10976973",
-      "upName": "值友2233333",
-      "play": 20156,
-      "pubTime": 1780659407000,
-      "duration": "9:39",
-      "category": "同人创作",
-      "confidence": 0.85,
-      "classificationSource": "model",
-      "classificationReason": "AI自制的凡人修仙传第205集的二创内容",
-      "contentNature": "secondary_creation",
-      "originality": "deep_adaptation",
-      "eventTag": null,
-      "creatorPotential": "observe",
-      "score": 61,
-      "lane": "archive",
-      "firstSeenAt": 1784526884576,
-      "lastSeenAt": 1789978229138,
-      "sourceQueries": [
-        "凡人修仙传 小剧场",
-        "凡人修仙传 二创",
-        "凡人修仙传 同人"
       ],
       "discoveryModes": [
         "history"
