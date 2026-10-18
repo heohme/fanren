@@ -1,6 +1,6 @@
 {
-  "generatedAt": 1792247312109,
-  "count": 577,
+  "generatedAt": 1792305184155,
+  "count": 580,
   "items": {
     "BV11w411S7we": {
       "bvid": "BV11w411S7we",
@@ -14537,7 +14537,7 @@
     "BV1omgx6aEvq": {
       "bvid": "BV1omgx6aEvq",
       "latest": {
-        "play": 4843,
+        "play": 4847,
         "like": 912,
         "coin": 34,
         "favorite": 48,
@@ -14545,17 +14545,6 @@
         "danmaku": 1
       },
       "samples": [
-        {
-          "sampledAt": 1785331518945,
-          "stats": {
-            "play": 4416,
-            "like": 896,
-            "coin": 34,
-            "favorite": 41,
-            "reply": 18,
-            "danmaku": 1
-          }
-        },
         {
           "sampledAt": 1785417116113,
           "stats": {
@@ -14868,6 +14857,17 @@
           "sampledAt": 1792164613931,
           "stats": {
             "play": 4843,
+            "like": 912,
+            "coin": 34,
+            "favorite": 48,
+            "reply": 19,
+            "danmaku": 1
+          }
+        },
+        {
+          "sampledAt": 1792305184155,
+          "stats": {
+            "play": 4847,
             "like": 912,
             "coin": 34,
             "favorite": 48,
@@ -30786,6 +30786,78 @@
             "favorite": 19,
             "reply": 20,
             "danmaku": 84
+          }
+        }
+      ]
+    },
+    "BV1G2pr6aEcc": {
+      "bvid": "BV1G2pr6aEcc",
+      "latest": {
+        "play": 12412,
+        "like": 477,
+        "coin": 26,
+        "favorite": 88,
+        "reply": 50,
+        "danmaku": 27
+      },
+      "samples": [
+        {
+          "sampledAt": 1792305184155,
+          "stats": {
+            "play": 12412,
+            "like": 477,
+            "coin": 26,
+            "favorite": 88,
+            "reply": 50,
+            "danmaku": 27
+          }
+        }
+      ]
+    },
+    "BV1yteB6TEfM": {
+      "bvid": "BV1yteB6TEfM",
+      "latest": {
+        "play": 3028,
+        "like": 65,
+        "coin": 3,
+        "favorite": 21,
+        "reply": 5,
+        "danmaku": 6
+      },
+      "samples": [
+        {
+          "sampledAt": 1792305184155,
+          "stats": {
+            "play": 3028,
+            "like": 65,
+            "coin": 3,
+            "favorite": 21,
+            "reply": 5,
+            "danmaku": 6
+          }
+        }
+      ]
+    },
+    "BV1TxVY6rEnv": {
+      "bvid": "BV1TxVY6rEnv",
+      "latest": {
+        "play": 1884,
+        "like": 17,
+        "coin": 7,
+        "favorite": 20,
+        "reply": 8,
+        "danmaku": 7
+      },
+      "samples": [
+        {
+          "sampledAt": 1792305184155,
+          "stats": {
+            "play": 1884,
+            "like": 17,
+            "coin": 7,
+            "favorite": 20,
+            "reply": 8,
+            "danmaku": 7
           }
         }
       ]
