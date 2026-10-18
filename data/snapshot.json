@@ -1,5 +1,5 @@
 {
-  "generatedAt": 1792321402244,
+  "generatedAt": 1792322128084,
   "series": {
     "title": "凡人修仙传",
     "seasonId": "28747",
@@ -3799,9 +3799,10 @@
         "利维坦LWT"
       ],
       "note": "经典解析向",
+      "source": "search-backfill",
       "error": null,
-      "lastFetched": 1792321006204,
-      "lastSuccess": 1792321006204,
+      "lastFetched": 1792322128083,
+      "lastSuccess": 1792322128083,
       "videos": [
         {
           "bvid": "BV1mFJq6iEUX",
@@ -19398,9 +19399,10 @@
         "王十二"
       ],
       "note": "道友推荐，拉片解析",
+      "source": "search-backfill",
       "error": null,
-      "lastFetched": 1792321392306,
-      "lastSuccess": 1792321392306,
+      "lastFetched": 1792322031713,
+      "lastSuccess": 1792322031713,
       "videos": [
         {
           "bvid": "BV1ueJy64EbE",
@@ -19905,7 +19907,7 @@
           "cover": "https://i2.hdslb.com/bfs/archive/cdbffce7bf0ce43400d6e2c2e9776acea515529f.jpg",
           "pubTime": 1771646400000,
           "duration": "13:47",
-          "play": 8950,
+          "play": 8953,
           "videoUrl": "http://www.bilibili.com/video/av116096220861928",
           "matched": true,
           "ep": 7,
@@ -19922,7 +19924,7 @@
           "cover": "https://i2.hdslb.com/bfs/archive/312392a6501643092971884f4bc6dc539b0b15a0.jpg",
           "pubTime": 1771560000000,
           "duration": "15:4",
-          "play": 39953,
+          "play": 39959,
           "videoUrl": "http://www.bilibili.com/video/av116096187307307",
           "matched": true,
           "ep": 6,
@@ -30303,8 +30305,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1792298429679,
-      "lastSuccess": 1792298429679,
+      "lastFetched": 1792321982337,
+      "lastSuccess": 1792321982337,
       "videos": [
         {
           "bvid": "BV1754y1Z71N",
@@ -58338,8 +58340,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1792298523456,
-      "lastSuccess": 1792298523456,
+      "lastFetched": 1792322080580,
+      "lastSuccess": 1792322080580,
       "videos": [
         {
           "bvid": "BV1vaHQ6ZE8M",
@@ -58349,7 +58351,7 @@
           "cover": "https://i2.hdslb.com/bfs/archive/0e8aafa81aa11f9e51651a8bf3c9c3adf53cafcb.jpg",
           "pubTime": 1791447858000,
           "duration": "14:37",
-          "play": 4442,
+          "play": 4477,
           "videoUrl": "http://www.bilibili.com/video/av117404306773961",
           "matched": true,
           "ep": 5,
@@ -58591,6 +58593,38 @@
       ],
       "recentTitles": [
         "凡人修仙传第196集解析！"
+      ]
+    },
+    {
+      "uid": "1230361431",
+      "name": "eeeqiii_YY",
+      "alias": [],
+      "note": "按集搜索发现",
+      "source": "search-backfill",
+      "error": null,
+      "lastFetched": 1792322080580,
+      "lastSuccess": 1792322080580,
+      "videos": [
+        {
+          "bvid": "BV1t6nu6bEGv",
+          "aid": 117460879541837,
+          "title": "【凡人】reaction第5集",
+          "description": "",
+          "cover": "https://i2.hdslb.com/bfs/archive/6324feee7b41acab77946237ab9f5cbe585f65f0.jpg",
+          "pubTime": 1792310924000,
+          "duration": "16:9",
+          "play": 512,
+          "videoUrl": "http://www.bilibili.com/video/av117460879541837",
+          "matched": true,
+          "ep": 5,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [],
+          "discoveredBy": "episode-search"
+        }
+      ],
+      "recentTitles": [
+        "【凡人】reaction第5集"
       ]
     }
   ]
