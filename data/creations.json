@@ -1,5 +1,5 @@
 {
-  "generatedAt": 1792334820806,
+  "generatedAt": 1792392312258,
   "mode": "fresh",
   "taxonomyVersion": 2,
   "policyVersion": 1,
@@ -18,7 +18,7 @@
     "趣味整活": 10,
     "混剪手书": 4,
     "音乐配音": 9,
-    "同人创作": 4
+    "同人创作": 3
   },
   "lanes": {
     "event_spotlight": [],
@@ -49,7 +49,6 @@
       "BV1uqMg6TERj",
       "BV1gjEr6EErF",
       "BV1vMJ46nENz",
-      "BV1Lin7z5EZq",
       "BV1rMWDzpEz5",
       "BV1fJr3BYExB",
       "BV1Mwge6KEze",
@@ -713,37 +712,6 @@
       ]
     },
     {
-      "id": "BV1Lin7z5EZq",
-      "bvid": "BV1Lin7z5EZq",
-      "title": "up爆肝10天自制元婴初期韩立大战元婴中期穆兰草原圣女",
-      "description": "均是ai娱乐自制 看正版请去凡人官方看正版，配音:光和积木",
-      "cover": "https://i1.hdslb.com/bfs/archive/67938b9128954dc6907e5273563e032a8e2108cd.jpg",
-      "url": "http://www.bilibili.com/video/av115274204322347",
-      "upId": "21617072",
-      "upName": "贝儿大大",
-      "play": 3052229,
-      "pubTime": 1758945384000,
-      "duration": "6:3",
-      "category": "同人创作",
-      "confidence": 0.85,
-      "classificationSource": "model",
-      "classificationReason": "AI自制的韩立与穆兰的战斗同人内容，属于二次创作",
-      "contentNature": "secondary_creation",
-      "originality": "deep_adaptation",
-      "eventTag": null,
-      "creatorPotential": "observe",
-      "score": 70,
-      "lane": "archive",
-      "firstSeenAt": 1790318024159,
-      "lastSeenAt": 1790318024159,
-      "sourceQueries": [
-        "凡人官方二创大会"
-      ],
-      "discoveryModes": [
-        "fresh"
-      ]
-    },
-    {
       "id": "BV1omgx6aEvq",
       "bvid": "BV1omgx6aEvq",
       "title": "用仙剑一的方式打开：一曲逍遥叹，半部凡人书【凡人官方二创大会】",
@@ -766,7 +734,7 @@
       "score": 70,
       "lane": "hidden_gem",
       "firstSeenAt": 1784868982615,
-      "lastSeenAt": 1792334820806,
+      "lastSeenAt": 1792392312258,
       "sourceQueries": [
         "凡人修仙传 二创",
         "凡人官方二创大会",
@@ -1260,37 +1228,6 @@
       ]
     },
     {
-      "id": "BV1c3ga6HEFR",
-      "bvid": "BV1c3ga6HEFR",
-      "title": "【凡人：青易居士】 一个能把韩立护在身后的人！#韩立 #凡人修仙传 #青易居士 #人物志",
-      "description": "【凡人：青易居士】 一个能把韩立护在身后的人！#韩立 #凡人修仙传 #青易居士 #人物志",
-      "cover": "https://i2.hdslb.com/bfs/archive/468940112599ea82e7b28e77bebd4fc789c4c683.jpg",
-      "url": "http://www.bilibili.com/video/av116972478006890",
-      "upId": "3690972175141419",
-      "upName": "山月失焦",
-      "play": 12,
-      "pubTime": 1784858487000,
-      "duration": "4:26",
-      "category": "人物志",
-      "confidence": 0.9,
-      "classificationSource": "model",
-      "classificationReason": "围绕凡人修仙传角色青易居士创作的人物志专题内容",
-      "contentNature": "character_or_lore",
-      "originality": "deep_adaptation",
-      "eventTag": null,
-      "creatorPotential": "recommend",
-      "score": 62,
-      "lane": "hidden_gem",
-      "firstSeenAt": 1784868982615,
-      "lastSeenAt": 1791618493421,
-      "sourceQueries": [
-        "凡人修仙传 人物志 设定"
-      ],
-      "discoveryModes": [
-        "fresh"
-      ]
-    },
-    {
       "id": "BV14KS3YGEk9",
       "bvid": "BV14KS3YGEk9",
       "title": "归期未有期【凡人修仙传手书/动画】",
@@ -1353,6 +1290,37 @@
       ],
       "discoveryModes": [
         "history"
+      ]
+    },
+    {
+      "id": "BV1c3ga6HEFR",
+      "bvid": "BV1c3ga6HEFR",
+      "title": "【凡人：青易居士】 一个能把韩立护在身后的人！#韩立 #凡人修仙传 #青易居士 #人物志",
+      "description": "【凡人：青易居士】 一个能把韩立护在身后的人！#韩立 #凡人修仙传 #青易居士 #人物志",
+      "cover": "https://i2.hdslb.com/bfs/archive/468940112599ea82e7b28e77bebd4fc789c4c683.jpg",
+      "url": "http://www.bilibili.com/video/av116972478006890",
+      "upId": "3690972175141419",
+      "upName": "山月失焦",
+      "play": 12,
+      "pubTime": 1784858487000,
+      "duration": "4:26",
+      "category": "人物志",
+      "confidence": 0.9,
+      "classificationSource": "model",
+      "classificationReason": "围绕凡人修仙传角色青易居士创作的人物志专题内容",
+      "contentNature": "character_or_lore",
+      "originality": "deep_adaptation",
+      "eventTag": null,
+      "creatorPotential": "recommend",
+      "score": 61,
+      "lane": "hidden_gem",
+      "firstSeenAt": 1784868982615,
+      "lastSeenAt": 1791618493421,
+      "sourceQueries": [
+        "凡人修仙传 人物志 设定"
+      ],
+      "discoveryModes": [
+        "fresh"
       ]
     },
     {
