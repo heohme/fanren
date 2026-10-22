@@ -1,5 +1,5 @@
 {
-  "generatedAt": 1792664010141,
+  "generatedAt": 1792670478144,
   "series": {
     "title": "凡人修仙传",
     "seasonId": "28747",
@@ -19482,9 +19482,10 @@
         "王十二"
       ],
       "note": "道友推荐，拉片解析",
+      "source": "search-backfill",
       "error": "all retries failed",
-      "lastFetched": 1792664001479,
-      "lastSuccess": 1792644813007,
+      "lastFetched": 1792670312895,
+      "lastSuccess": 1792670312895,
       "videos": [
         {
           "bvid": "BV1Smni6BEG4",
@@ -20005,7 +20006,7 @@
           "cover": "https://i2.hdslb.com/bfs/archive/cdbffce7bf0ce43400d6e2c2e9776acea515529f.jpg",
           "pubTime": 1771646400000,
           "duration": "13:47",
-          "play": 9004,
+          "play": 9009,
           "videoUrl": "http://www.bilibili.com/video/av116096220861928",
           "matched": true,
           "ep": 7,
@@ -20022,7 +20023,7 @@
           "cover": "https://i2.hdslb.com/bfs/archive/312392a6501643092971884f4bc6dc539b0b15a0.jpg",
           "pubTime": 1771560000000,
           "duration": "15:4",
-          "play": 40008,
+          "play": 40014,
           "videoUrl": "http://www.bilibili.com/video/av116096187307307",
           "matched": true,
           "ep": 6,
@@ -30403,8 +30404,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1792644762959,
-      "lastSuccess": 1792644762959,
+      "lastFetched": 1792670273612,
+      "lastSuccess": 1792670273612,
       "videos": [
         {
           "bvid": "BV1754y1Z71N",
@@ -35657,8 +35658,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1792644909398,
-      "lastSuccess": 1792644909398,
+      "lastFetched": 1792670389668,
+      "lastSuccess": 1792670389668,
       "videos": [
         {
           "bvid": "BV17p376rEeq",
@@ -36803,7 +36804,7 @@
           "cover": "https://i0.hdslb.com/bfs/archive/1d389dc75c279fe19f716fcef72349b0beb77a8b.jpg",
           "pubTime": 1735475286000,
           "duration": "17:31",
-          "play": 19117,
+          "play": 19125,
           "videoUrl": "http://www.bilibili.com/video/av113736102712350",
           "matched": true,
           "ep": 6,
@@ -54864,8 +54865,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1792644813007,
-      "lastSuccess": 1792644813007,
+      "lastFetched": 1792670312895,
+      "lastSuccess": 1792670312895,
       "videos": [
         {
           "bvid": "BV1N68g6DE6W",
@@ -59021,6 +59022,38 @@
       ],
       "recentTitles": [
         "【凡人】reaction第5集"
+      ]
+    },
+    {
+      "uid": "3707008047909603",
+      "name": "瑟普莱思-阿杰",
+      "alias": [],
+      "note": "按集搜索发现",
+      "source": "search-backfill",
+      "error": null,
+      "lastFetched": 1792670478144,
+      "lastSuccess": 1792670478144,
+      "videos": [
+        {
+          "bvid": "BV1XBNt6UEbo",
+          "aid": 116918187066584,
+          "title": "凡人第2集逐帧解析：少年言欢，故友难忘！",
+          "description": "",
+          "cover": "https://i1.hdslb.com/bfs/archive/b16a8875cf4be56feb68120c287703728962663b.jpg",
+          "pubTime": 1784030184000,
+          "duration": "8:48",
+          "play": 3461,
+          "videoUrl": "http://www.bilibili.com/video/av116918187066584",
+          "matched": true,
+          "ep": 2,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [],
+          "discoveredBy": "episode-search"
+        }
+      ],
+      "recentTitles": [
+        "凡人第2集逐帧解析：少年言欢，故友难忘！"
       ]
     }
   ]
