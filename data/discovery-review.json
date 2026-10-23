@@ -1,13 +1,13 @@
 {
-  "generatedAt": 1792736818183,
+  "generatedAt": 1792770822221,
   "mode": "fresh",
   "taxonomyVersion": 2,
   "policyVersion": 1,
   "summary": {
     "total": 2000,
     "approved": 34,
-    "review": 77,
-    "rejected": 1889
+    "review": 76,
+    "rejected": 1890
   },
   "lanes": {
     "event_spotlight": [],
@@ -22,8 +22,8 @@
     "new_creator_watch": [],
     "archive": [
       "BV1XMG36SEqX",
-      "BV1LcKS67Efe",
       "BV1f1Kd66EQE",
+      "BV1LcKS67Efe",
       "BV1UfTx6VEfb",
       "BV1fyjH6zEdR",
       "BV19b7p6YESX",
@@ -32,8 +32,8 @@
       "BV1XGPrzcEar",
       "BV1RoM46tEQ8",
       "BV1uqMg6TERj",
-      "BV1vMJ46nENz",
       "BV1gjEr6EErF",
+      "BV1vMJ46nENz",
       "BV1fJr3BYExB",
       "BV1G2CrBLEo9",
       "BV1noJ56FEir",
@@ -1247,7 +1247,7 @@
       "score": 55,
       "lane": null,
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1792736818183,
+      "lastSeenAt": 1792770822221,
       "sourceQueries": [
         "凡人修仙传 MMD 同人动画"
       ],
@@ -1737,52 +1737,6 @@
       }
     },
     {
-      "id": "BV18YMdz2EDx",
-      "bvid": "BV18YMdz2EDx",
-      "title": "对不起了紫灵，这把我选文思月～【凡人修仙传】",
-      "description": "-",
-      "cover": "https://i0.hdslb.com/bfs/archive/58fc81b71830f5e9e4e1135bea92390b2b1fff1f.jpg",
-      "url": "http://www.bilibili.com/video/av114840999824084",
-      "upId": "213329517",
-      "upName": "动漫制作组",
-      "play": 66308,
-      "pubTime": 1752334932000,
-      "duration": "0:52",
-      "category": "趣味整活",
-      "confidence": 0.7,
-      "classificationSource": "model",
-      "classificationReason": "以凡人修仙传角色选择为主题的趣味整活内容",
-      "contentNature": "secondary_creation",
-      "originality": "light_edit",
-      "eventTag": null,
-      "creatorPotential": "one_off",
-      "score": 52,
-      "lane": null,
-      "firstSeenAt": 1791192844647,
-      "lastSeenAt": 1792396995927,
-      "sourceQueries": [
-        "凡人修仙传 二创",
-        "凡人官方二创大会",
-        "韩立 二创",
-        "凡人修仙传 小剧场",
-        "凡人修仙传 混剪 手书",
-        "凡人修仙传 鬼畜 整活"
-      ],
-      "discoveryModes": [
-        "history"
-      ],
-      "riskFlags": [],
-      "policyReason": "疑似轻度剪辑，需人工确认原创性",
-      "stats": {
-        "play": 66308,
-        "like": 0,
-        "coin": 0,
-        "favorite": 1593,
-        "reply": 0,
-        "danmaku": 20
-      }
-    },
-    {
       "id": "BV1ocs4esEPE",
       "bvid": "BV1ocs4esEPE",
       "title": "【凡人修仙传】凡人功法篇之《长春功》：韩立踏入仙途的启蒙功法",
@@ -1866,47 +1820,6 @@
       }
     },
     {
-      "id": "BV1fJ3M6DEKG",
-      "bvid": "BV1fJ3M6DEKG",
-      "title": "鸣潮主播小汤难绷凡人搞笑翻唱二创，看完念头不通达了！感谢风希老板打赏的风雷翅一双，我看这王婵才是真爱啊，追韩立到天涯海角！【汤圆四水】",
-      "description": "主播：@汤圆四水  \n视频地址：\n《王婵归期》BV1k3icBhEgN\n《风希：I&#x27;m a Deadman》BV1vft8zaEGn\n《飞鸟和婵》BV1ZVveB5Eig\n《放错》BV17FvqBQE9j",
-      "cover": "https://i2.hdslb.com/bfs/archive/b6384f2ff249179d3fe0718228f4c281601fee3d.jpg",
-      "url": "http://www.bilibili.com/video/av116979406997855",
-      "upId": "3546862114048313",
-      "upName": "龙吟耀世",
-      "play": 4618,
-      "pubTime": 1784964401000,
-      "duration": "10:29",
-      "category": "音乐配音",
-      "confidence": 0.8,
-      "classificationSource": "model",
-      "classificationReason": "凡人修仙传相关的搞笑翻唱二创，属于汤圆四水活动内容",
-      "contentNature": "secondary_creation",
-      "originality": "light_edit",
-      "eventTag": "汤圆四水",
-      "creatorPotential": "one_off",
-      "score": 52,
-      "lane": null,
-      "firstSeenAt": 1791192844647,
-      "lastSeenAt": 1791192844647,
-      "sourceQueries": [
-        "凡人修仙传 配音 翻唱"
-      ],
-      "discoveryModes": [
-        "history"
-      ],
-      "riskFlags": [],
-      "policyReason": "疑似轻度剪辑，需人工确认原创性",
-      "stats": {
-        "play": 4618,
-        "like": 0,
-        "coin": 0,
-        "favorite": 22,
-        "reply": 0,
-        "danmaku": 45
-      }
-    },
-    {
       "id": "BV15mpiziEfb",
       "bvid": "BV15mpiziEfb",
       "title": "凡人修仙传最强的典籍金阙玉书，到底是什么来头",
@@ -1945,6 +1858,52 @@
         "favorite": 21,
         "reply": 4,
         "danmaku": 3
+      }
+    },
+    {
+      "id": "BV18YMdz2EDx",
+      "bvid": "BV18YMdz2EDx",
+      "title": "对不起了紫灵，这把我选文思月～【凡人修仙传】",
+      "description": "-",
+      "cover": "https://i0.hdslb.com/bfs/archive/58fc81b71830f5e9e4e1135bea92390b2b1fff1f.jpg",
+      "url": "http://www.bilibili.com/video/av114840999824084",
+      "upId": "213329517",
+      "upName": "动漫制作组",
+      "play": 66308,
+      "pubTime": 1752334932000,
+      "duration": "0:52",
+      "category": "趣味整活",
+      "confidence": 0.7,
+      "classificationSource": "model",
+      "classificationReason": "以凡人修仙传角色选择为主题的趣味整活内容",
+      "contentNature": "secondary_creation",
+      "originality": "light_edit",
+      "eventTag": null,
+      "creatorPotential": "one_off",
+      "score": 51,
+      "lane": null,
+      "firstSeenAt": 1791192844647,
+      "lastSeenAt": 1792396995927,
+      "sourceQueries": [
+        "凡人修仙传 二创",
+        "凡人官方二创大会",
+        "韩立 二创",
+        "凡人修仙传 小剧场",
+        "凡人修仙传 混剪 手书",
+        "凡人修仙传 鬼畜 整活"
+      ],
+      "discoveryModes": [
+        "history"
+      ],
+      "riskFlags": [],
+      "policyReason": "疑似轻度剪辑，需人工确认原创性",
+      "stats": {
+        "play": 66308,
+        "like": 0,
+        "coin": 0,
+        "favorite": 1593,
+        "reply": 0,
+        "danmaku": 20
       }
     },
     {
@@ -2068,47 +2027,6 @@
         "favorite": 114,
         "reply": 0,
         "danmaku": 7
-      }
-    },
-    {
-      "id": "BV1r3Ng6VEgu",
-      "bvid": "BV1r3Ng6VEgu",
-      "title": "凡人修仙传人物志——大衍神君",
-      "description": "半身风月半残魂，一匣机关一梦深 \nhttps://www.bilibili.com/bangumi/play/ep1231584?bsource=baidu_aladdin",
-      "cover": "https://i1.hdslb.com/bfs/archive/981a646e516804151e317ce1afd894765ea10eba.jpg",
-      "url": "http://www.bilibili.com/video/av116906291894910",
-      "upId": "3493131924277978",
-      "upName": "铁牛牛肉面店主",
-      "play": 3574,
-      "pubTime": 1783848594000,
-      "duration": "11:17",
-      "category": "人物志",
-      "confidence": 0.9,
-      "classificationSource": "model",
-      "classificationReason": "围绕《凡人修仙传》角色大衍神君创作人物志内容",
-      "contentNature": "character_or_lore",
-      "originality": "deep_adaptation",
-      "eventTag": null,
-      "creatorPotential": "recommend",
-      "score": 51,
-      "lane": null,
-      "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1790787538397,
-      "sourceQueries": [
-        "凡人修仙传 人物志 设定"
-      ],
-      "discoveryModes": [
-        "fresh"
-      ],
-      "riskFlags": [],
-      "policyReason": "内容可收录，但需人工复核分类或风险",
-      "stats": {
-        "play": 3574,
-        "like": 0,
-        "coin": 0,
-        "favorite": 6,
-        "reply": 0,
-        "danmaku": 0
       }
     },
     {
@@ -2630,6 +2548,47 @@
       }
     },
     {
+      "id": "BV1fJ3M6DEKG",
+      "bvid": "BV1fJ3M6DEKG",
+      "title": "鸣潮主播小汤难绷凡人搞笑翻唱二创，看完念头不通达了！感谢风希老板打赏的风雷翅一双，我看这王婵才是真爱啊，追韩立到天涯海角！【汤圆四水】",
+      "description": "主播：@汤圆四水  \n视频地址：\n《王婵归期》BV1k3icBhEgN\n《风希：I&#x27;m a Deadman》BV1vft8zaEGn\n《飞鸟和婵》BV1ZVveB5Eig\n《放错》BV17FvqBQE9j",
+      "cover": "https://i2.hdslb.com/bfs/archive/b6384f2ff249179d3fe0718228f4c281601fee3d.jpg",
+      "url": "http://www.bilibili.com/video/av116979406997855",
+      "upId": "3546862114048313",
+      "upName": "龙吟耀世",
+      "play": 4618,
+      "pubTime": 1784964401000,
+      "duration": "10:29",
+      "category": "音乐配音",
+      "confidence": 0.8,
+      "classificationSource": "model",
+      "classificationReason": "凡人修仙传相关的搞笑翻唱二创，属于汤圆四水活动内容",
+      "contentNature": "secondary_creation",
+      "originality": "light_edit",
+      "eventTag": "汤圆四水",
+      "creatorPotential": "one_off",
+      "score": 48,
+      "lane": null,
+      "firstSeenAt": 1791192844647,
+      "lastSeenAt": 1791192844647,
+      "sourceQueries": [
+        "凡人修仙传 配音 翻唱"
+      ],
+      "discoveryModes": [
+        "history"
+      ],
+      "riskFlags": [],
+      "policyReason": "疑似轻度剪辑，需人工确认原创性",
+      "stats": {
+        "play": 4618,
+        "like": 0,
+        "coin": 0,
+        "favorite": 22,
+        "reply": 0,
+        "danmaku": 45
+      }
+    },
+    {
       "id": "BV1mJ47z2E5B",
       "bvid": "BV1mJ47z2E5B",
       "title": "韩立逆天改命账单：法宝开路，功法封神",
@@ -2652,7 +2611,7 @@
       "score": 48,
       "lane": null,
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1792736818183,
+      "lastSeenAt": 1792770822221,
       "sourceQueries": [
         "凡人修仙传 法宝 功法 人物"
       ],
@@ -2906,7 +2865,7 @@
       "score": 47,
       "lane": null,
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1792736818183,
+      "lastSeenAt": 1792770822221,
       "sourceQueries": [
         "凡人修仙传 法宝 功法 人物"
       ],
@@ -2947,7 +2906,7 @@
       "score": 47,
       "lane": null,
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1792736818183,
+      "lastSeenAt": 1792770822221,
       "sourceQueries": [
         "凡人修仙传 混剪 手书"
       ],
@@ -3029,7 +2988,7 @@
       "score": 47,
       "lane": null,
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1792736818183,
+      "lastSeenAt": 1792770822221,
       "sourceQueries": [
         "凡人修仙传 配音 翻唱"
       ],
