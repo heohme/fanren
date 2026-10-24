@@ -1,5 +1,5 @@
 {
-  "generatedAt": 1792806357078,
+  "generatedAt": 1792817131296,
   "series": {
     "title": "凡人修仙传",
     "seasonId": "28747",
@@ -75,11 +75,11 @@
     "cover": "https://i0.hdslb.com/bfs/bangumi/image/19a2d01429bcba6b31791277c016e0d1aa465974.png",
     "newEp": {
       "desc": "6月13日起 每周六11:00",
-      "id": 3854820,
-      "is_new": 0,
-      "title": "196"
+      "id": 3854821,
+      "is_new": 1,
+      "title": "197"
     },
-    "totalCount": 309,
+    "totalCount": 311,
     "episodes": [
       {
         "ep": 1,
@@ -3586,6 +3586,18 @@
         "playUrl": "https://www.bilibili.com/bangumi/play/ep4292440"
       },
       {
+        "ep": 197,
+        "epRaw": "197",
+        "longTitle": "慕兰之战21",
+        "bvid": "BV1YXJ46JEjA",
+        "aid": 117451149150992,
+        "cover": "http://i0.hdslb.com/bfs/archive/4580b0ead5f50cd9b61f1ab4c9115f1c2c02dc7d.jpg",
+        "pubTime": 1792206900000,
+        "duration": 51000,
+        "link": "https://www.bilibili.com/bangumi/play/ep4292441",
+        "playUrl": "https://www.bilibili.com/bangumi/play/ep4292441"
+      },
+      {
         "ep": 181,
         "epRaw": "181",
         "longTitle": "慕兰之战05",
@@ -3781,13 +3793,25 @@
         "ep": 197,
         "epRaw": "197",
         "longTitle": "慕兰之战21",
-        "bvid": "BV1YXJ46JEjA",
-        "aid": 117451149150992,
-        "cover": "http://i0.hdslb.com/bfs/archive/793ea5065457857b7e2aa24f309dede83d2b84c8.jpg",
-        "pubTime": 1792206900000,
-        "duration": 51000,
-        "link": "https://www.bilibili.com/bangumi/play/ep4292441",
-        "playUrl": "https://www.bilibili.com/bangumi/play/ep4292441"
+        "bvid": "BV1ojn86vEeU",
+        "aid": 117490961091726,
+        "cover": "http://i0.hdslb.com/bfs/archive/4580b0ead5f50cd9b61f1ab4c9115f1c2c02dc7d.jpg",
+        "pubTime": 1792810800000,
+        "duration": 1275000,
+        "link": "https://www.bilibili.com/bangumi/play/ep3854821",
+        "playUrl": "https://www.bilibili.com/bangumi/play/ep3854821"
+      },
+      {
+        "ep": 198,
+        "epRaw": "198",
+        "longTitle": "慕兰之战22",
+        "bvid": "BV1Bjn86iEWJ",
+        "aid": 117490961221454,
+        "cover": "http://i0.hdslb.com/bfs/archive/93c0bd8876ee2c263649e2846e3c33cecf1a3952.jpg",
+        "pubTime": 1792811700000,
+        "duration": 49000,
+        "link": "https://www.bilibili.com/bangumi/play/ep4292442",
+        "playUrl": "https://www.bilibili.com/bangumi/play/ep4292442"
       }
     ]
   },
@@ -20175,9 +20199,46 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1792211426150,
-      "lastSuccess": 1792211426150,
+      "lastFetched": 1792816797489,
+      "lastSuccess": 1792816797489,
       "videos": [
+        {
+          "bvid": "BV1Qana6AEyL",
+          "aid": 117491363744198,
+          "title": "凡人修仙传 197 集原著解说：魏无涯孤身殿后！等全员撤走独守孤城，毒功硬牵慕兰大军",
+          "description": "预告解析，希望大家喜欢。正片将于11点更新，链接已放评论区置顶！",
+          "cover": "https://i2.hdslb.com/bfs/archive/4890f531a45b75b490cf54673dae82dd3819591d.jpg",
+          "pubTime": 1792809300000,
+          "duration": "37:0",
+          "play": 719,
+          "videoUrl": "http://www.bilibili.com/video/av117491363744198",
+          "matched": true,
+          "ep": 197,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [],
+          "discoveredBy": "episode-search"
+        },
+        {
+          "bvid": "BV1hYJv6TEzN",
+          "aid": 117454705721770,
+          "title": "凡人修仙传 197 集：韩立重回落云宗！紫灵登门寻求合作，坠魔谷副本正式开启",
+          "description": "预告解析，希望大家喜欢~",
+          "cover": "https://i2.hdslb.com/bfs/archive/4890f531a45b75b490cf54673dae82dd3819591d.jpg",
+          "pubTime": 1792217198000,
+          "duration": "37:5",
+          "play": 3904,
+          "videoUrl": "http://www.bilibili.com/video/av117454705721770",
+          "matched": true,
+          "ep": 197,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [
+            "韩立",
+            "紫灵"
+          ],
+          "discoveredBy": "episode-search"
+        },
         {
           "bvid": "BV1qxJt6ZEEC",
           "aid": 117450444245605,
@@ -21007,9 +21068,28 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1792234033344,
-      "lastSuccess": 1792234033344,
+      "lastFetched": 1792816797489,
+      "lastSuccess": 1792816797489,
       "videos": [
+        {
+          "bvid": "BV112na69EKA",
+          "aid": 117491397495428,
+          "title": "凡人修仙传 197 集原著：阗天城最终失守！魏无涯一人断后，天南门户彻底洞开",
+          "description": "预告解析希望大家喜欢，正片将于11点更新，链接已放评论区置顶",
+          "cover": "https://i0.hdslb.com/bfs/archive/e966274a8b191eccfdfd3a6524ae8699209afa85.jpg",
+          "pubTime": 1792809900000,
+          "duration": "22:24",
+          "play": 3456,
+          "videoUrl": "http://www.bilibili.com/video/av117491397495428",
+          "matched": true,
+          "ep": 197,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [
+            "天南"
+          ],
+          "discoveredBy": "episode-search"
+        },
         {
           "bvid": "BV15rpu61EZx",
           "aid": 117416671578394,
@@ -22325,9 +22405,30 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1791611718864,
-      "lastSuccess": 1791611718864,
+      "lastFetched": 1792816797489,
+      "lastSuccess": 1792816797489,
       "videos": [
+        {
+          "bvid": "BV1f8Ja66EMC",
+          "aid": 117454218988125,
+          "title": "凡人修仙传197集：慕兰大战山雨欲来，天南三大修士召集元婴高层密议，韩立闭关两月携底牌出关",
+          "description": "-",
+          "cover": "https://i1.hdslb.com/bfs/archive/711e17445ec116757d036d75f971f0b131b77267.jpg",
+          "pubTime": 1792209379000,
+          "duration": "24:59",
+          "play": 1546,
+          "videoUrl": "http://www.bilibili.com/video/av117454218988125",
+          "matched": true,
+          "ep": 197,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [
+            "韩立",
+            "天南",
+            "元婴"
+          ],
+          "discoveredBy": "episode-search"
+        },
         {
           "bvid": "BV1TQHY6AER2",
           "aid": 117375114414680,
@@ -29914,9 +30015,47 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1791004935450,
-      "lastSuccess": 1791004935450,
+      "lastFetched": 1792816797489,
+      "lastSuccess": 1792816797489,
       "videos": [
+        {
+          "bvid": "BV17YJa6zEMa",
+          "aid": 117454252607800,
+          "title": "【凡人修仙传197集】韩立闭关半年破关而出！刚出关就被四大美女暗中邀约，坠魔谷惊天机缘曝光！",
+          "description": "",
+          "cover": "https://i2.hdslb.com/bfs/archive/50510ccc18d17f444546b0921b37616a1698e82e.jpg",
+          "pubTime": 1792209807000,
+          "duration": "49:9",
+          "play": 26691,
+          "videoUrl": "http://www.bilibili.com/video/av117454252607800",
+          "matched": true,
+          "ep": 197,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [
+            "韩立"
+          ],
+          "discoveredBy": "episode-search"
+        },
+        {
+          "bvid": "BV166pi6cECX",
+          "aid": 117414926747504,
+          "title": "【凡人修仙传197集】慕兰十场生死战开启！韩立偶遇云露老魔，三大修士抛出庚精诱惑！",
+          "description": "",
+          "cover": "https://i1.hdslb.com/bfs/archive/7660abfa3e82d47e25c0cbf88fb8d5697c2f7cbe.jpg",
+          "pubTime": 1791609738000,
+          "duration": "51:2",
+          "play": 25361,
+          "videoUrl": "http://www.bilibili.com/video/av117414926747504",
+          "matched": true,
+          "ep": 197,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [
+            "韩立"
+          ],
+          "discoveredBy": "episode-search"
+        },
         {
           "bvid": "BV12wet65Ehg",
           "aid": 117295976287425,
@@ -32851,9 +32990,31 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1792234033344,
-      "lastSuccess": 1792234033344,
+      "lastFetched": 1792816797489,
+      "lastSuccess": 1792816797489,
       "videos": [
+        {
+          "bvid": "BV1VtJ26uEPV",
+          "aid": 117445125737370,
+          "title": "凡人修仙传197集：韩立偶遇紫灵梅凝，定下坠魔谷之约，慕兰大战山雨欲来，天南三大修士召集元婴高层密议",
+          "description": "-",
+          "cover": "https://i0.hdslb.com/bfs/archive/cdcb255ad10ee1b378e1505e29cfec0d18c30035.jpg",
+          "pubTime": 1792208100000,
+          "duration": "24:22",
+          "play": 1469,
+          "videoUrl": "http://www.bilibili.com/video/av117445125737370",
+          "matched": true,
+          "ep": 197,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [
+            "韩立",
+            "紫灵",
+            "天南",
+            "元婴"
+          ],
+          "discoveredBy": "episode-search"
+        },
         {
           "bvid": "BV11hpi6TEn9",
           "aid": 117414960300831,
@@ -46821,8 +46982,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1790544437078,
-      "lastSuccess": 1790544437078,
+      "lastFetched": 1792817082370,
+      "lastSuccess": 1792817082370,
       "videos": [
         {
           "bvid": "BV189K46kEWw",
@@ -47308,6 +47469,23 @@
           "characters": [
             "韩立"
           ],
+          "discoveredBy": "episode-search"
+        },
+        {
+          "bvid": "BV1zMVZ6FE4s",
+          "aid": 116674598540623,
+          "title": "厉飞宇立功之从小立志当配角 给古人朋友看凡人修仙传reaction 第4集",
+          "description": "",
+          "cover": "https://i0.hdslb.com/bfs/archive/bfa1e5da7176835ad088c1ee08e7558863e21e9a.jpg",
+          "pubTime": 1780314717000,
+          "duration": "21:13",
+          "play": 4324,
+          "videoUrl": "http://www.bilibili.com/video/av116674598540623",
+          "matched": true,
+          "ep": 4,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [],
           "discoveredBy": "episode-search"
         }
       ],
@@ -49419,9 +49597,30 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1791611718864,
-      "lastSuccess": 1791611718864,
+      "lastFetched": 1792816797489,
+      "lastSuccess": 1792816797489,
       "videos": [
+        {
+          "bvid": "BV1BEJv61EwT",
+          "aid": 117454588092148,
+          "title": "南宫婉得知阗天城失守！担心韩立 银月新造型即将登场！ 韩立恢复伤势前往天一城 凡人197集剧情前瞻",
+          "description": "当天解析流量还是很差 决定还是先做前瞻\n第二十八期预告后续剧情解说，\n周一到周五不定期跟新凡人人物功法等解读\n求点赞关注，非常感谢观众老爷们了！\n求推流，求求各位道友点赞 视频才能更好的被推荐",
+          "cover": "https://i0.hdslb.com/bfs/archive/94b3183ec3b56fcd6844db370fb937588cfe340e.jpg",
+          "pubTime": 1792215048000,
+          "duration": "20:31",
+          "play": 63562,
+          "videoUrl": "http://www.bilibili.com/video/av117454588092148",
+          "matched": true,
+          "ep": 197,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [
+            "南宫婉",
+            "韩立",
+            "银月"
+          ],
+          "discoveredBy": "episode-search"
+        },
         {
           "bvid": "BV1CWHY6HEP2",
           "aid": 117375349363118,
@@ -51056,9 +51255,29 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1792234033343,
-      "lastSuccess": 1792234033343,
+      "lastFetched": 1792816797489,
+      "lastSuccess": 1792816797489,
       "videos": [
+        {
+          "bvid": "BV1HxJa65ExL",
+          "aid": 117454269383638,
+          "title": "【凡人修仙传197集】魏无涯独守阗天城！天恨老怪的任务！银月换建模，韩立返回天一城见吕落！",
+          "description": "慕兰法士攻破阗天城，天南各方修建天一石城备战。韩立黄龙山一战名声大振，从慕兰神师手下脱身更是轰动两阵营。闭关半年休养完毕，韩立与银月擒获敌探摸清布防，返回天一石城。吕洛告知已安排好他与南宫婉的双修之事。韩立前去见龙晗修士！",
+          "cover": "https://i2.hdslb.com/bfs/archive/6fac042070447e0a2fcebf8f6d166fa7873ffbd9.jpg",
+          "pubTime": 1792210157000,
+          "duration": "22:39",
+          "play": 99860,
+          "videoUrl": "http://www.bilibili.com/video/av117454269383638",
+          "matched": true,
+          "ep": 197,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [
+            "韩立",
+            "银月"
+          ],
+          "discoveredBy": "episode-search"
+        },
         {
           "bvid": "BV1KkpY6AEzh",
           "aid": 117414725421633,
@@ -52770,8 +52989,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1792619188180,
-      "lastSuccess": 1792619188180,
+      "lastFetched": 1792817035533,
+      "lastSuccess": 1792817035533,
       "videos": [
         {
           "bvid": "BV146421f7aD",
@@ -53205,7 +53424,7 @@
           "cover": "https://i1.hdslb.com/bfs/archive/ad3f9dce0a2eac7d71e2625de10ae35027ec8823.jpg",
           "pubTime": 1710435078000,
           "duration": "5:15",
-          "play": 207576,
+          "play": 207935,
           "videoUrl": "http://www.bilibili.com/video/av1601923740",
           "matched": true,
           "ep": 5,
@@ -58273,8 +58492,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1792705100697,
-      "lastSuccess": 1792705100697,
+      "lastFetched": 1792816845619,
+      "lastSuccess": 1792816845619,
       "videos": [
         {
           "bvid": "BV1fLJy6zEuw",
@@ -58284,7 +58503,7 @@
           "cover": "https://i2.hdslb.com/bfs/archive/2a9da7317db670f23f33fe81ba2a6806c76d10a3.jpg",
           "pubTime": 1792058866000,
           "duration": "17:18",
-          "play": 1463,
+          "play": 1493,
           "videoUrl": "http://www.bilibili.com/video/av117444354119115",
           "matched": true,
           "ep": 26,
@@ -58814,9 +59033,29 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1792234033343,
-      "lastSuccess": 1792234033343,
+      "lastFetched": 1792816797489,
+      "lastSuccess": 1792816797489,
       "videos": [
+        {
+          "bvid": "BV1Binh6rEyf",
+          "aid": 117490088741888,
+          "title": "凡人修仙传 197集 韩立相逢紫灵梅凝议定坠魔谷谋划，闭关熔铸青焰，握下制胜底牌",
+          "description": "",
+          "cover": "https://i2.hdslb.com/bfs/archive/ed770114deb56cc5f02350d287943d337bb998bf.jpg",
+          "pubTime": 1792810200000,
+          "duration": "25:0",
+          "play": 1591,
+          "videoUrl": "http://www.bilibili.com/video/av117490088741888",
+          "matched": true,
+          "ep": 197,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [
+            "韩立",
+            "紫灵"
+          ],
+          "discoveredBy": "episode-search"
+        },
         {
           "bvid": "BV1Vapv6mENk",
           "aid": 117415396508836,
@@ -59012,8 +59251,8 @@
       "note": "按集搜索发现",
       "source": "search-backfill",
       "error": null,
-      "lastFetched": 1792775630032,
-      "lastSuccess": 1792775630032,
+      "lastFetched": 1792817131296,
+      "lastSuccess": 1792817131296,
       "videos": [
         {
           "bvid": "BV1t6nu6bEGv",
@@ -59057,7 +59296,7 @@
           "cover": "https://i0.hdslb.com/bfs/archive/b9e27dc7cff184ea2b5977cd8f3c5a18a9b30627.jpg",
           "pubTime": 1792308679000,
           "duration": "15:40",
-          "play": 1600,
+          "play": 1657,
           "videoUrl": "http://www.bilibili.com/video/av117460728548257",
           "matched": true,
           "ep": 3,
@@ -59101,6 +59340,74 @@
       ],
       "recentTitles": [
         "凡人第2集逐帧解析：少年言欢，故友难忘！"
+      ]
+    },
+    {
+      "uid": "482417041",
+      "name": "路上遇小雨",
+      "alias": [],
+      "note": "按集搜索发现",
+      "source": "search-backfill",
+      "error": null,
+      "lastFetched": 1792816797489,
+      "lastSuccess": 1792816797489,
+      "videos": [
+        {
+          "bvid": "BV1beHw65EEn",
+          "aid": 117493779793795,
+          "title": "最新最新凡人韩立修仙传第197集完整最新最新最新",
+          "description": "-",
+          "cover": "https://i0.hdslb.com/bfs/archive/dd8e2f10a8b3f126a65da515bd4220bfae4b3a46.jpg",
+          "pubTime": 1792813548000,
+          "duration": "17:30",
+          "play": 1841,
+          "videoUrl": "http://www.bilibili.com/video/av117493779793795",
+          "matched": true,
+          "ep": 197,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [
+            "韩立"
+          ],
+          "discoveredBy": "episode-search"
+        }
+      ],
+      "recentTitles": [
+        "最新最新凡人韩立修仙传第197集完整最新最新最新"
+      ]
+    },
+    {
+      "uid": "3546678963472563",
+      "name": "苏夜漫剪",
+      "alias": [],
+      "note": "按集搜索发现",
+      "source": "search-backfill",
+      "error": null,
+      "lastFetched": 1792816797490,
+      "lastSuccess": 1792816797490,
+      "videos": [
+        {
+          "bvid": "BV1gun46yE7n",
+          "aid": 117488377532549,
+          "title": "凡人197集看点解析“银月新建模到底是什么样子的？”",
+          "description": "-",
+          "cover": "https://i0.hdslb.com/bfs/archive/1428c95ab0326340da7ae3d4d126aa4df997d9d4.jpg",
+          "pubTime": 1792730561000,
+          "duration": "2:59",
+          "play": 237,
+          "videoUrl": "http://www.bilibili.com/video/av117488377532549",
+          "matched": true,
+          "ep": 197,
+          "isCompilation": false,
+          "contentType": "episode",
+          "characters": [
+            "银月"
+          ],
+          "discoveredBy": "episode-search"
+        }
+      ],
+      "recentTitles": [
+        "凡人197集看点解析“银月新建模到底是什么样子的？”"
       ]
     }
   ]
