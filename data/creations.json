@@ -1,5 +1,5 @@
 {
-  "generatedAt": 1792910821832,
+  "generatedAt": 1792940534497,
   "mode": "fresh",
   "taxonomyVersion": 2,
   "policyVersion": 1,
@@ -15,7 +15,7 @@
   "counts": {
     "人物志": 5,
     "剧情二创": 6,
-    "趣味整活": 9,
+    "趣味整活": 8,
     "混剪手书": 4,
     "音乐配音": 8,
     "同人创作": 2
@@ -41,7 +41,6 @@
       "BV12eE16HEAa",
       "BV1gGinBaE1z",
       "BV1XGPrzcEar",
-      "BV1RoM46tEQ8",
       "BV1uqMg6TERj",
       "BV1vMJ46nENz",
       "BV1gjEr6EErF",
@@ -50,9 +49,9 @@
       "BV1noJ56FEir",
       "BV1rMWDzpEz5",
       "BV1omgx6aEvq",
+      "BV1EdcJz6EPN",
       "BV1bgVS6dEMQ",
       "BV1Mwge6KEze",
-      "BV1EdcJz6EPN",
       "BV1RusDz1EwM",
       "BV1V9AUzHEzJ",
       "BV19w4m1X7xU",
@@ -539,39 +538,6 @@
       ]
     },
     {
-      "id": "BV1RoM46tEQ8",
-      "bvid": "BV1RoM46tEQ8",
-      "title": "⚡师 姐 摇 一 摇⚡【凡人官方二创大会】",
-      "description": "摇一摇~ 摇一摇~",
-      "cover": "https://i1.hdslb.com/bfs/archive/2877c277ec1602d1dc698cbce43982f766ca04d2.jpg",
-      "url": "http://www.bilibili.com/video/av116877451987094",
-      "upId": "327838817",
-      "upName": "明灯-专注脑洞一百年",
-      "play": 29957,
-      "pubTime": 1783408640000,
-      "duration": "1:3",
-      "category": "趣味整活",
-      "confidence": 0.95,
-      "classificationSource": "model",
-      "classificationReason": "参与凡人官方二创大会的趣味整活类二次创作内容",
-      "contentNature": "secondary_creation",
-      "originality": "deep_adaptation",
-      "eventTag": "凡人官方二创大会",
-      "creatorPotential": "recommend",
-      "score": 74,
-      "lane": "archive",
-      "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1791040429278,
-      "sourceQueries": [
-        "legacy-published",
-        "凡人修仙传 鬼畜 整活"
-      ],
-      "discoveryModes": [
-        "history",
-        "fresh"
-      ]
-    },
-    {
       "id": "BV1uqMg6TERj",
       "bvid": "BV1uqMg6TERj",
       "title": "⚡韩立神师摇一摇⚡【凡人官方二创大会】",
@@ -824,7 +790,7 @@
       "score": 66,
       "lane": "archive",
       "firstSeenAt": 1784868982615,
-      "lastSeenAt": 1792910821832,
+      "lastSeenAt": 1792940534497,
       "sourceQueries": [
         "凡人修仙传 二创",
         "凡人官方二创大会",
@@ -833,6 +799,39 @@
       ],
       "discoveryModes": [
         "fresh",
+        "history"
+      ]
+    },
+    {
+      "id": "BV1EdcJz6EPN",
+      "bvid": "BV1EdcJz6EPN",
+      "title": "那一晚，韩立接受了元瑶的感谢   Seedance2.0",
+      "description": "那一晚，元瑶成功扑进了韩老魔怀里。",
+      "cover": "https://i1.hdslb.com/bfs/archive/035d2645221156a38ae2a0368031eb9f40d04eeb.jpg",
+      "url": "http://www.bilibili.com/video/av116064696467926",
+      "upId": "3706928955918517",
+      "upName": "平行世界的游明",
+      "play": 27328,
+      "pubTime": 1771027980000,
+      "duration": "0:41",
+      "category": "剧情二创",
+      "confidence": 0.85,
+      "classificationSource": "model",
+      "classificationReason": "创作《凡人修仙传》韩立与元瑶相关的同人剧情内容",
+      "contentNature": "secondary_creation",
+      "originality": "deep_adaptation",
+      "eventTag": null,
+      "creatorPotential": "one_off",
+      "score": 65,
+      "lane": "archive",
+      "firstSeenAt": 1789978229138,
+      "lastSeenAt": 1791798094018,
+      "sourceQueries": [
+        "凡人修仙传 MMD 同人动画",
+        "凡人修仙传 二创",
+        "韩立 二创"
+      ],
+      "discoveryModes": [
         "history"
       ]
     },
@@ -901,39 +900,6 @@
       ],
       "discoveryModes": [
         "fresh"
-      ]
-    },
-    {
-      "id": "BV1EdcJz6EPN",
-      "bvid": "BV1EdcJz6EPN",
-      "title": "那一晚，韩立接受了元瑶的感谢   Seedance2.0",
-      "description": "那一晚，元瑶成功扑进了韩老魔怀里。",
-      "cover": "https://i1.hdslb.com/bfs/archive/035d2645221156a38ae2a0368031eb9f40d04eeb.jpg",
-      "url": "http://www.bilibili.com/video/av116064696467926",
-      "upId": "3706928955918517",
-      "upName": "平行世界的游明",
-      "play": 27328,
-      "pubTime": 1771027980000,
-      "duration": "0:41",
-      "category": "剧情二创",
-      "confidence": 0.85,
-      "classificationSource": "model",
-      "classificationReason": "创作《凡人修仙传》韩立与元瑶相关的同人剧情内容",
-      "contentNature": "secondary_creation",
-      "originality": "deep_adaptation",
-      "eventTag": null,
-      "creatorPotential": "one_off",
-      "score": 64,
-      "lane": "archive",
-      "firstSeenAt": 1789978229138,
-      "lastSeenAt": 1791798094018,
-      "sourceQueries": [
-        "凡人修仙传 MMD 同人动画",
-        "凡人修仙传 二创",
-        "韩立 二创"
-      ],
-      "discoveryModes": [
-        "history"
       ]
     },
     {
