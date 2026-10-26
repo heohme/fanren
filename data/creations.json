@@ -1,5 +1,5 @@
 {
-  "generatedAt": 1792940534497,
+  "generatedAt": 1792997656599,
   "mode": "fresh",
   "taxonomyVersion": 2,
   "policyVersion": 1,
@@ -15,7 +15,7 @@
   "counts": {
     "人物志": 5,
     "剧情二创": 6,
-    "趣味整活": 8,
+    "趣味整活": 7,
     "混剪手书": 4,
     "音乐配音": 8,
     "同人创作": 2
@@ -26,7 +26,6 @@
     "hidden_gem": [
       "BV12tGP6XEjz",
       "BV1HFGK6DEqq",
-      "BV11F3i6uE14",
       "BV1ksGu6cEdY",
       "BV1rT3m6AE3H"
     ],
@@ -39,9 +38,9 @@
       "BV1fyjH6zEdR",
       "BV19b7p6YESX",
       "BV12eE16HEAa",
+      "BV11F3i6uE14",
       "BV1gGinBaE1z",
       "BV1XGPrzcEar",
-      "BV1uqMg6TERj",
       "BV1vMJ46nENz",
       "BV1gjEr6EErF",
       "BV1fJr3BYExB",
@@ -53,9 +52,9 @@
       "BV1bgVS6dEMQ",
       "BV1Mwge6KEze",
       "BV1RusDz1EwM",
+      "BV1QGebziE1r",
       "BV1V9AUzHEzJ",
       "BV19w4m1X7xU",
-      "BV1QGebziE1r",
       "BV14KS3YGEk9",
       "BV1jhBTYJE5x",
       "BV12MziYDEpZ",
@@ -228,38 +227,6 @@
       ],
       "discoveryModes": [
         "history",
-        "fresh"
-      ]
-    },
-    {
-      "id": "BV11F3i6uE14",
-      "bvid": "BV11F3i6uE14",
-      "title": "凡人人物志之吕洛篇——【凡人官方二创大会】",
-      "description": "好久不见……\n\n其实这一篇后面也写了不少，前后删减剪辑很多遍，但是还是决定不那么啰嗦，自述的话等以后有机会再补吧……\n那么申明下，本视频呢基于原片剪辑以及二次配音创作的，其中也加了一点AI，所以场景自然是乱七八糟的啦，小动画呢，也是uo自己瞎整的，不喜轻喷吧，最后喜欢的道友还请多多三连转发支持吧←_←\n\n最最最后，视频制作不易，有年度大会员的道友，每个月可以白嫖5B劵，想支持up主的话可以用这个劵给up主发电，感谢各位道友！\nhttps://account.bilibili.com/account/big",
-      "cover": "https://i1.hdslb.com/bfs/archive/8f0c3b98e1570debb67d6e21594d7d60390baac6.jpg",
-      "url": "http://www.bilibili.com/video/av116996268232721",
-      "upId": "222851470",
-      "upName": "咕噜咕噜疾",
-      "play": 34740,
-      "pubTime": 1785221407000,
-      "duration": "4:39",
-      "category": "人物志",
-      "confidence": 0.9,
-      "classificationSource": "model",
-      "classificationReason": "参与凡人官方二创大会的吕洛人物专题二次创作",
-      "contentNature": "secondary_creation",
-      "originality": "deep_adaptation",
-      "eventTag": "凡人官方二创大会",
-      "creatorPotential": "observe",
-      "score": 80,
-      "lane": "hidden_gem",
-      "firstSeenAt": 1785244584356,
-      "lastSeenAt": 1791649315901,
-      "sourceQueries": [
-        "凡人官方二创大会",
-        "凡人修仙传 人物志 设定"
-      ],
-      "discoveryModes": [
         "fresh"
       ]
     },
@@ -439,6 +406,38 @@
       ]
     },
     {
+      "id": "BV11F3i6uE14",
+      "bvid": "BV11F3i6uE14",
+      "title": "凡人人物志之吕洛篇——【凡人官方二创大会】",
+      "description": "好久不见……\n\n其实这一篇后面也写了不少，前后删减剪辑很多遍，但是还是决定不那么啰嗦，自述的话等以后有机会再补吧……\n那么申明下，本视频呢基于原片剪辑以及二次配音创作的，其中也加了一点AI，所以场景自然是乱七八糟的啦，小动画呢，也是uo自己瞎整的，不喜轻喷吧，最后喜欢的道友还请多多三连转发支持吧←_←\n\n最最最后，视频制作不易，有年度大会员的道友，每个月可以白嫖5B劵，想支持up主的话可以用这个劵给up主发电，感谢各位道友！\nhttps://account.bilibili.com/account/big",
+      "cover": "https://i1.hdslb.com/bfs/archive/8f0c3b98e1570debb67d6e21594d7d60390baac6.jpg",
+      "url": "http://www.bilibili.com/video/av116996268232721",
+      "upId": "222851470",
+      "upName": "咕噜咕噜疾",
+      "play": 34740,
+      "pubTime": 1785221407000,
+      "duration": "4:39",
+      "category": "人物志",
+      "confidence": 0.9,
+      "classificationSource": "model",
+      "classificationReason": "参与凡人官方二创大会的吕洛人物专题二次创作",
+      "contentNature": "secondary_creation",
+      "originality": "deep_adaptation",
+      "eventTag": "凡人官方二创大会",
+      "creatorPotential": "observe",
+      "score": 76,
+      "lane": "archive",
+      "firstSeenAt": 1785244584356,
+      "lastSeenAt": 1791649315901,
+      "sourceQueries": [
+        "凡人官方二创大会",
+        "凡人修仙传 人物志 设定"
+      ],
+      "discoveryModes": [
+        "fresh"
+      ]
+    },
+    {
       "id": "BV1gGinBaE1z",
       "bvid": "BV1gGinBaE1z",
       "title": "极阴岛是我的家乡—玄骨上人",
@@ -535,40 +534,6 @@
       ],
       "discoveryModes": [
         "history"
-      ]
-    },
-    {
-      "id": "BV1uqMg6TERj",
-      "bvid": "BV1uqMg6TERj",
-      "title": "⚡韩立神师摇一摇⚡【凡人官方二创大会】",
-      "description": "严父即将登场，老魔摇一摇热身准备跑路~\n部分画面来源：@兰斯的画室LanceStudio",
-      "cover": "https://i2.hdslb.com/bfs/archive/743d964412924baa035b2880bbf3928faad6ea6b.jpg",
-      "url": "http://www.bilibili.com/video/av116883877530037",
-      "upId": "3546926083475628",
-      "upName": "凡人柳玉",
-      "play": 49497,
-      "pubTime": 1783506635000,
-      "duration": "1:8",
-      "category": "趣味整活",
-      "confidence": 0.9,
-      "classificationSource": "model",
-      "classificationReason": "参与凡人官方二创大会的趣味整活类二次创作",
-      "contentNature": "secondary_creation",
-      "originality": "deep_adaptation",
-      "eventTag": "凡人官方二创大会",
-      "creatorPotential": "one_off",
-      "score": 73,
-      "lane": "archive",
-      "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1791129460426,
-      "sourceQueries": [
-        "legacy-published",
-        "凡人修仙传 鬼畜 整活",
-        "凡人官方二创大会"
-      ],
-      "discoveryModes": [
-        "history",
-        "fresh"
       ]
     },
     {
@@ -790,7 +755,7 @@
       "score": 66,
       "lane": "archive",
       "firstSeenAt": 1784868982615,
-      "lastSeenAt": 1792940534497,
+      "lastSeenAt": 1792997656599,
       "sourceQueries": [
         "凡人修仙传 二创",
         "凡人官方二创大会",
@@ -922,12 +887,44 @@
       "originality": "deep_adaptation",
       "eventTag": null,
       "creatorPotential": "observe",
-      "score": 63,
+      "score": 64,
       "lane": "archive",
       "firstSeenAt": 1791192844647,
       "lastSeenAt": 1791798094018,
       "sourceQueries": [
         "凡人修仙传 法宝 功法 人物"
+      ],
+      "discoveryModes": [
+        "history"
+      ]
+    },
+    {
+      "id": "BV1QGebziE1r",
+      "bvid": "BV1QGebziE1r",
+      "title": "“韩大哥，没有灵根，真的不能成为修仙者吗？——【凡人修仙传】墨彩环专属bgm《归期》翻唱",
+      "description": "原唱：钱润玉\n翻唱：我\n混音：死神\n前几年翻唱过的歌，重置一下，感觉心境不一样唱的感觉也不一样啦，希望大家喜欢！",
+      "cover": "https://i1.hdslb.com/bfs/archive/bbb43805be64d3917a61bb2562ead0be2d3f5c78.jpg",
+      "url": "http://www.bilibili.com/video/av115072659625211",
+      "upId": "675081568",
+      "upName": "霏若若",
+      "play": 110437,
+      "pubTime": 1755870524000,
+      "duration": "4:12",
+      "category": "音乐配音",
+      "confidence": 0.9,
+      "classificationSource": "model",
+      "classificationReason": "翻唱凡人修仙传墨彩环专属BGM，属于音乐类二次创作",
+      "contentNature": "secondary_creation",
+      "originality": "deep_adaptation",
+      "eventTag": null,
+      "creatorPotential": "recommend",
+      "score": 63,
+      "lane": "archive",
+      "firstSeenAt": 1784281357983,
+      "lastSeenAt": 1791798094018,
+      "sourceQueries": [
+        "legacy-published",
+        "凡人修仙传 配音 翻唱"
       ],
       "discoveryModes": [
         "history"
@@ -993,38 +990,6 @@
       "lastSeenAt": 1792396995927,
       "sourceQueries": [
         "凡人修仙传 混剪 手书"
-      ],
-      "discoveryModes": [
-        "history"
-      ]
-    },
-    {
-      "id": "BV1QGebziE1r",
-      "bvid": "BV1QGebziE1r",
-      "title": "“韩大哥，没有灵根，真的不能成为修仙者吗？——【凡人修仙传】墨彩环专属bgm《归期》翻唱",
-      "description": "原唱：钱润玉\n翻唱：我\n混音：死神\n前几年翻唱过的歌，重置一下，感觉心境不一样唱的感觉也不一样啦，希望大家喜欢！",
-      "cover": "https://i1.hdslb.com/bfs/archive/bbb43805be64d3917a61bb2562ead0be2d3f5c78.jpg",
-      "url": "http://www.bilibili.com/video/av115072659625211",
-      "upId": "675081568",
-      "upName": "霏若若",
-      "play": 110437,
-      "pubTime": 1755870524000,
-      "duration": "4:12",
-      "category": "音乐配音",
-      "confidence": 0.9,
-      "classificationSource": "model",
-      "classificationReason": "翻唱凡人修仙传墨彩环专属BGM，属于音乐类二次创作",
-      "contentNature": "secondary_creation",
-      "originality": "deep_adaptation",
-      "eventTag": null,
-      "creatorPotential": "recommend",
-      "score": 62,
-      "lane": "archive",
-      "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1791798094018,
-      "sourceQueries": [
-        "legacy-published",
-        "凡人修仙传 配音 翻唱"
       ],
       "discoveryModes": [
         "history"
