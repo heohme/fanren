@@ -1,5 +1,5 @@
 {
-  "generatedAt": 1793084006991,
+  "generatedAt": 1793119794317,
   "mode": "fresh",
   "taxonomyVersion": 2,
   "policyVersion": 1,
@@ -32,9 +32,9 @@
       "BV1omgx6aEvq",
       "BV1EdcJz6EPN",
       "BV1Mwge6KEze",
-      "BV1RusDz1EwM",
       "BV1QGebziE1r",
       "BV19w4m1X7xU",
+      "BV1RusDz1EwM",
       "BV12MziYDEpZ",
       "BV14KS3YGEk9",
       "BV1jhBTYJE5x",
@@ -516,47 +516,6 @@
       }
     },
     {
-      "id": "BV1bMJCzvEBm",
-      "bvid": "BV1bMJCzvEBm",
-      "title": "凡人修仙传世界观：基础设定和升级体系是如何逐渐完善的？",
-      "description": "",
-      "cover": "https://i0.hdslb.com/bfs/archive/d0be8a1a0e1e8804eba88c71140c7e11bea0c30e.jpg",
-      "url": "http://www.bilibili.com/video/av115253216023179",
-      "upId": "3546884547283661",
-      "upName": "晨枫动漫",
-      "play": 20948,
-      "pubTime": 1758626033000,
-      "duration": "10:19",
-      "category": "人物志",
-      "confidence": 0.85,
-      "classificationSource": "model",
-      "classificationReason": "围绕凡人修仙传世界观基础设定与升级体系展开的专题内容",
-      "contentNature": "character_or_lore",
-      "originality": "original",
-      "eventTag": null,
-      "creatorPotential": "observe",
-      "score": 59,
-      "lane": null,
-      "firstSeenAt": 1784526884576,
-      "lastSeenAt": 1793001866080,
-      "sourceQueries": [
-        "凡人修仙传 人物志 设定"
-      ],
-      "discoveryModes": [
-        "history"
-      ],
-      "riskFlags": [],
-      "policyReason": "内容可收录，但需人工复核分类或风险",
-      "stats": {
-        "play": 20948,
-        "like": 0,
-        "coin": 0,
-        "favorite": 156,
-        "reply": 0,
-        "danmaku": 39
-      }
-    },
-    {
       "id": "BV1qdYbzVEEN",
       "bvid": "BV1qdYbzVEEN",
       "title": "凡人修仙传：韩立140件法宝/法器   23分钟完整版（十七）",
@@ -597,49 +556,6 @@
         "favorite": 167,
         "reply": 8,
         "danmaku": 4
-      }
-    },
-    {
-      "id": "BV1vuNw6kEgC",
-      "bvid": "BV1vuNw6kEgC",
-      "title": "凡人修仙传人物志——魏无涯",
-      "description": "修炼至毒之功，行侠义之事",
-      "cover": "https://i0.hdslb.com/bfs/archive/d01c4e2209cd4f3caaef058aca174e693b3e7b8b.jpg",
-      "url": "http://www.bilibili.com/video/av116900486975989",
-      "upId": "3493131924277978",
-      "upName": "铁牛牛肉面店主",
-      "play": 4308,
-      "pubTime": 1783763304000,
-      "duration": "13:24",
-      "category": "人物志",
-      "confidence": 0.9,
-      "classificationSource": "model",
-      "classificationReason": "围绕《凡人修仙传》人物魏无涯的专题内容",
-      "contentNature": "character_or_lore",
-      "originality": "deep_adaptation",
-      "eventTag": null,
-      "creatorPotential": "recommend",
-      "score": 59,
-      "lane": null,
-      "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1793001866080,
-      "sourceQueries": [
-        "legacy-published",
-        "凡人修仙传 人物志 设定"
-      ],
-      "discoveryModes": [
-        "history",
-        "fresh"
-      ],
-      "riskFlags": [],
-      "policyReason": "内容可收录，但需人工复核分类或风险",
-      "stats": {
-        "play": 4308,
-        "like": 38,
-        "coin": 3,
-        "favorite": 9,
-        "reply": 6,
-        "danmaku": 6
       }
     },
     {
@@ -690,6 +606,90 @@
         "favorite": 2025,
         "reply": 84,
         "danmaku": 101
+      }
+    },
+    {
+      "id": "BV1bMJCzvEBm",
+      "bvid": "BV1bMJCzvEBm",
+      "title": "凡人修仙传世界观：基础设定和升级体系是如何逐渐完善的？",
+      "description": "",
+      "cover": "https://i0.hdslb.com/bfs/archive/d0be8a1a0e1e8804eba88c71140c7e11bea0c30e.jpg",
+      "url": "http://www.bilibili.com/video/av115253216023179",
+      "upId": "3546884547283661",
+      "upName": "晨枫动漫",
+      "play": 20948,
+      "pubTime": 1758626033000,
+      "duration": "10:19",
+      "category": "人物志",
+      "confidence": 0.85,
+      "classificationSource": "model",
+      "classificationReason": "围绕凡人修仙传世界观基础设定与升级体系展开的专题内容",
+      "contentNature": "character_or_lore",
+      "originality": "original",
+      "eventTag": null,
+      "creatorPotential": "observe",
+      "score": 58,
+      "lane": null,
+      "firstSeenAt": 1784526884576,
+      "lastSeenAt": 1793001866080,
+      "sourceQueries": [
+        "凡人修仙传 人物志 设定"
+      ],
+      "discoveryModes": [
+        "history"
+      ],
+      "riskFlags": [],
+      "policyReason": "内容可收录，但需人工复核分类或风险",
+      "stats": {
+        "play": 20948,
+        "like": 0,
+        "coin": 0,
+        "favorite": 156,
+        "reply": 0,
+        "danmaku": 39
+      }
+    },
+    {
+      "id": "BV1vuNw6kEgC",
+      "bvid": "BV1vuNw6kEgC",
+      "title": "凡人修仙传人物志——魏无涯",
+      "description": "修炼至毒之功，行侠义之事",
+      "cover": "https://i0.hdslb.com/bfs/archive/d01c4e2209cd4f3caaef058aca174e693b3e7b8b.jpg",
+      "url": "http://www.bilibili.com/video/av116900486975989",
+      "upId": "3493131924277978",
+      "upName": "铁牛牛肉面店主",
+      "play": 4308,
+      "pubTime": 1783763304000,
+      "duration": "13:24",
+      "category": "人物志",
+      "confidence": 0.9,
+      "classificationSource": "model",
+      "classificationReason": "围绕《凡人修仙传》人物魏无涯的专题内容",
+      "contentNature": "character_or_lore",
+      "originality": "deep_adaptation",
+      "eventTag": null,
+      "creatorPotential": "recommend",
+      "score": 58,
+      "lane": null,
+      "firstSeenAt": 1784281357983,
+      "lastSeenAt": 1793001866080,
+      "sourceQueries": [
+        "legacy-published",
+        "凡人修仙传 人物志 设定"
+      ],
+      "discoveryModes": [
+        "history",
+        "fresh"
+      ],
+      "riskFlags": [],
+      "policyReason": "内容可收录，但需人工复核分类或风险",
+      "stats": {
+        "play": 4308,
+        "like": 38,
+        "coin": 3,
+        "favorite": 9,
+        "reply": 6,
+        "danmaku": 6
       }
     },
     {
@@ -992,47 +992,6 @@
       }
     },
     {
-      "id": "BV1W2CYBGEw7",
-      "bvid": "BV1W2CYBGEw7",
-      "title": "凡人修仙传中的针类法宝",
-      "description": "-",
-      "cover": "https://i1.hdslb.com/bfs/archive/9e5f49345519650f85c408f8e544ffcd11bdbf37.jpg",
-      "url": "http://www.bilibili.com/video/av115562856319402",
-      "upId": "487531204",
-      "upName": "柴LY",
-      "play": 13702,
-      "pubTime": 1763349644000,
-      "duration": "4:12",
-      "category": "人物志",
-      "confidence": 0.85,
-      "classificationSource": "model",
-      "classificationReason": "围绕凡人修仙传中的针类法宝展开的专题内容",
-      "contentNature": "character_or_lore",
-      "originality": "original",
-      "eventTag": null,
-      "creatorPotential": "observe",
-      "score": 55,
-      "lane": null,
-      "firstSeenAt": 1784526884576,
-      "lastSeenAt": 1792396995927,
-      "sourceQueries": [
-        "凡人修仙传 法宝 功法 人物"
-      ],
-      "discoveryModes": [
-        "history"
-      ],
-      "riskFlags": [],
-      "policyReason": "内容可收录，但需人工复核分类或风险",
-      "stats": {
-        "play": 13702,
-        "like": 0,
-        "coin": 0,
-        "favorite": 20,
-        "reply": 0,
-        "danmaku": 2
-      }
-    },
-    {
       "id": "BV1nW4y1K71k",
       "bvid": "BV1nW4y1K71k",
       "title": "古风舞蹈 凡人修仙传 南宫婉--《半壶纱》",
@@ -1055,7 +1014,7 @@
       "score": 55,
       "lane": null,
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1793084006991,
+      "lastSeenAt": 1793119794317,
       "sourceQueries": [
         "凡人修仙传 MMD 同人动画"
       ],
@@ -1154,6 +1113,47 @@
         "favorite": 357,
         "reply": 0,
         "danmaku": 135
+      }
+    },
+    {
+      "id": "BV1W2CYBGEw7",
+      "bvid": "BV1W2CYBGEw7",
+      "title": "凡人修仙传中的针类法宝",
+      "description": "-",
+      "cover": "https://i1.hdslb.com/bfs/archive/9e5f49345519650f85c408f8e544ffcd11bdbf37.jpg",
+      "url": "http://www.bilibili.com/video/av115562856319402",
+      "upId": "487531204",
+      "upName": "柴LY",
+      "play": 13702,
+      "pubTime": 1763349644000,
+      "duration": "4:12",
+      "category": "人物志",
+      "confidence": 0.85,
+      "classificationSource": "model",
+      "classificationReason": "围绕凡人修仙传中的针类法宝展开的专题内容",
+      "contentNature": "character_or_lore",
+      "originality": "original",
+      "eventTag": null,
+      "creatorPotential": "observe",
+      "score": 54,
+      "lane": null,
+      "firstSeenAt": 1784526884576,
+      "lastSeenAt": 1792396995927,
+      "sourceQueries": [
+        "凡人修仙传 法宝 功法 人物"
+      ],
+      "discoveryModes": [
+        "history"
+      ],
+      "riskFlags": [],
+      "policyReason": "内容可收录，但需人工复核分类或风险",
+      "stats": {
+        "play": 13702,
+        "like": 0,
+        "coin": 0,
+        "favorite": 20,
+        "reply": 0,
+        "danmaku": 2
       }
     },
     {
@@ -1257,47 +1257,6 @@
       }
     },
     {
-      "id": "BV1ocs4esEPE",
-      "bvid": "BV1ocs4esEPE",
-      "title": "【凡人修仙传】凡人功法篇之《长春功》：韩立踏入仙途的启蒙功法",
-      "description": "",
-      "cover": "https://i2.hdslb.com/bfs/archive/8323db9f17c7ce3c6e573fe0505bc25c20cf2066.jpg",
-      "url": "http://www.bilibili.com/video/av113033053668765",
-      "upId": "490056685",
-      "upName": "夜半流火",
-      "play": 21080,
-      "pubTime": 1724747695000,
-      "duration": "1:27",
-      "category": "人物志",
-      "confidence": 0.85,
-      "classificationSource": "model",
-      "classificationReason": "围绕凡人修仙传中韩立的启蒙功法《长春功》展开的专题内容",
-      "contentNature": "character_or_lore",
-      "originality": "original",
-      "eventTag": null,
-      "creatorPotential": "observe",
-      "score": 53,
-      "lane": null,
-      "firstSeenAt": 1790585738979,
-      "lastSeenAt": 1793001866080,
-      "sourceQueries": [
-        "凡人修仙传 法宝 功法 人物"
-      ],
-      "discoveryModes": [
-        "history"
-      ],
-      "riskFlags": [],
-      "policyReason": "人物/设定内容不足 3 分钟，需确认不是竖屏剪辑",
-      "stats": {
-        "play": 21080,
-        "like": 0,
-        "coin": 0,
-        "favorite": 68,
-        "reply": 0,
-        "danmaku": 3
-      }
-    },
-    {
       "id": "BV1DASHBeE2X",
       "bvid": "BV1DASHBeE2X",
       "title": "凡人修仙传最新仙侣法宝搭配",
@@ -1382,6 +1341,47 @@
         "favorite": 1601,
         "reply": 0,
         "danmaku": 20
+      }
+    },
+    {
+      "id": "BV1ocs4esEPE",
+      "bvid": "BV1ocs4esEPE",
+      "title": "【凡人修仙传】凡人功法篇之《长春功》：韩立踏入仙途的启蒙功法",
+      "description": "",
+      "cover": "https://i2.hdslb.com/bfs/archive/8323db9f17c7ce3c6e573fe0505bc25c20cf2066.jpg",
+      "url": "http://www.bilibili.com/video/av113033053668765",
+      "upId": "490056685",
+      "upName": "夜半流火",
+      "play": 21080,
+      "pubTime": 1724747695000,
+      "duration": "1:27",
+      "category": "人物志",
+      "confidence": 0.85,
+      "classificationSource": "model",
+      "classificationReason": "围绕凡人修仙传中韩立的启蒙功法《长春功》展开的专题内容",
+      "contentNature": "character_or_lore",
+      "originality": "original",
+      "eventTag": null,
+      "creatorPotential": "observe",
+      "score": 52,
+      "lane": null,
+      "firstSeenAt": 1790585738979,
+      "lastSeenAt": 1793001866080,
+      "sourceQueries": [
+        "凡人修仙传 法宝 功法 人物"
+      ],
+      "discoveryModes": [
+        "history"
+      ],
+      "riskFlags": [],
+      "policyReason": "人物/设定内容不足 3 分钟，需确认不是竖屏剪辑",
+      "stats": {
+        "play": 21080,
+        "like": 0,
+        "coin": 0,
+        "favorite": 68,
+        "reply": 0,
+        "danmaku": 3
       }
     },
     {
@@ -1506,51 +1506,6 @@
         "favorite": 1527,
         "reply": 715,
         "danmaku": 1213
-      }
-    },
-    {
-      "id": "BV1PecLzuErc",
-      "bvid": "BV1PecLzuErc",
-      "title": "Seedance2.0 韩立紫灵宋玉柳玉深夜开一局P2",
-      "description": "未完待续，持续更新中~",
-      "cover": "https://i2.hdslb.com/bfs/archive/e83946b7243557330d22fc5e94a06cad098464b3.jpg",
-      "url": "http://www.bilibili.com/video/av116060854423394",
-      "upId": "642313631",
-      "upName": "TL0U",
-      "play": 66770,
-      "pubTime": 1770948207000,
-      "duration": "0:54",
-      "category": "趣味整活",
-      "confidence": 0.7,
-      "classificationSource": "model",
-      "classificationReason": "以凡人修仙传角色为原型创作的趣味游戏整活内容",
-      "contentNature": "secondary_creation",
-      "originality": "light_edit",
-      "eventTag": null,
-      "creatorPotential": "one_off",
-      "score": 51,
-      "lane": null,
-      "firstSeenAt": 1787542424325,
-      "lastSeenAt": 1793001866080,
-      "sourceQueries": [
-        "凡人修仙传 MMD 同人动画",
-        "凡人修仙传 法宝 功法 人物",
-        "韩立 二创",
-        "凡人修仙传 二创",
-        "凡人修仙传 同人"
-      ],
-      "discoveryModes": [
-        "history"
-      ],
-      "riskFlags": [],
-      "policyReason": "疑似轻度剪辑，需人工确认原创性",
-      "stats": {
-        "play": 66770,
-        "like": 0,
-        "coin": 0,
-        "favorite": 642,
-        "reply": 0,
-        "danmaku": 16
       }
     },
     {
@@ -1761,6 +1716,51 @@
       }
     },
     {
+      "id": "BV1PecLzuErc",
+      "bvid": "BV1PecLzuErc",
+      "title": "Seedance2.0 韩立紫灵宋玉柳玉深夜开一局P2",
+      "description": "未完待续，持续更新中~",
+      "cover": "https://i2.hdslb.com/bfs/archive/e83946b7243557330d22fc5e94a06cad098464b3.jpg",
+      "url": "http://www.bilibili.com/video/av116060854423394",
+      "upId": "642313631",
+      "upName": "TL0U",
+      "play": 66770,
+      "pubTime": 1770948207000,
+      "duration": "0:54",
+      "category": "趣味整活",
+      "confidence": 0.7,
+      "classificationSource": "model",
+      "classificationReason": "以凡人修仙传角色为原型创作的趣味游戏整活内容",
+      "contentNature": "secondary_creation",
+      "originality": "light_edit",
+      "eventTag": null,
+      "creatorPotential": "one_off",
+      "score": 50,
+      "lane": null,
+      "firstSeenAt": 1787542424325,
+      "lastSeenAt": 1793001866080,
+      "sourceQueries": [
+        "凡人修仙传 MMD 同人动画",
+        "凡人修仙传 法宝 功法 人物",
+        "韩立 二创",
+        "凡人修仙传 二创",
+        "凡人修仙传 同人"
+      ],
+      "discoveryModes": [
+        "history"
+      ],
+      "riskFlags": [],
+      "policyReason": "疑似轻度剪辑，需人工确认原创性",
+      "stats": {
+        "play": 66770,
+        "like": 0,
+        "coin": 0,
+        "favorite": 642,
+        "reply": 0,
+        "danmaku": 16
+      }
+    },
+    {
       "id": "BV1qZ4y1C7bb",
       "bvid": "BV1qZ4y1C7bb",
       "title": "【玄阴决】动漫和《凡人修仙传》原著内容补充",
@@ -1894,51 +1894,6 @@
       }
     },
     {
-      "id": "BV1nzEp6SEdw",
-      "bvid": "BV1nzEp6SEdw",
-      "title": "【魔修韩立】元瑶⚡️我要你助我修行",
-      "description": "魔修韩立的日常",
-      "cover": "https://i0.hdslb.com/bfs/archive/3b5c8c86a7a4facc5d229da37bedcbef72131a63.jpg",
-      "url": "http://www.bilibili.com/video/av116705938378357",
-      "upId": "265699334",
-      "upName": "元能风暴",
-      "play": 51095,
-      "pubTime": 1780791497000,
-      "duration": "2:40",
-      "category": "趣味整活",
-      "confidence": 0.75,
-      "classificationSource": "model",
-      "classificationReason": "以凡人修仙传角色魔修韩立为原型创作的趣味整活内容",
-      "contentNature": "secondary_creation",
-      "originality": "light_edit",
-      "eventTag": null,
-      "creatorPotential": "one_off",
-      "score": 49,
-      "lane": null,
-      "firstSeenAt": 1789978229138,
-      "lastSeenAt": 1792396995927,
-      "sourceQueries": [
-        "凡人修仙传 二创",
-        "凡人官方二创大会",
-        "凡人修仙传 MMD 同人动画",
-        "韩立 二创",
-        "凡人修仙传 同人"
-      ],
-      "discoveryModes": [
-        "history"
-      ],
-      "riskFlags": [],
-      "policyReason": "疑似轻度剪辑，需人工确认原创性",
-      "stats": {
-        "play": 51095,
-        "like": 0,
-        "coin": 0,
-        "favorite": 268,
-        "reply": 0,
-        "danmaku": 55
-      }
-    },
-    {
       "id": "BV1Mvb4zLE1V",
       "bvid": "BV1Mvb4zLE1V",
       "title": "《凡人修仙传》温天仁本命法宝天阳鎏金针（尝试画出来轻喷）",
@@ -2002,7 +1957,7 @@
       "score": 49,
       "lane": null,
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1793084006991,
+      "lastSeenAt": 1793119794317,
       "sourceQueries": [
         "凡人修仙传 法宝 功法 人物"
       ],
@@ -2018,6 +1973,51 @@
         "favorite": 5,
         "reply": 0,
         "danmaku": 0
+      }
+    },
+    {
+      "id": "BV1nzEp6SEdw",
+      "bvid": "BV1nzEp6SEdw",
+      "title": "【魔修韩立】元瑶⚡️我要你助我修行",
+      "description": "魔修韩立的日常",
+      "cover": "https://i0.hdslb.com/bfs/archive/3b5c8c86a7a4facc5d229da37bedcbef72131a63.jpg",
+      "url": "http://www.bilibili.com/video/av116705938378357",
+      "upId": "265699334",
+      "upName": "元能风暴",
+      "play": 51095,
+      "pubTime": 1780791497000,
+      "duration": "2:40",
+      "category": "趣味整活",
+      "confidence": 0.75,
+      "classificationSource": "model",
+      "classificationReason": "以凡人修仙传角色魔修韩立为原型创作的趣味整活内容",
+      "contentNature": "secondary_creation",
+      "originality": "light_edit",
+      "eventTag": null,
+      "creatorPotential": "one_off",
+      "score": 48,
+      "lane": null,
+      "firstSeenAt": 1789978229138,
+      "lastSeenAt": 1792396995927,
+      "sourceQueries": [
+        "凡人修仙传 二创",
+        "凡人官方二创大会",
+        "凡人修仙传 MMD 同人动画",
+        "韩立 二创",
+        "凡人修仙传 同人"
+      ],
+      "discoveryModes": [
+        "history"
+      ],
+      "riskFlags": [],
+      "policyReason": "疑似轻度剪辑，需人工确认原创性",
+      "stats": {
+        "play": 51095,
+        "like": 0,
+        "coin": 0,
+        "favorite": 268,
+        "reply": 0,
+        "danmaku": 55
       }
     },
     {
@@ -2128,7 +2128,7 @@
       "score": 48,
       "lane": null,
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1793084006991,
+      "lastSeenAt": 1793119794317,
       "sourceQueries": [
         "凡人修仙传 法宝 功法 人物"
       ],
@@ -2425,7 +2425,7 @@
       "score": 47,
       "lane": null,
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1793084006991,
+      "lastSeenAt": 1793119794317,
       "sourceQueries": [
         "凡人修仙传 混剪 手书"
       ],
@@ -2466,7 +2466,7 @@
       "score": 47,
       "lane": null,
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1793084006991,
+      "lastSeenAt": 1793119794317,
       "sourceQueries": [
         "凡人修仙传 配音 翻唱"
       ],

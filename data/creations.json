@@ -1,5 +1,5 @@
 {
-  "generatedAt": 1793084006991,
+  "generatedAt": 1793119794317,
   "mode": "fresh",
   "taxonomyVersion": 2,
   "policyVersion": 1,
@@ -43,9 +43,9 @@
       "BV1omgx6aEvq",
       "BV1EdcJz6EPN",
       "BV1Mwge6KEze",
-      "BV1RusDz1EwM",
       "BV1QGebziE1r",
       "BV19w4m1X7xU",
+      "BV1RusDz1EwM",
       "BV12MziYDEpZ",
       "BV14KS3YGEk9",
       "BV1jhBTYJE5x",
@@ -141,7 +141,7 @@
       "originality": "deep_adaptation",
       "eventTag": "凡人官方二创大会",
       "creatorPotential": "observe",
-      "score": 80,
+      "score": 81,
       "lane": "archive",
       "firstSeenAt": 1784281357983,
       "lastSeenAt": 1792396995927,
@@ -378,7 +378,7 @@
       "originality": "deep_adaptation",
       "eventTag": null,
       "creatorPotential": "observe",
-      "score": 75,
+      "score": 74,
       "lane": "archive",
       "firstSeenAt": 1791798094018,
       "lastSeenAt": 1791798094018,
@@ -513,7 +513,7 @@
       "score": 66,
       "lane": "archive",
       "firstSeenAt": 1784868982615,
-      "lastSeenAt": 1793084006991,
+      "lastSeenAt": 1793119794317,
       "sourceQueries": [
         "凡人修仙传 二创",
         "凡人官方二创大会",
@@ -592,37 +592,6 @@
       ]
     },
     {
-      "id": "BV1RusDz1EwM",
-      "bvid": "BV1RusDz1EwM",
-      "title": "硬核！韩立一共修炼过多少种功法？其中哪种功法最强？《凡人修仙传》",
-      "description": "配音小姐姐@东姝_",
-      "cover": "https://i1.hdslb.com/bfs/archive/20675eae6dfe3d13982176c5d7a628670d38c096.jpg",
-      "url": "http://www.bilibili.com/video/av115446690940123",
-      "upId": "400732402",
-      "upName": "骚人风希",
-      "play": 154900,
-      "pubTime": 1761577315000,
-      "duration": "10:10",
-      "category": "人物志",
-      "confidence": 0.85,
-      "classificationSource": "model",
-      "classificationReason": "围绕《凡人修仙传》韩立功法的专题内容",
-      "contentNature": "character_or_lore",
-      "originality": "deep_adaptation",
-      "eventTag": null,
-      "creatorPotential": "observe",
-      "score": 64,
-      "lane": "archive",
-      "firstSeenAt": 1791192844647,
-      "lastSeenAt": 1793001866080,
-      "sourceQueries": [
-        "凡人修仙传 法宝 功法 人物"
-      ],
-      "discoveryModes": [
-        "history"
-      ]
-    },
-    {
       "id": "BV1QGebziE1r",
       "bvid": "BV1QGebziE1r",
       "title": "“韩大哥，没有灵根，真的不能成为修仙者吗？——【凡人修仙传】墨彩环专属bgm《归期》翻唱",
@@ -680,6 +649,37 @@
       "lastSeenAt": 1793001866080,
       "sourceQueries": [
         "凡人修仙传 混剪 手书"
+      ],
+      "discoveryModes": [
+        "history"
+      ]
+    },
+    {
+      "id": "BV1RusDz1EwM",
+      "bvid": "BV1RusDz1EwM",
+      "title": "硬核！韩立一共修炼过多少种功法？其中哪种功法最强？《凡人修仙传》",
+      "description": "配音小姐姐@东姝_",
+      "cover": "https://i1.hdslb.com/bfs/archive/20675eae6dfe3d13982176c5d7a628670d38c096.jpg",
+      "url": "http://www.bilibili.com/video/av115446690940123",
+      "upId": "400732402",
+      "upName": "骚人风希",
+      "play": 154900,
+      "pubTime": 1761577315000,
+      "duration": "10:10",
+      "category": "人物志",
+      "confidence": 0.85,
+      "classificationSource": "model",
+      "classificationReason": "围绕《凡人修仙传》韩立功法的专题内容",
+      "contentNature": "character_or_lore",
+      "originality": "deep_adaptation",
+      "eventTag": null,
+      "creatorPotential": "observe",
+      "score": 62,
+      "lane": "archive",
+      "firstSeenAt": 1791192844647,
+      "lastSeenAt": 1793001866080,
+      "sourceQueries": [
+        "凡人修仙传 法宝 功法 人物"
       ],
       "discoveryModes": [
         "history"
