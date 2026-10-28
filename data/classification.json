@@ -1,5 +1,5 @@
 {
-  "generatedAt": 1793119794317,
+  "generatedAt": 1793172042204,
   "taxonomyVersion": 2,
   "promptVersion": 2,
   "model": "doubao-seed-2-0-mini-260428",
@@ -9,7 +9,7 @@
     "total": 0,
     "requests": 0
   },
-  "count": 7365,
+  "count": 7385,
   "items": {
     "BV1khTq6wEfq": {
       "id": "BV1khTq6wEfq",
@@ -130639,6 +130639,366 @@
       "taxonomyVersion": 2,
       "promptVersion": 2,
       "classifiedAt": 1793119794317
+    },
+    "BV17Fxu6sEiQ": {
+      "id": "BV17Fxu6sEiQ",
+      "relevance": "related",
+      "contentNature": "episode_analysis",
+      "creationType": "剧情二创",
+      "originality": "unknown",
+      "eventTag": null,
+      "creatorPotential": "one_off",
+      "confidence": 0.99,
+      "riskFlags": [
+        "episode_analysis"
+      ],
+      "reason": "命中逐集解析、正片、预告或长篇复述硬排除规则",
+      "source": "rule",
+      "taxonomyVersion": 2,
+      "promptVersion": 2,
+      "classifiedAt": 1793172042204
+    },
+    "BV1Pnx56jEt1": {
+      "id": "BV1Pnx56jEt1",
+      "relevance": "weak",
+      "contentNature": "unknown",
+      "creationType": "趣味整活",
+      "originality": "unknown",
+      "eventTag": null,
+      "creatorPotential": "one_off",
+      "confidence": 0.2,
+      "riskFlags": [
+        "uncertain"
+      ],
+      "reason": "模型返回不完整，安全排除：fetch failed",
+      "source": "fallback",
+      "taxonomyVersion": 2,
+      "promptVersion": 2,
+      "classifiedAt": 1793172042204
+    },
+    "BV1jSx36fED9": {
+      "id": "BV1jSx36fED9",
+      "relevance": "weak",
+      "contentNature": "unknown",
+      "creationType": "趣味整活",
+      "originality": "unknown",
+      "eventTag": null,
+      "creatorPotential": "one_off",
+      "confidence": 0.2,
+      "riskFlags": [
+        "uncertain"
+      ],
+      "reason": "模型返回不完整，安全排除：fetch failed",
+      "source": "fallback",
+      "taxonomyVersion": 2,
+      "promptVersion": 2,
+      "classifiedAt": 1793172042204
+    },
+    "BV1aCx568EKQ": {
+      "id": "BV1aCx568EKQ",
+      "relevance": "weak",
+      "contentNature": "unknown",
+      "creationType": "趣味整活",
+      "originality": "unknown",
+      "eventTag": null,
+      "creatorPotential": "one_off",
+      "confidence": 0.2,
+      "riskFlags": [
+        "uncertain"
+      ],
+      "reason": "模型返回不完整，安全排除：fetch failed",
+      "source": "fallback",
+      "taxonomyVersion": 2,
+      "promptVersion": 2,
+      "classifiedAt": 1793172042204
+    },
+    "BV1J3xL63EhC": {
+      "id": "BV1J3xL63EhC",
+      "relevance": "weak",
+      "contentNature": "unknown",
+      "creationType": "趣味整活",
+      "originality": "unknown",
+      "eventTag": null,
+      "creatorPotential": "one_off",
+      "confidence": 0.2,
+      "riskFlags": [
+        "uncertain"
+      ],
+      "reason": "模型返回不完整，安全排除：fetch failed",
+      "source": "fallback",
+      "taxonomyVersion": 2,
+      "promptVersion": 2,
+      "classifiedAt": 1793172042204
+    },
+    "BV1MKHM6oEJk": {
+      "id": "BV1MKHM6oEJk",
+      "relevance": "weak",
+      "contentNature": "unknown",
+      "creationType": "趣味整活",
+      "originality": "unknown",
+      "eventTag": null,
+      "creatorPotential": "one_off",
+      "confidence": 0.2,
+      "riskFlags": [
+        "uncertain"
+      ],
+      "reason": "模型返回不完整，安全排除：fetch failed",
+      "source": "fallback",
+      "taxonomyVersion": 2,
+      "promptVersion": 2,
+      "classifiedAt": 1793172042204
+    },
+    "BV1GHxL6eEHx": {
+      "id": "BV1GHxL6eEHx",
+      "relevance": "weak",
+      "contentNature": "unknown",
+      "creationType": "趣味整活",
+      "originality": "unknown",
+      "eventTag": null,
+      "creatorPotential": "one_off",
+      "confidence": 0.2,
+      "riskFlags": [
+        "uncertain"
+      ],
+      "reason": "模型返回不完整，安全排除：fetch failed",
+      "source": "fallback",
+      "taxonomyVersion": 2,
+      "promptVersion": 2,
+      "classifiedAt": 1793172042204
+    },
+    "BV1ABx36TEJT": {
+      "id": "BV1ABx36TEJT",
+      "relevance": "weak",
+      "contentNature": "unknown",
+      "creationType": "趣味整活",
+      "originality": "unknown",
+      "eventTag": null,
+      "creatorPotential": "one_off",
+      "confidence": 0.2,
+      "riskFlags": [
+        "uncertain"
+      ],
+      "reason": "模型返回不完整，安全排除：fetch failed",
+      "source": "fallback",
+      "taxonomyVersion": 2,
+      "promptVersion": 2,
+      "classifiedAt": 1793172042204
+    },
+    "BV1EGxL66EB7": {
+      "id": "BV1EGxL66EB7",
+      "relevance": "weak",
+      "contentNature": "unknown",
+      "creationType": "趣味整活",
+      "originality": "unknown",
+      "eventTag": null,
+      "creatorPotential": "one_off",
+      "confidence": 0.2,
+      "riskFlags": [
+        "uncertain"
+      ],
+      "reason": "模型返回不完整，安全排除：fetch failed",
+      "source": "fallback",
+      "taxonomyVersion": 2,
+      "promptVersion": 2,
+      "classifiedAt": 1793172042204
+    },
+    "BV1VeJD6DERg": {
+      "id": "BV1VeJD6DERg",
+      "relevance": "weak",
+      "contentNature": "unknown",
+      "creationType": "趣味整活",
+      "originality": "unknown",
+      "eventTag": null,
+      "creatorPotential": "one_off",
+      "confidence": 0.2,
+      "riskFlags": [
+        "uncertain"
+      ],
+      "reason": "模型返回不完整，安全排除：fetch failed",
+      "source": "fallback",
+      "taxonomyVersion": 2,
+      "promptVersion": 2,
+      "classifiedAt": 1793172042204
+    },
+    "BV1mPxg66EY7": {
+      "id": "BV1mPxg66EY7",
+      "relevance": "weak",
+      "contentNature": "unknown",
+      "creationType": "趣味整活",
+      "originality": "unknown",
+      "eventTag": null,
+      "creatorPotential": "one_off",
+      "confidence": 0.2,
+      "riskFlags": [
+        "uncertain"
+      ],
+      "reason": "模型返回不完整，安全排除：fetch failed",
+      "source": "fallback",
+      "taxonomyVersion": 2,
+      "promptVersion": 2,
+      "classifiedAt": 1793172042204
+    },
+    "BV1knxG6qENh": {
+      "id": "BV1knxG6qENh",
+      "relevance": "weak",
+      "contentNature": "unknown",
+      "creationType": "同人创作",
+      "originality": "unknown",
+      "eventTag": null,
+      "creatorPotential": "one_off",
+      "confidence": 0.2,
+      "riskFlags": [
+        "uncertain"
+      ],
+      "reason": "模型返回不完整，安全排除：fetch failed",
+      "source": "fallback",
+      "taxonomyVersion": 2,
+      "promptVersion": 2,
+      "classifiedAt": 1793172042204
+    },
+    "BV1Pax363ENX": {
+      "id": "BV1Pax363ENX",
+      "relevance": "weak",
+      "contentNature": "unknown",
+      "creationType": "趣味整活",
+      "originality": "unknown",
+      "eventTag": null,
+      "creatorPotential": "one_off",
+      "confidence": 0.2,
+      "riskFlags": [
+        "uncertain"
+      ],
+      "reason": "模型返回不完整，安全排除：fetch failed",
+      "source": "fallback",
+      "taxonomyVersion": 2,
+      "promptVersion": 2,
+      "classifiedAt": 1793172042204
+    },
+    "BV1M4xV6pE52": {
+      "id": "BV1M4xV6pE52",
+      "relevance": "weak",
+      "contentNature": "unknown",
+      "creationType": "趣味整活",
+      "originality": "unknown",
+      "eventTag": null,
+      "creatorPotential": "one_off",
+      "confidence": 0.2,
+      "riskFlags": [
+        "uncertain"
+      ],
+      "reason": "模型返回不完整，安全排除：fetch failed",
+      "source": "fallback",
+      "taxonomyVersion": 2,
+      "promptVersion": 2,
+      "classifiedAt": 1793172042204
+    },
+    "BV1acx56FEmZ": {
+      "id": "BV1acx56FEmZ",
+      "relevance": "weak",
+      "contentNature": "unknown",
+      "creationType": "趣味整活",
+      "originality": "unknown",
+      "eventTag": null,
+      "creatorPotential": "one_off",
+      "confidence": 0.2,
+      "riskFlags": [
+        "uncertain"
+      ],
+      "reason": "模型返回不完整，安全排除：fetch failed",
+      "source": "fallback",
+      "taxonomyVersion": 2,
+      "promptVersion": 2,
+      "classifiedAt": 1793172042204
+    },
+    "BV1ywxK6xEsU": {
+      "id": "BV1ywxK6xEsU",
+      "relevance": "weak",
+      "contentNature": "unknown",
+      "creationType": "人物志",
+      "originality": "unknown",
+      "eventTag": null,
+      "creatorPotential": "one_off",
+      "confidence": 0.2,
+      "riskFlags": [
+        "uncertain"
+      ],
+      "reason": "模型返回不完整，安全排除：fetch failed",
+      "source": "fallback",
+      "taxonomyVersion": 2,
+      "promptVersion": 2,
+      "classifiedAt": 1793172042204
+    },
+    "BV1yJxj69EPy": {
+      "id": "BV1yJxj69EPy",
+      "relevance": "weak",
+      "contentNature": "unknown",
+      "creationType": "趣味整活",
+      "originality": "unknown",
+      "eventTag": null,
+      "creatorPotential": "one_off",
+      "confidence": 0.2,
+      "riskFlags": [
+        "uncertain"
+      ],
+      "reason": "模型返回不完整，安全排除：fetch failed",
+      "source": "fallback",
+      "taxonomyVersion": 2,
+      "promptVersion": 2,
+      "classifiedAt": 1793172042204
+    },
+    "BV1BbxG6wE24": {
+      "id": "BV1BbxG6wE24",
+      "relevance": "weak",
+      "contentNature": "unknown",
+      "creationType": "趣味整活",
+      "originality": "unknown",
+      "eventTag": null,
+      "creatorPotential": "one_off",
+      "confidence": 0.2,
+      "riskFlags": [
+        "uncertain"
+      ],
+      "reason": "模型返回不完整，安全排除：fetch failed",
+      "source": "fallback",
+      "taxonomyVersion": 2,
+      "promptVersion": 2,
+      "classifiedAt": 1793172042204
+    },
+    "BV13Kx56dEct": {
+      "id": "BV13Kx56dEct",
+      "relevance": "weak",
+      "contentNature": "unknown",
+      "creationType": "趣味整活",
+      "originality": "unknown",
+      "eventTag": null,
+      "creatorPotential": "one_off",
+      "confidence": 0.2,
+      "riskFlags": [
+        "uncertain"
+      ],
+      "reason": "模型返回不完整，安全排除：fetch failed",
+      "source": "fallback",
+      "taxonomyVersion": 2,
+      "promptVersion": 2,
+      "classifiedAt": 1793172042204
+    },
+    "BV1pAx76sEfN": {
+      "id": "BV1pAx76sEfN",
+      "relevance": "weak",
+      "contentNature": "unknown",
+      "creationType": "趣味整活",
+      "originality": "unknown",
+      "eventTag": null,
+      "creatorPotential": "one_off",
+      "confidence": 0.2,
+      "riskFlags": [
+        "uncertain"
+      ],
+      "reason": "模型返回不完整，安全排除：fetch failed",
+      "source": "fallback",
+      "taxonomyVersion": 2,
+      "promptVersion": 2,
+      "classifiedAt": 1793172042204
     }
   }
 }
