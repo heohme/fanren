@@ -1,5 +1,5 @@
 {
-  "generatedAt": 1793463446835,
+  "generatedAt": 1793520320398,
   "mode": "fresh",
   "taxonomyVersion": 2,
   "policyVersion": 1,
@@ -23,16 +23,16 @@
       "BV12eE16HEAa",
       "BV1ffMM6VEb2",
       "BV1gGinBaE1z",
-      "BV1ksGu6cEdY",
       "BV1gjEr6EErF",
+      "BV1ksGu6cEdY",
       "BV1G2CrBLEo9",
       "BV1fJr3BYExB",
       "BV1omgx6aEvq",
       "BV1EdcJz6EPN",
       "BV1QGebziE1r",
       "BV19w4m1X7xU",
-      "BV12MziYDEpZ",
       "BV1RusDz1EwM",
+      "BV12MziYDEpZ",
       "BV14KS3YGEk9",
       "BV1jhBTYJE5x",
       "BV1nZ4y1r79E"
@@ -1011,7 +1011,7 @@
       "score": 55,
       "lane": null,
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1793463446835,
+      "lastSeenAt": 1793520320398,
       "sourceQueries": [
         "凡人修仙传 MMD 同人动画"
       ],
@@ -1500,46 +1500,54 @@
       }
     },
     {
-      "id": "BV1um3Y6zEea",
-      "bvid": "BV1um3Y6zEea",
-      "title": "蝉儿偷偷的看什么呢？【凡人官方二创大会】",
-      "description": "本视频由updream制作",
-      "cover": "https://i1.hdslb.com/bfs/archive/607edb80cf751854adf03dffc9d49cc6d9e67079.jpg",
-      "url": "http://www.bilibili.com/video/av116995899002934",
-      "upId": "2016166",
-      "upName": "l战兔",
-      "play": 4185,
-      "pubTime": 1785215821000,
-      "duration": "1:51",
-      "category": "趣味整活",
-      "confidence": 0.85,
+      "id": "BV1hsY6zPECn",
+      "bvid": "BV1hsY6zPECn",
+      "title": "得吃紫灵 | 韩立元婴心魔 | 超写实3D|凡人修仙传",
+      "description": "-",
+      "cover": "https://i0.hdslb.com/bfs/archive/a44081aef8ebc67f53fe9372be3e05a1cc96104b.jpg",
+      "url": "http://www.bilibili.com/video/av115041370113675",
+      "upId": "396007926",
+      "upName": "制理Ai",
+      "play": 123724,
+      "pubTime": 1755392218000,
+      "duration": "0:11",
+      "category": "同人创作",
+      "confidence": 0.75,
       "classificationSource": "model",
-      "classificationReason": "参与凡人官方二创大会的蝉儿相关趣味二创内容",
+      "classificationReason": "围绕凡人修仙传韩立心魔的超写实3D创作，属于同人创作",
       "contentNature": "secondary_creation",
       "originality": "light_edit",
-      "eventTag": "凡人官方二创大会",
+      "eventTag": null,
       "creatorPotential": "observe",
-      "score": 51,
+      "score": 50,
       "lane": null,
-      "firstSeenAt": 1785244584356,
-      "lastSeenAt": 1792247312109,
+      "firstSeenAt": 1784281357983,
+      "lastSeenAt": 1793001866080,
       "sourceQueries": [
+        "legacy-published",
+        "凡人修仙传 二创",
+        "凡人修仙传 MMD 同人动画",
+        "韩立 二创",
+        "南宫婉 二创",
+        "凡人修仙传 小剧场",
+        "凡人修仙传 同人",
+        "凡人修仙传 混剪 手书",
+        "凡人修仙传 法宝 功法 人物",
         "凡人官方二创大会",
-        "凡人修仙传 鬼畜 整活",
-        "韩立 二创"
+        "凡人修仙传 鬼畜 整活"
       ],
       "discoveryModes": [
-        "fresh"
+        "history"
       ],
       "riskFlags": [],
       "policyReason": "疑似轻度剪辑，需人工确认原创性",
       "stats": {
-        "play": 4185,
-        "like": 111,
-        "coin": 8,
-        "favorite": 16,
-        "reply": 6,
-        "danmaku": 9
+        "play": 123724,
+        "like": 2215,
+        "coin": 156,
+        "favorite": 2859,
+        "reply": 92,
+        "danmaku": 12
       }
     },
     {
@@ -1711,54 +1719,46 @@
       }
     },
     {
-      "id": "BV1hsY6zPECn",
-      "bvid": "BV1hsY6zPECn",
-      "title": "得吃紫灵 | 韩立元婴心魔 | 超写实3D|凡人修仙传",
-      "description": "-",
-      "cover": "https://i0.hdslb.com/bfs/archive/a44081aef8ebc67f53fe9372be3e05a1cc96104b.jpg",
-      "url": "http://www.bilibili.com/video/av115041370113675",
-      "upId": "396007926",
-      "upName": "制理Ai",
-      "play": 123724,
-      "pubTime": 1755392218000,
-      "duration": "0:11",
-      "category": "同人创作",
-      "confidence": 0.75,
+      "id": "BV1um3Y6zEea",
+      "bvid": "BV1um3Y6zEea",
+      "title": "蝉儿偷偷的看什么呢？【凡人官方二创大会】",
+      "description": "本视频由updream制作",
+      "cover": "https://i1.hdslb.com/bfs/archive/607edb80cf751854adf03dffc9d49cc6d9e67079.jpg",
+      "url": "http://www.bilibili.com/video/av116995899002934",
+      "upId": "2016166",
+      "upName": "l战兔",
+      "play": 4185,
+      "pubTime": 1785215821000,
+      "duration": "1:51",
+      "category": "趣味整活",
+      "confidence": 0.85,
       "classificationSource": "model",
-      "classificationReason": "围绕凡人修仙传韩立心魔的超写实3D创作，属于同人创作",
+      "classificationReason": "参与凡人官方二创大会的蝉儿相关趣味二创内容",
       "contentNature": "secondary_creation",
       "originality": "light_edit",
-      "eventTag": null,
+      "eventTag": "凡人官方二创大会",
       "creatorPotential": "observe",
-      "score": 49,
+      "score": 50,
       "lane": null,
-      "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1793001866080,
+      "firstSeenAt": 1785244584356,
+      "lastSeenAt": 1792247312109,
       "sourceQueries": [
-        "legacy-published",
-        "凡人修仙传 二创",
-        "凡人修仙传 MMD 同人动画",
-        "韩立 二创",
-        "南宫婉 二创",
-        "凡人修仙传 小剧场",
-        "凡人修仙传 同人",
-        "凡人修仙传 混剪 手书",
-        "凡人修仙传 法宝 功法 人物",
         "凡人官方二创大会",
-        "凡人修仙传 鬼畜 整活"
+        "凡人修仙传 鬼畜 整活",
+        "韩立 二创"
       ],
       "discoveryModes": [
-        "history"
+        "fresh"
       ],
       "riskFlags": [],
       "policyReason": "疑似轻度剪辑，需人工确认原创性",
       "stats": {
-        "play": 123724,
-        "like": 2215,
-        "coin": 156,
-        "favorite": 2859,
-        "reply": 92,
-        "danmaku": 12
+        "play": 4185,
+        "like": 111,
+        "coin": 8,
+        "favorite": 16,
+        "reply": 6,
+        "danmaku": 9
       }
     },
     {
@@ -1955,7 +1955,7 @@
       "score": 48,
       "lane": null,
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1793463446835,
+      "lastSeenAt": 1793520320398,
       "sourceQueries": [
         "凡人修仙传 法宝 功法 人物"
       ],
@@ -2079,7 +2079,7 @@
       "score": 47,
       "lane": null,
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1793463446835,
+      "lastSeenAt": 1793520320398,
       "sourceQueries": [
         "凡人修仙传 法宝 功法 人物"
       ],
@@ -2093,47 +2093,6 @@
         "like": 0,
         "coin": 0,
         "favorite": 4,
-        "reply": 0,
-        "danmaku": 0
-      }
-    },
-    {
-      "id": "BV1ATQzBkEwV",
-      "bvid": "BV1ATQzBkEwV",
-      "title": "凡人修仙传里的昆吾三老，这三位在书里属于那种哥已不在江湖，但江湖永远有哥的传说",
-      "description": "-",
-      "cover": "https://i2.hdslb.com/bfs/archive/6ba5b1d3b425ed675b139fc64c9b22ca16a774f8.jpg",
-      "url": "http://www.bilibili.com/video/av116283370640478",
-      "upId": "1624719374",
-      "upName": "青梅说剧o",
-      "play": 908,
-      "pubTime": 1774344372000,
-      "duration": "4:37",
-      "category": "人物志",
-      "confidence": 0.9,
-      "classificationSource": "model",
-      "classificationReason": "凡人修仙传昆吾三老专题，属于人物相关的内容",
-      "contentNature": "character_or_lore",
-      "originality": "deep_adaptation",
-      "eventTag": null,
-      "creatorPotential": "observe",
-      "score": 47,
-      "lane": null,
-      "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1793463446835,
-      "sourceQueries": [
-        "凡人修仙传 混剪 手书"
-      ],
-      "discoveryModes": [
-        "fresh"
-      ],
-      "riskFlags": [],
-      "policyReason": "内容可收录，但需人工复核分类或风险",
-      "stats": {
-        "play": 908,
-        "like": 0,
-        "coin": 0,
-        "favorite": 3,
         "reply": 0,
         "danmaku": 0
       }
@@ -2161,7 +2120,7 @@
       "score": 47,
       "lane": null,
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1793463446835,
+      "lastSeenAt": 1793520320398,
       "sourceQueries": [
         "凡人修仙传 配音 翻唱"
       ],
@@ -2393,6 +2352,47 @@
         "favorite": 12,
         "reply": 0,
         "danmaku": 15
+      }
+    },
+    {
+      "id": "BV1ATQzBkEwV",
+      "bvid": "BV1ATQzBkEwV",
+      "title": "凡人修仙传里的昆吾三老，这三位在书里属于那种哥已不在江湖，但江湖永远有哥的传说",
+      "description": "-",
+      "cover": "https://i2.hdslb.com/bfs/archive/6ba5b1d3b425ed675b139fc64c9b22ca16a774f8.jpg",
+      "url": "http://www.bilibili.com/video/av116283370640478",
+      "upId": "1624719374",
+      "upName": "青梅说剧o",
+      "play": 909,
+      "pubTime": 1774344372000,
+      "duration": "4:37",
+      "category": "人物志",
+      "confidence": 0.9,
+      "classificationSource": "model",
+      "classificationReason": "凡人修仙传昆吾三老专题，属于人物相关的内容",
+      "contentNature": "character_or_lore",
+      "originality": "deep_adaptation",
+      "eventTag": null,
+      "creatorPotential": "observe",
+      "score": 46,
+      "lane": null,
+      "firstSeenAt": 1784281357983,
+      "lastSeenAt": 1793520320398,
+      "sourceQueries": [
+        "凡人修仙传 混剪 手书"
+      ],
+      "discoveryModes": [
+        "fresh"
+      ],
+      "riskFlags": [],
+      "policyReason": "内容可收录，但需人工复核分类或风险",
+      "stats": {
+        "play": 909,
+        "like": 0,
+        "coin": 0,
+        "favorite": 3,
+        "reply": 0,
+        "danmaku": 0
       }
     },
     {
