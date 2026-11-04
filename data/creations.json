@@ -1,5 +1,5 @@
 {
-  "generatedAt": 1793731104660,
+  "generatedAt": 1793779307232,
   "mode": "fresh",
   "taxonomyVersion": 2,
   "policyVersion": 1,
@@ -43,8 +43,8 @@
       "BV1V9AUzHEzJ",
       "BV19w4m1X7xU",
       "BV1PLSwYLEqX",
-      "BV1RusDz1EwM",
       "BV14KS3YGEk9",
+      "BV1RusDz1EwM",
       "BV1jhBTYJE5x",
       "BV12MziYDEpZ",
       "BV1nZ4y1r79E"
@@ -412,7 +412,7 @@
       "originality": "deep_adaptation",
       "eventTag": null,
       "creatorPotential": "recommend",
-      "score": 68,
+      "score": 69,
       "lane": "archive",
       "firstSeenAt": 1784281357983,
       "lastSeenAt": 1793613221173,
@@ -478,7 +478,7 @@
       "score": 65,
       "lane": "archive",
       "firstSeenAt": 1784868982615,
-      "lastSeenAt": 1793731104660,
+      "lastSeenAt": 1793779307232,
       "sourceQueries": [
         "凡人修仙传 二创",
         "凡人官方二创大会",
@@ -616,6 +616,38 @@
       ]
     },
     {
+      "id": "BV14KS3YGEk9",
+      "bvid": "BV14KS3YGEk9",
+      "title": "归期未有期【凡人修仙传手书/动画】",
+      "description": "人生如棋，落子无悔。\n修仙路远，一别两宽。",
+      "cover": "https://i1.hdslb.com/bfs/archive/bef4037556e57d02b10ba8ea921826cd265faab0.jpg",
+      "url": "http://www.bilibili.com/video/av113396313755549",
+      "upId": "23339444",
+      "upName": "酒碗酒碗",
+      "play": 70131,
+      "pubTime": 1730290691000,
+      "duration": "1:24",
+      "category": "混剪手书",
+      "confidence": 0.9,
+      "classificationSource": "model",
+      "classificationReason": "凡人修仙传主题的自制手书二次创作",
+      "contentNature": "secondary_creation",
+      "originality": "deep_adaptation",
+      "eventTag": null,
+      "creatorPotential": "recommend",
+      "score": 62,
+      "lane": "archive",
+      "firstSeenAt": 1784281357983,
+      "lastSeenAt": 1793613221173,
+      "sourceQueries": [
+        "legacy-published",
+        "凡人修仙传 混剪 手书"
+      ],
+      "discoveryModes": [
+        "history"
+      ]
+    },
+    {
       "id": "BV1RusDz1EwM",
       "bvid": "BV1RusDz1EwM",
       "title": "硬核！韩立一共修炼过多少种功法？其中哪种功法最强？《凡人修仙传》",
@@ -641,38 +673,6 @@
       "lastSeenAt": 1793001866080,
       "sourceQueries": [
         "凡人修仙传 法宝 功法 人物"
-      ],
-      "discoveryModes": [
-        "history"
-      ]
-    },
-    {
-      "id": "BV14KS3YGEk9",
-      "bvid": "BV14KS3YGEk9",
-      "title": "归期未有期【凡人修仙传手书/动画】",
-      "description": "人生如棋，落子无悔。\n修仙路远，一别两宽。",
-      "cover": "https://i1.hdslb.com/bfs/archive/bef4037556e57d02b10ba8ea921826cd265faab0.jpg",
-      "url": "http://www.bilibili.com/video/av113396313755549",
-      "upId": "23339444",
-      "upName": "酒碗酒碗",
-      "play": 70131,
-      "pubTime": 1730290691000,
-      "duration": "1:24",
-      "category": "混剪手书",
-      "confidence": 0.9,
-      "classificationSource": "model",
-      "classificationReason": "凡人修仙传主题的自制手书二次创作",
-      "contentNature": "secondary_creation",
-      "originality": "deep_adaptation",
-      "eventTag": null,
-      "creatorPotential": "recommend",
-      "score": 61,
-      "lane": "archive",
-      "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1793613221173,
-      "sourceQueries": [
-        "legacy-published",
-        "凡人修仙传 混剪 手书"
       ],
       "discoveryModes": [
         "history"
