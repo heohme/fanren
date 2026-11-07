@@ -1,5 +1,5 @@
 {
-  "generatedAt": 1793989377929,
+  "generatedAt": 1794037687447,
   "mode": "fresh",
   "taxonomyVersion": 2,
   "policyVersion": 1,
@@ -43,8 +43,8 @@
       "BV1V9AUzHEzJ",
       "BV19w4m1X7xU",
       "BV1PLSwYLEqX",
-      "BV1RusDz1EwM",
       "BV14KS3YGEk9",
+      "BV1RusDz1EwM",
       "BV1jhBTYJE5x",
       "BV12MziYDEpZ",
       "BV1nZ4y1r79E"
@@ -464,7 +464,7 @@
       "url": "http://www.bilibili.com/video/av116969844049975",
       "upId": "213938643",
       "upName": "陌筱晨丶",
-      "play": 4889,
+      "play": 4890,
       "pubTime": 1784818254000,
       "duration": "1:58",
       "category": "混剪手书",
@@ -478,7 +478,7 @@
       "score": 65,
       "lane": "archive",
       "firstSeenAt": 1784868982615,
-      "lastSeenAt": 1793989377929,
+      "lastSeenAt": 1794037687447,
       "sourceQueries": [
         "凡人修仙传 二创",
         "凡人官方二创大会",
@@ -616,37 +616,6 @@
       ]
     },
     {
-      "id": "BV1RusDz1EwM",
-      "bvid": "BV1RusDz1EwM",
-      "title": "硬核！韩立一共修炼过多少种功法？其中哪种功法最强？《凡人修仙传》",
-      "description": "配音小姐姐@东姝_",
-      "cover": "https://i1.hdslb.com/bfs/archive/20675eae6dfe3d13982176c5d7a628670d38c096.jpg",
-      "url": "http://www.bilibili.com/video/av115446690940123",
-      "upId": "400732402",
-      "upName": "骚人风希",
-      "play": 154900,
-      "pubTime": 1761577315000,
-      "duration": "10:10",
-      "category": "人物志",
-      "confidence": 0.85,
-      "classificationSource": "model",
-      "classificationReason": "围绕《凡人修仙传》韩立功法的专题内容",
-      "contentNature": "character_or_lore",
-      "originality": "deep_adaptation",
-      "eventTag": null,
-      "creatorPotential": "observe",
-      "score": 62,
-      "lane": "archive",
-      "firstSeenAt": 1791192844647,
-      "lastSeenAt": 1793001866080,
-      "sourceQueries": [
-        "凡人修仙传 法宝 功法 人物"
-      ],
-      "discoveryModes": [
-        "history"
-      ]
-    },
-    {
       "id": "BV14KS3YGEk9",
       "bvid": "BV14KS3YGEk9",
       "title": "归期未有期【凡人修仙传手书/动画】",
@@ -673,6 +642,37 @@
       "sourceQueries": [
         "legacy-published",
         "凡人修仙传 混剪 手书"
+      ],
+      "discoveryModes": [
+        "history"
+      ]
+    },
+    {
+      "id": "BV1RusDz1EwM",
+      "bvid": "BV1RusDz1EwM",
+      "title": "硬核！韩立一共修炼过多少种功法？其中哪种功法最强？《凡人修仙传》",
+      "description": "配音小姐姐@东姝_",
+      "cover": "https://i1.hdslb.com/bfs/archive/20675eae6dfe3d13982176c5d7a628670d38c096.jpg",
+      "url": "http://www.bilibili.com/video/av115446690940123",
+      "upId": "400732402",
+      "upName": "骚人风希",
+      "play": 154900,
+      "pubTime": 1761577315000,
+      "duration": "10:10",
+      "category": "人物志",
+      "confidence": 0.85,
+      "classificationSource": "model",
+      "classificationReason": "围绕《凡人修仙传》韩立功法的专题内容",
+      "contentNature": "character_or_lore",
+      "originality": "deep_adaptation",
+      "eventTag": null,
+      "creatorPotential": "observe",
+      "score": 61,
+      "lane": "archive",
+      "firstSeenAt": 1791192844647,
+      "lastSeenAt": 1793001866080,
+      "sourceQueries": [
+        "凡人修仙传 法宝 功法 人物"
       ],
       "discoveryModes": [
         "history"
