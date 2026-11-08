@@ -1,5 +1,5 @@
 {
-  "generatedAt": 1794070724555,
+  "generatedAt": 1794124529872,
   "mode": "fresh",
   "taxonomyVersion": 2,
   "policyVersion": 1,
@@ -16,8 +16,8 @@
     "new_creator_watch": [],
     "archive": [
       "BV1LcKS67Efe",
-      "BV1f1Kd66EQE",
       "BV1HFGK6DEqq",
+      "BV1f1Kd66EQE",
       "BV1XMG36SEqX",
       "BV19b7p6YESX",
       "BV12eE16HEAa",
@@ -1134,7 +1134,7 @@
       "score": 55,
       "lane": null,
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1794070724555,
+      "lastSeenAt": 1794124529872,
       "sourceQueries": [
         "凡人修仙传 MMD 同人动画"
       ],
@@ -1381,7 +1381,7 @@
       "score": 53,
       "lane": null,
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1794070724555,
+      "lastSeenAt": 1794124529872,
       "sourceQueries": [
         "凡人修仙传 法宝 功法 人物"
       ],
@@ -2282,7 +2282,7 @@
       "score": 48,
       "lane": null,
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1794070724555,
+      "lastSeenAt": 1794124529872,
       "sourceQueries": [
         "凡人修仙传 法宝 功法 人物"
       ],
@@ -2408,7 +2408,7 @@
       "score": 47,
       "lane": null,
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1794070724555,
+      "lastSeenAt": 1794124529872,
       "sourceQueries": [
         "凡人修仙传 配音 翻唱"
       ],
@@ -2510,6 +2510,47 @@
       }
     },
     {
+      "id": "BV1neF7eCEU3",
+      "bvid": "BV1neF7eCEU3",
+      "title": "凡人修仙传-文思月人物志",
+      "description": "凡人修仙传-文思月人物志\n200多年的经历，造就了怎么样的一个她？",
+      "cover": "https://i2.hdslb.com/bfs/archive/f7cba06619658c6c4d8ac406dbf201e4bd1f5a41.jpg",
+      "url": "http://www.bilibili.com/video/av113917615410074",
+      "upId": "522628429",
+      "upName": "楚江看动漫",
+      "play": 4512,
+      "pubTime": 1738245661000,
+      "duration": "4:39",
+      "category": "人物志",
+      "confidence": 0.9,
+      "classificationSource": "model",
+      "classificationReason": "《凡人修仙传》文思月人物志专题内容，围绕角色生平展开",
+      "contentNature": "character_or_lore",
+      "originality": "deep_adaptation",
+      "eventTag": null,
+      "creatorPotential": "recommend",
+      "score": 46,
+      "lane": null,
+      "firstSeenAt": 1793001866080,
+      "lastSeenAt": 1793001866080,
+      "sourceQueries": [
+        "凡人修仙传 人物志 设定"
+      ],
+      "discoveryModes": [
+        "history"
+      ],
+      "riskFlags": [],
+      "policyReason": "内容可收录，但需人工复核分类或风险",
+      "stats": {
+        "play": 4512,
+        "like": 0,
+        "coin": 0,
+        "favorite": 14,
+        "reply": 0,
+        "danmaku": 20
+      }
+    },
+    {
       "id": "BV1QAMA6jEEZ",
       "bvid": "BV1QAMA6jEEZ",
       "title": "把180集韩立南宫婉对视时的黑屏延迟几秒钟看看会发生什么，满足一下好奇心-凡人修仙传",
@@ -2552,6 +2593,47 @@
         "favorite": 53,
         "reply": 0,
         "danmaku": 0
+      }
+    },
+    {
+      "id": "BV11SdmBSEVg",
+      "bvid": "BV11SdmBSEVg",
+      "title": "韩立台词纯享（第一弹）",
+      "description": "",
+      "cover": "https://i0.hdslb.com/bfs/archive/1849ad90eaf069e9df4ac4f14d8b7ea6d2b0cabb.jpg",
+      "url": "http://www.bilibili.com/video/av116441328191159",
+      "upId": "21029426",
+      "upName": "栗栗子的掌天瓶",
+      "play": 2304,
+      "pubTime": 1776753860000,
+      "duration": "18:34",
+      "category": "音乐配音",
+      "confidence": 0.7,
+      "classificationSource": "model",
+      "classificationReason": "《凡人修仙传》韩立台词的纯享剪辑内容",
+      "contentNature": "secondary_creation",
+      "originality": "light_edit",
+      "eventTag": null,
+      "creatorPotential": "one_off",
+      "score": 46,
+      "lane": null,
+      "firstSeenAt": 1789373108084,
+      "lastSeenAt": 1793001866080,
+      "sourceQueries": [
+        "凡人修仙传 配音 翻唱"
+      ],
+      "discoveryModes": [
+        "history"
+      ],
+      "riskFlags": [],
+      "policyReason": "疑似轻度剪辑，需人工确认原创性",
+      "stats": {
+        "play": 2304,
+        "like": 0,
+        "coin": 0,
+        "favorite": 66,
+        "reply": 0,
+        "danmaku": 20
       }
     },
     {
@@ -2606,7 +2688,7 @@
       "url": "http://www.bilibili.com/video/av116283370640478",
       "upId": "1624719374",
       "upName": "青梅说剧o",
-      "play": 910,
+      "play": 911,
       "pubTime": 1774344372000,
       "duration": "4:37",
       "category": "人物志",
@@ -2620,7 +2702,7 @@
       "score": 46,
       "lane": null,
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1794070724555,
+      "lastSeenAt": 1794124529872,
       "sourceQueries": [
         "凡人修仙传 混剪 手书"
       ],
@@ -2630,7 +2712,7 @@
       "riskFlags": [],
       "policyReason": "内容可收录，但需人工复核分类或风险",
       "stats": {
-        "play": 910,
+        "play": 911,
         "like": 0,
         "coin": 0,
         "favorite": 3,
@@ -2677,88 +2759,6 @@
         "favorite": 1429,
         "reply": 189,
         "danmaku": 184
-      }
-    },
-    {
-      "id": "BV1neF7eCEU3",
-      "bvid": "BV1neF7eCEU3",
-      "title": "凡人修仙传-文思月人物志",
-      "description": "凡人修仙传-文思月人物志\n200多年的经历，造就了怎么样的一个她？",
-      "cover": "https://i2.hdslb.com/bfs/archive/f7cba06619658c6c4d8ac406dbf201e4bd1f5a41.jpg",
-      "url": "http://www.bilibili.com/video/av113917615410074",
-      "upId": "522628429",
-      "upName": "楚江看动漫",
-      "play": 4512,
-      "pubTime": 1738245661000,
-      "duration": "4:39",
-      "category": "人物志",
-      "confidence": 0.9,
-      "classificationSource": "model",
-      "classificationReason": "《凡人修仙传》文思月人物志专题内容，围绕角色生平展开",
-      "contentNature": "character_or_lore",
-      "originality": "deep_adaptation",
-      "eventTag": null,
-      "creatorPotential": "recommend",
-      "score": 45,
-      "lane": null,
-      "firstSeenAt": 1793001866080,
-      "lastSeenAt": 1793001866080,
-      "sourceQueries": [
-        "凡人修仙传 人物志 设定"
-      ],
-      "discoveryModes": [
-        "history"
-      ],
-      "riskFlags": [],
-      "policyReason": "内容可收录，但需人工复核分类或风险",
-      "stats": {
-        "play": 4512,
-        "like": 0,
-        "coin": 0,
-        "favorite": 14,
-        "reply": 0,
-        "danmaku": 20
-      }
-    },
-    {
-      "id": "BV11SdmBSEVg",
-      "bvid": "BV11SdmBSEVg",
-      "title": "韩立台词纯享（第一弹）",
-      "description": "",
-      "cover": "https://i0.hdslb.com/bfs/archive/1849ad90eaf069e9df4ac4f14d8b7ea6d2b0cabb.jpg",
-      "url": "http://www.bilibili.com/video/av116441328191159",
-      "upId": "21029426",
-      "upName": "栗栗子的掌天瓶",
-      "play": 2304,
-      "pubTime": 1776753860000,
-      "duration": "18:34",
-      "category": "音乐配音",
-      "confidence": 0.7,
-      "classificationSource": "model",
-      "classificationReason": "《凡人修仙传》韩立台词的纯享剪辑内容",
-      "contentNature": "secondary_creation",
-      "originality": "light_edit",
-      "eventTag": null,
-      "creatorPotential": "one_off",
-      "score": 45,
-      "lane": null,
-      "firstSeenAt": 1789373108084,
-      "lastSeenAt": 1793001866080,
-      "sourceQueries": [
-        "凡人修仙传 配音 翻唱"
-      ],
-      "discoveryModes": [
-        "history"
-      ],
-      "riskFlags": [],
-      "policyReason": "疑似轻度剪辑，需人工确认原创性",
-      "stats": {
-        "play": 2304,
-        "like": 0,
-        "coin": 0,
-        "favorite": 66,
-        "reply": 0,
-        "danmaku": 20
       }
     },
     {
