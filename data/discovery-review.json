@@ -1,13 +1,13 @@
 {
-  "generatedAt": 1794158354920,
+  "generatedAt": 1794213838903,
   "mode": "fresh",
   "taxonomyVersion": 2,
   "policyVersion": 1,
   "summary": {
     "total": 2000,
     "approved": 22,
-    "review": 65,
-    "rejected": 1913
+    "review": 66,
+    "rejected": 1912
   },
   "lanes": {
     "event_spotlight": [],
@@ -815,54 +815,6 @@
       }
     },
     {
-      "id": "BV1qGELzNETu",
-      "bvid": "BV1qGELzNETu",
-      "title": "小作坊出品:  韩哥哥，你是第一次嘛？",
-      "description": "韩立，这么漂亮的妹子不娶回家，你修的是什么道？                (更多精彩漫改，请关注我哦！)",
-      "cover": "https://i0.hdslb.com/bfs/archive/dc0d6b5d45ce10b0641848dd4067e93db9e28701.jpg",
-      "url": "http://www.bilibili.com/video/av114492654492876",
-      "upId": "1472224688",
-      "upName": "萱美琳",
-      "play": 31750,
-      "pubTime": 1747045817000,
-      "duration": "2:12",
-      "category": "同人创作",
-      "confidence": 0.75,
-      "classificationSource": "model",
-      "classificationReason": "凡人修仙传同人剧情创作内容",
-      "contentNature": "secondary_creation",
-      "originality": "deep_adaptation",
-      "eventTag": null,
-      "creatorPotential": "one_off",
-      "score": 57,
-      "lane": null,
-      "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1793613221173,
-      "sourceQueries": [
-        "legacy-published",
-        "凡人修仙传 小剧场",
-        "凡人修仙传 同人",
-        "凡人修仙传 MMD 同人动画",
-        "韩立 二创",
-        "凡人修仙传 鬼畜 整活",
-        "凡人修仙传 二创",
-        "南宫婉 二创"
-      ],
-      "discoveryModes": [
-        "history"
-      ],
-      "riskFlags": [],
-      "policyReason": "内容可收录，但需人工复核分类或风险",
-      "stats": {
-        "play": 31750,
-        "like": 0,
-        "coin": 0,
-        "favorite": 225,
-        "reply": 0,
-        "danmaku": 74
-      }
-    },
-    {
       "id": "BV1hH4y1g7Rf",
       "bvid": "BV1hH4y1g7Rf",
       "title": "【凡人修仙传】那些无法超越的台词和画面！",
@@ -943,6 +895,54 @@
         "favorite": 7124,
         "reply": 431,
         "danmaku": 112
+      }
+    },
+    {
+      "id": "BV1qGELzNETu",
+      "bvid": "BV1qGELzNETu",
+      "title": "小作坊出品:  韩哥哥，你是第一次嘛？",
+      "description": "韩立，这么漂亮的妹子不娶回家，你修的是什么道？                (更多精彩漫改，请关注我哦！)",
+      "cover": "https://i0.hdslb.com/bfs/archive/dc0d6b5d45ce10b0641848dd4067e93db9e28701.jpg",
+      "url": "http://www.bilibili.com/video/av114492654492876",
+      "upId": "1472224688",
+      "upName": "萱美琳",
+      "play": 31750,
+      "pubTime": 1747045817000,
+      "duration": "2:12",
+      "category": "同人创作",
+      "confidence": 0.75,
+      "classificationSource": "model",
+      "classificationReason": "凡人修仙传同人剧情创作内容",
+      "contentNature": "secondary_creation",
+      "originality": "deep_adaptation",
+      "eventTag": null,
+      "creatorPotential": "one_off",
+      "score": 56,
+      "lane": null,
+      "firstSeenAt": 1784281357983,
+      "lastSeenAt": 1793613221173,
+      "sourceQueries": [
+        "legacy-published",
+        "凡人修仙传 小剧场",
+        "凡人修仙传 同人",
+        "凡人修仙传 MMD 同人动画",
+        "韩立 二创",
+        "凡人修仙传 鬼畜 整活",
+        "凡人修仙传 二创",
+        "南宫婉 二创"
+      ],
+      "discoveryModes": [
+        "history"
+      ],
+      "riskFlags": [],
+      "policyReason": "内容可收录，但需人工复核分类或风险",
+      "stats": {
+        "play": 31750,
+        "like": 0,
+        "coin": 0,
+        "favorite": 225,
+        "reply": 0,
+        "danmaku": 74
       }
     },
     {
@@ -1134,7 +1134,7 @@
       "score": 55,
       "lane": null,
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1794158354920,
+      "lastSeenAt": 1794213838903,
       "sourceQueries": [
         "凡人修仙传 MMD 同人动画"
       ],
@@ -1381,7 +1381,7 @@
       "score": 53,
       "lane": null,
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1794158354920,
+      "lastSeenAt": 1794213838903,
       "sourceQueries": [
         "凡人修仙传 法宝 功法 人物"
       ],
@@ -2241,7 +2241,7 @@
       "score": 48,
       "lane": null,
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1794158354920,
+      "lastSeenAt": 1794213838903,
       "sourceQueries": [
         "凡人修仙传 法宝 功法 人物"
       ],
@@ -2408,7 +2408,7 @@
       "score": 47,
       "lane": null,
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1794158354920,
+      "lastSeenAt": 1794213838903,
       "sourceQueries": [
         "凡人修仙传 配音 翻唱"
       ],
@@ -2702,7 +2702,7 @@
       "score": 46,
       "lane": null,
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1794158354920,
+      "lastSeenAt": 1794213838903,
       "sourceQueries": [
         "凡人修仙传 混剪 手书"
       ],
@@ -2759,6 +2759,49 @@
         "favorite": 1429,
         "reply": 189,
         "danmaku": 184
+      }
+    },
+    {
+      "id": "BV1soEc6ZEqt",
+      "bvid": "BV1soEc6ZEqt",
+      "title": "韩立的红颜知己那么多，最后却只有三位和他一起生活",
+      "description": "",
+      "cover": "https://i0.hdslb.com/bfs/archive/3a34f7c5390292b6883799edd118e9c90174e16f.jpg",
+      "url": "http://www.bilibili.com/video/av116691409309864",
+      "upId": "99036587",
+      "upName": "画在左吾在右",
+      "play": 59821,
+      "pubTime": 1780569805000,
+      "duration": "3:22",
+      "category": "人物志",
+      "confidence": 0.8,
+      "classificationSource": "model",
+      "classificationReason": "围绕韩立的红颜知己数量与结局展开的专题讨论",
+      "contentNature": "character_or_lore",
+      "originality": "light_edit",
+      "eventTag": null,
+      "creatorPotential": "one_off",
+      "score": 45,
+      "lane": null,
+      "firstSeenAt": 1793001866080,
+      "lastSeenAt": 1793613221173,
+      "sourceQueries": [
+        "凡人修仙传 人物志 设定"
+      ],
+      "discoveryModes": [
+        "history"
+      ],
+      "riskFlags": [
+        "uncertain"
+      ],
+      "policyReason": "疑似轻度剪辑，需人工确认原创性",
+      "stats": {
+        "play": 59821,
+        "like": 0,
+        "coin": 0,
+        "favorite": 180,
+        "reply": 0,
+        "danmaku": 56
       }
     },
     {
