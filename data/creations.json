@@ -1,5 +1,5 @@
 {
-  "generatedAt": 1794595414245,
+  "generatedAt": 1794643114255,
   "mode": "fresh",
   "taxonomyVersion": 2,
   "policyVersion": 1,
@@ -44,10 +44,10 @@
       "BV1rMWDzpEz5",
       "BV1omgx6aEvq",
       "BV1UCYvz1ELN",
-      "BV19w4m1X7xU",
       "BV1QGebziE1r",
       "BV14KS3YGEk9",
       "BV1V9AUzHEzJ",
+      "BV19w4m1X7xU",
       "BV1PLSwYLEqX",
       "BV1Z6uKzQEXg",
       "BV1RusDz1EwM",
@@ -605,7 +605,7 @@
       "score": 64,
       "lane": "archive",
       "firstSeenAt": 1784868982615,
-      "lastSeenAt": 1794595414245,
+      "lastSeenAt": 1794643114255,
       "sourceQueries": [
         "凡人修仙传 二创",
         "凡人官方二创大会",
@@ -643,37 +643,6 @@
       "lastSeenAt": 1793613221173,
       "sourceQueries": [
         "凡人修仙传 配音 翻唱"
-      ],
-      "discoveryModes": [
-        "history"
-      ]
-    },
-    {
-      "id": "BV19w4m1X7xU",
-      "bvid": "BV19w4m1X7xU",
-      "title": "韩立单曲《人生如棋，落子无悔》",
-      "description": "原创曲\n祝贺凡人修仙传100集，真的太好看了",
-      "cover": "https://i2.hdslb.com/bfs/archive/e3340ae07da78392e22039da86b0b4ad9ae0a00f.jpg",
-      "url": "http://www.bilibili.com/video/av1104226650",
-      "upId": "59905809",
-      "upName": "哦呼w",
-      "play": 658808,
-      "pubTime": 1714813500000,
-      "duration": "2:50",
-      "category": "音乐配音",
-      "confidence": 0.9,
-      "classificationSource": "model",
-      "classificationReason": "为凡人修仙传创作的原创歌曲，属于音乐类二次创作",
-      "contentNature": "secondary_creation",
-      "originality": "deep_adaptation",
-      "eventTag": null,
-      "creatorPotential": "observe",
-      "score": 62,
-      "lane": "archive",
-      "firstSeenAt": 1791798094018,
-      "lastSeenAt": 1794219216132,
-      "sourceQueries": [
-        "凡人修仙传 混剪 手书"
       ],
       "discoveryModes": [
         "history"
@@ -770,6 +739,37 @@
         "凡人修仙传 二创",
         "凡人修仙传 MMD 同人动画",
         "韩立 二创"
+      ],
+      "discoveryModes": [
+        "history"
+      ]
+    },
+    {
+      "id": "BV19w4m1X7xU",
+      "bvid": "BV19w4m1X7xU",
+      "title": "韩立单曲《人生如棋，落子无悔》",
+      "description": "原创曲\n祝贺凡人修仙传100集，真的太好看了",
+      "cover": "https://i2.hdslb.com/bfs/archive/e3340ae07da78392e22039da86b0b4ad9ae0a00f.jpg",
+      "url": "http://www.bilibili.com/video/av1104226650",
+      "upId": "59905809",
+      "upName": "哦呼w",
+      "play": 658808,
+      "pubTime": 1714813500000,
+      "duration": "2:50",
+      "category": "音乐配音",
+      "confidence": 0.9,
+      "classificationSource": "model",
+      "classificationReason": "为凡人修仙传创作的原创歌曲，属于音乐类二次创作",
+      "contentNature": "secondary_creation",
+      "originality": "deep_adaptation",
+      "eventTag": null,
+      "creatorPotential": "observe",
+      "score": 61,
+      "lane": "archive",
+      "firstSeenAt": 1791798094018,
+      "lastSeenAt": 1794219216132,
+      "sourceQueries": [
+        "凡人修仙传 混剪 手书"
       ],
       "discoveryModes": [
         "history"
