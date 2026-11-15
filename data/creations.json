@@ -1,5 +1,5 @@
 {
-  "generatedAt": 1794731072546,
+  "generatedAt": 1794765449890,
   "mode": "fresh",
   "taxonomyVersion": 2,
   "policyVersion": 1,
@@ -43,10 +43,10 @@
       "BV16nABzPEmQ",
       "BV1rMWDzpEz5",
       "BV1omgx6aEvq",
-      "BV1UCYvz1ELN",
       "BV19w4m1X7xU",
       "BV1PLSwYLEqX",
       "BV1QGebziE1r",
+      "BV1UCYvz1ELN",
       "BV14KS3YGEk9",
       "BV1V9AUzHEzJ",
       "BV1Z6uKzQEXg",
@@ -591,7 +591,7 @@
       "url": "http://www.bilibili.com/video/av116969844049975",
       "upId": "213938643",
       "upName": "陌筱晨丶",
-      "play": 4913,
+      "play": 4914,
       "pubTime": 1784818254000,
       "duration": "1:58",
       "category": "混剪手书",
@@ -605,7 +605,7 @@
       "score": 64,
       "lane": "archive",
       "firstSeenAt": 1784868982615,
-      "lastSeenAt": 1794731072546,
+      "lastSeenAt": 1794765449890,
       "sourceQueries": [
         "凡人修仙传 二创",
         "凡人官方二创大会",
@@ -614,37 +614,6 @@
       ],
       "discoveryModes": [
         "fresh",
-        "history"
-      ]
-    },
-    {
-      "id": "BV1UCYvz1ELN",
-      "bvid": "BV1UCYvz1ELN",
-      "title": "【凡人|紫灵】用《如愿》填词翻唱彩环和紫灵的意难平！",
-      "description": "原曲：《如愿》\n填词&剪辑：有无中\n\n愿你我皆如愿！",
-      "cover": "https://i2.hdslb.com/bfs/archive/7431aa060564e5b0cbef04a382cf52b627b49e6a.jpg",
-      "url": "http://www.bilibili.com/video/av115037796570140",
-      "upId": "421846857",
-      "upName": "有无中w",
-      "play": 85321,
-      "pubTime": 1755337533000,
-      "duration": "9:2",
-      "category": "音乐配音",
-      "confidence": 0.9,
-      "classificationSource": "model",
-      "classificationReason": "翻唱并填词凡人修仙传紫灵相关的歌曲，属于音乐类二次创作",
-      "contentNature": "secondary_creation",
-      "originality": "deep_adaptation",
-      "eventTag": null,
-      "creatorPotential": "recommend",
-      "score": 63,
-      "lane": "archive",
-      "firstSeenAt": 1793613221173,
-      "lastSeenAt": 1793613221173,
-      "sourceQueries": [
-        "凡人修仙传 配音 翻唱"
-      ],
-      "discoveryModes": [
         "history"
       ]
     },
@@ -734,6 +703,37 @@
       "lane": "archive",
       "firstSeenAt": 1794219216132,
       "lastSeenAt": 1794219216132,
+      "sourceQueries": [
+        "凡人修仙传 配音 翻唱"
+      ],
+      "discoveryModes": [
+        "history"
+      ]
+    },
+    {
+      "id": "BV1UCYvz1ELN",
+      "bvid": "BV1UCYvz1ELN",
+      "title": "【凡人|紫灵】用《如愿》填词翻唱彩环和紫灵的意难平！",
+      "description": "原曲：《如愿》\n填词&剪辑：有无中\n\n愿你我皆如愿！",
+      "cover": "https://i2.hdslb.com/bfs/archive/7431aa060564e5b0cbef04a382cf52b627b49e6a.jpg",
+      "url": "http://www.bilibili.com/video/av115037796570140",
+      "upId": "421846857",
+      "upName": "有无中w",
+      "play": 85321,
+      "pubTime": 1755337533000,
+      "duration": "9:2",
+      "category": "音乐配音",
+      "confidence": 0.9,
+      "classificationSource": "model",
+      "classificationReason": "翻唱并填词凡人修仙传紫灵相关的歌曲，属于音乐类二次创作",
+      "contentNature": "secondary_creation",
+      "originality": "deep_adaptation",
+      "eventTag": null,
+      "creatorPotential": "recommend",
+      "score": 62,
+      "lane": "archive",
+      "firstSeenAt": 1793613221173,
+      "lastSeenAt": 1793613221173,
       "sourceQueries": [
         "凡人修仙传 配音 翻唱"
       ],
