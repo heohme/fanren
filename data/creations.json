@@ -1,6 +1,6 @@
 {
-  "generatedAt": 1794823615019,
-  "mode": "history",
+  "generatedAt": 1794863570719,
+  "mode": "fresh",
   "taxonomyVersion": 2,
   "policyVersion": 1,
   "model": "doubao-seed-2-0-mini-260428",
@@ -17,7 +17,7 @@
     "剧情二创": 4,
     "趣味整活": 6,
     "混剪手书": 5,
-    "音乐配音": 7,
+    "音乐配音": 6,
     "同人创作": 2
   },
   "lanes": {
@@ -49,10 +49,9 @@
       "BV19w4m1X7xU",
       "BV1PLSwYLEqX",
       "BV14KS3YGEk9",
-      "BV1Z6uKzQEXg",
       "BV1V9AUzHEzJ",
       "BV1RusDz1EwM",
-      "BV12MziYDEpZ"
+      "BV1Z6uKzQEXg"
     ]
   },
   "items": [
@@ -622,7 +621,7 @@
       "url": "http://www.bilibili.com/video/av116969844049975",
       "upId": "213938643",
       "upName": "陌筱晨丶",
-      "play": 4914,
+      "play": 4916,
       "pubTime": 1784818254000,
       "duration": "1:58",
       "category": "混剪手书",
@@ -636,7 +635,7 @@
       "score": 64,
       "lane": "archive",
       "firstSeenAt": 1784868982615,
-      "lastSeenAt": 1794765449890,
+      "lastSeenAt": 1794863570719,
       "sourceQueries": [
         "凡人修仙传 二创",
         "凡人官方二创大会",
@@ -806,37 +805,6 @@
       ]
     },
     {
-      "id": "BV1Z6uKzQEXg",
-      "bvid": "BV1Z6uKzQEXg",
-      "title": "【元 瑶 第 一 视 角 自 述】——凡人修仙传人物志解析",
-      "description": "续上凡人……\n审核大大求通过求推←_←\n★喜欢的道友给个三联吧",
-      "cover": "https://i1.hdslb.com/bfs/archive/ee1d99bc0f7ba1bbbd91c47675ba8a201417353c.jpg",
-      "url": "http://www.bilibili.com/video/av114832208630627",
-      "upId": "222851470",
-      "upName": "咕噜咕噜疾",
-      "play": 54598,
-      "pubTime": 1752200870000,
-      "duration": "5:43",
-      "category": "人物志",
-      "confidence": 0.9,
-      "classificationSource": "model",
-      "classificationReason": "以元瑶第一视角进行人物志解析，属于人物专题内容",
-      "contentNature": "character_or_lore",
-      "originality": "deep_adaptation",
-      "eventTag": null,
-      "creatorPotential": "observe",
-      "score": 61,
-      "lane": "archive",
-      "firstSeenAt": 1794219216132,
-      "lastSeenAt": 1794219216132,
-      "sourceQueries": [
-        "凡人修仙传 人物志 设定"
-      ],
-      "discoveryModes": [
-        "history"
-      ]
-    },
-    {
       "id": "BV1V9AUzHEzJ",
       "bvid": "BV1V9AUzHEzJ",
       "title": "凡人二创：银月要做大的！",
@@ -902,32 +870,31 @@
       ]
     },
     {
-      "id": "BV12MziYDEpZ",
-      "bvid": "BV12MziYDEpZ",
-      "title": "【翻唱】和原唱声音超像的『凡人』【凡人修仙传】",
-      "description": "原唱：段奥娟\n翻唱：秦曲曲\n混音：@砚青君  \n动态歌词感谢：@阿雀衔花  @应钟Clochette  \n————————————————————\n@DD日报  @DD情报局  可以帮忙转发一下吗~",
-      "cover": "https://i0.hdslb.com/bfs/archive/c0939b361a645fe6a2aa1e76175203d12212a7fa.jpg",
-      "url": "http://www.bilibili.com/video/av113563582599115",
-      "upId": "73857541",
-      "upName": "秦曲曲",
-      "play": 48593,
-      "pubTime": 1732842972000,
-      "duration": "4:20",
-      "category": "音乐配音",
+      "id": "BV1Z6uKzQEXg",
+      "bvid": "BV1Z6uKzQEXg",
+      "title": "【元 瑶 第 一 视 角 自 述】——凡人修仙传人物志解析",
+      "description": "续上凡人……\n审核大大求通过求推←_←\n★喜欢的道友给个三联吧",
+      "cover": "https://i1.hdslb.com/bfs/archive/ee1d99bc0f7ba1bbbd91c47675ba8a201417353c.jpg",
+      "url": "http://www.bilibili.com/video/av114832208630627",
+      "upId": "222851470",
+      "upName": "咕噜咕噜疾",
+      "play": 54598,
+      "pubTime": 1752200870000,
+      "duration": "5:43",
+      "category": "人物志",
       "confidence": 0.9,
       "classificationSource": "model",
-      "classificationReason": "翻唱《凡人修仙传》相关歌曲，属于二次音乐创作",
-      "contentNature": "secondary_creation",
+      "classificationReason": "以元瑶第一视角进行人物志解析，属于人物专题内容",
+      "contentNature": "character_or_lore",
       "originality": "deep_adaptation",
       "eventTag": null,
-      "creatorPotential": "one_off",
+      "creatorPotential": "observe",
       "score": 60,
       "lane": "archive",
-      "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1794823615019,
+      "firstSeenAt": 1794219216132,
+      "lastSeenAt": 1794219216132,
       "sourceQueries": [
-        "legacy-published",
-        "凡人修仙传 配音 翻唱"
+        "凡人修仙传 人物志 设定"
       ],
       "discoveryModes": [
         "history"
