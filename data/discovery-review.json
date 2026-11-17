@@ -1,5 +1,5 @@
 {
-  "generatedAt": 1794908568722,
+  "generatedAt": 1794945555249,
   "mode": "fresh",
   "taxonomyVersion": 2,
   "policyVersion": 1,
@@ -21,8 +21,8 @@
       "BV1F33P6rEJy",
       "BV1M3TM6WEP6",
       "BV1fyjH6zEdR",
-      "BV19b7p6YESX",
       "BV12eE16HEAa",
+      "BV19b7p6YESX",
       "BV1XMG36SEqX",
       "BV1ffMM6VEb2",
       "BV1LZVZ6dEch",
@@ -348,48 +348,6 @@
       }
     },
     {
-      "id": "BV1R6YuzQE6U",
-      "bvid": "BV1R6YuzQE6U",
-      "title": "贪图享乐韩长老",
-      "description": "韩立结婴后享受起来了，纯属虚构 仅供娱乐",
-      "cover": "https://i0.hdslb.com/bfs/archive/a7c903db78428a76ba8641595537721e016c6b7c.jpg",
-      "url": "http://www.bilibili.com/video/av115159464938114",
-      "upId": "3546392347806403",
-      "upName": "鬼马小柒",
-      "play": 86564,
-      "pubTime": 1757194146000,
-      "duration": "2:31",
-      "category": "剧情二创",
-      "confidence": 0.7,
-      "classificationSource": "model",
-      "classificationReason": "基于韩立的剧情进行虚构的趣味二次创作",
-      "contentNature": "secondary_creation",
-      "originality": "deep_adaptation",
-      "eventTag": null,
-      "creatorPotential": "one_off",
-      "score": 63,
-      "lane": null,
-      "firstSeenAt": 1792396995927,
-      "lastSeenAt": 1794823615019,
-      "sourceQueries": [
-        "韩立 二创",
-        "凡人修仙传 二创"
-      ],
-      "discoveryModes": [
-        "history"
-      ],
-      "riskFlags": [],
-      "policyReason": "内容可收录，但需人工复核分类或风险",
-      "stats": {
-        "play": 86564,
-        "like": 2652,
-        "coin": 157,
-        "favorite": 632,
-        "reply": 156,
-        "danmaku": 228
-      }
-    },
-    {
       "id": "BV1L9ntzkE1G",
       "bvid": "BV1L9ntzkE1G",
       "title": "韩立结婴后的生活-银月篇",
@@ -428,6 +386,48 @@
         "favorite": 4260,
         "reply": 396,
         "danmaku": 91
+      }
+    },
+    {
+      "id": "BV1R6YuzQE6U",
+      "bvid": "BV1R6YuzQE6U",
+      "title": "贪图享乐韩长老",
+      "description": "韩立结婴后享受起来了，纯属虚构 仅供娱乐",
+      "cover": "https://i0.hdslb.com/bfs/archive/a7c903db78428a76ba8641595537721e016c6b7c.jpg",
+      "url": "http://www.bilibili.com/video/av115159464938114",
+      "upId": "3546392347806403",
+      "upName": "鬼马小柒",
+      "play": 86564,
+      "pubTime": 1757194146000,
+      "duration": "2:31",
+      "category": "剧情二创",
+      "confidence": 0.7,
+      "classificationSource": "model",
+      "classificationReason": "基于韩立的剧情进行虚构的趣味二次创作",
+      "contentNature": "secondary_creation",
+      "originality": "deep_adaptation",
+      "eventTag": null,
+      "creatorPotential": "one_off",
+      "score": 62,
+      "lane": null,
+      "firstSeenAt": 1792396995927,
+      "lastSeenAt": 1794823615019,
+      "sourceQueries": [
+        "韩立 二创",
+        "凡人修仙传 二创"
+      ],
+      "discoveryModes": [
+        "history"
+      ],
+      "riskFlags": [],
+      "policyReason": "内容可收录，但需人工复核分类或风险",
+      "stats": {
+        "play": 86564,
+        "like": 2652,
+        "coin": 157,
+        "favorite": 632,
+        "reply": 156,
+        "danmaku": 228
       }
     },
     {
@@ -1266,7 +1266,7 @@
       "score": 54,
       "lane": null,
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1794908568722,
+      "lastSeenAt": 1794945555249,
       "sourceQueries": [
         "凡人修仙传 MMD 同人动画"
       ],
@@ -1307,7 +1307,7 @@
       "score": 54,
       "lane": null,
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1794908568722,
+      "lastSeenAt": 1794945555249,
       "sourceQueries": [
         "凡人修仙传 法宝 功法 人物"
       ],
@@ -1807,7 +1807,7 @@
       "score": 51,
       "lane": null,
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1794908568722,
+      "lastSeenAt": 1794945555249,
       "sourceQueries": [
         "凡人修仙传 混剪 手书"
       ],
@@ -1942,7 +1942,7 @@
       "score": 50,
       "lane": null,
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1794908568722,
+      "lastSeenAt": 1794945555249,
       "sourceQueries": [
         "凡人修仙传 法宝 功法 人物"
       ],
