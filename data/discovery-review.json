@@ -1,13 +1,13 @@
 {
-  "generatedAt": 1795080445845,
+  "generatedAt": 1795116987030,
   "mode": "fresh",
   "taxonomyVersion": 2,
   "policyVersion": 1,
   "summary": {
     "total": 2000,
     "approved": 26,
-    "review": 63,
-    "rejected": 1911
+    "review": 62,
+    "rejected": 1912
   },
   "lanes": {
     "event_spotlight": [],
@@ -152,7 +152,7 @@
       "originality": "deep_adaptation",
       "eventTag": null,
       "creatorPotential": "one_off",
-      "score": 66,
+      "score": 67,
       "lane": null,
       "firstSeenAt": 1784281357983,
       "lastSeenAt": 1793001866080,
@@ -897,6 +897,49 @@
       }
     },
     {
+      "id": "BV1vuNw6kEgC",
+      "bvid": "BV1vuNw6kEgC",
+      "title": "凡人修仙传人物志——魏无涯",
+      "description": "修炼至毒之功，行侠义之事",
+      "cover": "https://i0.hdslb.com/bfs/archive/d01c4e2209cd4f3caaef058aca174e693b3e7b8b.jpg",
+      "url": "http://www.bilibili.com/video/av116900486975989",
+      "upId": "3493131924277978",
+      "upName": "铁牛牛肉面店主",
+      "play": 4308,
+      "pubTime": 1783763304000,
+      "duration": "13:24",
+      "category": "人物志",
+      "confidence": 0.9,
+      "classificationSource": "model",
+      "classificationReason": "围绕《凡人修仙传》人物魏无涯的专题内容",
+      "contentNature": "character_or_lore",
+      "originality": "deep_adaptation",
+      "eventTag": null,
+      "creatorPotential": "recommend",
+      "score": 57,
+      "lane": null,
+      "firstSeenAt": 1784281357983,
+      "lastSeenAt": 1794823615019,
+      "sourceQueries": [
+        "legacy-published",
+        "凡人修仙传 人物志 设定"
+      ],
+      "discoveryModes": [
+        "history",
+        "fresh"
+      ],
+      "riskFlags": [],
+      "policyReason": "内容可收录，但需人工复核分类或风险",
+      "stats": {
+        "play": 4308,
+        "like": 38,
+        "coin": 3,
+        "favorite": 9,
+        "reply": 6,
+        "danmaku": 6
+      }
+    },
+    {
       "id": "BV1bMJCzvEBm",
       "bvid": "BV1bMJCzvEBm",
       "title": "凡人修仙传世界观：基础设定和升级体系是如何逐渐完善的？",
@@ -935,49 +978,6 @@
         "favorite": 154,
         "reply": 0,
         "danmaku": 39
-      }
-    },
-    {
-      "id": "BV1vuNw6kEgC",
-      "bvid": "BV1vuNw6kEgC",
-      "title": "凡人修仙传人物志——魏无涯",
-      "description": "修炼至毒之功，行侠义之事",
-      "cover": "https://i0.hdslb.com/bfs/archive/d01c4e2209cd4f3caaef058aca174e693b3e7b8b.jpg",
-      "url": "http://www.bilibili.com/video/av116900486975989",
-      "upId": "3493131924277978",
-      "upName": "铁牛牛肉面店主",
-      "play": 4308,
-      "pubTime": 1783763304000,
-      "duration": "13:24",
-      "category": "人物志",
-      "confidence": 0.9,
-      "classificationSource": "model",
-      "classificationReason": "围绕《凡人修仙传》人物魏无涯的专题内容",
-      "contentNature": "character_or_lore",
-      "originality": "deep_adaptation",
-      "eventTag": null,
-      "creatorPotential": "recommend",
-      "score": 56,
-      "lane": null,
-      "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1794823615019,
-      "sourceQueries": [
-        "legacy-published",
-        "凡人修仙传 人物志 设定"
-      ],
-      "discoveryModes": [
-        "history",
-        "fresh"
-      ],
-      "riskFlags": [],
-      "policyReason": "内容可收录，但需人工复核分类或风险",
-      "stats": {
-        "play": 4308,
-        "like": 38,
-        "coin": 3,
-        "favorite": 9,
-        "reply": 6,
-        "danmaku": 6
       }
     },
     {
@@ -1514,7 +1514,7 @@
       "score": 53,
       "lane": null,
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1795080445845,
+      "lastSeenAt": 1795116987030,
       "sourceQueries": [
         "凡人修仙传 法宝 功法 人物"
       ],
@@ -1901,7 +1901,7 @@
       "score": 50,
       "lane": null,
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1795080445845,
+      "lastSeenAt": 1795116987030,
       "sourceQueries": [
         "凡人修仙传 法宝 功法 人物"
       ],
@@ -2092,7 +2092,7 @@
       "url": "http://www.bilibili.com/video/av116283370640478",
       "upId": "1624719374",
       "upName": "青梅说剧o",
-      "play": 913,
+      "play": 914,
       "pubTime": 1774344372000,
       "duration": "4:37",
       "category": "人物志",
@@ -2106,7 +2106,7 @@
       "score": 49,
       "lane": null,
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1795080445845,
+      "lastSeenAt": 1795116987030,
       "sourceQueries": [
         "凡人修仙传 混剪 手书"
       ],
@@ -2116,7 +2116,7 @@
       "riskFlags": [],
       "policyReason": "内容可收录，但需人工复核分类或风险",
       "stats": {
-        "play": 913,
+        "play": 914,
         "like": 18,
         "coin": 0,
         "favorite": 3,
@@ -2640,49 +2640,6 @@
       }
     },
     {
-      "id": "BV1LUMp67Et5",
-      "bvid": "BV1LUMp67Et5",
-      "title": "“乘风去 一眼过忘川”【凡人修仙传/韩立个人 | 清风月】",
-      "description": "bgm：清风月\n\n一分钟速摸\n不允许还有人没看过181栗子这段施法",
-      "cover": "https://i1.hdslb.com/bfs/archive/57354bb877f01f803ed02240f47417f0aab0d7eb.jpg",
-      "url": "http://www.bilibili.com/video/av116890840075259",
-      "upId": "96411512",
-      "upName": "明月本wu心",
-      "play": 1932,
-      "pubTime": 1783612941000,
-      "duration": "1:14",
-      "category": "混剪手书",
-      "confidence": 0.8,
-      "classificationSource": "model",
-      "classificationReason": "凡人修仙传韩立个人混剪，属于混剪手书类内容",
-      "contentNature": "secondary_creation",
-      "originality": "light_edit",
-      "eventTag": null,
-      "creatorPotential": "observe",
-      "score": 45,
-      "lane": null,
-      "firstSeenAt": 1793001866080,
-      "lastSeenAt": 1793001866080,
-      "sourceQueries": [
-        "凡人修仙传 混剪 手书"
-      ],
-      "discoveryModes": [
-        "history"
-      ],
-      "riskFlags": [
-        "uncertain"
-      ],
-      "policyReason": "疑似轻度剪辑，需人工确认原创性",
-      "stats": {
-        "play": 1932,
-        "like": 0,
-        "coin": 0,
-        "favorite": 54,
-        "reply": 0,
-        "danmaku": 1
-      }
-    },
-    {
       "id": "BV1ZDkFBiEFm",
       "bvid": "BV1ZDkFBiEFm",
       "title": "天南散修配音汉克唱歌《凡人修仙传》《不凡》原唱是我的偶像王铮亮翻唱清唱混响效果天南散修配音汉克",
@@ -2705,7 +2662,7 @@
       "score": 45,
       "lane": null,
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1794863570719,
+      "lastSeenAt": 1795116987030,
       "sourceQueries": [
         "凡人修仙传 配音 翻唱"
       ],
