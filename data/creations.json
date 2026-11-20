@@ -1,5 +1,5 @@
 {
-  "generatedAt": 1795116987030,
+  "generatedAt": 1795165635990,
   "mode": "fresh",
   "taxonomyVersion": 2,
   "policyVersion": 1,
@@ -44,10 +44,10 @@
       "BV16nABzPEmQ",
       "BV1rMWDzpEz5",
       "BV1omgx6aEvq",
-      "BV1QGebziE1r",
       "BV1UCYvz1ELN",
       "BV19w4m1X7xU",
       "BV1PLSwYLEqX",
+      "BV1QGebziE1r",
       "BV14KS3YGEk9",
       "BV1V9AUzHEzJ",
       "BV1RusDz1EwM",
@@ -110,7 +110,7 @@
       "originality": "deep_adaptation",
       "eventTag": "凡人官方二创大会",
       "creatorPotential": "recommend",
-      "score": 79,
+      "score": 78,
       "lane": "archive",
       "firstSeenAt": 1793613221173,
       "lastSeenAt": 1793613221173,
@@ -635,7 +635,7 @@
       "score": 64,
       "lane": "archive",
       "firstSeenAt": 1784868982615,
-      "lastSeenAt": 1795116987030,
+      "lastSeenAt": 1795165635990,
       "sourceQueries": [
         "凡人修仙传 二创",
         "凡人官方二创大会",
@@ -644,37 +644,6 @@
       ],
       "discoveryModes": [
         "fresh",
-        "history"
-      ]
-    },
-    {
-      "id": "BV1QGebziE1r",
-      "bvid": "BV1QGebziE1r",
-      "title": "“韩大哥，没有灵根，真的不能成为修仙者吗？——【凡人修仙传】墨彩环专属bgm《归期》翻唱",
-      "description": "原唱：钱润玉\n翻唱：我\n混音：死神\n前几年翻唱过的歌，重置一下，感觉心境不一样唱的感觉也不一样啦，希望大家喜欢！",
-      "cover": "https://i1.hdslb.com/bfs/archive/bbb43805be64d3917a61bb2562ead0be2d3f5c78.jpg",
-      "url": "http://www.bilibili.com/video/av115072659625211",
-      "upId": "675081568",
-      "upName": "霏若若",
-      "play": 110437,
-      "pubTime": 1755870524000,
-      "duration": "4:12",
-      "category": "音乐配音",
-      "confidence": 0.9,
-      "classificationSource": "model",
-      "classificationReason": "翻唱凡人修仙传墨彩环专属BGM，属于音乐类二次创作",
-      "contentNature": "secondary_creation",
-      "originality": "deep_adaptation",
-      "eventTag": null,
-      "creatorPotential": "recommend",
-      "score": 62,
-      "lane": "archive",
-      "firstSeenAt": 1794219216132,
-      "lastSeenAt": 1794219216132,
-      "sourceQueries": [
-        "凡人修仙传 配音 翻唱"
-      ],
-      "discoveryModes": [
         "history"
       ]
     },
@@ -767,6 +736,37 @@
       "lastSeenAt": 1794219216132,
       "sourceQueries": [
         "凡人修仙传 混剪 手书"
+      ],
+      "discoveryModes": [
+        "history"
+      ]
+    },
+    {
+      "id": "BV1QGebziE1r",
+      "bvid": "BV1QGebziE1r",
+      "title": "“韩大哥，没有灵根，真的不能成为修仙者吗？——【凡人修仙传】墨彩环专属bgm《归期》翻唱",
+      "description": "原唱：钱润玉\n翻唱：我\n混音：死神\n前几年翻唱过的歌，重置一下，感觉心境不一样唱的感觉也不一样啦，希望大家喜欢！",
+      "cover": "https://i1.hdslb.com/bfs/archive/bbb43805be64d3917a61bb2562ead0be2d3f5c78.jpg",
+      "url": "http://www.bilibili.com/video/av115072659625211",
+      "upId": "675081568",
+      "upName": "霏若若",
+      "play": 110437,
+      "pubTime": 1755870524000,
+      "duration": "4:12",
+      "category": "音乐配音",
+      "confidence": 0.9,
+      "classificationSource": "model",
+      "classificationReason": "翻唱凡人修仙传墨彩环专属BGM，属于音乐类二次创作",
+      "contentNature": "secondary_creation",
+      "originality": "deep_adaptation",
+      "eventTag": null,
+      "creatorPotential": "recommend",
+      "score": 61,
+      "lane": "archive",
+      "firstSeenAt": 1794219216132,
+      "lastSeenAt": 1794219216132,
+      "sourceQueries": [
+        "凡人修仙传 配音 翻唱"
       ],
       "discoveryModes": [
         "history"
