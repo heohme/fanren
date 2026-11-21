@@ -1,5 +1,5 @@
 {
-  "generatedAt": 1795202068539,
+  "generatedAt": 1795250631111,
   "mode": "fresh",
   "taxonomyVersion": 2,
   "policyVersion": 1,
@@ -28,8 +28,8 @@
     "archive": [
       "BV1LcKS67Efe",
       "BV1f1Kd66EQE",
-      "BV1F33P6rEJy",
       "BV16Tgz6TED4",
+      "BV1F33P6rEJy",
       "BV1M3TM6WEP6",
       "BV1fyjH6zEdR",
       "BV12eE16HEAa",
@@ -121,6 +121,38 @@
       ]
     },
     {
+      "id": "BV16Tgz6TED4",
+      "bvid": "BV16Tgz6TED4",
+      "title": "⚡️慕兰摇篮曲⚡️【凡人官方二创大会】",
+      "description": "睡呀睡呀，阿爸在身边! \n\nBGM: 《Xanadu》Ummet Ozcan (填词翻唱：AI自制) \n剪辑视频不易，您的三连与关注，是我更新视频的最大动力！ \n粉丝灯牌命名为[大乘境]，任意金额充电可得",
+      "cover": "https://i0.hdslb.com/bfs/archive/da18233417d97557abdb573f6e34e299fdb494c7.jpg",
+      "url": "http://www.bilibili.com/video/av116961421824291",
+      "upId": "3546612548765999",
+      "upName": "从吾君",
+      "play": 215656,
+      "pubTime": 1784690003000,
+      "duration": "2:58",
+      "category": "音乐配音",
+      "confidence": 0.9,
+      "classificationSource": "model",
+      "classificationReason": "标注参与凡人官方二创大会的填词翻唱类音乐二次创作",
+      "contentNature": "secondary_creation",
+      "originality": "deep_adaptation",
+      "eventTag": "凡人官方二创大会",
+      "creatorPotential": "observe",
+      "score": 78,
+      "lane": "archive",
+      "firstSeenAt": 1794219216132,
+      "lastSeenAt": 1794219216132,
+      "sourceQueries": [
+        "凡人修仙传 二创",
+        "凡人修仙传 鬼畜 整活"
+      ],
+      "discoveryModes": [
+        "history"
+      ]
+    },
+    {
       "id": "BV1F33P6rEJy",
       "bvid": "BV1F33P6rEJy",
       "title": "⚡️新宝岛⚡️别打了，来跳舞吧！【凡人官方二创大会】",
@@ -145,38 +177,6 @@
       "firstSeenAt": 1794823615019,
       "lastSeenAt": 1794823615019,
       "sourceQueries": [
-        "凡人修仙传 鬼畜 整活"
-      ],
-      "discoveryModes": [
-        "history"
-      ]
-    },
-    {
-      "id": "BV16Tgz6TED4",
-      "bvid": "BV16Tgz6TED4",
-      "title": "⚡️慕兰摇篮曲⚡️【凡人官方二创大会】",
-      "description": "睡呀睡呀，阿爸在身边! \n\nBGM: 《Xanadu》Ummet Ozcan (填词翻唱：AI自制) \n剪辑视频不易，您的三连与关注，是我更新视频的最大动力！ \n粉丝灯牌命名为[大乘境]，任意金额充电可得",
-      "cover": "https://i0.hdslb.com/bfs/archive/da18233417d97557abdb573f6e34e299fdb494c7.jpg",
-      "url": "http://www.bilibili.com/video/av116961421824291",
-      "upId": "3546612548765999",
-      "upName": "从吾君",
-      "play": 215656,
-      "pubTime": 1784690003000,
-      "duration": "2:58",
-      "category": "音乐配音",
-      "confidence": 0.9,
-      "classificationSource": "model",
-      "classificationReason": "标注参与凡人官方二创大会的填词翻唱类音乐二次创作",
-      "contentNature": "secondary_creation",
-      "originality": "deep_adaptation",
-      "eventTag": "凡人官方二创大会",
-      "creatorPotential": "observe",
-      "score": 77,
-      "lane": "archive",
-      "firstSeenAt": 1794219216132,
-      "lastSeenAt": 1794219216132,
-      "sourceQueries": [
-        "凡人修仙传 二创",
         "凡人修仙传 鬼畜 整活"
       ],
       "discoveryModes": [
@@ -634,7 +634,7 @@
       "score": 64,
       "lane": "archive",
       "firstSeenAt": 1784868982615,
-      "lastSeenAt": 1795202068539,
+      "lastSeenAt": 1795250631111,
       "sourceQueries": [
         "凡人修仙传 二创",
         "凡人官方二创大会",
