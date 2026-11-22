@@ -1,5 +1,5 @@
 {
-  "generatedAt": 1795284663606,
+  "generatedAt": 1795337548595,
   "mode": "fresh",
   "taxonomyVersion": 2,
   "policyVersion": 1,
@@ -49,8 +49,8 @@
       "BV1PLSwYLEqX",
       "BV1QGebziE1r",
       "BV14KS3YGEk9",
-      "BV1Z6uKzQEXg",
-      "BV1V9AUzHEzJ"
+      "BV1V9AUzHEzJ",
+      "BV1Z6uKzQEXg"
     ]
   },
   "items": [
@@ -634,7 +634,7 @@
       "score": 64,
       "lane": "archive",
       "firstSeenAt": 1784868982615,
-      "lastSeenAt": 1795284663606,
+      "lastSeenAt": 1795337548595,
       "sourceQueries": [
         "凡人修仙传 二创",
         "凡人官方二创大会",
@@ -804,6 +804,40 @@
       ]
     },
     {
+      "id": "BV1V9AUzHEzJ",
+      "bvid": "BV1V9AUzHEzJ",
+      "title": "凡人二创：银月要做大的！",
+      "description": "祝各位道友看得开心！给自己加个油吧，希望下个作品质量能更好更持久。",
+      "cover": "https://i2.hdslb.com/bfs/archive/6b88ab917e23819daaff3c0fe296dafadec92306.jpg",
+      "url": "http://www.bilibili.com/video/av116142005813488",
+      "upId": "324830602",
+      "upName": "别离4466",
+      "play": 18005,
+      "pubTime": 1772186622000,
+      "duration": "1:36",
+      "category": "趣味整活",
+      "confidence": 0.85,
+      "classificationSource": "model",
+      "classificationReason": "围绕凡人修仙传银月角色的趣味二创内容",
+      "contentNature": "secondary_creation",
+      "originality": "deep_adaptation",
+      "eventTag": null,
+      "creatorPotential": "observe",
+      "score": 61,
+      "lane": "archive",
+      "firstSeenAt": 1793613221173,
+      "lastSeenAt": 1794823615019,
+      "sourceQueries": [
+        "凡人修仙传 二创",
+        "凡人修仙传 MMD 同人动画",
+        "韩立 二创",
+        "凡人修仙传 小剧场"
+      ],
+      "discoveryModes": [
+        "history"
+      ]
+    },
+    {
       "id": "BV1Z6uKzQEXg",
       "bvid": "BV1Z6uKzQEXg",
       "title": "【元 瑶 第 一 视 角 自 述】——凡人修仙传人物志解析",
@@ -829,40 +863,6 @@
       "lastSeenAt": 1794219216132,
       "sourceQueries": [
         "凡人修仙传 人物志 设定"
-      ],
-      "discoveryModes": [
-        "history"
-      ]
-    },
-    {
-      "id": "BV1V9AUzHEzJ",
-      "bvid": "BV1V9AUzHEzJ",
-      "title": "凡人二创：银月要做大的！",
-      "description": "祝各位道友看得开心！给自己加个油吧，希望下个作品质量能更好更持久。",
-      "cover": "https://i2.hdslb.com/bfs/archive/6b88ab917e23819daaff3c0fe296dafadec92306.jpg",
-      "url": "http://www.bilibili.com/video/av116142005813488",
-      "upId": "324830602",
-      "upName": "别离4466",
-      "play": 18005,
-      "pubTime": 1772186622000,
-      "duration": "1:36",
-      "category": "趣味整活",
-      "confidence": 0.85,
-      "classificationSource": "model",
-      "classificationReason": "围绕凡人修仙传银月角色的趣味二创内容",
-      "contentNature": "secondary_creation",
-      "originality": "deep_adaptation",
-      "eventTag": null,
-      "creatorPotential": "observe",
-      "score": 60,
-      "lane": "archive",
-      "firstSeenAt": 1793613221173,
-      "lastSeenAt": 1794823615019,
-      "sourceQueries": [
-        "凡人修仙传 二创",
-        "凡人修仙传 MMD 同人动画",
-        "韩立 二创",
-        "凡人修仙传 小剧场"
       ],
       "discoveryModes": [
         "history"
