@@ -1,5 +1,5 @@
 {
-  "generatedAt": 1795474422205,
+  "generatedAt": 1795520071700,
   "mode": "fresh",
   "taxonomyVersion": 2,
   "policyVersion": 1,
@@ -1473,7 +1473,7 @@
       "originality": "light_edit",
       "eventTag": null,
       "creatorPotential": "observe",
-      "score": 52,
+      "score": 53,
       "lane": null,
       "firstSeenAt": 1791192844647,
       "lastSeenAt": 1794219216132,
@@ -1919,57 +1919,6 @@
       }
     },
     {
-      "id": "BV1hsY6zPECn",
-      "bvid": "BV1hsY6zPECn",
-      "title": "得吃紫灵 | 韩立元婴心魔 | 超写实3D|凡人修仙传",
-      "description": "-",
-      "cover": "https://i0.hdslb.com/bfs/archive/a44081aef8ebc67f53fe9372be3e05a1cc96104b.jpg",
-      "url": "http://www.bilibili.com/video/av115041370113675",
-      "upId": "396007926",
-      "upName": "制理Ai",
-      "play": 128521,
-      "pubTime": 1755392218000,
-      "duration": "0:11",
-      "category": "同人创作",
-      "confidence": 0.75,
-      "classificationSource": "model",
-      "classificationReason": "围绕凡人修仙传韩立心魔的超写实3D创作，属于同人创作",
-      "contentNature": "secondary_creation",
-      "originality": "light_edit",
-      "eventTag": null,
-      "creatorPotential": "observe",
-      "score": 48,
-      "lane": null,
-      "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1795432186527,
-      "sourceQueries": [
-        "legacy-published",
-        "凡人修仙传 二创",
-        "凡人修仙传 MMD 同人动画",
-        "韩立 二创",
-        "南宫婉 二创",
-        "凡人修仙传 小剧场",
-        "凡人修仙传 同人",
-        "凡人修仙传 混剪 手书",
-        "凡人修仙传 法宝 功法 人物",
-        "凡人官方二创大会",
-        "凡人修仙传 鬼畜 整活"
-      ],
-      "discoveryModes": [
-        "history"
-      ],
-      "riskFlags": [],
-      "policyReason": "疑似轻度剪辑，需人工确认原创性",
-      "stats": {
-        "play": 128521,
-        "like": 2304,
-        "coin": 165,
-        "favorite": 3008,
-        "reply": 93,
-        "danmaku": 12
-      }
-    },
-    {
       "id": "BV16QQbYHEvW",
       "bvid": "BV16QQbYHEvW",
       "title": "万人求的《凡人修仙传》红尘劫音乐！官方没发就让Ai来干活吧(第一版)",
@@ -2157,7 +2106,7 @@
       "score": 48,
       "lane": null,
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1795474422205,
+      "lastSeenAt": 1795520071700,
       "sourceQueries": [
         "凡人修仙传 混剪 手书"
       ],
@@ -2173,6 +2122,57 @@
         "favorite": 3,
         "reply": 1,
         "danmaku": 0
+      }
+    },
+    {
+      "id": "BV1hsY6zPECn",
+      "bvid": "BV1hsY6zPECn",
+      "title": "得吃紫灵 | 韩立元婴心魔 | 超写实3D|凡人修仙传",
+      "description": "-",
+      "cover": "https://i0.hdslb.com/bfs/archive/a44081aef8ebc67f53fe9372be3e05a1cc96104b.jpg",
+      "url": "http://www.bilibili.com/video/av115041370113675",
+      "upId": "396007926",
+      "upName": "制理Ai",
+      "play": 128521,
+      "pubTime": 1755392218000,
+      "duration": "0:11",
+      "category": "同人创作",
+      "confidence": 0.75,
+      "classificationSource": "model",
+      "classificationReason": "围绕凡人修仙传韩立心魔的超写实3D创作，属于同人创作",
+      "contentNature": "secondary_creation",
+      "originality": "light_edit",
+      "eventTag": null,
+      "creatorPotential": "observe",
+      "score": 47,
+      "lane": null,
+      "firstSeenAt": 1784281357983,
+      "lastSeenAt": 1795432186527,
+      "sourceQueries": [
+        "legacy-published",
+        "凡人修仙传 二创",
+        "凡人修仙传 MMD 同人动画",
+        "韩立 二创",
+        "南宫婉 二创",
+        "凡人修仙传 小剧场",
+        "凡人修仙传 同人",
+        "凡人修仙传 混剪 手书",
+        "凡人修仙传 法宝 功法 人物",
+        "凡人官方二创大会",
+        "凡人修仙传 鬼畜 整活"
+      ],
+      "discoveryModes": [
+        "history"
+      ],
+      "riskFlags": [],
+      "policyReason": "疑似轻度剪辑，需人工确认原创性",
+      "stats": {
+        "play": 128521,
+        "like": 2304,
+        "coin": 165,
+        "favorite": 3008,
+        "reply": 93,
+        "danmaku": 12
       }
     },
     {
