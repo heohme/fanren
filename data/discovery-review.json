@@ -1,13 +1,13 @@
 {
-  "generatedAt": 1795773930807,
+  "generatedAt": 1795810574945,
   "mode": "fresh",
   "taxonomyVersion": 2,
   "policyVersion": 1,
   "summary": {
     "total": 2000,
     "approved": 25,
-    "review": 60,
-    "rejected": 1915
+    "review": 59,
+    "rejected": 1916
   },
   "lanes": {
     "event_spotlight": [],
@@ -171,48 +171,6 @@
       }
     },
     {
-      "id": "BV1vaMv62EU6",
-      "bvid": "BV1vaMv62EU6",
-      "title": "韩立的幸福生活11",
-      "description": "-",
-      "cover": "https://i0.hdslb.com/bfs/archive/f074a0ee5b536f86bd3913b28fc8dbac8eb502dc.jpg",
-      "url": "http://www.bilibili.com/video/av116881327397014",
-      "upId": "57971899",
-      "upName": "画i想",
-      "play": 15755,
-      "pubTime": 1783467723000,
-      "duration": "0:11",
-      "category": "趣味整活",
-      "confidence": 0.75,
-      "classificationSource": "model",
-      "classificationReason": "创作韩立的趣味日常小剧情，属于二次创作",
-      "contentNature": "secondary_creation",
-      "originality": "deep_adaptation",
-      "eventTag": null,
-      "creatorPotential": "observe",
-      "score": 66,
-      "lane": null,
-      "firstSeenAt": 1785132335284,
-      "lastSeenAt": 1795432186527,
-      "sourceQueries": [
-        "韩立 二创",
-        "南宫婉 二创"
-      ],
-      "discoveryModes": [
-        "history"
-      ],
-      "riskFlags": [],
-      "policyReason": "内容可收录，但需人工复核分类或风险",
-      "stats": {
-        "play": 15755,
-        "like": 0,
-        "coin": 0,
-        "favorite": 515,
-        "reply": 0,
-        "danmaku": 2
-      }
-    },
-    {
       "id": "BV1fXA8zgEDa",
       "bvid": "BV1fXA8zgEDa",
       "title": "紫灵和韩立没羞没臊的日常生活",
@@ -252,6 +210,48 @@
         "favorite": 2382,
         "reply": 195,
         "danmaku": 61
+      }
+    },
+    {
+      "id": "BV1vaMv62EU6",
+      "bvid": "BV1vaMv62EU6",
+      "title": "韩立的幸福生活11",
+      "description": "-",
+      "cover": "https://i0.hdslb.com/bfs/archive/f074a0ee5b536f86bd3913b28fc8dbac8eb502dc.jpg",
+      "url": "http://www.bilibili.com/video/av116881327397014",
+      "upId": "57971899",
+      "upName": "画i想",
+      "play": 15755,
+      "pubTime": 1783467723000,
+      "duration": "0:11",
+      "category": "趣味整活",
+      "confidence": 0.75,
+      "classificationSource": "model",
+      "classificationReason": "创作韩立的趣味日常小剧情，属于二次创作",
+      "contentNature": "secondary_creation",
+      "originality": "deep_adaptation",
+      "eventTag": null,
+      "creatorPotential": "observe",
+      "score": 65,
+      "lane": null,
+      "firstSeenAt": 1785132335284,
+      "lastSeenAt": 1795432186527,
+      "sourceQueries": [
+        "韩立 二创",
+        "南宫婉 二创"
+      ],
+      "discoveryModes": [
+        "history"
+      ],
+      "riskFlags": [],
+      "policyReason": "内容可收录，但需人工复核分类或风险",
+      "stats": {
+        "play": 15755,
+        "like": 0,
+        "coin": 0,
+        "favorite": 515,
+        "reply": 0,
+        "danmaku": 2
       }
     },
     {
@@ -898,6 +898,48 @@
       }
     },
     {
+      "id": "BV1K4zaBYEKo",
+      "bvid": "BV1K4zaBYEKo",
+      "title": "《不凡》自制MV，凡人修仙传主题曲，20小时爆肝剪辑=。=",
+      "description": "因为片头曲都是一分钟的剪辑版本，所以自制一个完整版的。韩立一路以来的辛酸苦楚与奇遇经历都在其中，希望这首歌的歌词能印到每一位观众的心中，也希望各位道友能像作品中自己喜欢的每一个人物一样，平凡成就不凡。",
+      "cover": "https://i1.hdslb.com/bfs/archive/93b7de0e913ded2f82df029f8dec8858cf46ad66.jpg",
+      "url": "http://www.bilibili.com/video/av115958932965296",
+      "upId": "97676548",
+      "upName": "小猫快喝水",
+      "play": 7399,
+      "pubTime": 1769393734000,
+      "duration": "3:31",
+      "category": "音乐配音",
+      "confidence": 0.8,
+      "classificationSource": "model",
+      "classificationReason": "自制凡人修仙传主题曲MV，属于音乐类二次创作",
+      "contentNature": "secondary_creation",
+      "originality": "deep_adaptation",
+      "eventTag": null,
+      "creatorPotential": "observe",
+      "score": 58,
+      "lane": null,
+      "firstSeenAt": 1784281357983,
+      "lastSeenAt": 1794823615019,
+      "sourceQueries": [
+        "legacy-published",
+        "凡人修仙传 混剪 手书"
+      ],
+      "discoveryModes": [
+        "history"
+      ],
+      "riskFlags": [],
+      "policyReason": "内容可收录，但需人工复核分类或风险",
+      "stats": {
+        "play": 7399,
+        "like": 0,
+        "coin": 0,
+        "favorite": 150,
+        "reply": 0,
+        "danmaku": 1
+      }
+    },
+    {
       "id": "BV1ZKgx68EYE",
       "bvid": "BV1ZKgx68EYE",
       "title": "凡人修仙传扯淡梗（超长合集）",
@@ -1025,48 +1067,6 @@
       }
     },
     {
-      "id": "BV1K4zaBYEKo",
-      "bvid": "BV1K4zaBYEKo",
-      "title": "《不凡》自制MV，凡人修仙传主题曲，20小时爆肝剪辑=。=",
-      "description": "因为片头曲都是一分钟的剪辑版本，所以自制一个完整版的。韩立一路以来的辛酸苦楚与奇遇经历都在其中，希望这首歌的歌词能印到每一位观众的心中，也希望各位道友能像作品中自己喜欢的每一个人物一样，平凡成就不凡。",
-      "cover": "https://i1.hdslb.com/bfs/archive/93b7de0e913ded2f82df029f8dec8858cf46ad66.jpg",
-      "url": "http://www.bilibili.com/video/av115958932965296",
-      "upId": "97676548",
-      "upName": "小猫快喝水",
-      "play": 7399,
-      "pubTime": 1769393734000,
-      "duration": "3:31",
-      "category": "音乐配音",
-      "confidence": 0.8,
-      "classificationSource": "model",
-      "classificationReason": "自制凡人修仙传主题曲MV，属于音乐类二次创作",
-      "contentNature": "secondary_creation",
-      "originality": "deep_adaptation",
-      "eventTag": null,
-      "creatorPotential": "observe",
-      "score": 57,
-      "lane": null,
-      "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1794823615019,
-      "sourceQueries": [
-        "legacy-published",
-        "凡人修仙传 混剪 手书"
-      ],
-      "discoveryModes": [
-        "history"
-      ],
-      "riskFlags": [],
-      "policyReason": "内容可收录，但需人工复核分类或风险",
-      "stats": {
-        "play": 7399,
-        "like": 0,
-        "coin": 0,
-        "favorite": 150,
-        "reply": 0,
-        "danmaku": 1
-      }
-    },
-    {
       "id": "BV1qdYbzVEEN",
       "bvid": "BV1qdYbzVEEN",
       "title": "凡人修仙传：韩立140件法宝/法器   23分钟完整版（十七）",
@@ -1107,6 +1107,49 @@
         "favorite": 167,
         "reply": 8,
         "danmaku": 4
+      }
+    },
+    {
+      "id": "BV1vuNw6kEgC",
+      "bvid": "BV1vuNw6kEgC",
+      "title": "凡人修仙传人物志——魏无涯",
+      "description": "修炼至毒之功，行侠义之事",
+      "cover": "https://i0.hdslb.com/bfs/archive/d01c4e2209cd4f3caaef058aca174e693b3e7b8b.jpg",
+      "url": "http://www.bilibili.com/video/av116900486975989",
+      "upId": "3493131924277978",
+      "upName": "铁牛牛肉面店主",
+      "play": 4308,
+      "pubTime": 1783763304000,
+      "duration": "13:24",
+      "category": "人物志",
+      "confidence": 0.9,
+      "classificationSource": "model",
+      "classificationReason": "围绕《凡人修仙传》人物魏无涯的专题内容",
+      "contentNature": "character_or_lore",
+      "originality": "deep_adaptation",
+      "eventTag": null,
+      "creatorPotential": "recommend",
+      "score": 56,
+      "lane": null,
+      "firstSeenAt": 1784281357983,
+      "lastSeenAt": 1794823615019,
+      "sourceQueries": [
+        "legacy-published",
+        "凡人修仙传 人物志 设定"
+      ],
+      "discoveryModes": [
+        "history",
+        "fresh"
+      ],
+      "riskFlags": [],
+      "policyReason": "内容可收录，但需人工复核分类或风险",
+      "stats": {
+        "play": 4308,
+        "like": 38,
+        "coin": 3,
+        "favorite": 9,
+        "reply": 6,
+        "danmaku": 6
       }
     },
     {
@@ -1190,49 +1233,6 @@
         "favorite": 154,
         "reply": 0,
         "danmaku": 39
-      }
-    },
-    {
-      "id": "BV1vuNw6kEgC",
-      "bvid": "BV1vuNw6kEgC",
-      "title": "凡人修仙传人物志——魏无涯",
-      "description": "修炼至毒之功，行侠义之事",
-      "cover": "https://i0.hdslb.com/bfs/archive/d01c4e2209cd4f3caaef058aca174e693b3e7b8b.jpg",
-      "url": "http://www.bilibili.com/video/av116900486975989",
-      "upId": "3493131924277978",
-      "upName": "铁牛牛肉面店主",
-      "play": 4308,
-      "pubTime": 1783763304000,
-      "duration": "13:24",
-      "category": "人物志",
-      "confidence": 0.9,
-      "classificationSource": "model",
-      "classificationReason": "围绕《凡人修仙传》人物魏无涯的专题内容",
-      "contentNature": "character_or_lore",
-      "originality": "deep_adaptation",
-      "eventTag": null,
-      "creatorPotential": "recommend",
-      "score": 55,
-      "lane": null,
-      "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1794823615019,
-      "sourceQueries": [
-        "legacy-published",
-        "凡人修仙传 人物志 设定"
-      ],
-      "discoveryModes": [
-        "history",
-        "fresh"
-      ],
-      "riskFlags": [],
-      "policyReason": "内容可收录，但需人工复核分类或风险",
-      "stats": {
-        "play": 4308,
-        "like": 38,
-        "coin": 3,
-        "favorite": 9,
-        "reply": 6,
-        "danmaku": 6
       }
     },
     {
@@ -2186,7 +2186,7 @@
       "score": 48,
       "lane": null,
       "firstSeenAt": 1784281357983,
-      "lastSeenAt": 1795773930807,
+      "lastSeenAt": 1795810574945,
       "sourceQueries": [
         "凡人修仙传 混剪 手书"
       ],
@@ -2348,6 +2348,47 @@
       }
     },
     {
+      "id": "BV1hL41157kk",
+      "bvid": "BV1hL41157kk",
+      "title": "凡人修仙传：辛如音人物志，龙吟之质的阵法天才，她的结局如何？",
+      "description": "",
+      "cover": "https://i0.hdslb.com/bfs/archive/b438109ad8b85cafb864951848afa3f6244d7c30.jpg",
+      "url": "http://www.bilibili.com/video/av465056272",
+      "upId": "299897861",
+      "upName": "莫轩mox",
+      "play": 48989,
+      "pubTime": 1640515522000,
+      "duration": "5:43",
+      "category": "人物志",
+      "confidence": 0.9,
+      "classificationSource": "model",
+      "classificationReason": "解析《凡人修仙传》辛如音的人物生平与结局，属于人物专题内容",
+      "contentNature": "character_or_lore",
+      "originality": "deep_adaptation",
+      "eventTag": null,
+      "creatorPotential": "observe",
+      "score": 47,
+      "lane": null,
+      "firstSeenAt": 1793001866080,
+      "lastSeenAt": 1794219216132,
+      "sourceQueries": [
+        "凡人修仙传 人物志 设定"
+      ],
+      "discoveryModes": [
+        "history"
+      ],
+      "riskFlags": [],
+      "policyReason": "内容可收录，但需人工复核分类或风险",
+      "stats": {
+        "play": 48989,
+        "like": 0,
+        "coin": 0,
+        "favorite": 59,
+        "reply": 0,
+        "danmaku": 75
+      }
+    },
+    {
       "id": "BV1JsHvzzESn",
       "bvid": "BV1JsHvzzESn",
       "title": "韩立银月情侣小剧场",
@@ -2386,47 +2427,6 @@
         "favorite": 26,
         "reply": 0,
         "danmaku": 2
-      }
-    },
-    {
-      "id": "BV1hL41157kk",
-      "bvid": "BV1hL41157kk",
-      "title": "凡人修仙传：辛如音人物志，龙吟之质的阵法天才，她的结局如何？",
-      "description": "",
-      "cover": "https://i0.hdslb.com/bfs/archive/b438109ad8b85cafb864951848afa3f6244d7c30.jpg",
-      "url": "http://www.bilibili.com/video/av465056272",
-      "upId": "299897861",
-      "upName": "莫轩mox",
-      "play": 48989,
-      "pubTime": 1640515522000,
-      "duration": "5:43",
-      "category": "人物志",
-      "confidence": 0.9,
-      "classificationSource": "model",
-      "classificationReason": "解析《凡人修仙传》辛如音的人物生平与结局，属于人物专题内容",
-      "contentNature": "character_or_lore",
-      "originality": "deep_adaptation",
-      "eventTag": null,
-      "creatorPotential": "observe",
-      "score": 46,
-      "lane": null,
-      "firstSeenAt": 1793001866080,
-      "lastSeenAt": 1794219216132,
-      "sourceQueries": [
-        "凡人修仙传 人物志 设定"
-      ],
-      "discoveryModes": [
-        "history"
-      ],
-      "riskFlags": [],
-      "policyReason": "内容可收录，但需人工复核分类或风险",
-      "stats": {
-        "play": 48989,
-        "like": 0,
-        "coin": 0,
-        "favorite": 59,
-        "reply": 0,
-        "danmaku": 75
       }
     },
     {
@@ -2472,50 +2472,6 @@
         "favorite": 270,
         "reply": 0,
         "danmaku": 55
-      }
-    },
-    {
-      "id": "BV1Mc6qBUEuG",
-      "bvid": "BV1Mc6qBUEuG",
-      "title": "众宝在手，修仙我有！《凡人修仙传》的修仙宝物体系",
-      "description": "",
-      "cover": "https://i0.hdslb.com/bfs/archive/e0dfdeb085523c15fce72a0d5dd2f9fcd9b65168.jpg",
-      "url": "http://www.bilibili.com/video/av115984434206341",
-      "upId": "490056685",
-      "upName": "夜半流火",
-      "play": 41203,
-      "pubTime": 1769828400000,
-      "duration": "8:16",
-      "category": "人物志",
-      "confidence": 0.85,
-      "classificationSource": "model",
-      "classificationReason": "围绕凡人修仙传的修仙宝物体系展开的专题内容",
-      "contentNature": "character_or_lore",
-      "originality": "light_edit",
-      "eventTag": null,
-      "creatorPotential": "one_off",
-      "score": 45,
-      "lane": null,
-      "firstSeenAt": 1784526884576,
-      "lastSeenAt": 1794823615019,
-      "sourceQueries": [
-        "凡人修仙传 法宝 功法 人物",
-        "凡人修仙传 人物志 设定"
-      ],
-      "discoveryModes": [
-        "history"
-      ],
-      "riskFlags": [
-        "weak_relevance"
-      ],
-      "policyReason": "疑似轻度剪辑，需人工确认原创性",
-      "stats": {
-        "play": 41203,
-        "like": 0,
-        "coin": 0,
-        "favorite": 466,
-        "reply": 0,
-        "danmaku": 27
       }
     },
     {
